@@ -1,0 +1,5 @@
+# zenray-meshes : rules, append only (25 October 2026)
+
+Standing rules of this project, one line each, loaded automatically at session start. Full history and context: FEEDBACK.md in this folder. A rule that changes gets a new line citing the old one. (25 October 2026)
+
+- Toujours déterminer la méthodologie AVANT de construire : phase de recherche web état de l'art, au moins 16 méthodes testées sur 4 phases (zenray-methodology), puis seulement la construction. (25 October 2026) <!-- rule:39040f00b917 -->
