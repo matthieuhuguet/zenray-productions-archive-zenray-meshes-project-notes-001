@@ -7655,3 +7655,35 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:38:41 +0100)
 
 > Aucun changement. Je vérifie si le nettoyage a supprimé quelque chose. (25 October 2026, 22:38:41 +0100)
+
+## 25 October 2026, 22:39:10 +0100 : Iteration
+
+<!-- feedback-event:0b414b602ae19e5a01ee5db42eb70a9a2d69e815d0ae4d7b9a5a91246af1c743 (25 October 2026, 22:39:10 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:39:10 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:39:10 +0100)
+
+> La voiture n'est pas encore identique à la feuille, et les fines lames blanches sur les côtés de la poupe sont toujours là. Les scores ne changent pas : silhouette 0,9525, lignes 0,639. (25 October 2026, 22:39:10 +0100)
+>
+> J'ai cherché d'où viennent ces lames et écarté deux causes : (25 October 2026, 22:39:10 +0100)
+> - **Pas des pièces arrière :** la marche du pare-chocs, les ouïes et le diffuseur restent dans la largeur de la carrosserie. (25 October 2026, 22:39:10 +0100)
+> - **Pas des éclats détachés :** j'ai ajouté après la découpe des passages un nettoyage qui supprime les morceaux isolés de moins de 0,02 m². Il n'a rien supprimé (16 938 faces avant et après). Je le garde : il ne gêne pas et son seuil est réglable. (25 October 2026, 22:39:10 +0100)
+>
+> Aucune face, à part les pneus, ne dépasse la largeur vue de dessus. Les lames sont donc à l'intérieur du contour. Ma piste suivante est le bord extérieur de la nouvelle face arrière : à cet endroit, la coupe de la carrosserie ne donne pas de hauteur, et la face recopie celle de la colonne voisine. (25 October 2026, 22:39:10 +0100)
+>
+> C'est noté dans le skill, le journal est à jour et la scène Houdini est enregistrée. (25 October 2026, 22:39:10 +0100)
+
+## 25 October 2026, 22:39:13 +0100 : Prompt
+
+<!-- feedback-event:4b86bd8d83b06f790d69749a5462808ce667dca72ca57aae51e82e26b4e89a72 (25 October 2026, 22:39:13 +0100) -->
+- Project: zenray-meshes; kind: prompt. (25 October 2026, 22:39:13 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:39:13 +0100)
+
+> ZenRay Meshes, relance automatique (Matthieu, 25 October 2026) : si la boucle s'est arrêtée, reprends la voiture PAR COMPOSANTS là où elle en est. Lis /Users/zenray/.claude/skills/zenray-meshes/SKILL.md sections 21 à 26, la feuille de composants dans /Users/zenray/.claude/Memory1/Projects/zenray-meshes/ZenRayMeshes1.md section 10, et le dernier rendu dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/. Demande-toi : la voiture est-elle identique à la feuille de référence, tous les composants construits ? Si non, construis le composant suivant (jamais d'ajustement global aux silhouettes), vérifie par rendu matériaux et projection sur la planche, consigne l'apprentissage dans le skill (section datée), puis continue. /dont-stop (25 October 2026, 22:39:13 +0100)
+
+## 25 October 2026, 22:39:15 +0100 : Iteration
+
+<!-- feedback-event:e1651d58503ebe443487d2775cbaf8fe906df40f4f22ef71738af35e8748d2b3 (25 October 2026, 22:39:15 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:39:15 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:39:15 +0100)
+
+> Je vérifie la piste : les colonnes extérieures de la face arrière. (25 October 2026, 22:39:15 +0100)
