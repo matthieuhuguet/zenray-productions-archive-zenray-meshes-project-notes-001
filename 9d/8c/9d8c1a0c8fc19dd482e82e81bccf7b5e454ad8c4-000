@@ -6308,3 +6308,27 @@
 - Project: zenray-meshes; kind: rule. (25 October 2026, 21:35:10 +0100)
 
 > Décider seul tous les choix ouverts jusqu'au 26 October 2026 8 h (aucune question) ; comparer les images, itérer tant que ce n'est pas la même chose, et changer de méthode si ça bloque (25 October 2026) (25 October 2026, 21:35:10 +0100)
+
+## 25 October 2026, 21:35:46 +0100 : Prompt
+
+<!-- feedback-event:004d808b431aeb0e03c5ee0289ad1f836e035f9369b1a6800f8e8990bca98ea5 (25 October 2026, 21:35:46 +0100) -->
+- Project: zenray-meshes; kind: prompt. (25 October 2026, 21:35:46 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 21:35:46 +0100)
+
+> [Image: original 1869x2472, displayed at 1512x2000. Multiply coordinates by 1.24 to map to original image.] (25 October 2026, 21:35:46 +0100)
+
+## 25 October 2026, 21:36:41 +0100 : Prompt
+
+<!-- feedback-event:534a05a191efc28aa1fbe54779f33a108fb4496476fbd35c529ab5c79b7f1773 (25 October 2026, 21:36:41 +0100) -->
+- Project: zenray-meshes; kind: prompt. (25 October 2026, 21:36:41 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 21:36:41 +0100)
+
+> [Image: original 1869x2472, displayed at 1512x2000. Multiply coordinates by 1.24 to map to original image.] (25 October 2026, 21:36:41 +0100)
+
+## 25 October 2026, 21:38:34 +0100 : Iteration
+
+<!-- feedback-event:063be18855199ca1ed27d80dcae1206fb78901f8a047b31d90e6442a9606d620 (25 October 2026, 21:38:34 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 21:38:34 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 21:38:34 +0100)
+
+> Caisse en loft branchée (v44) : face meilleure (0,954), mais les côtés chutent à 0,88. Je regarde pourquoi. (25 October 2026, 21:38:34 +0100)
