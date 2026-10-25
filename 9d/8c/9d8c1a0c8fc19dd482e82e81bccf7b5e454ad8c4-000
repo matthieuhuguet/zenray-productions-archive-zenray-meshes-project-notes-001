@@ -5930,3 +5930,162 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 21:18:36 +0100)
 
 > ZenRay Meshes, relance automatique (Matthieu, 25 October 2026) : si la boucle s'est arrêtée, reprends la voiture PAR COMPOSANTS là où elle en est. Lis /Users/zenray/.claude/skills/zenray-meshes/SKILL.md sections 21 à 26, la feuille de composants dans /Users/zenray/.claude/Memory1/Projects/zenray-meshes/ZenRayMeshes1.md section 10, et le dernier rendu dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/. Demande-toi : la voiture est-elle identique à la feuille de référence, tous les composants construits ? Si non, construis le composant suivant (jamais d'ajustement global aux silhouettes), vérifie par rendu matériaux et projection sur la planche, consigne l'apprentissage dans le skill (section datée), puis continue. /dont-stop (25 October 2026, 21:18:36 +0100)
+
+## 25 October 2026, 21:18:39 +0100 : Iteration
+
+<!-- feedback-event:55ffa52b76cd87f5fab002e540edf7d2be5e0277449231bfe0df9faa13e9fec3 (25 October 2026, 21:18:39 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 21:18:39 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 21:18:39 +0100)
+
+> Prochain composant : l'arrière, facetté lui aussi sur la feuille. Je relève ses points sur la vue arrière agrandie. (25 October 2026, 21:18:39 +0100)
+
+## 25 October 2026, 21:20:30 +0100 : Iteration
+
+<!-- feedback-event:5bf772aec74bf20b134b9be46227f4874e62c2679241745fa4359ed6bb4f378f (25 October 2026, 21:20:30 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 21:20:30 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 21:20:30 +0100)
+
+> En attendant ta décision sur l'arrière, je regarde la vue de dessus pour trouver le composant suivant. (25 October 2026, 21:20:30 +0100)
+
+## 25 October 2026, 21:21:50 +0100 : Iteration
+
+<!-- feedback-event:c69a54c2cdd78786fd4ed21ca5d905eaa06dc552eb1dee32e078c4be7b941f44 (25 October 2026, 21:21:50 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 21:21:50 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 21:21:50 +0100)
+
+> La voiture n'est pas encore identique à la feuille. Elle est en v40, et pour l'arrière il me faut ton arbitrage, parce que la feuille elle-même se contredit à cet endroit. (25 October 2026, 21:21:50 +0100)
+>
+> **Ce qui est fait :** vu de dessus, le nez en facettes avait des coins carrés. Ses angles avant suivaient la vue de face, qui les place plus larges que la vue de dessus (±0,84 m contre ±0,67 m au bout du nez). J'ai appliqué au nez la même limite de largeur qu'au reste de la carrosserie. Le recouvrement de la vue de dessus passe de 0,9635 à 0,9644, et la vue de face garde ses facettes. (25 October 2026, 21:21:50 +0100)
+>
+> **Ce qui bloque :** j'ai mesuré l'arrière sur la vue arrière agrandie avant de le construire, et les vues ne s'accordent pas : (25 October 2026, 21:21:50 +0100)
+> - Vue de derrière, le haut du coffre fait ±0,94 m de large et ses coins jusqu'à ±1,15 m. (25 October 2026, 21:21:50 +0100)
+> - Vue de dessus, la voiture ne fait plus que ±0,67 m de demi-largeur à 2,1 m derrière le centre, et ±0,45 m à 2,18 m. (25 October 2026, 21:21:50 +0100)
+> - Les coins bas, placés là où la vue de dessus les autorise, se retrouveraient dans le pneu arrière. (25 October 2026, 21:21:50 +0100)
+>
+> Si je suis la vue arrière, le coffre devient large et plat comme sur la feuille, mais la vue de dessus perd ses coins arrondis. Si je suis la vue de dessus, l'arrière reste étroit et arrondi comme aujourd'hui. Ce choix t'appartient ; en attendant, l'arrière reste fidèle à la vue de dessus. (25 October 2026, 21:21:50 +0100)
+>
+> J'ai aussi ajouté la vue arrière à l'outil de comparaison côte à côte. Le constat est écrit dans le skill (section 30, avec les chiffres), le journal est à jour et la scène Houdini est enregistrée. (25 October 2026, 21:21:50 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (25 October 2026, 21:21:50 +0100)
+> |---|---|---| (25 October 2026, 21:21:50 +0100)
+> | Composant suivant de la voiture | En partie | Nez borné en plan ; l'arrière attend ton choix | (25 October 2026, 21:21:50 +0100)
+> | Vérifier sur la planche | Oui | Vue de dessus de 0,9635 à 0,9644, comparaison arrière côte à côte | (25 October 2026, 21:21:50 +0100)
+> | Consigner l'apprentissage | Oui | Ligne datée en section 29, et section 30 sur la contradiction de la feuille | (25 October 2026, 21:21:50 +0100)
+>
+> Fichiers : (25 October 2026, 21:21:50 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Car_v39_back_cmp.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Car_v39_back_cmp.png) (25 October 2026, 21:21:50 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Car_v40_nose_plan.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Car_v40_nose_plan.png) (25 October 2026, 21:21:50 +0100)
+
+## 25 October 2026, 21:21:56 +0100 : Prompt
+
+<!-- feedback-event:a3fcf00261cb74ab9ad651dac4e2cf0e7fb55e00fc223572aa7b6b50bff5c078 (25 October 2026, 21:21:56 +0100) -->
+- Project: zenray-meshes; kind: prompt. (25 October 2026, 21:21:56 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 21:21:56 +0100)
+
+> ZenRay Meshes, relance automatique (Matthieu, 25 October 2026) : si la boucle s'est arrêtée, reprends la voiture PAR COMPOSANTS là où elle en est. Lis /Users/zenray/.claude/skills/zenray-meshes/SKILL.md sections 21 à 26, la feuille de composants dans /Users/zenray/.claude/Memory1/Projects/zenray-meshes/ZenRayMeshes1.md section 10, et le dernier rendu dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/. Demande-toi : la voiture est-elle identique à la feuille de référence, tous les composants construits ? Si non, construis le composant suivant (jamais d'ajustement global aux silhouettes), vérifie par rendu matériaux et projection sur la planche, consigne l'apprentissage dans le skill (section datée), puis continue. /dont-stop (25 October 2026, 21:21:56 +0100)
+
+## 25 October 2026, 21:21:59 +0100 : Iteration
+
+<!-- feedback-event:bff358ae336b9aa5004e81ac7c762b0f643e4e62ce1d45f7b9091ba83d6069dc (25 October 2026, 21:21:59 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 21:21:59 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 21:21:59 +0100)
+
+> L'arrière attend ton choix ; je passe aux composants qui n'en dépendent pas. Je relis la feuille de composants pour voir lesquels manquent encore. (25 October 2026, 21:21:59 +0100)
+
+## 25 October 2026, 21:23:58 +0100 : Iteration
+
+<!-- feedback-event:5b2dec152c38a553d8ef73359d9b62e3c7639a2c92b638a35c625343b11b456f (25 October 2026, 21:23:58 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 21:23:58 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 21:23:58 +0100)
+
+> Les montants A et B apparaissent aux mêmes endroits que sur la feuille. Je consigne. (25 October 2026, 21:23:58 +0100)
+
+## 25 October 2026, 21:24:29 +0100 : Iteration
+
+<!-- feedback-event:52bcab73be3d2efbd16e93832f48c79295e648d69ee003d9837c403ab9693f4a (25 October 2026, 21:24:29 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 21:24:29 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 21:24:29 +0100)
+
+> La voiture n'est pas encore identique à la feuille, mais elle en est plus proche : la v42 ajoute deux composants de la liste de pièces. Ce qui reste dépend surtout de ton choix pour l'arrière. (25 October 2026, 21:24:29 +0100)
+>
+> - **Bords des passages de roue :** un anneau mince autour de chaque roue, avant et arrière. Il suit la surface réelle de la carrosserie, puis il est copié en miroir de l'autre côté. (25 October 2026, 21:24:29 +0100)
+> - **Montants A et B :** deux fines bandes entre les vitres, posées aux endroits lus sur la feuille. Le montant A n'est pas le bord du pare-brise : c'est la ligne qui sépare la vitre de porte du coin du pare-brise. Le montant B reprend les points du joint arrière de la porte. (25 October 2026, 21:24:29 +0100)
+>
+> Ces deux pièces sont réglables dans `arch_lip_params.json` : rayon, largeur et angles des bords, tracé et largeur des montants. La comparaison de côté les montre au même endroit que sur la feuille. Le recouvrement des silhouettes reste à 0,953, ce qui est normal pour des pièces fines. (25 October 2026, 21:24:29 +0100)
+>
+> Il reste trois composants de la liste : (25 October 2026, 21:24:29 +0100)
+> - les contreforts arrière, qui attendent ton choix entre la vue arrière et la vue de dessus ; (25 October 2026, 21:24:29 +0100)
+> - le pli central en V du capot, que je ne vois ni sur la vue de face ni sur la vue de dessus, donc à confirmer ; (25 October 2026, 21:24:29 +0100)
+> - les phares en lame, toujours incertains. (25 October 2026, 21:24:29 +0100)
+>
+> C'est noté dans le skill (section 31), le journal est à jour et la scène Houdini est enregistrée. (25 October 2026, 21:24:29 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (25 October 2026, 21:24:29 +0100)
+> |---|---|---| (25 October 2026, 21:24:29 +0100)
+> | Construire les composants suivants | Oui | 4 bords de passages de roue et 4 montants, nommés comme dans la liste de pièces | (25 October 2026, 21:24:29 +0100)
+> | Vérifier sur la feuille | Oui | La comparaison de côté place les montants comme la référence | (25 October 2026, 21:24:29 +0100)
+> | Voiture identique à la feuille | Pas encore | Arrière, contreforts et pli du capot en suspens | (25 October 2026, 21:24:29 +0100)
+> | Consigner | Oui | Section 31 du skill, datée | (25 October 2026, 21:24:29 +0100)
+>
+> Comparaison de côté : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Car_v42_left_cmp.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Car_v42_left_cmp.png) (25 October 2026, 21:24:29 +0100)
+
+## 25 October 2026, 21:24:33 +0100 : Prompt
+
+<!-- feedback-event:79cec9ae6ecd3952a6c38381d98ac7b69ef3036ad5911a51f01a0c300d9d2849 (25 October 2026, 21:24:33 +0100) -->
+- Project: zenray-meshes; kind: prompt. (25 October 2026, 21:24:33 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 21:24:33 +0100)
+
+> ZenRay Meshes, relance automatique (Matthieu, 25 October 2026) : si la boucle s'est arrêtée, reprends la voiture PAR COMPOSANTS là où elle en est. Lis /Users/zenray/.claude/skills/zenray-meshes/SKILL.md sections 21 à 26, la feuille de composants dans /Users/zenray/.claude/Memory1/Projects/zenray-meshes/ZenRayMeshes1.md section 10, et le dernier rendu dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/. Demande-toi : la voiture est-elle identique à la feuille de référence, tous les composants construits ? Si non, construis le composant suivant (jamais d'ajustement global aux silhouettes), vérifie par rendu matériaux et projection sur la planche, consigne l'apprentissage dans le skill (section datée), puis continue. /dont-stop (25 October 2026, 21:24:33 +0100)
+
+## 25 October 2026, 21:24:50 +0100 : Iteration
+
+<!-- feedback-event:75770986c904abfe9afff7105859b2dd10ef60a0badb12bac79c731d4ced062b (25 October 2026, 21:24:50 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 21:24:50 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 21:24:50 +0100)
+
+> L'arrière attend toujours ton choix. Plutôt que de trancher à ta place, je construis l'arrière fidèle à la vue arrière comme une variante derrière un interrupteur (`tail_on` sur CTRL_zrm, éteint par défaut) : tu pourras comparer les deux d'un clic. Je généralise le nez en facettes pour qu'il serve aussi à l'arrière. (25 October 2026, 21:24:50 +0100)
+
+## 25 October 2026, 21:25:55 +0100 : Iteration
+
+<!-- feedback-event:051589503da986bb6e878da91ddd8665e5b3a25fea135269688ed42c228fda9c (25 October 2026, 21:25:55 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 21:25:55 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 21:25:55 +0100)
+
+> L'arrière par défaut est inchangé (mêmes scores). Je construis maintenant la variante allumée pour la comparer. (25 October 2026, 21:25:55 +0100)
+
+## 25 October 2026, 21:27:13 +0100 : Iteration
+
+<!-- feedback-event:572ced89cf29f9ec6567ff90fdf0cfa33bdf3d81c49728d4c209fc7038517a93 (25 October 2026, 21:27:13 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 21:27:13 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 21:27:13 +0100)
+
+> Plutôt que d'attendre ta décision sur l'arrière ou de trancher à ta place, j'ai construit les deux arrières, et un interrupteur passe de l'un à l'autre : `tail_on` sur CTRL_zrm. (25 October 2026, 21:27:13 +0100)
+>
+> - **`tail_on` = 0 (par défaut) :** l'arrière arrondi qui suit la vue de dessus, comme avant. Les scores de la v43 sont les mêmes qu'en v42. (25 October 2026, 21:27:13 +0100)
+> - **`tail_on` = 1 :** l'arrière qui suit la vue arrière. Je l'ai fait avec la même méthode en facettes que le nez, en lisant les pointes sur la vue arrière agrandie. La carrosserie est coupée à 2 m derrière le centre de la voiture et remplacée par ces facettes. (25 October 2026, 21:27:13 +0100)
+>
+> Dans la variante vue arrière, l'arrière ressemble à la feuille vu de derrière : bloc large et plat, bandeau de feux, diffuseur. Elle a aussi un coût : (25 October 2026, 21:27:13 +0100)
+> - la vue de dessus descend de 0,964 à 0,943, et la vue de dessous de 0,970 à 0,959 ; (25 October 2026, 21:27:13 +0100)
+> - le bloc descend devant la moitié arrière des pneus ; (25 October 2026, 21:27:13 +0100)
+> - vu de trois quarts, il se raccorde durement au flanc. (25 October 2026, 21:27:13 +0100)
+>
+> Si tu choisis cette variante, il faudra encore soigner ce raccord. Les contreforts arrière viendront ensuite, selon ton choix. (25 October 2026, 21:27:13 +0100)
+>
+> C'est noté dans le skill zenray-meshes (section 32). Le journal est à jour et la scène Houdini est enregistrée. (25 October 2026, 21:27:13 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (25 October 2026, 21:27:13 +0100)
+> |---|---|---| (25 October 2026, 21:27:13 +0100)
+> | Construire l'arrière | Oui, en deux versions | Comparaison des deux arrières avec la feuille, côte à côte | (25 October 2026, 21:27:13 +0100)
+> | Ne pas casser l'existant | Oui | Interrupteur à 0 : scores de la v43 identiques à la v42 | (25 October 2026, 21:27:13 +0100)
+> | Voiture identique à la feuille | Pas encore | Le choix de l'arrière et les contreforts restent | (25 October 2026, 21:27:13 +0100)
+> | Consigner | Oui | Section 32 du skill, datée | (25 October 2026, 21:27:13 +0100)
+>
+> Planche des deux arrières : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Car_v43_tail_variants.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Car_v43_tail_variants.png) (25 October 2026, 21:27:13 +0100)
+
+## 25 October 2026, 21:27:19 +0100 : Prompt
+
+<!-- feedback-event:0c27b70a7bc92c5ef2cbba7f97d9d78f59deadcacf39dd2652df00385ec200db (25 October 2026, 21:27:19 +0100) -->
+- Project: zenray-meshes; kind: prompt. (25 October 2026, 21:27:19 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 21:27:19 +0100)
+
+> ZenRay Meshes, relance automatique (Matthieu, 25 October 2026) : si la boucle s'est arrêtée, reprends la voiture PAR COMPOSANTS là où elle en est. Lis /Users/zenray/.claude/skills/zenray-meshes/SKILL.md sections 21 à 26, la feuille de composants dans /Users/zenray/.claude/Memory1/Projects/zenray-meshes/ZenRayMeshes1.md section 10, et le dernier rendu dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/. Demande-toi : la voiture est-elle identique à la feuille de référence, tous les composants construits ? Si non, construis le composant suivant (jamais d'ajustement global aux silhouettes), vérifie par rendu matériaux et projection sur la planche, consigne l'apprentissage dans le skill (section datée), puis continue. /dont-stop (25 October 2026, 21:27:19 +0100)
