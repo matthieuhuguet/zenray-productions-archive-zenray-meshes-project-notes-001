@@ -7194,3 +7194,372 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:22:40 +0100)
 
 > Le dessous gagne encore (lignes 0,33 → 0,36, moyenne 0,515), sans perte de silhouette. Je consigne, puis je regarde la carte des lignes de côté. (25 October 2026, 22:22:40 +0100)
+
+## 25 October 2026, 22:23:33 +0100 : Iteration
+
+<!-- feedback-event:ba5ec1938fd056a6b827c29ace8f90d322bcb3b87dab5ef0fabb77b61702a9db (25 October 2026, 22:23:33 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:23:33 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:23:33 +0100)
+
+> Petit gain (côté gauche 0,615). J'essaie un creux plus marqué, 15 mm. (25 October 2026, 22:23:33 +0100)
+
+## 25 October 2026, 22:24:05 +0100 : Iteration
+
+<!-- feedback-event:0b6bf51c765de419b6bda8d5994d08cb534a2f0bd462a15acfbd6eb340598091 (25 October 2026, 22:24:05 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:24:05 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:24:05 +0100)
+
+> Pas mieux : je garde 8 mm. Je passe aux jantes, la plus grande zone rouge restante, et je compare de près les traits des branches. (25 October 2026, 22:24:05 +0100)
+
+## 25 October 2026, 22:24:52 +0100 : Iteration
+
+<!-- feedback-event:04650cbee18d448cfe0c050caa86a31b7320d79f2650b45719ef354d14090771 (25 October 2026, 22:24:52 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:24:52 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:24:52 +0100)
+
+> Grand saut : lignes 0,516 → 0,558, côtés 0,62 → 0,74 et 0,75. J'essaie une arête plus marquée, 20 mm. (25 October 2026, 22:24:52 +0100)
+
+## 25 October 2026, 22:25:54 +0100 : Iteration
+
+<!-- feedback-event:b23bdf5c3cfb38b2e5af69f0706b3eaa689eb97f5f5c4f727711e4fe8d22d60a (25 October 2026, 22:25:54 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:25:54 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:25:54 +0100)
+
+> Les gains ralentissent (0,568 → 0,571). Je vérifie à l'œil que la roue reste crédible avec une arête de 30 mm. (25 October 2026, 22:25:54 +0100)
+
+## 25 October 2026, 22:26:04 +0100 : Iteration
+
+<!-- feedback-event:e7d7f937f773d53c1f4bab80685defb577326b407fd734a7c85d0448f76f9560 (25 October 2026, 22:26:04 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:26:04 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:26:04 +0100)
+
+> Les 6 branches se lisent maintenant, au bon angle. Elles sont encore trop fines : sur la feuille, elles sont larges et s'évasent. J'élargis leur largeur (`spoke_w`) de 0,042 à 0,06. (25 October 2026, 22:26:04 +0100)
+
+## 25 October 2026, 22:26:35 +0100 : Iteration
+
+<!-- feedback-event:68f413a206110ff46f3fec0cbd25bc6dfbc3ecbeb51f608154b117e357921df2 (25 October 2026, 22:26:35 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:26:35 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:26:35 +0100)
+
+> Lignes 0,577 (côtés 0,79 et 0,81), silhouette stable à 0,951. Je consigne. (25 October 2026, 22:26:35 +0100)
+
+## 25 October 2026, 22:26:47 +0100 : Iteration
+
+<!-- feedback-event:e0d4a726e9795d18120f2ce164cfe056ff4474028449254565988ca0f964e362 (25 October 2026, 22:26:47 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:26:47 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:26:47 +0100)
+
+> Je regarde ensuite la face (lignes 0,56) et la poupe (0,46). (25 October 2026, 22:26:47 +0100)
+
+## 25 October 2026, 22:26:51 +0100 : Prompt
+
+<!-- feedback-event:ad350e979c0a85d9bac56586c8945b670bc79d43d1f2593e2fdfcf33a3148c2d (25 October 2026, 22:26:51 +0100) -->
+- Project: zenray-meshes; kind: prompt. (25 October 2026, 22:26:51 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:26:51 +0100)
+
+> [Image: original 2012x664, displayed at 2000x660. Multiply coordinates by 1.01 to map to original image.] (25 October 2026, 22:26:51 +0100)
+
+## 25 October 2026, 22:26:53 +0100 : Prompt
+
+<!-- feedback-event:097ef6b1c3adcbd9d9c5b80d995338238bab910804d18dfc6b967bb26a95ecde (25 October 2026, 22:26:53 +0100) -->
+- Project: zenray-meshes; kind: prompt. (25 October 2026, 22:26:53 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:26:53 +0100)
+
+> [Image: original 1869x2472, displayed at 1512x2000. Multiply coordinates by 1.24 to map to original image.] (25 October 2026, 22:26:53 +0100)
+
+## 25 October 2026, 22:26:54 +0100 : Prompt
+
+<!-- feedback-event:04fd69725102c66031f6aa9ba3af53b5ca1e0f65e95e26d41cc1cd437c8e55d0 (25 October 2026, 22:26:54 +0100) -->
+- Project: zenray-meshes; kind: prompt. (25 October 2026, 22:26:54 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:26:54 +0100)
+
+> [Image: original 2130x1800, displayed at 2000x1690. Multiply coordinates by 1.06 to map to original image.] (25 October 2026, 22:26:54 +0100)
+
+## 25 October 2026, 22:27:00 +0100 : Iteration
+
+<!-- feedback-event:e095aa3e8d1caa33664a55f077193357b67444985195640b1ce78a127eb59e1f (25 October 2026, 22:27:00 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:27:00 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:27:00 +0100)
+
+> Vues de face et de dos, les bandes de roulement des pneus sont entièrement rouges : la feuille dessine leurs rainures, les nôtres sont lisses. J'ajoute des rainures au pneu. (25 October 2026, 22:27:00 +0100)
+
+## 25 October 2026, 22:27:30 +0100 : Iteration
+
+<!-- feedback-event:c4d6224a1cc9dd63e70c018e7423dd7267685629e1544cad5cce6f6df5117aba (25 October 2026, 22:27:30 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:27:30 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:27:30 +0100)
+
+> Lignes 0,577 → 0,627 (dos 0,46 → 0,57, dessous 0,35 → 0,50). J'essaie 6 rainures. (25 October 2026, 22:27:30 +0100)
+
+## 25 October 2026, 22:28:17 +0100 : Iteration
+
+<!-- feedback-event:45874736cb4031417b9e89e44ca471d6c7e179ed7604656ebeb53b5eaa25c635 (25 October 2026, 22:28:17 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:28:17 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:28:17 +0100)
+
+> La voiture n'est pas encore identique à la feuille, mais elle s'en rapproche nettement : en v94, le score des lignes passe de 0,511 à 0,634. Le score de silhouette reste stable à 0,951. (25 October 2026, 22:28:17 +0100)
+>
+> - **Suspensions :** l'ouverture des passages de roue commence maintenant plus près de l'axe de la voiture. Les bras de suspension se voient par-dessous, comme sur la feuille. Vue de côté, la paroi intérieure du passage ferme toujours le trou. (25 October 2026, 22:28:17 +0100)
+> - **Plis de la carrosserie :** la ligne de ceinture et le pli du bas de caisse forment maintenant un léger creux de 8 mm, assez pour dessiner la ligne. Un creux de 15 mm n'apportait rien de plus. (25 October 2026, 22:28:17 +0100)
+> - **Jantes, le plus gros gain :** une branche plate, parallèle au disque, ne dessine aucun trait vue de côté. Avec une arête au milieu et une branche plus large, comme sur la feuille, le score des lignes des côtés passe de 0,62 à 0,81. (25 October 2026, 22:28:17 +0100)
+> - **Pneus :** la feuille montre les rainures de la bande de roulement de face et de dessous. Avec 6 rainures, le score de la vue de dos passe de 0,46 à 0,59, et celui du dessous de 0,35 à 0,52. (25 October 2026, 22:28:17 +0100)
+>
+> En chemin, j'ai trouvé un bug : régler un paramètre de forme après la découpe des passages de roue faussait cette découpe. Le script règle maintenant tous les paramètres avant. (25 October 2026, 22:28:17 +0100)
+>
+> Tout est noté dans le skill (sections 38 et 39, datées). Le journal est à jour et la scène Houdini est enregistrée. (25 October 2026, 22:28:17 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (25 October 2026, 22:28:17 +0100)
+> |---|---|---| (25 October 2026, 22:28:17 +0100)
+> | Construire les composants suivants | Oui | Suspensions visibles, plis, jantes et pneus | (25 October 2026, 22:28:17 +0100)
+> | Comparer à la feuille et itérer | Oui | Lignes de 0,511 à 0,634, silhouette stable à 0,951 | (25 October 2026, 22:28:17 +0100)
+> | Voiture identique à la feuille | Pas encore | Verrière vue de côté, poupe et ailes arrière à reprendre | (25 October 2026, 22:28:17 +0100)
+>
+> Planche : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Car_v94_board.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Car_v94_board.png) (25 October 2026, 22:28:17 +0100)
+
+## 25 October 2026, 22:28:21 +0100 : Prompt
+
+<!-- feedback-event:16ba86c9ff6184601e6e5ece1dcf46167c31fbf7147881a992e3f5ae893df75a (25 October 2026, 22:28:21 +0100) -->
+- Project: zenray-meshes; kind: prompt. (25 October 2026, 22:28:21 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:28:21 +0100)
+
+> ZenRay Meshes, relance automatique (Matthieu, 25 October 2026) : si la boucle s'est arrêtée, reprends la voiture PAR COMPOSANTS là où elle en est. Lis /Users/zenray/.claude/skills/zenray-meshes/SKILL.md sections 21 à 26, la feuille de composants dans /Users/zenray/.claude/Memory1/Projects/zenray-meshes/ZenRayMeshes1.md section 10, et le dernier rendu dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/. Demande-toi : la voiture est-elle identique à la feuille de référence, tous les composants construits ? Si non, construis le composant suivant (jamais d'ajustement global aux silhouettes), vérifie par rendu matériaux et projection sur la planche, consigne l'apprentissage dans le skill (section datée), puis continue. /dont-stop (25 October 2026, 22:28:21 +0100)
+
+## 25 October 2026, 22:28:24 +0100 : Iteration
+
+<!-- feedback-event:323cdb45f7767729e3246f91f116cb8122fbd369c38402cd890f2471709abcac (25 October 2026, 22:28:24 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:28:24 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:28:24 +0100)
+
+> Prochaine cible : la vue de dessus (lignes 0,50). Je regarde où se concentre le rouge. (25 October 2026, 22:28:24 +0100)
+
+## 25 October 2026, 22:28:32 +0100 : Iteration
+
+<!-- feedback-event:e9f6e1c7f923a7493497a1bf6984e9bf154b2ce15c8dd1951921adb1a8ebdc4e (25 October 2026, 22:28:32 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:28:32 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:28:32 +0100)
+
+> Le rouge suit surtout les joints entre panneaux (capot et ailes, bords du toit, pare-brise). J'essaie des rainures plus marquées, sans élargir l'écart. (25 October 2026, 22:28:32 +0100)
+
+## 25 October 2026, 22:29:03 +0100 : Iteration
+
+<!-- feedback-event:df7d1d405597b70319112bab3bac71ecb0e083465a59406936d1b72158f04005 (25 October 2026, 22:29:03 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:29:03 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:29:03 +0100)
+
+> Lignes 0,644, mais silhouette 0,9505 → 0,9476. Je sépare les deux réglages pour trouver lequel coûte la silhouette. (25 October 2026, 22:29:03 +0100)
+
+## 25 October 2026, 22:29:31 +0100 : Iteration
+
+<!-- feedback-event:76ff10f9d862967e1cf9f94f28fdd9252bfe6e1399d184711bb12c130928786f (25 October 2026, 22:29:31 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:29:31 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:29:31 +0100)
+
+> Une rainure plus profonde abîme la silhouette aux joints situés sur le contour (bord du toit, coins) : moyenne 0,9505 → 0,9484 pour +0,01 de lignes. Je garde 12 mm et je le note. (25 October 2026, 22:29:31 +0100)
+
+## 25 October 2026, 22:29:43 +0100 : Iteration
+
+<!-- feedback-event:f0a080bed67008399385051bbdfdfa08e2684017ebe7860e65fbe14deba52095 (25 October 2026, 22:29:43 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:29:43 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:29:43 +0100)
+
+> La voiture n'est pas encore identique à la feuille. Cette relance n'améliore rien : la v94 reste la meilleure version (lignes 0,634, silhouette 0,9505). (25 October 2026, 22:29:43 +0100)
+>
+> J'ai essayé des rainures de joints de 20 mm au lieu de 12 : (25 October 2026, 22:29:43 +0100)
+> - **Lignes :** le score des lignes monte un peu, de 0,634 à 0,644 (vue de dessus 0,50 → 0,53). (25 October 2026, 22:29:43 +0100)
+> - **Silhouette :** elle baisse de 0,9505 à 0,9484. Certains joints sont sur le contour de la voiture (bord du toit, coins), et les y creuser abîme la silhouette. (25 October 2026, 22:29:43 +0100)
+>
+> Je garde donc 12 mm. La piste suivante est une profondeur réglée panneau par panneau : plus forte pour les joints intérieurs, comme entre le capot et les ailes, et nulle sur le contour. (25 October 2026, 22:29:43 +0100)
+>
+> C'est noté dans le skill avec sa date, et le journal est à jour. (25 October 2026, 22:29:43 +0100)
+>
+> Ce qui reste : cette profondeur par panneau, la poupe et la verrière vue de côté. (25 October 2026, 22:29:43 +0100)
+
+## 25 October 2026, 22:29:45 +0100 : Prompt
+
+<!-- feedback-event:2be4f2b81f8b65ac06876b032c94a41de8b6c3d3a2292f7d75c2d45779be3411 (25 October 2026, 22:29:45 +0100) -->
+- Project: zenray-meshes; kind: prompt. (25 October 2026, 22:29:45 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:29:45 +0100)
+
+> ZenRay Meshes, relance automatique (Matthieu, 25 October 2026) : si la boucle s'est arrêtée, reprends la voiture PAR COMPOSANTS là où elle en est. Lis /Users/zenray/.claude/skills/zenray-meshes/SKILL.md sections 21 à 26, la feuille de composants dans /Users/zenray/.claude/Memory1/Projects/zenray-meshes/ZenRayMeshes1.md section 10, et le dernier rendu dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/. Demande-toi : la voiture est-elle identique à la feuille de référence, tous les composants construits ? Si non, construis le composant suivant (jamais d'ajustement global aux silhouettes), vérifie par rendu matériaux et projection sur la planche, consigne l'apprentissage dans le skill (section datée), puis continue. /dont-stop (25 October 2026, 22:29:45 +0100)
+
+## 25 October 2026, 22:29:49 +0100 : Iteration
+
+<!-- feedback-event:894d0e1adb6a4cf189255050d1ad496f0a91976af3bb1ff2aeefe3f5410b28ec (25 October 2026, 22:29:49 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:29:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:29:49 +0100)
+
+> J'essaie la profondeur par panneau : rainure profonde pour les joints de carrosserie (capot, ailes, portes), réduite pour les joints du contour (vitres et toit). (25 October 2026, 22:29:49 +0100)
+
+## 25 October 2026, 22:30:31 +0100 : Iteration
+
+<!-- feedback-event:25fbf26882fba974f86538415fbe725eaf3c2b643909d6021d95a11c40ac9326 (25 October 2026, 22:30:31 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:30:31 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:30:31 +0100)
+
+> La voiture n'est pas encore identique à la feuille, et cette relance n'a rien amélioré : la v94 reste la meilleure version (lignes 0,634, silhouette 0,9505). (25 October 2026, 22:30:31 +0100)
+>
+> J'ai essayé une profondeur de rainure différente selon les panneaux : 22 mm pour les joints de carrosserie, 8 mm pour ceux des vitres, du toit et du dessous. Cela ne marche pas : (25 October 2026, 22:30:31 +0100)
+> - **Lignes :** le score des lignes monte à 0,644, mais celui de la vue de dessus baisse (0,50 → 0,49). (25 October 2026, 22:30:31 +0100)
+> - **Silhouette :** elle tombe à 0,9487. (25 October 2026, 22:30:31 +0100)
+>
+> La raison : les joints de carrosserie passent eux-mêmes sur le contour de la voiture vu de face et de dos, au niveau des épaules. Quelle que soit la répartition, creuser ces joints abîme la silhouette. Je garde donc 12 mm partout et j'arrête cette piste, ce qui est noté dans le skill. Le réglage par panneau reste disponible dans les paramètres. (25 October 2026, 22:30:31 +0100)
+>
+> Prochaines étapes : la poupe vue de dos, puis la verrière vue de côté. (25 October 2026, 22:30:31 +0100)
+
+## 25 October 2026, 22:30:34 +0100 : Prompt
+
+<!-- feedback-event:11fca2596dd4f2380865ffc0580ac5140ed273dc300c2ba89cb74f5a26637247 (25 October 2026, 22:30:34 +0100) -->
+- Project: zenray-meshes; kind: prompt. (25 October 2026, 22:30:34 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:30:34 +0100)
+
+> ZenRay Meshes, relance automatique (Matthieu, 25 October 2026) : si la boucle s'est arrêtée, reprends la voiture PAR COMPOSANTS là où elle en est. Lis /Users/zenray/.claude/skills/zenray-meshes/SKILL.md sections 21 à 26, la feuille de composants dans /Users/zenray/.claude/Memory1/Projects/zenray-meshes/ZenRayMeshes1.md section 10, et le dernier rendu dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/. Demande-toi : la voiture est-elle identique à la feuille de référence, tous les composants construits ? Si non, construis le composant suivant (jamais d'ajustement global aux silhouettes), vérifie par rendu matériaux et projection sur la planche, consigne l'apprentissage dans le skill (section datée), puis continue. /dont-stop (25 October 2026, 22:30:34 +0100)
+
+## 25 October 2026, 22:30:37 +0100 : Iteration
+
+<!-- feedback-event:66de666f4ac509a92121c37290a13a28bae3cdcc791c5126092a142d047402c6 (25 October 2026, 22:30:37 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:30:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:30:37 +0100)
+
+> Prochain composant : la poupe vue de dos. Je compare la feuille et le modèle de près. (25 October 2026, 22:30:37 +0100)
+
+## 25 October 2026, 22:31:31 +0100 : Iteration
+
+<!-- feedback-event:6e12c689da588e822054610cb8f7069864515e6cf9d7add9111ffe9a229a26d9 (25 October 2026, 22:31:31 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:31:31 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:31:31 +0100)
+
+> Moins bien : lignes 0,634 → 0,621, silhouette 0,9486. Je garde la poupe de la caisse (`TAIL_ON` 0) et je note la méthode à essayer ensuite. (25 October 2026, 22:31:31 +0100)
+
+## 25 October 2026, 22:31:44 +0100 : Iteration
+
+<!-- feedback-event:efe48af45af945c5933fbee123e9ed5a006e6149f0cb5e143dba6b5f5b5d3b55 (25 October 2026, 22:31:44 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:31:44 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:31:44 +0100)
+
+> La voiture n'est pas encore identique à la feuille. Cette relance a porté sur la poupe et ne l'a pas améliorée : la v94 reste la meilleure version (lignes 0,634, silhouette 0,9505). (25 October 2026, 22:31:44 +0100)
+>
+> **Ce qui ne va pas.** Vue de dos, la poupe du modèle est une surface aux facettes mal orientées. Elle ne dessine ni le panneau en retrait ni le bas étagé de la feuille. (25 October 2026, 22:31:44 +0100)
+>
+> **Ce que j'ai essayé.** J'ai remis l'arrière en facettes sur la caisse actuelle. C'est moins bon : (25 October 2026, 22:31:44 +0100)
+> - le score des lignes baisse de 0,634 à 0,621 ; (25 October 2026, 22:31:44 +0100)
+> - la silhouette baisse à 0,9486. (25 October 2026, 22:31:44 +0100)
+>
+> Je laisse donc l'arrière d'origine (`TAIL_ON` à 0). (25 October 2026, 22:31:44 +0100)
+>
+> **Méthode suivante, notée dans le skill.** (25 October 2026, 22:31:44 +0100)
+> 1. Couper la carrosserie juste derrière le passage de roue arrière. (25 October 2026, 22:31:44 +0100)
+> 2. Y poser une face arrière construite à partir de la vue de dos. Chaque point de cette face reculerait jusqu'à la profondeur où la vue de dessus atteint sa largeur ; c'est la règle déjà utilisée pour placer les coins. (25 October 2026, 22:31:44 +0100)
+> 3. Ajouter le panneau en retrait et le bas étagé comme pièces posées sur cette face. (25 October 2026, 22:31:44 +0100)
+
+## 25 October 2026, 22:31:49 +0100 : Prompt
+
+<!-- feedback-event:a0480e8a4ab7c393ed525513aa4b667f64c6a513a123860ede5b9ebfc5db6b0d (25 October 2026, 22:31:49 +0100) -->
+- Project: zenray-meshes; kind: prompt. (25 October 2026, 22:31:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:31:49 +0100)
+
+> ZenRay Meshes, relance automatique (Matthieu, 25 October 2026) : si la boucle s'est arrêtée, reprends la voiture PAR COMPOSANTS là où elle en est. Lis /Users/zenray/.claude/skills/zenray-meshes/SKILL.md sections 21 à 26, la feuille de composants dans /Users/zenray/.claude/Memory1/Projects/zenray-meshes/ZenRayMeshes1.md section 10, et le dernier rendu dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/. Demande-toi : la voiture est-elle identique à la feuille de référence, tous les composants construits ? Si non, construis le composant suivant (jamais d'ajustement global aux silhouettes), vérifie par rendu matériaux et projection sur la planche, consigne l'apprentissage dans le skill (section datée), puis continue. /dont-stop (25 October 2026, 22:31:49 +0100)
+
+## 25 October 2026, 22:32:04 +0100 : Iteration
+
+<!-- feedback-event:4a6ebc31b4e4b3f006bfb8b086e7d287c7687e2d8e4fda5533df49157788ff62 (25 October 2026, 22:32:04 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:32:04 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:32:04 +0100)
+
+> Je construis la méthode notée au tour précédent : une face arrière dont chaque point recule seulement jusqu'à la profondeur permise par la vue de dessus (selon sa largeur) et par la vue de côté (selon sa hauteur). (25 October 2026, 22:32:04 +0100)
+
+## 25 October 2026, 22:32:50 +0100 : Iteration
+
+<!-- feedback-event:a444602b349dd628720b6e6ecf18a544d5474dbc46c1f888998bf9e1d660e16a (25 October 2026, 22:32:50 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:32:50 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:32:50 +0100)
+
+> Lignes 0,634 → 0,645 (dos 0,59 → 0,66). Silhouette 0,9495 : le côté droit monte à 0,948, le gauche descend à 0,946. Je regarde. (25 October 2026, 22:32:50 +0100)
+
+## 25 October 2026, 22:32:56 +0100 : Iteration
+
+<!-- feedback-event:257900c725ffc8feb96c2b8d79de15c9f0a04799990f70d8b7c417320d2e297a (25 October 2026, 22:32:56 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:32:56 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:32:56 +0100)
+
+> Vue de dos, la poupe se lit enfin comme la feuille : bandeau de feux, panneau sombre, bas étagé. Je garde cette méthode par défaut. (25 October 2026, 22:32:56 +0100)
+
+## 25 October 2026, 22:33:16 +0100 : Iteration
+
+<!-- feedback-event:b94b1975825d3ee77a3ff5274a4c8e4d8828fe53461f2c245e3639a3b07266ab (25 October 2026, 22:33:16 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:33:16 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:33:16 +0100)
+
+> La voiture n'est pas encore identique à la feuille, mais la poupe progresse nettement en v99. (25 October 2026, 22:33:16 +0100)
+>
+> J'ai construit la méthode notée au tour précédent : (25 October 2026, 22:33:16 +0100)
+> - **La coupe :** la carrosserie est coupée juste derrière le passage de roue arrière. (25 October 2026, 22:33:16 +0100)
+> - **La face arrière :** une grille la remplace. Chaque point recule aussi loin que le permettent à la fois la vue de dessus (selon sa largeur) et la vue de côté (selon sa hauteur). (25 October 2026, 22:33:16 +0100)
+>
+> Les garnitures arrière se posent d'elles-mêmes sur cette nouvelle face. Vue de dos, on voit maintenant le bandeau de feux, le panneau sombre et le bas étagé, comme sur la feuille. (25 October 2026, 22:33:16 +0100)
+>
+> Les scores : (25 October 2026, 22:33:16 +0100)
+> - **Lignes :** elles passent de 0,634 à 0,645, et la vue de dos seule de 0,59 à 0,66. (25 October 2026, 22:33:16 +0100)
+> - **Silhouette :** elle reste presque stable, de 0,9505 à 0,9495. (25 October 2026, 22:33:16 +0100)
+> - **Côtés :** le côté droit monte (0,940 → 0,948) et le gauche baisse (0,956 → 0,946). Les deux vues de côté de la feuille ne placent pas la poupe au même endroit (8 cm d'écart), et la profondeur moyenne partage cet écart entre les deux. (25 October 2026, 22:33:16 +0100)
+>
+> Cette poupe est maintenant la valeur par défaut ; l'ancienne reste disponible par un réglage. C'est noté dans le skill (section 40), le journal est à jour et la scène Houdini est enregistrée. (25 October 2026, 22:33:16 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (25 October 2026, 22:33:16 +0100)
+> |---|---|---| (25 October 2026, 22:33:16 +0100)
+> | Construire le composant suivant (poupe) | Oui | La vue de dos se lit comme la feuille sur la planche | (25 October 2026, 22:33:16 +0100)
+> | Vérifier sur la feuille | Oui | Lignes 0,645 (meilleur score), silhouette 0,9495 | (25 October 2026, 22:33:16 +0100)
+> | Voiture identique à la feuille | Pas encore | Verrière vue de côté et raccord entre la poupe et le flanc à reprendre | (25 October 2026, 22:33:16 +0100)
+>
+> Planche : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Car_v99_board.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Car_v99_board.png) (25 October 2026, 22:33:16 +0100)
+
+## 25 October 2026, 22:33:20 +0100 : Prompt
+
+<!-- feedback-event:e2c1c22bc4ba7d69a8629fffe756443286be398d3c5212fb3576d3e835689067 (25 October 2026, 22:33:20 +0100) -->
+- Project: zenray-meshes; kind: prompt. (25 October 2026, 22:33:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:33:20 +0100)
+
+> ZenRay Meshes, relance automatique (Matthieu, 25 October 2026) : si la boucle s'est arrêtée, reprends la voiture PAR COMPOSANTS là où elle en est. Lis /Users/zenray/.claude/skills/zenray-meshes/SKILL.md sections 21 à 26, la feuille de composants dans /Users/zenray/.claude/Memory1/Projects/zenray-meshes/ZenRayMeshes1.md section 10, et le dernier rendu dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/. Demande-toi : la voiture est-elle identique à la feuille de référence, tous les composants construits ? Si non, construis le composant suivant (jamais d'ajustement global aux silhouettes), vérifie par rendu matériaux et projection sur la planche, consigne l'apprentissage dans le skill (section datée), puis continue. /dont-stop (25 October 2026, 22:33:20 +0100)
+
+## 25 October 2026, 22:33:23 +0100 : Iteration
+
+<!-- feedback-event:70beadb48f3e6953166d9cab17031a1032b48dfcf9a35018b4e7bf0b914f3fee (25 October 2026, 22:33:23 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:33:23 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:33:23 +0100)
+
+> Prochain composant : la verrière vue de côté. Je compare de près. (25 October 2026, 22:33:23 +0100)
+
+## 25 October 2026, 22:34:22 +0100 : Iteration
+
+<!-- feedback-event:48e219d9c8d946c1df958e0ae1e330c6283583ff0a4fc6c672ba1b22925131d2 (25 October 2026, 22:34:22 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:34:22 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:34:22 +0100)
+
+> Résultat mitigé : lignes 0,645 → 0,640, silhouette 0,9495 → 0,9499. Je juge à l'œil. (25 October 2026, 22:34:22 +0100)
+
+## 25 October 2026, 22:35:33 +0100 : Iteration
+
+<!-- feedback-event:5bbe7e6c14ade4c92412074a24c9afc530fe9c0beacd49964d3718b0ff421acf (25 October 2026, 22:35:33 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:35:33 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:35:33 +0100)
+
+> La voiture n'est pas encore identique à la feuille. Cette passe (v100 et v101) a porté sur la verrière vue de côté. (25 October 2026, 22:35:33 +0100)
+>
+> - **Bas des vitres :** la courbe tracée sur la feuille ondulait entre 0,90 et 0,93 m. Je l'ai remplacée par une droite moyenne et j'ai gardé la remontée à l'arrière. La ligne est maintenant droite, comme sur la feuille. (25 October 2026, 22:35:33 +0100)
+> - **Hauteur du bord du toit :** les hauteurs de ses points clés sont maintenant prises sur la courbe tracée du haut des vitres, au lieu de valeurs estimées. Cela n'a pas supprimé la marche du toit (point suivant), mais le bord est plus juste. (25 October 2026, 22:35:33 +0100)
+> - **Marche sur l'avant du toit :** elle vient en fait du léger retrait de la vitre (12 mm) par rapport au toit. Sur la feuille, une baguette de toit est dessinée à cet endroit : c'est le prochain composant. (25 October 2026, 22:35:33 +0100)
+>
+> Les scores bougent à peine : silhouette 0,9501, lignes 0,640 (0,645 en v99). Ces corrections se voient surtout à l'œil, sur la comparaison de côté. (25 October 2026, 22:35:33 +0100)
+>
+> C'est noté dans le skill, le journal est à jour et la scène Houdini est enregistrée. (25 October 2026, 22:35:33 +0100)
+>
+> Restent la baguette de toit et le raccord entre la poupe et le flanc. (25 October 2026, 22:35:33 +0100)
+>
+> Comparaison de côté : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/glass_cmp101.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/glass_cmp101.png) (25 October 2026, 22:35:33 +0100)
+
+## 25 October 2026, 22:35:37 +0100 : Prompt
+
+<!-- feedback-event:f10f3965c8d98c4adc693fae597f4302e874022ba53903704ad1de8b8cbe45df (25 October 2026, 22:35:37 +0100) -->
+- Project: zenray-meshes; kind: prompt. (25 October 2026, 22:35:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:35:37 +0100)
+
+> ZenRay Meshes, relance automatique (Matthieu, 25 October 2026) : si la boucle s'est arrêtée, reprends la voiture PAR COMPOSANTS là où elle en est. Lis /Users/zenray/.claude/skills/zenray-meshes/SKILL.md sections 21 à 26, la feuille de composants dans /Users/zenray/.claude/Memory1/Projects/zenray-meshes/ZenRayMeshes1.md section 10, et le dernier rendu dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/. Demande-toi : la voiture est-elle identique à la feuille de référence, tous les composants construits ? Si non, construis le composant suivant (jamais d'ajustement global aux silhouettes), vérifie par rendu matériaux et projection sur la planche, consigne l'apprentissage dans le skill (section datée), puis continue. /dont-stop (25 October 2026, 22:35:37 +0100)
