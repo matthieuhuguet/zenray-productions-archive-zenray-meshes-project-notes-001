@@ -7,3 +7,4 @@ Standing rules of this project, one line each, loaded automatically at session s
 - Une seule source de vérité : la méthode s'écrit dans le skill zenray-meshes (append daté), les règles dans Rules.md du projet zenray-meshes ; aucun autre fichier de règles. (25 October 2026) <!-- rule:1e4a44f3a560 -->
 - ZenRay Meshes ne livre QUE des modèles à topologie ultra propre (quads, edge flow), prêts pour le découpage UV ; aucune surface granuleuse ni nuage volumétrique en sortie. Un volume ne peut servir qu'à mesurer, jamais de livrable. (25 October 2026) <!-- rule:f60fe4cff471 -->
 - Pour chaque objet reproduit, consigner dans le skill zenray-meshes comment sa géométrie a été créée. (25 October 2026) <!-- rule:e5146211ff9d -->
+- Budget de scène Houdini : 1 million de polygones visés, 5 millions au plus ; au-delà de 10 millions Houdini crashe. Construire étape par étape, composant par composant. (25 October 2026) <!-- rule:d38dbb4f942c -->

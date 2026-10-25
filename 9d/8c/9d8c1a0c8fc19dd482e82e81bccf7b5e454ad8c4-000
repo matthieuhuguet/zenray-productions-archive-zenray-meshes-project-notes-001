@@ -3813,3 +3813,25 @@
 >
 > - **Topologie** : l'organisation des faces d'un modèle, c'est-à-dire leur forme (quads de préférence) et le sens dans lequel elles s'enchaînent. (25 October 2026, 18:00:49 +0100)
 > - **Edge flow** : la façon dont les boucles d'arêtes suivent les formes (autour des yeux, le long d'un bras), ce qui rend un modèle propre à découper en UV et à animer. (25 October 2026, 18:00:49 +0100)
+
+## 25 October 2026, 18:07:33 +0100 : Prompt
+
+<!-- feedback-event:c28f7482379c1ac2196e69103853d3f423f2b18664a9bae61522cc4bf4339d39 (25 October 2026, 18:07:33 +0100) -->
+- Project: zenray-meshes; kind: prompt. (25 October 2026, 18:07:33 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 18:07:33 +0100)
+
+> /Users/zenray/Downloads/cheval.jpg /Users/zenray/Downloads/tree.png Voici déjà deux images, tu peux travailler sur ça pour l'instant, et on verra pour la suite le reste. go 0.999 avec une topology impeccable et components par components L'algorithme doit apprendre, et là maintenant tu commences à développer vraiment le logiciel, parce que sinon on va perdre trop de temps. Donc là je veux que tu commences à avoir des résultats. Go. Je t'invite vraiment à diviser chaque structure que le logiciel identifierait pour être sûr d'avoir un dataset suffisamment élevé comme Zenray 8 ou comme Zenray UV. Ce qui permettrait du coup de diviser par component, de refaire impeccablement la géométrie. Et comme ça, c'est parfait. Et tu itères directement sur Houdini. /dont-stop prochaine étape, je veux que le cheval et l'arbre soient reproduits à l'identique de manière impeccable. Ouais. Évidemment, sur des surfaces organiques, tu vas utiliser beaucoup de polygones pour avoir le high poly. Donc, il faut quand même que tu optimises la scène pour qu'il y ait max 1 million de polygones dans la scène à chaque fois. Tu peux aller jusqu'à 5 millions de polygones, mais dès que tu vas dépasser, à mon avis, la dizaine de millions de polygones, là, le logiciel va crash systématiquement. Donc, en fait, il faut vraiment que tu divises les choses étape par étape pour être sûr de jamais crasher dans 99,9% des cas./Users/zenray/Downloads/car.png y'a la voiture aussi donc 3 assets à consigner en terme de ref go /dont-stop (25 October 2026, 18:07:33 +0100)
+
+## 25 October 2026, 18:07:45 +0100 : Prompt
+
+<!-- feedback-event:474e285eae24237558df38afc9bb05101ffcb7dac9a802b53191f60f3afbc30b (25 October 2026, 18:07:45 +0100) -->
+- Project: zenray-meshes; kind: prompt. (25 October 2026, 18:07:45 +0100)
+
+> Trois planches 6 views reçues (cheval, arbre, voiture). Objectif 0,999 avec topologie impeccable, composant par composant ; développer le vrai logiciel avec un dataset de structures comme ZenRay UV ; itérer dans Houdini ; scène à 1 million de polygones max (5 millions toléré, jamais vers 10 millions), étape par étape pour ne jamais crasher. (25 October 2026, 18:07:45 +0100)
+
+## 25 October 2026, 18:07:45 +0100 : Standing rule
+
+<!-- feedback-event:76c126ab8b5c58c1f4375ddbbd316fb985204369f41978d117f5ad89e6520c41 (25 October 2026, 18:07:45 +0100) -->
+- Project: zenray-meshes; kind: rule. (25 October 2026, 18:07:45 +0100)
+
+> Budget de scène Houdini : 1 million de polygones visés, 5 millions au plus ; au-delà de 10 millions Houdini crashe. Construire étape par étape, composant par composant. (25 October 2026, 18:07:45 +0100)
