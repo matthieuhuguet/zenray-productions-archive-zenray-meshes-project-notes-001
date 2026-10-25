@@ -3,3 +3,5 @@
 Standing rules of this project, one line each, loaded automatically at session start. Full history and context: FEEDBACK.md in this folder. A rule that changes gets a new line citing the old one. (25 October 2026)
 
 - Toujours déterminer la méthodologie AVANT de construire : phase de recherche web état de l'art, au moins 16 méthodes testées sur 4 phases (zenray-methodology), puis seulement la construction. (25 October 2026) <!-- rule:39040f00b917 -->
+- Le score cible est 99,9 % contre la planche image 6 views à échelle cohérente (image to 3D, cas principal ; text to 3D secondaire). La vérité 3D connue sert seulement à créer et calibrer la méthode, jamais de score final, car un vrai cas n'a pas de vérité 3D. (25 October 2026) <!-- rule:78ee0cf93189 -->
+- Une seule source de vérité : la méthode s'écrit dans le skill zenray-meshes (append daté), les règles dans Rules.md du projet zenray-meshes ; aucun autre fichier de règles. (25 October 2026) <!-- rule:1e4a44f3a560 -->
