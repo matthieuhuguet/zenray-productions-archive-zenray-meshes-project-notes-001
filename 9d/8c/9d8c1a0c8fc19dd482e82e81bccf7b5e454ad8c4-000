@@ -3497,3 +3497,168 @@
 - Project: zenray-meshes; kind: rule. (25 October 2026, 16:09:58 +0100)
 
 > Une seule source de vérité : la méthode s'écrit dans le skill zenray-meshes (append daté), les règles dans Rules.md du projet zenray-meshes ; aucun autre fichier de règles. (25 October 2026, 16:09:58 +0100)
+
+## 25 October 2026, 16:22:34 +0100 : Iteration
+
+<!-- feedback-event:accbfeda8d0c81c3af53b16096378a87f0c8efd50be3cafb476cc3244087c637 (25 October 2026, 16:22:34 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 16:22:34 +0100)
+- Source: checkpoint:claude:09d15ec8-88ad-4965-a2f0-80b68515e880. (25 October 2026, 16:22:34 +0100)
+
+> Phase méthode 1 : état de l art, banc d essai sur 4 vérités 3D (arche, eucalyptus, lys, Manny), M00 à M05 mesurées, score image créé, skill zenray-meshes créé. Silhouette ment ; oracle profondeur 6 vues = 1,000 sur Manny ; volumique plafonne au score image. Prochain : M12 optimisation surfacique, M11 Topo Transfer, rastériseur rapide, validation des 8 objets. (25 October 2026, 16:22:34 +0100)
+
+## 25 October 2026, 16:20:17 +0100 : Iteration
+
+<!-- feedback-event:6cf46ff89ba6da9d7a9ff97bc2daf85e10f1d7977ed4980b76f1f4c383c20c8c (25 October 2026, 16:20:17 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 16:20:17 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 16:20:17 +0100)
+
+> Pendant que le score image tourne (le rastériseur Python est lent sur les maillages denses, à accélérer ensuite), je rédige le skill `zenray-meshes`. (25 October 2026, 16:20:17 +0100)
+
+## 25 October 2026, 16:22:20 +0100 : Iteration
+
+<!-- feedback-event:2990e7e364e77561c8eb39749c55efe825232e9b2c4b53d7a86350cda3c7b5f0 (25 October 2026, 16:22:20 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 16:22:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 16:22:20 +0100)
+
+> Je consigne le point d'étape dans ZenRay Assets (sauvegarde cloud du chantier), puis je fais le compte rendu. (25 October 2026, 16:22:20 +0100)
+
+## 25 October 2026, 16:23:24 +0100 : Iteration
+
+<!-- feedback-event:d17518bf575f7dc4298f011fa065a7f9ebb47dc42c4959de1e0b769288999ce7 (25 October 2026, 16:23:24 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 16:23:24 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 16:23:24 +0100)
+
+> J'ai arrêté de construire, comme tu le demandais, pour chercher d'abord la bonne méthode. Le premier graphe Houdini (`/obj/ZRM_Tree01`, l'arbre « gonflé » à partir d'une seule vue) reste dans la scène, mais seulement comme méthode témoin M01. Aucune méthode n'atteint encore 99,9 %. (25 October 2026, 16:23:24 +0100)
+>
+> **Comment j'ai testé.** J'ai exporté quatre objets dont on connaît la vraie forme 3D : l'arche, l'eucalyptus, le lys et Manny. Pour chacun, j'ai rendu une planche de 6 vues à échelle commune. Chaque méthode ne lit que cette planche, puis son résultat est comparé au vrai modèle. Comme tu l'as précisé, cette vérité 3D sert seulement à mettre la méthode au point. Le score final est celui contre la planche : on refait les 6 vues du modèle reconstruit et on compte les pixels dont la surface est orientée comme sur la planche, à 10 degrés près. La cible est 0,999. (25 October 2026, 16:23:24 +0100)
+>
+> **Ce que les mesures montrent** (score 3D à 0,5 % de la taille de l'objet) : (25 October 2026, 16:23:24 +0100)
+>
+> - **Le contour seul ment.** En croisant les 6 silhouettes, les contours collent à 0,998, mais la vraie forme n'est juste qu'à 0,55 à 0,68. Les creux restent cachés derrière un contour parfait. (25 October 2026, 16:23:24 +0100)
+> - **Six vues suffiraient.** Si on connaissait la profondeur de chaque vue, on obtiendrait Manny à 1,000 et l'arche à 0,984 (0,996 avec une tolérance de 1 %). Le vrai problème est donc de retrouver la profondeur de chaque vue. (25 October 2026, 16:23:24 +0100)
+> - **Le gris du viewport ne suffit pas pour ça.** Il donne la pente d'une surface, pas son sens. Ombrage et silhouettes ensemble n'apportent presque rien de plus. (25 October 2026, 16:23:24 +0100)
+> - **Le levier : changer ce qu'on demande au générateur d'image.** Une planche 6 views en normal map donne aussi le sens de la pente. Sur l'arbre, le score passe de 0,55 à 0,91. Manny échoue encore (0,59), à cause d'un recalage que je dois corriger. Reste à vérifier qu'un générateur d'image produit des normal maps cohérentes d'une vue à l'autre. (25 October 2026, 16:23:24 +0100)
+> - **Les voxels ont un plafond.** Même avec la profondeur exacte, un modèle construit en petits cubes ne fait que 0,46 à 0,55 au score de la planche, parce que ses surfaces en escalier sont mal orientées. Le volume sert donc seulement de point de départ ; la fin doit travailler directement sur une surface propre. (25 October 2026, 16:23:24 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (25 October 2026, 16:23:24 +0100)
+> |---|---|---| (25 October 2026, 16:23:24 +0100)
+> | Recherche état de l'art avant de construire | Oui | 11 recherches web, sources rangées dans le skill | (25 October 2026, 16:23:24 +0100)
+> | Au moins 16 méthodes, 4 phases chacune | En partie | 18 listées, seulement 6 mesurées, et sur une seule phase | (25 October 2026, 16:23:24 +0100)
+> | Score 99,9 % contre la planche 6 views | Non | Score créé et testé, meilleur résultat très loin de 0,999 | (25 October 2026, 16:23:24 +0100)
+> | Skill zenray-meshes, une seule source de vérité | Oui | Skill synchronisé, règles dans Rules.md, une ligne de renvoi dans zenray-houdini | (25 October 2026, 16:23:24 +0100)
+> | 8 objets (4 organiques, 4 hard surface) | Proposés | Arbre, cheval, tête, personnage ; temple romain, voiture, lampe, porte. Images pas encore cherchées | (25 October 2026, 16:23:24 +0100)
+> | Interface claire et article | Non | Pas commencés | (25 October 2026, 16:23:24 +0100)
+> | Sauvegarde cloud à chaque étape | Non | La commande de point d'étape ZenRay Assets a dépassé son délai deux fois (« operation aborted due to timeout ») | (25 October 2026, 16:23:24 +0100)
+>
+> La phase 2 viendrait juste après : modifier directement une surface propre jusqu'à coller aux normal maps des 6 vues (M12), habiller l'enveloppe avec un modèle de base qui a déjà une bonne topologie d'animation grâce à Topo Transfer de Houdini (M11), et accélérer le calcul du score, qui prend plusieurs minutes par modèle. (25 October 2026, 16:23:24 +0100)
+>
+> Fichiers : (25 October 2026, 16:23:24 +0100)
+> - Skill : [/Users/zenray/.claude/skills/zenray-meshes/SKILL.md](/Users/zenray/.claude/skills/zenray-meshes/SKILL.md) (25 October 2026, 16:23:24 +0100)
+> - Règles du projet : [/Users/zenray/.claude/Memory1/Projects/zenray-meshes/Rules.md](/Users/zenray/.claude/Memory1/Projects/zenray-meshes/Rules.md) (25 October 2026, 16:23:24 +0100)
+> - Banc d'essai et méthodes : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/Bench.py](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/Bench.py) et [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/Methods.py](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/Methods.py) (25 October 2026, 16:23:24 +0100)
+>
+> Ta consigne, reformulée plus court : « Avant de construire ZenRay Meshes, trouve la bonne méthode : recherche, au moins 16 méthodes testées, score 99,9 % contre la planche 6 views ; une seule source de vérité, le skill zenray-meshes et ses règles. » (25 October 2026, 16:23:24 +0100)
+>
+> - **Visual hull** (enveloppe des silhouettes) : le plus grand volume compatible avec tous les contours. (25 October 2026, 16:23:24 +0100)
+> - **Normal map** : une image qui encode, par sa couleur, le sens de la surface en chaque pixel. (25 October 2026, 16:23:24 +0100)
+
+## 25 October 2026, 16:40:25 +0100 : Prompt
+
+<!-- feedback-event:e20ab9cd7de3501d583b03c28f01c44aeeeea0f80e6544b96bab1e38b07b8fdc (25 October 2026, 16:40:25 +0100) -->
+- Project: zenray-meshes; kind: prompt. (25 October 2026, 16:40:25 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 16:40:25 +0100)
+
+> Go phase 2 : M12 optimisation des sommets contre les normal maps, M11 Topo Transfer, rastériseur rapide. (25 October 2026, 16:40:25 +0100)
+
+## 25 October 2026, 16:41:23 +0100 : Iteration
+
+<!-- feedback-event:0bff0cb3ab03c5287fab3a9f2a03d518601686981f3cf48149babb02bfa7c407 (25 October 2026, 16:41:23 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 16:41:23 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 16:41:23 +0100)
+
+> Rastériseur GPU validé : identique au rendu de référence (recouvrement 0,9999, écart de normale 0,00°), plus de 6 fois plus rapide. Je le branche dans le banc d'essai. (25 October 2026, 16:41:23 +0100)
+
+## 25 October 2026, 16:49:01 +0100 : Iteration
+
+<!-- feedback-event:532e56abc8c7f698f4ac264d4ea2e95e65fb40fa0ea0c357a44da290c875b9a2 (25 October 2026, 16:49:01 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 16:49:01 +0100)
+- Source: checkpoint:claude:09d15ec8-88ad-4965-a2f0-80b68515e880. (25 October 2026, 16:49:01 +0100)
+
+> Phase 2 : rastériseur GPU validé ; M12 trois formulations écartées ; M11 Topo Transfer retenu (0,924 sur vraie forme). Prochain : M12c rendu différentiable, définition du 99,9 %. (25 October 2026, 16:49:01 +0100)
+
+## 25 October 2026, 16:49:26 +0100 : Iteration
+
+<!-- feedback-event:0abe915bb7aecaa81acb479122ffa9b06172cebbd8737365b77ab5869e49bcf3 (25 October 2026, 16:49:26 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 16:49:26 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 16:49:26 +0100)
+
+> Les trois points de la phase 2 sont testés : le rastériseur rapide marche, M12 échoue sous les trois formes essayées, et M11 (Topo Transfer) est retenu. On reste encore loin de 99,9 %. (25 October 2026, 16:49:26 +0100)
+>
+> **Rastériseur rapide.** Il dessine les vues sur la carte graphique du Mac et donne exactement le même rendu que l'ancien (recouvrement 0,9999, écart d'orientation des faces 0,00°). Le score image d'un modèle prend maintenant 1,2 s au lieu de plusieurs minutes. Le banc d'essai l'utilise d'office. (25 October 2026, 16:49:26 +0100)
+>
+> **M12 : déformer la surface pour coller aux normal maps.** J'ai essayé trois façons ; aucune ne marche : (25 October 2026, 16:49:26 +0100)
+> - **Tourner chaque face vers la bonne orientation :** Manny monte de 0,557 à 0,650, puis redescend à 0,550. (25 October 2026, 16:49:26 +0100)
+> - **Tirer les sommets vers une profondeur calculée par vue :** le modèle s'effondre (0,13). (25 October 2026, 16:49:26 +0100)
+> - **La même chose, avec des pas limités à 5 mm et les cibles aberrantes ignorées :** Manny passe de 0,661 à 0,495, l'arche de 0,681 à 0,588. (25 October 2026, 16:49:26 +0100)
+>
+> La cause : ces calculs ne font pas vraiment baisser le score, et les cibles des six vues se contredisent. Comme le veut la règle de méthode, j'arrête de régler. La forme reconnue par l'état de l'art est l'optimisation par rendu différentiable, sans réseau de neurones (Mitsuba 3 sur Metal, méthode « Large Steps »). C'est M12c, la prochaine méthode à tester. (25 October 2026, 16:49:26 +0100)
+>
+> **M11 : Topo Transfer dans Houdini.** J'ai pris Manny déformé (plus large, plus court, bras baissés) pour jouer le rôle d'un modèle de base générique, puis je l'ai habillé sur la cible : (25 October 2026, 16:49:26 +0100)
+> - Habillé sur la vraie forme, il atteint 0,924 en 3D (0,958 à 1 %), en gardant sa topologie d'animation (15 073 points). (25 October 2026, 16:49:26 +0100)
+> - Habillé sur l'enveloppe des silhouettes, il atteint 0,895 à 1 %, contre 0,824 pour l'enveloppe seule. (25 October 2026, 16:49:26 +0100)
+>
+> C'est donc la bonne couche pour la topologie, mais sa précision dépend entièrement de la forme cible qu'on lui donne. Deux réglages ont été nécessaires : passer le gabarit dans PolyDoctor (sinon Topo Transfer le refuse, géométrie non manifold) et désactiver les points de repère pour ce premier essai. (25 October 2026, 16:49:26 +0100)
+>
+> **Le point qui demande ta décision.** Le score image tel que je l'ai défini est très sévère : un pixel n'est juste que si l'orientation de la surface concorde à 10° près. Le gabarit habillé sur la vraie forme, à 0,924 en 3D, ne fait que 0,507 avec ce score. Il faut fixer ce que « 99,9 % » veut dire avant d'en faire la barre à franchir. (25 October 2026, 16:49:26 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (25 October 2026, 16:49:26 +0100)
+> |---|---|---| (25 October 2026, 16:49:26 +0100)
+> | Rastériseur rapide | Oui | Même rendu (0,9999), 1,2 s par score au lieu de plusieurs minutes | (25 October 2026, 16:49:26 +0100)
+> | M12 optimisation contre les normal maps | Testé, échoue | 3 formulations mesurées, toutes finissent sous leur point de départ | (25 October 2026, 16:49:26 +0100)
+> | M11 Topo Transfer | Oui, retenu | 0,924 sur la vraie forme, 0,895 à 1 % sur l'enveloppe, topologie gardée | (25 October 2026, 16:49:26 +0100)
+> | Score à 99,9 % | Non | Meilleur score image obtenu : 0,69 (l'enveloppe de l'arche) | (25 October 2026, 16:49:26 +0100)
+> | Sauvegarde cloud | Pas prouvée | Point d'étape écrit en local, avec `backupConfirmed: false` | (25 October 2026, 16:49:26 +0100)
+>
+> Fichiers : (25 October 2026, 16:49:26 +0100)
+> - Skill mis à jour (section 9) : [/Users/zenray/.claude/skills/zenray-meshes/SKILL.md](/Users/zenray/.claude/skills/zenray-meshes/SKILL.md) (25 October 2026, 16:49:26 +0100)
+> - Rastériseur : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/Raster.py](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/Raster.py) (25 October 2026, 16:49:26 +0100)
+> - M12 : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/Optimize.py](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/Optimize.py) (25 October 2026, 16:49:26 +0100)
+> - M11 : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/TopoTest.py](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/TopoTest.py) (25 October 2026, 16:49:26 +0100)
+> - Scène Houdini : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/hip/ZenRayMeshes.hip](/Users/zenray/.claude/tmp/tmp-zenray-meshes/hip/ZenRayMeshes.hip) (25 October 2026, 16:49:26 +0100)
+>
+> Ta consigne était déjà optimale, rien à reformuler. (25 October 2026, 16:49:26 +0100)
+>
+> - **Rendu différentiable** : un rendu dont on sait calculer comment chaque pixel change quand on bouge un sommet, ce qui permet de corriger tous les sommets dans la bonne direction en même temps. (25 October 2026, 16:49:26 +0100)
+> - **Non manifold** : une géométrie où un point ou une arête est partagé de façon impossible pour une vraie surface (trois faces sur une même arête, par exemple), ce que les outils d'habillage refusent. (25 October 2026, 16:49:26 +0100)
+
+## 25 October 2026, 16:50:54 +0100 : Prompt
+
+<!-- feedback-event:0350e054aa0bdff53f008c97d2146dabca8bc308d5a0bd5e00b1abff42a8f4af (25 October 2026, 16:50:54 +0100) -->
+- Project: zenray-meshes; kind: prompt. (25 October 2026, 16:50:54 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 16:50:54 +0100)
+
+> Attends, du coup, je comprends pas. T'as trouvé la méthode A0,99 ? A0,999 ? Bah du coup, continue. Va jusqu'au bout et ne t'arrête plus si t'as déjà trouvé la bonne méthodologie.? (25 October 2026, 16:50:54 +0100)
+
+## 25 October 2026, 16:51:02 +0100 : Iteration
+
+<!-- feedback-event:752e87c6e59585b7dd0d0588fa59cd5b1e1a2c07fbfe70b3ddf41e668d2e8233 (25 October 2026, 16:51:02 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 16:51:02 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 16:51:02 +0100)
+
+> Non, pas encore : aucune méthode n'atteint 0,99, et encore moins 0,999. Le meilleur résultat honnête est de 0,895 en 3D (à 1 %) et de 0,69 au score image. Le seul 0,924 obtenu partait de la vraie forme, ce qui ne compte pas. Je continue donc, sans m'arrêter, avec la méthode que l'état de l'art désigne : l'optimisation par rendu différentiable (M12c). (25 October 2026, 16:51:02 +0100)
+
+## 25 October 2026, 16:51:46 +0100 : Iteration
+
+<!-- feedback-event:0dc20d15134c2b02e4fd0029ecc2285fbcf7409ae38a3117f95a7574e89563c1 (25 October 2026, 16:51:46 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 16:51:46 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 16:51:46 +0100)
+
+> Mitsuba 3.9.1 propose une variante **Metal** différentiable, donc le GPU du Mac. Je vérifie qu'elle rend et qu'elle donne des gradients sur les sommets. (25 October 2026, 16:51:46 +0100)
+
+## 25 October 2026, 16:53:58 +0100 : Iteration
+
+<!-- feedback-event:ce0dae96a5ff9aba67cf15dd17a4a1b0c0564d0a058842d001eb1df8f7eb66de (25 October 2026, 16:53:58 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 16:53:58 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 16:53:58 +0100)
+
+> Les caméras Mitsuba coïncident avec la planche (recouvrement 0,986 à 256 px, normales concordantes à cos 0,99). Je lance M12c sur Manny, en partant de l'enveloppe des silhouettes. (25 October 2026, 16:53:58 +0100)
