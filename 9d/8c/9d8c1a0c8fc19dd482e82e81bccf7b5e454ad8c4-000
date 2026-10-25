@@ -8111,3 +8111,57 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:53:39 +0100)
 
 > ZenRay Meshes, relance automatique (Matthieu, 25 October 2026) : si la boucle s'est arrêtée, reprends la voiture PAR COMPOSANTS là où elle en est. Lis /Users/zenray/.claude/skills/zenray-meshes/SKILL.md sections 21 à 26, la feuille de composants dans /Users/zenray/.claude/Memory1/Projects/zenray-meshes/ZenRayMeshes1.md section 10, et le dernier rendu dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/. Demande-toi : la voiture est-elle identique à la feuille de référence, tous les composants construits ? Si non, construis le composant suivant (jamais d'ajustement global aux silhouettes), vérifie par rendu matériaux et projection sur la planche, consigne l'apprentissage dans le skill (section datée), puis continue. /dont-stop (25 October 2026, 22:53:39 +0100)
+
+## 25 October 2026, 22:53:46 +0100 : Iteration
+
+<!-- feedback-event:12a57c60480e9c79c190793ad937475f052ec7c91a29e58f9e8f496338746af6 (25 October 2026, 22:53:46 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:53:46 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:53:46 +0100)
+
+> Prochain composant : la jupe latérale du dessous, avec sa bande longue et ses deux encoches obliques de chaque côté, lues sur la vue de dessous. Je les ajoute comme plaques minces. (25 October 2026, 22:53:46 +0100)
+
+## 25 October 2026, 22:54:35 +0100 : Iteration
+
+<!-- feedback-event:f28d620734380351dfc4ee10037cb98b0639741604abdfbd21eab517937ce9e3 (25 October 2026, 22:54:35 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:54:35 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:54:35 +0100)
+
+> La voiture n'est pas encore identique à la feuille. En v118, la jupe latérale du dessous est construite. (25 October 2026, 22:54:35 +0100)
+>
+> Sur la vue de dessous, la feuille montre de chaque côté une bande longue et deux encoches obliques. Je les ai ajoutées comme plaques minces, relevées sur la vue agrandie et posées en miroir. (25 October 2026, 22:54:35 +0100)
+>
+> Les scores : (25 October 2026, 22:54:35 +0100)
+> - **Dessous :** les lignes passent de 0,528 à 0,534. (25 October 2026, 22:54:35 +0100)
+> - **Ensemble :** lignes 0,662, silhouette 0,9559, sans perte. (25 October 2026, 22:54:35 +0100)
+>
+> Cette planche récapitule aussi les ajouts des derniers tours : bords du capot, joues avant, joints du toit et arêtes de la poupe. (25 October 2026, 22:54:35 +0100)
+>
+> C'est noté dans le skill, le journal est à jour et la scène Houdini est enregistrée. (25 October 2026, 22:54:35 +0100)
+>
+> Prochaine étape : une revue d'ensemble face à la feuille, pour choisir le plus gros écart restant. (25 October 2026, 22:54:35 +0100)
+>
+> Planche : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Car_v118_board.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Car_v118_board.png) (25 October 2026, 22:54:35 +0100)
+
+## 25 October 2026, 22:54:38 +0100 : Prompt
+
+<!-- feedback-event:e2bf08b00e38dd5e8e90f5123ebf18f1f6f1ce0bed72cf1036b1242035a901f9 (25 October 2026, 22:54:38 +0100) -->
+- Project: zenray-meshes; kind: prompt. (25 October 2026, 22:54:38 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:54:38 +0100)
+
+> ZenRay Meshes, relance automatique (Matthieu, 25 October 2026) : si la boucle s'est arrêtée, reprends la voiture PAR COMPOSANTS là où elle en est. Lis /Users/zenray/.claude/skills/zenray-meshes/SKILL.md sections 21 à 26, la feuille de composants dans /Users/zenray/.claude/Memory1/Projects/zenray-meshes/ZenRayMeshes1.md section 10, et le dernier rendu dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/. Demande-toi : la voiture est-elle identique à la feuille de référence, tous les composants construits ? Si non, construis le composant suivant (jamais d'ajustement global aux silhouettes), vérifie par rendu matériaux et projection sur la planche, consigne l'apprentissage dans le skill (section datée), puis continue. /dont-stop (25 October 2026, 22:54:38 +0100)
+
+## 25 October 2026, 22:54:40 +0100 : Iteration
+
+<!-- feedback-event:ee033619897ca3de296b03f0e7707c1a0036c92bf6a3dc3f2a25b303689be9a0 (25 October 2026, 22:54:40 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:54:40 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:54:40 +0100)
+
+> Je fais la revue d'ensemble pour choisir le plus gros écart restant. (25 October 2026, 22:54:40 +0100)
+
+## 25 October 2026, 22:55:32 +0100 : Iteration
+
+<!-- feedback-event:b69dedd773acb70d35b3b23dab9d573b90ff92ceb775a95daa0ef48343fc964c (25 October 2026, 22:55:32 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:55:32 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:55:32 +0100)
+
+> La couture est toujours là, ce n'était donc pas la cause. Je repasse par l'élimination, qui avait marché pour les lames. (25 October 2026, 22:55:32 +0100)
