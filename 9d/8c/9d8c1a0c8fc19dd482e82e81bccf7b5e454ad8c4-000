@@ -8165,3 +8165,36 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:55:32 +0100)
 
 > La couture est toujours là, ce n'était donc pas la cause. Je repasse par l'élimination, qui avait marché pour les lames. (25 October 2026, 22:55:32 +0100)
+
+## 25 October 2026, 22:57:00 +0100 : Iteration
+
+<!-- feedback-event:0be2854c28876dac85f8632e17d0831cde97b4f4163e64a4c6549d2aa3f326b8 (25 October 2026, 22:57:00 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:57:00 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:57:00 +0100)
+
+> La voiture n'est pas encore identique à la feuille. Cette relance n'a pas réglé le plus gros écart restant : la v118/v119 reste la meilleure version (lignes 0,662, silhouette 0,9559). (25 October 2026, 22:57:00 +0100)
+>
+> **L'écart.** À l'arrière, une bande verticale claire coupe en deux le bandeau de feux et le panneau sombre. Sur la feuille, les deux sont continus. (25 October 2026, 22:57:00 +0100)
+>
+> **Ce que j'ai écarté :** (25 October 2026, 22:57:00 +0100)
+> - **Le rayon au centre exact :** le décaler d'un millimètre ne change rien. Je garde ce décalage, qui ne gêne pas. (25 October 2026, 22:57:00 +0100)
+> - **Une seule pièce en cause :** j'ai retiré tour à tour la face arrière, puis les garnitures. La couture reste visible dans chaque cas. (25 October 2026, 22:57:00 +0100)
+> - **Un panneau plat :** posé à 2,20 m derrière le centre, il laisse transparaître la face arrière, qui recule jusqu'à 2,238 m. Il ajoute en plus des rayures. Je suis revenu à la version où le panneau épouse la surface. (25 October 2026, 22:57:00 +0100)
+>
+> **Prochaine piste, notée dans le skill :** la façon dont la face arrière calcule la hauteur de ses colonnes centrales, et les pièces arrière posées en deux moitiés. (25 October 2026, 22:57:00 +0100)
+
+## 25 October 2026, 22:57:03 +0100 : Prompt
+
+<!-- feedback-event:691a70ced980f1e15e42b01b8e2fbdd683f553f80c10bf6172213436631058fd (25 October 2026, 22:57:03 +0100) -->
+- Project: zenray-meshes; kind: prompt. (25 October 2026, 22:57:03 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:57:03 +0100)
+
+> ZenRay Meshes, relance automatique (Matthieu, 25 October 2026) : si la boucle s'est arrêtée, reprends la voiture PAR COMPOSANTS là où elle en est. Lis /Users/zenray/.claude/skills/zenray-meshes/SKILL.md sections 21 à 26, la feuille de composants dans /Users/zenray/.claude/Memory1/Projects/zenray-meshes/ZenRayMeshes1.md section 10, et le dernier rendu dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/. Demande-toi : la voiture est-elle identique à la feuille de référence, tous les composants construits ? Si non, construis le composant suivant (jamais d'ajustement global aux silhouettes), vérifie par rendu matériaux et projection sur la planche, consigne l'apprentissage dans le skill (section datée), puis continue. /dont-stop (25 October 2026, 22:57:03 +0100)
+
+## 25 October 2026, 22:57:08 +0100 : Iteration
+
+<!-- feedback-event:31adcba3d13aa63143244282b6d7b752c760dbc42954a56a87399ff368c06f22 (25 October 2026, 22:57:08 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 22:57:08 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 22:57:08 +0100)
+
+> Je reprends l'enquête par sa piste : la forme de la face arrière au centre. Si la face a un creux au milieu, le panneau, qui l'épouse, le recopie. (25 October 2026, 22:57:08 +0100)
