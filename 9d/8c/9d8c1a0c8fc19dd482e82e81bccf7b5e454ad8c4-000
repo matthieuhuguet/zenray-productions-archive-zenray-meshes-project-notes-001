@@ -9540,3 +9540,400 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 23:56:52 +0100)
 
 > Un trapèze bleu pend sous l'arrière, jusqu'au sol. Je recense les pièces qui occupent cette zone. (25 October 2026, 23:56:52 +0100)
+
+## 25 October 2026, 23:57:40 +0100 : Iteration
+
+<!-- feedback-event:dfed55570eaa81ef8c7a94a0aa6e2fbf1142f1087dc1279e7631f7bb4e290e67 (25 October 2026, 23:57:40 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 23:57:40 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 23:57:40 +0100)
+
+> Le dos ne bouge pas (0,8876). Je relis les hauteurs du plancher. (25 October 2026, 23:57:40 +0100)
+
+## 25 October 2026, 23:58:20 +0100 : Iteration
+
+<!-- feedback-event:db62c23aff17345278e30cdcad7bc575d3bbf9fd494dba701082a08445f9e5b1 (25 October 2026, 23:58:20 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 23:58:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 23:58:20 +0100)
+
+> Le plancher reste maintenant au-dessus de 0,10 m. La silhouette remonte à 0,9515 (dos 0,888 → 0,923), avec une caisse propre. Je regarde le dos et le rendu propre. (25 October 2026, 23:58:20 +0100)
+
+## 26 October 2026, 00:02:25 +0100 : Prompt
+
+<!-- feedback-event:0d55ba21d4ba926235e72f271368ff28722c0fad44bd547d3de5ab54c9f590f2 (26 October 2026, 00:02:25 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 00:02:25 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 00:02:25 +0100)
+
+> This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation. (26 October 2026, 00:02:25 +0100)
+>
+> <tools-used-before-summary>Agent, Bash, CronCreate, CronDelete, CronList, Edit, Read, SendUserFile, Skill, ToolSearch, WebSearch, Write, mcp__ccd_turn__update_plan, mcp__ccd_turn__wrap_up, mcp__zenray-houdini__houdini_hom</tools-used-before-summary> (26 October 2026, 00:02:25 +0100)
+> Summary: (26 October 2026, 00:02:25 +0100)
+> 1. **Primary Request and Intent** (26 October 2026, 00:02:25 +0100)
+>
+>    **Goal.** ZenRay Meshes: reproduce the car from the 6-view sheet `/Users/zenray/.claude/tmp/tmp-zenray-meshes/refs/objects/06_Car/06_Car_6views_25-October-2026.png`. (26 October 2026, 00:02:25 +0100)
+>    - Build it component by component (clean quads, Houdini plus Python, HDA-style parameters). (26 October 2026, 00:02:25 +0100)
+>    - Iterate until it is identical to the sheet. (26 October 2026, 00:02:25 +0100)
+>    - Consign every learning in the skill `/Users/zenray/.claude/skills/zenray-meshes/SKILL.md` as dated sections. (26 October 2026, 00:02:25 +0100)
+>    - Cron relaunch every minute (cron job f71e678f, session-only); its automatic prompt repeats the same instruction. (26 October 2026, 00:02:25 +0100)
+>
+>    **Autonomy (user message).** Decide everything autonomously, with NO questions until 26 October 2026 at 8 am. (26 October 2026, 00:02:25 +0100)
+>    - Compare images; while they differ, keep iterating. (26 October 2026, 00:02:25 +0100)
+>    - If stuck, question the methodology, research, and unblock. (26 October 2026, 00:02:25 +0100)
+>
+>    **3D Production Workflow rules (user message).** Add them to the zenray-meshes instructions and to the global doctrine (claude-md-global). Done. (26 October 2026, 00:02:25 +0100)
+>    - An orchestrator with specialised sub-agents. (26 October 2026, 00:02:25 +0100)
+>    - Build custom tools and consign every tool that works. (26 October 2026, 00:02:25 +0100)
+>    - Atomic tasks. (26 October 2026, 00:02:25 +0100)
+>    - Iterative loops. (26 October 2026, 00:02:25 +0100)
+>    - No guessing: research before building. (26 October 2026, 00:02:25 +0100)
+>    - Compare to references. (26 October 2026, 00:02:25 +0100)
+>    - Learn from mistakes. (26 October 2026, 00:02:25 +0100)
+>    - No perfectly cut edges for organic models; NURBS-like 3D guides for industrial models, then convert. (26 October 2026, 00:02:25 +0100)
+>    - External vision models when available. (26 October 2026, 00:02:25 +0100)
+>
+>    **Latest and most important feedback (mid-turn).** (26 October 2026, 00:02:25 +0100)
+>    - The car is still "cabossée", organic and "dégueulasse"; no 3D artist would do what I do. (26 October 2026, 00:02:25 +0100)
+>    - First build a component that roughly resembles, then smooth and refine; "finir au moins un seul component propre, et ensuite tu itères". (26 October 2026, 00:02:25 +0100)
+>    - Build atomically like Tesla or Renault; aim for a method or software for a tech artist to recreate any 3D shape. (26 October 2026, 00:02:25 +0100)
+>    - Consign errors (like machine learning). (26 October 2026, 00:02:25 +0100)
+>    - Stop capturing the tree trunk or other assets: focus ONLY on the car. (26 October 2026, 00:02:25 +0100)
+>    - Keep the cron, keep consigning, iterate until 8 am, keep improving zenray-meshes. (26 October 2026, 00:02:25 +0100)
+>
+>    **Standing constraints (preserve).** (26 October 2026, 00:02:25 +0100)
+>    - Never use Matthieu's personal browser (built-in browser only). (26 October 2026, 00:02:25 +0100)
+>    - Never `git add -A` in ~/.claude; stage explicit paths. (26 October 2026, 00:02:25 +0100)
+>    - Never print secrets or credentials. (26 October 2026, 00:02:25 +0100)
+>    - Workflows banned without double confirmation (use single Agent calls only). (26 October 2026, 00:02:25 +0100)
+>    - No em dash, en dash or double hyphen anywhere. (26 October 2026, 00:02:25 +0100)
+>    - Every added line in skills and memory carries a date like "25 October 2026". (26 October 2026, 00:02:25 +0100)
+>    - Absolute paths in links. (26 October 2026, 00:02:25 +0100)
+>    - Code identifiers in English. (26 October 2026, 00:02:25 +0100)
+>    - French prose to the user. (26 October 2026, 00:02:25 +0100)
+>    - Close each turn with a 3-column table and `mcp__ccd_turn__wrap_up`. (26 October 2026, 00:02:25 +0100)
+>    - Send images during loops (SendUserFile). (26 October 2026, 00:02:25 +0100)
+>    - Progress log via `node ~/.claude/skills/progress/scripts/progress.mjs append --project zenray-meshes --fait ... --verifie ... --prochain ...`. (26 October 2026, 00:02:25 +0100)
+>    - Skill sync: `~/.claude/skills/skill-sync/scripts/sync-skill.sh zenray-meshes`. (26 October 2026, 00:02:25 +0100)
+>    - Assets checkpoint at the end of a turn. (26 October 2026, 00:02:25 +0100)
+>
+> 2. **Key Technical Concepts** (26 October 2026, 00:02:25 +0100)
+>
+>    **Workshop and command.** Workshop `/Users/zenray/.claude/tmp/tmp-zenray-meshes/`. One-command build `zsh Scripts/BuildCar.sh <tag>`. (26 October 2026, 00:02:25 +0100)
+>    - Environment defaults: `BODY_SOURCE` 1 (row loft), `TAIL_ON` 1, `TAIL_METHOD` face, `PANEL_GAP` 0.003, `GLASS_INSET` 0.012, `GROOVE` 0.012, `GROOVE_C` 0.012, `ARCH_X0` 0.40, `ARCH_PAD` 1.14. (26 October 2026, 00:02:25 +0100)
+>    - Python interpreter: `/Users/zenray/.venvs/zenray-uv/bin/python`. trimesh is not in shorts; cv2 is absent. (26 October 2026, 00:02:25 +0100)
+>
+>    **Scoring.** (26 October 2026, 00:02:25 +0100)
+>    - SheetScore (silhouette IoU per view). (26 October 2026, 00:02:25 +0100)
+>    - LineScore (inner-line F1; tiles have different heights; `tile_y0` per view: front 0, back 404, left 808, right 1169, top 1530, bottom 2001). (26 October 2026, 00:02:25 +0100)
+>    - ShapeCheck (cleanliness: inflections, folds, crease angles). (26 October 2026, 00:02:25 +0100)
+>    - CleanView (smooth-shaded, car-only judge). (26 October 2026, 00:02:25 +0100)
+>
+>    **New clean method (since the latest feedback).** (26 October 2026, 00:02:25 +0100)
+>    - Each character row is a cubic B-spline with one knot every 0.9 m (few control points, smooth by construction). (26 October 2026, 00:02:25 +0100)
+>    - C0 corners only at design breaks: windshield base z 1.56 and rear glass base z -1.77, for roof_centre, roof_edge and glass_base. (26 October 2026, 00:02:25 +0100)
+>    - Ruled bands between rows give crisp lines. (26 October 2026, 00:02:25 +0100)
+>    - Row ordering prevents folds. (26 October 2026, 00:02:25 +0100)
+>    - `min_y` floor of 0.10 m. (26 October 2026, 00:02:25 +0100)
+>    - Arches cut in the construction with arc snapping, no boolean. (26 October 2026, 00:02:25 +0100)
+>    - Hack tubes removed. (26 October 2026, 00:02:25 +0100)
+>
+>    **Depth rule.** A corner seen in an end view sits at the z where the plan half width reaches its x. The sheet does not contradict itself (correction of section 30). (26 October 2026, 00:02:25 +0100)
+>
+>    **Components.** NoseFacets (nose cut z 1.86), TailFace (tail cut -2.10, full_height 1, plan_interp 1, top smoothing), ArchBuild (lips, strips), WheelBuild (6 split crowned spokes), ChassisBuild (wells, plates, bolts), TrimBuild (slabs, flat parts, tubes, top and bottom tubes, surface snap). (26 October 2026, 00:02:25 +0100)
+>
+>    **Houdini.** Network `/obj/ZRM_Car`, controls on `CTRL_zrm`. Another object, `ZRM_Tree`, exists in the scene and must never appear in captures. Houdini flipbook isolation was unreliable, so use CleanView instead. (26 October 2026, 00:02:25 +0100)
+>
+> 3. **Files and Code Sections** (all under `/Users/zenray/.claude/tmp/tmp-zenray-meshes/` unless absolute) (26 October 2026, 00:02:25 +0100)
+>
+>    - **`Scripts/RowLoft.py`** (core of the clean body). Main flow of `main(params, prefix, out)`: (26 October 2026, 00:02:25 +0100)
+>      - PCHIP interpolation of the cage stations. (26 October 2026, 00:02:25 +0100)
+>      - If `fair`: per row, a B-spline least-squares fit with `knots_for(breaks)`, repeating the knot three times at breaks: (26 October 2026, 00:02:25 +0100)
+>        ```python (26 October 2026, 00:02:25 +0100)
+>        def knots_for(bz): (26 October 2026, 00:02:25 +0100)
+>            pts = [zlo] + sorted(b for b in bz if zlo + 0.05 < b < zhi - 0.05) + [zhi]; inner = [] (26 October 2026, 00:02:25 +0100)
+>            for a_, b_ in zip(pts[:-1], pts[1:]): (26 October 2026, 00:02:25 +0100)
+>                n_ = max(1, int(round((b_ - a_) / C["knot_m"]))); inner += list(np.linspace(a_, b_, n_ + 1)[1:-1]) (26 October 2026, 00:02:25 +0100)
+>                if b_ < zhi: inner += [b_] * 3 (26 October 2026, 00:02:25 +0100)
+>            return np.concatenate([[zlo] * 4, sorted(inner), [zhi] * 4]) (26 October 2026, 00:02:25 +0100)
+>        ``` (26 October 2026, 00:02:25 +0100)
+>        - `keep[0] = keep[-1] = False` when `fit_skip_ends`. (26 October 2026, 00:02:25 +0100)
+>        - Arch rows skip arch stations: `keep &= ...`. (26 October 2026, 00:02:25 +0100)
+>        - `T = knots_for(C.get("breaks", {}).get(r, []))`. (26 October 2026, 00:02:25 +0100)
+>      - Then the groove_rows block. (26 October 2026, 00:02:25 +0100)
+>      - Then `if C.get("min_y") is not None: G[:, :, 1] = np.maximum(G[:, :, 1], C["min_y"])`. (26 October 2026, 00:02:25 +0100)
+>      - Then ROW ORDER: from sill up, y ≥ previous + `row_gap_m`; `inward_rows` (glass_base, roof_edge) x ≤ previous. (26 October 2026, 00:02:25 +0100)
+>      - Then CROWN columns (`crown_n` 4, `crown_p` 3). (26 October 2026, 00:02:25 +0100)
+>      - Then quads, then WHEEL ARCHES CUT IN THE CONSTRUCTION: (26 October 2026, 00:02:25 +0100)
+>        - remove quads whose centroid is inside the cylinder (|x| > `arch_x0`, distance < `tyre_r*arch_pad_cut`); (26 October 2026, 00:02:25 +0100)
+>        - boundary vertices are snapped radially onto the arc only if the new y ≥ `min_y`, otherwise they slide along z; (26 October 2026, 00:02:25 +0100)
+>        - wheels are read from `C["wheels"]`, relative to the params directory. (26 October 2026, 00:02:25 +0100)
+>      - Then end caps, using `R_orig`. (26 October 2026, 00:02:25 +0100)
+>      - Saved npz contains `grid_shape`, `grid_cols`, `P`, `Q`, `names`, `panel`. (26 October 2026, 00:02:25 +0100)
+>
+>    - **`work/car/loft_params.json`** (current): `n_per_m` 80, `fair` 1, `knot_m` 0.9, `lam` 0.01, `end_weight` 1.0, `fit_skip_ends` 1, `arch_rows` ["fender_inner","sill","door_low"], `arch_pad` 1.08, `arch_skip` 1.0, `breaks` {roof_centre, roof_edge, glass_base: [1.56, -1.77]}, `order_rows` 1, `row_gap_m` 0.003, `crown_n` 4, `crown_p` 3.0, `groove_rows` {belt 0.008, door_low 0.008}, `arch_cut` 1, `arch_pad_cut` 1.14, `arch_x0` 0.40, `min_y` 0.10. Backup: `loft_params_v165.json`. (26 October 2026, 00:02:25 +0100)
+>
+>    - **`Scripts/ShapeCheck.py`** (new). Usage: `python ShapeCheck.py <loft.npz> <cage_prefix> [z0=-2.10] [z1=1.86] [max_inflections=2]`. (26 October 2026, 00:02:25 +0100)
+>      - Reports inflections per row of x(z) and y(z) (arch zones excluded using `wheel_params.json`), folds (y decreasing among rows from the sill up), crease angles, and a `clean` flag. (26 October 2026, 00:02:25 +0100)
+>      - Measured: the old loft had 20 to 35 inflections per row; v170 has 0 folds and 0 to 3 inflections. (26 October 2026, 00:02:25 +0100)
+>
+>    - **`Scripts/CleanView.py`** (new). Usage: `python CleanView.py <car.npz> <out.png> [exclude=sub1,sub2] [cusp_deg=30] [res=900]`. (26 October 2026, 00:02:25 +0100)
+>      - Four views: three_quarter_front, three_quarter_rear, side, front. (26 October 2026, 00:02:25 +0100)
+>      - Smooth shading; camera-space light `[0.30, 0.55, 0.78]`. (26 October 2026, 00:02:25 +0100)
+>      - Renders only the given npz, never the scene. (26 October 2026, 00:02:25 +0100)
+>
+>    - **`Scripts/Raster.py`**: `Renderer(vertices, faces, smooth_deg=0.0)`. It now computes vertex normals and keeps per-corner normals within the cusp angle. (26 October 2026, 00:02:25 +0100)
+>
+>    - **`Scripts/CarLoft.py`**. (26 October 2026, 00:02:25 +0100)
+>      - Nodes: IN_rowloft, loft_rev, loft_arch_cyl and loft_arch_cyl_rev, loft_arch_cut. (26 October 2026, 00:02:25 +0100)
+>      - Automatic winding choice: the pairing that keeps the most faces. (26 October 2026, 00:02:25 +0100)
+>      - `body_method_switch` driven by `body_source`. (26 October 2026, 00:02:25 +0100)
+>      - `arch_cut_panels`, a boolean on the finished panels with automatic winding, plus `arch_cut_clean` (sliver_area). (26 October 2026, 00:02:25 +0100)
+>      - `arch_cut_switch` input expression `ch("../CTRL_zrm/body_source") * ch("../CTRL_zrm/arch_cut_bool")`; `arch_cut_bool` defaults to 0, legacy. (26 October 2026, 00:02:25 +0100)
+>
+>    - **`Scripts/BuildCar.sh`**. Pipeline: (26 October 2026, 00:02:25 +0100)
+>      1. RunCar. (26 October 2026, 00:02:25 +0100)
+>      2. `ZRM_NO_COMP=1` ArchetypeCar → `arch_loft`. (26 October 2026, 00:02:25 +0100)
+>      3. RowLoft → `loft_v2.npz`. (26 October 2026, 00:02:25 +0100)
+>      4. Houdini: set CTRL params (body_source, body_method 2, panel_gap, glass_inset, groove_depth, groove_contour, arch_x0, arch_pad_loft) BEFORE executing CarLoft. (26 October 2026, 00:02:25 +0100)
+>      5. Export the unclipped body with nose_on and tail_on at 0. (26 October 2026, 00:02:25 +0100)
+>      6. NoseFacets, then TailFace (or facets). (26 October 2026, 00:02:25 +0100)
+>      7. CarNose, then nose_on 1, then CarTail and tail_on. (26 October 2026, 00:02:25 +0100)
+>      8. Export body_panels; build `body_nose.npz` (including the tail when TAIL_ON). (26 October 2026, 00:02:25 +0100)
+>      9. TrimBuild, ArchBuild (IN_arch_v1, merge input 5), WheelBuild, ChassisBuild, CarCuts. (26 October 2026, 00:02:25 +0100)
+>      10. Export `car_<tag>.npz`; materials renders (front and rear); obj; SheetScore; LineScore → `work/car/lines_<tag>.json`. (26 October 2026, 00:02:25 +0100)
+>
+>    - **`Scripts/CageComp.py`**: `learn_roof` 1, `roof_bias_m` 0.012. `LOFT=1` mode uses RowLoft, writes `cage_comp_loft.json`, and measures the shoulder width by `trimesh.section` (`loft_width_at`). Run `LOFT=1 python CageComp.py iters=3` after changing loft params. (26 October 2026, 00:02:25 +0100)
+>
+>    - **`Scripts/archetypes/ArchetypeCar.py`**: `ZRM_NO_COMP` reads `cage_comp_loft.json`; `cage_fair` (knot 0.35); `joint_curves` and `joint_points`; `planar_panels` []; `design_rows_ext`; `plan_clamp` 1.03; `end_face_from_extreme`; BAND door_low → flank. (26 October 2026, 00:02:25 +0100)
+>
+>    - **`work/car/trim_params.json`**. (26 October 2026, 00:02:25 +0100)
+>      - 49 `CAR_joint_*` tubes moved to `_removed`. (26 October 2026, 00:02:25 +0100)
+>      - Kept: bumper_rear_step, diffuser_rear (protrude -0.03), fascia_front_band, fascia_rear_panel (px [200, 432]), grille_bar, grille_lower, grille_upright 01 to 05 (tubes), light_bar_rear, splitter (tube), vent_fender (px [380, 411], py [195, 199], protrude 0.002), vent_rear L and R, vent_rear_low L and R (px [171, 225] and [407, 461]). (26 October 2026, 00:02:25 +0100)
+>      - Backup: `trim_params_v165.json`. (26 October 2026, 00:02:25 +0100)
+>
+>    - **`work/car/arch_lip_params.json`**: arches plus strips CAR_pillar_a, CAR_pillar_b, CAR_roof_molding, CAR_rocker_trim (`w` 0.05 to `w_end` 0.17). CAR_line_* moved to `_removed_strips`. Backup: `arch_lip_params_v165.json`. (26 October 2026, 00:02:25 +0100)
+>
+>    - **Other parameter files**: (26 October 2026, 00:02:25 +0100)
+>      - `work/car/tail_face_params.json`: cut -2.10, `full_height` 1, `plan_interp` 1, `tip_z_points`, `top_smooth` 5. (26 October 2026, 00:02:25 +0100)
+>      - `nose_params.json`: cut 1.86, roof_centre tip 0.53, `plan_clamp`. (26 October 2026, 00:02:25 +0100)
+>      - `wheel_params.json`: spokes 6, spoke_w 0.06, split_gap 0.008, rim_r 0.33, spoke_ridge 0.03, grooves 6. (26 October 2026, 00:02:25 +0100)
+>      - `chassis_params.json`: plates and bolts. (26 October 2026, 00:02:25 +0100)
+>      - `lines/nose_rows.json`: roof_edge keypoints, including the A pillar and the narrowed rear. (26 October 2026, 00:02:25 +0100)
+>      - Backups: `nose_rows_v158.json`, `design_curves_side_world_v99.json`. (26 October 2026, 00:02:25 +0100)
+>
+>    - **Other tools created this session**: Scripts/ProfileGap.py, ViewBlame.py, CompareFace.py, Board.sh, NoseFacets.py, CarNose.py, CarTail.py, TailFace.py, ArchBuild.py, LineScore.py, RegionCensus.py, PartFilter.py, RowKeypoints.py, LoftTry.sh. (26 October 2026, 00:02:25 +0100)
+>
+>    - **Memory and doctrine**: (26 October 2026, 00:02:25 +0100)
+>      - `/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/memory/feedback_autonomy_no_questions_until_deadline.md`. (26 October 2026, 00:02:25 +0100)
+>      - `feedback_clean_component_first.md`. (26 October 2026, 00:02:25 +0100)
+>      - MEMORY.md lines for both. (26 October 2026, 00:02:25 +0100)
+>      - `/Users/zenray/.claude/Memory1/Projects/zenray-meshes/Rules.md` and FEEDBACK.md: rules added via feedback.py. (26 October 2026, 00:02:25 +0100)
+>      - `ZenRayMeshes1.md` section 14: component status, committed. (26 October 2026, 00:02:25 +0100)
+>      - `/Users/zenray/.claude/rules/ParametricHda1.md`: 3D Production Workflow section, with triggers in triggers.json and a CLAUDE.md pointer (CLAUDE.md margin is only 59 bytes, so put no more text there). (26 October 2026, 00:02:25 +0100)
+>      - Skill sections 26 to 41 written. The NEW clean method (v166 to v170) is NOT yet consigned in the skill. (26 October 2026, 00:02:25 +0100)
+>
+> 4. **Errors and fixes** (26 October 2026, 00:02:25 +0100)
+>
+>    - **`body_method` collision:** a new CTRL parameter overwrote the existing one, so v44 to v47 had no panel names. Renamed to `body_source`. (26 October 2026, 00:02:25 +0100)
+>    - **LineScore tiles:** tiles have unequal heights, so pixel reads were offset (sides +16, back +8, bottom +59). Fixed by `tile_y0` in the output. (26 October 2026, 00:02:25 +0100)
+>    - **Rejected score gains:** tubes extended to ±0.94 m formed a floating cage (v157). Tubes floating off the surface were caught in Houdini; fixed by snapping to the surface within 15 cm and dropping beyond. (26 October 2026, 00:02:25 +0100)
+>    - **Booleans:** winding choice changed between builds; then `arch_cut_panels` kept 2,252 of 25,360 faces (v167 build failed with "zero-size array"). Replaced by the arch cut in the RowLoft construction; the boolean is now optional. (26 October 2026, 00:02:25 +0100)
+>    - **Floor dive (blue trapezoid under the back view):** floor_edge skipped its arch stations and the spline dove to -0.05 m. Removed floor_edge from `arch_rows` and added `min_y`. Then the arc snap pulled points below the floor (-0.054); fixed by a safe snap (radial only if y ≥ `min_y`, otherwise slide along z). (26 October 2026, 00:02:25 +0100)
+>    - **End stations:** end faces with ground shadow pulled the floor down; fixed by `fit_skip_ends` and `end_weight` 1. (26 October 2026, 00:02:25 +0100)
+>    - **Temporary params:** a relative `wheels` path failed; use an absolute path. (26 October 2026, 00:02:25 +0100)
+>    - **Captures:** Houdini flipbook isolation showed ZRM_Tree; the user complained. Fixed by CleanView, which renders the car npz only. (26 October 2026, 00:02:25 +0100)
+>    - **Inflection counting:** ShapeCheck counted the arch snap and the C0 breaks as inflections; arch zones are now excluded (breaks still count, about 3 on glass_base). (26 October 2026, 00:02:25 +0100)
+>    - **Earlier (pre-feedback):** reverted attempts recorded in the skill (sections 30 to 41): face, cut and shoulder widening of the tail; groove depth; and others. (26 October 2026, 00:02:25 +0100)
+>    - **User feedback (most important):** stop patching for scores; build one clean component with few control points, then refine; captures of the car only. (26 October 2026, 00:02:25 +0100)
+>
+> 5. **Problem Solving** (26 October 2026, 00:02:25 +0100)
+>
+>    **Solved:** clean body surface via low-control-point curves plus ordering plus the construction arch cut (v170: smooth, crisp, ShapeCheck 0 folds and at most 3 inflections; IoU 0.9515; lines 0.613 without the hack tubes). (26 October 2026, 00:02:25 +0100)
+>
+>    **Ongoing, from the v170 views:** (26 October 2026, 00:02:25 +0100)
+>    - Rear shoulders too narrow: red at the sides in the back view, back IoU 0.923, CageComp width error about 22 mm. (26 October 2026, 00:02:25 +0100)
+>    - Rear wheels outside the body at the rear corners in the rear three-quarter view. (26 October 2026, 00:02:25 +0100)
+>    - The tail face reads as a dark box. (26 October 2026, 00:02:25 +0100)
+>    - Line score lower than the old hacked version (expected). (26 October 2026, 00:02:25 +0100)
+>
+> 6. **All user messages** (26 October 2026, 00:02:25 +0100)
+>
+>    **Pre-compaction** (summarised previously): (26 October 2026, 00:02:25 +0100)
+>    - The component method request. (26 October 2026, 00:02:25 +0100)
+>    - The dataset request. (26 October 2026, 00:02:25 +0100)
+>    - "/dont-stop ... fini la voiture ...". (26 October 2026, 00:02:25 +0100)
+>    - "Je t'ai déjà dit de faire tous les composants jusqu'à la fin ... relance un cron toutes les minutes ... consigne dans le skill ... /dont-stop". (26 October 2026, 00:02:25 +0100)
+>
+>    **Repeated automatic cron prompt:** "ZenRay Meshes, relance automatique (Matthieu, 25 October 2026) : si la boucle s'est arrêtée, reprends la voiture PAR COMPOSANTS là où elle en est. Lis .../SKILL.md sections 21 à 26, la feuille de composants dans .../ZenRayMeshes1.md section 10, et le dernier rendu dans .../versions/. Demande-toi : la voiture est-elle identique à la feuille de référence, tous les composants construits ? Si non, construis le composant suivant (jamais d'ajustement global aux silhouettes), vérifie par rendu matériaux et projection sur la planche, consigne l'apprentissage dans le skill (section datée), puis continue. /dont-stop" (26 October 2026, 00:02:25 +0100)
+>
+>    **Pasted:** "Mais qu'est-ce que tu fais? Genre, prends en autonomie toutes les décisions futures et va jusqu'à... Et ne me pose plus de questions jusqu'à demain matin. Demain matin à 8 h. Donc là, pour l'instant, tu continues. ... tu compares les images, tu te dis, est-ce que c'est la même chose? Et tant que c'est pas la même chose, bah, tu continues d'itérer ... il faut que tu fasses une recherche via toutes les méthodologies que tu as déjà apprises ... si t'arrives pas à faire un truc, tu te poses la question de la méthodologie et ensuite tu débloques." (26 October 2026, 00:02:25 +0100)
+>
+>    **3D rules:** "add to consigne pour zenray meshes 3D tu peux aussi ajouter ces consignes rapidement à /claude-md-global ## 3D Production Workflow - Use one orchestrator Claude instance to manage specialized sub-agents ... - Build and use custom tools when needed. consign every tools already created or subtool that works always divide your work into atomic tasks ... - Use iterative loops ... ## Rules - No guessing. Do research before building. - Compare everything to moodboards and references. - Learn from mistakes ... - Nothing in the real world has perfectly cut edges ... for industrial models use 3D guides likes nurbs then convert. - Expertise and a structured workflow are key. ## Tools - Use external vision models ... Ensuite continue la voiture en autonomie" (26 October 2026, 00:02:25 +0100)
+>
+>    **Latest (mid-turn):** "tu vas continuer avec le cron ... je comprends pas pourquoi, avec tout ton knowledge, tu fais toujours pas une version beaucoup plus propre ... la voiture, elle est toujours cabossée ... Je comprends pas pourquoi tu fais pas un component propre ... aucun 3D artiste aurait jamais fait ce que tu fais ... première étape, c'est de faire un component qui ressemble plus ou moins, et ensuite tu lisses les trucs jusqu'à affiner la forme ... peut-être que tu devrais finir au moins un seul component propre, et ensuite tu itères ... tu dois consigner les choses pour comprendre comment on crée des formes ... C'est du machine learning ... tu consignes toutes les erreurs ... mais garde le cron et continue de consigner et focus uniquement sur la voiture jusqu'à demain 8h." (26 October 2026, 00:02:25 +0100)
+>
+>    **Pasted with it:** "... chez Tesla ou chez Renault ... tu construirais vraiment atomiquement, components par components, et t'as forcément des plans qui existent sur le net ... Tesla Roadster, je crois ... une méthode pour un 3D tech artiste pour créer un software qui permettrait de recréer n'importe quelle forme 3D ... c'est dégueulasse ton résultat ... pourquoi tu pars pas d'un résultat qui est propre ... pourquoi tu fais un résultat aussi organique, bizarre." Followed by: "Et enfin, des fois dans tes captures, tu prends le tronc de l'arbre ou d'autres assets, mais je t'ai dit focus uniquement sur la voiture, donc arrête de faire des erreurs. itère jusqu'à demain et continue d'améliorer zenray meshes" (26 October 2026, 00:02:25 +0100)
+>
+> 7. **Pending Tasks** (26 October 2026, 00:02:25 +0100)
+>
+>    - Consign the new clean method in the skill (new dated section, about section 42), including: (26 October 2026, 00:02:25 +0100)
+>      - RowLoft clean curves (knot 0.9, breaks, `fit_skip_ends`, `order_rows`, `min_y`, construction arch cut with safe snap); (26 October 2026, 00:02:25 +0100)
+>      - ShapeCheck and CleanView tools; (26 October 2026, 00:02:25 +0100)
+>      - removal of the hack tubes and why; (26 October 2026, 00:02:25 +0100)
+>      - errors: floor dive, snap below the floor, boolean failure, tree in captures; (26 October 2026, 00:02:25 +0100)
+>      - numbers v166 to v170. (26 October 2026, 00:02:25 +0100)
+>    - Then run sync-skill, the progress entry, save the hip, and an Assets checkpoint. (26 October 2026, 00:02:25 +0100)
+>    - Send CleanView images of the car alone to the user (`versions/Clean_v170.png`). (26 October 2026, 00:02:25 +0100)
+>    - Continue iterating the clean body until 8 am, component by component: (26 October 2026, 00:02:25 +0100)
+>      - fix the narrow rear shoulders and wheels outside the body at the rear; (26 October 2026, 00:02:25 +0100)
+>      - check the tail face and nose blend with the clean body; (26 October 2026, 00:02:25 +0100)
+>      - keep ShapeCheck clean (0 folds, at most 2 or 3 inflections); (26 October 2026, 00:02:25 +0100)
+>      - then refine other components cleanly (panel lines as real geometry, not tubes). (26 October 2026, 00:02:25 +0100)
+>    - Keep the cron running; answer each relaunch by working (no questions). (26 October 2026, 00:02:25 +0100)
+>    - Close turns with the 3-column table and `wrap_up`. (26 October 2026, 00:02:25 +0100)
+>
+> 8. **Current Work** (26 October 2026, 00:02:25 +0100)
+>
+>    Immediately before this summary I built v170 with the clean-curve body: (26 October 2026, 00:02:25 +0100)
+>    ``` (26 October 2026, 00:02:25 +0100)
+>    LOFT=1 python Scripts/CageComp.py iters=3 (26 October 2026, 00:02:25 +0100)
+>    zsh Scripts/BuildCar.sh v170 (26 October 2026, 00:02:25 +0100)
+>    ``` (26 October 2026, 00:02:25 +0100)
+>    - Results: IoU mean 0.9515 (back 0.9232, left 0.9521, right 0.9434, top 0.9611, bottom 0.9669), lines 0.613, loft y min 0.1016, ShapeCheck folds 0. (26 October 2026, 00:02:25 +0100)
+>    - Viewed `versions/v170_back.png`: red at both rear shoulders, a thin blue line under the floor. (26 October 2026, 00:02:25 +0100)
+>    - Viewed `versions/Clean_v170.png` (CleanView, cusp 10): a clean, smooth body with crisp lines; in the rear three-quarter view the rear wheels stick out at the rear corners and the tail face looks like a dark box. (26 October 2026, 00:02:25 +0100)
+>    - The update_plan list from earlier in the session is still shown. (26 October 2026, 00:02:25 +0100)
+>    - No final message for this turn has been written yet: it should explain to the user, in French, the method change (one clean component, few control points, tubes removed, car-only captures), the measured cleanliness (old loft had 20 to 35 inflections per row, now 0 to 3, 0 folds) and the scores. (26 October 2026, 00:02:25 +0100)
+>
+> 9. **Optional Next Step** (26 October 2026, 00:02:25 +0100)
+>
+>    Continue exactly along the user's latest direction: "peut-être que tu devrais finir au moins un seul component propre, et ensuite tu itères" and "garde le cron et continue de consigner et focus uniquement sur la voiture jusqu'à demain 8h". (26 October 2026, 00:02:25 +0100)
+>    1. Write the dated skill section for the clean method (with the errors and numbers above), then sync-skill, the progress entry, save the hip. (26 October 2026, 00:02:25 +0100)
+>    2. Send `/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Clean_v170.png` (car only) to the user. (26 October 2026, 00:02:25 +0100)
+>    3. Fix the rear shoulder width and the rear-corner wheel coverage on the clean body while ShapeCheck stays clean. For example: (26 October 2026, 00:02:25 +0100)
+>       - check the `plan_clamp` (`ZRM_PLAN_CLAMP` 1.0) and the `loft_width_at` compensation near z -1.6 to -2.1; (26 October 2026, 00:02:25 +0100)
+>       - or add rear keypoints from the plan with the rows kept smooth. (26 October 2026, 00:02:25 +0100)
+>    4. Verify with SheetScore, LineScore, ShapeCheck and CleanView of the car alone. (26 October 2026, 00:02:25 +0100)
+>
+> If you need specific details from before compaction (like exact code snippets, error messages, or content you generated), read the full transcript at: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl (26 October 2026, 00:02:25 +0100)
+> Continue the conversation from where it left off without asking the user any further questions. Resume directly — do not acknowledge the summary, do not recap what was happening, do not preface with "I'll continue" or similar. Pick up the last task as if the break never happened. (26 October 2026, 00:02:25 +0100)
+>
+> The messages after this summary are the most recent messages from before compaction, kept verbatim. The summary was written without seeing them, so something it says has not happened yet may already have happened in them. (26 October 2026, 00:02:25 +0100)
+
+## 26 October 2026, 00:03:02 +0100 : Prompt
+
+<!-- feedback-event:491c3904d037b1fbf5dc6c9bfb3eb3a92caf65bb99827521d03ac9b68fe35dae (26 October 2026, 00:03:02 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 00:03:02 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 00:03:02 +0100)
+
+> [Image: original 1869x2472, displayed at 1512x2000. Multiply coordinates by 1.24 to map to original image.] (26 October 2026, 00:03:02 +0100)
+
+## 26 October 2026, 00:04:39 +0100 : Iteration
+
+<!-- feedback-event:debab8a547cb899f4af16e0f3406e23e1706aecd63218539202e0e1790715e92 (26 October 2026, 00:04:39 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 00:04:39 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 00:04:39 +0100)
+
+> Je mesure la largeur de la caisse propre autour des roues arrière avant de corriger ; la section du skill suit juste après. (26 October 2026, 00:04:39 +0100)
+
+## 26 October 2026, 00:09:08 +0100 : Iteration
+
+<!-- feedback-event:be3ce02235249891fae185e36432c916c23a9d92dd137aeeca1a7f4250f1342b (26 October 2026, 00:09:08 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 00:09:08 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 00:09:08 +0100)
+
+> Je rends la « bosse » qui couvre les pneus vraiment lisse (le premier essai débordait de 16 cm), puis je regarde la voiture seule. (26 October 2026, 00:09:08 +0100)
+
+## 26 October 2026, 00:17:41 +0100 : Prompt
+
+<!-- feedback-event:66cfd8327cce8f7ba53cf93b058853cd8b460942b690083eaf7f2b3b272facb6 (26 October 2026, 00:17:41 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 00:17:41 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 00:17:41 +0100)
+
+> [Image: original 2000x2000, displayed at 1932x1932. Multiply coordinates by 1.04 to map to original image.] (26 October 2026, 00:17:41 +0100)
+
+## 26 October 2026, 00:18:14 +0100 : Prompt
+
+<!-- feedback-event:0fa255e81116deb6bfd780717c10c15c2e1a456dd83a2641e65f1432e4c6cd47 (26 October 2026, 00:18:14 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 00:18:14 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 00:18:14 +0100)
+
+> [Image: original 2000x2000, displayed at 1932x1932. Multiply coordinates by 1.04 to map to original image.] (26 October 2026, 00:18:14 +0100)
+
+## 26 October 2026, 00:18:39 +0100 : Iteration
+
+<!-- feedback-event:8e1ef06c1346f4907337796f51d0d25887cae59317abaa8ceaa755de3ec3291e (26 October 2026, 00:18:39 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 00:18:39 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 00:18:39 +0100)
+
+> Le nouveau repère a fait apparaître des trous au-dessus du passage de roue arrière : je regarde la seule caisse en fil de fer autour de cette roue pour trouver l'endroit exact. (26 October 2026, 00:18:39 +0100)
+
+## 26 October 2026, 00:20:15 +0100 : Iteration
+
+<!-- feedback-event:16262f306933f303ec4cd49c52f0f773c0527bf0a8c0a3cf713f84af14910408 (26 October 2026, 00:20:15 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 00:20:15 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 00:20:15 +0100)
+
+> Les deux passages sont maintenant des cercles nets (fil de fer ci-dessus). Je reconstruis la voiture complète (v174). (26 October 2026, 00:20:15 +0100)
+
+## 26 October 2026, 00:21:34 +0100 : Prompt
+
+<!-- feedback-event:6068c4f7da8e0701da2fe0d272c016413ec0ff1802af2ccc555c3c2e08387f7d (26 October 2026, 00:21:34 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 00:21:34 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 00:21:34 +0100)
+
+> [Image: original 2000x2000, displayed at 1932x1932. Multiply coordinates by 1.04 to map to original image.] (26 October 2026, 00:21:34 +0100)
+
+## 26 October 2026, 00:21:46 +0100 : Prompt
+
+<!-- feedback-event:73f320f15438665ee407b828ebd27a06d9d0c0efdf6b84b8ac81332c841a0fc1 (26 October 2026, 00:21:46 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 00:21:46 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 00:21:46 +0100)
+
+> [Image: original 2130x1800, displayed at 2000x1690. Multiply coordinates by 1.06 to map to original image.] (26 October 2026, 00:21:46 +0100)
+
+## 26 October 2026, 00:22:13 +0100 : Prompt
+
+<!-- feedback-event:5260b106f73e98bf6cedc4a3814251ad1c94809c047c947708e1f7e36f49ea87 (26 October 2026, 00:22:13 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 00:22:13 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 00:22:13 +0100)
+
+> [Image: original 2000x2000, displayed at 1932x1932. Multiply coordinates by 1.04 to map to original image.] (26 October 2026, 00:22:13 +0100)
+
+## 26 October 2026, 00:24:13 +0100 : Prompt
+
+<!-- feedback-event:19fec45dc4ead647ea1727e2cc227713b4ff69629fe5d818b6e775b93d356713 (26 October 2026, 00:24:13 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 00:24:13 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 00:24:13 +0100)
+
+> [Image: original 2000x2000, displayed at 1932x1932. Multiply coordinates by 1.04 to map to original image.] (26 October 2026, 00:24:13 +0100)
+
+## 26 October 2026, 00:25:43 +0100 : Prompt
+
+<!-- feedback-event:9de8a94b4ef26be200b379bd4b181a4903d00293bcfd3a0c967a6d9de7d4deb2 (26 October 2026, 00:25:43 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 00:25:43 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 00:25:43 +0100)
+
+> [Image: original 2000x2000, displayed at 1932x1932. Multiply coordinates by 1.04 to map to original image.] (26 October 2026, 00:25:43 +0100)
+
+## 26 October 2026, 00:25:56 +0100 : Iteration
+
+<!-- feedback-event:e9f1b526cb957d90bc228cb4d425de0908746affbe423655bbb4c32b7e5253ed (26 October 2026, 00:25:56 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 00:25:56 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 00:25:56 +0100)
+
+> Je construis la v175 avec la nouvelle poupe paramétrique ; pendant ce temps j'ai regardé le nez de près : forme lisible, mais le passage de roue avant porte encore des petites pièces mal posées. (26 October 2026, 00:25:56 +0100)
+
+## 26 October 2026, 00:26:02 +0100 : Prompt
+
+<!-- feedback-event:74996ae5feacd49c61c390f693db422167df3230243aa532db02a62a00801357 (26 October 2026, 00:26:02 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 00:26:02 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 00:26:02 +0100)
+
+> [Image: original 2000x2000, displayed at 1932x1932. Multiply coordinates by 1.04 to map to original image.] (26 October 2026, 00:26:02 +0100)
+
+## 26 October 2026, 00:29:23 +0100 : Prompt
+
+<!-- feedback-event:2259a51338fc6dc24e4f2c3fbd897e88481e62db460945fca7b0cb9e4ac4e6ae (26 October 2026, 00:29:23 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 00:29:23 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 00:29:23 +0100)
+
+> [Image: original 2000x2000, displayed at 1932x1932. Multiply coordinates by 1.04 to map to original image.] (26 October 2026, 00:29:23 +0100)
