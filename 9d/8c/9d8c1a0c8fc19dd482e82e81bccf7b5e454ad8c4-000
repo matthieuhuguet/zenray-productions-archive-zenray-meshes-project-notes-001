@@ -6332,3 +6332,123 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 21:38:34 +0100)
 
 > Caisse en loft branchée (v44) : face meilleure (0,954), mais les côtés chutent à 0,88. Je regarde pourquoi. (25 October 2026, 21:38:34 +0100)
+
+## 25 October 2026, 21:39:48 +0100 : Iteration
+
+<!-- feedback-event:7d27c6519ab39b301122da91eeb663914fe03799cca8a23a33a1b076454443c3 (25 October 2026, 21:39:48 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 21:39:48 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 21:39:48 +0100)
+
+> Moyenne 0,9534, au niveau de l'ancienne caisse, avec une face meilleure (0,954 contre 0,947). Je juge à l'œil. (25 October 2026, 21:39:48 +0100)
+
+## 25 October 2026, 21:41:05 +0100 : Iteration
+
+<!-- feedback-event:89184f634395963f231c844dbd5c3cf9c73a0d8ca0116d4edbc971fe52f5e828 (25 October 2026, 21:41:05 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 21:41:05 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 21:41:05 +0100)
+
+> Net progrès : moyenne 0,9531 → 0,9584, toutes les vues montent (face 0,956, côtés 0,955 et 0,952, dessus 0,967). Je regarde à l'œil. (25 October 2026, 21:41:05 +0100)
+
+## 25 October 2026, 21:41:17 +0100 : Iteration
+
+<!-- feedback-event:99f2e676b14bd99b06fdb54dba4cd09ef6998fc0cb903731a8596567260c19e6 (25 October 2026, 21:41:17 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 21:41:17 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 21:41:17 +0100)
+
+> Ce rendu n'a ni vitres ni nez en facettes : la caisse en loft est restée active malgré le défaut remis à 0. Je vérifie l'interrupteur. (25 October 2026, 21:41:17 +0100)
+
+## 25 October 2026, 21:43:35 +0100 : Iteration
+
+<!-- feedback-event:6ef6e2846935d6b46178e9102cfbff18c14dc8cb624c8bcb7f156058b790acbd (25 October 2026, 21:43:35 +0100) -->
+- Project: zenray-meshes; kind: iteration. (25 October 2026, 21:43:35 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 21:43:35 +0100)
+
+> De côté, la poupe pend comme une bavette derrière la roue : le plan de coupe (‑2,0) passe encore dans le passage de roue arrière, qui finit à ‑2,08. Je recule la coupe à ‑2,10. (25 October 2026, 21:43:35 +0100)
+
+## 25 October 2026, 21:44:32 +0100 : Prompt
+
+<!-- feedback-event:324a87126cfc53021b8bc77288f085935d8ffa59d11c1596902d5e8d42b8ec45 (25 October 2026, 21:44:32 +0100) -->
+- Project: zenray-meshes; kind: prompt. (25 October 2026, 21:44:32 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 21:44:32 +0100)
+
+> add to consigne pour zenray meshes 3D tu peux aussi ajouter ces consignes rapidement à /claude-md-global  (25 October 2026, 21:44:32 +0100)
+> ## 3D Production Workflow (25 October 2026, 21:44:32 +0100)
+>
+> - Use one orchestrator Claude instance to manage specialized sub-agents, each with a specific job / task to divide modeling (components, sheets, documentation, etc.). (25 October 2026, 21:44:32 +0100)
+> - Build and use custom tools when needed. consign every tools already created or subtool that works (25 October 2026, 21:44:32 +0100)
+> always divide your work into atomic tasks that succeed components is only one example. (25 October 2026, 21:44:32 +0100)
+> - Use iterative loops to evaluate and improve results. (25 October 2026, 21:44:32 +0100)
+>
+> ## Rules (25 October 2026, 21:44:32 +0100)
+>
+> - No guessing. Do research before building. (25 October 2026, 21:44:32 +0100)
+> - Compare everything to moodboards and references. (25 October 2026, 21:44:32 +0100)
+> - Learn from mistakes and apply corrections in subsequent iterations. (25 October 2026, 21:44:32 +0100)
+> - Nothing in the real world has perfectly cut edges. Never make perfectly cut edges. for organic/ but for industrial models use 3D guides likes nurbs then convert. (25 October 2026, 21:44:32 +0100)
+> - Expertise and a structured workflow are key. (25 October 2026, 21:44:32 +0100)
+>
+> ## Tools (25 October 2026, 21:44:32 +0100)
+>
+> - Use external vision models the best with research to improve visual understanding when available. (25 October 2026, 21:44:32 +0100)
+
+## 25 October 2026, 21:44:35 +0100 : Prompt
+
+<!-- feedback-event:4b8b162cc2b56ab18d191c117ebc93ba062cc22234ba344a1722a870aa5ce8db (25 October 2026, 21:44:35 +0100) -->
+- Project: zenray-meshes; kind: prompt. (25 October 2026, 21:44:35 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 21:44:35 +0100)
+
+> add to consigne pour zenray meshes 3D tu peux aussi ajouter ces consignes rapidement à /claude-md-global  (25 October 2026, 21:44:35 +0100)
+> ## 3D Production Workflow (25 October 2026, 21:44:35 +0100)
+>
+> - Use one orchestrator Claude instance to manage specialized sub-agents, each with a specific job / task to divide modeling (components, sheets, documentation, etc.). (25 October 2026, 21:44:35 +0100)
+> - Build and use custom tools when needed. consign every tools already created or subtool that works (25 October 2026, 21:44:35 +0100)
+> always divide your work into atomic tasks that succeed components is only one example. (25 October 2026, 21:44:35 +0100)
+> - Use iterative loops to evaluate and improve results. (25 October 2026, 21:44:35 +0100)
+>
+> ## Rules (25 October 2026, 21:44:35 +0100)
+>
+> - No guessing. Do research before building. (25 October 2026, 21:44:35 +0100)
+> - Compare everything to moodboards and references. (25 October 2026, 21:44:35 +0100)
+> - Learn from mistakes and apply corrections in subsequent iterations. (25 October 2026, 21:44:35 +0100)
+> - Nothing in the real world has perfectly cut edges. Never make perfectly cut edges. for organic/ but for industrial models use 3D guides likes nurbs then convert. (25 October 2026, 21:44:35 +0100)
+> - Expertise and a structured workflow are key. (25 October 2026, 21:44:35 +0100)
+>
+> ## Tools (25 October 2026, 21:44:35 +0100)
+>
+> - Use external vision models the best with research to improve visual understanding when available. (25 October 2026, 21:44:35 +0100)
+
+## 25 October 2026, 21:44:33 +0100 : Prompt
+
+<!-- feedback-event:d579e47e9827680ddbca9dedf1663873bb2245464babef879bfacd6909f4a2ec (25 October 2026, 21:44:33 +0100) -->
+- Project: zenray-meshes; kind: prompt. (25 October 2026, 21:44:33 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 21:44:33 +0100)
+
+> Ensuite continue la voiture en autonomie (25 October 2026, 21:44:33 +0100)
+
+## 25 October 2026, 21:44:35 +0100 : Prompt
+
+<!-- feedback-event:db785bc6ea351adeab61a03d1e48effeeb0b60f2a887f7ef98a8d458a4572113 (25 October 2026, 21:44:35 +0100) -->
+- Project: zenray-meshes; kind: prompt. (25 October 2026, 21:44:35 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (25 October 2026, 21:44:35 +0100)
+
+> add to consigne pour zenray meshes 3D tu peux aussi ajouter ces consignes rapidement à /claude-md-global  (25 October 2026, 21:44:35 +0100)
+> ## 3D Production Workflow (25 October 2026, 21:44:35 +0100)
+>
+> - Use one orchestrator Claude instance to manage specialized sub-agents, each with a specific job / task to divide modeling (components, sheets, documentation, etc.). (25 October 2026, 21:44:35 +0100)
+> - Build and use custom tools when needed. consign every tools already created or subtool that works (25 October 2026, 21:44:35 +0100)
+> always divide your work into atomic tasks that succeed components is only one example. (25 October 2026, 21:44:35 +0100)
+> - Use iterative loops to evaluate and improve results. (25 October 2026, 21:44:35 +0100)
+>
+> ## Rules (25 October 2026, 21:44:35 +0100)
+>
+> - No guessing. Do research before building. (25 October 2026, 21:44:35 +0100)
+> - Compare everything to moodboards and references. (25 October 2026, 21:44:35 +0100)
+> - Learn from mistakes and apply corrections in subsequent iterations. (25 October 2026, 21:44:35 +0100)
+> - Nothing in the real world has perfectly cut edges. Never make perfectly cut edges. for organic/ but for industrial models use 3D guides likes nurbs then convert. (25 October 2026, 21:44:35 +0100)
+> - Expertise and a structured workflow are key. (25 October 2026, 21:44:35 +0100)
+>
+> ## Tools (25 October 2026, 21:44:35 +0100)
+>
+> - Use external vision models the best with research to improve visual understanding when available. (25 October 2026, 21:44:35 +0100)
+>
+> Ensuite continue la voiture en autonomie (25 October 2026, 21:44:35 +0100)
