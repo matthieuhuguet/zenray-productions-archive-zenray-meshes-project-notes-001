@@ -10315,3 +10315,11 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 01:31:18 +0100)
 
 > J'écris un outil qui trace les rangées du modèle sur les vues de la planche, pour voir laquelle est mal placée. (26 October 2026, 01:31:18 +0100)
+
+## 26 October 2026, 01:33:18 +0100 : Iteration
+
+<!-- feedback-event:79a3e4c2bffebe98d2bdaf5da671eea32322bb004eaf1dea6527b1bb019c660f (26 October 2026, 01:33:18 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 01:33:18 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 01:33:18 +0100)
+
+> Le toit du modèle dépasse la planche de 1 à 2,5 cm sur toute sa longueur (le biais de 0,02 était trop fort au milieu). Je compare la cible de CageComp avec l'enveloppe réelle des masques. (26 October 2026, 01:33:18 +0100)
