@@ -12114,3 +12114,35 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:58:30 +0100)
 
 > Je refais le contrôle des pièces qui sortent de la caisse sur l'état retenu v337. (26 October 2026, 06:58:30 +0100)
+
+## 26 October 2026, 06:59:24 +0100 : Iteration
+
+<!-- feedback-event:cc2c2f25d65558fc66c76536caf3be830b9311fa63c6e66ab25973128b942c0a (26 October 2026, 06:59:24 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:59:24 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:59:24 +0100)
+
+> Aucune pièce ne sort plus de la caisse. Il reste l'heure : je regarde les arêtes de joue de la vue de face (2 × 0,22 m, de |x| 0,83, y 0,625 à |x| 0,94, y 0,81). (26 October 2026, 06:59:24 +0100)
+
+## 26 October 2026, 07:00:44 +0100 : Iteration
+
+<!-- feedback-event:af8f029899c6d6479091651682c4595c467470e18e666d40217032adc5210db6 (26 October 2026, 07:00:44 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:00:44 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:00:44 +0100)
+
+> Rainures de 16 mm : neutre (traits identiques, normales −0,002), je garde 12 mm. Essai suivant : colonnes fines plus serrées (12 → 8 mm du joint). (26 October 2026, 07:00:44 +0100)
+
+## 26 October 2026, 07:01:46 +0100 : Iteration
+
+<!-- feedback-event:efc878558efeb91aef68c56137d42da3a944124c5c0561e8e0eccdf80d3c3334 (26 October 2026, 07:01:46 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:01:46 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:01:46 +0100)
+
+> Colonnes à 8 mm : neutre aussi (moyenne identique). Je remets 12 mm. Ces réglages globaux sont au plateau ; je regarde une vraie pièce restante, les triangles de suspension vus de dessous. (26 October 2026, 07:01:46 +0100)
+
+## 26 October 2026, 07:03:32 +0100 : Iteration
+
+<!-- feedback-event:e7e453421f41cdabf8611e5f83b2b2c85eaa000ca79aa8a42e079c021db86961 (26 October 2026, 07:03:32 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:03:32 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:03:32 +0100)
+
+> Le bord incliné ne gagne rien (dos 0,900 → 0,899 : sans rangées de grille alignées sur la diagonale, le bord s'émiette) ; je l'enlève, l'option reste dans le code. (26 October 2026, 07:03:32 +0100)
