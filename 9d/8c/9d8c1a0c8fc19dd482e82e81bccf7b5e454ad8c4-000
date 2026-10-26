@@ -16658,3 +16658,89 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:10:20 +0100)
 
 > Pillow, ffmpeg with libx264, ffprobe and the GT Ultra font are all present. The listing shows 424 car materials files, not the 474 in the brief, and one tree board missing from the main line. I'll map exactly which versions have which files. (26 October 2026, 18:10:20 +0100)
+
+## 26 October 2026, 18:10:44 +0100 : Iteration
+
+<!-- feedback-event:4fcfba5758728ab4992843f6c672fb676a49a40ad9b0be88bf1ffc1a44b715c2 (26 October 2026, 18:10:44 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:10:44 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:10:44 +0100)
+
+> The car series in the folder runs to v474, not v470, and v1 to v7 have no car file of either pattern. Tree v19 is missing entirely. Next I'll check the car files for 470 to 474 and any other names for v1 to v7, then look at a sample of images before choosing the rules. (26 October 2026, 18:10:44 +0100)
+
+## 26 October 2026, 18:10:48 +0100 : Order of work
+
+<!-- feedback-event:de18899bb71f76800c09c30577d5a83eab1c477847f63a305c718fe5c49c22ad (26 October 2026, 18:10:48 +0100) -->
+- Project: zenray-meshes; kind: order. (26 October 2026, 18:10:48 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:10:48 +0100)
+
+> [Image: original 2130x1800, displayed at 2000x1690. Multiply coordinates by 1.06 to map to original image.] (26 October 2026, 18:10:48 +0100)
+
+## 26 October 2026, 18:10:48 +0100 : Order of work
+
+<!-- feedback-event:c5831049cc2024c21f2dd58a348440170174b730780c2c585cac0b88aa9c4b81 (26 October 2026, 18:10:48 +0100) -->
+- Project: zenray-meshes; kind: order. (26 October 2026, 18:10:48 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:10:48 +0100)
+
+> [Image: original 2130x1800, displayed at 2000x1690. Multiply coordinates by 1.06 to map to original image.] (26 October 2026, 18:10:48 +0100)
+
+## 26 October 2026, 18:10:48 +0100 : Order of work
+
+<!-- feedback-event:2148bc0c7fe06a22cf1673cd9adfe1dbadddee4e9d973c4d93283cc03b96f2e6 (26 October 2026, 18:10:48 +0100) -->
+- Project: zenray-meshes; kind: order. (26 October 2026, 18:10:48 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:10:48 +0100)
+
+> [Image: original 2130x1800, displayed at 2000x1690. Multiply coordinates by 1.06 to map to original image.] (26 October 2026, 18:10:48 +0100)
+
+## 26 October 2026, 18:10:50 +0100 : Prompt
+
+<!-- feedback-event:c2682cfbe5c697a3bfb1432dee975fc1b86ef1d06f6f898c078f0839e5f62fd9 (26 October 2026, 18:10:50 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 18:10:50 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:10:50 +0100)
+
+> [Image: original 2130x1800, displayed at 2000x1690. Multiply coordinates by 1.06 to map to original image.] (26 October 2026, 18:10:50 +0100)
+>
+> [Image: original 2130x1800, displayed at 2000x1690. Multiply coordinates by 1.06 to map to original image.] (26 October 2026, 18:10:50 +0100)
+>
+> [Image: original 2130x1800, displayed at 2000x1690. Multiply coordinates by 1.06 to map to original image.] (26 October 2026, 18:10:50 +0100)
+
+## 26 October 2026, 18:11:07 +0100 : Iteration
+
+<!-- feedback-event:939008a3fe753c5de30e1ff498c8ec4dd0f4e468ad351c1884f70bc53055369f (26 October 2026, 18:11:07 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:11:07 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:11:07 +0100)
+
+> Car v8, v250 and v470 all show the same four-view layout (side, front, top, perspective) with a material legend on the right. Next I'll read v100 and two tree boards, and measure where the legend panel begins. (26 October 2026, 18:11:07 +0100)
+
+## 26 October 2026, 18:11:11 +0100 : Order of work
+
+<!-- feedback-event:a4f0fdad0244896c116f336547b15d0286f6a259e318ac728470eb6f0fe54115 (26 October 2026, 18:11:11 +0100) -->
+- Project: zenray-meshes; kind: order. (26 October 2026, 18:11:11 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:11:11 +0100)
+
+> [Image: original 1236x3726, displayed at 663x2000. Multiply coordinates by 1.86 to map to original image.] (26 October 2026, 18:11:11 +0100)
+
+## 26 October 2026, 18:11:11 +0100 : Order of work
+
+<!-- feedback-event:e9e41697618cc1889f2e64dac96090af856648fa5dd901b2bc2253454e51f05a (26 October 2026, 18:11:11 +0100) -->
+- Project: zenray-meshes; kind: order. (26 October 2026, 18:11:11 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:11:11 +0100)
+
+> [Image: original 2130x1800, displayed at 2000x1690. Multiply coordinates by 1.06 to map to original image.] (26 October 2026, 18:11:11 +0100)
+
+## 26 October 2026, 18:11:14 +0100 : Prompt
+
+<!-- feedback-event:1932bc2c2f2a3ebd534e5bf89b615163c92290f866804fbb69e89e529c44d75f (26 October 2026, 18:11:14 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 18:11:14 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:11:14 +0100)
+
+> [Image: original 1236x3726, displayed at 663x2000. Multiply coordinates by 1.86 to map to original image.] (26 October 2026, 18:11:14 +0100)
+>
+> [Image: original 2130x1800, displayed at 2000x1690. Multiply coordinates by 1.06 to map to original image.] (26 October 2026, 18:11:14 +0100)
+
+## 26 October 2026, 18:11:21 +0100 : Iteration
+
+<!-- feedback-event:d8b55b2d8557d1ce1e0eb0a48043a574742c6c32123d3aba2201b151f2209b3c (26 October 2026, 18:11:21 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:11:21 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 18:11:21 +0100)
+
+> Je synchronise le skill puis je regarde l'état visuel du bois pour choisir le prochain défaut à corriger. (26 October 2026, 18:11:21 +0100)
