@@ -12461,3 +12461,134 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:38:16 +0100)
 
 > Je mesure l'arrière de la voiture sur la planche (dessus et profil) pour le dernier composant avant 8 h. (26 October 2026, 07:38:16 +0100)
+
+## 26 October 2026, 07:40:57 +0100 : Iteration
+
+<!-- feedback-event:313ed664bd9abdff64b2ee44df7349ba64bec15bc34b34f5434919d15382d4d0 (26 October 2026, 07:40:57 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:40:57 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:40:57 +0100)
+
+> Le joint arrière du toit recentré sur la paire de traits de la planche (v357) efface le trait manquant de 1,07 m en vue de dessus ; je le garde et je consigne. (26 October 2026, 07:40:57 +0100)
+
+## 26 October 2026, 07:42:05 +0100 : Iteration
+
+<!-- feedback-event:45d45cdf5a551f70af35927929273e728f7a0002a8e5624b6f23f6aaf39444f6 (26 October 2026, 07:42:05 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:42:05 +0100)
+- Source: checkpoint:claude:09d15ec8-88ad-4965-a2f0-80b68515e880. (26 October 2026, 07:42:05 +0100)
+
+> Voiture v357 : joint arriere du toit centre sur la paire de traits de la vue de dessus (z -1,02) ; silhouette 0,9690, traits 0,884 / 0,809 ; skill section 63 ; prochains composants : face arriere en retrait et bouclier saillant, levre du diffuseur (26 October 2026) (26 October 2026, 07:42:05 +0100)
+
+## 26 October 2026, 07:41:32 +0100 : Iteration
+
+<!-- feedback-event:a345af9ce82919ff11ad2adead956a0dbfb68440fe560c205ad8d7cd1923db8f (26 October 2026, 07:41:32 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:41:32 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:41:32 +0100)
+
+> v357 gardée (joint arrière du toit recentré, trait de 1,07 m retrouvé) ; je l'écris dans le skill puis je lance un dernier essai avant le bilan de 8 h. (26 October 2026, 07:41:32 +0100)
+
+## 26 October 2026, 07:42:23 +0100 : Iteration
+
+<!-- feedback-event:70e081bfe0f60164796184d75b5b1f257a1e1f64c74ad0af99032166d71ef7cc (26 October 2026, 07:42:23 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:42:23 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:42:23 +0100)
+
+> Je sonde le dessous de la queue (hauteur réelle du bouclier) pour savoir où poser la lèvre du diffuseur. (26 October 2026, 07:42:23 +0100)
+
+## 26 October 2026, 07:44:34 +0100 : Iteration
+
+<!-- feedback-event:d2b7c19bea7c4f9b5a0a385e92c2acdc1dd443cc435a0aa6dda363afc82e0bd3 (26 October 2026, 07:44:34 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:44:34 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:44:34 +0100)
+
+> La lèvre du diffuseur (y 0,375 à 0,39) tombe pile sur deux traits de la vue arrière, mais la nervure plus basse en ajoute de faux ; v359 garde la lèvre seule. (26 October 2026, 07:44:34 +0100)
+
+## 26 October 2026, 07:45:46 +0100 : Iteration
+
+<!-- feedback-event:ff51737f25f83c966bf62e43b6d51916f173a584e3acfb672d7b37e1b2926e71 (26 October 2026, 07:45:46 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:45:46 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:45:46 +0100)
+
+> v359 gardée : la lèvre du diffuseur ajoute le trait du dessous à z −2,25 et colle aux traits de la vue arrière ; je consigne puis je fais le bilan de 8 h. (26 October 2026, 07:45:46 +0100)
+
+## 26 October 2026, 07:46:16 +0100 : Iteration
+
+<!-- feedback-event:30c8eac2246e5c5e6be197dd0bd45a14daff31ac024e8c413c909f89e01dcaf2 (26 October 2026, 07:46:16 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:46:16 +0100)
+- Source: checkpoint:claude:09d15ec8-88ad-4965-a2f0-80b68515e880. (26 October 2026, 07:46:16 +0100)
+
+> Voiture v359 : levre du diffuseur sous la queue (y_top_m) ; silhouette 0,9691, traits 0,885 / 0,809 ; skill sections 63 et 64 (26 October 2026) (26 October 2026, 07:46:16 +0100)
+
+## 26 October 2026, 07:49:20 +0100 : Iteration
+
+<!-- feedback-event:fcf09bc62821b2fdad0e48122f1d791c920e69708334c3b60871e150f7eb6517 (26 October 2026, 07:49:20 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:49:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:49:20 +0100)
+
+> v360 gardée : une fine bande de bas de caisse retrouve le trait de 0,43 m derrière la porte (gauche 0,913, droite 0,918) ; je consigne puis je fais le bilan. (26 October 2026, 07:49:20 +0100)
+
+## 26 October 2026, 07:49:49 +0100 : Iteration
+
+<!-- feedback-event:70d91a05113e6850544e935356a9fbdb61ae98102c1183a447b6df632823946f (26 October 2026, 07:49:49 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:49:49 +0100)
+- Source: checkpoint:claude:09d15ec8-88ad-4965-a2f0-80b68515e880. (26 October 2026, 07:49:49 +0100)
+
+> Voiture v360 : bande fine de bas de caisse ; silhouette 0,9691, traits 0,886 / 0,809 ; skill sections 63 a 65 ; boucle de la nuit close a 8 h (26 October 2026) (26 October 2026, 07:49:49 +0100)
+
+## 26 October 2026, 07:52:09 +0100 : Iteration
+
+<!-- feedback-event:da4fee87f04b0c2859017959f5df149898cb7b2ad5e0face801ea59d54bbec97 (26 October 2026, 07:52:09 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:52:09 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:52:09 +0100)
+
+> Reconstruction de contrôle faite : v361 rebâtie depuis les mêmes paramètres est identique à v360 au point près. Je regarde le rendu final avant de l'envoyer. (26 October 2026, 07:52:09 +0100)
+
+## 26 October 2026, 07:52:09 +0100 : Prompt
+
+<!-- feedback-event:8c49d047ea51194b4f08b8a1ffed4e131cd5fc7144632508890d6f1b13f230c5 (26 October 2026, 07:52:09 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 07:52:09 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:52:09 +0100)
+
+> [Image: original 2800x1400, displayed at 2000x1000. Multiply coordinates by 1.40 to map to original image.] (26 October 2026, 07:52:09 +0100)
+
+## 26 October 2026, 07:52:28 +0100 : Iteration
+
+<!-- feedback-event:6585f57f98860722c7394dfecae2503c378a8060c557be76a98276cfc5ee40ab (26 October 2026, 07:52:28 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:52:28 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:52:28 +0100)
+
+> Bilan de 8 h : j'arrête la relance automatique et j'envoie les trois images finales. (26 October 2026, 07:52:28 +0100)
+
+## 26 October 2026, 07:53:13 +0100 : Iteration
+
+<!-- feedback-event:c441c231db4285cdae6b82ed774baf5e094db6678581da5b49505abfa6e081d3 (26 October 2026, 07:53:13 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:53:13 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:53:13 +0100)
+
+> La boucle de la nuit s'est arrêtée à 7 h 53 sur la voiture **v360**, et la relance automatique `f71e678f` est supprimée. J'ai arrêté sept minutes avant 8 h : une construction de plus n'aurait pas pu être mesurée et consignée à temps. J'ai donc employé ces minutes à vérifier que la version finale se reconstruit à l'identique. (26 October 2026, 07:53:13 +0100)
+>
+> Dans la dernière heure, trois composants sont venus s'ajouter, chacun gardé seulement parce que la mesure montait : (26 October 2026, 07:53:13 +0100)
+> - **Joint arrière du toit (v357) :** recentré sur la paire de traits que la planche dessine vue de dessus. Le trait manquant de 1,07 m est retrouvé. (26 October 2026, 07:53:13 +0100)
+> - **Lèvre de diffuseur sous la queue (v359) :** c'est une plaque posée à sa propre hauteur, au lieu du niveau du plancher. Ses arêtes tombent exactement sur deux traits de la vue arrière. La nervure essayée juste avant (v358) a été écartée, car elle dessinait de faux traits vus de dos. (26 October 2026, 07:53:13 +0100)
+> - **Bande fine de bas de caisse derrière la porte (v360).** (26 October 2026, 07:53:13 +0100)
+>
+> Sur l'ensemble de la nuit, de v150 à v360, la silhouette passe de 0,955 à 0,9691 et les traits de 0,701 à 0,886, sur 211 versions mesurées. (26 October 2026, 07:53:13 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (26 October 2026, 07:53:13 +0100)
+> |---|---|---| (26 October 2026, 07:53:13 +0100)
+> | « reprends la voiture PAR COMPOSANTS là où elle en est » | Oui | Trois pièces ajoutées, aucun réglage global. Le score des traits passe de 0,884 à 0,886. | (26 October 2026, 07:53:13 +0100)
+> | « la voiture est-elle identique à la feuille de référence » | Non, pas encore | Silhouette 0,9691 et traits 0,886, sur 1. Trois composants lus sur la planche ne sont pas construits : rainure sous la queue, face arrière en retrait, rainures du plancher. Deux traits de la planche se contredisent d'une vue à l'autre (haut du pare-brise de face, bords des pneus de dos), si bien qu'aucune forme ne peut satisfaire toutes les vues à la fois. | (26 October 2026, 07:53:13 +0100)
+> | « vérifie par rendu matériaux et projection sur la planche » | Oui | Audit des six vues à chaque version. Planche finale ci-dessous. | (26 October 2026, 07:53:13 +0100)
+> | « consigne l'apprentissage dans le skill (section datée) » | Oui | Sections 63, 64 et 65 du skill, synchronisées. Mémoire enregistrée (commit `41aec0b13`), journal et checkpoint écrits. | (26 October 2026, 07:53:13 +0100)
+> | Relancer jusqu'à 8 h, puis arrêter | Oui, à 7 h 53 | L'arrêt de la relance `f71e678f` est confirmé. | (26 October 2026, 07:53:13 +0100)
+> | Un résultat reproductible | Oui | v361, rebâtie depuis les mêmes paramètres, est identique à v360 : 158 926 points, écart nul. | (26 October 2026, 07:53:13 +0100)
+>
+> Fichiers : (26 October 2026, 07:53:13 +0100)
+> - Planche finale contre les six vues : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Final_v360_vs_sheet.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Final_v360_vs_sheet.png) (26 October 2026, 07:53:13 +0100)
+> - Rendu de la voiture : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Hero_v360.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Hero_v360.png) (26 October 2026, 07:53:13 +0100)
+> - Courbe de la nuit : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/History_v150_v360.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/History_v150_v360.png) (26 October 2026, 07:53:13 +0100)
+> - Méthode : [/Users/zenray/.claude/skills/zenray-meshes/SKILL.md](/Users/zenray/.claude/skills/zenray-meshes/SKILL.md) (26 October 2026, 07:53:13 +0100)
+>
+> Ta consigne, en plus court : « Jusqu'à 8 h, à chaque minute d'arrêt, construis le composant manquant suivant d'après la planche, garde-le seulement si l'audit des six vues monte, et écris la leçon datée dans le skill. » (26 October 2026, 07:53:13 +0100)
+> - **Composant :** une pièce construite seule, avec ses propres paramètres. (26 October 2026, 07:53:13 +0100)
+> - **Audit :** la mesure de la silhouette et des traits contre la planche. (26 October 2026, 07:53:13 +0100)
+> - **Trait :** une ligne que la planche dessine là où la surface casse de plus de 41° ou fait une marche de plus de 1 cm. (26 October 2026, 07:53:13 +0100)
