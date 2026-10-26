@@ -15529,3 +15529,770 @@
 - Source: checkpoint:claude:09d15ec8-88ad-4965-a2f0-80b68515e880. (26 October 2026, 17:14:23 +0100)
 
 > Arbre v31 : limbes mesures m20, brindilles, feuilles lanceolees pendantes, banc de cretes ; conifere avec la meme recette. Prochain : voiture arcs et joues, cran du tronc. (26 October 2026, 17:14:23 +0100)
+
+## 26 October 2026, 17:21:08 +0100 : Prompt
+
+<!-- feedback-event:ace6fc8203fbc0a16adfb6fc9507e27db0555a2a2ad23ee7fda511d1d94c2d23 (26 October 2026, 17:21:08 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 17:21:08 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 17:21:08 +0100)
+
+> [Image: original 2968x1254, displayed at 2000x845. Multiply coordinates by 1.48 to map to original image.] (26 October 2026, 17:21:08 +0100)
+
+## 26 October 2026, 17:25:40 +0100 : Iteration
+
+<!-- feedback-event:a23b7f686a9a6448a80b7662a1545162c3bb32c5307a0151a84fe2823a61da6e (26 October 2026, 17:25:40 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 17:25:40 +0100)
+- Source: checkpoint:claude:09d15ec8-88ad-4965-a2f0-80b68515e880. (26 October 2026, 17:25:40 +0100)
+
+> TreeFromSheet.sh une commande de la planche a larbre sur 4 instances, essais voiture rejetes consignes (v471 a v474, RingRelax). Prochain : retopologie concentrique de lanneau darche. (26 October 2026, 17:25:40 +0100)
+
+## 26 October 2026, 17:29:25 +0100 : Iteration
+
+<!-- feedback-event:e7a846c6f8d542a42d668d093f6786b5e9fac4f399b6a1c4d79ff6fe43ea7557 (26 October 2026, 17:29:25 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 17:29:25 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 17:29:25 +0100)
+
+> Les branches de l'arbre sont maintenant lues dans la référence et non plus tirées au hasard : avec la même méthode, trois autres arbres de test sont reconstruits aussi, dont un conifère. (26 October 2026, 17:29:25 +0100)
+>
+> Tu avais raison, v21 dessinait un contour. Les limbes sortaient droits et verticaux, réglés sur des blobs de couleur. J'ai relancé la méthodologie en reprenant la leçon de la voiture : des courbes lisses mesurées sur la planche, un composant propre d'abord. (26 October 2026, 17:29:25 +0100)
+>
+> - **Le banc :** il juge un jeu de branches sur des cartes de crêtes douces des six vues (`versions/Ridge_tree.png`), avec un budget de longueur pour qu'on ne gagne pas en noyant l'arbre de courbes. Une méthode se juge en 2 secondes, sans rendu. (26 October 2026, 17:29:25 +0100)
+> - **Le tournoi :** dix méthodes jouées sur les seize listées, six écartées sans être jouées. Le vainqueur est m20 : des chemins minimaux dans le volume des crêtes, les limbes épais d'abord, puis les branches moyennes. Au banc final il fait 0,52 contre 0,19 pour la grammaire de v21. (26 October 2026, 17:29:25 +0100)
+> - **Une commande :** `OBJ=tree zsh Scripts/TreeFromSheet.sh vNN` refait l'arbre en 15 secondes. La même recette tient sur le feuillu synthétique, sur celui à vérité connue et sur le conifère, sans réglage par instance. (26 October 2026, 17:29:25 +0100)
+> - **Les arbres successifs :** limbes mesurés dans le mesh (v24), touffes de feuilles retirées là où la référence montre du bois (v26), branches moyennes réglées (v27), brindilles, feuilles lancéolées pendantes et évasement des racines (v34). Toutes les images sont dans `versions/` (`Tree_tree_v26_board.png`, `Branches_tree_m20.png`, `TreeHero_tree_v34.png`). (26 October 2026, 17:29:25 +0100)
+>
+> **Mesures et limites** (26 October 2026, 17:29:25 +0100)
+> - **Chiffres envoyés puis corrigés :** les chiffres du premier jet (F 0,65 contre 0,44) venaient d'un juge dont le rappel dépendait du rayon des tubes. Avec le juge final, m20 fait F 0,53 contre 0,22 pour v21 construit. (26 October 2026, 17:29:25 +0100)
+> - **Légende v27 :** elle disait « limbes 64 à 73 %, branches 32 à 45 % » ; la mesure est limbes 68 %, branches 50 %. (26 October 2026, 17:29:25 +0100)
+> - **Précision 3D :** sur l'arbre synthétique à vérité connue, 87 % des échantillons de courbe sont justes près du tronc, 38 % à mi-hauteur, 19 % en haut. Les limbes intérieurs sont fiables, les extérieurs sont plausibles. Un meilleur accord 2D ne le corrige pas. (26 October 2026, 17:29:25 +0100)
+> - **Défauts restants :** (26 October 2026, 17:29:25 +0100)
+>   - Un cran reste au haut du tronc. (26 October 2026, 17:29:25 +0100)
+>   - Les feuilles n'ont pas de texture. (26 October 2026, 17:29:25 +0100)
+>   - Le feuillage bas près du tronc reste à 55 %. (26 October 2026, 17:29:25 +0100)
+>   - Le conifère manque de feuillage. (26 October 2026, 17:29:25 +0100)
+>
+> **Voiture :** v470 reste en place, 19 portes de relecture sur 21. Quatre essais de colonnes dans les bandes d'arche (v471 à v474) et une relaxation de l'anneau d'arche (fautes 5 566 vers 5 550) n'ont rien donné de net. Les fautes de l'anneau sont des cellules coupées par l'arc ; seule une retopologie concentrique les règle. Elles sont consignées dans le skill (sections 101 à 105), avec `CarTry.sh` et `ArchView.py`. (26 October 2026, 17:29:25 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (26 October 2026, 17:29:25 +0100)
+> |---|---|---| (26 October 2026, 17:29:25 +0100)
+> | Brandes qui ne soient plus un contour | Oui | `Limb_tree_v24_thick.png` : les tubes suivent les vrais limbes dans les cinq vues ; banc 0,52 contre 0,19 | (26 October 2026, 17:29:25 +0100)
+> | Relancer la méthodologie, seize méthodes, tournoi | En partie : dix jouées, six écartées sans test | Feuille `TreeBranchMethodSheet.md` avec tableau et raison de chaque élimination | (26 October 2026, 17:29:25 +0100)
+> | Apprendre de la voiture jusqu'à v470 | Oui | Courbes à peu de points mesurées, règle de garde et audit appliqués (feuille de méthodes, skill section 101) | (26 October 2026, 17:29:25 +0100)
+> | Un algorithme général, pas une seule reproduction | Oui pour les limbes, pas pour le feuillage | Même recette sur quatre instances ; conifère trop peu feuillu | (26 October 2026, 17:29:25 +0100)
+> | Images avec numéro de version à chaque étape | Oui | Tableaux v21, v26, v27, v31, v34, `Branches_tree_m20.png`, `TreeHero_tree_v34.png` envoyés | (26 October 2026, 17:29:25 +0100)
+> | Voiture et arbre en parallèle | Voiture sans gain | v471 à v474 rejetés, v470 gardé, 2 portes encore rouges | (26 October 2026, 17:29:25 +0100)
+> | Tout consigné | Oui | Skill sections 101 à 105, mémoire, journal et checkpoint | (26 October 2026, 17:29:25 +0100)
+>
+> Le bilan final de 20 h 02 reste à faire. Matthieu, vérifie et fie-toi à ton propre regard sur la ressemblance des branches avec ta référence. (26 October 2026, 17:29:25 +0100)
+
+## 26 October 2026, 17:29:27 +0100 : Prompt
+
+<!-- feedback-event:9ba449d466cfd117c1f2f4ad1fc429f6f4b22c91e080af3d4b79df989e6f9e3b (26 October 2026, 17:29:27 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 17:29:27 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 17:29:27 +0100)
+
+> add to consigne pour zenray meshes 3D tu peux aussi ajouter ces consignes rapidement à /claude-md-global  (26 October 2026, 17:29:27 +0100)
+> ## 3D Production Workflow (26 October 2026, 17:29:27 +0100)
+>
+> - Use one orchestrator Claude instance to manage specialized sub-agents, each with a specific job / task to divide modeling (components, sheets, documentation, etc.). (26 October 2026, 17:29:27 +0100)
+> - Build and use custom tools when needed. consign every tools already created or subtool that works (26 October 2026, 17:29:27 +0100)
+> always divide your work into atomic tasks that succeed components is only one example. (26 October 2026, 17:29:27 +0100)
+> - Use iterative loops to evaluate and improve results. (26 October 2026, 17:29:27 +0100)
+>
+> ## Rules (26 October 2026, 17:29:27 +0100)
+>
+> - No guessing. Do research before building. (26 October 2026, 17:29:27 +0100)
+> - Compare everything to moodboards and references. (26 October 2026, 17:29:27 +0100)
+> - Learn from mistakes and apply corrections in subsequent iterations. (26 October 2026, 17:29:27 +0100)
+> - Nothing in the real world has perfectly cut edges. Never make perfectly cut edges. for organic/ but for industrial models use 3D guides likes nurbs then convert. (26 October 2026, 17:29:27 +0100)
+> - Expertise and a structured workflow are key. (26 October 2026, 17:29:27 +0100)
+>
+> ## Tools (26 October 2026, 17:29:27 +0100)
+>
+> - Use external vision models the best with research to improve visual understanding when available. (26 October 2026, 17:29:27 +0100)
+
+## 26 October 2026, 17:29:37 +0100 : Prompt
+
+<!-- feedback-event:5d8449d903bc93d2c568ef22b127f2bec8345ca5091ad32a17814176fca02534 (26 October 2026, 17:29:37 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 17:29:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 17:29:37 +0100)
+
+> (Re-invocation of /claude-md-global — the previously loaded copy was truncated by compaction; the full instructions follow.) (26 October 2026, 17:29:37 +0100)
+
+## 26 October 2026, 17:29:37 +0100 : Prompt
+
+<!-- feedback-event:3d63c9f4d2745ec6c338c19da8950f56591cae20350cde3fde58cd597cc55c62 (26 October 2026, 17:29:37 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 17:29:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 17:29:37 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/claude-md-global (26 October 2026, 17:29:37 +0100)
+>
+> # La doctrine globale : la porte, pas le fichier (26 October 2026, 17:29:37 +0100)
+>
+> ## Ce qui a changé le 2026-09-15, et qu'il faut savoir avant tout le reste (26 October 2026, 17:29:37 +0100)
+>
+> `CLAUDE.md` pesait **218 431 octets** et dépassait la limite de **65 536 octets** du contexte de (26 October 2026, 17:29:37 +0100)
+> délégation aux sous-agents : il était donc **tronqué en silence**, ce qui est pire qu'une règle (26 October 2026, 17:29:37 +0100)
+> absente puisque rien ne le signale. Il pèse désormais **50 320 octets**, avec 15 216 de marge, et ne (26 October 2026, 17:29:37 +0100)
+> porte plus que les concepts. (26 October 2026, 17:29:37 +0100)
+>
+> Le texte intégral, rien de résumé ni de supprimé, vit dans **douze fichiers anglais** (26 October 2026, 17:29:37 +0100)
+> `~/.claude/rules/<Name>1.md`. Le contrôle d'intégrité a comparé le résultat à la sauvegarde : 88 (26 October 2026, 17:29:37 +0100)
+> titres sur 88 et 1 841 lignes de contenu sur 1 841 retrouvés. (26 October 2026, 17:29:37 +0100)
+>
+> | Fichier | Ce qu'il gouverne | Octets | (26 October 2026, 17:29:37 +0100)
+> |---|---|---| (26 October 2026, 17:29:37 +0100)
+> | `CardinalValues1.md` | doute, légitimité, report conditionnel, paliers, levier, objectifs, LifeOS, agency | 39 167 | (26 October 2026, 17:29:37 +0100)
+> | `Tone1.md` | ton, verbosité, prose française, récap, plan, clarification | 27 535 | (26 October 2026, 17:29:37 +0100)
+> | `Toolbox1.md` | parallélisme, encodage, CDN, quotas, git, scripts, déploiement, commandes | 26 586 | (26 October 2026, 17:29:37 +0100)
+> | `ParametricHda1.md` | loi HDA, valeur en dur, duplication, jetons, valeurs système | 23 562 | (26 October 2026, 17:29:37 +0100)
+> | `GameAndShipping1.md` | jeu, Unreal, devlog, tranche verticale, publier, périmètre | 20 136 | (26 October 2026, 17:29:37 +0100)
+> | `SkillsIndex1.md` | index auto-généré des skills personnels | 17 219 | (26 October 2026, 17:29:37 +0100)
+> | `SkillsAndMemory1.md` | skills, synchronisation, mémoire, PROGRESS.md, reprise | 16 591 | (26 October 2026, 17:29:37 +0100)
+> | `SilentBugs1.md` | bugs invisibles : ancêtres CSS, portails, thèmes, cache, erreur avalée | 14 179 | (26 October 2026, 17:29:37 +0100)
+> | `Typography1.md` | police, graisse, taille, webfont, icônes, jetons visuels, curseurs | 13 461 | (26 October 2026, 17:29:37 +0100)
+> | `ZenRayProjects1.md` | les trois entités ZenRay, domaines, Japon 2027, PVT, chantiers | 11 184 | (26 October 2026, 17:29:37 +0100)
+> | `JapaneseRules1.md` | règles japonaises : leçon, drill, sauvegarde. La matière est dans Memory1 | 8 145 | (26 October 2026, 17:29:37 +0100)
+> | `ShowYourWork1.md` | montrer son travail : promotion, ads, organique, audience, handles | 5 754 | (26 October 2026, 17:29:37 +0100)
+>
+> ## PRIORITÉ 0 : LE CHARGEMENT SE CALCULE, IL NE SE DEVINE PAS (26 October 2026, 17:29:37 +0100)
+>
+> Devant toute demande sérieuse, **avant de répondre** : (26 October 2026, 17:29:37 +0100)
+>
+> ```bash (26 October 2026, 17:29:37 +0100)
+> node ~/.claude/skills/claude-md-global/scripts/which-rule.mjs "<le texte de la demande>" (26 October 2026, 17:29:37 +0100)
+> ``` (26 October 2026, 17:29:37 +0100)
+>
+> Il rend les fichiers de doctrine à charger, par ordre de pertinence, les termes qui ont déclenché, et (26 October 2026, 17:29:37 +0100)
+> les fichiers de mémoire de projet à ouvrir en même temps. Quand rien ne se déclenche, il le dit : le (26 October 2026, 17:29:37 +0100)
+> noyau de `CLAUDE.md` suffit alors. (26 October 2026, 17:29:37 +0100)
+>
+> **Un seul terme suffit à déclencher un fichier**, et le vocabulaire est délibérément sur-inclusif, (26 October 2026, 17:29:37 +0100)
+> **829 termes** en français, en anglais et dans les tournures que Matthieu emploie réellement, y (26 October 2026, 17:29:37 +0100)
+> compris « je suis nul », « une fois sur deux », « tu me saoules » ou « c'est pas sorcier ». (26 October 2026, 17:29:37 +0100)
+>
+> > **La règle qui prime sur l'économie de tokens** : mieux vaut charger un fichier pour rien que rater (26 October 2026, 17:29:37 +0100)
+> > la doctrine qui gouverne la demande. Lire deux fois le même fichier dans une session ne coûte (26 October 2026, 17:29:37 +0100)
+> > presque rien ; répondre à côté de la doctrine coûte un aller-retour entier, et parfois une décision (26 October 2026, 17:29:37 +0100)
+> > fausse. **Dans le doute, on charge.** (26 October 2026, 17:29:37 +0100)
+>
+> ```bash (26 October 2026, 17:29:37 +0100)
+> node .../which-rule.mjs --all              # tous les fichiers et leur nombre de termes (26 October 2026, 17:29:37 +0100)
+> node .../which-rule.mjs --terms <fichier>  # le vocabulaire complet d'un fichier (26 October 2026, 17:29:37 +0100)
+> grep -n "<mot>" ~/.claude/rules/*.md       # les triggers sont aussi inscrits dans les fichiers (26 October 2026, 17:29:37 +0100)
+> ``` (26 October 2026, 17:29:37 +0100)
+>
+> Le vocabulaire vit dans `~/.claude/rules/triggers.json` et il est aussi inscrit en tête de chaque (26 October 2026, 17:29:37 +0100)
+> fichier, entre `TRIGGERS:START` et `TRIGGERS:END`, pour qu'un simple `grep` le trouve. Contrat HDA : (26 October 2026, 17:29:37 +0100)
+> le script est la définition, `triggers.json` son interface de paramètres, aucun terme n'est écrit en (26 October 2026, 17:29:37 +0100)
+> dur dans le code. (26 October 2026, 17:29:37 +0100)
+>
+> **Quand une règle nouvelle entre, son vocabulaire entre avec elle.** Sans terme déclencheur, un (26 October 2026, 17:29:37 +0100)
+> fichier ne se charge jamais et devient un décor : on croit les règles actives alors qu'elles dorment. (26 October 2026, 17:29:37 +0100)
+>
+> ## Le lien avec la mémoire de projet, `~/.claude/Memory1` (26 October 2026, 17:29:37 +0100)
+>
+> Les deux corpus ne répondent pas à la même question et ne se remplacent jamais. **Les règles disent (26 October 2026, 17:29:37 +0100)
+> COMMENT travailler, la mémoire dit ce que le PROJET sait.** Une demande sérieuse ouvre souvent les (26 October 2026, 17:29:37 +0100)
+> deux, et le routeur nomme les fichiers de mémoire liés à chaque doctrine. (26 October 2026, 17:29:37 +0100)
+>
+> | Mémoire | Doctrine qui l'appelle | (26 October 2026, 17:29:37 +0100)
+> |---|---| (26 October 2026, 17:29:37 +0100)
+> | `Identity/Matthieu1.md` (547 Ko, routeur `matthieu-context`) | `CardinalValues1.md`, `Tone1.md`, `ZenRayProjects1.md`, `SkillsAndMemory1.md` | (26 October 2026, 17:29:37 +0100)
+> | `Japanese/Japanese1.md` (491 Ko, routeur `japanese-context`) | `JapaneseRules1.md` | (26 October 2026, 17:29:37 +0100)
+> | `ZenRayShards/ZenRayShards1.md` (138 Ko, routeur `zenrayshards-context`) | `GameAndShipping1.md` | (26 October 2026, 17:29:37 +0100)
+> | `Design/Design1.md` | `Typography1.md`, `SilentBugs1.md`, `ParametricHda1.md`, `Toolbox1.md` | (26 October 2026, 17:29:37 +0100)
+> | `Business/Business1.md`, `Business/Freelance1.md` | `CardinalValues1.md`, `ZenRayProjects1.md`, `ShowYourWork1.md` | (26 October 2026, 17:29:37 +0100)
+> | `HealthSport/HealthSport1.md` | `CardinalValues1.md` | (26 October 2026, 17:29:37 +0100)
+> | `SocialMedia/SocialMedia1.md` | `ShowYourWork1.md`, `ZenRayProjects1.md` | (26 October 2026, 17:29:37 +0100)
+> | `Houdini/Houdini1.md`, `Substance/Substance1.md` | `ParametricHda1.md` | (26 October 2026, 17:29:37 +0100)
+> | `Animation/Animation1.md`, `UnrealEngine/UnrealEngine1.md`, `ZenRayProductions/LouisianaBayou/LouisianaBayou1.md` | `GameAndShipping1.md` | (26 October 2026, 17:29:37 +0100)
+> | `Culture/Culture1.md` | `JapaneseRules1.md` | (26 October 2026, 17:29:37 +0100)
+> | `Storytelling/Storytelling1.md` | `Tone1.md` | (26 October 2026, 17:29:37 +0100)
+> | `Mails/Mails1.md` (index + un fichier par jour, `Année/Mois/Mails_<date>.md`) | `SkillsAndMemory1.md` | (26 October 2026, 17:29:37 +0100)
+> | `AudioProductions/Audio1.md`, `Stock/Stock1.md` | `Toolbox1.md` | (26 October 2026, 17:29:37 +0100)
+>
+> **Le cas japonais demande une vigilance particulière**, parce que deux fichiers se ressemblent sans (26 October 2026, 17:29:37 +0100)
+> porter la même chose. `rules/JapaneseRules1.md` porte les RÈGLES, la manière d'enseigner et de (26 October 2026, 17:29:37 +0100)
+> sauvegarder ; `Memory1/Japanese/Japanese1.md` porte la MATIÈRE, les leçons, les kanji, le (26 October 2026, 17:29:37 +0100)
+> vocabulaire et les jauges. On ne les confond pas, et on n'écrit jamais l'un dans l'autre. (26 October 2026, 17:29:37 +0100)
+>
+> Les trois gros fichiers ne se lisent **jamais** en entier : leurs skills routeurs trouvent la section (26 October 2026, 17:29:37 +0100)
+> utile. La chronologie est ailleurs et reste unique, `~/.claude/PROGRESS.md`, écrite par le skill (26 October 2026, 17:29:37 +0100)
+> `progress` ; une connaissance durable va d'abord dans le bon `Memory1/**/<Nom>1.md`, puis l'entrée du (26 October 2026, 17:29:37 +0100)
+> journal cite ce chemin sans recopier le détail. (26 October 2026, 17:29:37 +0100)
+>
+> ## Les chemins, une fois pour toutes (26 October 2026, 17:29:37 +0100)
+>
+> ``` (26 October 2026, 17:29:37 +0100)
+> /Users/zenray/.claude/CLAUDE.md          les concepts, lus à chaque session (26 October 2026, 17:29:37 +0100)
+> /Users/zenray/.claude/rules/             les douze fichiers de doctrine + INDEX1.md + triggers.json (26 October 2026, 17:29:37 +0100)
+> /Users/zenray/.claude/Memory1/           la mémoire de projet, un <Nom>1.md par domaine (26 October 2026, 17:29:37 +0100)
+> /Users/zenray/.claude/PROGRESS.md        la chronologie unique, append only (26 October 2026, 17:29:37 +0100)
+> ``` (26 October 2026, 17:29:37 +0100)
+>
+> `~/.codex/AGENTS.md` et les quatre fichiers Gemini sont **générés** depuis `CLAUDE.md` par (26 October 2026, 17:29:37 +0100)
+> `zsh ~/.claude/skills/skill-sync/scripts/mirror-agents.sh`, jamais édités ; ils héritent donc de (26 October 2026, 17:29:37 +0100)
+> l'allègement, et tiennent à 48 301 octets. Attention, ce script est en zsh et utilise `print` : (26 October 2026, 17:29:37 +0100)
+> lancé avec `bash`, il échoue à la ligne 12. Les skills, eux, sont partagés par lien symbolique, (26 October 2026, 17:29:37 +0100)
+> `~/.gemini/config/skills` pointant vers `~/.claude/skills`. (26 October 2026, 17:29:37 +0100)
+>
+> ## Contexte des mails : charger et décharger (2026-09-30) (26 October 2026, 17:29:37 +0100)
+>
+> Les mails envoyés ou reçus qui comptent sont sauvegardés dans `~/.claude/Memory1/Mails/`, un fichier par (26 October 2026, 17:29:37 +0100)
+> jour : `<Année>/<MM-Month>/Mails_<YYYY-MM-DD>.md` (mois en anglais). L'index vit dans `Mails/Mails1.md`. (26 October 2026, 17:29:37 +0100)
+>
+> - **Charger** quand Matthieu demande le contexte des mails : lire `Mails/Mails1.md` (le tableau seul), (26 October 2026, 17:29:37 +0100)
+>   puis ouvrir UNIQUEMENT le fichier du jour utile. Ne jamais lire tout le dossier. (26 October 2026, 17:29:37 +0100)
+> - **Décharger** dès que le sujet change : ne plus rien relire des mails, et ne pas les recopier ailleurs. (26 October 2026, 17:29:37 +0100)
+> - **Absent de l'index ?** Aller le lire directement par le MCP Gmail (`search_threads`, `get_message` (26 October 2026, 17:29:37 +0100)
+>   en `PLAIN_TEXT`), puis le sauvegarder : (26 October 2026, 17:29:37 +0100)
+>   `python3 ~/.claude/Memory1/Mails/Scripts/save_mail.py <mails.json>` (idempotent par id de message). (26 October 2026, 17:29:37 +0100)
+> - Le mail réellement ENVOYÉ fait foi, pas le brouillon : relire depuis `in:sent` avant de sauvegarder. (26 October 2026, 17:29:37 +0100)
+> - Un rebond (`mailer-daemon`, 550) s'inscrit dans le champ Status du mail concerné. (26 October 2026, 17:29:37 +0100)
+>
+> ## Décharger une section nouvelle (26 October 2026, 17:29:37 +0100)
+>
+> Le script est la définition, `scripts/rules-plan.json` son interface de paramètres, chaque lot une (26 October 2026, 17:29:37 +0100)
+> instance. On essaie toujours à blanc d'abord. (26 October 2026, 17:29:37 +0100)
+>
+> ```bash (26 October 2026, 17:29:37 +0100)
+> node ~/.claude/skills/claude-md-global/scripts/extract-rules.mjs \ (26 October 2026, 17:29:37 +0100)
+>   --plan ~/.claude/skills/claude-md-global/scripts/rules-plan.json --lot <id> --dry-run (26 October 2026, 17:29:37 +0100)
+> ``` (26 October 2026, 17:29:37 +0100)
+>
+> Un lot nomme les titres **exacts** des sections à sortir, le fichier cible, et le **noyau** qui les (26 October 2026, 17:29:37 +0100)
+> remplace dans `CLAUDE.md`. Le noyau doit tenir seul : un agent qui ne lit que `CLAUDE.md` doit agir (26 October 2026, 17:29:37 +0100)
+> correctement sans le détail. (26 October 2026, 17:29:37 +0100)
+>
+> ## Le vérificateur ferme le travail (26 October 2026, 17:29:37 +0100)
+>
+> ```bash (26 October 2026, 17:29:37 +0100)
+> node ~/.claude/skills/claude-md-global/scripts/extract-rules.mjs --verify   # poids et pointeurs (26 October 2026, 17:29:37 +0100)
+> node ~/.claude/skills/claude-md-global/scripts/build-rules-index.mjs         # regenere rules/INDEX1.md (26 October 2026, 17:29:37 +0100)
+> ``` (26 October 2026, 17:29:37 +0100)
+>
+> Il échoue aussi bien sur un dépassement de la limite que sur un pointeur vers un fichier absent, et il (26 October 2026, 17:29:37 +0100)
+> a été éprouvé dans les deux sens, rouge avant la décharge, vert après. À lancer après toute (26 October 2026, 17:29:37 +0100)
+> modification de `CLAUDE.md`, dans le même mouvement, comme un commit suit un correctif. (26 October 2026, 17:29:37 +0100)
+>
+> ## Un piège déjà payé, propre à ce système (26 October 2026, 17:29:37 +0100)
+>
+> `update-skill-index.py` réinjectait **16 Ko** d'index des skills dans `CLAUDE.md` à chaque (26 October 2026, 17:29:37 +0100)
+> `sync-skill.sh`, et le fichier est effectivement repassé à 64 108 octets pendant le chantier. Le (26 October 2026, 17:29:37 +0100)
+> générateur écrit désormais dans `rules/SkillsIndex1.md`. Moralité générale : **tout script qui écrit (26 October 2026, 17:29:37 +0100)
+> dans `CLAUDE.md` doit être vérifié après une décharge**, sinon elle se défait toute seule et (26 October 2026, 17:29:37 +0100)
+> silencieusement. (26 October 2026, 17:29:37 +0100)
+>
+> ## Comment lire, selon le besoin (26 October 2026, 17:29:37 +0100)
+>
+> **Doute sur la MANIÈRE de travailler** → `Tone1.md` et `CardinalValues1.md`, qui gouvernent quelle que (26 October 2026, 17:29:37 +0100)
+> soit la demande. (26 October 2026, 17:29:37 +0100)
+>
+> **Question sur un SUJET précis** → passer par le routeur, puis lire le fichier qu'il nomme. Les (26 October 2026, 17:29:37 +0100)
+> sections de `CLAUDE.md` lui-même sont indexées par ligne dans [INDEX.md](INDEX.md), régénéré par (26 October 2026, 17:29:37 +0100)
+> `node ~/.claude/skills/claude-md-global/scripts/build-index.mjs` et vérifiable par son empreinte. (26 October 2026, 17:29:37 +0100)
+>
+> **Avant d'ÉCRIRE une règle nouvelle** → chercher d'abord. La règle existe déjà une fois sur deux, et (26 October 2026, 17:29:37 +0100)
+> la bonne action est alors de compléter la section existante, jamais d'en ouvrir une seconde sur le (26 October 2026, 17:29:37 +0100)
+> même sujet. Si elle est de priorité 0 et tient en quelques lignes, elle va dans `CLAUDE.md` ; sinon (26 October 2026, 17:29:37 +0100)
+> dans le fichier de son sujet, avec son vocabulaire ajouté à `triggers.json`, et une phrase de renvoi (26 October 2026, 17:29:37 +0100)
+> dans le noyau. (26 October 2026, 17:29:37 +0100)
+>
+> ## Pourquoi un index plutôt qu'une lecture complète (26 October 2026, 17:29:37 +0100)
+>
+> Un fichier de règles ne sert que s'il est lu. Passé une certaine taille il cesse d'être lu et devient (26 October 2026, 17:29:37 +0100)
+> un décor : on croit les règles actives alors qu'elles dorment. Pire encore, au-delà de 65 536 octets (26 October 2026, 17:29:37 +0100)
+> il était tronqué sans le dire. L'index rend la lecture PARTIELLE possible, donc la lecture tout court (26 October 2026, 17:29:37 +0100)
+> probable, et le routeur rend le bon choix automatique plutôt que dépendant de ma mémoire. (26 October 2026, 17:29:37 +0100)
+>
+> ## Erreurs déjà payées (26 October 2026, 17:29:37 +0100)
+>
+> | Erreur | Ce qu'elle coûte | La parade | (26 October 2026, 17:29:37 +0100)
+> |---|---|---| (26 October 2026, 17:29:37 +0100)
+> | Laisser `CLAUDE.md` dépasser 65 536 octets | Il est tronqué en silence, et on croit les règles actives | `--verify` après toute modification | (26 October 2026, 17:29:37 +0100)
+> | Un script qui réécrit `CLAUDE.md` après la décharge | La décharge se défait sans un mot | Vérifier après chaque `sync-skill.sh` | (26 October 2026, 17:29:37 +0100)
+> | Une règle nouvelle sans vocabulaire déclencheur | Le fichier ne se charge jamais, la règle dort | Ajouter les termes à `triggers.json` dans le même mouvement | (26 October 2026, 17:29:37 +0100)
+> | Chercher une règle par `grep` sans lire sa section | On lit une phrase hors contexte et on applique l'inverse | Lire la section entière autour du résultat | (26 October 2026, 17:29:37 +0100)
+> | Écrire une règle sans chercher | Deux sections contradictoires, et personne ne sait laquelle vaut | Chercher dans l'index AVANT d'écrire | (26 October 2026, 17:29:37 +0100)
+> | Éditer `~/.codex/AGENTS.md` | L'édition est écrasée à la synchronisation suivante | N'éditer que `CLAUDE.md`, puis lancer le miroir | (26 October 2026, 17:29:37 +0100)
+> | Économiser un chargement par prudence de tokens | On répond à côté de la doctrine, ce qui coûte bien plus cher | Dans le doute, charger | (26 October 2026, 17:29:37 +0100)
+>
+> ## Projet disponible : google/woff2 (26 October 2026, 17:29:37 +0100)
+>
+> Le projet officiel [google/woff2](https://github.com/google/woff2) est installé localement dans (26 October 2026, 17:29:37 +0100)
+> `/Users/zenray/.claude/tmp/tmp-fonts/google-woff2`. Il fournit les exécutables (26 October 2026, 17:29:37 +0100)
+> `woff2_decompress`, `woff2_compress` et `woff2_info` pour convertir et inspecter des fontes WOFF2. (26 October 2026, 17:29:37 +0100)
+> Les trois commandes sont aussi accessibles directement dans le terminal par des liens installés dans (26 October 2026, 17:29:37 +0100)
+> `/Users/zenray/.local/bin`. (26 October 2026, 17:29:37 +0100)
+>
+> Sur ce Mac, la compilation fiable passe par `xcrun --sdk macosx make -j16 all`. La commande `make` (26 October 2026, 17:29:37 +0100)
+> seule sélectionne le SDK des Command Line Tools 27.0, dont l'éditeur de liens échoue sur les (26 October 2026, 17:29:37 +0100)
+> architectures déclarées ; le SDK Xcode 26.5 utilisé par `xcrun` fonctionne. (26 October 2026, 17:29:37 +0100)
+>
+> `woff2_decompress` produit toujours un fichier `.ttf`. Quand `woff2_info` indique le flavor `OTTO`, (26 October 2026, 17:29:37 +0100)
+> le contenu est une fonte OpenType CFF et le fichier doit être renommé en `.otf` avant installation. (26 October 2026, 17:29:37 +0100)
+> Les fontes utilisateur installées dans `/Users/zenray/Library/Fonts` sont ensuite reconnues par (26 October 2026, 17:29:37 +0100)
+> Font Book sans modifier les fontes système protégées. (26 October 2026, 17:29:37 +0100)
+>
+> ## Règle renforcée : chercher les valeurs système dans leur source de vérité (26 October 2026, 17:29:37 +0100)
+>
+> Cette règle est la porte d’entrée vers la section complète du global (26 October 2026, 17:29:37 +0100)
+> `LES VALEURS SYSTÈME SE CHERCHENT AVANT DE SE DEVINER`. Elle s’applique dès (26 October 2026, 17:29:37 +0100)
+> qu’une valeur du code dépend de macOS, d’un réglage utilisateur, d’un écran, (26 October 2026, 17:29:37 +0100)
+> d’une permission, d’un runtime, d’un fichier de configuration ou d’une (26 October 2026, 17:29:37 +0100)
+> application externe. (26 October 2026, 17:29:37 +0100)
+>
+> Un correctif ne choisit jamais une hauteur, une position, une marge, une taille (26 October 2026, 17:29:37 +0100)
+> de fenêtre ou une constante système à l’œil lorsqu’une API, une préférence ou (26 October 2026, 17:29:37 +0100)
+> un état runtime peut la fournir. Il cherche d’abord le propriétaire réel de la (26 October 2026, 17:29:37 +0100)
+> donnée, lit la valeur avec une commande ou une API locale, compare le résultat (26 October 2026, 17:29:37 +0100)
+> par une seconde voie indépendante, puis centralise la valeur dans le paramètre (26 October 2026, 17:29:37 +0100)
+> HDA du projet. (26 October 2026, 17:29:37 +0100)
+>
+> L’incident qui fixe cette règle est Sleep Shutdown. Matthieu a dû insister pour (26 October 2026, 17:29:37 +0100)
+> que la hauteur du Dock soit vraiment cherchée. Les premières valeurs de widget (26 October 2026, 17:29:37 +0100)
+> étaient `96`, `80`, `72` puis `67` points. `visibleFrame.minY = 67` décrivait la (26 October 2026, 17:29:37 +0100)
+> zone réservée au Dock, mais pas la barre visible. La source Accessibility (26 October 2026, 17:29:37 +0100)
+> `AXList` a ensuite donné `61 pt`. La préférence native (26 October 2026, 17:29:37 +0100)
+> `com.apple.dock tilesize = 47`, augmentée du padding vertical mesuré de `14`, (26 October 2026, 17:29:37 +0100)
+> a fourni le repli `61 pt` quand l’application n’avait pas l’autorisation AX. (26 October 2026, 17:29:37 +0100)
+>
+> Le mot-clé `AXList` devient donc un exemple de méthode, pas une valeur à (26 October 2026, 17:29:37 +0100)
+> recopier. Pour toute situation équivalente : (26 October 2026, 17:29:37 +0100)
+>
+> 1. nommer la donnée, son unité et son repère ; (26 October 2026, 17:29:37 +0100)
+> 2. chercher l’API ou le fichier qui la possède réellement ; (26 October 2026, 17:29:37 +0100)
+> 3. lire la donnée avant d’écrire le layout ; (26 October 2026, 17:29:37 +0100)
+> 4. comparer la mesure à une observation indépendante ; (26 October 2026, 17:29:37 +0100)
+> 5. distinguer la source primaire, le repli et l’estimation ; (26 October 2026, 17:29:37 +0100)
+> 6. logguer la source utilisée ; (26 October 2026, 17:29:37 +0100)
+> 7. centraliser la valeur dans un seul paramètre ; (26 October 2026, 17:29:37 +0100)
+> 8. conserver la commande et la preuve dans le workflow concerné. (26 October 2026, 17:29:37 +0100)
+>
+> Commandes de contrôle pour l’exemple Dock : (26 October 2026, 17:29:37 +0100)
+>
+> ```zsh (26 October 2026, 17:29:37 +0100)
+> defaults read com.apple.dock tilesize (26 October 2026, 17:29:37 +0100)
+> osascript -e 'tell application "System Events" to tell process "Dock" to get {role, position, size} of every UI element' (26 October 2026, 17:29:37 +0100)
+> ``` (26 October 2026, 17:29:37 +0100)
+>
+> Une permission refusée ne signifie pas que la donnée n’existe pas. Une (26 October 2026, 17:29:37 +0100)
+> préférence absente ne signifie pas que la valeur vaut zéro. Une capture ne (26 October 2026, 17:29:37 +0100)
+> remplace pas l’API qui produit l’état. Si aucune source de vérité n’est (26 October 2026, 17:29:37 +0100)
+> trouvée, le résultat reste explicitement non vérifié : il ne se transforme pas (26 October 2026, 17:29:37 +0100)
+> en nombre plausible présenté comme une mesure. (26 October 2026, 17:29:37 +0100)
+>
+> La règle vaut pour le code natif comme pour HTML et React. Un navigateur qui ne (26 October 2026, 17:29:37 +0100)
+> peut pas lire une préférence macOS reçoit une mesure native injectée ou un (26 October 2026, 17:29:37 +0100)
+> token de démonstration clairement nommé. Il ne reçoit pas une fausse fonction (26 October 2026, 17:29:37 +0100)
+> `getDockHeight()`. (26 October 2026, 17:29:37 +0100)
+>
+> ## 30 September 2026 : la date partout, en anglais, mois en toutes lettres (26 October 2026, 17:29:37 +0100)
+>
+> - Toute règle ou tout ajout entre par une section au titre daté, et chaque ligne porte sa date au format `30 September 2026` (30 September 2026). (26 October 2026, 17:29:37 +0100)
+> - Texte intégral : `rules/SkillsAndMemory1.md`, section « La date partout » ; rappel court dans `CLAUDE.md` (30 September 2026). (26 October 2026, 17:29:37 +0100)
+> - Contrôle : `git diff -U0 -- <chemins> | grep '^+' | grep -v '^+++' | grep -vE '[0-9]{1,2} (January|February|March|April|May|June|July|August|September|October|November|December) 20[0-9]{2}'` doit être vide (30 September 2026). (26 October 2026, 17:29:37 +0100)
+> - Correction du format (30 September 2026, 11:51) : la première version écrivait `AAAA-MM-JJ` ; remplacée par l'anglais avec le mois en toutes lettres. (26 October 2026, 17:29:37 +0100)
+>
+> ## 30 September 2026 : deux règles ajoutées à la doctrine (26 October 2026, 17:29:37 +0100)
+>
+> - 30 September 2026 : `rules/ParametricHda1.md`, section du 30 September 2026 : l'interface de paramètres d'un graphe est courte, 8 par catégorie au plus, portée par le nœud maître et lue par `chf()`/`ch()`. (26 October 2026, 17:29:37 +0100)
+> - 30 September 2026 : `rules/SkillsAndMemory1.md`, section du 30 September 2026 : un feedback s'écrit petit à petit dans `FEEDBACK.md` et n'entre dans le skill que lorsque Matthieu le valide (sauf les règles demandées expressément : mesures rangées, une image par version, 8 paramètres par catégorie). (26 October 2026, 17:29:37 +0100)
+>
+> ## 02 October 2026 : Terme consacré : index mapping (ou mapping table) (26 October 2026, 17:29:37 +0100)
+>
+> - 02 October 2026 (mots de Matthieu, dictée et corrigée en grammaire seule) : index mapping (ou mapping table) est tout à fait le terme consacré : il désigne précisément l'action ou la table servant à mapper un index ou identifiant unique (01) vers un jeu de données associées (var1, var2), faisant office de table de correspondance directe pour retrouver rapidement plusieurs attributs à partir d'un simple entier. (02 October 2026) (26 October 2026, 17:29:37 +0100)
+> - 02 October 2026 : doctrine inscrite dans `rules/ParametricHda1.md` avec déclencheurs associés (`index mapping`, `mapping table`, `table de correspondance`, `lookup table`) dans `triggers.json`. (02 October 2026) (26 October 2026, 17:29:37 +0100)
+>
+> ## 5 October 2026 : Conversation liee au projet des le demarrage (26 October 2026, 17:29:37 +0100)
+>
+> - Au debut de chaque conversation agentique, executer BeginConversation avec le vrai session-id, agent et project-id existant concerne ; lire ensuite context et le feedback canonique. SessionBindings.json est la liaison unique session/projet, jamais une inference par titre ni une nouvelle identite par prompt. Une discussion sans projet conserve sa collection Conversations ; toute ambiguite ou tentative de reattribution reste visible et refusee. (5 October 2026) (26 October 2026, 17:29:37 +0100)
+> - Chaque fiche projet expose ses discussions liees, titre, fournisseur et pastille Claude orange, Codex gris ou Gemini bleu, avec ouverture du lecteur natif et retour au meme projet. Le mapping et sa fiche de contexte recensent les identites de session et references du lecteur, sans recopier le transcript dans le global. Les originaux complets restent archives par le miroir ; le lecteur pagine les messages disponibles et signale les corps absents ou effaces. Une liaison ne prouve pas une archive complete ni un hook universel d hote. (5 October 2026) (26 October 2026, 17:29:37 +0100)
+>
+> ## Contenu public et outils internes (6 October 2026) (26 October 2026, 17:29:37 +0100)
+>
+> - Dans les articles, posts, légendes et crédits publics, ne pas publier de mentions d’agents, d’automatisation agentique, de Claude Code, Codex, Gemini, LLM, AI ou IA, ni le fonctionnement interne des prompts, bridges, files de commandes ou mémoires partagées, sauf demande explicite ultérieure de Matthieu pour le sujet concerné. Ces informations restent dans le suivi privé. (6 October 2026) (26 October 2026, 17:29:37 +0100)
+> - Écrire sur le travail artistique et technique vérifié, ses choix, résultats et limites. Ne pas inventer de vécu, d’effort manuel, de jugement personnel ou d’auteur pour remplacer une mention supprimée. Garder une formulation factuelle et naturelle ; retirer les considérations internes qui ne servent pas le lecteur. (6 October 2026) (26 October 2026, 17:29:37 +0100)
+> - Avant publication, vérifier tout le contenu visible et ses métadonnées, les tableaux, légendes et figures. Pour le lys, ArticleLily/Check.py refuse les mentions internes et son selftest prouve le refus. (6 October 2026) (26 October 2026, 17:29:37 +0100)
+>
+> ## 10 October 2026 : index de la méthodologie, enregistré à quatre endroits (26 October 2026, 17:29:37 +0100)
+>
+> - 10 October 2026 : `~/.claude/CLAUDE.md` porte une section courte qui pointe vers le skill `zenray-methodology`, lequel porte la procédure complète (10 October 2026). (26 October 2026, 17:29:37 +0100)
+> - 10 October 2026 : le vocabulaire déclencheur (itérer, tourne en rond, piétine, bonne méthode, seize méthodes, masques noir et blanc, capture annotée, pivoter, trouver N) entre dans `rules/triggers.json` sous `SkillsAndMemory1.md`. La tête de ce fichier est régénérée depuis ce JSON, et `which-rule.mjs` le renvoie pour ces demandes (10 October 2026). (26 October 2026, 17:29:37 +0100)
+> - 10 October 2026 : `~/.claude/skills/zenray-houdini/SKILL.md` reçoit un renvoi en tête de sa section PRIORITÉ 0 (10 October 2026). (26 October 2026, 17:29:37 +0100)
+> - 10 October 2026 : `rules/SkillsIndex1.md` liste le skill automatiquement à chaque `sync-skill.sh`, par `update-skill-index.py` (10 October 2026). (26 October 2026, 17:29:37 +0100)
+>
+> ## 21 October 2026 : index de la méthode du sharingan, enregistré à quatre endroits (26 October 2026, 17:29:37 +0100)
+>
+> - 21 October 2026 : `~/.claude/CLAUDE.md` porte une phrase dans la section « PRIORITÉ 0 : MÉTHODE, SKILLS, MÉMOIRE ET JOURNAL » (21 October 2026). (26 October 2026, 17:29:37 +0100)
+> - 21 October 2026 : la doctrine, trois paragraphes qui reprennent les mots de Matthieu, vit dans `rules/SkillsAndMemory1.md`, section du 21 October 2026 (21 October 2026). (26 October 2026, 17:29:37 +0100)
+> - 21 October 2026 : le vocabulaire déclencheur (sharingan, reproduire un résultat, à l'identique, 99,9, même résultat, comme la référence) est dans `rules/triggers.json` sous `SkillsAndMemory1.md`, et `which-rule.mjs` le renvoie pour ces demandes (21 October 2026). (26 October 2026, 17:29:37 +0100)
+> - 21 October 2026 : le skill `zenray-sharingan` porte la boucle et trois exemples ; `rules/SkillsIndex1.md` le liste à chaque `sync-skill.sh` (21 October 2026). (26 October 2026, 17:29:37 +0100)
+>
+> ## 21 October 2026 : typographie des galeries (26 October 2026, 17:29:37 +0100)
+>
+> - 21 October 2026 : la correction courante est dans `rules/Typography1.md`, section « GT Sectra pour les titres des galeries, Anthropic Serif Regular pour le corps » : titres Gallery uniquement en GT Sectra Display LCG Regular Italic 400, corps et nombres en Anthropic Serif Regular 400, remplaçant la prescription Anthropic Medium du 18 October 2026. Le routeur connaît GT Sectra et Anthropic Serif Regular. (21 October 2026) (26 October 2026, 17:29:37 +0100)
+> - 23 October 2026 : titres en GT Sectra LCG ITALIQUE (coupe normale), chiffres et corps droits en Anthropic Serif ; règle courante dans `rules/Typography1.md`, section du 23 October 2026, 18:20, qui remplace « jamais d'italique ». (23 October 2026) (26 October 2026, 17:29:37 +0100)
+>
+>
+> ## 25 October 2026 : PRIORITÉ N°1, l'argent d'abord, en tête du noyau (26 October 2026, 17:29:37 +0100)
+>
+> - 25 October 2026 : demande de Matthieu, les premières lignes de `/Users/zenray/.claude/CLAUDE.md` portent désormais la PRIORITÉ N°1 : tout choix et toute session se pèsent d'abord à ce qu'ils rapprochent d'une rentrée d'argent ou d'un paiement ; ordre prospecter, produire, être payé. Texte intégral et ses mots : `/Users/zenray/.claude/rules/CardinalValues1.md`, section du 25 October 2026 ; mise en œuvre dans les journées : skill `zenray-calendar-plan`, section du même jour. (25 October 2026) (26 October 2026, 17:29:37 +0100)
+> - 25 October 2026 : pour tenir sous 65 536 octets, deux sections ont quitté le noyau, texte intact : « Basculer la question en opportunité de revenu » vers `rules/CardinalValues1.md` et l'index Karpathy vers `rules/Toolbox1.md`, chacune remplacée par un pointeur daté. `extract-rules.mjs --verify` : vert, 383 octets de marge. Sauvegarde avant modification : `/Users/zenray/.claude/tmp/CLAUDE.md.bak-25-October-2026`. (25 October 2026) (26 October 2026, 17:29:37 +0100)
+>
+> ## 26 October 2026 : typographie, Literata et GT Standard L par défaut, rien d'abandonné (26 October 2026, 17:29:37 +0100)
+>
+> - 26 October 2026 : mots de Matthieu : « je t'avais pas dit d'enlever complètement GT Sectra et Anthropic Serif, ni Inter, mais de mettre en priorité d'abord, par défaut, Literata et GT Standard L ». Le noyau de CLAUDE.md (section du trio typographique) et `rules/Typography1.md` (section « 26 October 2026, correction ») disent donc : DÉFAUT = Literata (corps et texte reçu), GT Standard L Bold capitales (titres), GT Standard L Regular (interface et tous les nombres) ; GT Sectra LCG, AnthropicSerif et InterVariable restent des alternatives valables. (26 October 2026) (26 October 2026, 17:29:37 +0100)
+> - 26 October 2026 : devant une question de police, charger `Typography1.md` par le routeur (`literata`, `gt standard`, `gt sectra`, `police` y mènent) et lire sa DERNIÈRE section datée avant de répondre ; une section plus ancienne peut dire « abandonné » alors que la plus récente a corrigé. (26 October 2026) (26 October 2026, 17:29:37 +0100)
+>
+> ## 26 October 2026, 15:10 : typographie, titres et nombres en GT Ultra, corps en Literata, reste en GT Standard L (26 October 2026, 17:29:37 +0100)
+>
+> - 26 October 2026 : mots de Matthieu : « les titres en GT Ultra, les nombres en GT Ultra, le corps en Literata, et tout le reste de l'UI en GT Standard L. Toujours en première priorité pour l'utilisation. » Le noyau de CLAUDE.md (section du trio typographique, quatre jetons `--font-title`, `--font-num`, `--font-body`, `--font-ui`) et `rules/Typography1.md` (section du 26 October 2026, 15:10) portent cette règle ; elle remplace la ligne précédente de ce fichier sur les titres en GT Standard L Bold capitales et les nombres en GT Standard L. GT Sectra, Anthropic Serif et Inter restent des alternatives valables. (26 October 2026) (26 October 2026, 17:29:37 +0100)
+>
+>
+> ARGUMENTS: Ajouter la consigne 3D Production Workflow (orchestrateur, outils consignés, tâches atomiques, boucles itératives, règles sans devinette, références, bords non parfaits et NURBS pour l'industriel, outils de vision externes) : vérifier d'abord ce qui existe déjà dans rules/ParametricHda1.md (section du 25 October 2026) et dans le skill zenray-meshes (section 33), compléter seulement la différence, ajouter les termes déclencheurs dans triggers.json, lancer --verify. (26 October 2026, 17:29:37 +0100)
+
+## 26 October 2026, 17:29:42 +0100 : Prompt
+
+<!-- feedback-event:68d760a1a044bbc3ae6e54fdfbba8a9870f7d2a54a835b73e3ad017a708b5340 (26 October 2026, 17:29:42 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 17:29:42 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 17:29:42 +0100)
+
+> (Re-invocation of /claude-md-global — the previously loaded copy was truncated by compaction; the full instructions follow.) (26 October 2026, 17:29:42 +0100)
+>
+> Base directory for this skill: /Users/zenray/.claude/skills/claude-md-global (26 October 2026, 17:29:42 +0100)
+>
+> # La doctrine globale : la porte, pas le fichier (26 October 2026, 17:29:42 +0100)
+>
+> ## Ce qui a changé le 2026-09-15, et qu'il faut savoir avant tout le reste (26 October 2026, 17:29:42 +0100)
+>
+> `CLAUDE.md` pesait **218 431 octets** et dépassait la limite de **65 536 octets** du contexte de (26 October 2026, 17:29:42 +0100)
+> délégation aux sous-agents : il était donc **tronqué en silence**, ce qui est pire qu'une règle (26 October 2026, 17:29:42 +0100)
+> absente puisque rien ne le signale. Il pèse désormais **50 320 octets**, avec 15 216 de marge, et ne (26 October 2026, 17:29:42 +0100)
+> porte plus que les concepts. (26 October 2026, 17:29:42 +0100)
+>
+> Le texte intégral, rien de résumé ni de supprimé, vit dans **douze fichiers anglais** (26 October 2026, 17:29:42 +0100)
+> `~/.claude/rules/<Name>1.md`. Le contrôle d'intégrité a comparé le résultat à la sauvegarde : 88 (26 October 2026, 17:29:42 +0100)
+> titres sur 88 et 1 841 lignes de contenu sur 1 841 retrouvés. (26 October 2026, 17:29:42 +0100)
+>
+> | Fichier | Ce qu'il gouverne | Octets | (26 October 2026, 17:29:42 +0100)
+> |---|---|---| (26 October 2026, 17:29:42 +0100)
+> | `CardinalValues1.md` | doute, légitimité, report conditionnel, paliers, levier, objectifs, LifeOS, agency | 39 167 | (26 October 2026, 17:29:42 +0100)
+> | `Tone1.md` | ton, verbosité, prose française, récap, plan, clarification | 27 535 | (26 October 2026, 17:29:42 +0100)
+> | `Toolbox1.md` | parallélisme, encodage, CDN, quotas, git, scripts, déploiement, commandes | 26 586 | (26 October 2026, 17:29:42 +0100)
+> | `ParametricHda1.md` | loi HDA, valeur en dur, duplication, jetons, valeurs système | 23 562 | (26 October 2026, 17:29:42 +0100)
+> | `GameAndShipping1.md` | jeu, Unreal, devlog, tranche verticale, publier, périmètre | 20 136 | (26 October 2026, 17:29:42 +0100)
+> | `SkillsIndex1.md` | index auto-généré des skills personnels | 17 219 | (26 October 2026, 17:29:42 +0100)
+> | `SkillsAndMemory1.md` | skills, synchronisation, mémoire, PROGRESS.md, reprise | 16 591 | (26 October 2026, 17:29:42 +0100)
+> | `SilentBugs1.md` | bugs invisibles : ancêtres CSS, portails, thèmes, cache, erreur avalée | 14 179 | (26 October 2026, 17:29:42 +0100)
+> | `Typography1.md` | police, graisse, taille, webfont, icônes, jetons visuels, curseurs | 13 461 | (26 October 2026, 17:29:42 +0100)
+> | `ZenRayProjects1.md` | les trois entités ZenRay, domaines, Japon 2027, PVT, chantiers | 11 184 | (26 October 2026, 17:29:42 +0100)
+> | `JapaneseRules1.md` | règles japonaises : leçon, drill, sauvegarde. La matière est dans Memory1 | 8 145 | (26 October 2026, 17:29:42 +0100)
+> | `ShowYourWork1.md` | montrer son travail : promotion, ads, organique, audience, handles | 5 754 | (26 October 2026, 17:29:42 +0100)
+>
+> ## PRIORITÉ 0 : LE CHARGEMENT SE CALCULE, IL NE SE DEVINE PAS (26 October 2026, 17:29:42 +0100)
+>
+> Devant toute demande sérieuse, **avant de répondre** : (26 October 2026, 17:29:42 +0100)
+>
+> ```bash (26 October 2026, 17:29:42 +0100)
+> node ~/.claude/skills/claude-md-global/scripts/which-rule.mjs "<le texte de la demande>" (26 October 2026, 17:29:42 +0100)
+> ``` (26 October 2026, 17:29:42 +0100)
+>
+> Il rend les fichiers de doctrine à charger, par ordre de pertinence, les termes qui ont déclenché, et (26 October 2026, 17:29:42 +0100)
+> les fichiers de mémoire de projet à ouvrir en même temps. Quand rien ne se déclenche, il le dit : le (26 October 2026, 17:29:42 +0100)
+> noyau de `CLAUDE.md` suffit alors. (26 October 2026, 17:29:42 +0100)
+>
+> **Un seul terme suffit à déclencher un fichier**, et le vocabulaire est délibérément sur-inclusif, (26 October 2026, 17:29:42 +0100)
+> **829 termes** en français, en anglais et dans les tournures que Matthieu emploie réellement, y (26 October 2026, 17:29:42 +0100)
+> compris « je suis nul », « une fois sur deux », « tu me saoules » ou « c'est pas sorcier ». (26 October 2026, 17:29:42 +0100)
+>
+> > **La règle qui prime sur l'économie de tokens** : mieux vaut charger un fichier pour rien que rater (26 October 2026, 17:29:42 +0100)
+> > la doctrine qui gouverne la demande. Lire deux fois le même fichier dans une session ne coûte (26 October 2026, 17:29:42 +0100)
+> > presque rien ; répondre à côté de la doctrine coûte un aller-retour entier, et parfois une décision (26 October 2026, 17:29:42 +0100)
+> > fausse. **Dans le doute, on charge.** (26 October 2026, 17:29:42 +0100)
+>
+> ```bash (26 October 2026, 17:29:42 +0100)
+> node .../which-rule.mjs --all              # tous les fichiers et leur nombre de termes (26 October 2026, 17:29:42 +0100)
+> node .../which-rule.mjs --terms <fichier>  # le vocabulaire complet d'un fichier (26 October 2026, 17:29:42 +0100)
+> grep -n "<mot>" ~/.claude/rules/*.md       # les triggers sont aussi inscrits dans les fichiers (26 October 2026, 17:29:42 +0100)
+> ``` (26 October 2026, 17:29:42 +0100)
+>
+> Le vocabulaire vit dans `~/.claude/rules/triggers.json` et il est aussi inscrit en tête de chaque (26 October 2026, 17:29:42 +0100)
+> fichier, entre `TRIGGERS:START` et `TRIGGERS:END`, pour qu'un simple `grep` le trouve. Contrat HDA : (26 October 2026, 17:29:42 +0100)
+> le script est la définition, `triggers.json` son interface de paramètres, aucun terme n'est écrit en (26 October 2026, 17:29:42 +0100)
+> dur dans le code. (26 October 2026, 17:29:42 +0100)
+>
+> **Quand une règle nouvelle entre, son vocabulaire entre avec elle.** Sans terme déclencheur, un (26 October 2026, 17:29:42 +0100)
+> fichier ne se charge jamais et devient un décor : on croit les règles actives alors qu'elles dorment. (26 October 2026, 17:29:42 +0100)
+>
+> ## Le lien avec la mémoire de projet, `~/.claude/Memory1` (26 October 2026, 17:29:42 +0100)
+>
+> Les deux corpus ne répondent pas à la même question et ne se remplacent jamais. **Les règles disent (26 October 2026, 17:29:42 +0100)
+> COMMENT travailler, la mémoire dit ce que le PROJET sait.** Une demande sérieuse ouvre souvent les (26 October 2026, 17:29:42 +0100)
+> deux, et le routeur nomme les fichiers de mémoire liés à chaque doctrine. (26 October 2026, 17:29:42 +0100)
+>
+> | Mémoire | Doctrine qui l'appelle | (26 October 2026, 17:29:42 +0100)
+> |---|---| (26 October 2026, 17:29:42 +0100)
+> | `Identity/Matthieu1.md` (547 Ko, routeur `matthieu-context`) | `CardinalValues1.md`, `Tone1.md`, `ZenRayProjects1.md`, `SkillsAndMemory1.md` | (26 October 2026, 17:29:42 +0100)
+> | `Japanese/Japanese1.md` (491 Ko, routeur `japanese-context`) | `JapaneseRules1.md` | (26 October 2026, 17:29:42 +0100)
+> | `ZenRayShards/ZenRayShards1.md` (138 Ko, routeur `zenrayshards-context`) | `GameAndShipping1.md` | (26 October 2026, 17:29:42 +0100)
+> | `Design/Design1.md` | `Typography1.md`, `SilentBugs1.md`, `ParametricHda1.md`, `Toolbox1.md` | (26 October 2026, 17:29:42 +0100)
+> | `Business/Business1.md`, `Business/Freelance1.md` | `CardinalValues1.md`, `ZenRayProjects1.md`, `ShowYourWork1.md` | (26 October 2026, 17:29:42 +0100)
+> | `HealthSport/HealthSport1.md` | `CardinalValues1.md` | (26 October 2026, 17:29:42 +0100)
+> | `SocialMedia/SocialMedia1.md` | `ShowYourWork1.md`, `ZenRayProjects1.md` | (26 October 2026, 17:29:42 +0100)
+> | `Houdini/Houdini1.md`, `Substance/Substance1.md` | `ParametricHda1.md` | (26 October 2026, 17:29:42 +0100)
+> | `Animation/Animation1.md`, `UnrealEngine/UnrealEngine1.md`, `ZenRayProductions/LouisianaBayou/LouisianaBayou1.md` | `GameAndShipping1.md` | (26 October 2026, 17:29:42 +0100)
+> | `Culture/Culture1.md` | `JapaneseRules1.md` | (26 October 2026, 17:29:42 +0100)
+> | `Storytelling/Storytelling1.md` | `Tone1.md` | (26 October 2026, 17:29:42 +0100)
+> | `Mails/Mails1.md` (index + un fichier par jour, `Année/Mois/Mails_<date>.md`) | `SkillsAndMemory1.md` | (26 October 2026, 17:29:42 +0100)
+> | `AudioProductions/Audio1.md`, `Stock/Stock1.md` | `Toolbox1.md` | (26 October 2026, 17:29:42 +0100)
+>
+> **Le cas japonais demande une vigilance particulière**, parce que deux fichiers se ressemblent sans (26 October 2026, 17:29:42 +0100)
+> porter la même chose. `rules/JapaneseRules1.md` porte les RÈGLES, la manière d'enseigner et de (26 October 2026, 17:29:42 +0100)
+> sauvegarder ; `Memory1/Japanese/Japanese1.md` porte la MATIÈRE, les leçons, les kanji, le (26 October 2026, 17:29:42 +0100)
+> vocabulaire et les jauges. On ne les confond pas, et on n'écrit jamais l'un dans l'autre. (26 October 2026, 17:29:42 +0100)
+>
+> Les trois gros fichiers ne se lisent **jamais** en entier : leurs skills routeurs trouvent la section (26 October 2026, 17:29:42 +0100)
+> utile. La chronologie est ailleurs et reste unique, `~/.claude/PROGRESS.md`, écrite par le skill (26 October 2026, 17:29:42 +0100)
+> `progress` ; une connaissance durable va d'abord dans le bon `Memory1/**/<Nom>1.md`, puis l'entrée du (26 October 2026, 17:29:42 +0100)
+> journal cite ce chemin sans recopier le détail. (26 October 2026, 17:29:42 +0100)
+>
+> ## Les chemins, une fois pour toutes (26 October 2026, 17:29:42 +0100)
+>
+> ``` (26 October 2026, 17:29:42 +0100)
+> /Users/zenray/.claude/CLAUDE.md          les concepts, lus à chaque session (26 October 2026, 17:29:42 +0100)
+> /Users/zenray/.claude/rules/             les douze fichiers de doctrine + INDEX1.md + triggers.json (26 October 2026, 17:29:42 +0100)
+> /Users/zenray/.claude/Memory1/           la mémoire de projet, un <Nom>1.md par domaine (26 October 2026, 17:29:42 +0100)
+> /Users/zenray/.claude/PROGRESS.md        la chronologie unique, append only (26 October 2026, 17:29:42 +0100)
+> ``` (26 October 2026, 17:29:42 +0100)
+>
+> `~/.codex/AGENTS.md` et les quatre fichiers Gemini sont **générés** depuis `CLAUDE.md` par (26 October 2026, 17:29:42 +0100)
+> `zsh ~/.claude/skills/skill-sync/scripts/mirror-agents.sh`, jamais édités ; ils héritent donc de (26 October 2026, 17:29:42 +0100)
+> l'allègement, et tiennent à 48 301 octets. Attention, ce script est en zsh et utilise `print` : (26 October 2026, 17:29:42 +0100)
+> lancé avec `bash`, il échoue à la ligne 12. Les skills, eux, sont partagés par lien symbolique, (26 October 2026, 17:29:42 +0100)
+> `~/.gemini/config/skills` pointant vers `~/.claude/skills`. (26 October 2026, 17:29:42 +0100)
+>
+> ## Contexte des mails : charger et décharger (2026-09-30) (26 October 2026, 17:29:42 +0100)
+>
+> Les mails envoyés ou reçus qui comptent sont sauvegardés dans `~/.claude/Memory1/Mails/`, un fichier par (26 October 2026, 17:29:42 +0100)
+> jour : `<Année>/<MM-Month>/Mails_<YYYY-MM-DD>.md` (mois en anglais). L'index vit dans `Mails/Mails1.md`. (26 October 2026, 17:29:42 +0100)
+>
+> - **Charger** quand Matthieu demande le contexte des mails : lire `Mails/Mails1.md` (le tableau seul), (26 October 2026, 17:29:42 +0100)
+>   puis ouvrir UNIQUEMENT le fichier du jour utile. Ne jamais lire tout le dossier. (26 October 2026, 17:29:42 +0100)
+> - **Décharger** dès que le sujet change : ne plus rien relire des mails, et ne pas les recopier ailleurs. (26 October 2026, 17:29:42 +0100)
+> - **Absent de l'index ?** Aller le lire directement par le MCP Gmail (`search_threads`, `get_message` (26 October 2026, 17:29:42 +0100)
+>   en `PLAIN_TEXT`), puis le sauvegarder : (26 October 2026, 17:29:42 +0100)
+>   `python3 ~/.claude/Memory1/Mails/Scripts/save_mail.py <mails.json>` (idempotent par id de message). (26 October 2026, 17:29:42 +0100)
+> - Le mail réellement ENVOYÉ fait foi, pas le brouillon : relire depuis `in:sent` avant de sauvegarder. (26 October 2026, 17:29:42 +0100)
+> - Un rebond (`mailer-daemon`, 550) s'inscrit dans le champ Status du mail concerné. (26 October 2026, 17:29:42 +0100)
+>
+> ## Décharger une section nouvelle (26 October 2026, 17:29:42 +0100)
+>
+> Le script est la définition, `scripts/rules-plan.json` son interface de paramètres, chaque lot une (26 October 2026, 17:29:42 +0100)
+> instance. On essaie toujours à blanc d'abord. (26 October 2026, 17:29:42 +0100)
+>
+> ```bash (26 October 2026, 17:29:42 +0100)
+> node ~/.claude/skills/claude-md-global/scripts/extract-rules.mjs \ (26 October 2026, 17:29:42 +0100)
+>   --plan ~/.claude/skills/claude-md-global/scripts/rules-plan.json --lot <id> --dry-run (26 October 2026, 17:29:42 +0100)
+> ``` (26 October 2026, 17:29:42 +0100)
+>
+> Un lot nomme les titres **exacts** des sections à sortir, le fichier cible, et le **noyau** qui les (26 October 2026, 17:29:42 +0100)
+> remplace dans `CLAUDE.md`. Le noyau doit tenir seul : un agent qui ne lit que `CLAUDE.md` doit agir (26 October 2026, 17:29:42 +0100)
+> correctement sans le détail. (26 October 2026, 17:29:42 +0100)
+>
+> ## Le vérificateur ferme le travail (26 October 2026, 17:29:42 +0100)
+>
+> ```bash (26 October 2026, 17:29:42 +0100)
+> node ~/.claude/skills/claude-md-global/scripts/extract-rules.mjs --verify   # poids et pointeurs (26 October 2026, 17:29:42 +0100)
+> node ~/.claude/skills/claude-md-global/scripts/build-rules-index.mjs         # regenere rules/INDEX1.md (26 October 2026, 17:29:42 +0100)
+> ``` (26 October 2026, 17:29:42 +0100)
+>
+> Il échoue aussi bien sur un dépassement de la limite que sur un pointeur vers un fichier absent, et il (26 October 2026, 17:29:42 +0100)
+> a été éprouvé dans les deux sens, rouge avant la décharge, vert après. À lancer après toute (26 October 2026, 17:29:42 +0100)
+> modification de `CLAUDE.md`, dans le même mouvement, comme un commit suit un correctif. (26 October 2026, 17:29:42 +0100)
+>
+> ## Un piège déjà payé, propre à ce système (26 October 2026, 17:29:42 +0100)
+>
+> `update-skill-index.py` réinjectait **16 Ko** d'index des skills dans `CLAUDE.md` à chaque (26 October 2026, 17:29:42 +0100)
+> `sync-skill.sh`, et le fichier est effectivement repassé à 64 108 octets pendant le chantier. Le (26 October 2026, 17:29:42 +0100)
+> générateur écrit désormais dans `rules/SkillsIndex1.md`. Moralité générale : **tout script qui écrit (26 October 2026, 17:29:42 +0100)
+> dans `CLAUDE.md` doit être vérifié après une décharge**, sinon elle se défait toute seule et (26 October 2026, 17:29:42 +0100)
+> silencieusement. (26 October 2026, 17:29:42 +0100)
+>
+> ## Comment lire, selon le besoin (26 October 2026, 17:29:42 +0100)
+>
+> **Doute sur la MANIÈRE de travailler** → `Tone1.md` et `CardinalValues1.md`, qui gouvernent quelle que (26 October 2026, 17:29:42 +0100)
+> soit la demande. (26 October 2026, 17:29:42 +0100)
+>
+> **Question sur un SUJET précis** → passer par le routeur, puis lire le fichier qu'il nomme. Les (26 October 2026, 17:29:42 +0100)
+> sections de `CLAUDE.md` lui-même sont indexées par ligne dans [INDEX.md](INDEX.md), régénéré par (26 October 2026, 17:29:42 +0100)
+> `node ~/.claude/skills/claude-md-global/scripts/build-index.mjs` et vérifiable par son empreinte. (26 October 2026, 17:29:42 +0100)
+>
+> **Avant d'ÉCRIRE une règle nouvelle** → chercher d'abord. La règle existe déjà une fois sur deux, et (26 October 2026, 17:29:42 +0100)
+> la bonne action est alors de compléter la section existante, jamais d'en ouvrir une seconde sur le (26 October 2026, 17:29:42 +0100)
+> même sujet. Si elle est de priorité 0 et tient en quelques lignes, elle va dans `CLAUDE.md` ; sinon (26 October 2026, 17:29:42 +0100)
+> dans le fichier de son sujet, avec son vocabulaire ajouté à `triggers.json`, et une phrase de renvoi (26 October 2026, 17:29:42 +0100)
+> dans le noyau. (26 October 2026, 17:29:42 +0100)
+>
+> ## Pourquoi un index plutôt qu'une lecture complète (26 October 2026, 17:29:42 +0100)
+>
+> Un fichier de règles ne sert que s'il est lu. Passé une certaine taille il cesse d'être lu et devient (26 October 2026, 17:29:42 +0100)
+> un décor : on croit les règles actives alors qu'elles dorment. Pire encore, au-delà de 65 536 octets (26 October 2026, 17:29:42 +0100)
+> il était tronqué sans le dire. L'index rend la lecture PARTIELLE possible, donc la lecture tout court (26 October 2026, 17:29:42 +0100)
+> probable, et le routeur rend le bon choix automatique plutôt que dépendant de ma mémoire. (26 October 2026, 17:29:42 +0100)
+>
+> ## Erreurs déjà payées (26 October 2026, 17:29:42 +0100)
+>
+> | Erreur | Ce qu'elle coûte | La parade | (26 October 2026, 17:29:42 +0100)
+> |---|---|---| (26 October 2026, 17:29:42 +0100)
+> | Laisser `CLAUDE.md` dépasser 65 536 octets | Il est tronqué en silence, et on croit les règles actives | `--verify` après toute modification | (26 October 2026, 17:29:42 +0100)
+> | Un script qui réécrit `CLAUDE.md` après la décharge | La décharge se défait sans un mot | Vérifier après chaque `sync-skill.sh` | (26 October 2026, 17:29:42 +0100)
+> | Une règle nouvelle sans vocabulaire déclencheur | Le fichier ne se charge jamais, la règle dort | Ajouter les termes à `triggers.json` dans le même mouvement | (26 October 2026, 17:29:42 +0100)
+> | Chercher une règle par `grep` sans lire sa section | On lit une phrase hors contexte et on applique l'inverse | Lire la section entière autour du résultat | (26 October 2026, 17:29:42 +0100)
+> | Écrire une règle sans chercher | Deux sections contradictoires, et personne ne sait laquelle vaut | Chercher dans l'index AVANT d'écrire | (26 October 2026, 17:29:42 +0100)
+> | Éditer `~/.codex/AGENTS.md` | L'édition est écrasée à la synchronisation suivante | N'éditer que `CLAUDE.md`, puis lancer le miroir | (26 October 2026, 17:29:42 +0100)
+> | Économiser un chargement par prudence de tokens | On répond à côté de la doctrine, ce qui coûte bien plus cher | Dans le doute, charger | (26 October 2026, 17:29:42 +0100)
+>
+> ## Projet disponible : google/woff2 (26 October 2026, 17:29:42 +0100)
+>
+> Le projet officiel [google/woff2](https://github.com/google/woff2) est installé localement dans (26 October 2026, 17:29:42 +0100)
+> `/Users/zenray/.claude/tmp/tmp-fonts/google-woff2`. Il fournit les exécutables (26 October 2026, 17:29:42 +0100)
+> `woff2_decompress`, `woff2_compress` et `woff2_info` pour convertir et inspecter des fontes WOFF2. (26 October 2026, 17:29:42 +0100)
+> Les trois commandes sont aussi accessibles directement dans le terminal par des liens installés dans (26 October 2026, 17:29:42 +0100)
+> `/Users/zenray/.local/bin`. (26 October 2026, 17:29:42 +0100)
+>
+> Sur ce Mac, la compilation fiable passe par `xcrun --sdk macosx make -j16 all`. La commande `make` (26 October 2026, 17:29:42 +0100)
+> seule sélectionne le SDK des Command Line Tools 27.0, dont l'éditeur de liens échoue sur les (26 October 2026, 17:29:42 +0100)
+> architectures déclarées ; le SDK Xcode 26.5 utilisé par `xcrun` fonctionne. (26 October 2026, 17:29:42 +0100)
+>
+> `woff2_decompress` produit toujours un fichier `.ttf`. Quand `woff2_info` indique le flavor `OTTO`, (26 October 2026, 17:29:42 +0100)
+> le contenu est une fonte OpenType CFF et le fichier doit être renommé en `.otf` avant installation. (26 October 2026, 17:29:42 +0100)
+> Les fontes utilisateur installées dans `/Users/zenray/Library/Fonts` sont ensuite reconnues par (26 October 2026, 17:29:42 +0100)
+> Font Book sans modifier les fontes système protégées. (26 October 2026, 17:29:42 +0100)
+>
+> ## Règle renforcée : chercher les valeurs système dans leur source de vérité (26 October 2026, 17:29:42 +0100)
+>
+> Cette règle est la porte d’entrée vers la section complète du global (26 October 2026, 17:29:42 +0100)
+> `LES VALEURS SYSTÈME SE CHERCHENT AVANT DE SE DEVINER`. Elle s’applique dès (26 October 2026, 17:29:42 +0100)
+> qu’une valeur du code dépend de macOS, d’un réglage utilisateur, d’un écran, (26 October 2026, 17:29:42 +0100)
+> d’une permission, d’un runtime, d’un fichier de configuration ou d’une (26 October 2026, 17:29:42 +0100)
+> application externe. (26 October 2026, 17:29:42 +0100)
+>
+> Un correctif ne choisit jamais une hauteur, une position, une marge, une taille (26 October 2026, 17:29:42 +0100)
+> de fenêtre ou une constante système à l’œil lorsqu’une API, une préférence ou (26 October 2026, 17:29:42 +0100)
+> un état runtime peut la fournir. Il cherche d’abord le propriétaire réel de la (26 October 2026, 17:29:42 +0100)
+> donnée, lit la valeur avec une commande ou une API locale, compare le résultat (26 October 2026, 17:29:42 +0100)
+> par une seconde voie indépendante, puis centralise la valeur dans le paramètre (26 October 2026, 17:29:42 +0100)
+> HDA du projet. (26 October 2026, 17:29:42 +0100)
+>
+> L’incident qui fixe cette règle est Sleep Shutdown. Matthieu a dû insister pour (26 October 2026, 17:29:42 +0100)
+> que la hauteur du Dock soit vraiment cherchée. Les premières valeurs de widget (26 October 2026, 17:29:42 +0100)
+> étaient `96`, `80`, `72` puis `67` points. `visibleFrame.minY = 67` décrivait la (26 October 2026, 17:29:42 +0100)
+> zone réservée au Dock, mais pas la barre visible. La source Accessibility (26 October 2026, 17:29:42 +0100)
+> `AXList` a ensuite donné `61 pt`. La préférence native (26 October 2026, 17:29:42 +0100)
+> `com.apple.dock tilesize = 47`, augmentée du padding vertical mesuré de `14`, (26 October 2026, 17:29:42 +0100)
+> a fourni le repli `61 pt` quand l’application n’avait pas l’autorisation AX. (26 October 2026, 17:29:42 +0100)
+>
+> Le mot-clé `AXList` devient donc un exemple de méthode, pas une valeur à (26 October 2026, 17:29:42 +0100)
+> recopier. Pour toute situation équivalente : (26 October 2026, 17:29:42 +0100)
+>
+> 1. nommer la donnée, son unité et son repère ; (26 October 2026, 17:29:42 +0100)
+> 2. chercher l’API ou le fichier qui la possède réellement ; (26 October 2026, 17:29:42 +0100)
+> 3. lire la donnée avant d’écrire le layout ; (26 October 2026, 17:29:42 +0100)
+> 4. comparer la mesure à une observation indépendante ; (26 October 2026, 17:29:42 +0100)
+> 5. distinguer la source primaire, le repli et l’estimation ; (26 October 2026, 17:29:42 +0100)
+> 6. logguer la source utilisée ; (26 October 2026, 17:29:42 +0100)
+> 7. centraliser la valeur dans un seul paramètre ; (26 October 2026, 17:29:42 +0100)
+> 8. conserver la commande et la preuve dans le workflow concerné. (26 October 2026, 17:29:42 +0100)
+>
+> Commandes de contrôle pour l’exemple Dock : (26 October 2026, 17:29:42 +0100)
+>
+> ```zsh (26 October 2026, 17:29:42 +0100)
+> defaults read com.apple.dock tilesize (26 October 2026, 17:29:42 +0100)
+> osascript -e 'tell application "System Events" to tell process "Dock" to get {role, position, size} of every UI element' (26 October 2026, 17:29:42 +0100)
+> ``` (26 October 2026, 17:29:42 +0100)
+>
+> Une permission refusée ne signifie pas que la donnée n’existe pas. Une (26 October 2026, 17:29:42 +0100)
+> préférence absente ne signifie pas que la valeur vaut zéro. Une capture ne (26 October 2026, 17:29:42 +0100)
+> remplace pas l’API qui produit l’état. Si aucune source de vérité n’est (26 October 2026, 17:29:42 +0100)
+> trouvée, le résultat reste explicitement non vérifié : il ne se transforme pas (26 October 2026, 17:29:42 +0100)
+> en nombre plausible présenté comme une mesure. (26 October 2026, 17:29:42 +0100)
+>
+> La règle vaut pour le code natif comme pour HTML et React. Un navigateur qui ne (26 October 2026, 17:29:42 +0100)
+> peut pas lire une préférence macOS reçoit une mesure native injectée ou un (26 October 2026, 17:29:42 +0100)
+> token de démonstration clairement nommé. Il ne reçoit pas une fausse fonction (26 October 2026, 17:29:42 +0100)
+> `getDockHeight()`. (26 October 2026, 17:29:42 +0100)
+>
+> ## 30 September 2026 : la date partout, en anglais, mois en toutes lettres (26 October 2026, 17:29:42 +0100)
+>
+> - Toute règle ou tout ajout entre par une section au titre daté, et chaque ligne porte sa date au format `30 September 2026` (30 September 2026). (26 October 2026, 17:29:42 +0100)
+> - Texte intégral : `rules/SkillsAndMemory1.md`, section « La date partout » ; rappel court dans `CLAUDE.md` (30 September 2026). (26 October 2026, 17:29:42 +0100)
+> - Contrôle : `git diff -U0 -- <chemins> | grep '^+' | grep -v '^+++' | grep -vE '[0-9]{1,2} (January|February|March|April|May|June|July|August|September|October|November|December) 20[0-9]{2}'` doit être vide (30 September 2026). (26 October 2026, 17:29:42 +0100)
+> - Correction du format (30 September 2026, 11:51) : la première version écrivait `AAAA-MM-JJ` ; remplacée par l'anglais avec le mois en toutes lettres. (26 October 2026, 17:29:42 +0100)
+>
+> ## 30 September 2026 : deux règles ajoutées à la doctrine (26 October 2026, 17:29:42 +0100)
+>
+> - 30 September 2026 : `rules/ParametricHda1.md`, section du 30 September 2026 : l'interface de paramètres d'un graphe est courte, 8 par catégorie au plus, portée par le nœud maître et lue par `chf()`/`ch()`. (26 October 2026, 17:29:42 +0100)
+> - 30 September 2026 : `rules/SkillsAndMemory1.md`, section du 30 September 2026 : un feedback s'écrit petit à petit dans `FEEDBACK.md` et n'entre dans le skill que lorsque Matthieu le valide (sauf les règles demandées expressément : mesures rangées, une image par version, 8 paramètres par catégorie). (26 October 2026, 17:29:42 +0100)
+>
+> ## 02 October 2026 : Terme consacré : index mapping (ou mapping table) (26 October 2026, 17:29:42 +0100)
+>
+> - 02 October 2026 (mots de Matthieu, dictée et corrigée en grammaire seule) : index mapping (ou mapping table) est tout à fait le terme consacré : il désigne précisément l'action ou la table servant à mapper un index ou identifiant unique (01) vers un jeu de données associées (var1, var2), faisant office de table de correspondance directe pour retrouver rapidement plusieurs attributs à partir d'un simple entier. (02 October 2026) (26 October 2026, 17:29:42 +0100)
+> - 02 October 2026 : doctrine inscrite dans `rules/ParametricHda1.md` avec déclencheurs associés (`index mapping`, `mapping table`, `table de correspondance`, `lookup table`) dans `triggers.json`. (02 October 2026) (26 October 2026, 17:29:42 +0100)
+>
+> ## 5 October 2026 : Conversation liee au projet des le demarrage (26 October 2026, 17:29:42 +0100)
+>
+> - Au debut de chaque conversation agentique, executer BeginConversation avec le vrai session-id, agent et project-id existant concerne ; lire ensuite context et le feedback canonique. SessionBindings.json est la liaison unique session/projet, jamais une inference par titre ni une nouvelle identite par prompt. Une discussion sans projet conserve sa collection Conversations ; toute ambiguite ou tentative de reattribution reste visible et refusee. (5 October 2026) (26 October 2026, 17:29:42 +0100)
+> - Chaque fiche projet expose ses discussions liees, titre, fournisseur et pastille Claude orange, Codex gris ou Gemini bleu, avec ouverture du lecteur natif et retour au meme projet. Le mapping et sa fiche de contexte recensent les identites de session et references du lecteur, sans recopier le transcript dans le global. Les originaux complets restent archives par le miroir ; le lecteur pagine les messages disponibles et signale les corps absents ou effaces. Une liaison ne prouve pas une archive complete ni un hook universel d hote. (5 October 2026) (26 October 2026, 17:29:42 +0100)
+>
+> ## Contenu public et outils internes (6 October 2026) (26 October 2026, 17:29:42 +0100)
+>
+> - Dans les articles, posts, légendes et crédits publics, ne pas publier de mentions d’agents, d’automatisation agentique, de Claude Code, Codex, Gemini, LLM, AI ou IA, ni le fonctionnement interne des prompts, bridges, files de commandes ou mémoires partagées, sauf demande explicite ultérieure de Matthieu pour le sujet concerné. Ces informations restent dans le suivi privé. (6 October 2026) (26 October 2026, 17:29:42 +0100)
+> - Écrire sur le travail artistique et technique vérifié, ses choix, résultats et limites. Ne pas inventer de vécu, d’effort manuel, de jugement personnel ou d’auteur pour remplacer une mention supprimée. Garder une formulation factuelle et naturelle ; retirer les considérations internes qui ne servent pas le lecteur. (6 October 2026) (26 October 2026, 17:29:42 +0100)
+> - Avant publication, vérifier tout le contenu visible et ses métadonnées, les tableaux, légendes et figures. Pour le lys, ArticleLily/Check.py refuse les mentions internes et son selftest prouve le refus. (6 October 2026) (26 October 2026, 17:29:42 +0100)
+>
+> ## 10 October 2026 : index de la méthodologie, enregistré à quatre endroits (26 October 2026, 17:29:42 +0100)
+>
+> - 10 October 2026 : `~/.claude/CLAUDE.md` porte une section courte qui pointe vers le skill `zenray-methodology`, lequel porte la procédure complète (10 October 2026). (26 October 2026, 17:29:42 +0100)
+> - 10 October 2026 : le vocabulaire déclencheur (itérer, tourne en rond, piétine, bonne méthode, seize méthodes, masques noir et blanc, capture annotée, pivoter, trouver N) entre dans `rules/triggers.json` sous `SkillsAndMemory1.md`. La tête de ce fichier est régénérée depuis ce JSON, et `which-rule.mjs` le renvoie pour ces demandes (10 October 2026). (26 October 2026, 17:29:42 +0100)
+> - 10 October 2026 : `~/.claude/skills/zenray-houdini/SKILL.md` reçoit un renvoi en tête de sa section PRIORITÉ 0 (10 October 2026). (26 October 2026, 17:29:42 +0100)
+> - 10 October 2026 : `rules/SkillsIndex1.md` liste le skill automatiquement à chaque `sync-skill.sh`, par `update-skill-index.py` (10 October 2026). (26 October 2026, 17:29:42 +0100)
+>
+> ## 21 October 2026 : index de la méthode du sharingan, enregistré à quatre endroits (26 October 2026, 17:29:42 +0100)
+>
+> - 21 October 2026 : `~/.claude/CLAUDE.md` porte une phrase dans la section « PRIORITÉ 0 : MÉTHODE, SKILLS, MÉMOIRE ET JOURNAL » (21 October 2026). (26 October 2026, 17:29:42 +0100)
+> - 21 October 2026 : la doctrine, trois paragraphes qui reprennent les mots de Matthieu, vit dans `rules/SkillsAndMemory1.md`, section du 21 October 2026 (21 October 2026). (26 October 2026, 17:29:42 +0100)
+> - 21 October 2026 : le vocabulaire déclencheur (sharingan, reproduire un résultat, à l'identique, 99,9, même résultat, comme la référence) est dans `rules/triggers.json` sous `SkillsAndMemory1.md`, et `which-rule.mjs` le renvoie pour ces demandes (21 October 2026). (26 October 2026, 17:29:42 +0100)
+> - 21 October 2026 : le skill `zenray-sharingan` porte la boucle et trois exemples ; `rules/SkillsIndex1.md` le liste à chaque `sync-skill.sh` (21 October 2026). (26 October 2026, 17:29:42 +0100)
+>
+> ## 21 October 2026 : typographie des galeries (26 October 2026, 17:29:42 +0100)
+>
+> - 21 October 2026 : la correction courante est dans `rules/Typography1.md`, section « GT Sectra pour les titres des galeries, Anthropic Serif Regular pour le corps » : titres Gallery uniquement en GT Sectra Display LCG Regular Italic 400, corps et nombres en Anthropic Serif Regular 400, remplaçant la prescription Anthropic Medium du 18 October 2026. Le routeur connaît GT Sectra et Anthropic Serif Regular. (21 October 2026) (26 October 2026, 17:29:42 +0100)
+> - 23 October 2026 : titres en GT Sectra LCG ITALIQUE (coupe normale), chiffres et corps droits en Anthropic Serif ; règle courante dans `rules/Typography1.md`, section du 23 October 2026, 18:20, qui remplace « jamais d'italique ». (23 October 2026) (26 October 2026, 17:29:42 +0100)
+>
+>
+> ## 25 October 2026 : PRIORITÉ N°1, l'argent d'abord, en tête du noyau (26 October 2026, 17:29:42 +0100)
+>
+> - 25 October 2026 : demande de Matthieu, les premières lignes de `/Users/zenray/.claude/CLAUDE.md` portent désormais la PRIORITÉ N°1 : tout choix et toute session se pèsent d'abord à ce qu'ils rapprochent d'une rentrée d'argent ou d'un paiement ; ordre prospecter, produire, être payé. Texte intégral et ses mots : `/Users/zenray/.claude/rules/CardinalValues1.md`, section du 25 October 2026 ; mise en œuvre dans les journées : skill `zenray-calendar-plan`, section du même jour. (25 October 2026) (26 October 2026, 17:29:42 +0100)
+> - 25 October 2026 : pour tenir sous 65 536 octets, deux sections ont quitté le noyau, texte intact : « Basculer la question en opportunité de revenu » vers `rules/CardinalValues1.md` et l'index Karpathy vers `rules/Toolbox1.md`, chacune remplacée par un pointeur daté. `extract-rules.mjs --verify` : vert, 383 octets de marge. Sauvegarde avant modification : `/Users/zenray/.claude/tmp/CLAUDE.md.bak-25-October-2026`. (25 October 2026) (26 October 2026, 17:29:42 +0100)
+>
+> ## 26 October 2026 : typographie, Literata et GT Standard L par défaut, rien d'abandonné (26 October 2026, 17:29:42 +0100)
+>
+> - 26 October 2026 : mots de Matthieu : « je t'avais pas dit d'enlever complètement GT Sectra et Anthropic Serif, ni Inter, mais de mettre en priorité d'abord, par défaut, Literata et GT Standard L ». Le noyau de CLAUDE.md (section du trio typographique) et `rules/Typography1.md` (section « 26 October 2026, correction ») disent donc : DÉFAUT = Literata (corps et texte reçu), GT Standard L Bold capitales (titres), GT Standard L Regular (interface et tous les nombres) ; GT Sectra LCG, AnthropicSerif et InterVariable restent des alternatives valables. (26 October 2026) (26 October 2026, 17:29:42 +0100)
+> - 26 October 2026 : devant une question de police, charger `Typography1.md` par le routeur (`literata`, `gt standard`, `gt sectra`, `police` y mènent) et lire sa DERNIÈRE section datée avant de répondre ; une section plus ancienne peut dire « abandonné » alors que la plus récente a corrigé. (26 October 2026) (26 October 2026, 17:29:42 +0100)
+>
+> ## 26 October 2026, 15:10 : typographie, titres et nombres en GT Ultra, corps en Literata, reste en GT Standard L (26 October 2026, 17:29:42 +0100)
+>
+> - 26 October 2026 : mots de Matthieu : « les titres en GT Ultra, les nombres en GT Ultra, le corps en Literata, et tout le reste de l'UI en GT Standard L. Toujours en première priorité pour l'utilisation. » Le noyau de CLAUDE.md (section du trio typographique, quatre jetons `--font-title`, `--font-num`, `--font-body`, `--font-ui`) et `rules/Typography1.md` (section du 26 October 2026, 15:10) portent cette règle ; elle remplace la ligne précédente de ce fichier sur les titres en GT Standard L Bold capitales et les nombres en GT Standard L. GT Sectra, Anthropic Serif et Inter restent des alternatives valables. (26 October 2026) (26 October 2026, 17:29:42 +0100)
+>
+>
+> ARGUMENTS: Ajouter la consigne 3D Production Workflow (orchestrateur, outils consignés, tâches atomiques, boucles itératives, règles sans devinette, références, bords non parfaits et NURBS pour l'industriel, outils de vision externes) : vérifier d'abord ce qui existe déjà dans rules/ParametricHda1.md (section du 25 October 2026) et dans le skill zenray-meshes (section 33), compléter seulement la différence, ajouter les termes déclencheurs dans triggers.json, lancer --verify. (26 October 2026, 17:29:42 +0100)
+
+## 26 October 2026, 17:30:19 +0100 : Iteration
+
+<!-- feedback-event:4e43acb881578dbf5535c2aad1d66d76e2797e9e789c1c0d15c24d4aef79924b (26 October 2026, 17:30:19 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 17:30:19 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 17:30:19 +0100)
+
+> Maintenant j'écris les ajouts : triggers, section datée dans la règle, registre des outils du jour dans le skill, puis vérification. (26 October 2026, 17:30:19 +0100)
