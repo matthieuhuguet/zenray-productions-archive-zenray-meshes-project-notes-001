@@ -16744,3 +16744,11 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 18:11:21 +0100)
 
 > Je synchronise le skill puis je regarde l'état visuel du bois pour choisir le prochain défaut à corriger. (26 October 2026, 18:11:21 +0100)
+
+## 26 October 2026, 18:12:54 +0100 : Iteration
+
+<!-- feedback-event:dca1ce4f3c764975ad162191c626ea0b6e5595586087bb71430712b0fea7dd89 (26 October 2026, 18:12:54 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:12:54 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:12:54 +0100)
+
+> Car v100 has the same layout. The tree board turned out to be a comparison sheet: each row is a view, and the middle column is the reproduction. I'll pin down the exact cell edges and the yellow IoU caption before writing the script. (26 October 2026, 18:12:54 +0100)
