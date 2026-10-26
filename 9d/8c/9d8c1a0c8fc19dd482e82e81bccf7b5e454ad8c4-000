@@ -20459,3 +20459,39 @@
 > Change la musique et je veux celle-là à partir de 2:28, donc 2 minutes 28. Mais par contre, ce que je veux, c'est... s'il n'y a pas assez de temps sur la musique, déjà, c'est que tu boucles la musique. Et je veux que tu commences dès le début, même là où il y a le motion. Parce que sinon, en fait, la musique, il n'y a pas le temps de... Ah, quoique non. Attends que le motion se fasse et ensuite go la remplace d'ailleurs la musique de cascadeur, parce qu'en fait ça me sert à rien d'avoir cette version. (26 October 2026, 21:07:21 +0100)
 >
 > [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/images/2.png] (26 October 2026, 21:07:21 +0100)
+
+## 26 October 2026, 21:09:35 +0100 : Iteration
+
+<!-- feedback-event:132f53b5fc4a2c96b670452069578d793803fe50efaacf76e312980faa029373 (26 October 2026, 21:09:35 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 21:09:35 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 21:09:35 +0100)
+
+> Dernière étape : pousser les nouveaux fichiers dans ZenRay Assets et dans git. (26 October 2026, 21:09:35 +0100)
+
+## 26 October 2026, 21:10:06 +0100 : Iteration
+
+<!-- feedback-event:23434c963f6fa3026e997c466421536fc9eb8f037a3d13a9ae078c150cab8d10 (26 October 2026, 21:10:06 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 21:10:06 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 21:10:06 +0100)
+
+> La version avec « How Long Is Now? » de YANA, à partir de 2:28, est faite et le MP4 vous est envoyé. J'ai supprimé la version Cascadeur. (26 October 2026, 21:10:06 +0100)
+>
+> J'ai retenu votre dernière consigne : la musique commence quand le motion d'ouverture (ZenRay SFX) se termine, à 6,0 s, avec un fondu d'entrée de 0,33 s. Le motion joue seul avec son propre son pendant ses 6 s. Pour démarrer dès la première image, je mets `placeAt: 0` dans `Params/montage-yana.json` et je refais la vidéo en 15 secondes. (26 October 2026, 21:10:06 +0100)
+>
+> **Boucle.** Il reste 71,88 s de piste après 2:28 pour 61,88 s à couvrir : aucune boucle n'a été nécessaire. J'ai quand même ajouté la boucle avec fondu enchaîné d'1 s, pour le jour où le montage s'allonge. (26 October 2026, 21:10:06 +0100)
+>
+> **Vérifications.** La musique entre bien à 6,0 s : -43 dB à 6,0 s, puis -12 dB à 6,5 s. Les 35 contrôles sont verts et le test rouge puis vert est fait. Le master est à -14,1 LUFS et -1,4 dBTP. Je n'ai pas écouté le résultat. Le MP4 et le MOV sont dans `/Users/zenray/.claude/tmp/tmp-zenray-meshes/Montage/Out-Yana/`. La première version, avec Lamboley, reste dans `Montage/Out/`. (26 October 2026, 21:10:06 +0100)
+>
+> **Ce que j'ai supprimé.** Par chemins exacts : le dossier `Out-Meaning/`, `Params/montage-meaning.json`, `Index-Meaning.md` et les deux copies du mp3 Cascadeur. Elles se refont en une minute avec yt-dlp. (26 October 2026, 21:10:06 +0100)
+>
+> **Assets.** Le MP4 et le MOV de la version Lamboley, la miniature, `Index.md` et le fichier de montage sont déjà enregistrés dans la sauvegarde ZenRay Assets. Les nouveaux fichiers de la version Yana sont dans une archive en file (`Index-Yana.md` est régénéré), sans preuve cloud lue pour l'instant. (26 October 2026, 21:10:06 +0100)
+>
+> Les options de musique (`startAt`, `placeAfter`, `loop`) sont notées dans le skill ZenRay Edit et son gabarit, et tout est poussé. (26 October 2026, 21:10:06 +0100)
+>
+> | Ce que vous vouliez | Fait ? | Comment je le sais | (26 October 2026, 21:10:06 +0100)
+> |---|---|---| (26 October 2026, 21:10:06 +0100)
+> | Musique YANA à partir de 2:28 | Oui | log : démarre à 148,000 s dans la piste | (26 October 2026, 21:10:06 +0100)
+> | Boucle si la piste est trop courte | Prête, non utilisée | 71,88 s disponibles pour 61,88 s | (26 October 2026, 21:10:06 +0100)
+> | Musique après le motion d'ouverture | Oui | niveaux mesurés autour de 6 s | (26 October 2026, 21:10:06 +0100)
+> | Supprimer la version Cascadeur | Oui | listage des dossiers | (26 October 2026, 21:10:06 +0100)
+> | MP4 vérifié | Oui | 35 sur 35, test rouge et vert | (26 October 2026, 21:10:06 +0100)
