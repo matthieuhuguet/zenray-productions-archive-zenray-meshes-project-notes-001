@@ -16296,3 +16296,57 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 17:30:19 +0100)
 
 > Maintenant j'écris les ajouts : triggers, section datée dans la règle, registre des outils du jour dans le skill, puis vérification. (26 October 2026, 17:30:19 +0100)
+
+## 26 October 2026, 17:31:06 +0100 : Iteration
+
+<!-- feedback-event:836485dd7040e3eb141558f8a1fe56199eb0fb9daa3849606b9583be1b0b1297 (26 October 2026, 17:31:06 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 17:31:06 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 17:31:06 +0100)
+
+> C'est ajouté, mais pas recopié : cette consigne était déjà dans la doctrine depuis le 25 octobre, quasi mot pour mot, avec son pointeur dans `CLAUDE.md` et ses déclencheurs. J'ai complété seulement la différence, dans le skill ZenRay Meshes et dans `/claude-md-global`. (26 October 2026, 17:31:06 +0100)
+>
+> **Dans `/claude-md-global`** (`rules/ParametricHda1.md`, section du 26 octobre) : (26 October 2026, 17:31:06 +0100)
+> - **Reconfirmation :** ta redite est notée, le texte du 25 octobre fait foi. (26 October 2026, 17:31:06 +0100)
+> - **Précision sur les bords :** organique, aucune arête parfaitement coupée ; industriel, des guides NURBS ou B-splines d'abord, puis conversion en quads. J'ai pris « organic/ but for industrial » dans ce sens, dis-moi si tu l'entendais autrement. (26 October 2026, 17:31:06 +0100)
+> - **« Consigner chaque outil » :** cela veut dire une ligne de registre par outil, avec son nom, son rôle, sa commande et sa date. (26 October 2026, 17:31:06 +0100)
+> - **Sous-agents :** ils restent des agents ponctuels, jamais un Workflow sans double confirmation. (26 October 2026, 17:31:06 +0100)
+> - **Déclencheurs :** 15 nouveaux termes ajoutés au routeur (« outils consignés », « boucles itératives », « aucune devinette », « arêtes parfaitement coupées », etc.), et le routeur renvoie bien ce fichier pour eux. (26 October 2026, 17:31:06 +0100)
+>
+> **Dans le skill `zenray-meshes`** (section 106) : (26 October 2026, 17:31:06 +0100)
+> - **Correspondance règle/pratique :** chaque règle est reliée à ce qui l'applique réellement dans le projet. (26 October 2026, 17:31:06 +0100)
+> - **Registre des outils :** tous les outils qui marchent au 26 octobre, avec leur commande (`BranchLab`, `BranchMethods`, `TreeFromSheet.sh`, `CarTry.sh`, `ArchView.py`, etc.). (26 October 2026, 17:31:06 +0100)
+>
+> Deux limites restent. Je n'ai pas branché de modèle de vision externe : seule la lecture des vidéos par Haiku existe. Et l'orchestrateur avec sous-agents n'a pas été utilisé, par coût et à cause de l'interdiction des Workflow ; tout s'est fait en séquence dans cette session. (26 October 2026, 17:31:06 +0100)
+>
+> `CLAUDE.md` n'est pas touché : il a 19 octets de marge sous la limite de 65 536. `extract-rules.mjs --verify` passe, et l'index est régénéré (1 232 termes). (26 October 2026, 17:31:06 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (26 October 2026, 17:31:06 +0100)
+> |---|---|---| (26 October 2026, 17:31:06 +0100)
+> | Consigner la consigne 3D dans le skill ZenRay Meshes | Oui | Section 106 du skill, synchronisée | (26 October 2026, 17:31:06 +0100)
+> | L'ajouter aussi à `/claude-md-global` | Oui, sans doublon | Section du 26 octobre dans `ParametricHda1.md`, texte du 25 octobre non dupliqué | (26 October 2026, 17:31:06 +0100)
+> | Que le routeur la retrouve | Oui | Le routeur renvoie `ParametricHda1.md` pour les trois termes testés | (26 October 2026, 17:31:06 +0100)
+> | Rien casser dans le noyau | Oui | `CLAUDE.md` à 65 517 octets, `--verify` vert | (26 October 2026, 17:31:06 +0100)
+
+## 26 October 2026, 17:31:10 +0100 : Prompt
+
+<!-- feedback-event:7e5f224fd06ca7dce26e5c30db1886e99de8649a6147b1b27e62fc70b4198a4c (26 October 2026, 17:31:10 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 17:31:10 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 17:31:10 +0100)
+
+> ZenRay Meshes, relance automatique (Matthieu, 26 October 2026) : « Encore loin du résultat final, itère pendant la journée jusqu'à ce que ce soit parfait et polish, et continue de consigner notamment dans l'algo » ; puis « crée les outils pour ZenRay Meshes afin d'obtenir une topologie parfaite, mesurée contre le dataset, vérifiée en wireframe comme par un animateur ou tech artist senior, prête pour l'animation ; la retopologie est un outil à part entière ; UV et texture hors périmètre » ; puis les deux vidéos de modélisation (analyses dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/refs/videos/, Analysis_NDPeZ7YZgrc.md et ZenRayMeshes1.md section 15). Si la boucle s'est arrêtée, reprends là où elle en est : lis /Users/zenray/.claude/skills/zenray-meshes/SKILL.md (sections 63 à la dernière), le statut courant dans /Users/zenray/.claude/Memory1/Projects/zenray-meshes/ZenRayMeshes1.md et le dernier Audit et Topo dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/. Prochain chantier : CageFit (cage de patchs de comptes d'arêtes égaux, grilles de Coons, pôles aux coins, plis tenus à 3,45 mm), les arches, l'analyse d'On Mars 3D. Garde seulement un gain mesuré (forme identique à v366 : silhouette 0,9696, traits 0,887 / 0,811), envoie l'image à Matthieu, consigne dans le skill (section datée), mémoire, progress, checkpoint. Chercher AVANT de créer un outil (grep dans les skills). Pas de workflow. /dont-stop (26 October 2026, 17:31:10 +0100)
+
+## 26 October 2026, 17:35:14 +0100 : Prompt
+
+<!-- feedback-event:3901d16ce8b812f41d98bfd6ebb3eac2c3ee2a925e6fc02af2c9113beb2c8c07 (26 October 2026, 17:35:14 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 17:35:14 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 17:35:14 +0100)
+
+> [Image: original 1154x3098, displayed at 745x2000. Multiply coordinates by 1.55 to map to original image.] (26 October 2026, 17:35:14 +0100)
+
+## 26 October 2026, 17:35:18 +0100 : Iteration
+
+<!-- feedback-event:73ff40c6b34c3a0158ba560e0861fd68ba0ee5faba69b17a8a4e51dde4d40ab3 (26 October 2026, 17:35:18 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 17:35:18 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 17:35:18 +0100)
+
+> Je t'envoie la planche de composants de l'arbre v35, refaite avec les composants de bois jugés par le banc de crêtes (la même planche qu'avant, mais avec les vrais pourcentages), puis je consigne. (26 October 2026, 17:35:18 +0100)
