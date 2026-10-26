@@ -17411,3 +17411,494 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 18:40:49 +0100)
 
 > [Image: original 3000x2000, displayed at 2000x1333. Multiply coordinates by 1.50 to map to original image.] (26 October 2026, 18:40:49 +0100)
+
+## 26 October 2026, 18:42:31 +0100 : Iteration
+
+<!-- feedback-event:f4cbed4b53cfc3e82fe434400a6d133df2d5113728de9fe165af9888120d7551 (26 October 2026, 18:42:31 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:42:31 +0100)
+- Source: checkpoint:claude:09d15ec8-88ad-4965-a2f0-80b68515e880. (26 October 2026, 18:42:31 +0100)
+
+> Arbre w46 et f46 : bouchons Coons en dome, plancher de largeur des feuilles, TopoCheck bois 0,840 vers 0,937 et arbre complet 0,733 vers 0,886. Videos d evolution voiture (4 et 8 fps), arbre jusqu a f46, tours 3 s et 5 s de la voiture. Essais sans gain consignes (sections 114 et 115). Voiture v470 inchangee. Prochain : rayures des feuilles, coins de bouchon, bilan 20:02. (26 October 2026, 18:42:31 +0100)
+
+## 26 October 2026, 18:42:43 +0100 : Iteration
+
+<!-- feedback-event:de1dd808ea2ae44ef01ef51d539b0f3e7f38ba0270efd76a40ebab869e202102 (26 October 2026, 18:42:43 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:42:43 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 18:42:43 +0100)
+
+> Je vérifie que les bouchons de Coons marchent aussi sur les autres arbres (conifère synthétique, arbre de vérité), pour valider l'outil au-delà de l'arbre réel. (26 October 2026, 18:42:43 +0100)
+
+## 26 October 2026, 18:42:49 +0100 : Iteration
+
+<!-- feedback-event:f99620407bb1d95d5286404f5888f7b76bbd7b9d9aded671cc3b95e4acb87d18 (26 October 2026, 18:42:49 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:42:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 18:42:49 +0100)
+
+> Le conifère se construit ; j'attends la notification. (26 October 2026, 18:42:49 +0100)
+
+## 26 October 2026, 18:43:05 +0100 : Iteration
+
+<!-- feedback-event:b8b076c600b18f7109e80eee8e8b9133a7306e8a5d28698611fce57fcd6d2545 (26 October 2026, 18:43:05 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:43:05 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 18:43:05 +0100)
+
+> Voici où j'en suis : tout ce que vous m'avez demandé dans ce tour est livré, et je vérifie en arrière-plan que l'outil de bouchons marche sur un conifère. (26 October 2026, 18:43:05 +0100)
+>
+> **Envoyé dans cette conversation** (26 October 2026, 18:43:05 +0100)
+> - Voiture : l'évolution v8 à v470 à 0,125 s par image (425 images, 53 s), et deux tours complets de 360° en 24 images, un de 3 s et un de 5 s, avec les mêmes images (vue trois quarts avant au départ, caméra en sens inverse des aiguilles d'une montre vue du dessus). Haiku (effort max) les a fabriqués sans Houdini, avec un rendu numpy ; j'ai vérifié les durées par ffprobe et regardé la planche des 24 images. Le rythme perçu des 5 s reste à voir dans un vrai lecteur. (26 October 2026, 18:43:05 +0100)
+> - Arbre : l'évolution mise à jour, de v15 à f46 (w43, f44, w45, w46, f46 ajoutées), 37 images, 9,25 s. (26 October 2026, 18:43:05 +0100)
+> - Images de l'arbre : `TreeWood_w46`, `TreeHero_tree_f46` et le fil de fer du bois. (26 October 2026, 18:43:05 +0100)
+> - mp3 : « L'Arc de Triomphe » de Mathieu Lamboley (3 min 32 s) dans `/Users/zenray/.claude/tmp/tmp-zenray-meshes/Music/`. Je ne l'ai pas encore ajouté aux vidéos. (26 October 2026, 18:43:05 +0100)
+>
+> **Arbre : topologie mesurée** (26 October 2026, 18:43:05 +0100)
+> - J'ai remplacé les bouchons de tube de Sweep, qui créaient des pôles de valence 16 et des faces dégénérées, par un patch de Coons en dôme. (26 October 2026, 18:43:05 +0100)
+> - Bois seul (w46) : score de topologie de 0,840 à 0,937 et 32 % de faces en moins. (26 October 2026, 18:43:05 +0100)
+> - Arbre complet avec feuilles (f46) : de 0,733 à 0,886, de 273 396 à 161 524 quads, avec zéro fissure, zéro bord non-manifold et zéro face de feuille dégénérée. (26 October 2026, 18:43:05 +0100)
+> - Le renflement du pied de tronc de f44 venait de ce bouchon ; il est corrigé en w46. (26 October 2026, 18:43:05 +0100)
+> - Les fautes qui restent sont les quatre quads de coin de chaque bouchon. Elles sont inhérentes à la grille 4 × 4 pour un tube à 16 côtés. (26 October 2026, 18:43:05 +0100)
+> - Les feuilles gardent des rayures d'ombrage. J'ai essayé un rendu à deux faces : il noircit le tronc et ne les enlève pas, donc je l'ai annulé. La courbure de la feuille est la piste suivante. (26 October 2026, 18:43:05 +0100)
+>
+> **Essais sans gain, consignés dans le skill pour ne pas les rejouer** (26 October 2026, 18:43:05 +0100)
+> - Utiliser une seule vue du plan : la précision 3D baisse (0,473 avec les deux, 0,41 avec une seule). (26 October 2026, 18:43:05 +0100)
+> - Corriger les rayons des branches : l'erreur reste d'un facteur 2. (26 October 2026, 18:43:05 +0100)
+> - Retirer les crochets terminaux : gain trop mince et contradictoire. (26 October 2026, 18:43:05 +0100)
+> - Balayage des réglages de m20 : la recette actuelle est déjà au plateau. (26 October 2026, 18:43:05 +0100)
+> - Voiture : exempter les pôles sur arête vive ne gagne que 272 faces, donc v470 reste inchangée. (26 October 2026, 18:43:05 +0100)
+>
+> Deux points à noter : (26 October 2026, 18:43:05 +0100)
+> - La cuisson de l'arbre complet dépasse le délai du pont Houdini ; l'erreur « unreachable » est trompeuse et le fichier arrive quand même plus tard (consigné dans le skill). (26 October 2026, 18:43:05 +0100)
+> - Mon relancement de l'évolution de l'arbre a écrasé `manifest_tree.json` de l'agent (le manifeste seul, pas les vidéos). (26 October 2026, 18:43:05 +0100)
+>
+> | Ce que vous vouliez | Fait ? | Comment je le sais | (26 October 2026, 18:43:05 +0100)
+> |---|---|---| (26 October 2026, 18:43:05 +0100)
+> | Vidéo voiture à 0,125 s par image | Oui | ffprobe : 8 images/s, 425 images, 53,125 s | (26 October 2026, 18:43:05 +0100)
+> | Tours de 360° en 3 s et 5 s, 24 images | Oui | ffprobe : 3,0 s et 5,0 s ; planche des 24 images lue, tour complet | (26 October 2026, 18:43:05 +0100)
+> | Évolution de l'arbre à jour | Oui | ffprobe : 37 images ; dernière image f46 lue | (26 October 2026, 18:43:05 +0100)
+> | mp3 de l'Arc de Triomphe près du projet | Oui | ffprobe : mp3, 212 s | (26 October 2026, 18:43:05 +0100)
+> | Bois et feuilles à (26 October 2026, 18:43:05 +0100)
+
+## 26 October 2026, 18:43:05 +0100 : Prompt
+
+<!-- feedback-event:a48182d9a087c16019c8c49371267ea99fa671513b3a5906f54df62d349ad326 (26 October 2026, 18:43:05 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 18:43:05 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 18:43:05 +0100)
+
+> Pour l'instant, tu vas te stop et tu vas consigner toutes les choses qui ont été apprises et je relancerai la boucle plus tard. /ctrl-s notamment dans le skill et dans l'algo. Comme ça, tu finis proprement et comme ça, tu défonces pas mes prochaines limites. (26 October 2026, 18:43:05 +0100)
+
+## 26 October 2026, 18:43:09 +0100 : Prompt
+
+<!-- feedback-event:42e41aef3af0cecc94e943f15c60cf412545c83a760319bcb7ad7fb0941142cb (26 October 2026, 18:43:09 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 18:43:09 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 18:43:09 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/ctrl-s (26 October 2026, 18:43:09 +0100)
+>
+> # Ctrl-S (26 October 2026, 18:43:09 +0100)
+>
+> Le geste répond à une seule question : (26 October 2026, 18:43:09 +0100)
+>
+> > Où faut-il écrire ce que nous venons d'apprendre pour que cela serve encore dans six mois ? (26 October 2026, 18:43:09 +0100)
+>
+> La réponse comporte parfois deux écritures, dont les rôles ne se doublonnent jamais : (26 October 2026, 18:43:09 +0100)
+>
+> - le fichier `*1.md` garde la connaissance durable du projet ; (26 October 2026, 18:43:09 +0100)
+> - `/Users/zenray/.claude/PROGRESS.md` garde la trace datée de l'action et pointe vers cette source. (26 October 2026, 18:43:09 +0100)
+>
+> ## Architecture canonique (26 October 2026, 18:43:09 +0100)
+>
+> | Question | Source unique | (26 October 2026, 18:43:09 +0100)
+> |---|---| (26 October 2026, 18:43:09 +0100)
+> | Quand, quoi, quel agent, quelle preuve, quelle suite ? | `~/.claude/PROGRESS.md` via le skill `progress` | (26 October 2026, 18:43:09 +0100)
+> | Que sait durablement un projet ou un domaine ? | `Memory/<domaine>/<Nom>1.md` | (26 October 2026, 18:43:09 +0100)
+> | Comment retrouver une section dans un gros fichier ? | skill routeur de contexte | (26 October 2026, 18:43:09 +0100)
+> | Quelle méthode réutiliser ? | `~/.claude/skills/<méthode>/` | (26 October 2026, 18:43:09 +0100)
+> | Quelle loi vaut encore demain ? | `CLAUDE.md` global ou du projet | (26 October 2026, 18:43:09 +0100)
+> | Pourquoi cette ligne de code surprenante existe-t-elle ? | commentaire au point exact | (26 October 2026, 18:43:09 +0100)
+> | Quel plan ou état de chantier détaillé reprendre ? | fichier dédié dans le projet | (26 October 2026, 18:43:09 +0100)
+> | Où vit un secret ? | section autorisée de `Identity/Matthieu1.md`, jamais ailleurs | (26 October 2026, 18:43:09 +0100)
+>
+> Une information, un seul endroit. Le journal cite la source durable ; il n'en recopie pas le contenu. (26 October 2026, 18:43:09 +0100)
+>
+> ## Arbre de décision (26 October 2026, 18:43:09 +0100)
+>
+> 1. **Secret** : utiliser seulement la valeur nécessaire depuis `Identity/Matthieu1.md`. Ne jamais l'afficher, (26 October 2026, 18:43:09 +0100)
+>    la journaliser ni la mettre dans un commit. (26 October 2026, 18:43:09 +0100)
+> 2. **Connaissance durable d'un projet ou de Matthieu** : trouver son `*1.md` avec le routeur correspondant, (26 October 2026, 18:43:09 +0100)
+>    puis ajouter une section datée sans effacer l'historique. (26 October 2026, 18:43:09 +0100)
+> 3. **Méthode réutilisable** : créer ou corriger le skill source dans `~/.claude/skills/`, puis le synchroniser. (26 October 2026, 18:43:09 +0100)
+> 4. **Loi transversale** : modifier `~/.claude/CLAUDE.md`. Une loi propre à un dépôt va dans son `CLAUDE.md`. (26 October 2026, 18:43:09 +0100)
+> 5. **Cause locale d'un code surprenant** : commenter au point exact, avec symptôme, cause, fausse piste et risque. (26 October 2026, 18:43:09 +0100)
+> 6. **Plan ou chantier long** : utiliser `KANBAN.md`, `PROTOCOLE.md`, `docs/<sujet>-design.md` ou le fichier déjà (26 October 2026, 18:43:09 +0100)
+>    en vigueur dans le projet. (26 October 2026, 18:43:09 +0100)
+> 7. **Chronologie** : appeler le skill `progress` dans tous les cas notables, avec un pointeur vers la source (26 October 2026, 18:43:09 +0100)
+>    durable quand les étapes précédentes ont écrit ailleurs. (26 October 2026, 18:43:09 +0100)
+>
+> ## Bases Memory (26 October 2026, 18:43:09 +0100)
+>
+> Les gros fichiers restent entiers. Un skill court sert d'index dynamique et ne charge que la section utile. (26 October 2026, 18:43:09 +0100)
+>
+> - `matthieu-context` route vers `/Users/zenray/.claude/Memory1/Identity/Matthieu1.md` ; (26 October 2026, 18:43:09 +0100)
+> - `japanese-context` route vers `/Users/zenray/.claude/Memory1/Japanese/Japanese1.md` ; (26 October 2026, 18:43:09 +0100)
+> - `zenrayshards-context` route vers `/Users/zenray/.claude/Memory1/ZenRayShards/ZenRayShards1.md` ; (26 October 2026, 18:43:09 +0100)
+> - les autres domaines suivent le même contrat, par exemple `Design/Design1.md`, `Houdini/Houdini1.md`, (26 October 2026, 18:43:09 +0100)
+>   `UnrealEngine/UnrealEngine1.md`, `AudioProductions/Audio1.md`. (26 October 2026, 18:43:09 +0100)
+>
+> Avant d'écrire, chercher les titres avec `rg -n '^#{1,4} '` et la notion avec `rg -n -i '<termes>'`. Ajouter (26 October 2026, 18:43:09 +0100)
+> dans la section concernée avec la date. Une correction nouvelle annule explicitement l'ancienne sans l'effacer. (26 October 2026, 18:43:09 +0100)
+>
+> Un fait ne va dans un `*1.md` que s'il change ce que le projet saura encore dans six mois. Une simple commande (26 October 2026, 18:43:09 +0100)
+> exécutée, un build vert ou une étape intermédiaire restent dans le journal global. (26 October 2026, 18:43:09 +0100)
+>
+> ## Journal global (26 October 2026, 18:43:09 +0100)
+>
+> Ne jamais créer ni compléter un `PROGRESS.md` dans le projet courant. Appeler : (26 October 2026, 18:43:09 +0100)
+>
+> ```zsh (26 October 2026, 18:43:09 +0100)
+> node /Users/zenray/.claude/skills/progress/scripts/progress.mjs append \ (26 October 2026, 18:43:09 +0100)
+>   --project "Nom du projet" \ (26 October 2026, 18:43:09 +0100)
+>   --fait "Résultat factuel" \ (26 October 2026, 18:43:09 +0100)
+>   --verifie "Preuve réelle" \ (26 October 2026, 18:43:09 +0100)
+>   --source-durable "/chemin/vers/Projet1.md" \ (26 October 2026, 18:43:09 +0100)
+>   --prochain "Action suivante" (26 October 2026, 18:43:09 +0100)
+> ``` (26 October 2026, 18:43:09 +0100)
+>
+> Champs disponibles : `Mesuré`, `Décision`, `Échoué`, `Écarté`, `Apprentissage`, `Vérifié`, `Source durable`, (26 October 2026, 18:43:09 +0100)
+> `Prochain`, `Blocage`. `Fait` est obligatoire. Un chiffre porte son unité, sa méthode et sa date. (26 October 2026, 18:43:09 +0100)
+>
+> Le script `progress` est obligatoire parce que deux instances, Claude Code et Codex, peuvent écrire au même (26 October 2026, 18:43:09 +0100)
+> instant. Il verrouille l'append, relève l'agent et le modèle depuis l'hôte et masque les secrets. Ne jamais (26 October 2026, 18:43:09 +0100)
+> pré-rédiger un résultat avant la commande qui le prouve. (26 October 2026, 18:43:09 +0100)
+>
+> ## Agent et modèle (26 October 2026, 18:43:09 +0100)
+>
+> L'infrastructure se déduit de l'hôte, jamais d'une introspection du modèle : (26 October 2026, 18:43:09 +0100)
+>
+> - session avec métadonnées Codex : `Codex Desktop`, modèle et effort lus dans le dernier `turn_context` ; (26 October 2026, 18:43:09 +0100)
+> - session Claude Code : `Claude Code Desktop`, modèle lu dans les métadonnées ou le transcript seulement s'il (26 October 2026, 18:43:09 +0100)
+>   y apparaît ; (26 October 2026, 18:43:09 +0100)
+> - donnée absente : écrire `non exposé par l'hôte`. (26 October 2026, 18:43:09 +0100)
+>
+> Les noms configurés ou attendus ne deviennent pas automatiquement le modèle de la session, car une sélection (26 October 2026, 18:43:09 +0100)
+> dans l'interface ou une option de lancement peut les surcharger. (26 October 2026, 18:43:09 +0100)
+>
+> ## Reprise (26 October 2026, 18:43:09 +0100)
+>
+> Au début d'une session, lire trois entrées, éventuellement filtrées par projet : (26 October 2026, 18:43:09 +0100)
+>
+> ```zsh (26 October 2026, 18:43:09 +0100)
+> node /Users/zenray/.claude/skills/progress/scripts/progress.mjs tail --count 3 (26 October 2026, 18:43:09 +0100)
+> node /Users/zenray/.claude/skills/progress/scripts/progress.mjs tail --project "ZenRayShards" --count 3 (26 October 2026, 18:43:09 +0100)
+> ``` (26 October 2026, 18:43:09 +0100)
+>
+> Résumer ces trois entrées en trois lignes maximum et annoncer la dernière action `Prochain`. Ne jamais charger (26 October 2026, 18:43:09 +0100)
+> le journal entier pour une reprise ordinaire ; le détail vient ensuite du skill routeur et du `*1.md` concerné. (26 October 2026, 18:43:09 +0100)
+>
+> ## Journaux legacy (26 October 2026, 18:43:09 +0100)
+>
+> Les sept anciens `PROGRESS.md` sont retirés le 2026-08-22 après audit complet et validation explicite. Ne jamais (26 October 2026, 18:43:09 +0100)
+> les recréer. Si un autre journal legacy est découvert, le skill `progress` l’importe de façon idempotente dans (26 October 2026, 18:43:09 +0100)
+> le global, masque les secrets dans la copie et conserve son chemin et sa ligne avant toute suppression autorisée. (26 October 2026, 18:43:09 +0100)
+>
+> ## Déclencheurs (26 October 2026, 18:43:09 +0100)
+>
+> Sauvegarder automatiquement lorsqu'une tâche significative finit, qu'une décision se tranche, qu'une mesure (26 October 2026, 18:43:09 +0100)
+> produit un chiffre, qu'une piste échoue ou s'écarte, qu'un blocage apparaît ou se lève, qu'un fichier important (26 October 2026, 18:43:09 +0100)
+> change de rôle, qu'un agent rend un résultat, que le contexte va se compacter, ou que Matthieu marque une pause. (26 October 2026, 18:43:09 +0100)
+>
+> Ne rien sauvegarder quand l'état se reconstruit en trois secondes, qu'aucune décision n'en dépend et qu'aucune (26 October 2026, 18:43:09 +0100)
+> session future n'en bénéficiera. Écrire trop enterre autant qu'écrire au mauvais endroit. (26 October 2026, 18:43:09 +0100)
+>
+> ## Le cas japonais — ce qu'un Ctrl-S doit produire pour que la leçon apparaisse sur le site (26 October 2026, 18:43:09 +0100)
+>
+> Depuis le 2026-08-27, une leçon japonaise n'est plus seulement archivée : elle est **affichée**, par la vue (26 October 2026, 18:43:09 +0100)
+> ZenRayJapanese de ZenRayProgress (zone Learn, nav Japanese). Cette vue ne lit rien d'autre que ce que le Ctrl-S (26 October 2026, 18:43:09 +0100)
+> écrit, si bien qu'une leçon mal rangée ne disparaît pas, elle devient invisible, ce qui est pire. (26 October 2026, 18:43:09 +0100)
+>
+> La règle d'or reste la même : **une information, un seul endroit**. `Memory/Japanese/Japanese1.md` demeure la (26 October 2026, 18:43:09 +0100)
+> source unique et append-only ; `Memory/Japanese/Site/japanese.json` n'en est que l'index dérivé, produit par un (26 October 2026, 18:43:09 +0100)
+> script, jamais écrit à la main. Modifier l'index sans modifier le corpus fabrique une seconde vérité qui sera (26 October 2026, 18:43:09 +0100)
+> écrasée à la première régénération. (26 October 2026, 18:43:09 +0100)
+>
+> ### Le routage, section par section (26 October 2026, 18:43:09 +0100)
+>
+> La vue possède quatre sections, et chacune se remplit par une FORME d'écriture précise dans le corpus. Écrire (26 October 2026, 18:43:09 +0100)
+> la bonne chose sous la mauvaise forme la range dans le carnet papier plutôt que sur le site. (26 October 2026, 18:43:09 +0100)
+>
+> | Ce qu'on vient d'enseigner | La forme à écrire dans `Japanese1.md` | Où cela apparaît | (26 October 2026, 18:43:09 +0100)
+> |---|---|---| (26 October 2026, 18:43:09 +0100)
+> | Une leçon entière | un titre `## L<n> — <AAAA-MM-JJ> — <titre>` | onglet **Leçons**, une carte | (26 October 2026, 18:43:09 +0100)
+> | Un point de grammaire | un titre `### Grammaire — ~point` **ou** une ligne de tableau `\| Point \| Sens \|` | onglet **Grammaire** | (26 October 2026, 18:43:09 +0100)
+> | Du vocabulaire | un tableau à deux colonnes `\| Mot \| Sens \|` | onglet **Vocabulaire** | (26 October 2026, 18:43:09 +0100)
+> | Un kanji | une fiche `Lessons/KanjiCards/<plage>/NNN 漢 Kun On.html` | onglet **Kanji** | (26 October 2026, 18:43:09 +0100)
+> | Un nouvel état chiffré | la ligne `### État mesuré au <AAAA-MM-JJ>` puis sa phrase `N5 : x% enseigné, ~y% consolidé. N4 : …` | la **jauge** en tête | (26 October 2026, 18:43:09 +0100)
+>
+> Trois pièges, tous payés au moins une fois : (26 October 2026, 18:43:09 +0100)
+>
+> Le vocabulaire dicté en prose (« il a recopié はし, みず, えき ») n'atteint JAMAIS le site : seul un tableau est (26 October 2026, 18:43:09 +0100)
+> lu. C'est exactement l'écart que la vue affiche elle-même sous la jauge, trois cent douze mots tabulés contre (26 October 2026, 18:43:09 +0100)
+> sept cents comptés, et cet écart est de la matière perdue, pas une imprécision d'affichage. (26 October 2026, 18:43:09 +0100)
+>
+> Un tableau d'exercice (`\| # \| Question \| Réponse Matthieu \| Verdict \|`) est délibérément écarté du (26 October 2026, 18:43:09 +0100)
+> vocabulaire : y ranger un mot nouveau revient à le cacher. (26 October 2026, 18:43:09 +0100)
+>
+> La jauge n'est jamais calculée, elle est RELUE. Tant que la ligne « État mesuré au … » n'est pas mise à jour, (26 October 2026, 18:43:09 +0100)
+> les pourcentages du site restent ceux du dernier comptage, quelle que soit la quantité de leçons ajoutées (26 October 2026, 18:43:09 +0100)
+> depuis. C'est voulu : le corpus distingue **enseigné** et **consolidé**, et seul un drill réel produit le second. (26 October 2026, 18:43:09 +0100)
+>
+> ### La séquence, dans l'ordre (26 October 2026, 18:43:09 +0100)
+>
+> ```zsh (26 October 2026, 18:43:09 +0100)
+> # 1. la leçon s'ajoute au corpus, en append, jamais en réécriture (26 October 2026, 18:43:09 +0100)
+> #    (édition de /Users/zenray/.claude/Memory1/Japanese/Japanese1.md) (26 October 2026, 18:43:09 +0100)
+>
+> # 2. l'index se régénère depuis le corpus (26 October 2026, 18:43:09 +0100)
+> cd /Users/zenray/.claude/Memory1/Japanese (26 October 2026, 18:43:09 +0100)
+> python3 Scripts/build-japanese-index.py (26 October 2026, 18:43:09 +0100)
+>
+> # 3. le contrôle échoue si l'index et le corpus divergent (26 October 2026, 18:43:09 +0100)
+> python3 Scripts/build-japanese-index.py --verify (26 October 2026, 18:43:09 +0100)
+>
+> # 4. publication (26 October 2026, 18:43:09 +0100)
+> cd /Users/zenray/.claude/Memory1 (26 October 2026, 18:43:09 +0100)
+> git add -- Japanese/Japanese1.md Japanese/Site/japanese.json (26 October 2026, 18:43:09 +0100)
+> git commit -m "japonais : L<n> — <titre>" && git push (26 October 2026, 18:43:09 +0100)
+> ``` (26 October 2026, 18:43:09 +0100)
+>
+> Le site lit ensuite le dépôt Memory par son API. Compter jusqu'à cinq minutes de cache CDN avant que la (26 October 2026, 18:43:09 +0100)
+> nouvelle leçon n'apparaisse : un rechargement immédiat qui montre l'ancien compte n'est pas une panne, et (26 October 2026, 18:43:09 +0100)
+> l'écart se vérifie en interrogeant l'API plutôt qu'en rechargeant la page en boucle. (26 October 2026, 18:43:09 +0100)
+>
+> ### Ce qui reste interdit (26 October 2026, 18:43:09 +0100)
+>
+> La vue est en **lecture seule**, et c'est une décision, pas une limite technique : un journal append-only qu'on (26 October 2026, 18:43:09 +0100)
+> pourrait retoucher depuis une page web cesserait de dire ce qu'on croyait à l'époque, ce qui est justement ce (26 October 2026, 18:43:09 +0100)
+> qu'on vient y chercher. Une correction s'écrit donc comme une nouvelle entrée qui cite l'ancienne, jamais comme (26 October 2026, 18:43:09 +0100)
+> une réécriture, exactement comme dans le journal global. (26 October 2026, 18:43:09 +0100)
+>
+> ## Contrôle avant de rendre (26 October 2026, 18:43:09 +0100)
+>
+> 1. La connaissance durable se trouve dans un seul `*1.md`. (26 October 2026, 18:43:09 +0100)
+> 2. La chronologie se trouve uniquement dans le global. (26 October 2026, 18:43:09 +0100)
+> 3. Toute mesure a une preuve ; toute hypothèse porte son incertitude. (26 October 2026, 18:43:09 +0100)
+> 4. Les échecs et les options écartées disent pourquoi. (26 October 2026, 18:43:09 +0100)
+> 5. `Prochain` est une action unique avec le chemin utile. (26 October 2026, 18:43:09 +0100)
+> 6. Aucun secret n'apparaît. (26 October 2026, 18:43:09 +0100)
+> 7. Les modifications sont commitées dans leur dépôt source. (26 October 2026, 18:43:09 +0100)
+>
+> Le test final tient en une phrase : la session suivante peut-elle reprendre sans relire cette conversation ? (26 October 2026, 18:43:09 +0100)
+>
+> ## 23 October 2026 : consigner, c'est aussi l'article et le cloud (26 October 2026, 18:43:09 +0100)
+>
+> - Mots de Matthieu (23 October 2026) : « quand je te dis consigner, ça veut dire qu'il faut que tu bind tout et que tu push tout ». Un Ctrl-S sur un skill qui a `ARTICLE.json` passe par `sync-skill.sh` (article reconstruit et publié), puis `refresh-skill-article.mjs <skill> --check` vert, puis commit et push de `~/.claude` (chemins explicites) et de Memory1. Rien n'est « consigné » tant que l'article dit autre chose que le skill. (23 October 2026) (26 October 2026, 18:43:09 +0100)
+>
+>
+> ARGUMENTS: ZenRay Meshes : arrêt propre demandé par Matthieu (26 October 2026). Consigner dans le skill zenray-meshes (sections datées) et dans l'algo (scripts), la mémoire Projects/zenray-meshes, Trees1.md, progress, checkpoint. Boucle relancée plus tard. (26 October 2026, 18:43:09 +0100)
+
+## 26 October 2026, 18:43:11 +0100 : Prompt
+
+<!-- feedback-event:4e77a4e2f91bd1c890cc0e1f1cf0de095cb4722cd0f8ce4ee5508b403bd69e3f (26 October 2026, 18:43:11 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 18:43:11 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 18:43:11 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/ctrl-s (26 October 2026, 18:43:11 +0100)
+>
+> # Ctrl-S (26 October 2026, 18:43:11 +0100)
+>
+> Le geste répond à une seule question : (26 October 2026, 18:43:11 +0100)
+>
+> > Où faut-il écrire ce que nous venons d'apprendre pour que cela serve encore dans six mois ? (26 October 2026, 18:43:11 +0100)
+>
+> La réponse comporte parfois deux écritures, dont les rôles ne se doublonnent jamais : (26 October 2026, 18:43:11 +0100)
+>
+> - le fichier `*1.md` garde la connaissance durable du projet ; (26 October 2026, 18:43:11 +0100)
+> - `/Users/zenray/.claude/PROGRESS.md` garde la trace datée de l'action et pointe vers cette source. (26 October 2026, 18:43:11 +0100)
+>
+> ## Architecture canonique (26 October 2026, 18:43:11 +0100)
+>
+> | Question | Source unique | (26 October 2026, 18:43:11 +0100)
+> |---|---| (26 October 2026, 18:43:11 +0100)
+> | Quand, quoi, quel agent, quelle preuve, quelle suite ? | `~/.claude/PROGRESS.md` via le skill `progress` | (26 October 2026, 18:43:11 +0100)
+> | Que sait durablement un projet ou un domaine ? | `Memory/<domaine>/<Nom>1.md` | (26 October 2026, 18:43:11 +0100)
+> | Comment retrouver une section dans un gros fichier ? | skill routeur de contexte | (26 October 2026, 18:43:11 +0100)
+> | Quelle méthode réutiliser ? | `~/.claude/skills/<méthode>/` | (26 October 2026, 18:43:11 +0100)
+> | Quelle loi vaut encore demain ? | `CLAUDE.md` global ou du projet | (26 October 2026, 18:43:11 +0100)
+> | Pourquoi cette ligne de code surprenante existe-t-elle ? | commentaire au point exact | (26 October 2026, 18:43:11 +0100)
+> | Quel plan ou état de chantier détaillé reprendre ? | fichier dédié dans le projet | (26 October 2026, 18:43:11 +0100)
+> | Où vit un secret ? | section autorisée de `Identity/Matthieu1.md`, jamais ailleurs | (26 October 2026, 18:43:11 +0100)
+>
+> Une information, un seul endroit. Le journal cite la source durable ; il n'en recopie pas le contenu. (26 October 2026, 18:43:11 +0100)
+>
+> ## Arbre de décision (26 October 2026, 18:43:11 +0100)
+>
+> 1. **Secret** : utiliser seulement la valeur nécessaire depuis `Identity/Matthieu1.md`. Ne jamais l'afficher, (26 October 2026, 18:43:11 +0100)
+>    la journaliser ni la mettre dans un commit. (26 October 2026, 18:43:11 +0100)
+> 2. **Connaissance durable d'un projet ou de Matthieu** : trouver son `*1.md` avec le routeur correspondant, (26 October 2026, 18:43:11 +0100)
+>    puis ajouter une section datée sans effacer l'historique. (26 October 2026, 18:43:11 +0100)
+> 3. **Méthode réutilisable** : créer ou corriger le skill source dans `~/.claude/skills/`, puis le synchroniser. (26 October 2026, 18:43:11 +0100)
+> 4. **Loi transversale** : modifier `~/.claude/CLAUDE.md`. Une loi propre à un dépôt va dans son `CLAUDE.md`. (26 October 2026, 18:43:11 +0100)
+> 5. **Cause locale d'un code surprenant** : commenter au point exact, avec symptôme, cause, fausse piste et risque. (26 October 2026, 18:43:11 +0100)
+> 6. **Plan ou chantier long** : utiliser `KANBAN.md`, `PROTOCOLE.md`, `docs/<sujet>-design.md` ou le fichier déjà (26 October 2026, 18:43:11 +0100)
+>    en vigueur dans le projet. (26 October 2026, 18:43:11 +0100)
+> 7. **Chronologie** : appeler le skill `progress` dans tous les cas notables, avec un pointeur vers la source (26 October 2026, 18:43:11 +0100)
+>    durable quand les étapes précédentes ont écrit ailleurs. (26 October 2026, 18:43:11 +0100)
+>
+> ## Bases Memory (26 October 2026, 18:43:11 +0100)
+>
+> Les gros fichiers restent entiers. Un skill court sert d'index dynamique et ne charge que la section utile. (26 October 2026, 18:43:11 +0100)
+>
+> - `matthieu-context` route vers `/Users/zenray/.claude/Memory1/Identity/Matthieu1.md` ; (26 October 2026, 18:43:11 +0100)
+> - `japanese-context` route vers `/Users/zenray/.claude/Memory1/Japanese/Japanese1.md` ; (26 October 2026, 18:43:11 +0100)
+> - `zenrayshards-context` route vers `/Users/zenray/.claude/Memory1/ZenRayShards/ZenRayShards1.md` ; (26 October 2026, 18:43:11 +0100)
+> - les autres domaines suivent le même contrat, par exemple `Design/Design1.md`, `Houdini/Houdini1.md`, (26 October 2026, 18:43:11 +0100)
+>   `UnrealEngine/UnrealEngine1.md`, `AudioProductions/Audio1.md`. (26 October 2026, 18:43:11 +0100)
+>
+> Avant d'écrire, chercher les titres avec `rg -n '^#{1,4} '` et la notion avec `rg -n -i '<termes>'`. Ajouter (26 October 2026, 18:43:11 +0100)
+> dans la section concernée avec la date. Une correction nouvelle annule explicitement l'ancienne sans l'effacer. (26 October 2026, 18:43:11 +0100)
+>
+> Un fait ne va dans un `*1.md` que s'il change ce que le projet saura encore dans six mois. Une simple commande (26 October 2026, 18:43:11 +0100)
+> exécutée, un build vert ou une étape intermédiaire restent dans le journal global. (26 October 2026, 18:43:11 +0100)
+>
+> ## Journal global (26 October 2026, 18:43:11 +0100)
+>
+> Ne jamais créer ni compléter un `PROGRESS.md` dans le projet courant. Appeler : (26 October 2026, 18:43:11 +0100)
+>
+> ```zsh (26 October 2026, 18:43:11 +0100)
+> node /Users/zenray/.claude/skills/progress/scripts/progress.mjs append \ (26 October 2026, 18:43:11 +0100)
+>   --project "Nom du projet" \ (26 October 2026, 18:43:11 +0100)
+>   --fait "Résultat factuel" \ (26 October 2026, 18:43:11 +0100)
+>   --verifie "Preuve réelle" \ (26 October 2026, 18:43:11 +0100)
+>   --source-durable "/chemin/vers/Projet1.md" \ (26 October 2026, 18:43:11 +0100)
+>   --prochain "Action suivante" (26 October 2026, 18:43:11 +0100)
+> ``` (26 October 2026, 18:43:11 +0100)
+>
+> Champs disponibles : `Mesuré`, `Décision`, `Échoué`, `Écarté`, `Apprentissage`, `Vérifié`, `Source durable`, (26 October 2026, 18:43:11 +0100)
+> `Prochain`, `Blocage`. `Fait` est obligatoire. Un chiffre porte son unité, sa méthode et sa date. (26 October 2026, 18:43:11 +0100)
+>
+> Le script `progress` est obligatoire parce que deux instances, Claude Code et Codex, peuvent écrire au même (26 October 2026, 18:43:11 +0100)
+> instant. Il verrouille l'append, relève l'agent et le modèle depuis l'hôte et masque les secrets. Ne jamais (26 October 2026, 18:43:11 +0100)
+> pré-rédiger un résultat avant la commande qui le prouve. (26 October 2026, 18:43:11 +0100)
+>
+> ## Agent et modèle (26 October 2026, 18:43:11 +0100)
+>
+> L'infrastructure se déduit de l'hôte, jamais d'une introspection du modèle : (26 October 2026, 18:43:11 +0100)
+>
+> - session avec métadonnées Codex : `Codex Desktop`, modèle et effort lus dans le dernier `turn_context` ; (26 October 2026, 18:43:11 +0100)
+> - session Claude Code : `Claude Code Desktop`, modèle lu dans les métadonnées ou le transcript seulement s'il (26 October 2026, 18:43:11 +0100)
+>   y apparaît ; (26 October 2026, 18:43:11 +0100)
+> - donnée absente : écrire `non exposé par l'hôte`. (26 October 2026, 18:43:11 +0100)
+>
+> Les noms configurés ou attendus ne deviennent pas automatiquement le modèle de la session, car une sélection (26 October 2026, 18:43:11 +0100)
+> dans l'interface ou une option de lancement peut les surcharger. (26 October 2026, 18:43:11 +0100)
+>
+> ## Reprise (26 October 2026, 18:43:11 +0100)
+>
+> Au début d'une session, lire trois entrées, éventuellement filtrées par projet : (26 October 2026, 18:43:11 +0100)
+>
+> ```zsh (26 October 2026, 18:43:11 +0100)
+> node /Users/zenray/.claude/skills/progress/scripts/progress.mjs tail --count 3 (26 October 2026, 18:43:11 +0100)
+> node /Users/zenray/.claude/skills/progress/scripts/progress.mjs tail --project "ZenRayShards" --count 3 (26 October 2026, 18:43:11 +0100)
+> ``` (26 October 2026, 18:43:11 +0100)
+>
+> Résumer ces trois entrées en trois lignes maximum et annoncer la dernière action `Prochain`. Ne jamais charger (26 October 2026, 18:43:11 +0100)
+> le journal entier pour une reprise ordinaire ; le détail vient ensuite du skill routeur et du `*1.md` concerné. (26 October 2026, 18:43:11 +0100)
+>
+> ## Journaux legacy (26 October 2026, 18:43:11 +0100)
+>
+> Les sept anciens `PROGRESS.md` sont retirés le 2026-08-22 après audit complet et validation explicite. Ne jamais (26 October 2026, 18:43:11 +0100)
+> les recréer. Si un autre journal legacy est découvert, le skill `progress` l’importe de façon idempotente dans (26 October 2026, 18:43:11 +0100)
+> le global, masque les secrets dans la copie et conserve son chemin et sa ligne avant toute suppression autorisée. (26 October 2026, 18:43:11 +0100)
+>
+> ## Déclencheurs (26 October 2026, 18:43:11 +0100)
+>
+> Sauvegarder automatiquement lorsqu'une tâche significative finit, qu'une décision se tranche, qu'une mesure (26 October 2026, 18:43:11 +0100)
+> produit un chiffre, qu'une piste échoue ou s'écarte, qu'un blocage apparaît ou se lève, qu'un fichier important (26 October 2026, 18:43:11 +0100)
+> change de rôle, qu'un agent rend un résultat, que le contexte va se compacter, ou que Matthieu marque une pause. (26 October 2026, 18:43:11 +0100)
+>
+> Ne rien sauvegarder quand l'état se reconstruit en trois secondes, qu'aucune décision n'en dépend et qu'aucune (26 October 2026, 18:43:11 +0100)
+> session future n'en bénéficiera. Écrire trop enterre autant qu'écrire au mauvais endroit. (26 October 2026, 18:43:11 +0100)
+>
+> ## Le cas japonais — ce qu'un Ctrl-S doit produire pour que la leçon apparaisse sur le site (26 October 2026, 18:43:11 +0100)
+>
+> Depuis le 2026-08-27, une leçon japonaise n'est plus seulement archivée : elle est **affichée**, par la vue (26 October 2026, 18:43:11 +0100)
+> ZenRayJapanese de ZenRayProgress (zone Learn, nav Japanese). Cette vue ne lit rien d'autre que ce que le Ctrl-S (26 October 2026, 18:43:11 +0100)
+> écrit, si bien qu'une leçon mal rangée ne disparaît pas, elle devient invisible, ce qui est pire. (26 October 2026, 18:43:11 +0100)
+>
+> La règle d'or reste la même : **une information, un seul endroit**. `Memory/Japanese/Japanese1.md` demeure la (26 October 2026, 18:43:11 +0100)
+> source unique et append-only ; `Memory/Japanese/Site/japanese.json` n'en est que l'index dérivé, produit par un (26 October 2026, 18:43:11 +0100)
+> script, jamais écrit à la main. Modifier l'index sans modifier le corpus fabrique une seconde vérité qui sera (26 October 2026, 18:43:11 +0100)
+> écrasée à la première régénération. (26 October 2026, 18:43:11 +0100)
+>
+> ### Le routage, section par section (26 October 2026, 18:43:11 +0100)
+>
+> La vue possède quatre sections, et chacune se remplit par une FORME d'écriture précise dans le corpus. Écrire (26 October 2026, 18:43:11 +0100)
+> la bonne chose sous la mauvaise forme la range dans le carnet papier plutôt que sur le site. (26 October 2026, 18:43:11 +0100)
+>
+> | Ce qu'on vient d'enseigner | La forme à écrire dans `Japanese1.md` | Où cela apparaît | (26 October 2026, 18:43:11 +0100)
+> |---|---|---| (26 October 2026, 18:43:11 +0100)
+> | Une leçon entière | un titre `## L<n> — <AAAA-MM-JJ> — <titre>` | onglet **Leçons**, une carte | (26 October 2026, 18:43:11 +0100)
+> | Un point de grammaire | un titre `### Grammaire — ~point` **ou** une ligne de tableau `\| Point \| Sens \|` | onglet **Grammaire** | (26 October 2026, 18:43:11 +0100)
+> | Du vocabulaire | un tableau à deux colonnes `\| Mot \| Sens \|` | onglet **Vocabulaire** | (26 October 2026, 18:43:11 +0100)
+> | Un kanji | une fiche `Lessons/KanjiCards/<plage>/NNN 漢 Kun On.html` | onglet **Kanji** | (26 October 2026, 18:43:11 +0100)
+> | Un nouvel état chiffré | la ligne `### État mesuré au <AAAA-MM-JJ>` puis sa phrase `N5 : x% enseigné, ~y% consolidé. N4 : …` | la **jauge** en tête | (26 October 2026, 18:43:11 +0100)
+>
+> Trois pièges, tous payés au moins une fois : (26 October 2026, 18:43:11 +0100)
+>
+> Le vocabulaire dicté en prose (« il a recopié はし, みず, えき ») n'atteint JAMAIS le site : seul un tableau est (26 October 2026, 18:43:11 +0100)
+> lu. C'est exactement l'écart que la vue affiche elle-même sous la jauge, trois cent douze mots tabulés contre (26 October 2026, 18:43:11 +0100)
+> sept cents comptés, et cet écart est de la matière perdue, pas une imprécision d'affichage. (26 October 2026, 18:43:11 +0100)
+>
+> Un tableau d'exercice (`\| # \| Question \| Réponse Matthieu \| Verdict \|`) est délibérément écarté du (26 October 2026, 18:43:11 +0100)
+> vocabulaire : y ranger un mot nouveau revient à le cacher. (26 October 2026, 18:43:11 +0100)
+>
+> La jauge n'est jamais calculée, elle est RELUE. Tant que la ligne « État mesuré au … » n'est pas mise à jour, (26 October 2026, 18:43:11 +0100)
+> les pourcentages du site restent ceux du dernier comptage, quelle que soit la quantité de leçons ajoutées (26 October 2026, 18:43:11 +0100)
+> depuis. C'est voulu : le corpus distingue **enseigné** et **consolidé**, et seul un drill réel produit le second. (26 October 2026, 18:43:11 +0100)
+>
+> ### La séquence, dans l'ordre (26 October 2026, 18:43:11 +0100)
+>
+> ```zsh (26 October 2026, 18:43:11 +0100)
+> # 1. la leçon s'ajoute au corpus, en append, jamais en réécriture (26 October 2026, 18:43:11 +0100)
+> #    (édition de /Users/zenray/.claude/Memory1/Japanese/Japanese1.md) (26 October 2026, 18:43:11 +0100)
+>
+> # 2. l'index se régénère depuis le corpus (26 October 2026, 18:43:11 +0100)
+> cd /Users/zenray/.claude/Memory1/Japanese (26 October 2026, 18:43:11 +0100)
+> python3 Scripts/build-japanese-index.py (26 October 2026, 18:43:11 +0100)
+>
+> # 3. le contrôle échoue si l'index et le corpus divergent (26 October 2026, 18:43:11 +0100)
+> python3 Scripts/build-japanese-index.py --verify (26 October 2026, 18:43:11 +0100)
+>
+> # 4. publication (26 October 2026, 18:43:11 +0100)
+> cd /Users/zenray/.claude/Memory1 (26 October 2026, 18:43:11 +0100)
+> git add -- Japanese/Japanese1.md Japanese/Site/japanese.json (26 October 2026, 18:43:11 +0100)
+> git commit -m "japonais : L<n> — <titre>" && git push (26 October 2026, 18:43:11 +0100)
+> ``` (26 October 2026, 18:43:11 +0100)
+>
+> Le site lit ensuite le dépôt Memory par son API. Compter jusqu'à cinq minutes de cache CDN avant que la (26 October 2026, 18:43:11 +0100)
+> nouvelle leçon n'apparaisse : un rechargement immédiat qui montre l'ancien compte n'est pas une panne, et (26 October 2026, 18:43:11 +0100)
+> l'écart se vérifie en interrogeant l'API plutôt qu'en rechargeant la page en boucle. (26 October 2026, 18:43:11 +0100)
+>
+> ### Ce qui reste interdit (26 October 2026, 18:43:11 +0100)
+>
+> La vue est en **lecture seule**, et c'est une décision, pas une limite technique : un journal append-only qu'on (26 October 2026, 18:43:11 +0100)
+> pourrait retoucher depuis une page web cesserait de dire ce qu'on croyait à l'époque, ce qui est justement ce (26 October 2026, 18:43:11 +0100)
+> qu'on vient y chercher. Une correction s'écrit donc comme une nouvelle entrée qui cite l'ancienne, jamais comme (26 October 2026, 18:43:11 +0100)
+> une réécriture, exactement comme dans le journal global. (26 October 2026, 18:43:11 +0100)
+>
+> ## Contrôle avant de rendre (26 October 2026, 18:43:11 +0100)
+>
+> 1. La connaissance durable se trouve dans un seul `*1.md`. (26 October 2026, 18:43:11 +0100)
+> 2. La chronologie se trouve uniquement dans le global. (26 October 2026, 18:43:11 +0100)
+> 3. Toute mesure a une preuve ; toute hypothèse porte son incertitude. (26 October 2026, 18:43:11 +0100)
+> 4. Les échecs et les options écartées disent pourquoi. (26 October 2026, 18:43:11 +0100)
+> 5. `Prochain` est une action unique avec le chemin utile. (26 October 2026, 18:43:11 +0100)
+> 6. Aucun secret n'apparaît. (26 October 2026, 18:43:11 +0100)
+> 7. Les modifications sont commitées dans leur dépôt source. (26 October 2026, 18:43:11 +0100)
+>
+> Le test final tient en une phrase : la session suivante peut-elle reprendre sans relire cette conversation ? (26 October 2026, 18:43:11 +0100)
+>
+> ## 23 October 2026 : consigner, c'est aussi l'article et le cloud (26 October 2026, 18:43:11 +0100)
+>
+> - Mots de Matthieu (23 October 2026) : « quand je te dis consigner, ça veut dire qu'il faut que tu bind tout et que tu push tout ». Un Ctrl-S sur un skill qui a `ARTICLE.json` passe par `sync-skill.sh` (article reconstruit et publié), puis `refresh-skill-article.mjs <skill> --check` vert, puis commit et push de `~/.claude` (chemins explicites) et de Memory1. Rien n'est « consigné » tant que l'article dit autre chose que le skill. (23 October 2026) (26 October 2026, 18:43:11 +0100)
+>
+>
+> ARGUMENTS: ZenRay Meshes : arrêt propre demandé par Matthieu (26 October 2026). Consigner dans le skill zenray-meshes (sections datées) et dans l'algo (scripts), la mémoire Projects/zenray-meshes, Trees1.md, progress, checkpoint. Boucle relancée plus tard. (26 October 2026, 18:43:11 +0100)
