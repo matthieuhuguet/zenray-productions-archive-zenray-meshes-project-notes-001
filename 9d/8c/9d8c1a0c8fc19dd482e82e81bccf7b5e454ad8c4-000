@@ -18493,3 +18493,27 @@
 > - **v21 à v26 :** ces images viennent d'une conversion de la topologie, faute de rendu d'origine. Leur cadrage est cohérent avec les versions voisines, mais je n'ai pas de rendu d'origine pour les comparer. (26 October 2026, 19:34:13 +0100)
 >
 > Le conifère est totalement supprimé : j'ai aussi effacé la copie neutre du script modèle, qui contenait encore six lignes de l'ancien objet. Le script de l'eucalyptus et son script de contrôle sont copiés dans le skill, et tout est consigné et poussé. (26 October 2026, 19:34:13 +0100)
+
+## 26 October 2026, 19:56:02 +0100 : Prompt
+
+<!-- feedback-event:96c04b296136291a028a962fade4dd09d6f553a263bea58a36f47ac1df5718e3 (26 October 2026, 19:56:02 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 19:56:02 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 19:56:02 +0100)
+
+> Est-ce que tu peux me redonner du coup le file de... Comment ça s'appelle? Le path de la voiture video ? /zenray-1-line (26 October 2026, 19:56:02 +0100)
+
+## 26 October 2026, 19:56:08 +0100 : Prompt
+
+<!-- feedback-event:e7767774b3b129ccd853e63342891b685b236cd2ce54d6e2b2e4823c3149e86a (26 October 2026, 19:56:08 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 19:56:08 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 19:56:08 +0100)
+
+> Skill /zenray-1-line is already loaded above; instructions unchanged. (26 October 2026, 19:56:08 +0100)
+
+## 26 October 2026, 19:56:12 +0100 : Iteration
+
+<!-- feedback-event:d935b64768250d77c83158fb58036a00e520948885928860059d58a116b54531 (26 October 2026, 19:56:12 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 19:56:12 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 19:56:12 +0100)
+
+> Évolution de la voiture à la vitesse d'origine : `/Users/zenray/.claude/tmp/tmp-zenray-meshes/Evolution/Car_evolution_26-October-2026_upto470.mp4` (la version ×2 est `Car_evolution_26-October-2026_upto470_8fps.mp4` dans le même dossier ; les tours sont dans `Evolution/Turnover/` et `Evolution/Turnover/wire/`). (26 October 2026, 19:56:12 +0100)
