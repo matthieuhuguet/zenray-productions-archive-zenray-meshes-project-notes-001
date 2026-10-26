@@ -16880,3 +16880,43 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:17:30 +0100)
 
 > The car rebuild reproduces the same 2,250,199 bytes and identical check frames, so the earlier car reads still apply. Now I'll look at the three re-extracted tree frames to confirm the caption is gone. (26 October 2026, 18:17:30 +0100)
+
+## 26 October 2026, 18:18:00 +0100 : Iteration
+
+<!-- feedback-event:4586e0e1ae76a57f351c3bda7bd78c2d440d45368be2056f81a4216a2ad6656c (26 October 2026, 18:18:00 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:18:00 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:18:00 +0100)
+
+> All three tree frames are clean now, with no ghost caption and the labels v15, v33 and f44. Before reporting, one footgun to close: a run with `--label 0` or `--max-version` would currently write over the delivered files under the same name. I'll make non-default settings add a name suffix and keep the manifest beside the output, so the defaults keep their exact names. (26 October 2026, 18:18:00 +0100)
+
+## 26 October 2026, 18:18:14 +0100 : Iteration
+
+<!-- feedback-event:8066d54b98dbf532844e82054396d5a489fc568457159a684a45afd592ff7e84 (26 October 2026, 18:18:14 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:18:14 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:18:14 +0100)
+
+> Now I'll rebuild both delivered videos with the final script to confirm they are unchanged, then run the 2048 and no-label tests into the scratchpad, and check the label pixels and the version cap. (26 October 2026, 18:18:14 +0100)
+
+## 26 October 2026, 18:18:20 +0100 : Iteration
+
+<!-- feedback-event:a3e2aee316bd4c8dc89fa9924892cf51deb0aa4b95f5b7e35b6b972c2e3430f9 (26 October 2026, 18:18:20 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:18:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 18:18:20 +0100)
+
+> Le bouchon de Coons n'a pas été pris en compte (résultats identiques) ; je cherche quel script construit réellement le tube. (26 October 2026, 18:18:20 +0100)
+
+## 26 October 2026, 18:18:43 +0100 : Iteration
+
+<!-- feedback-event:b08560fc44e0cc4899afcbcdea03541c813898f687260e7c5fd8e486f23d16f6 (26 October 2026, 18:18:43 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:18:43 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:18:43 +0100)
+
+> All checks passed. The delivered files rebuild to identical bytes with the final script. The 2048 test gives 2048 by 2048 frames with the label drawn, the no-label test draws nothing, and the version cap keeps the variants in order. Last, I'll measure the frame folders, confirm the versions folder was not changed, and grep the script and report text for dashes. (26 October 2026, 18:18:43 +0100)
+
+## 26 October 2026, 18:18:54 +0100 : Iteration
+
+<!-- feedback-event:b376536c446747fbcf843c603ee3550e68ff57da29aeaf6a0f94d9cb85a46ccf (26 October 2026, 18:18:54 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:18:54 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:18:54 +0100)
+
+> Outputs are measured and the script has no dashes. The versions folder grew from 16,973 to 16,988 entries since my snapshot; I did not use the new files. I'll list which names were added, so the report can say exactly what was left out. (26 October 2026, 18:18:54 +0100)
