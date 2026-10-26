@@ -12146,3 +12146,11 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:03:32 +0100)
 
 > Le bord incliné ne gagne rien (dos 0,900 → 0,899 : sans rangées de grille alignées sur la diagonale, le bord s'émiette) ; je l'enlève, l'option reste dans le code. (26 October 2026, 07:03:32 +0100)
+
+## 26 October 2026, 07:04:25 +0100 : Iteration
+
+<!-- feedback-event:59db34c5b3659e2dcd1d43a5ee34b6cb6ee6e2cf669fef307dd5438e0e25ca10 (26 October 2026, 07:04:25 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:04:25 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:04:25 +0100)
+
+> Je teste l'outil dans les deux sens : il doit retrouver les mesures connues (pli de porte à z −0,9, arête du pont à x 0) et refuser un balayage impossible pour la vue. (26 October 2026, 07:04:25 +0100)
