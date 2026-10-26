@@ -16752,3 +16752,19 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:12:54 +0100)
 
 > Car v100 has the same layout. The tree board turned out to be a comparison sheet: each row is a view, and the middle column is the reproduction. I'll pin down the exact cell edges and the yellow IoU caption before writing the script. (26 October 2026, 18:12:54 +0100)
+
+## 26 October 2026, 18:13:08 +0100 : Iteration
+
+<!-- feedback-event:f14c12edc6e2c677525ee7add7b8da7cddc473bc379fb5dc14b4b5a1234090a8 (26 October 2026, 18:13:08 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:13:08 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 18:13:08 +0100)
+
+> Les zooms montrent des boucles de courbes autour du tronc ; je mesure combien de chaînes tournent de plus de 90° pour voir si c'est une vraie catégorie à traiter. (26 October 2026, 18:13:08 +0100)
+
+## 26 October 2026, 18:13:40 +0100 : Iteration
+
+<!-- feedback-event:d71f3b0ac5479e4407d78e97c50501cc87d7161e5662cf41baed6ddfea9408f9 (26 October 2026, 18:13:40 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:13:40 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 18:13:40 +0100)
+
+> Je lance en arrière-plan un balayage de réglages de m20 validé par la vérité 3D (trois arbres en parallèle), pendant que l'agent Haiku travaille. (26 October 2026, 18:13:40 +0100)
