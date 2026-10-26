@@ -14856,3 +14856,36 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 14:13:07 +0100)
 
 > Je reprends l'arbre en parallèle de la voiture : son état v13 (tronc en tube plus nuage de feuilles, aucune branche visible) est loin de la référence. Je découpe en tâches atomiques. (26 October 2026, 14:13:07 +0100)
+
+## 26 October 2026, 14:28:49 +0100 : Prompt
+
+<!-- feedback-event:28c91f626fe5578e25aaebc34f09a8f683e44281941602f48e8015540739e259 (26 October 2026, 14:28:49 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 14:28:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 14:28:49 +0100)
+
+> [Image: original 3006x1260, displayed at 2000x838. Multiply coordinates by 1.50 to map to original image.] (26 October 2026, 14:28:49 +0100)
+
+## 26 October 2026, 14:49:48 +0100 : Prompt
+
+<!-- feedback-event:e98a923436aa5c44c935664ce5d8b5a1fa560aa8d94e3eac3a6811461b33d256 (26 October 2026, 14:49:48 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 14:49:48 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 14:49:48 +0100)
+
+> The user sent a new message while you were working: (26 October 2026, 14:49:48 +0100)
+> On est bien d'accord que le but, c'est pas de juste reproduire cet arbre en particulier, c'est de reproduire tous les types d'arbres. Et pareil pour la voiture. Et pareil pour tous les mesh hard surface. Et pareil pour tous les mesh organiques. On est bien d'accord qu'on est en train de construire un algo qui permettra d'identifier les bons components et de recréer à la volée n'importe quel type d'asset. C'est important que tu comprennes bien le but de ZenRay Meshes et que tu partes pas dans de la simple reproduction agentique. consigne et continue. (26 October 2026, 14:49:48 +0100)
+>
+> This is how Claude Code surfaces messages the user sends mid-turn — within the running turn, often alongside the next tool result, rather than as a separate conversation turn. Address the message above as you continue this turn. (26 October 2026, 14:49:48 +0100)
+
+## 26 October 2026, 14:50:17 +0100 : Prompt
+
+<!-- feedback-event:148777ec29e592742fffa3e49efbc340e20a70bd73c3c5a1200e5b7344447c02 (26 October 2026, 14:50:17 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 14:50:17 +0100)
+
+> Matthieu (26 October 2026) : le but n'est pas de reproduire CET arbre ni CETTE voiture, mais tous les types d'arbres, de voitures, de meshes hard surface et organiques. ZenRay Meshes est un algorithme qui identifie les bons composants et recree n'importe quel asset a la volee ; ne jamais partir dans de la simple reproduction agentique d'une instance. (26 October 2026, 14:50:17 +0100)
+
+## 26 October 2026, 14:50:17 +0100 : Standing rule
+
+<!-- feedback-event:daee5be9671369fb63f994651c2fd3e29003f13775deeb46737e32eb9262a869 (26 October 2026, 14:50:17 +0100) -->
+- Project: zenray-meshes; kind: rule. (26 October 2026, 14:50:17 +0100)
+
+> Regle : tout ce qui est construit pour une instance doit se deduire de la mesure de cette instance (hauteur de base de couronne, bandes en fractions, seuils appris, listes de composants par famille) et jamais d'un litteral ; chaque outil est teste sur au moins une seconde instance ou famille avant d'etre dit general ; un apprentissage consigne dit s'il est general (famille) ou propre a l'instance. (26 October 2026, 14:50:17 +0100)
