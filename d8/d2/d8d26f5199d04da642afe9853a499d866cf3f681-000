@@ -1,0 +1,16 @@
+# ZenRay Meshes, playbook court (26 October 2026)
+
+Lire ceci avant d'itérer : les commandes qui marchent, ce qui est écarté, l'ordre de travail. Détail et preuves : skill `zenray-meshes` (sections 62 à 96) et `ZenRayMeshes1.md`. (26 October 2026)
+
+## Principe (26 October 2026)
+- ZenRay Meshes est un algorithme général (tous les arbres, voitures, hard surface, organique), pas la reproduction d'une instance : aucun littéral d'instance dans un outil, essai sur une seconde instance avant de dire général, images avec numéro de version à chaque étape, tâches atomiques, un composant validé avant le suivant. (26 October 2026)
+- Itérer sur le MODÈLE, pas sur des rendus : une boucle courte = un score (voiture : `BuildCar.sh` + `Audit.sh` + `TopoAudit.sh` en 70 s ; arbre : `TreeIter.sh` en 8 s). Rendus lourds (planche, rendu 3D) seulement pour envoyer une image. (26 October 2026)
+
+## Voiture, hard surface (dossier `/Users/zenray/.claude/tmp/tmp-zenray-meshes`)
+- Construire et juger : `zsh Scripts/BuildCar.sh vNNN && zsh Scripts/Audit.sh vNNN && zsh Scripts/TopoAudit.sh vNNN --no-board` ; composants : `python Scripts/ComponentScore.py vNNN` ; diagnostic d'un composant : `--crop N`. Règle de garde : fautes absolues en baisse ET audit des six vues identique. État : v470, fautes 5 566, relecture 19 portes sur 21. (26 October 2026)
+- Leviers qui ont payé : `side_subdiv_per` (colonnes par bande), `min_row_gap_m` (face arrière), `TopoFix --twist` (nez), surface_strip du montant B, panneau du contrefort. Écartés : nez en cellules, queue coupée en triangles, bandes de plancher, rangées supplémentaires de glass/roof, découpe de baies (vue du dessous contradictoire). (26 October 2026)
+
+## Arbre, organique (même dossier)
+- Ordre : 1 tronc (`TrunkFit.py`, `TrunkScore.py`, gelé en v17), 2 membres principaux, 3 branches, 4 brindilles (`TreeWP.py`, réglés par `WpFit.py <ordre>` contre `LimbScore.py` rayons X), 5 feuilles en plans croisés (`TreeGrow.py clump_src=evidence`, `leaf_size`, `shell_clumps`). Un pas : `zsh Scripts/TreeIter.sh <tag> <thick|med|thin> $(cat work/tree/wp_args.txt)`. Composants et planche : `ComponentScore.py <tag> --obj tree`. Version jeu : v20 (23 588 faces, 100 % de quads). (26 October 2026)
+- Écartés pour l'organique : masques binaires de classe comme cible, réglage en bloc (`OrganicFit.py`), squelette d'évidence comme générateur de membres (saucisses), rayons lus sur les masques, feuillage en blobs, rayons de tronc lus sur les masques. Pièges : fichiers de topologie périmés (supprimer avant de construire), vues contradictoires (plancher de 9 cm sur le tronc), `sleep` bloqué par l'hôte (boucle `until`). (26 October 2026)
+- Généralité : `tree_syn` (feuillu synthétique) et `tree_con` (conifère) avec vérité 3D (`TruthScore.py`) ; les règles ne se transportent pas d'une famille à l'autre, elles se règlent par instance. (26 October 2026)
