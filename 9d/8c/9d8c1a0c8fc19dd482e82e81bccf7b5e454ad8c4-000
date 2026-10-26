@@ -11350,3 +11350,35 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 04:56:03 +0100)
 
 > La compensation précédente n'a pas de sauvegarde. Je mesure donc l'effet du seul réapprentissage : je remets le joint à -1,925, je relance CageComp et je compare à v277. (26 October 2026, 04:56:03 +0100)
+
+## 26 October 2026, 04:58:17 +0100 : Iteration
+
+<!-- feedback-event:41dcd3ef5cf6e5e0e31cbe80e5077906ba764fe08472ba6ee2209d64cc9f2e80 (26 October 2026, 04:58:17 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 04:58:17 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 04:58:17 +0100)
+
+> v280 retrouve et dépasse légèrement v277 (lignes 0,815, normales seules 0,756). Je reteste maintenant le pied de lunette à -1,99, cette fois sans réapprendre la compensation. (26 October 2026, 04:58:17 +0100)
+
+## 26 October 2026, 05:01:56 +0100 : Iteration
+
+<!-- feedback-event:d71704ef4f626f05116f535dbf93a9a50b15bddbb0ba5a73ada57959bcc49d08 (26 October 2026, 05:01:56 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 05:01:56 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 05:01:56 +0100)
+
+> L'arc donne un bandeau de pare-brise plus naturel, comme sur une vraie voiture ; je garde v282 et je le consigne. (26 October 2026, 05:01:56 +0100)
+
+## 26 October 2026, 05:03:21 +0100 : Prompt
+
+<!-- feedback-event:5c52272eb54837b4557d6f6bbf27e26a4acec3e302992ad2e02ce0aafa0a4af5 (26 October 2026, 05:03:21 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 05:03:21 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 05:03:21 +0100)
+
+> [Image: original 3648x1294, displayed at 2000x709. Multiply coordinates by 1.82 to map to original image.] (26 October 2026, 05:03:21 +0100)
+
+## 26 October 2026, 05:06:12 +0100 : Iteration
+
+<!-- feedback-event:28ed5405c939a1f6da7b33a20b90f6d2fadf4e6df8b0525ff41ba6d736feb66c (26 October 2026, 05:06:12 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 05:06:12 +0100)
+- Source: checkpoint:claude:09d15ec8-88ad-4965-a2f0-80b68515e880. (26 October 2026, 05:06:12 +0100)
+
+> Voiture v282 : cadre des vitres, bandeau de bouclier arriere, pied de lunette, haut de pare-brise en arc ; lignes 0,817, normales seules 0,756, silhouette 0,968 ; skill zenray-meshes sections 51 et 52 (recette a jour). (26 October 2026, 05:06:12 +0100)
