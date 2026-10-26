@@ -12772,3 +12772,19 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 09:45:09 +0100)
 
 > Les roues concentrent beaucoup de fautes. Les rayons sont faits de bandes non soudées (324 faces par roue) et le moyeu de quads écrasés au centre (72 par roue). Je lis `WheelBuild`. (26 October 2026, 09:45:09 +0100)
+
+## 26 October 2026, 09:49:25 +0100 : Iteration
+
+<!-- feedback-event:8b2f98faea86385778ac7dea3bfb1f3b9ec506f33b7f624f8276acf9ec2bf2ea (26 October 2026, 09:49:25 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 09:49:25 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 09:49:25 +0100)
+
+> Forme identique à v365, ce qui est le contrôle attendu : la réparation ne touche pas la forme. J'ajoute une commande `TopoAudit.sh` (export Houdini puis juge) et je juge v366. (26 October 2026, 09:49:25 +0100)
+
+## 26 October 2026, 09:50:31 +0100 : Iteration
+
+<!-- feedback-event:1eb2585ec4981c64e12b9bcd20f83e0a5d088c6032bb693062370c00abd753ac (26 October 2026, 09:50:31 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 09:50:31 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 09:50:31 +0100)
+
+> Je mesure par pièce la taille réelle des quads dans les deux directions, pour savoir où il manque des colonnes et où il y a trop de stations. (26 October 2026, 09:50:31 +0100)
