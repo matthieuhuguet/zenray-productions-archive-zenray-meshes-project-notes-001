@@ -18325,3 +18325,34 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 19:20:30 +0100)
 
 > Je supprime maintenant, par chemins exacts, ce qui concerne le conifère et a été créé aujourd'hui. (26 October 2026, 19:20:30 +0100)
+
+## 26 October 2026, 19:21:18 +0100 : Iteration
+
+<!-- feedback-event:7b92f09dbac9c7f71f3f43a366f1d2786bd637eb1eb05b984ae7c3cd7117e388 (26 October 2026, 19:21:18 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 19:21:18 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 19:21:18 +0100)
+
+> Le conifère d'aujourd'hui est supprimé, et un agent Haiku (effort max) fabrique l'évolution de l'eucalyptus sans feuilles ; je vous préviens à son retour. (26 October 2026, 19:21:18 +0100)
+>
+> **Ce que j'ai supprimé** (chemins exacts, un par un) : (26 October 2026, 19:21:18 +0100)
+> - le dossier `Evolution/Conifer/` avec la vidéo, les images et les contrôles ; (26 October 2026, 19:21:18 +0100)
+> - les scripts `ConiferEvolution.py` et `ConiferRebuild.py`, avec leurs copies dans le skill ; (26 October 2026, 19:21:18 +0100)
+> - les fichiers de la construction du conifère d'aujourd'hui : 13 dans `work/tree_con/` et 16 dans `versions/`. (26 October 2026, 19:21:18 +0100)
+>
+> Un premier essai de suppression a été bloqué par une sécurité de Claude Code, car la commande utilisait des variables au lieu de chemins complets. Je l'ai relancée avec des chemins absolus complets ; j'ai vérifié ensuite qu'il ne reste plus de fichier conifère d'aujourd'hui. (26 October 2026, 19:21:18 +0100)
+>
+> **Ce que j'ai gardé :** tout ce qui existait avant (l'ancien dossier `work/tree_con` et ses versions gen29, g33, g36, w43), ainsi que deux images de contrôle du conifère que la construction d'aujourd'hui avait réécrites sans copie préalable (`Branches_tree_con_m20.png` et `Ridge_tree_con.png`). Dites-moi si vous voulez aussi supprimer ces anciens fichiers du conifère. (26 October 2026, 19:21:18 +0100)
+>
+> **L'eucalyptus est intact :** la vidéo `Evolution/Tree_evolution_26-October-2026_to-f46.mp4`, `tree_f46.obj` et `TreeHero_tree_f46.png` sont toujours là. (26 October 2026, 19:21:18 +0100)
+>
+> **Le travail de l'agent :** l'évolution de l'eucalyptus de v15 à f46, sans touffes de feuilles, avec la même méthode que celle du conifère : une seule caméra, 1024 × 1024, 4 images par seconde, étiquette de version. Les brindilles des anciennes versions restent visibles, car elles font partie du bois. Il fabrique son script à partir d'une copie neutre du modèle, sans aucune mention de conifère, et ne touche à rien du conifère. (26 October 2026, 19:21:18 +0100)
+>
+> **Consigne notée dans le skill :** quand le nom d'un arbre est ambigu, je vous demande avant de lancer un agent. (26 October 2026, 19:21:18 +0100)
+
+## 26 October 2026, 19:21:57 +0100 : Iteration
+
+<!-- feedback-event:00a9bb6abd185733c02f9d4fe1f31c0a3823938d7155fe6d451a31ebcc84fb58 (26 October 2026, 19:21:57 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 19:21:57 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-a33ae28955661267a.jsonl. (26 October 2026, 19:21:57 +0100)
+
+> Le script modèle est désormais `Evolution/TreeWood/ModelEvolutionScript.py`. Je le lis, puis je vérifie la liste des versions, les fichiers npz et l'environnement avant d'écrire le script. (26 October 2026, 19:21:57 +0100)
