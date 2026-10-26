@@ -14889,3 +14889,29 @@
 - Project: zenray-meshes; kind: rule. (26 October 2026, 14:50:17 +0100)
 
 > Regle : tout ce qui est construit pour une instance doit se deduire de la mesure de cette instance (hauteur de base de couronne, bandes en fractions, seuils appris, listes de composants par famille) et jamais d'un litteral ; chaque outil est teste sur au moins une seconde instance ou famille avant d'etre dit general ; un apprentissage consigne dit s'il est general (famille) ou propre a l'instance. (26 October 2026, 14:50:17 +0100)
+
+## 26 October 2026, 14:54:47 +0100 : Iteration
+
+<!-- feedback-event:e6b1208f1f7ecde7b8709373c67a60cefe7e4180eb1b401ceab61743ce816f07 (26 October 2026, 14:54:47 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 14:54:47 +0100)
+- Source: checkpoint:claude:09d15ec8-88ad-4965-a2f0-80b68515e880. (26 October 2026, 14:54:47 +0100)
+
+> Car v445 faults 5566 (per band subdivision); tree evidence pipeline 0.616 to 0.708; synthetic second tree 0.742 to 0.800; tools parameterised by object; goal consigned: general algorithm. (26 October 2026, 14:54:47 +0100)
+
+## 26 October 2026, 14:59:26 +0100 : Prompt
+
+<!-- feedback-event:ce130313e631d22c9d7402fa3fa994f1f7e246031f441e502dbdba75a3fa9e57 (26 October 2026, 14:59:26 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 14:59:26 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 14:59:26 +0100)
+
+> The user sent a new message while you were working: (26 October 2026, 14:59:26 +0100)
+> Tu oublies de mettre des images au fur et à mesure alors que c'est la base du protocole, tiens. Et par contre, pour l'arbre, t'as pas mal de versions à rattraper, étant donné que là, on est à la version de la car 470 et que j'ai même pas la version de l'arbre, le numéro. Donc t'as pas mal de choses à faire, notamment pour itérer, notamment sur l'arbre. /dont-stop (26 October 2026, 14:59:26 +0100)
+>
+> This is how Claude Code surfaces messages the user sends mid-turn — within the running turn, often alongside the next tool result, rather than as a separate conversation turn. Address the message above as you continue this turn. (26 October 2026, 14:59:26 +0100)
+
+## 26 October 2026, 15:00:33 +0100 : Prompt
+
+<!-- feedback-event:6db65509198694ded003e87791f5c4577341a2e8db107e7b13f6e935c8f5a111 (26 October 2026, 15:00:33 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 15:00:33 +0100)
+
+> Matthieu (26 October 2026) : j'oubliais d'envoyer des images au fur et a mesure (base du protocole) et la numerotation de l'arbre n'etait pas visible alors que la voiture etait a v470. A faire : chaque iteration notable de l'arbre ET de la voiture envoie son image avec son numero de version (arbre v15, v16 ... , voiture v470 ...), l'arbre rattrape beaucoup d'iterations. (26 October 2026, 15:00:33 +0100)
