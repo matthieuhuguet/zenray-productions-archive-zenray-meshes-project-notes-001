@@ -16393,3 +16393,28 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 17:38:43 +0100)
 
 > ZenRay Meshes, relance automatique (Matthieu, 26 October 2026) : « Encore loin du résultat final, itère pendant la journée jusqu'à ce que ce soit parfait et polish, et continue de consigner notamment dans l'algo » ; puis « crée les outils pour ZenRay Meshes afin d'obtenir une topologie parfaite, mesurée contre le dataset, vérifiée en wireframe comme par un animateur ou tech artist senior, prête pour l'animation ; la retopologie est un outil à part entière ; UV et texture hors périmètre » ; puis les deux vidéos de modélisation (analyses dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/refs/videos/, Analysis_NDPeZ7YZgrc.md et ZenRayMeshes1.md section 15). Si la boucle s'est arrêtée, reprends là où elle en est : lis /Users/zenray/.claude/skills/zenray-meshes/SKILL.md (sections 63 à la dernière), le statut courant dans /Users/zenray/.claude/Memory1/Projects/zenray-meshes/ZenRayMeshes1.md et le dernier Audit et Topo dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/. Prochain chantier : CageFit (cage de patchs de comptes d'arêtes égaux, grilles de Coons, pôles aux coins, plis tenus à 3,45 mm), les arches, l'analyse d'On Mars 3D. Garde seulement un gain mesuré (forme identique à v366 : silhouette 0,9696, traits 0,887 / 0,811), envoie l'image à Matthieu, consigne dans le skill (section datée), mémoire, progress, checkpoint. Chercher AVANT de créer un outil (grep dans les skills). Pas de workflow. /dont-stop (26 October 2026, 17:38:43 +0100)
+
+## 26 October 2026, 17:43:09 +0100 : Iteration
+
+<!-- feedback-event:ac6258691b9a46c3ea0e425cd63104cab7a8b2ac9180dbe1ec42be451201ea3e (26 October 2026, 17:43:09 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 17:43:09 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 17:43:09 +0100)
+
+> Le feuillage bas de l'arbre est corrigé (v37), mais la voiture n'a pas bougé. (26 October 2026, 17:43:09 +0100)
+>
+> **Cause du feuillage bas.** J'ai mesuré les feuilles seules contre la référence, par bande de hauteur. Dans la bande basse le modèle couvrait 21 000 pixels de feuilles pour 15 000 à la référence : un excès, pas un manque. La feuille lancéolée pendait de 0,8 m sous son point d'attache et débordait vers le bas. (26 October 2026, 17:43:09 +0100)
+>
+> **Correctif.** Les feuilles sont maintenant centrées sur leur point d'attache (`leaf_hang` 0,4), et le dégagement autour du tronc est réduit. Le feuillage passe à 65 / 83 / 88 % (bas / milieu / haut), la silhouette moyenne de 0,78 à 0,81. Elle vaut 0,80 de face, 0,83 de dos, 0,84 des côtés et 0,74 de dessus. (26 October 2026, 17:43:09 +0100)
+>
+> **Limite.** Au-delà de ce réglage, faire varier la taille des feuilles, leur nombre ou l'épaisseur du carve ne bouge plus rien (0,807 à 0,809), donc le feuillage est à un plateau. Le diagnostic montre encore 25 à 35 % de feuilles en trop à mi-hauteur et en haut ; je n'ai pas de levier mesuré pour le réduire. (26 October 2026, 17:43:09 +0100)
+>
+> **Livrables.** J'ai envoyé le rendu lissé et la planche des composants de v37. La commande unique `TreeFromSheet.sh` porte le réglage, et `FoliageDiag.py` refait le diagnostic par bande. Tout est consigné (skill section 110, journal). (26 October 2026, 17:43:09 +0100)
+>
+> **Voiture.** Rien de nouveau : v470 reste en place (relecture 19 sur 21), le travail sur les arches a été mesuré mais non retenu (voir mon message précédent). (26 October 2026, 17:43:09 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (26 October 2026, 17:43:09 +0100)
+> |---|---|---| (26 October 2026, 17:43:09 +0100)
+> | Itérer, avec un gain mesuré seulement | Oui | Feuillage bas 55 à 65 %, silhouette 0,78 à 0,81 ; essais sans gain écartés | (26 October 2026, 17:43:09 +0100)
+> | Envoyer l'image à Matthieu | Oui | `TreeHero_tree_v37.png` et `Components_tree_v37_board.png` envoyés | (26 October 2026, 17:43:09 +0100)
+> | Consigner (skill, mémoire, journal) | Oui | Skill section 110, entrée de journal ; pas de checkpoint Assets cette fois | (26 October 2026, 17:43:09 +0100)
+> | Chercher avant de créer un outil | Oui | Rien d'existant pour la mesure du feuillage par bande, donc `FoliageDiag.py` créé | (26 October 2026, 17:43:09 +0100)
