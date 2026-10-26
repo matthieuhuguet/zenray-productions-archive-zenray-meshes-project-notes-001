@@ -12154,3 +12154,35 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:04:25 +0100)
 
 > Je teste l'outil dans les deux sens : il doit retrouver les mesures connues (pli de porte à z −0,9, arête du pont à x 0) et refuser un balayage impossible pour la vue. (26 October 2026, 07:04:25 +0100)
+
+## 26 October 2026, 07:06:37 +0100 : Iteration
+
+<!-- feedback-event:05817bc30e68f66add66e7a78b4133ad910f4a04d2e0e64906fcfda760f4b6b5 (26 October 2026, 07:06:37 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:06:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:06:37 +0100)
+
+> Il est 7 h 06. Autre contrôle de propreté : les quads tordus signalés par l'audit (bumper_rear_C p95 29,6°, bumper_front_C 22,2°). Je regarde s'ils sont visibles dans la voiture finale. (26 October 2026, 07:06:37 +0100)
+
+## 26 October 2026, 07:07:07 +0100 : Iteration
+
+<!-- feedback-event:3c542c912f9fb83f66f58b8d9b83d0c19c1f253782ae48dbb36c6125e5ddebed (26 October 2026, 07:07:07 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:07:07 +0100)
+- Source: checkpoint:claude:09d15ec8-88ad-4965-a2f0-80b68515e880. (26 October 2026, 07:07:07 +0100)
+
+> Voiture v341 (26 October 2026, 7 h 08) : silhouette 0,9691, traits 0,883 ; rangees lissees, outil GradientProfile.py ; prochain : bilan a 8 h et arret du cron. (26 October 2026, 07:07:07 +0100)
+
+## 26 October 2026, 07:07:21 +0100 : Iteration
+
+<!-- feedback-event:c9233e165b96d7f04bb1be949d547a08d4ca8c95d3b05c279dc72951eab8c4cd (26 October 2026, 07:07:21 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:07:21 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:07:21 +0100)
+
+> Il est 7 h 08. Je regarde le héros de v341 pour un dernier repérage de défauts visibles. (26 October 2026, 07:07:21 +0100)
+
+## 26 October 2026, 07:07:22 +0100 : Prompt
+
+<!-- feedback-event:b945166113a98f3f8ad3d6c5717b4b1bbbe6f4454cc56256e75299552718083b (26 October 2026, 07:07:22 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 07:07:22 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:07:22 +0100)
+
+> [Image: original 2800x1400, displayed at 2000x1000. Multiply coordinates by 1.40 to map to original image.] (26 October 2026, 07:07:22 +0100)
