@@ -11634,3 +11634,43 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 05:46:10 +0100)
 
 > Je fais suivre au chanfrein du pont la courbe du plan (l'arête de la planche recule de 7 cm au centre et de 4,5 cm aux coins), au lieu d'un z constant. (26 October 2026, 05:46:10 +0100)
+
+## 26 October 2026, 05:50:52 +0100 : Iteration
+
+<!-- feedback-event:c20b45a8a7ea2ce90b445b1270fcf71f475ded25000edd3799ee8c584eb024bd (26 October 2026, 05:50:52 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 05:50:52 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 05:50:52 +0100)
+
+> Le pont est tenu par la rangée d'épaule (belt_top) via l'ordre des rangées : il faut l'abaisser avec les autres. Essai à −1,5 cm sur toutes les rangées hautes en bout de poupe. (26 October 2026, 05:50:52 +0100)
+
+## 26 October 2026, 05:51:48 +0100 : Iteration
+
+<!-- feedback-event:ce9614975c2d76615471bbba44d24bed68f7354a4c2f21ac0724b9ed838e4a71 (26 October 2026, 05:51:48 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 05:51:48 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 05:51:48 +0100)
+
+> Le pont abaissé de 1,5 cm : dos 0,850 → 0,864 (mieux qu'avant le chanfrein), silhouettes des flancs en hausse, moyenne des traits 0,845. J'essaie −2,5 cm. (26 October 2026, 05:51:48 +0100)
+
+## 26 October 2026, 05:53:36 +0100 : Iteration
+
+<!-- feedback-event:a7f680b109af208da87ecdc085f06f23ff2be503d98ad86c14be41ea9ac0a1a2 (26 October 2026, 05:53:36 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 05:53:36 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 05:53:36 +0100)
+
+> −2 cm est le bon compromis (dos 0,871, traits 0,846, silhouette 0,9684). Je regarde la poupe avec le chanfrein. (26 October 2026, 05:53:36 +0100)
+
+## 26 October 2026, 05:53:51 +0100 : Iteration
+
+<!-- feedback-event:6c4e906c6bc74c76d1000e7cff6ecb6cbba4f60dda365c93dc38ed3cfc179ebc (26 October 2026, 05:53:51 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 05:53:51 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 05:53:51 +0100)
+
+> La poupe montre maintenant une arête vive et un bandeau chanfreiné clair en haut de la face, comme la planche. Je consigne la lame, le bandeau et le pont dans le skill. (26 October 2026, 05:53:51 +0100)
+
+## 26 October 2026, 05:54:37 +0100 : Iteration
+
+<!-- feedback-event:4898c7027fd2508e28e637eaf4f9beb4bd6eee366afedf663fd11eae44f144c2 (26 October 2026, 05:54:37 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 05:54:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 05:54:37 +0100)
+
+> Prochain trait : 0,79 m en diagonale sur l'aile avant gauche (de z 0,11, y 0,92 à z 0,81, y 0,55). Je le regarde sur la planche et la carte des traits. (26 October 2026, 05:54:37 +0100)
