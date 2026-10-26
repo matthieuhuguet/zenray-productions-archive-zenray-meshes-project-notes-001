@@ -12294,3 +12294,27 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:23:02 +0100)
 
 > ZenRay Meshes, relance automatique (Matthieu, 25 October 2026) : si la boucle s'est arrêtée, reprends la voiture PAR COMPOSANTS là où elle en est. Lis /Users/zenray/.claude/skills/zenray-meshes/SKILL.md sections 21 à 26, la feuille de composants dans /Users/zenray/.claude/Memory1/Projects/zenray-meshes/ZenRayMeshes1.md section 10, et le dernier rendu dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/. Demande-toi : la voiture est-elle identique à la feuille de référence, tous les composants construits ? Si non, construis le composant suivant (jamais d'ajustement global aux silhouettes), vérifie par rendu matériaux et projection sur la planche, consigne l'apprentissage dans le skill (section datée), puis continue. /dont-stop (26 October 2026, 07:23:02 +0100)
+
+## 26 October 2026, 07:25:24 +0100 : Iteration
+
+<!-- feedback-event:bf449e30e86a3222cecf6c2dba8729c4f0a351bd5f7a55dfe7b452e59e13e7f0 (26 October 2026, 07:25:24 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:25:24 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:25:24 +0100)
+
+> La fente se lit maintenant comme l'ouïe de la planche (lèvre claire, trait sombre, de la roue au joint de porte), sans rien changer ailleurs. Je garde v351 et je consigne. (26 October 2026, 07:25:24 +0100)
+
+## 26 October 2026, 07:26:09 +0100 : Iteration
+
+<!-- feedback-event:b581456a2ff02cca2d210b4bbe3cd743b181cf74bf9c1415bca1fdf8f30ac98a (26 October 2026, 07:26:09 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:26:09 +0100)
+- Source: checkpoint:claude:09d15ec8-88ad-4965-a2f0-80b68515e880. (26 October 2026, 07:26:09 +0100)
+
+> Voiture v351 (26 October 2026, 7 h 26) : ouie d aile avant creusee sans toucher la bande ailleurs ; silhouette 0,9691, traits 0,883 ; skill zenray-meshes section 61 ; prochain : composant suivant puis bilan a 8 h. (26 October 2026, 07:26:09 +0100)
+
+## 26 October 2026, 07:25:54 +0100 : Iteration
+
+<!-- feedback-event:88dad383f7d5f6738479eb2e1f3836d08e0c215cbfffde0d07bc43ba14d1984d (26 October 2026, 07:25:54 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:25:54 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:25:54 +0100)
+
+> Je consolide v351 comme nouvel état retenu (mémoire, journal, Assets, scène, courbe). (26 October 2026, 07:25:54 +0100)
