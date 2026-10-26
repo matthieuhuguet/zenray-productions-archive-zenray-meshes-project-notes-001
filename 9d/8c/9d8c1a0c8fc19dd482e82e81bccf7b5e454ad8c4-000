@@ -16450,3 +16450,51 @@
 - Project: zenray-meshes; kind: rule. (26 October 2026, 17:44:36 +0100)
 
 > 26 October 2026, 17 h 50 (Matthieu, grammaire seule) : faire les feuilles uniquement en dernier ; toute la géométrie d'un arbre est son tronc et ses branches, c'est ce qui demande le plus de relief et de travail, les feuilles sont secondaires et déforment ce qu'on cherche ; continuer d'itérer uniquement avec la méthode du banc de crêtes qui fait ressortir les branches quasi parfaitement, trouver les bonnes formes de courbes parfaites pour les arbres, et consigner un dataset scientifique des guides 3D nécessaires aux courbes d'arbres. Le but du relais arbre voiture : partager les méthodes dans ZenRay Meshes, sinon on avance lentement et on stagne. (26 October 2026, 17:44:36 +0100)
+
+## 26 October 2026, 18:01:45 +0100 : Iteration
+
+<!-- feedback-event:5934b25dde635a863c10f843d23840cb661c594bbf16a3830ccb0d6cac366050 (26 October 2026, 18:01:45 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:01:45 +0100)
+- Source: checkpoint:claude:09d15ec8-88ad-4965-a2f0-80b68515e880. (26 October 2026, 18:01:45 +0100)
+
+> Bois dabord, courbes de branche en une spline par branche, CurveStats, dataset Trees1.md, relais arbre voiture section 112. Incident rm par motif sur versions v38x de la voiture, rapports regeneres sauf Audit md, Components, Hero. (26 October 2026, 18:01:45 +0100)
+
+## 26 October 2026, 18:02:06 +0100 : Iteration
+
+<!-- feedback-event:757e3ad05c78cebf576df86743f44cd70c81378b1c9cb4a4e1e83c77a6dcaf66 (26 October 2026, 18:02:06 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:02:06 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 18:02:06 +0100)
+
+> Les feuilles passent maintenant en dernier, et tout le travail se fait sur le tronc et les branches avec le banc de crêtes. Mais un `rm` mal ciblé a supprimé des rapports de la voiture, comme je le détaille plus bas. (26 October 2026, 18:02:06 +0100)
+>
+> **Ce que j'ai changé** (26 October 2026, 18:02:06 +0100)
+> - **Deux phases.** `OBJ=tree zsh Scripts/TreeFromSheet.sh wNN` fait par défaut le bois seul, en 15 secondes : tronc, limbes et branches mesurés sur la planche, sans feuilles ni brindilles inventées. `PHASE=full` ajoute les brindilles et les feuilles en dernier. (26 October 2026, 18:02:06 +0100)
+> - **Courbes parfaites.** Chaque branche est maintenant une seule spline lissée sur tout son trajet, au lieu d'un lissage entre fourches. (26 October 2026, 18:02:06 +0100)
+>   - 98 % des limbes et 85 % des branches n'ont plus de pli de plus de 25° (avant : 65 % et 33 %). (26 October 2026, 18:02:06 +0100)
+>   - Le banc donne F 0,61, et le rappel des branches moyennes passe de 0,40 à 0,48. (26 October 2026, 18:02:06 +0100)
+>   - Sur l'arbre synthétique à vérité 3D connue, la précision 3D des courbes monte de 0,36 à 0,47. Le conifère synthétique recule en 2D (F 0,58 à 0,43), parce que ses branches fines sont lissées. (26 October 2026, 18:02:06 +0100)
+> - **Mesh du bois.** Le tronc et le premier limbe forment un seul tube, ce qui supprime le zigzag de la jonction. Les bouts de branches sont fermés et les branches filles démarrent à l'intérieur de leur parent. Il reste une petite couture à la jonction. J'ai testé un `fuse` des soudures de tubes et je l'ai rejeté : il crée des arêtes non variétés. (26 October 2026, 18:02:06 +0100)
+> - **Dataset des guides.** `/Users/zenray/.claude/Memory1/Trees/Trees1.md` liste neuf guides 3D à tracer, avec leurs valeurs mesurées sur nos quatre arbres, la littérature sourcée (Weber et Penn 1995, règle de Léonard, TreeQSM, eucalyptus) et la procédure pour ajouter un arbre. Ce n'est pas encore un dataset statistique : il repose sur un seul arbre réel. (26 October 2026, 18:02:06 +0100)
+> - **Rayons.** Les rayons des branches fines suivent la règle de Léonard (exposant 2,0 à 2,2). Ceux des limbes épais restent non mesurés fiablement, la sonde photo échouant au-delà de 12 pixels de large. (26 October 2026, 18:02:06 +0100)
+> - **Relais arbre et voiture.** C'est la section 112 du skill : 12 méthodes avec leur traduction pour l'autre objet et leur état. Six sont appliquées (dont une idée voiture reprise sur l'arbre : une spline par courbe). Cinq restent à essayer côté voiture. Je n'en ai pas lancé d'essai sur la voiture. (26 October 2026, 18:02:06 +0100)
+>
+> **Incident.** En nettoyant mes fichiers de test de l'arbre avec `rm -f versions/*v38*`, mon motif a aussi supprimé des rapports de la voiture v380 à v389 (des essais rejetés). J'ai régénéré les `Topo_v38x` et `Review_v38x` depuis les exports, sauf pour v381, qui n'avait pas d'export de topologie. Je n'ai pas régénéré `Audit_v38x.md` (il demande Houdini), `Components_v38x` ni `Hero_v38x.png`. Les chiffres de ces essais restent dans les sections 69 à 74 du skill. Je supprimerai désormais par chemin exact (règle consignée en section 113). (26 October 2026, 18:02:06 +0100)
+>
+> Les images du bois (`TreeWood_v42.png`, `TreeJunction_v42.png`, `TreeWood_w43.png`) sont déjà envoyées. Tout est consigné dans le skill (sections 107 à 113), la mémoire, le journal et le checkpoint. (26 October 2026, 18:02:06 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (26 October 2026, 18:02:06 +0100)
+> |---|---|---| (26 October 2026, 18:02:06 +0100)
+> | Feuilles uniquement en dernier | Oui | `PHASE=wood` par défaut ; le bois seul s'affiche sans feuille ni brindille | (26 October 2026, 18:02:06 +0100)
+> | Itérer uniquement sur le bois avec le banc de crêtes | Oui | Banc F 0,61 ; précision 3D 0,36 à 0,47 sur l'arbre à vérité connue | (26 October 2026, 18:02:06 +0100)
+> | Trouver les bonnes formes de courbes parfaites | En bonne partie | `CurveStats` : limbes 98 % sans pli, branches 85 % ; conifère en recul | (26 October 2026, 18:02:06 +0100)
+> | Dataset scientifique des guides 3D | Oui, avec ses limites | `Trees1.md` : neuf guides, valeurs mesurées et sources ; un seul arbre réel | (26 October 2026, 18:02:06 +0100)
+> | Relais arbre et voiture | En partie | Section 112 : 6 méthodes appliquées, 5 à essayer côté voiture, aucun essai lancé | (26 October 2026, 18:02:06 +0100)
+> | Ne rien perdre | Non | Rapports voiture v380 à v389 supprimés par erreur, régénérés sauf les audits, composants et héros | (26 October 2026, 18:02:06 +0100)
+
+## 26 October 2026, 18:02:12 +0100 : Prompt
+
+<!-- feedback-event:68bd6f0fcb953777f70f6237d6b5401e4155d36d263d387508dc42f1b9546d83 (26 October 2026, 18:02:12 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 18:02:12 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 18:02:12 +0100)
+
+> ZenRay Meshes, relance automatique (Matthieu, 26 October 2026) : « Encore loin du résultat final, itère pendant la journée jusqu'à ce que ce soit parfait et polish, et continue de consigner notamment dans l'algo » ; puis « crée les outils pour ZenRay Meshes afin d'obtenir une topologie parfaite, mesurée contre le dataset, vérifiée en wireframe comme par un animateur ou tech artist senior, prête pour l'animation ; la retopologie est un outil à part entière ; UV et texture hors périmètre » ; puis les deux vidéos de modélisation (analyses dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/refs/videos/, Analysis_NDPeZ7YZgrc.md et ZenRayMeshes1.md section 15). Si la boucle s'est arrêtée, reprends là où elle en est : lis /Users/zenray/.claude/skills/zenray-meshes/SKILL.md (sections 63 à la dernière), le statut courant dans /Users/zenray/.claude/Memory1/Projects/zenray-meshes/ZenRayMeshes1.md et le dernier Audit et Topo dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/. Prochain chantier : CageFit (cage de patchs de comptes d'arêtes égaux, grilles de Coons, pôles aux coins, plis tenus à 3,45 mm), les arches, l'analyse d'On Mars 3D. Garde seulement un gain mesuré (forme identique à v366 : silhouette 0,9696, traits 0,887 / 0,811), envoie l'image à Matthieu, consigne dans le skill (section datée), mémoire, progress, checkpoint. Chercher AVANT de créer un outil (grep dans les skills). Pas de workflow. /dont-stop (26 October 2026, 18:02:12 +0100)
