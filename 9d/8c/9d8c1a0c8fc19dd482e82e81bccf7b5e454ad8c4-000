@@ -18356,3 +18356,27 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-a33ae28955661267a.jsonl. (26 October 2026, 19:21:57 +0100)
 
 > Le script modèle est désormais `Evolution/TreeWood/ModelEvolutionScript.py`. Je le lis, puis je vérifie la liste des versions, les fichiers npz et l'environnement avant d'écrire le script. (26 October 2026, 19:21:57 +0100)
+
+## 26 October 2026, 19:23:37 +0100 : Iteration
+
+<!-- feedback-event:77684f3df219aa5bf117fd4138e6cf99ab2a3bdc366bc071bfe8b03071797bc6 (26 October 2026, 19:23:37 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 19:23:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-a33ae28955661267a.jsonl. (26 October 2026, 19:23:37 +0100)
+
+> Les npz montrent deux parties, `branches` et `leaves`. Les versions v21 à v26 n'ont que des topologies, à convertir. v19 n'a aucun fichier. Je lance les conversions dans le dossier de rendu du chantier, puis je contrôle les données converties. (26 October 2026, 19:23:37 +0100)
+
+## 26 October 2026, 19:27:16 +0100 : Iteration
+
+<!-- feedback-event:7b4eddc271b292e73b33128bf25ae77943d4c471466bbe6068d933cd3925b617 (26 October 2026, 19:27:16 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 19:27:16 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-a33ae28955661267a.jsonl. (26 October 2026, 19:27:16 +0100)
+
+> Le script modèle est lu. Je vérifie aussi quelles versions ont des feuilles et lesquelles n'en ont pas. Les conversions v21 à v26 ont des échelles cohérentes avec leurs voisines. Je vais maintenant écrire le script eucalyptus à partir de la copie neutre, puis le script de contrôle indépendant. (26 October 2026, 19:27:16 +0100)
+
+## 26 October 2026, 19:28:06 +0100 : Iteration
+
+<!-- feedback-event:441d73837dc35472da46e815668d41eb077c2fbceb8342b7e1e407d5f0f9ec90 (26 October 2026, 19:28:06 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 19:28:06 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-a33ae28955661267a.jsonl. (26 October 2026, 19:28:06 +0100)
+
+> Les deux scripts sont écrits, ils passent la syntaxe et ne contiennent aucun tiret long ni mention de l'ancien objet. La copie modèle contient encore 6 lignes de l'ancien objet ; je le signalerai dans le rapport sans y toucher. Je lance d'abord un essai en petite taille dans le scratchpad, puis le contrôle, avant la version finale. (26 October 2026, 19:28:06 +0100)
