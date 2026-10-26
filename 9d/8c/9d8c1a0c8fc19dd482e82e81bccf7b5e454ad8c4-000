@@ -14965,3 +14965,17 @@
 >  ... continue de consigner les choses à mesure que tu avances et que tu discardes des méthodes pour en privilégier d'autres. (26 October 2026, 15:36:44 +0100)
 >
 > This is how Claude Code surfaces messages the user sends mid-turn — within the running turn, often alongside the next tool result, rather than as a separate conversation turn. Address the message above as you continue this turn. (26 October 2026, 15:36:44 +0100)
+
+## 26 October 2026, 15:37:55 +0100 : Prompt
+
+<!-- feedback-event:68a4348d42ae6e0c908540d436dc3500558e5a1dd407fa6aef0b525f3e6e3cd9 (26 October 2026, 15:37:55 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 15:37:55 +0100)
+
+> Matthieu (26 October 2026) : pour un arbre organique les masques de couleurs (classes binaires bois et feuillage) suppriment l'opacite et perdent les reliefs d'une vue a l'autre, ca ne marchera jamais ; il faut des masques de contours semi-opaques, savoir quel composant coupe quel composant (ordre d'occlusion), et proceder composant par composant en validant chacun : le tronc d'abord (le plus important), puis les branches, puis le motif des feuilles ; pour le jeu les feuilles sont des plans ou des plans croises en X (SpeedTree) et cela suffit ; un arbre tres detaille reste possible mais la methode actuelle est tres loin du compte, c'est un probleme de methodologie, pas de temps. Consigner au fur et a mesure les methodes ecartees et celles preferees. (26 October 2026, 15:37:55 +0100)
+
+## 26 October 2026, 15:37:55 +0100 : Standing rule
+
+<!-- feedback-event:9a7c01c6526b9234fa2297385894c26f01a925b4e91534e13956f41fa1e6fbd4 (26 October 2026, 15:37:55 +0100) -->
+- Project: zenray-meshes; kind: rule. (26 October 2026, 15:37:55 +0100)
+
+> Regle : un composant organique se mesure par des contours semi-opaques et le relief (ombrage, aretes) dans sa propre couche, avec l'ordre d'occlusion connu par rendu en couches ; jamais par une classification binaire couleur de l'image de reference comme cible unique ; un composant est valide avant le suivant (tronc, membres, branches, feuilles en plans croises). (26 October 2026, 15:37:55 +0100)
