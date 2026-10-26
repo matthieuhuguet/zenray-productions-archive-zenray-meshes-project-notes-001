@@ -17040,3 +17040,11 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 18:24:15 +0100)
 
 > Le dôme du bas du tronc (rayon 1,4 m × 1,2) sort sous le sol en facettes, c'est moche. Je limite le dôme aux petits rayons (`cap_dome_max_r`, 0,3 m) et le bas du tronc reste plat. (26 October 2026, 18:24:15 +0100)
+
+## 26 October 2026, 18:26:09 +0100 : Iteration
+
+<!-- feedback-event:74c09726c8ae0d543e40b736e634eba2b4036d16c4c33c3eb45829a3fc7c02c2 (26 October 2026, 18:26:09 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:26:09 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 18:26:09 +0100)
+
+> Je cherche où est construit le plancher de la voiture (46 % des fautes de topologie, cachées sous la caisse) pour voir si un maillage propre est faisable sans changer la forme. (26 October 2026, 18:26:09 +0100)
