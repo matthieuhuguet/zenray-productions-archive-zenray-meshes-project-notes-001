@@ -1,22 +1,22 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-10-26T11:32:50.829Z",
+ "scannedAt": "2026-10-26T13:16:45.100Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
-   "lines": 3380,
-   "work": 707,
-   "prompts": 7,
+   "lines": 3872,
+   "work": 747,
+   "prompts": 8,
    "first": "2026-10-25T14:44:31.322Z",
-   "last": "2026-10-26T09:46:00.611Z",
+   "last": "2026-10-26T13:16:25.108Z",
    "strength": "strong",
    "conversationId": "claude:09d15ec8-88ad-4965-a2f0-80b68515e880",
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-26T09:46:00.954Z",
-   "bytes": 38230,
+   "updatedAt": "2026-10-26T13:16:26.207Z",
+   "bytes": 400366855,
    "boundProject": "zenray-meshes"
   },
   {
@@ -31,9 +31,9 @@
    "provider": "claude",
    "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
    "title": "zenray freelance",
-   "updatedAt": "2026-10-26T10:44:43.512Z",
-   "bytes": 38454,
-   "boundProject": null
+   "updatedAt": "2026-10-26T12:57:23.680Z",
+   "bytes": 38346,
+   "boundProject": "zenray-calendar-plan-23-october-2026"
   },
   {
    "projectId": "zenray-meshes",
