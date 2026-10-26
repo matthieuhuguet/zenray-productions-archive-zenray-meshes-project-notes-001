@@ -14915,3 +14915,11 @@
 - Project: zenray-meshes; kind: prompt. (26 October 2026, 15:00:33 +0100)
 
 > Matthieu (26 October 2026) : j'oubliais d'envoyer des images au fur et a mesure (base du protocole) et la numerotation de l'arbre n'etait pas visible alors que la voiture etait a v470. A faire : chaque iteration notable de l'arbre ET de la voiture envoie son image avec son numero de version (arbre v15, v16 ... , voiture v470 ...), l'arbre rattrape beaucoup d'iterations. (26 October 2026, 15:00:33 +0100)
+
+## 26 October 2026, 15:08:14 +0100 : Iteration
+
+<!-- feedback-event:aa9c5f58d2c0ca350c4788fa1fd54e544b94754125543566f8bf76d009b9fff0 (26 October 2026, 15:08:14 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 15:08:14 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 15:08:14 +0100)
+
+> Le réglage 2D plafonne (0,711) ; je teste maintenant des hybrides avec la vérité 3D de l'arbre synthétique, qui dit si on reconstruit vraiment ou si on colle seulement aux vues. (26 October 2026, 15:08:14 +0100)
