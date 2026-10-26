@@ -18024,3 +18024,49 @@
 > - Le script, `ConiferEvolution.py`, sera paramétrable pour que vous puissiez le relancer. (26 October 2026, 18:52:32 +0100)
 >
 > **Je ne sais pas** quel est le « truc qui vous manque » : votre phrase s'est coupée juste avant. Dites-le-moi et je l'ajoute. (26 October 2026, 18:52:32 +0100)
+
+## 26 October 2026, 18:55:41 +0100 : Prompt
+
+<!-- feedback-event:97a87f70b21d92169e466d0a393bb48b8867b3f0b347cc93eb27e960db40c228 (26 October 2026, 18:55:41 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 18:55:41 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 18:55:41 +0100)
+
+> En fait, pour la voiture car finale, je voulais plutôt que le turnover il soit fait en wireframe directement. Donc en wireframe, c'est-à-dire qu'on voit la topologie finale, quoi. (26 October 2026, 18:55:41 +0100)
+
+## 26 October 2026, 18:56:15 +0100 : Order of work
+
+<!-- feedback-event:f4fd7ce84741d42b971e5d181112ff727297ae91b2a3763a47d2c059d724d321 (26 October 2026, 18:56:15 +0100) -->
+- Project: zenray-meshes; kind: order. (26 October 2026, 18:56:15 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-af683a98073edea44.jsonl. (26 October 2026, 18:56:15 +0100)
+
+> Mission, en autonomie, sans me poser de question : refaire le « turnover » (tour complet de 360 degrés) de la voiture finale v470, mais EN FIL DE FER (wireframe), pour qu'on voie la topologie finale (les vraies arêtes des quads), en 24 images, avec deux vidéos : une où le tour dure 3 secondes et une où il dure 5 secondes, à partir des mêmes 24 images. Demande de Matthieu : « le turnover directement en wireframe, c'est-à-dire qu'on voit la topologie finale ». (26 October 2026, 18:56:15 +0100)
+>
+> Dossier du projet : /Users/zenray/.claude/tmp/tmp-zenray-meshes (chemins absolus partout). Interdits : pas de git, pas de workflow, pas de sous-agent, n'utilise PAS Houdini (une autre session s'en sert), ne modifie AUCUN script existant de /Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/ (copie-le sous un nouveau nom ou ajoute un mode dans une COPIE), n'écris jamais dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/, ne supprime rien hors de /Users/zenray/.claude/tmp/tmp-zenray-meshes/Evolution/Turnover/wire/, aucun tiret cadratin dans les textes que tu écris, pas de `sleep` en chaîne (calculs longs au premier plan avec le paramètre timeout de l'outil Bash jusqu'à 590000 ms). (26 October 2026, 18:56:15 +0100)
+>
+> CE QUI EXISTE DÉJÀ (« chercher avant de construire ») : (26 October 2026, 18:56:15 +0100)
+> 1. /Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/CarTurnover.py : le script du tour complet en rendu plein (matières), fait hier : 24 images, une toutes les 15 degrés, élévation 20,6 degrés, départ à 45,4 degrés (vue trois quarts avant), caméra en sens inverse des aiguilles d'une montre vue du dessus, cadrage fixé sur la sphère englobante, fond #606060, 1024 x 1024, rendu numpy et moderngl (le seul interpréteur qui a moderngl : `/Users/zenray/.venvs/zenray-uv/bin/python -I`). Lis-le en entier (`--help` d'abord). Les sorties pleines sont dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/Evolution/Turnover/ (frames/, Car_turnover_3s_26-October-2026.mp4, Car_turnover_5s_26-October-2026.mp4) : NE LES ÉCRASE PAS. (26 October 2026, 18:56:15 +0100)
+> 2. Le modèle : /Users/zenray/.claude/tmp/tmp-zenray-meshes/work/car/topo_v470.npz, les VRAIS polygones de la voiture (clés P points, C nombre de sommets par face, I indices, T numéro de pièce, names ; 99 799 faces, presque tout en quads). Le fil de fer à montrer est celui de ces polygones : les arêtes de chaque face, consécutives, JAMAIS les diagonales de la triangulation en éventail qu'utilise le rendu plein. (26 October 2026, 18:56:15 +0100)
+> 3. /Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/TopoCheck.py contient déjà une fonction `board` qui dessine un « fil de fer sur surface ombrée » en six vues avec élimination des lignes cachées (paramètre `edge_eps_m` : décalage de profondeur de 4 mm) : lis-la (`grep -n "def board\|edge_eps" TopoCheck.py`) et réutilise sa méthode d'élimination des arêtes cachées plutôt que d'en inventer une. Dans le tour demandé, on garde les faces ordinaires sans les colorer en rouge (pas d'erreurs en rouge, pas de triangles en jaune) : l'image doit montrer la topologie propre, lisible. (26 October 2026, 18:56:15 +0100)
+>
+> CE QU'IL FAUT PRODUIRE (26 October 2026, 18:56:15 +0100)
+> - Un nouveau script /Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/CarTurnoverWire.py, paramétrable en ligne de commande (--npz, --frames 24, --seconds 3,5, --size 1024, --supersample 2, --elevation, --margin, --start-azimuth, --line-px, --line-color, --surface-color, --bg, --out-dir) ; identifiants du code en anglais, commentaires qui commencent en anglais. Mêmes caméra, élévation, départ, sens, cadrage et fond que CarTurnover.py (reprends ses valeurs en important ses fonctions ou en lisant sa logique ; ne les devine pas). (26 October 2026, 18:56:15 +0100)
+> - Rendu : surface ombrée claire et unie (gris clair, ombrage lisse simple comme dans la vue de contrôle de topologie), arêtes des polygones en lignes fines sombres (environ 1 pixel à 1024), cachées derrière la surface (profondeur testée). Pour avoir des lignes nettes et non crénelées : rends à 2048 x 2048 (ou plus) puis réduis à 1024 x 1024 avec un filtre de qualité (Lanczos). Les 24 images sont des carrés 1024 x 1024. (26 October 2026, 18:56:15 +0100)
+> - Sorties dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/Evolution/Turnover/wire/ : frames/0001.png à 0024.png, Car_turnover_wire_3s_26-October-2026.mp4 et Car_turnover_wire_5s_26-October-2026.mp4 (ffmpeg /opt/homebrew/bin/ffmpeg, libx264, yuv420p, crf 16, +faststart ; entrée en images numérotées avec -framerate 8 pour 3 s et -framerate 24/5 pour 5 s ; sans libass). Un MP4 compresse mal les lignes fines : crf 16 est voulu. (26 October 2026, 18:56:15 +0100)
+>
+> VÉRIFICATIONS OBLIGATOIRES (à mesurer, ne suppose rien) : (1) lis avec l'outil Read les images 1, 7, 13 et 19 : la voiture entière, de taille constante, avec les arêtes des quads bien visibles et régulières, SANS diagonales de triangulation (un quad n'a pas de trait au milieu) ; fais aussi un gros plan (recadrage 512 x 512 agrandi) d'une zone de l'image 1, par exemple une aile, et lis-le pour confirmer que les lignes sont fines et nettes ; (2) ffprobe des deux MP4 : 1024 x 1024, 24 images, durées 3,0 s et 5,0 s (à 0,05 s près), débit d'images 8/1 et 24/5 ; (3) l'image 24 doit être à 15 degrés avant l'image 1 (distincte de l'image 1) ; (4) extrais une image de chaque MP4 avec ffmpeg et lis-la : les lignes doivent rester visibles après compression. Si les lignes sont trop denses pour être lisibles à 1024 (moiré), dis-le et propose dans le rapport un rendu 2048 : fabrique alors aussi une variante dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/Evolution/Turnover/wire/2048/ (mêmes noms avec _2048) sans retarder le rendu principal. (26 October 2026, 18:56:15 +0100)
+>
+> RAPPORT FINAL (court, en français, sans tiret long) : chemins ABSOLUS complets des deux MP4, du script, du dossier des images ; réglages retenus (élévation, couleur des lignes, épaisseur) ; résultats ffprobe ; ce qui n'a pas pu être vérifié ; toute anomalie vue sur le modèle (trous, faces manquantes, arêtes étranges). (26 October 2026, 18:56:15 +0100)
+
+## 26 October 2026, 18:56:19 +0100 : Iteration
+
+<!-- feedback-event:c78838fa3c0799d2d8908b6dbfa6c14c51ab04b2a57da91f69db6da5e1405b2a (26 October 2026, 18:56:19 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:56:19 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 18:56:19 +0100)
+
+> J'ai lancé un second agent Haiku (effort max) pour refaire le tour complet de la voiture v470 en fil de fer. Je ne touche à rien d'autre et vous préviens à son retour. (26 October 2026, 18:56:19 +0100)
+>
+> - **Ce qu'il fait :** les 24 images (une tous les 15°, même caméra, même départ, même sens et même cadrage que le tour en matières), avec les arêtes réelles des quads de `topo_v470.npz` sur une surface claire. Les arêtes cachées sont masquées et il n'y a pas de diagonales de triangulation. (26 October 2026, 18:56:19 +0100)
+> - **Rendu :** il fait le rendu en 2048 puis réduit à 1024 pour avoir des lignes nettes, et vérifie par ffprobe et en lisant des images. (26 October 2026, 18:56:19 +0100)
+> - **Sorties :** deux vidéos, 3 s et 5 s, dans `/Users/zenray/.claude/tmp/tmp-zenray-meshes/Evolution/Turnover/wire/`. Les tours en matières déjà faits ne sont pas écrasés. (26 October 2026, 18:56:19 +0100)
+> - **Ce que je n'ai pas décidé à votre place :** aucune face en rouge ni triangle en jaune, pour que la topologie reste lisible. Si vous voulez les fautes en couleur, dites-le-moi. (26 October 2026, 18:56:19 +0100)
+> - **Les deux agents en parallèle :** celui du conifère utilise Houdini ; celui-ci non, donc ils ne se gênent pas. (26 October 2026, 18:56:19 +0100)
