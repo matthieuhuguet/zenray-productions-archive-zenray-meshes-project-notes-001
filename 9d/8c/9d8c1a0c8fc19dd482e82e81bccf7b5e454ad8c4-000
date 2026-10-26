@@ -12318,3 +12318,19 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:25:54 +0100)
 
 > Je consolide v351 comme nouvel état retenu (mémoire, journal, Assets, scène, courbe). (26 October 2026, 07:25:54 +0100)
+
+## 26 October 2026, 07:27:34 +0100 : Iteration
+
+<!-- feedback-event:60ad27c700f939f1595e292ff691f44eecc55729024b2e8bf259efa265dea507 (26 October 2026, 07:27:34 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:27:34 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:27:34 +0100)
+
+> La grille de TailFace est allouée avec un nombre de rangées fixe ; j'y ajoute les rangées supplémentaires. (26 October 2026, 07:27:34 +0100)
+
+## 26 October 2026, 07:28:33 +0100 : Iteration
+
+<!-- feedback-event:9b108444a670d86b7d769b0b8ae2d241d392a74be48b4ea73136455afc6178f8 (26 October 2026, 07:28:33 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:28:33 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:28:33 +0100)
+
+> Avec la grille alignée, le bout en biais tient : dos 0,900 → 0,901, normales seules 0,806. Je le vérifie à l'image de dos. (26 October 2026, 07:28:33 +0100)
