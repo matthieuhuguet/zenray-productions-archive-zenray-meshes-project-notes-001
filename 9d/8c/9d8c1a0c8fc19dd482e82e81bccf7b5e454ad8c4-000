@@ -17032,3 +17032,11 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 18:23:07 +0100)
 
 > Je construis w46 (dôme 1,2, mesuré le meilleur) et je renvoie son image. (26 October 2026, 18:23:07 +0100)
+
+## 26 October 2026, 18:24:15 +0100 : Iteration
+
+<!-- feedback-event:cc990fd5bda16a348c6b73fa8920cab2b726e5269bf8340cb91cc09dfb936128 (26 October 2026, 18:24:15 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:24:15 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 18:24:15 +0100)
+
+> Le dôme du bas du tronc (rayon 1,4 m × 1,2) sort sous le sol en facettes, c'est moche. Je limite le dôme aux petits rayons (`cap_dome_max_r`, 0,3 m) et le bas du tronc reste plat. (26 October 2026, 18:24:15 +0100)
