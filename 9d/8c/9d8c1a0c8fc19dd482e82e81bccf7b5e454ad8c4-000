@@ -11706,3 +11706,387 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:03:14 +0100)
 
 > Les bras de suspension sont trop flous à démêler en peu de temps ; je regarde plutôt le grand trait manqué de la vue de dessus, 1,47 m le long du flanc droit. (26 October 2026, 06:03:14 +0100)
+
+## 26 October 2026, 06:04:06 +0100 : Iteration
+
+<!-- feedback-event:4d8c21b9e8dc56607f08bc7ada15bb0d06155310760d4bbfbbcde9e90e4cb585 (26 October 2026, 06:04:06 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:04:06 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:04:06 +0100)
+
+> Le dos garde deux traits verticaux manqués à |x| 1,05 (y 0,03 à 0,42) : le flanc extérieur des pneus arrière. Je mesure la position des pneus sur la vue de dos. (26 October 2026, 06:04:06 +0100)
+
+## 26 October 2026, 06:05:57 +0100 : Iteration
+
+<!-- feedback-event:bbc7b5ff09698e28b4ee7ec007b07fcb504577053c3379031862cfff8351e9a2 (26 October 2026, 06:05:57 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:05:57 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:05:57 +0100)
+
+> Les roues rentrées font chuter les silhouettes de bout (face 0,9679 → 0,9646, dos 0,9454 → 0,9422) : la planche est plus large au ras du sol. Je remets les roues. (26 October 2026, 06:05:57 +0100)
+
+## 26 October 2026, 06:06:06 +0100 : Iteration
+
+<!-- feedback-event:ddb9189223cb660dd23275994e50f2bf4c2131ed61cbba2e7de43888c713dd8f (26 October 2026, 06:06:06 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:06:06 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:06:06 +0100)
+
+> Je regarde le trait de 1,44 m en travers du nez en vue de dessus. (26 October 2026, 06:06:06 +0100)
+
+## 26 October 2026, 06:09:13 +0100 : Iteration
+
+<!-- feedback-event:39789d0e702c8d65778ae85b03643bf0bc81f9cc90c1b7ca86a0c9d3e2016053 (26 October 2026, 06:09:13 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:09:13 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:09:13 +0100)
+
+> Le capot bombé crée un pli continu à la coupe au lieu de l'effacer, et l'arc reste manqué : je le recoupe. Je regarde la planche de comparaison complète pour choisir le prochain écart visible. (26 October 2026, 06:09:13 +0100)
+
+## 26 October 2026, 06:10:08 +0100 : Iteration
+
+<!-- feedback-event:71297cff2218ecf0fd2bcae06b057261c58d6b973569843b269e8ca36cc7a552 (26 October 2026, 06:10:08 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:10:08 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:10:08 +0100)
+
+> Sur la planche, des petites aiguilles dépassent du modèle sur les flancs en vue de dessus et de dessous (près des passages de roue) ; ce sont des défauts de géométrie à traquer en priorité. (26 October 2026, 06:10:08 +0100)
+
+## 26 October 2026, 06:10:28 +0100 : Iteration
+
+<!-- feedback-event:0befb4c97fab2081905ab79012f35aea986316858569917e3ce265efd46d6d54 (26 October 2026, 06:10:28 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:10:28 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:10:28 +0100)
+
+> Des aiguilles dépassent latéralement entre les roues (deux par côté) ; je soupçonne les montants A et B posés par lancer de rayon, dont un sommet manqué hérite d'un x faux. (26 October 2026, 06:10:28 +0100)
+
+## 26 October 2026, 06:12:22 +0100 : Iteration
+
+<!-- feedback-event:f5762ba64a09f4537706409d95a180a29a3f559a96607be0391b0f91d25376c2 (26 October 2026, 06:12:22 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:12:22 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:12:22 +0100)
+
+> La borne globale abîme d'autres plaques (dessous 0,754 → 0,720) ; je la limite aux quatre fentes, par un réglage par plaque. (26 October 2026, 06:12:22 +0100)
+
+## 26 October 2026, 06:13:22 +0100 : Iteration
+
+<!-- feedback-event:b7a7f529eaaf0c1647f02c8c2c5812f3871c0a538bb77474b795e7c501c848e8 (26 October 2026, 06:13:22 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:13:22 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:13:22 +0100)
+
+> Les fentes bornées : scores neutres (silhouette du dessus +0,0004, du dessous −0,0005), mais plus aucune pièce hors de la caisse ; je garde et vérifie à l'image. (26 October 2026, 06:13:22 +0100)
+
+## 26 October 2026, 06:13:41 +0100 : Iteration
+
+<!-- feedback-event:b909ec204aae712f165cd5d99ca4e33caf654a38fbc30c8f955513c06f68ca34 (26 October 2026, 06:13:41 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:13:41 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:13:41 +0100)
+
+> Les aiguilles ont disparu des deux vues. Je regarde maintenant la poupe vue de côté, où le modèle montre un bloc sombre que la planche n'a pas. (26 October 2026, 06:13:41 +0100)
+
+## 26 October 2026, 06:17:54 +0100 : Iteration
+
+<!-- feedback-event:a4a00abb75bfaa1b3d38f7f4cfb915cc2fc4c251fc3741f6c8cca3019300f86e (26 October 2026, 06:17:54 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:17:54 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:17:54 +0100)
+
+> J'essaie un toit plus carré (exposant de super-ellipse 2,2 → 3,0) : la vue de face donne 1,334 à x 0,5 et 1,315 à 0,6, le modèle 1,321 et 1,308. (26 October 2026, 06:17:54 +0100)
+
+## 26 October 2026, 06:18:54 +0100 : Iteration
+
+<!-- feedback-event:214bec05f5e24418592b79705a5aaa16f3538851548136b8879bd5466f04e42a (26 October 2026, 06:18:54 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:18:54 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:18:54 +0100)
+
+> Toit plus carré : tout se dégrade (silhouette de dos 0,949 → 0,9467, dessus 0,824 → 0,816), je reviens à 2,2. Je relis les enveloppes de bout de v314. (26 October 2026, 06:18:54 +0100)
+
+## 26 October 2026, 06:19:11 +0100 : Prompt
+
+<!-- feedback-event:55a1966be614a768530052e01ec2b48a7766e21fbf43d147252b091d64418c2a (26 October 2026, 06:19:11 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 06:19:11 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:19:11 +0100)
+
+> [Image: original 2800x1400, displayed at 2000x1000. Multiply coordinates by 1.40 to map to original image.] (26 October 2026, 06:19:11 +0100)
+
+## 26 October 2026, 06:20:25 +0100 : Iteration
+
+<!-- feedback-event:594b93509c102b66dde19f0c5064bdb98086220709d3fa614a259ab6052b5284 (26 October 2026, 06:20:25 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:20:25 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:20:25 +0100)
+
+> Rampe plus longue : le dos perd 0,017, je la remets à 0,4. Je relis les traits manqués restants de v314. (26 October 2026, 06:20:25 +0100)
+
+## 26 October 2026, 06:22:21 +0100 : Iteration
+
+<!-- feedback-event:68e973d826fd80630a338155939491753af746d570da29817ef5da3e5da2ec47 (26 October 2026, 06:22:21 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:22:21 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:22:21 +0100)
+
+> Le cadre de grille en saillie fait bondir la face : 0,834 → 0,874, moyenne des traits 0,856. Il reste un trait à y 0,254 ; j'essaie le bord bas du cadre à 0,265, entre les deux. (26 October 2026, 06:22:21 +0100)
+
+## 26 October 2026, 06:23:15 +0100 : Iteration
+
+<!-- feedback-event:4ec2ce9c6408f969e237b6e160a93e100a4335cb0431b6e8899773360d1883ee (26 October 2026, 06:23:15 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:23:15 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:23:15 +0100)
+
+> Bord du cadre à 0,265 : face 0,878, moyenne 0,857, le trait à 0,254 disparaît. Je vérifie la grille à l'image. (26 October 2026, 06:23:15 +0100)
+
+## 26 October 2026, 06:23:32 +0100 : Iteration
+
+<!-- feedback-event:1d53da90caf91f53fd2a196f0ee9aa62d96b070b5b4adad902d8b0151ef53312 (26 October 2026, 06:23:32 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:23:32 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:23:32 +0100)
+
+> Le cadre de grille se lit bien de face et de trois quarts. Prochain essai rapide : les bords bas des ailettes arrière (2 × 0,37 m à y 0,39 à 0,40 en vue de dos). (26 October 2026, 06:23:32 +0100)
+
+## 26 October 2026, 06:25:21 +0100 : Iteration
+
+<!-- feedback-event:a88b8299dbac597c69bbc77e4495b2238f0b6acc7b69219be8a528e9d473b401 (26 October 2026, 06:25:21 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:25:21 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:25:21 +0100)
+
+> J'essaie plutôt un second encart emboîté, plus profond, de 0,336 à 0,435 avec un biseau net de 1 cm. (26 October 2026, 06:25:21 +0100)
+
+## 26 October 2026, 06:26:12 +0100 : Iteration
+
+<!-- feedback-event:0bbd973e83f4cffe043f6ac638ed03253c57d297314cc2981eaf5ef427ecd10c (26 October 2026, 06:26:12 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:26:12 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:26:12 +0100)
+
+> Le creux emboîté fait passer le dos de 0,869 à 0,898 (normales seules 0,844 → 0,880), moyenne des traits 0,862. Je regarde la poupe à l'image. (26 October 2026, 06:26:12 +0100)
+
+## 26 October 2026, 06:26:29 +0100 : Iteration
+
+<!-- feedback-event:3bb0d04e44ca49915e484ca2c49f7fd006d993714f36aae0529fb50ff62666e7 (26 October 2026, 06:26:29 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:26:29 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:26:29 +0100)
+
+> La poupe reste propre avec le creux emboîté. Prochain essai du même type : les deux traits transversaux du dessous à z −1,148 et −1,282 (1,14 m et 0,95 m). (26 October 2026, 06:26:29 +0100)
+
+## 26 October 2026, 06:27:51 +0100 : Iteration
+
+<!-- feedback-event:dc5e8eb60b463e5f8a3e76774968ecd9273a0e7c2271ca0dd277ac9b2148fbac (26 October 2026, 06:27:51 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:27:51 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:27:51 +0100)
+
+> Les nervures arrière font gagner +0,036 au dessous (0,753 → 0,789), moyenne des traits 0,868. Je relis les traits manqués suivants du dessous. (26 October 2026, 06:27:51 +0100)
+
+## 26 October 2026, 06:29:18 +0100 : Iteration
+
+<!-- feedback-event:0cb26e644c1c0ec0693236e47694109f713cd92b7753f6a7acc93d6c7f4f3069 (26 October 2026, 06:29:18 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:29:18 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:29:18 +0100)
+
+> Jonction des plaques recalée : dessous 0,789 → 0,799, moyenne 0,869. Je regarde les deux traits longitudinaux arrière du dessous (|x| 0,625, z −1,38 à −1,95). (26 October 2026, 06:29:18 +0100)
+
+## 26 October 2026, 06:33:24 +0100 : Iteration
+
+<!-- feedback-event:18762e5e67bc1ffbc183c69bab96248cec15b5151bb5111fe160cc58ffbd89dc (26 October 2026, 06:33:24 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:33:24 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:33:24 +0100)
+
+> glass_base seul : aucun gain de silhouette brute et traits en baisse. Le gain venait donc de roof_edge ; je le teste seul. (26 October 2026, 06:33:24 +0100)
+
+## 26 October 2026, 06:34:49 +0100 : Iteration
+
+<!-- feedback-event:417688b4a4bb532ec38b68f83bb0d79e0aeec568648e089f1988018966d381f2 (26 October 2026, 06:34:49 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:34:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:34:49 +0100)
+
+> Les joints transversaux sont déjà nets (80 échantillons par mètre, 1,25 cm). Je consolide maintenant : planche finale, héros, courbe d'historique, puis consignation. (26 October 2026, 06:34:49 +0100)
+
+## 26 October 2026, 06:35:20 +0100 : Iteration
+
+<!-- feedback-event:a75858da7fee8d1c86288a70a306b22c8b5a6016db5f4c5eb7c988c61effaecd (26 October 2026, 06:35:20 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:35:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:35:20 +0100)
+
+> La courbe d'historique montre la montée de la nuit : traits 0,70 → 0,876 et silhouette 0,955 → 0,969 de v150 à v326. Je consigne les dernières pièces et la recette dans le skill. (26 October 2026, 06:35:20 +0100)
+
+## 26 October 2026, 06:35:49 +0100 : Iteration
+
+<!-- feedback-event:a596b077ceb3a086e1aef9fe6a0781baa817b1a900b5461c644efb26872f4ad2 (26 October 2026, 06:35:49 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:35:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:35:49 +0100)
+
+> Je mets à jour la mémoire du projet (ligne d'état datée) puis je la commite par chemin explicite. (26 October 2026, 06:35:49 +0100)
+
+## 26 October 2026, 06:36:09 +0100 : Iteration
+
+<!-- feedback-event:634f631f8c7476e936d6506f68ce1e235cbe15b5006470cd88e67496c0a897fb (26 October 2026, 06:36:09 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:36:09 +0100)
+- Source: checkpoint:claude:09d15ec8-88ad-4965-a2f0-80b68515e880. (26 October 2026, 06:36:09 +0100)
+
+> Voiture v326 (26 October 2026, 6 h 40) : silhouette 0,9691, traits 0,876 (0,817 a 5 h) ; pli bas de porte, lame de nez, bandeau de face, cadre de grille, arete du pont, creux des ouies, nervures du dessous, joint de baguette affute ; skill zenray-meshes sections 53 a 57 ; prochain : bilan a 8 h et arret du cron. (26 October 2026, 06:36:09 +0100)
+
+## 26 October 2026, 06:39:30 +0100 : Iteration
+
+<!-- feedback-event:b741092a529bc0d9f7174879e00b375f3b581e0dce813878b58a2821d5d5239a (26 October 2026, 06:39:30 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:39:30 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:39:30 +0100)
+
+> La levée variable perd la ligne du dessus sans rien gagner au dos. J'essaie une levée uniforme plus faible (1,5 cm). (26 October 2026, 06:39:30 +0100)
+
+## 26 October 2026, 06:41:50 +0100 : Iteration
+
+<!-- feedback-event:d8ba98bc27b897ad7827ca0c7cb11ecc30919513093a32b3951be7c1d41ebe8e (26 October 2026, 06:41:50 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:41:50 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:41:50 +0100)
+
+> Coin du nez reculé à 2,21 : la ligne en arc de 1,44 m disparaît, dessus 0,862, traits 0,878, silhouette du dessus 0,9734. Je vérifie le nez à l'image. (26 October 2026, 06:41:50 +0100)
+
+## 26 October 2026, 06:42:10 +0100 : Iteration
+
+<!-- feedback-event:db872b6d71444eec82f459dbfda1755d6628b83ccf60843a7b203d2fefa431c0 (26 October 2026, 06:42:10 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:42:10 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:42:10 +0100)
+
+> Le nez reste propre avec le coin reculé ; je garde v330. Je consigne tout de suite l'arête de contrefort et le coin du nez, puis je continue tant qu'il reste du temps. (26 October 2026, 06:42:10 +0100)
+
+## 26 October 2026, 06:42:26 +0100 : Iteration
+
+<!-- feedback-event:0c583eebe63fe5b294b7964a3e73a4ab62e9dfb17566b17d976996246daafed3 (26 October 2026, 06:42:26 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:42:26 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:42:26 +0100)
+
+> Je relis les traits manqués restants des flancs et du dessous de v330. (26 October 2026, 06:42:26 +0100)
+
+## 26 October 2026, 06:42:39 +0100 : Iteration
+
+<!-- feedback-event:81295b790da8cc7d992778ecc0ee8dac8f1f002baffc41f1e5cfcf20511726ee (26 October 2026, 06:42:39 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:42:39 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:42:39 +0100)
+
+> En vue de dessus, un trait transversal de 1,07 m à z −1,04 traverse le toit : c'est sans doute le haut de la lunette, que le modèle place à −0,995. Je le mesure. (26 October 2026, 06:42:39 +0100)
+
+## 26 October 2026, 06:42:50 +0100 : Iteration
+
+<!-- feedback-event:8c5b1867a698b605248232ce151bd53a1e2ff7bad092f48cef3d7e7b6f867e05 (26 October 2026, 06:42:50 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:42:50 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:42:50 +0100)
+
+> Le haut de lunette est à 0,5 cm près (rien à faire). Je regarde les deux lignes de 1,0 m sur les ailes avant en vue de dessus (de z 1,0, |x| 1,03 à z 2,0, |x| 0,93). (26 October 2026, 06:42:50 +0100)
+
+## 26 October 2026, 06:44:39 +0100 : Iteration
+
+<!-- feedback-event:50ca4711df1c9b1b4fefb22499fea6b5b219b364cf85e60067335b705e7a737a (26 October 2026, 06:44:39 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:44:39 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:44:39 +0100)
+
+> Arête du dessus d'aile recalée : dessus 0,862 → 0,885, face 0,892, traits moyens 0,882 (normales seules 0,803), silhouette inchangée. Je vérifie l'aile avant à l'image. (26 October 2026, 06:44:39 +0100)
+
+## 26 October 2026, 06:44:55 +0100 : Iteration
+
+<!-- feedback-event:5c8248966646421d57b5731b65ea006d5c059ecc7f02000eaaf3506d762868c5 (26 October 2026, 06:44:55 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:44:55 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:44:55 +0100)
+
+> v331 garde des ailes propres, l'arête du dessus d'aile se lit plus nettement jusqu'au coin du nez ; je garde et consigne en une ligne. (26 October 2026, 06:44:55 +0100)
+
+## 26 October 2026, 06:45:05 +0100 : Iteration
+
+<!-- feedback-event:d5dee05852a66bc5abc3fc2b47aec671110e06ab094adaca5448a536e250bad2 (26 October 2026, 06:45:05 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:45:05 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:45:05 +0100)
+
+> Il est 6 h 45 : il reste du temps. Même démarche sur la ligne de 1,07 m de la hanche arrière en vue de dessus (z −0,95 à −2,02, x 0,945 à 0,999) : je relève la planche et les rangées. (26 October 2026, 06:45:05 +0100)
+
+## 26 October 2026, 06:45:20 +0100 : Iteration
+
+<!-- feedback-event:b7719ad6ec0e2461a20e6ce9516deec4fef6ae62ca50f84796ff0ca7c9b80f4e (26 October 2026, 06:45:20 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:45:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:45:20 +0100)
+
+> Sur la hanche, la rangée belt_top est déjà à 1 à 2 cm de la ligne de la planche mais son joint ne dessine rien : je reteste la colonne fine sur belt_top dans l'état actuel. (26 October 2026, 06:45:20 +0100)
+
+## 26 October 2026, 06:47:06 +0100 : Iteration
+
+<!-- feedback-event:357a6f9b3a5df3d71fd6edcf962e29684bc459bcb9049eed7e4d56fd59a53352 (26 October 2026, 06:47:06 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:47:06 +0100)
+- Source: checkpoint:claude:09d15ec8-88ad-4965-a2f0-80b68515e880. (26 October 2026, 06:47:06 +0100)
+
+> Voiture v331 (26 October 2026, 6 h 46) : silhouette 0,9691, traits 0,882 ; arete du contrefort arriere, coin du nez recule, arete du dessus d aile ; skill zenray-meshes section 58 ; prochain : boucle jusqu a 8 h puis arret du cron. (26 October 2026, 06:47:06 +0100)
+
+## 26 October 2026, 06:47:24 +0100 : Iteration
+
+<!-- feedback-event:2c544c2bff24b19c2b0e1e8562889ee0147b1a592479d9757215e223ff9371d3 (26 October 2026, 06:47:24 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:47:24 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:47:24 +0100)
+
+> Il reste une heure. Prochain trait commun aux deux flancs : le montant A entre z 0,33 et 0,76 (y 1,15 → 0,99, 0,45 m et 0,38 m manqués). Je compare la planche au ruban `CAR_pillar_a`. (26 October 2026, 06:47:24 +0100)
+
+## 26 October 2026, 06:49:20 +0100 : Iteration
+
+<!-- feedback-event:d2a04cb1c123bba465dd443713d4f7aec386be504306004cce4ce70cf9e295ce (26 October 2026, 06:49:20 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:49:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:49:20 +0100)
+
+> Haut de vitre recalé sous le montant A : flancs 0,909 et 0,916, moyenne 0,883 (normales seules 0,805). Je vérifie le montant à l'image. (26 October 2026, 06:49:20 +0100)
+
+## 26 October 2026, 06:49:33 +0100 : Iteration
+
+<!-- feedback-event:774c79be1936e1ce7a4ba1b1cb1a07af6b2c75a8a318806354b896d7c1136ddb (26 October 2026, 06:49:33 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:49:33 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:49:33 +0100)
+
+> Le montant A et la vitre restent propres de côté et de trois quarts ; je garde v333 et le consigne. (26 October 2026, 06:49:33 +0100)
+
+## 26 October 2026, 06:49:49 +0100 : Iteration
+
+<!-- feedback-event:26857b1c325ff6983688c834e19b8a6d315b33991e231e000627ad8f65cfb90a (26 October 2026, 06:49:49 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:49:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:49:49 +0100)
+
+> Il est 6 h 49. Le dessous reste la vue la plus faible (0,799) ; je regarde les deux diagonales de 0,79 m le long des flancs du plancher arrière. (26 October 2026, 06:49:49 +0100)
+
+## 26 October 2026, 06:51:20 +0100 : Iteration
+
+<!-- feedback-event:716d6a5135508bcf1da3b38594f4192bf39b0143620e38560ae2ceca6ac01533 (26 October 2026, 06:51:20 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:51:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:51:20 +0100)
+
+> Bande élargie : aucun gain (dessous 0,799 → 0,798), je la retire. Je continue la boucle jusqu'à 8 h dans ce même tour. (26 October 2026, 06:51:20 +0100)
+
+## 26 October 2026, 06:51:56 +0100 : Iteration
+
+<!-- feedback-event:31b0b8de3b9d7a3b9784d4baf2753dda9f427cc0b3920566b5e24974c7fcb633 (26 October 2026, 06:51:56 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:51:56 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:51:56 +0100)
+
+> Les flancs sont presque épuisés (restes de moins de 0,3 m). Essai rapide sur la poupe : l'arête du chanfrein à z −2,212 exactement (décalage 0,068 → 0,083 depuis la face). (26 October 2026, 06:51:56 +0100)
+
+## 26 October 2026, 06:52:52 +0100 : Iteration
+
+<!-- feedback-event:342472dd0085d95fca07fffc00de0742ad9e7aefddfa720a96a62c63e2211e3b (26 October 2026, 06:52:52 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:52:52 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:52:52 +0100)
+
+> Arête plus en avant : le dessus perd 0,022, je remets 0,068. Je regarde la zone de la lame en vue de dessous, où restent deux traits (z 2,168 et 2,25). (26 October 2026, 06:52:52 +0100)
+
+## 26 October 2026, 06:53:11 +0100 : Iteration
+
+<!-- feedback-event:b8cf13050a323666ed243d126fe2059c86df4968ee0aa31909001242ae236cab (26 October 2026, 06:53:11 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:53:11 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:53:11 +0100)
+
+> La lame est presque entièrement retrouvée en vue de dessous (restes dispersés). Je reviens à la planche de comparaison complète de v333 pour juger à l'œil ce qui reste le plus visible. (26 October 2026, 06:53:11 +0100)
+
+## 26 October 2026, 06:53:35 +0100 : Iteration
+
+<!-- feedback-event:d5e2d15bf25880c2ad61646398cff8a91c215b02d6c5c81af0285787bf16c5f3 (26 October 2026, 06:53:35 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:53:35 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:53:35 +0100)
+
+> À l'œil, il manque une pièce reconnaissable sur l'aile avant : l'ouïe fine juste derrière la roue, qui finit au joint avant de porte. Je la mesure sur les deux vues de côté. (26 October 2026, 06:53:35 +0100)
+
+## 26 October 2026, 06:55:41 +0100 : Iteration
+
+<!-- feedback-event:6d62a2018c6b4c914a3973a0eb4dd5b7ac4db8a76c769811c3076394ff0bbac8 (26 October 2026, 06:55:41 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:55:41 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:55:41 +0100)
+
+> Il reste une heure. Plutôt que d'empiler des pièces au score, je contrôle la propreté de l'état retenu (v333) : torsion des quads, pièces hors caisse, plis. (26 October 2026, 06:55:41 +0100)
+
+## 26 October 2026, 06:55:49 +0100 : Iteration
+
+<!-- feedback-event:fdea59f1374425ce18785fd879a7deb8df374230067ad8ef1bd98ef805620bc4 (26 October 2026, 06:55:49 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:55:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:55:49 +0100)
+
+> ShapeCheck compte maintenant 99 plis de section (0 en v285) : je retrouve la version qui les a introduits. (26 October 2026, 06:55:49 +0100)
