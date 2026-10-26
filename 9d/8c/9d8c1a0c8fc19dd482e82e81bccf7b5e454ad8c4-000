@@ -10265,3 +10265,53 @@
 > Continue the conversation from where it left off without asking the user any further questions. Resume directly — do not acknowledge the summary, do not recap what was happening, do not preface with "I'll continue" or similar. Pick up the last task as if the break never happened. (26 October 2026, 01:27:31 +0100)
 >
 > The messages after this summary are the most recent messages from before compaction, kept verbatim. The summary was written without seeing them, so something it says has not happened yet may already have happened in them. (26 October 2026, 01:27:31 +0100)
+
+## 26 October 2026, 01:28:10 +0100 : Prompt
+
+<!-- feedback-event:0ce884a3053ddea6a677d641a591acb1ef323e07d578731bc0542736c1d61306 (26 October 2026, 01:28:10 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 01:28:10 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 01:28:10 +0100)
+
+> [Image: original 2800x1400, displayed at 2000x1000. Multiply coordinates by 1.40 to map to original image.] (26 October 2026, 01:28:10 +0100)
+
+## 26 October 2026, 01:28:10 +0100 : Prompt
+
+<!-- feedback-event:c32c644334d8739ea23dcbd651e430caca3dec3142ead758964d44af917cd08b (26 October 2026, 01:28:10 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 01:28:10 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 01:28:10 +0100)
+
+> [Image: original 1246x2496, displayed at 998x2000. Multiply coordinates by 1.25 to map to original image.] (26 October 2026, 01:28:10 +0100)
+
+## 26 October 2026, 01:28:13 +0100 : Prompt
+
+<!-- feedback-event:cb4d03b4230fa32dfd3bb12bbe5fc0f7cb1cbceb2485e69b20507df1fe987c32 (26 October 2026, 01:28:13 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 01:28:13 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 01:28:13 +0100)
+
+> [Image: original 2800x1400, displayed at 2000x1000. Multiply coordinates by 1.40 to map to original image.] (26 October 2026, 01:28:13 +0100)
+>
+> [Image: original 1246x2496, displayed at 998x2000. Multiply coordinates by 1.25 to map to original image.] (26 October 2026, 01:28:13 +0100)
+
+## 26 October 2026, 01:28:35 +0100 : Iteration
+
+<!-- feedback-event:53f0b5a5dda60da036cd44c903a468d3594e8987cb7845d750b0f3fc04dd141a (26 October 2026, 01:28:35 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 01:28:35 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 01:28:35 +0100)
+
+> Rendus v201 prêts ; je les envoie puis j'attaque la verrière trop bombée vue de face et de dos. (26 October 2026, 01:28:35 +0100)
+
+## 26 October 2026, 01:30:04 +0100 : Iteration
+
+<!-- feedback-event:a8000abfa32ff21f4536711a1011b15687d4b2aa777030af4fb72121818a06dc (26 October 2026, 01:30:04 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 01:30:04 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 01:30:04 +0100)
+
+> Je mesure l'enveloppe des vues de bout : le toit du modèle est 1,2 à 2,9 cm trop haut au centre et 3 à 6 cm trop bas aux angles, d'où le dôme. Je regarde les rangées du toit. (26 October 2026, 01:30:04 +0100)
+
+## 26 October 2026, 01:31:18 +0100 : Iteration
+
+<!-- feedback-event:8755f2007adef3babff231e6e4fafcb8c54b31ad9c6349b79f22fc6a2c2694b2 (26 October 2026, 01:31:18 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 01:31:18 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 01:31:18 +0100)
+
+> J'écris un outil qui trace les rangées du modèle sur les vues de la planche, pour voir laquelle est mal placée. (26 October 2026, 01:31:18 +0100)
