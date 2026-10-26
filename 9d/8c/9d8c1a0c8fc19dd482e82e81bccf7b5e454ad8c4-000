@@ -16776,3 +16776,107 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:14:58 +0100)
 
 > The sizes check out: all 29 tree boards are 1236 by 3726 and all 424 car materials files are 2130 by 1800. The tree cell is 412 by 620 with a flat background, and the yellow IoU caption sits at its top left. Next I'll freeze the file listing inside Evolution and check whether the script path is free before writing it. (26 October 2026, 18:14:58 +0100)
+
+## 26 October 2026, 18:15:03 +0100 : Iteration
+
+<!-- feedback-event:b2624848a77853616ee8e48b011650fd12a209e2a5cd5811b305afe8ac7ee426 (26 October 2026, 18:15:03 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:15:03 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:15:03 +0100)
+
+> The listing is frozen at 16,973 names, unchanged since 18:10, and the script path is free. Writing the parametric script now. (26 October 2026, 18:15:03 +0100)
+
+## 26 October 2026, 18:15:26 +0100 : Iteration
+
+<!-- feedback-event:2f08ba40a1c4a9318195a806f98adc1cd0ea0b278e026bdfe2453264b1ac6554 (26 October 2026, 18:15:26 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:15:26 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:15:26 +0100)
+
+> Script written. Running the tree first as a quick test: expect 29 boards, v19 absent, 34 frames including the hold. (26 October 2026, 18:15:26 +0100)
+
+## 26 October 2026, 18:15:33 +0100 : Iteration
+
+<!-- feedback-event:c90e12c2dcc8f4b5bf54d78b885195e8790147217670a88738ddc3244356107f (26 October 2026, 18:15:33 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:15:33 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:15:33 +0100)
+
+> The tree build passed its own checks: 34 frames, 8.5 s, 1024 by 1024 at 4 fps, v15 to f44, v19 absent. Running the car build next: expect 424 versions plus 5 hold frames, 429 frames in total. (26 October 2026, 18:15:33 +0100)
+
+## 26 October 2026, 18:15:35 +0100 : Iteration
+
+<!-- feedback-event:161655a08f7d8cc3ccaae3440031dbf09785b32ab327be52073f4c84177f21d4 (26 October 2026, 18:15:35 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:15:35 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 18:15:35 +0100)
+
+> L'agent Haiku écrit son script ; en parallèle je mesure la topologie du bois seul (w43) avec TopoCheck, relais voiture vers arbre. (26 October 2026, 18:15:35 +0100)
+
+## 26 October 2026, 18:15:50 +0100 : Iteration
+
+<!-- feedback-event:69424fab339709850d7d7910346abaf85c649de485a4c20c69aaa13edbb8058e (26 October 2026, 18:15:50 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:15:50 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:15:50 +0100)
+
+> Car build passed too: 429 frames, 107.25 s, v8 to v474. The 53 absent numbers match my earlier count. Next I'll extract first, middle and last frames of both videos for the visual check, and run the probes and the hold-frame and frame-size checks. (26 October 2026, 18:15:50 +0100)
+
+## 26 October 2026, 18:16:00 +0100 : Iteration
+
+<!-- feedback-event:24bce7511e6550401d0fe54b1efd4d334afc06532f68cce05999b604157b2056 (26 October 2026, 18:16:00 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:16:00 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:16:00 +0100)
+
+> The first ffmpeg extraction failed because the shell did not split my flags variable. The probes themselves are correct: both videos are 1024 by 1024, 4 fps, with 429 and 34 frames. The last six car frames are identical copies. I'll redo the extraction with the flags written inline. (26 October 2026, 18:16:00 +0100)
+
+## 26 October 2026, 18:16:07 +0100 : Iteration
+
+<!-- feedback-event:3caea490c3661155c2a52d5ba70c9b2e53182e1ee153477c2baa9a367ba2b522 (26 October 2026, 18:16:07 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:16:07 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:16:07 +0100)
+
+> All six check frames are extracted, and the verifier fails on each wrong expectation while passing the right one. Now I'll look at the frames themselves, since the crop and label have to be checked by eye. (26 October 2026, 18:16:07 +0100)
+
+## 26 October 2026, 18:16:36 +0100 : Iteration
+
+<!-- feedback-event:3f2060535f220cb08f653e28508839bf8a38bf76f64ed5687485b50aade4bd4c (26 October 2026, 18:16:36 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:16:36 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:16:36 +0100)
+
+> All six frames are correct: the car is undistorted with the legend cropped away, the labels read v8, v221 and v474, the tree labels read v15, v33 and f44, and the last frames are the held copies. One defect: a faint ghost of the yellow IoU caption remains at the top left of the tree frames, because the antialiased edge pixels were not all masked. Before widening the mask, I'll check on the 29 boards that nothing but that caption lies in the masked box. (26 October 2026, 18:16:36 +0100)
+
+## 26 October 2026, 18:16:54 +0100 : Iteration
+
+<!-- feedback-event:4bfc7a8f201e9e999c698b471abcfd222c449889c5519ac82ad32b29cd93c612 (26 October 2026, 18:16:54 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:16:54 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:16:54 +0100)
+
+> The check is clean: every board's caption box holds only the yellow caption and a 26 to 42 pixel antialiased halo, and no tree geometry (zero non-yellow pixels deviating by more than 40). I can therefore flatten the whole box to the background, with the tolerance as a parameter. I'll get the exact time for the iteration comment first. (26 October 2026, 18:16:54 +0100)
+
+## 26 October 2026, 18:16:56 +0100 : Iteration
+
+<!-- feedback-event:b2ac5e0fdfde22e5d60e29f1a3ce5121ec19e9d89dd588853ee6a940090e9400 (26 October 2026, 18:16:56 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:16:56 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:16:56 +0100)
+
+> It is 18:16. Applying the three edits: the new default tolerance, the flattened caption box, and passing the tolerance into the frame settings. (26 October 2026, 18:16:56 +0100)
+
+## 26 October 2026, 18:17:05 +0100 : Iteration
+
+<!-- feedback-event:7726ceb86c07aff9069eb394fb1930e03adf0f9b6ed3ac216f6600a3fc1ec20d (26 October 2026, 18:17:05 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:17:05 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:17:05 +0100)
+
+> Rebuilding the tree video, then measuring the residual objectively: the caption area of every tree frame should be flat background. (26 October 2026, 18:17:05 +0100)
+
+## 26 October 2026, 18:17:17 +0100 : Iteration
+
+<!-- feedback-event:1febcf0d55deadaaa537673be91ca90b662e59cc229f82ff312c8d64c9cfc258 (26 October 2026, 18:17:17 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:17:17 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:17:17 +0100)
+
+> The caption area is now flat background in all tree frames (0 pixels off background). I'll also rebuild the car with the final script so the kept script reproduces both delivered videos, then re-extract the tree check frames and compare the car frames against the earlier ones. (26 October 2026, 18:17:17 +0100)
+
+## 26 October 2026, 18:17:30 +0100 : Iteration
+
+<!-- feedback-event:f6d99aa31ccb13eed6cf9bff9078cddeac56937c5b45fdbb84e543af5f9cbc89 (26 October 2026, 18:17:30 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:17:30 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-ad0bf95a119776fb4.jsonl. (26 October 2026, 18:17:30 +0100)
+
+> The car rebuild reproduces the same 2,250,199 bytes and identical check frames, so the earlier car reads still apply. Now I'll look at the three re-extracted tree frames to confirm the caption is gone. (26 October 2026, 18:17:30 +0100)
