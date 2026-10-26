@@ -19565,3 +19565,11 @@
 > | Consigné dans ZenRay Edit | Oui | section et gabarit dans le skill, synchronisés | (26 October 2026, 20:51:41 +0100)
 > | Miniature 2048 | En cours | agent Haiku au travail | (26 October 2026, 20:51:41 +0100)
 > | Index .md et push Assets | Pas encore | après la miniature | (26 October 2026, 20:51:41 +0100)
+
+## 26 October 2026, 20:56:32 +0100 : Iteration
+
+<!-- feedback-event:6ab959bf92d2227889d7b6ef73ba9d4369aecc8f37d77c340d11faa5e67eed14 (26 October 2026, 20:56:32 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 20:56:32 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-a2095efab9effedf4.jsonl. (26 October 2026, 20:56:32 +0100)
+
+> Les sources sont lues et le rendu alpha fonctionne (PNG RGBA, coins transparents). Je écris maintenant les paramètres, puis les deux scripts. (26 October 2026, 20:56:32 +0100)
