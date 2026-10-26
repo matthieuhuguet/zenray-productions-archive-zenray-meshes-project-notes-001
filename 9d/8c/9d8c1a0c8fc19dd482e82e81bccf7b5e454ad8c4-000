@@ -12374,3 +12374,90 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:34:42 +0100)
 
 > Il reste 25 minutes. Je relis les traits manqués restants de v356 pour voir si une autre arête molle relève de la même technique. (26 October 2026, 07:34:42 +0100)
+
+## 26 October 2026, 07:36:20 +0100 : Prompt
+
+<!-- feedback-event:e6bf6249cea6b7146c449f831e4999088e24cfb2597841a05b305d01ec97754c (26 October 2026, 07:36:20 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 07:36:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:36:20 +0100)
+
+> This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation. (26 October 2026, 07:36:20 +0100)
+>
+> <tools-used-before-summary>Agent, Bash, CronCreate, CronDelete, CronList, Edit, Read, SendUserFile, Skill, ToolSearch, WebSearch, Write, mcp__ccd_turn__update_plan, mcp__ccd_turn__wrap_up, mcp__zenray-houdini__houdini_hom</tools-used-before-summary> (26 October 2026, 07:36:20 +0100)
+> Summary: (26 October 2026, 07:36:20 +0100)
+> 1. Primary Request and Intent: (26 October 2026, 07:36:20 +0100)
+>    - Cron job f71e678f (every minute) re-sends the user's relaunch prompt verbatim: « ZenRay Meshes, relance automatique (Matthieu, 25 October 2026) : si la boucle s'est arrêtée, reprends la voiture PAR COMPOSANTS là où elle en est. Lis /Users/zenray/.claude/skills/zenray-meshes/SKILL.md sections 21 à 26, la feuille de composants dans /Users/zenray/.claude/Memory1/Projects/zenray-meshes/ZenRayMeshes1.md section 10, et le dernier rendu dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/. Demande-toi : la voiture est-elle identique à la feuille de référence, tous les composants construits ? Si non, construis le composant suivant (jamais d'ajustement global aux silhouettes), vérifie par rendu matériaux et projection sur la planche, consigne l'apprentissage dans le skill (section datée), puis continue. /dont-stop » (26 October 2026, 07:36:20 +0100)
+>    - Standing instructions from the earlier session: iterate until 26 October 2026 8:00 keeping the cron; autonomy, no questions; car only; clean surfaces (not "cabossées"); HDA-style parameters; consign every learning (dated sections) in the skill; at 8:00 delete cron f71e678f and give the final report. (26 October 2026, 07:36:20 +0100)
+>    - Constraints (must remain in effect): never use Matthieu's personal browser (built-in only); never `git add -A` in ~/.claude (explicit paths only); never print secrets/credentials; workflows banned without double confirmation (single Agent calls only); no em dash, en dash or double hyphen anywhere; every added skill/memory line carries a date like "(26 October 2026)"; absolute paths in links; code identifiers in English; French prose to user; close each turn with a 3-column table and `mcp__ccd_turn__wrap_up`; send images during loops (SendUserFile); progress via `node ~/.claude/skills/progress/scripts/progress.mjs append --project zenray-meshes --fait ... --verifie ... --prochain ...`; skill sync `~/.claude/skills/skill-sync/scripts/sync-skill.sh zenray-meshes`; Assets checkpoint `cd /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress && node scripts/Assets/Client.mjs checkpoint zenray-meshes '{"agent":"claude","sessionId":"09d15ec8-88ad-4965-a2f0-80b68515e880","checkpointId":"<id>","summary":"..."}'`; hip save `python3 /Users/zenray/.claude/Memory1/Houdini/MCP/zrhoudini.py hom "hou.hipFile.save('/Users/zenray/.claude/tmp/tmp-zenray-meshes/hip/ZenRayMeshes.hip'); result=1" live`; commits end with "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>". (26 October 2026, 07:36:20 +0100)
+>
+> 2. Key Technical Concepts: (26 October 2026, 07:36:20 +0100)
+>    - Workshop /Users/zenray/.claude/tmp/tmp-zenray-meshes; Python `/Users/zenray/.venvs/zenray-uv/bin/python -I`; matplotlib via `/Users/zenray/.venvs/voicefixer/bin/python`. (26 October 2026, 07:36:20 +0100)
+>    - Build `zsh Scripts/BuildCar.sh vNNN` then `zsh Scripts/Audit.sh vNNN` (~1.5 min); Audit_vNNN.md rows 5-12 = per-view silhouette filled/raw and lines (steps / normal only); shape.json (folds, inflections, crease_deg); twist.json; line_gaps.json; env_ends.json. (26 October 2026, 07:36:20 +0100)
+>    - LineScore threshold: normal break 0.25 (≈41°) or depth step 1 cm; tolerance 3 px. Panel joint groove (CarPanels, 12 mm) only draws a line if narrower than deep. (26 October 2026, 07:36:20 +0100)
+>    - Gradient profile measurement (now Scripts/GradientProfile.py) → rule: pair = joint/groove (sharpen columns or rib), jump = proud part (plan_margin, bar), line inside inset = nested recess; never long bevels (<41° draws nothing). (26 October 2026, 07:36:20 +0100)
+>    - Row targets in RowLoft: row_y_target / row_x_target (PCHIP or `fit: "poly"`), row_dy lists, side_edge columns, crown_extra_u, band_crease (monotone remap), edge_dy, vent slot (keep_band), bulge z1_y option (off). (26 October 2026, 07:36:20 +0100)
+>    - ShapeCheck "folds" = y non-monotonic in sections (counts intended buttress ridge: 86 baseline). (26 October 2026, 07:36:20 +0100)
+>    - View contradictions: windshield top front view; back view haunch/tyres width vs top view plan; tail corner plan vs side. (26 October 2026, 07:36:20 +0100)
+>    - Top view mapping: px = 320.5 - z*118.21, py = 196.5 - x*118.21; bottom: px = 306.5 - z*117.55, py = 199 + 117.55x (axis_py 197); left: px = 318.5 - z*121.26, py = 202 - (y-0.678)*121.26; right rx=(0,0,1); front py = 179.5 + (0.85 - y)*168.56; back s=172.44, yc 208. (26 October 2026, 07:36:20 +0100)
+>
+> 3. Files and Code Sections: (26 October 2026, 07:36:20 +0100)
+>    - Scripts/RowLoft.py (backups RowLoft_v285bak … _v353bak): added (26 October 2026, 07:36:20 +0100)
+>      - ROW Y TARGET block (after row_x_target): `for rn, sp_ in [(rn_, s_) for rn_, v_ in C.get("row_y_target", {}).items() for s_ in (v_ if isinstance(v_, list) else [v_])]: ... yt_ = PchipInterpolator(...) ; if sp_.get("fit") == "poly" and len(pz) > sp_.get("deg", 3): yt_ = np.polyval(np.polyfit(pz, py, sp_.get("deg", 3)), np.clip(zq_y, pz[0], pz[-1])) ; G[:, j, 1] = G[:, j, 1] + w_ * (yt_ - G[:, j, 1])` (same poly option on row_x_target). (26 October 2026, 07:36:20 +0100)
+>      - row_dy loop accepts lists of windows. (26 October 2026, 07:36:20 +0100)
+>      - SIDE EDGE COLUMNS in side subdivision: `SE_ = C.get("side_edge")` → per-station fraction `ue_ = np.clip(SE_["m"] / h_, 0.005, 0.45 / ss)`, appended for listed rows; records edge_rec → edge_idx. (26 October 2026, 07:36:20 +0100)
+>      - Bulge re-interpolation broadcast fix: `(np.asarray(u)[:, None] if np.ndim(u) else u)`. (26 October 2026, 07:36:20 +0100)
+>      - crown(): `for ue in C.get("crown_extra_u", []): out.append((ja, jb, ua + (ub - ua) * ue)); out.sort(key=lambda o: o[2])`. (26 October 2026, 07:36:20 +0100)
+>      - BAND CREASE (after band crown): monotone remap with `Fk` read before moves, `f_kc`, Pn on A→Cp or Cp→B; options pts_zx, lift_m, lift_zm, ramp_m. (26 October 2026, 07:36:20 +0100)
+>      - bulge per-wheel `z1_y` option (height-dependent plateau; off). (26 October 2026, 07:36:20 +0100)
+>      - VENT: one-column mode, four-column slot mode (`keep_band` 0), keep_band slot mode (lower wall = nearest existing column, 3 extras, after bulge: `G2[:, k_] = w_ * G2[:, k_] + (1.0 - w_) * (Plo_ + f_ * (Pfar_ - Plo_))`), push of floor columns by depth_pts. (26 October 2026, 07:36:20 +0100)
+>      - EDGE DY: `for rn_, ed_ in C.get("edge_dy", {}).items(): ... for (rr_, oo_, k_) in edge_idx: if rr_ == rn_ and oo_ == ed_["side"]: G2[:, k_, 1] += ed_["dy"] * we_`. (26 October 2026, 07:36:20 +0100)
+>    - work/car/loft_params.json (final): row_y_target door_low (22 pts, fit poly), belt (19 pts, fit poly), roof_edge [rear window, front window] (fit poly); side_edge {m 0.012, rows ["door_low","roof_edge","belt_top"]}; edge_dy {"belt_top": {"side":"glass_base","dy":-0.002,"z":[-2.0,-0.95],"ramp_m":0.1}}; crown_extra_u [0.8896, 0.9296]; band_crease [{rows ["glass_base","belt_top"], pts_zx [[-0.9,0.851],[-1.1,0.821],[-1.3,0.787],[-1.5,0.745],[-1.7,0.686],[-1.85,0.635]], lift_m 0.03, ramp_m 0.15}]; row_dy lists incl. tail -0.02 on belt, belt_top, glass_base, roof_edge, roof_centre (z [-2.4,-2.1], ramp 0.12); row_x_target roof_edge mid fixed (-0.62:0.644, -0.3:0.66, 0:0.689, 0.3:0.686), glass_base list [rear, front [[1.1,0.958],[1.2,0.978],[1.4,0.987],[1.6,0.969],[1.8,0.912],[1.95,0.87]]]; vent {on 1, band ["door_low","belt"], slot_m 0.02, wall_m 0.003, keep_band 1, far_row "belt", ramp_m 0.02, y_pts [[0.675,0.695],[0.7,0.695],[0.75,0.693],[0.8,0.686],[0.85,0.686],[0.9,0.704],[0.95,0.718]], depth_pts [[0.665,0],[0.69,0.02],[0.75,0.02],[0.85,0.016],[0.92,0.006],[0.95,0]]}; bulge rear z1 -1.25 ramp 0.4 (z1_y removed). (26 October 2026, 07:36:20 +0100)
+>    - Scripts/ChassisBuild.py: `splitter_blade` (closed 4-corner section swept across x, end caps), per-plate `clamp_body` (ray from outside along -x at plate height, margin `clamp_margin_m` 0.015), `ray_b` intersector from body_nose.npz. chassis_params.json: splitter_blade {x_max 0.78, n 33, front_offset_m 0.045, front_xz, rear_xz, y_rear [0.165,0.195], y_front [0.2,0.222]}; removed CAR_under_cross_front_C; ribs CAR_under_rib_rear_a/b/c_C px 441,457,492 (2 px, py 126-268, layer 1, thick 0.022); plate_center/rear joint 422/425; clamp_body on slot plates. (26 October 2026, 07:36:20 +0100)
+>    - Scripts/TrimBuild.py: `plan_margin_m` in flat branch. trim_params: band plan_margin_m 0.03; CAR_grille_frame_C py [271, 278.1] protrude 0.02 depth 0.03; CAR_grille_lower_C py [278.1, 291]; splitter tube removed. (26 October 2026, 07:36:20 +0100)
+>    - Scripts/TailFace.py: top_chamfer follow_plan/offset_xm, per-side bevels (bevel_bottom_m/top_m), y0_x, extra_cols/extra_rows (+ G allocation fix). tail_face_params: top_chamfer on, follow_plan 1, drop_m 0.075, offset_xm [[0,0.068],[0.4,0.068],[0.6,0.06],[0.75,0.044],[0.95,0.03]]; inset CAR_vent_rear_inner_C {x0 0.47, x 0.91, y0 0.336, y1 0.435, bevel 0.01, depth 0.02}; superellipse n 1.6. (26 October 2026, 07:36:20 +0100)
+>    - Scripts/NoseFacets.py: hood_crown (columns optional; n 0 = corner only); nose_params hood_crown {on 1, n 0, corner_tip_z 2.21}. (26 October 2026, 07:36:20 +0100)
+>    - arch_params.json: joints_z.door_front 0.685, joint_points.door_front [[0.685,0.3],[0.685,0.95]]. (26 October 2026, 07:36:20 +0100)
+>    - arch_lip_params.json: CAR_rocker_trim and CAR_fender_vent in _removed_strips; pillar_b extended. (26 October 2026, 07:36:20 +0100)
+>    - Scripts/GradientProfile.py (new): `python Scripts/GradientProfile.py <view> --fix z=-0.9,-1.1 --scan y 0.2 0.53 [--step 0.003] [--min 40] [--sigma 0.8] [--component perp|mag]`; verified (door crease 0.356/0.374/0.389; tail -2.213; wrong axes → exit 1). (26 October 2026, 07:36:20 +0100)
+>    - Skill /Users/zenray/.claude/skills/zenray-meshes/SKILL.md: sections 53-62 added (door crease, blade/band/deck, gradient rule, recipe 57, crease & nose corner 58, GradientProfile 59, smoothing 60, vent 61, haunch edge 62), synced. (26 October 2026, 07:36:20 +0100)
+>    - Memory ZenRayMeshes1.md status lines (latest v356, commit e283c5394). (26 October 2026, 07:36:20 +0100)
+>    - Deliverables: versions/Final_v356_vs_sheet.png, Hero_v356.png, History_v150_v356.png, Vent_v341_v351.png, DoorCrease_v285_v290.png; history cache work/car/history/v283..v356.json. (26 October 2026, 07:36:20 +0100)
+>
+> 4. Errors and fixes: (26 October 2026, 07:36:20 +0100)
+>    - CleanView CV_FOCUS needs z0<z1 (crash with "-0.2,-0.3"). (26 October 2026, 07:36:20 +0100)
+>    - RowLoft row_dy on roof rows had no effect: order_rows holds deck on belt_top → lower five rows together. (26 October 2026, 07:36:20 +0100)
+>    - Band crease 99 folds: neighbours crossing → monotone remap (86 remain = intended ridge). (26 October 2026, 07:36:20 +0100)
+>    - Global plate clamp lost 0.03 bottom → per-plate clamp_body. (26 October 2026, 07:36:20 +0100)
+>    - TailFace IndexError (row allocation) with extra_rows → added len(extra_rows) to G size. (26 October 2026, 07:36:20 +0100)
+>    - Skill typo "s'élarit" fixed. Many rejected tests consigned as `_test_vNNN` notes. (26 October 2026, 07:36:20 +0100)
+>
+> 5. Problem Solving: (26 October 2026, 07:36:20 +0100)
+>    - Lines rose 0.817 (v282) → 0.884 (v356); silhouette 0.968 → 0.9691. Reproducibility verified (v344/v347/v350 = v341; v353 = v351). (26 October 2026, 07:36:20 +0100)
+>    - Remaining gaps: front windshield top (contradiction), back tyre edges (masks wider at ground), top: tail line -2.24, roof z -1.04 (0.5 cm), rear haunch lines 1.06/1.01 m, bulge shading band before rear arch (top/back contradiction), suspension arms, rear wing diagonal (needs explicit triangle split), vent end kinks. (26 October 2026, 07:36:20 +0100)
+>
+> 6. All user messages: (26 October 2026, 07:36:20 +0100)
+>    - The cron relaunch prompt (verbatim in section 1), received at the start of the second turn. (26 October 2026, 07:36:20 +0100)
+>    - The final request to summarize (this message). (26 October 2026, 07:36:20 +0100)
+>
+> 7. Pending Tasks: (26 October 2026, 07:36:20 +0100)
+>    - Continue the loop until 8:00 (state v356 is consigned). (26 October 2026, 07:36:20 +0100)
+>    - At 8:00: delete cron f71e678f (load CronDelete via ToolSearch "select:CronDelete"), final report with 3-column table and `mcp__ccd_turn__wrap_up` (task list step 7 "Bilan et arrêt du cron à 8 h" in progress). (26 October 2026, 07:36:20 +0100)
+>
+> 8. Current Work: (26 October 2026, 07:36:20 +0100)
+>    At ~07:35, after keeping v356 (edge_dy -0.002) and consigning it (skill section 62, memory commit e283c5394, progress, checkpoint car-v356, hip save, history v150_v356), I ran LineGaps for v356 to look for another soft crease: front 1.18 m at y 1.29 (windshield top, contradiction); back 0.39/0.38 m tyre edges; left 0.43 m; top 1.15 m at z -2.24 (tail), 1.07 m at z -1.04 (roof/rear glass top, 0.5 cm off), 1.06 m from (z -1.917, x 0.635) to (z -0.885, x 0.896), 1.01 m from (z -1.959, x -0.945) to (z -0.945, x -0.984); crease_deg: door_low 5.6, belt_top 7.6, others ~1. (26 October 2026, 07:36:20 +0100)
+>
+> 9. Optional Next Step: (26 October 2026, 07:36:20 +0100)
+>    Per the cron prompt « construis le composant suivant ... puis continue » until 8:00, and the pending step "Bilan et arrêt du cron à 8 h": if time remains before 8:00, examine the remaining top-view rear lines (1.06 m / 1.01 m) with Scripts/GradientProfile.py for another local crease (edge_dy technique), keeping only measured gains; at 8:00 (or as close as possible), load CronDelete via ToolSearch, delete cron f71e678f, send Final_v356_vs_sheet.png/Hero_v356.png/History_v150_v356.png, and give the final French report with the 3-column table (ce que tu voulais / fait ? / comment je le sais) and `mcp__ccd_turn__wrap_up`. (26 October 2026, 07:36:20 +0100)
+>
+> If you need specific details from before compaction (like exact code snippets, error messages, or content you generated), read the full transcript at: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl (26 October 2026, 07:36:20 +0100)
+> Continue the conversation from where it left off without asking the user any further questions. Resume directly — do not acknowledge the summary, do not recap what was happening, do not preface with "I'll continue" or similar. Pick up the last task as if the break never happened. (26 October 2026, 07:36:20 +0100)
+>
+> The messages after this summary are the most recent messages from before compaction, kept verbatim. The summary was written without seeing them, so something it says has not happened yet may already have happened in them. (26 October 2026, 07:36:20 +0100)
+
+## 26 October 2026, 07:38:16 +0100 : Iteration
+
+<!-- feedback-event:965da995ecc30cfc6e6be7221bdfdf7d505533b698cf88e461498a2a8cf622eb (26 October 2026, 07:38:16 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:38:16 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:38:16 +0100)
+
+> Je mesure l'arrière de la voiture sur la planche (dessus et profil) pour le dernier composant avant 8 h. (26 October 2026, 07:38:16 +0100)
