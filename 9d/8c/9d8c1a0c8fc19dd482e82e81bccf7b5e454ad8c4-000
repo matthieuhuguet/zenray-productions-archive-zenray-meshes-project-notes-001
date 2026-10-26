@@ -17066,3 +17066,135 @@
 > 0.125 J'aimerais aussi que tu me x2 la vidéo actuelle. Donc on passerait à 0.125 par image, du coup. Je parle uniquement pour la car, hein. J'ai pas encore vu la vidéo tree. (26 October 2026, 18:28:09 +0100)
 >
 > This is how Claude Code surfaces messages the user sends mid-turn — within the running turn, often alongside the next tool result, rather than as a separate conversation turn. Address the message above as you continue this turn. (26 October 2026, 18:28:09 +0100)
+
+## 26 October 2026, 18:29:12 +0100 : Order of work
+
+<!-- feedback-event:90761f780d5c714b7ee11e7a8cb4eb76c72284f4e233220329aa6254a828101c (26 October 2026, 18:29:12 +0100) -->
+- Project: zenray-meshes; kind: order. (26 October 2026, 18:29:12 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-a82915b1c45f6bb18.jsonl. (26 October 2026, 18:29:12 +0100)
+
+> Mission en deux parties, en autonomie, sans me poser de question. Dossier du projet : /Users/zenray/.claude/tmp/tmp-zenray-meshes (chemins absolus partout, ne modifie JAMAIS un fichier de /Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/, ne supprime rien hors de Evolution/Turnover/, pas de git, pas de workflow, pas de sous-agent, pas de `sleep` en boucle ; ne touche pas à Houdini : sa scène est utilisée par une autre session en ce moment). (26 October 2026, 18:29:12 +0100)
+>
+> PARTIE A (2 minutes) : la vidéo d'évolution de la voiture, deux fois plus rapide (0,125 s par image, soit 8 images par seconde). Un script paramétrable existe déjà : /Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/EvolutionVideo.py. Lis son --help puis lance-le pour la voiture, arrêtée à la version v470, avec --fps 8 et la liste figée /Users/zenray/.claude/tmp/tmp-zenray-meshes/Evolution/listing_snapshot_26-October-2026.txt. N'écrase PAS /Users/zenray/.claude/tmp/tmp-zenray-meshes/Evolution/Car_evolution_26-October-2026_upto470.mp4 : choisis une sortie différente (par exemple Car_evolution_26-October-2026_upto470_8fps.mp4 via --out ou en renommant juste après). Vérifie avec ffprobe : 1024 x 1024, 8 images par seconde, 425 images, durée 53,125 s. (26 October 2026, 18:29:12 +0100)
+>
+> PARTIE B : DEUX vidéos de « turnover » (tour complet de la voiture) à partir des MÊMES 24 images. Demande de Matthieu : une caméra en vue trois quarts qui pivote et fait UN TOUR COMPLET de 360 degrés autour de la voiture ; seulement 24 images au total ; une vidéo où le tour dure 3 secondes (24 images à 8 images par seconde, 0,125 s par image) et une vidéo où le tour dure 5 secondes (les mêmes 24 images à 24/5 images par seconde). Format carré 1:1, 1024 x 1024. (26 October 2026, 18:29:12 +0100)
+> Le modèle : la voiture livrée v470, un export de polygones déjà prêt : /Users/zenray/.claude/tmp/tmp-zenray-meshes/work/car/topo_v470.npz (clés P points, C nombre de sommets par face, I indices, T numéro de pièce, names ; vérifie-les avec numpy, et regarde comment /Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/CleanView.py les charge). N'utilise pas Houdini : un rendu numpy rapide suffit et existe déjà, à réutiliser (« chercher avant de construire ») : /Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/Raster.py (rastériseur), /Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/CleanView.py (rendu lissé de l'objet seul : le dictionnaire VIEWS donne pour chaque vue un couple (direction, haut), main(npz, out, exclude, cusp, res) fait le rendu), /Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/ShadedViews.py et ColorViews.py. Pour l'aspect : l'image /Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Car_v470_materials.png (lis-la avec l'outil Read) montre la voiture avec ses matières (caisse claire, vitres bleu sombre, roues) ; cherche avec `grep -n materials` dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/ quel script produit cet aspect et reprends-le ; à défaut, le rendu gris lissé de CleanView sur fond gris uni #606060 (le même fond que les vidéos d'évolution) est acceptable. (26 October 2026, 18:29:12 +0100)
+> Méthode : la vue « three_quarter_front » de CleanView est le point de départ (image 1). Les 24 images tournent autour de l'axe vertical (l'axe y) par pas de 15 degrés (image k : angle 15 x k degrés, k de 0 à 23, donc l'image 25 serait l'image 1 et la boucle est sans raccord), en gardant la MÊME hauteur de caméra (élévation constante) et la MÊME distance de cadrage : calcule le cadrage une fois sur la sphère englobante de la voiture pour que la voiture ne sorte du cadre sur aucune image et garde la même taille apparente (marge d'environ 8 %). Sens de rotation : la caméra tourne dans le sens inverse des aiguilles d'une montre vue du dessus (tour de plateau classique), dis-le dans le rapport. La lumière reste fixe dans le monde (la voiture « tourne » sous une lumière fixe) ou fixe par rapport à la caméra : choisis la plus lisible, une seule règle pour les 24 images. (26 October 2026, 18:29:12 +0100)
+> Fabrication : écris UN script paramétrable /Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/CarTurnover.py avec des arguments de ligne de commande (--npz, --frames 24, --seconds 3,5 (liste des durées des vidéos), --size 1024, --elevation en degrés, --margin, --out-dir, --bg) : les identifiants du code en anglais, les commentaires commencent en anglais, aucun tiret cadratin. Sorties dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/Evolution/Turnover/ : frames/0001.png à 0024.png (carrés 1024), Car_turnover_3s_26-October-2026.mp4 et Car_turnover_5s_26-October-2026.mp4 (ffmpeg, libx264, yuv420p, crf 18, +faststart ; entrée en images numérotées avec -framerate 8 pour 3 s et -framerate 24/5 pour 5 s ; dimensions paires). Utilise ffmpeg : /opt/homebrew/bin/ffmpeg (sans libass : ne grave aucun sous-titre ; une étiquette éventuelle se dessine avec Pillow, mais aucune étiquette n'est demandée ici). (26 October 2026, 18:29:12 +0100)
+>
+> VÉRIFICATIONS OBLIGATOIRES (mesure, ne suppose pas) : (1) lis avec l'outil Read les images 1, 7, 13 et 19 (ou un assemblage 2 x 2 de ces quatre) : elles doivent montrer la voiture entière, de taille constante, vue de trois quarts avant, de côté, de trois quarts arrière puis de l'autre côté, sans cadre coupé ; si ce n'est pas le cas, corrige l'angle de départ ou le sens ; (2) ffprobe des deux MP4 : 1024 x 1024, 24 images, durées 3,0 s et 5,0 s (à 0,05 s près) ; (3) compare l'image 1 et l'image 24 : elles doivent être distinctes (pas de doublon de la position de départ) et l'image 24 doit être à 15 degrés avant l'image 1 ; (4) extrais une image de chaque MP4 et lis-la. (26 October 2026, 18:29:12 +0100)
+>
+> RAPPORT FINAL (court, en français, sans tirets longs) : chemins ABSOLUS complets des fichiers (les trois MP4, le script, le dossier des images), élévation et sens de rotation retenus, aspect retenu (matières ou gris), résultats ffprobe, et ce qui n'a pas pu être vérifié. (26 October 2026, 18:29:12 +0100)
+
+## 26 October 2026, 18:29:12 +0100 : Prompt
+
+<!-- feedback-event:2bacf71d60387853c12b1e8bd3490c492a65a070f96cae87bdb2c5de41172ac3 (26 October 2026, 18:29:12 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 18:29:12 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 18:29:12 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/ytb-dlp (26 October 2026, 18:29:12 +0100)
+>
+> # Trimmed 2026-09-10 (zenray-musk) (26 October 2026, 18:29:12 +0100)
+>
+> Ce skill contenait le manuel complet de yt-dlp (README amont, ~2500 lignes : installation, (26 October 2026, 18:29:12 +0100)
+> licences, compilation, liste exhaustive des options). C'est le bruit que `yt-dlp --help` (26 October 2026, 18:29:12 +0100)
+> donne déjà gratuitement. Supprimé. Ce qui reste : la méthode réelle (cookies + PO Token (26 October 2026, 18:29:12 +0100)
+> 4K, payée en debug) et un aide-mémoire des commandes que Matthieu utilise vraiment. (26 October 2026, 18:29:12 +0100)
+>
+> ## Méthode cookies + PO Token (le cas qui casse le plus souvent : formats bloqués à 360p) (26 October 2026, 18:29:12 +0100)
+>
+> Symptôme : `yt-dlp -F` ne montre que `18  mp4  640x360` alors qu'une 4K existe, ou YouTube (26 October 2026, 18:29:12 +0100)
+> répond « Sign in to confirm your age ». Ne jamais accepter 360p en silence. (26 October 2026, 18:29:12 +0100)
+>
+> 1. Sonder avec les cookies du navigateur : (26 October 2026, 18:29:12 +0100)
+>    ``` (26 October 2026, 18:29:12 +0100)
+>    yt-dlp --cookies-from-browser chrome --no-playlist --list-subs 'URL' (26 October 2026, 18:29:12 +0100)
+>    yt-dlp --cookies-from-browser chrome --no-playlist -F 'URL' (26 October 2026, 18:29:12 +0100)
+>    ``` (26 October 2026, 18:29:12 +0100)
+> 2. Si `-F` ne rend toujours que le format 18, YouTube attend un GVS PO Token. Installer une (26 October 2026, 18:29:12 +0100)
+>    seule fois le fournisseur : (26 October 2026, 18:29:12 +0100)
+>    ``` (26 October 2026, 18:29:12 +0100)
+>    /opt/homebrew/Cellar/yt-dlp/<version>/libexec/bin/python -m pip install --user -U 'yt-dlp-getpot-wpc==1.1.2' (26 October 2026, 18:29:12 +0100)
+>    ``` (26 October 2026, 18:29:12 +0100)
+>    (dépendance `nodriver` installée avec). Si l'import échoue sous Python 3.14 avec (26 October 2026, 18:29:12 +0100)
+>    `SyntaxError: Non-UTF-8 code starting with '\xb1'` dans `nodriver/cdp/network.py` (26 October 2026, 18:29:12 +0100)
+>    (bug connu : https://github.com/ultrafunkamsterdam/nodriver/issues/35), corriger une (26 October 2026, 18:29:12 +0100)
+>    fois : (26 October 2026, 18:29:12 +0100)
+>    ``` (26 October 2026, 18:29:12 +0100)
+>    cp <site-packages>/nodriver/cdp/network.py <site-packages>/nodriver/cdp/network.py.pre-utf8 \ (26 October 2026, 18:29:12 +0100)
+>      && iconv -f ISO-8859-1 -t UTF-8 <site-packages>/nodriver/cdp/network.py.pre-utf8 > <site-packages>/nodriver/cdp/network.py (26 October 2026, 18:29:12 +0100)
+>    ``` (26 October 2026, 18:29:12 +0100)
+> 3. Relancer avec le client `mweb` et le chemin de Chrome pour le fournisseur PO Token : (26 October 2026, 18:29:12 +0100)
+>    ``` (26 October 2026, 18:29:12 +0100)
+>    PYTHONPATH=<site-packages> yt-dlp --cookies-from-browser chrome --no-playlist \ (26 October 2026, 18:29:12 +0100)
+>      --extractor-args 'youtube:player_client=mweb' \ (26 October 2026, 18:29:12 +0100)
+>      --extractor-args 'youtubepot-wpc:browser_path=/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' \ (26 October 2026, 18:29:12 +0100)
+>      -F 'URL' (26 October 2026, 18:29:12 +0100)
+>    ``` (26 October 2026, 18:29:12 +0100)
+>    Le fournisseur ouvre un navigateur local le temps du run (ne pas le fermer) et log (26 October 2026, 18:29:12 +0100)
+>    `Minting gvs PO Token for mweb`. Les formats jusqu'à 3840x2160 apparaissent alors. (26 October 2026, 18:29:12 +0100)
+> 4. Télécharger en forçant la hauteur minimale, sous-titres inclus si besoin : (26 October 2026, 18:29:12 +0100)
+>    ``` (26 October 2026, 18:29:12 +0100)
+>    PYTHONPATH=<site-packages> yt-dlp --cookies-from-browser chrome --no-playlist \ (26 October 2026, 18:29:12 +0100)
+>      --abort-on-error --check-formats --concurrent-fragments 16 --retries 10 --fragment-retries 10 \ (26 October 2026, 18:29:12 +0100)
+>      --extractor-args 'youtube:player_client=mweb' \ (26 October 2026, 18:29:12 +0100)
+>      --extractor-args 'youtubepot-wpc:browser_path=/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' \ (26 October 2026, 18:29:12 +0100)
+>      -f 'bv[height>=2160]+ba' --merge-output-format mkv \ (26 October 2026, 18:29:12 +0100)
+>      --write-subs --sub-langs 'en' --sub-format 'srt' --convert-subs srt \ (26 October 2026, 18:29:12 +0100)
+>      --paths '/Users/zenray/.claude/tmp/tmp-<nom-parlant>' \ (26 October 2026, 18:29:12 +0100)
+>      --output '%(title)s [%(id)s].%(ext)s' --newline --print after_move:filepath 'URL' (26 October 2026, 18:29:12 +0100)
+>    ``` (26 October 2026, 18:29:12 +0100)
+> 5. Vérifier, jamais se fier au nom de fichier : `ffprobe -v error -show_entries (26 October 2026, 18:29:12 +0100)
+>    stream=codec_name,width,height:format=duration,size -of default=noprint_wrappers=1 <fichier>` (26 October 2026, 18:29:12 +0100)
+>    doit lire `width=3840 height=2160`. Vérifier le SRT avec `wc -l`. (26 October 2026, 18:29:12 +0100)
+>
+> Sans PO Token, `android_vr` ne fonctionne pas avec les cookies (images seules) ; (26 October 2026, 18:29:12 +0100)
+> `web_safari` monte jusqu'à 1080p mais pas au flux GVS 4K. `mweb` + PO Token est la seule (26 October 2026, 18:29:12 +0100)
+> voie mesurée qui débloque la 4K sur une vidéo à restriction d'âge. (26 October 2026, 18:29:12 +0100)
+>
+> ## Aide-mémoire des commandes courantes (26 October 2026, 18:29:12 +0100)
+>
+> Meilleure qualité vidéo+audio fusionnés, avec cookies : (26 October 2026, 18:29:12 +0100)
+> ``` (26 October 2026, 18:29:12 +0100)
+> yt-dlp --cookies-from-browser chrome -f 'bv*+ba/b' -o '%(title)s [%(id)s].%(ext)s' 'URL' (26 October 2026, 18:29:12 +0100)
+> ``` (26 October 2026, 18:29:12 +0100)
+>
+> Audio seul en MP3 (le cas fréquent : musique) : (26 October 2026, 18:29:12 +0100)
+> ``` (26 October 2026, 18:29:12 +0100)
+> yt-dlp --cookies-from-browser chrome -x --audio-format mp3 -o '%(title)s.%(ext)s' 'URL' (26 October 2026, 18:29:12 +0100)
+> ``` (26 October 2026, 18:29:12 +0100)
+> Preset équivalent : `yt-dlp -t mp3 'URL'` (`-f 'ba[acodec^=mp3]/ba/b' -x --audio-format mp3`). (26 October 2026, 18:29:12 +0100)
+>
+> Sous-titres seuls, langue donnée, format SRT propre : (26 October 2026, 18:29:12 +0100)
+> ``` (26 October 2026, 18:29:12 +0100)
+> yt-dlp --cookies-from-browser chrome --write-subs --sub-langs fr --sub-format srt --convert-subs srt --skip-download 'URL' (26 October 2026, 18:29:12 +0100)
+> ``` (26 October 2026, 18:29:12 +0100)
+>
+> Vers un dossier précis, en batch depuis une liste d'URLs : (26 October 2026, 18:29:12 +0100)
+> ``` (26 October 2026, 18:29:12 +0100)
+> yt-dlp --cookies-from-browser chrome -a urls.txt -P '/chemin/cible' -o '%(title)s.%(ext)s' (26 October 2026, 18:29:12 +0100)
+> ``` (26 October 2026, 18:29:12 +0100)
+>
+> Diagnostic pur (voir formats disponibles sans télécharger) : (26 October 2026, 18:29:12 +0100)
+> ``` (26 October 2026, 18:29:12 +0100)
+> yt-dlp --cookies-from-browser chrome -F 'URL' (26 October 2026, 18:29:12 +0100)
+> ``` (26 October 2026, 18:29:12 +0100)
+>
+> Pour toute option non couverte ici (proxy, playlist, rate-limit, embed-thumbnail, (26 October 2026, 18:29:12 +0100)
+> sponsorblock…) : `yt-dlp --help`, c'est le manuel à jour, pas la peine de le dupliquer. (26 October 2026, 18:29:12 +0100)
+>
+> ## 13 October 2026 : extrait exact et texte avec fondu (26 October 2026, 18:29:12 +0100)
+>
+> - Pour télécharger uniquement 16:51 à 17:01 en 480p : `yt-dlp --no-playlist -f 'bv[height=480]+ba/b[height=480]' --download-sections '*1011-1021' --force-keyframes-at-cuts --merge-output-format mp4 -o '<atelier>/Source.%(ext)s' '<URL>'`. Résultat vérifié : 854 x 480, 250 images à 25 images/s ; le téléchargement et la coupe prennent environ six secondes sur K7gtoTSzNUA. (13 October 2026) (26 October 2026, 18:29:12 +0100)
+> - Ce ffmpeg ne propose pas drawtext ni libass. Un texte exact se rasterise sur un PNG transparent par Pillow, puis `fade=t=in:st=7:d=3:alpha=1` et `overlay` l’incrustent. InterVariable.ttf permet le poids Bold 700 via get_variation_axes/set_variation_by_axes, sans installer de fonte. Recette paramétrable : `/Users/zenray/.claude/tmp/tmp-jordanbardella-meme/Scripts/Render.py`, Params.json et Scripts/Verify.py ; H.264 VideoToolbox, audio AAC, sortie 10 s exactement. (13 October 2026) (26 October 2026, 18:29:12 +0100)
+>
+>
+> ARGUMENTS: télécharger en mp3 « L'Arc de Triomphe » de Mathieu Lamboley (recherche YouTube, une seule piste), dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/Music/ (à proximité du projet) (26 October 2026, 18:29:12 +0100)
+
+## 26 October 2026, 18:29:20 +0100 : Iteration
+
+<!-- feedback-event:41cfb9f0c8f92e8ed5fc5920d7c68d08ee6fde98d36fd48dd9f9222060b08b21 (26 October 2026, 18:29:20 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:29:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 18:29:20 +0100)
+
+> Le premier résultat est la piste officielle (« Mathieu Lamboley - Topic », 3:33). Je la télécharge en mp3. (26 October 2026, 18:29:20 +0100)
