@@ -15482,3 +15482,50 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 17:03:05 +0100)
 
 > [Image: original 1236x3726, displayed at 663x2000. Multiply coordinates by 1.86 to map to original image.] (26 October 2026, 17:03:05 +0100)
+
+## 26 October 2026, 17:04:14 +0100 : Prompt
+
+<!-- feedback-event:7297c4df924c8037032cf60a2c65abe2a88bc5dc3c5727f639eba2bc43ad9762 (26 October 2026, 17:04:14 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 17:04:14 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 17:04:14 +0100)
+
+> [Image: original 1236x3726, displayed at 663x2000. Multiply coordinates by 1.86 to map to original image.] (26 October 2026, 17:04:14 +0100)
+
+## 26 October 2026, 17:04:34 +0100 : Standing rule
+
+<!-- feedback-event:66711a632997c627ed691ecc03faae2c92429d39d4c6ab8c4976c81eaaf36fa9 (26 October 2026, 17:04:34 +0100) -->
+- Project: zenray-meshes; kind: rule. (26 October 2026, 17:04:34 +0100)
+
+> 26 October 2026, 17 h 30 : branches de l'arbre = lire des courbes dans les crêtes de la référence (BranchLab, m20), plus de grammaire aléatoire ; juger toute méthode de courbes avec un budget de longueur et une vérité 3D sur arbre synthétique ; le score de blobs de couleur ne juge pas des courbes. (26 October 2026, 17:04:34 +0100)
+
+## 26 October 2026, 17:05:25 +0100 : Iteration
+
+<!-- feedback-event:35d23d349c1737b837643b1635a7a8b3d5304ca4deff9eb8bbbb44530577d7fe (26 October 2026, 17:05:25 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 17:05:25 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 17:05:25 +0100)
+
+> Je continue sur la voiture en parallèle : je regarde où se concentrent les 3 297 faces fautives visibles et l'anneau des arches, les deux portes rouges restantes de la relecture. (26 October 2026, 17:05:25 +0100)
+
+## 26 October 2026, 17:07:34 +0100 : Prompt
+
+<!-- feedback-event:37536cc13e211a7419a34bbfb911b9b4707531cf18545a1e6bef14b173e82dd7 (26 October 2026, 17:07:34 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 17:07:34 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 17:07:34 +0100)
+
+> [Image: original 2472x628, displayed at 2000x508. Multiply coordinates by 1.24 to map to original image.] (26 October 2026, 17:07:34 +0100)
+
+## 26 October 2026, 17:08:16 +0100 : Prompt
+
+<!-- feedback-event:3b980ba49ffd468c3233ecc30ea8600d8e0d0612ca1c9f3ed196f6ee24dfbe79 (26 October 2026, 17:08:16 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 17:08:16 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 17:08:16 +0100)
+
+> [Image: original 3000x2000, displayed at 2000x1333. Multiply coordinates by 1.50 to map to original image.] (26 October 2026, 17:08:16 +0100)
+
+## 26 October 2026, 17:14:23 +0100 : Iteration
+
+<!-- feedback-event:3ac2a67c1b00d59542b8f4280fa1c28f43931d7e4fdaab2a16e1dbb36295631f (26 October 2026, 17:14:23 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 17:14:23 +0100)
+- Source: checkpoint:claude:09d15ec8-88ad-4965-a2f0-80b68515e880. (26 October 2026, 17:14:23 +0100)
+
+> Arbre v31 : limbes mesures m20, brindilles, feuilles lanceolees pendantes, banc de cretes ; conifere avec la meme recette. Prochain : voiture arcs et joues, cran du tronc. (26 October 2026, 17:14:23 +0100)
