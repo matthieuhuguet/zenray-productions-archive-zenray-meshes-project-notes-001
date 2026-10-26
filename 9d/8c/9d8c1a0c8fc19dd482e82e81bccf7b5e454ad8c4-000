@@ -11682,3 +11682,11 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 05:58:40 +0100)
 
 > Bandeau d'épaule recalé : flancs 0,900 et 0,908, moyenne 0,849. J'essaie maintenant la colonne fine sur belt, puisque la rangée est désormais à la bonne hauteur. (26 October 2026, 05:58:40 +0100)
+
+## 26 October 2026, 05:59:49 +0100 : Iteration
+
+<!-- feedback-event:3471d5410a72332741641927d46012f784920f73296c720523bbc1b5702a6a03 (26 October 2026, 05:59:49 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 05:59:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 05:59:49 +0100)
+
+> Colonne fine sur belt : neutre (moyenne identique, face et dessus −0,002), je la retire. Je cale maintenant le bord haut du bandeau (belt_top), 3 à 4 cm trop haut à l'avant de la porte. (26 October 2026, 05:59:49 +0100)
