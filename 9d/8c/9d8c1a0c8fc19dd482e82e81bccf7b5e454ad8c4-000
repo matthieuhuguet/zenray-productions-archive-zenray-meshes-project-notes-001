@@ -18380,3 +18380,19 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-a33ae28955661267a.jsonl. (26 October 2026, 19:28:06 +0100)
 
 > Les deux scripts sont écrits, ils passent la syntaxe et ne contiennent aucun tiret long ni mention de l'ancien objet. La copie modèle contient encore 6 lignes de l'ancien objet ; je le signalerai dans le rapport sans y toucher. Je lance d'abord un essai en petite taille dans le scratchpad, puis le contrôle, avant la version finale. (26 October 2026, 19:28:06 +0100)
+
+## 26 October 2026, 19:29:36 +0100 : Iteration
+
+<!-- feedback-event:ebd5c69500fd89a6f5c6c5f52f61d934e75372ebe893d390e4b249c7010f5c08 (26 October 2026, 19:29:36 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 19:29:36 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-a33ae28955661267a.jsonl. (26 October 2026, 19:29:36 +0100)
+
+> Le contrôle a relevé un vrai défaut, mais il vient de ma méthode de comparaison, pas du rendu. Chaque image porte son étiquette (`v24`, `v25`...), donc deux versions au bois identique ne sont jamais identiques au pixel près. Je corrige le contrôle : il compare l'image du bois avant étiquetage (empreinte stockée dans le JSON), puis vérifie que les pixels qui diffèrent se trouvent uniquement dans le coin de l'étiquette. Je relance ensuite l'essai, puis deux contrôles négatifs pour prouver que le vérificateur échoue quand il le faut. (26 October 2026, 19:29:36 +0100)
+
+## 26 October 2026, 19:30:37 +0100 : Iteration
+
+<!-- feedback-event:1d6203681a97efc49e8093721cbf4a619b3f217bd399b0882a230d61ee0088f8 (26 October 2026, 19:30:37 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 19:30:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-a33ae28955661267a.jsonl. (26 October 2026, 19:30:37 +0100)
+
+> Le contrôle passe désormais, et le vérificateur échoue bien dans les deux cas négatifs : mauvais nombre d'images, et empreinte de bois falsifiée. Je veux aussi mesurer, pour chaque paire de versions consécutives, l'écart réel hors étiquette. Je l'ajoute au contrôle, je relance l'essai, puis je lance la version finale en 1024 pixels avec son contrôle. (26 October 2026, 19:30:37 +0100)
