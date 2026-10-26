@@ -12210,3 +12210,87 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:17:12 +0100)
 
 > L'état final se reconstruit à l'identique (v347 = v341). Je consigne les derniers essais dans le skill. (26 October 2026, 07:17:12 +0100)
+
+## 26 October 2026, 07:21:09 +0100 : Iteration
+
+<!-- feedback-event:2ead804b810b42ca554e7c648bc215cdad8a07a4374702bc7e99ca3a180aeeb3 (26 October 2026, 07:21:09 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:21:09 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:21:09 +0100)
+
+> Il est 7 h 21. Je vérifie une dernière fois que l'état sur disque (ouïe coupée, code enrichi) redonne exactement v341. (26 October 2026, 07:21:09 +0100)
+
+## 26 October 2026, 07:22:21 +0100 : Iteration
+
+<!-- feedback-event:8713731ebf8f5194169ddff132202f6b9eed3b7292d8331d71f688075afbd630 (26 October 2026, 07:22:21 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:22:21 +0100)
+- Source: checkpoint:claude:09d15ec8-88ad-4965-a2f0-80b68515e880. (26 October 2026, 07:22:21 +0100)
+
+> Etat final v341 reconstruit a l identique (v350, 26 October 2026, 7 h 22) : silhouette 0,9691, traits 0,883 ; essais v342 a v349 consignes (ouie d aile en fente lisible mais coupee) ; prochain : bilan a 8 h et arret du cron. (26 October 2026, 07:22:21 +0100)
+
+## 26 October 2026, 07:22:09 +0100 : Iteration
+
+<!-- feedback-event:ebd9d0ec74064910ceff7e0a555304d642a0b2391a8c22e3e1bbd8fdc337e66e (26 October 2026, 07:22:09 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:22:09 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:22:09 +0100)
+
+> L'état final redonne v341 à l'identique. Je consolide (journal, Assets, scène, courbe) avant de rendre la main au cron. (26 October 2026, 07:22:09 +0100)
+
+## 26 October 2026, 07:22:58 +0100 : Iteration
+
+<!-- feedback-event:a98f3cc0de9d68cebe214cfdef557024320549ce97a78ba526758dfc021871e9 (26 October 2026, 07:22:58 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:22:58 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:22:58 +0100)
+
+> Depuis 5 h, la voiture est passée de 0,817 à 0,883 en traits retrouvés et de 0,968 à 0,9691 en silhouette. Elle n'est pas encore identique à la feuille. La version retenue est v341, et je l'ai reconstruite trois fois à l'identique (v344, v347, v350) pour être sûr que les réglages enregistrés la redonnent bien. (26 October 2026, 07:22:58 +0100)
+>
+> Chaque gain vient d'une pièce construite à partir d'un trait mesuré sur la planche, jamais d'un réglage global. Pour mesurer, je lis la planche pixel par pixel le long d'une ligne et je repère où l'image change brusquement, ce qui révèle les traits. Les pièces ajoutées ou corrigées : (26 October 2026, 07:22:58 +0100)
+>
+> - le pli du bas de porte, avec une rainure assez nette pour qu'on la voie enfin ; (26 October 2026, 07:22:58 +0100)
+> - la lame sous le nez ; (26 October 2026, 07:22:58 +0100)
+> - le bandeau de face, qui ressortait de nouveau de 3 cm ; (26 October 2026, 07:22:58 +0100)
+> - le cadre de la grille basse ; (26 October 2026, 07:22:58 +0100)
+> - l'arête du coffre arrière, avec la fin du coffre abaissée de 2 cm ; (26 October 2026, 07:22:58 +0100)
+> - le creux à l'intérieur des prises d'air arrière ; (26 October 2026, 07:22:58 +0100)
+> - les nervures sous le plancher arrière ; (26 October 2026, 07:22:58 +0100)
+> - le joint de la baguette de toit ; (26 October 2026, 07:22:58 +0100)
+> - l'arête des montants arrière ; (26 October 2026, 07:22:58 +0100)
+> - le coin du nez, reculé de 5 cm ; (26 October 2026, 07:22:58 +0100)
+> - l'arête du dessus de l'aile avant ; (26 October 2026, 07:22:58 +0100)
+> - le haut de la vitre sous le montant avant. (26 October 2026, 07:22:58 +0100)
+>
+> J'ai aussi nettoyé la surface : les lignes que j'avais calées sur la planche faisaient de petites ondulations, que j'ai lissées sans perdre de score. Quatre petites aiguilles qui dépassaient de la caisse sous le plancher ont disparu. (26 October 2026, 07:22:58 +0100)
+>
+> Restent trois sortes d'écarts : (26 October 2026, 07:22:58 +0100)
+> - **Contradictions de la planche.** La vue de face place le haut du pare-brise 4 cm plus haut que les autres vues. La vue de dos veut la hanche arrière plus large que ce que la vue de dessus permet. (26 October 2026, 07:22:58 +0100)
+> - **Une ombre devant la roue arrière.** La caisse s'y élargit trop tôt, mais la corriger fait perdre la vue de dos. (26 October 2026, 07:22:58 +0100)
+> - **Pièces fines.** La petite fente d'aération de l'aile avant se lit maintenant comme sur la planche, mais elle laisse des éclats au bord du passage de roue : je l'ai laissée désactivée. Les bras de suspension sous la voiture restent à faire. (26 October 2026, 07:22:58 +0100)
+>
+> Le cron (f71e678f) continue de relancer la boucle jusqu'à 8 h ; je l'arrêterai à 8 h et je ferai le bilan final. (26 October 2026, 07:22:58 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (26 October 2026, 07:22:58 +0100)
+> |---|---|---| (26 October 2026, 07:22:58 +0100)
+> | Reprendre la voiture pièce par pièce | Oui | Une quinzaine de pièces corrigées, chacune vérifiée sur la planche de comparaison et en gros plan | (26 October 2026, 07:22:58 +0100)
+> | Une voiture identique à la feuille | Pas encore | Traits 0,883 (0,817 à 5 h), silhouette 0,9691 ; restes listés plus haut | (26 October 2026, 07:22:58 +0100)
+> | Jamais d'ajustement global de la silhouette | Oui | Chaque correction part d'un trait mesuré ; les deux réglages globaux essayés, neutres, sont annulés | (26 October 2026, 07:22:58 +0100)
+> | Des surfaces propres, pas cabossées | Oui, mesuré | Ondulations du bas de porte 14 → 5, de l'épaule 17 → 7 ; plus aucune pièce ne dépasse de la caisse | (26 October 2026, 07:22:58 +0100)
+> | Consigner chaque leçon dans le skill | Oui | Sections 53 à 60 synchronisées, aucun tiret cadratin | (26 October 2026, 07:22:58 +0100)
+> | Continuer jusqu'à 8 h | En cours | Le cron relance ; arrêt et bilan à 8 h | (26 October 2026, 07:22:58 +0100)
+>
+> La mesure qui a porté toute la nuit est devenue un outil réutilisable, testé sur des cas connus et sur un cas impossible : `GradientProfile.py`. (26 October 2026, 07:22:58 +0100)
+>
+> Fichiers : (26 October 2026, 07:22:58 +0100)
+> - Planche de comparaison : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Final_v341_vs_sheet.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Final_v341_vs_sheet.png) (26 October 2026, 07:22:58 +0100)
+> - Rendu 3/4 : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Hero_v341.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Hero_v341.png) (26 October 2026, 07:22:58 +0100)
+> - Courbe de progression : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/History_v150_v350.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/History_v150_v350.png) (26 October 2026, 07:22:58 +0100)
+> - Outil : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/GradientProfile.py](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/GradientProfile.py) (26 October 2026, 07:22:58 +0100)
+> - Skill : [/Users/zenray/.claude/skills/zenray-meshes/SKILL.md](/Users/zenray/.claude/skills/zenray-meshes/SKILL.md) (26 October 2026, 07:22:58 +0100)
+>
+> Une formulation plus courte de la relance : « Jusqu'à 8 h, mesure sur la planche le plus grand trait que le modèle n'a pas, construis la pièce qui le porte, vérifie-la en gros plan, puis consigne. » Le **profil de gradient** est cette lecture de la planche pixel par pixel le long d'une ligne, qui donne la position exacte des traits. (26 October 2026, 07:22:58 +0100)
+
+## 26 October 2026, 07:23:02 +0100 : Prompt
+
+<!-- feedback-event:2ae7652073612f54f3592b2a19a0dc17a79cd592c7fbd959c3a75a95a3c86e6b (26 October 2026, 07:23:02 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 07:23:02 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:23:02 +0100)
+
+> ZenRay Meshes, relance automatique (Matthieu, 25 October 2026) : si la boucle s'est arrêtée, reprends la voiture PAR COMPOSANTS là où elle en est. Lis /Users/zenray/.claude/skills/zenray-meshes/SKILL.md sections 21 à 26, la feuille de composants dans /Users/zenray/.claude/Memory1/Projects/zenray-meshes/ZenRayMeshes1.md section 10, et le dernier rendu dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/. Demande-toi : la voiture est-elle identique à la feuille de référence, tous les composants construits ? Si non, construis le composant suivant (jamais d'ajustement global aux silhouettes), vérifie par rendu matériaux et projection sur la planche, consigne l'apprentissage dans le skill (section datée), puis continue. /dont-stop (26 October 2026, 07:23:02 +0100)
