@@ -11294,3 +11294,59 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 04:39:58 +0100)
 
 > -3 cm n'apporte rien de plus et coûte un peu en silhouette : je reviens à -2 cm (v270) et je vérifie à l'œil qu'aucun creux n'apparaît sur le profil. (26 October 2026, 04:39:58 +0100)
+
+## 26 October 2026, 04:42:19 +0100 : Iteration
+
+<!-- feedback-event:c2c8338012640ae44e561c428f65f1108ebd89eac601cdd313a5ab90083a5222 (26 October 2026, 04:42:19 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 04:42:19 +0100)
+- Source: checkpoint:claude:09d15ec8-88ad-4965-a2f0-80b68515e880. (26 October 2026, 04:42:19 +0100)
+
+> Voiture v270 : dessous visible (vis, fleche, nervure, traverses), coin du nez converge, contrefort sans bosse, faite abaisse au joint d auvent ; lignes 0,801, normales seules 0,741, silhouette 0,968 ; skill zenray-meshes sections 48 a 50. (26 October 2026, 04:42:19 +0100)
+
+## 26 October 2026, 04:42:08 +0100 : Iteration
+
+<!-- feedback-event:c36b3d4d4ff840ee1e69ef2e943db3099d7424788d7083d9431b0617878604b7 (26 October 2026, 04:42:08 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 04:42:08 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 04:42:08 +0100)
+
+> La vue « bottom » montre bien le dessous désormais. Je journalise v270 et je fais le point Assets. (26 October 2026, 04:42:08 +0100)
+
+## 26 October 2026, 04:45:24 +0100 : Prompt
+
+<!-- feedback-event:6dbaa58321e8adf14a43602a247092bd8717041da253a163d23efde24977c761 (26 October 2026, 04:45:24 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 04:45:24 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 04:45:24 +0100)
+
+> [Image: original 2390x1050, displayed at 2000x879. Multiply coordinates by 1.20 to map to original image.] (26 October 2026, 04:45:24 +0100)
+
+## 26 October 2026, 04:45:41 +0100 : Iteration
+
+<!-- feedback-event:e0e4ff5c7cfed7792c7f4adb675cc4e22666ee9a0db67754ac5c74a2a9305988 (26 October 2026, 04:45:41 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 04:45:41 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 04:45:41 +0100)
+
+> Je règle la largeur du cadre : une seule bande (u ≥ 0,95) puis trois bandes (u ≥ 0,78), pour comparer avec les deux bandes actuelles. (26 October 2026, 04:45:41 +0100)
+
+## 26 October 2026, 04:47:22 +0100 : Iteration
+
+<!-- feedback-event:296f5d57c831aac1256d3b071360955265fc31fd43251942f47a8becb5bdc4fe (26 October 2026, 04:47:22 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 04:47:22 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 04:47:22 +0100)
+
+> Deux bandes (u ≥ 0,9) restent le meilleur réglage (0,809 contre 0,807 pour une bande et 0,794 pour trois). Je remets 0,9 et reconstruis cet état (v274). (26 October 2026, 04:47:22 +0100)
+
+## 26 October 2026, 04:54:07 +0100 : Iteration
+
+<!-- feedback-event:228f69314ba66489e6d49ba172633997ba4e70b862463030fa078ddb6f7512fa (26 October 2026, 04:54:07 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 04:54:07 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 04:54:07 +0100)
+
+> Pendant que j'y suis, je mesure au gradient la position du pied de lunette en vue de dessus (la planche semble le placer à z ≈ -1,98 alors que le modèle le casse à -1,925). (26 October 2026, 04:54:07 +0100)
+
+## 26 October 2026, 04:56:03 +0100 : Iteration
+
+<!-- feedback-event:e4f311eb618fe0bdeb738624a30b695aac333ec0375252bd0323d90d15ba8182 (26 October 2026, 04:56:03 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 04:56:03 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 04:56:03 +0100)
+
+> La compensation précédente n'a pas de sauvegarde. Je mesure donc l'effet du seul réapprentissage : je remets le joint à -1,925, je relance CageComp et je compare à v277. (26 October 2026, 04:56:03 +0100)
