@@ -17918,3 +17918,32 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 18:44:11 +0100)
 
 > Maintenant le README de reprise du dossier d'algo et la section d'état de reprise dans le skill. (26 October 2026, 18:44:11 +0100)
+
+## 26 October 2026, 18:45:50 +0100 : Iteration
+
+<!-- feedback-event:242150e9e1970ffec3b51845d954e0761007126925ba4bce3de24730c519fada (26 October 2026, 18:45:50 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 18:45:50 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 18:45:50 +0100)
+
+> J'ai arrêté proprement, tout est consigné et poussé, et plus rien ne tourne : les deux relances automatiques (chaque minute et celle de 20 h) sont supprimées. (26 October 2026, 18:45:50 +0100)
+>
+> **Où reprendre** (26 October 2026, 18:45:50 +0100)
+> - Le point de départ est `/Users/zenray/.claude/skills/zenray-meshes/SKILL.md`, section 116. Elle donne l'état (arbre `w46` et `f46`, voiture v470 inchangée), les trois commandes de reprise, l'ordre des prochains essais et les pièges. Les sections 114 et 115 gardent les mesures et les essais sans gain. (26 October 2026, 18:45:50 +0100)
+> - Les outils du jour sont copiés dans `/Users/zenray/.claude/skills/zenray-meshes/scripts/`, avec un README : commandes, rôle de chaque fichier, pont Houdini. La source vivante reste `tmp-zenray-meshes/Scripts/`, qui n'est pas versionnée. (26 October 2026, 18:45:50 +0100)
+> - Dans l'algo, `TreeBuild.py` documente ses paramètres de bouchons et de feuilles. (26 October 2026, 18:45:50 +0100)
+> - `TreeIter.sh` et `RunTree.sh` attendent maintenant le fichier exporté, parce qu'une cuisson lourde dépasse le délai du pont Houdini. (26 October 2026, 18:45:50 +0100)
+> - J'ai aussi mis à jour `Trees1.md`, `ZenRayMeshes1.md`, le journal, une note de mémoire de reprise et le checkpoint. Les dépôts `.claude` et `Memory1` sont poussés (chemins explicites). `CLAUDE.md` n'a pas changé (65 517 octets, marge 19). (26 October 2026, 18:45:50 +0100)
+>
+> **Ce qui n'est pas fini** (26 October 2026, 18:45:50 +0100)
+> - Le build du conifère, lancé pour valider les bouchons de Coons sur un autre arbre, n'a produit aucun résultat. J'avais modifié `TreeIter.sh` et `RunTree.sh` pendant qu'il tournait, ce qui l'a probablement cassé. À refaire à la reprise, sans rien modifier pendant ce temps. (26 October 2026, 18:45:50 +0100)
+> - Le mp3 de l'Arc de Triomphe est téléchargé mais pas monté sur les vidéos. (26 October 2026, 18:45:50 +0100)
+>
+> **Première chose à essayer à la reprise** : des tubes à 8 côtés pour les brindilles et 16 pour les limbes, afin de réduire les quatre quads de coin de chaque bouchon, qui restent la seule faute du bois. À mesurer en nombre de faces en faute plutôt qu'en score. (26 October 2026, 18:45:50 +0100)
+>
+> | Ce que vous vouliez | Fait ? | Comment je le sais | (26 October 2026, 18:45:50 +0100)
+> |---|---|---| (26 October 2026, 18:45:50 +0100)
+> | S'arrêter proprement | Oui | `CronList` vide, aucun processus de build en cours | (26 October 2026, 18:45:50 +0100)
+> | Tout consigner dans le skill | Oui | sections 114 à 116, relais et registre à jour, commit poussé | (26 October 2026, 18:45:50 +0100)
+> | Tout consigner dans l'algo | Oui | 19 scripts copiés dans le skill, README, en-tête de `TreeBuild.py`, attente d'export, `zsh -n` et `ast.parse` verts | (26 October 2026, 18:45:50 +0100)
+> | Mémoire, journal, checkpoint | Oui | `PROGRESS.md`, note de reprise, checkpoint Assets ajouté, `main...origin/main` sur les deux dépôts | (26 October 2026, 18:45:50 +0100)
+> | Conifère validé | Non | build probablement cassé par mon édition ; pas de `topo_w46.npz` | (26 October 2026, 18:45:50 +0100)
