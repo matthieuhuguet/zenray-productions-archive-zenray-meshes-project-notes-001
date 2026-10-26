@@ -12788,3 +12788,59 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 09:50:31 +0100)
 
 > Je mesure par pièce la taille réelle des quads dans les deux directions, pour savoir où il manque des colonnes et où il y a trop de stations. (26 October 2026, 09:50:31 +0100)
+
+## 26 October 2026, 09:58:20 +0100 : Prompt
+
+<!-- feedback-event:0ecea1697e51af2ee3faf8a5064c3cf0c093af024efbb66576da8ce1d8937e72 (26 October 2026, 09:58:20 +0100) -->
+- Project: zenray-meshes; kind: prompt. (26 October 2026, 09:58:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 09:58:20 +0100)
+
+> [Image: original 3000x2000, displayed at 2000x1333. Multiply coordinates by 1.50 to map to original image.] (26 October 2026, 09:58:20 +0100)
+
+## 26 October 2026, 09:58:25 +0100 : Iteration
+
+<!-- feedback-event:4aec2b42047d4cc73f08b06cf3915a3a773fff264aa7830ba0052ec7151e7021 (26 October 2026, 09:58:25 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 09:58:25 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 09:58:25 +0100)
+
+> Les roues ressortent en rouge dans la voiture entière, alors qu'elles étaient propres seules. Je vérifie quelle règle les marque. (26 October 2026, 09:58:25 +0100)
+
+## 26 October 2026, 10:00:58 +0100 : Iteration
+
+<!-- feedback-event:804e0a7d75d22ff4b394b3a6db3d203f58801679ec8ebc07ad468a15387aac28 (26 October 2026, 10:00:58 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 10:00:58 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 10:00:58 +0100)
+
+> L'audit de v374 casse sur un lecteur de la grille du loft que je n'avais pas corrigé (TwistCheck). Je le corrige. (26 October 2026, 10:00:58 +0100)
+
+## 26 October 2026, 10:01:09 +0100 : Iteration
+
+<!-- feedback-event:5170c40179d84dc9413c92eaf8b503273565d2be0facfdfa52027dd9b2f61750 (26 October 2026, 10:01:09 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 10:01:09 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 10:01:09 +0100)
+
+> Mon insertion de commentaire a avalé la fin de ces lignes (`; cols = ...`, `.astype(float)`). Je répare les quatre fichiers. (26 October 2026, 10:01:09 +0100)
+
+## 26 October 2026, 10:02:48 +0100 : Iteration
+
+<!-- feedback-event:bfb615bd054411e48dcbd8b1c936a2b655b627de5348322ddefdb54a0671396c (26 October 2026, 10:02:48 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 10:02:48 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 10:02:48 +0100)
+
+> Pire encore (côtés 0,961). La spline n'est donc pas en cause, quelque chose d'autre déborde. Je regarde le rendu. (26 October 2026, 10:02:48 +0100)
+
+## 26 October 2026, 10:03:03 +0100 : Iteration
+
+<!-- feedback-event:dc6734ad6baeffa4e1339823b324278af9d90c425713b67835f4c76b7b27a3be (26 October 2026, 10:03:03 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 10:03:03 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 10:03:03 +0100)
+
+> Une bande bleue (le modèle dépasse) court sous le bas de caisse, entre les roues. Je compare, pièce par pièce, le bas des pièces de v372 et de v375. (26 October 2026, 10:03:03 +0100)
+
+## 26 October 2026, 10:03:13 +0100 : Iteration
+
+<!-- feedback-event:90e38f26738a7d721fa485e4d819adbd2a9f53905fbe7595814494d3cf6e5291 (26 October 2026, 10:03:13 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 10:03:13 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 10:03:13 +0100)
+
+> Les plaques du châssis sont descendues de 3,1 cm : leur hauteur est lue sur le loft, et un point ajouté y a faussé le minimum. Je regarde d'où vient leur `y0`. (26 October 2026, 10:03:13 +0100)
