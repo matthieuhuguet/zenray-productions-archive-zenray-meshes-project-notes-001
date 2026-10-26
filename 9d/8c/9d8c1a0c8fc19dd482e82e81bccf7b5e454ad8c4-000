@@ -11690,3 +11690,11 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 05:59:49 +0100)
 
 > Colonne fine sur belt : neutre (moyenne identique, face et dessus −0,002), je la retire. Je cale maintenant le bord haut du bandeau (belt_top), 3 à 4 cm trop haut à l'avant de la porte. (26 October 2026, 05:59:49 +0100)
+
+## 26 October 2026, 06:01:01 +0100 : Iteration
+
+<!-- feedback-event:c32ae6ed77c2c502f07f1f6017637ce170d5cc68915ba1646c7ce1e002bb9e43 (26 October 2026, 06:01:01 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 06:01:01 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 06:01:01 +0100)
+
+> Bord haut du bandeau : neutre, je le retire. Prochain trait commun aux deux flancs : le haut de la vitre de custode (z −0,8 à −1,2, y 1,12 à 1,20). (26 October 2026, 06:01:01 +0100)
