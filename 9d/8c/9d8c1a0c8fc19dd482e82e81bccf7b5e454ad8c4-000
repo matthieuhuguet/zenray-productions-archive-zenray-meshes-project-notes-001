@@ -20054,3 +20054,33 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-a2095efab9effedf4.jsonl. (26 October 2026, 20:59:54 +0100)
 
 > [Image: original 3072x768, displayed at 2000x500. Multiply coordinates by 1.54 to map to original image.] (26 October 2026, 20:59:54 +0100)
+
+## 26 October 2026, 21:00:04 +0100 : Iteration
+
+<!-- feedback-event:d56ae38f62398a5b4956bc39c632def0db3741662c726628904aab26fc136482 (26 October 2026, 21:00:04 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 21:00:04 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 21:00:04 +0100)
+
+> La miniature est convertie en 9:16 avec des bandes noires, sans recadrage, et envoyée dans la conversation en deux tailles : (26 October 2026, 21:00:04 +0100)
+> - **1080 × 1920**, le format Shorts standard. (26 October 2026, 21:00:04 +0100)
+> - **2160 × 3840**, en haute définition. (26 October 2026, 21:00:04 +0100)
+>
+> Le carré d'origine est centré tel quel, avec une bande noire en haut et une en bas (420 px chacune en 1080 de large). Le carré de la version 1080 est identique à la miniature d'origine réduite (écart moyen 0,11 sur 255). J'ai regardé la version 1080 : texte et voitures sont complets. Les PNG sans perte sont dans `/Users/zenray/.claude/tmp/tmp-zenray-meshes/Montage/Thumbnail/Out/`. (26 October 2026, 21:00:04 +0100)
+>
+> Tout reste à faire côté clôture : l'agent Haiku n'a pas encore rendu son rapport sur les contrôles chiffrés de la miniature 1:1, et l'index final ainsi que le push dans ZenRay Assets viennent après. (26 October 2026, 21:00:04 +0100)
+
+## 26 October 2026, 21:00:29 +0100 : Iteration
+
+<!-- feedback-event:f67d2b47e417a16be097f24f1e19b9250aa5f2267f81755cecc232431628efcd (26 October 2026, 21:00:29 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 21:00:29 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-a2095efab9effedf4.jsonl. (26 October 2026, 21:00:29 +0100)
+
+> The shell rejected the command before running anything (a stray quote at the end). I'm re-running it in two clean steps. (26 October 2026, 21:00:29 +0100)
+
+## 26 October 2026, 21:00:47 +0100 : Order of work
+
+<!-- feedback-event:1a964b286c557b59bf174633f858dca839c8e512f0f5ea2b3568cfdb185f2fc8 (26 October 2026, 21:00:47 +0100) -->
+- Project: zenray-meshes; kind: order. (26 October 2026, 21:00:47 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-a2095efab9effedf4.jsonl. (26 October 2026, 21:00:47 +0100)
+
+> [Image: original 3168x688, displayed at 2000x434. Multiply coordinates by 1.58 to map to original image.] (26 October 2026, 21:00:47 +0100)
