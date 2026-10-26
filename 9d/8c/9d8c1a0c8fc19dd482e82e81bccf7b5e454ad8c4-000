@@ -11490,3 +11490,59 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 05:17:13 +0100)
 
 > Je mesure le pli bas de la porte : sur la planche il remonte vers l'arrière, celui du modèle reste trop bas à l'arrière. (26 October 2026, 05:17:13 +0100)
+
+## 26 October 2026, 05:19:51 +0100 : Iteration
+
+<!-- feedback-event:b3edd2231f98d26ab27b1bca75a9cba1634b358211ab26f5b56e4b8a12bf6917 (26 October 2026, 05:19:51 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 05:19:51 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 05:19:51 +0100)
+
+> Le pli bas de porte suit maintenant la planche ; je vérifie que la rangée a bien bougé, les scores des flancs n'ayant pas changé. (26 October 2026, 05:19:51 +0100)
+
+## 26 October 2026, 05:21:56 +0100 : Iteration
+
+<!-- feedback-event:4f4bce8b1d39dad27fe6adb39f4740cd6d9fb380ba55351fb89ee9bea0339106 (26 October 2026, 05:21:56 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 05:21:56 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 05:21:56 +0100)
+
+> Le pli bas de porte n'a pas de vraie cassure dans le modèle (10° seulement), donc aucun trait ; je regarde comment les joints de panneaux (CarPanels) pourraient le dessiner proprement. (26 October 2026, 05:21:56 +0100)
+
+## 26 October 2026, 05:23:04 +0100 : Iteration
+
+<!-- feedback-event:96800b6819a65f24e2cb4f1ee6df909c15eb4b2f7b918160afaaef9106108e26 (26 October 2026, 05:23:04 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 05:23:04 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 05:23:04 +0100)
+
+> Je vérifie si le joint entre porte et bas de caisse creuse bien une rainure dans le maillage exporté. (26 October 2026, 05:23:04 +0100)
+
+## 26 October 2026, 05:23:28 +0100 : Iteration
+
+<!-- feedback-event:6600e3cd3f1fad244be1200b4364727846f1305d272efea6ba945735a43aad4d (26 October 2026, 05:23:28 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 05:23:28 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 05:23:28 +0100)
+
+> Le joint existe mais sa rainure s'étale sur 8 cm (bandes de 6 cm), donc aucun trait ; j'ajoute une colonne fine de part et d'autre des rangées pour que la rainure devienne nette. (26 October 2026, 05:23:28 +0100)
+
+## 26 October 2026, 05:25:14 +0100 : Iteration
+
+<!-- feedback-event:6948740fa052e575c53f9d08161c84d31608514572ea1db0dd59abf43c389adc (26 October 2026, 05:25:14 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 05:25:14 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 05:25:14 +0100)
+
+> Gros gain : la rainure nette du bas de porte fait passer les traits des flancs de 0,858 à 0,890 (gauche) et de 0,868 à 0,899 (droite). Je vérifie visuellement qu'elle reste propre. (26 October 2026, 05:25:14 +0100)
+
+## 26 October 2026, 05:26:06 +0100 : Iteration
+
+<!-- feedback-event:6b0da6d0884fd53e162d47dae2f069c3d14d4f2a995d007e8b6c236658e81bf9 (26 October 2026, 05:26:06 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 05:26:06 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 05:26:06 +0100)
+
+> Le pli est net le long de la porte, mais une petite pointe apparaît là où il rencontre chaque passage de roue ; je fais s'effacer la colonne fine juste avant les passages. (26 October 2026, 05:26:06 +0100)
+
+## 26 October 2026, 05:27:06 +0100 : Iteration
+
+<!-- feedback-event:d3c1d8dffef1d5cf47802cbd71228a6e66c3e24ffd30b3e62eef1e1ac9fb8cd1 (26 October 2026, 05:27:06 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 05:27:06 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 05:27:06 +0100)
+
+> Je regarde de près la jonction du pli avec le passage arrière, avant et après. (26 October 2026, 05:27:06 +0100)
