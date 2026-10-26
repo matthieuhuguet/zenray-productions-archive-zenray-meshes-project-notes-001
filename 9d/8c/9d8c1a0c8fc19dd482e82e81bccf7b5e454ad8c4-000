@@ -12186,3 +12186,11 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:07:22 +0100)
 
 > [Image: original 2800x1400, displayed at 2000x1000. Multiply coordinates by 1.40 to map to original image.] (26 October 2026, 07:07:22 +0100)
+
+## 26 October 2026, 07:10:48 +0100 : Iteration
+
+<!-- feedback-event:0593c7741dab56524f15f623f22c1273efcf780bbb6089b107526b48232650b4 (26 October 2026, 07:10:48 +0100) -->
+- Project: zenray-meshes; kind: iteration. (26 October 2026, 07:10:48 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (26 October 2026, 07:10:48 +0100)
+
+> Je vérifie que les paramètres sur disque reproduisent exactement v341 (contrôle de reproductibilité de l'état final). (26 October 2026, 07:10:48 +0100)
