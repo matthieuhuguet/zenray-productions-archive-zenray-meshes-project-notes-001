@@ -35531,3 +35531,20 @@
 >    - Ce calage supprime 240 pixels de manque sur la voûte du pavillon, hissant les scores de silhouette des deux flancs à **0,9679** (gauche) et **0,9663** (droit). (27 October 2026, 22:17:10 +0100)
 >
 > 3. **Nouveau record métrique global** ([`Audit_v58 (27 October 2026, 22:17:10 +0100)
+
+## 27 October 2026, 22:21:21 +0100 : Iteration
+
+<!-- feedback-event:8495f795ca66175c35a753773bc3dc246500309b0b8c2222a2b115770e3dd4ae (27 October 2026, 22:21:21 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 22:21:21 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 22:21:21 +0100)
+
+> La boucle autonome a franchi un nouveau pic de précision avec la livraison **v582**, optimisant la lame de spoiler avant pour hisser l'IoU de la face avant à son plus haut niveau historique. (27 October 2026, 22:21:21 +0100)
+>
+> ### Ce qui a été accompli et mesuré (27 October 2026, 22:21:21 +0100)
+>
+> 1. **Optimisation multi-vues du splitter avant** ([`BuildDeliveryV582.py`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/BuildDeliveryV582.py)) : (27 October 2026, 22:21:21 +0100)
+>    - Le balayage paramétrique de la hauteur de lame entre $0,1130\text{ m}$ et $0,1650\text{ m}$ a démontré que la moyenne combinée face avant et arrière culmine précisément à $Y = 0,1130\text{ m}$. (27 October 2026, 22:21:21 +0100)
+>    - À cette hauteur exacte, la lèvre inférieure de la lame `CAR_splitter_blade_C` épouse la ligne de sol 304 du masque de référence avant sans déborder. (27 October 2026, 22:21:21 +0100)
+>    - L'IoU de la face avant réalise un bond de **0,9640 à 0,9731** (plus de 900 pixels de jour comblés à la base du bouclier). (27 October 2026, 22:21:21 +0100)
+>
+> 2. **Nouveau record métrique global** ([`Audit_v582.json`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes (27 October 2026, 22:21:21 +0100)
