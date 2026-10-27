@@ -31310,3 +31310,61 @@
 - Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 16:13:43 +0100)
 
 > Là, je pense que ce qu'il faudrait focus, c'est vraiment l'avant du capot tout en maintenant le cron. Mais compare vraiment les références et tout. Parce que j'ai l'impression qu'en termes de components, t'as pas exactement compris. Et t'as aussi à... Comment dire ? Au fur et à mesure, en fait, t'as supprimé des vues dans l'éditeur pour que la modélisation s'affine, en fait. Du coup, en fait, il y a encore des couches ou sous-couches qui se parallélisent. Enfin, qui se... Comment dire ? Dont les overlaps se touchent parce que t'as pas supprimé certaines faces. Et en fait, t'as besoin de supprimer certaines faces au fur et à mesure. (27 October 2026, 16:13:43 +0100)
+
+## 27 October 2026, 16:35:18 +0100 : Prompt
+
+<!-- feedback-event:b182ab8760c4913a14371102139f48340e59e91f96dd632417696d0e50b2f137 (27 October 2026, 16:35:18 +0100) -->
+- Project: zenray-meshes; kind: prompt. (27 October 2026, 16:35:18 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 16:35:18 +0100)
+
+> Arrête toi ici proprement et consigne tout dans le skill notamment ce que tu as appris dans cette boucle via le transcript de ce propre chat et le bind  (27 October 2026, 16:35:18 +0100)
+>
+>  fini proprement sotp le cron (27 October 2026, 16:35:18 +0100)
+
+## 27 October 2026, 16:36:50 +0100 : Iteration
+
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 16:36:50 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 16:36:50 +0100)
+
+> ### Reconstitution propre de l'avant du capot, suppression des couches d'overlap et diagnostic géométrique des passages de roues (27 October 2026, 16:36:50 +0100)
+>
+> 1. **Avant du capot et shutline** : le capot s'arrête désormais à Z = 2,1935 m au lieu de la pointe du nez à Z = 2,26 m, éliminant 7 cm de chevauchement coplanaire avec le bandeau de calandre CAR_fascia_front_band_C. Les 20 facettes orphelines CAR_body_nose_* ont été supprimées. (27 October 2026, 16:36:50 +0100)
+> 2. **Rétablissement des vues de référence dans Houdini** : création du nœud /obj/ZRM_ReferenceViews portant 5 cartes de référence orthogonales (avant, arrière, dessus, flancs droit et gauche) pour contrôler visuellement la modélisation à tout instant. (27 October 2026, 16:36:50 +0100)
+> 3. **Bilan v546** : 90 043 quads purs (100,000 %), 0 triangle, score propre à 0,98482 (fautes totales en chute de 1 799 à 1 367), fautes visibles à 1,57 % (seuil senior <= 2,00 %), pli p95 à 4,95° (seuil <= 6,00°), symétrie validée (max 7,76 mm, p99 à 1,78 mm), 0 collision d'assemblage, IoU de silhouette à 0,9636 (dessus 0,9734), F1 des lignes à 0,864. (27 October 2026, 16:36:50 +0100)
+> 4. **Diagnostic des sous-couches parallèles** : identification des 803 faces d'épaulement CAR_body_shoulder_L/R à Z > 1,56 m qui doublonnaient la peau des ailes avant sous l'assemblage. (27 October 2026, 16:36:50 +0100)
+> 5. **Diagnostic de la 21e porte (arch.ring_fault_pct)** : typologie des 538 défauts de l'anneau des 4 arches (350 pôles sur retour intérieur à 90°, 220 angles aigus/obtus < 35° sur arêtes très courtes). Preuve par relaxation ciblée réalignant les quads trapézoïdaux : réduction mesurée à 4,18 % (seuil <= 5,00 %), ouvrant la voie au 21 sur 21. (27 October 2026, 16:36:50 +0100)
+> 6. **Arrêt propre du cron** : tâche cron task-262 arrêtée définitivement. (27 October 2026, 16:36:50 +0100)
+
+## 27 October 2026, 16:37:51 +0100 : Iteration
+
+<!-- feedback-event:9b710d737f7c39d6a8cc489dd4ebf069daffe3979799351e45dace60da1fd8be (27 October 2026, 16:37:51 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 16:37:51 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 16:37:51 +0100)
+
+> Arrêt propre effectué. Le cron est stoppé et l'ensemble des apprentissages de cette boucle est consigné et synchronisé. (27 October 2026, 16:37:51 +0100)
+>
+> ### Synthèse des enseignements consign (27 October 2026, 16:37:51 +0100)
+
+## 27 October 2026, 16:39:30 +0100 : Iteration
+
+<!-- feedback-event:ee6b45f2e8e53e4647a0e42647fc562f12fe8c694b02e5196f7be4ef0ce16c13 (27 October 2026, 16:39:30 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 16:39:30 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (27 October 2026, 16:39:30 +0100)
+
+> No response requested. (27 October 2026, 16:39:30 +0100)
+
+## 27 October 2026, 16:39:32 +0100 : Prompt
+
+<!-- feedback-event:8cb09c8572c3df96687a427d203a5ee8f9e2adf1557ca4a7e97a1287323d1104 (27 October 2026, 16:39:32 +0100) -->
+- Project: zenray-meshes; kind: prompt. (27 October 2026, 16:39:32 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (27 October 2026, 16:39:32 +0100)
+
+> I hit my usage limit while you were working, but it has reset now. Please continue from where you left off. (27 October 2026, 16:39:32 +0100)
+
+## 27 October 2026, 16:39:34 +0100 : Prompt
+
+<!-- feedback-event:319b6388aeec37e7ecee7335510532254c938ef4fb18a3320c1b48f02ce142d8 (27 October 2026, 16:39:34 +0100) -->
+- Project: zenray-meshes; kind: prompt. (27 October 2026, 16:39:34 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (27 October 2026, 16:39:34 +0100)
+
+> [Request interrupted by user] (27 October 2026, 16:39:34 +0100)
