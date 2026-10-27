@@ -33255,3 +33255,11 @@
 > 5. LIMITE. Ne jamais modifier le réseau de la voiture (ZRM_Car) dans cette boucle : la chaîne scène vers livraison n'est pas calibrée (v546r : 1 908 fautes contre 1 367 pour v546). Seule exception autorisée : le nœud de lecture /obj/ZRM_LatestKept/kept_latest (paramètre file) mis à jour à chaque KEEP, ce qui ne change ni la voiture ni la livraison. Ne rien supprimer dans la scène. (27 October 2026, 17:40:05 +0100)
 >
 > 6. FIN. Supprimer work/car/loop.lock. Ne rien promettre à Matthieu au-delà des chiffres mesurés. La porte « silhouette 0,9696 » n'est pas atteinte par cette boucle : elle la protège seulement contre une dégradation. (27 October 2026, 17:40:05 +0100)
+
+## 27 October 2026, 17:40:10 +0100 : Iteration
+
+<!-- feedback-event:596e06fee269d02397c7dacb719af5de075625d0dab2bb02c4ae570bf0f75d54 (27 October 2026, 17:40:10 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 17:40:10 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (27 October 2026, 17:40:10 +0100)
+
+> itération en cours (27 October 2026, 17:40:10 +0100)
