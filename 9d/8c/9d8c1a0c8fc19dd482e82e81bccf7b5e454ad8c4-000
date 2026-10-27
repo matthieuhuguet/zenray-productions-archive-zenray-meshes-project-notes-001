@@ -32357,3 +32357,31 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (27 October 2026, 17:14:49 +0100)
 
 > Itération v549 lancée depuis v548, verrou pris (pid 96292). Je consigne le verdict dès que `Gate_v549.json` sort. (27 October 2026, 17:14:49 +0100)
+
+## 27 October 2026, 17:15:21 +0100 : Prompt
+
+<!-- feedback-event:5bd58e87d12d6a2b5fe9c3c8721df1b7495cab96914701dd8ba4a70d46de36a3 (27 October 2026, 17:15:21 +0100) -->
+- Project: zenray-meshes; kind: prompt. (27 October 2026, 17:15:21 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (27 October 2026, 17:15:21 +0100)
+
+> Boucle voiture ZenRay Meshes (cron 1 min, session seule, expire après 7 jours). Dossier : /Users/zenray/.claude/tmp/tmp-zenray-meshes. Règles : pas de workflow ; sous-agents Haiku seulement pour lire ; Houdini reste ouverte ; une seule itération par déclenchement ; ne supprimer que les fichiers créés par cette itération, par chemin exact. (27 October 2026, 17:15:21 +0100)
+>
+> 1. VERROU. Si work/car/loop.lock existe et que le PID qu'il contient tourne encore (kill -0), répondre en une ligne « itération en cours » et s'arrêter. Sinon écrire son PID dans work/car/loop.lock. (27 October 2026, 17:15:21 +0100)
+>
+> 2. VERSION N. N = plus haut vNNN dont versions/Gate_vNNN.json a verdict KEEP. Le candidat C = N+1 ; si versions/ZenRayCar_vC.obj ou work/car/delivery_vC.npz existe déjà, prendre C+1 jusqu'à trouver un numéro libre. Ne jamais écraser un fichier existant. (27 October 2026, 17:15:21 +0100)
+>
+> 3. ITÉRATION. Lancer : zsh Scripts/LoopStep.sh N C C (le seed est le numéro de C). Durée environ 10 minutes. Lire ensuite versions/Gate_C.json. (27 October 2026, 17:15:21 +0100)
+>
+> 4. VERDICT. Si KEEP : envoyer à Matthieu avec SendUserFile l'image versions/Audit_C/vs.png, avec une légende : « vC : fautes X vers Y, silhouette, traits, anneau, portes ». Si DROP : ne rien envoyer. Dans les deux cas consigner : python3 ~/.claude/skills/zenray-feedback/scripts/feedback.py add zenray-meshes "<méthode, chiffres avant/après, verdict>" --kind iteration --event-id loop-C ; puis node ~/.claude/skills/progress/scripts/progress.mjs append --project zenray-meshes --fait "<une ligne>" ; puis une section datée en fin de ~/.claude/skills/zenray-meshes/SKILL.md (méthode, chiffres, rejet éventuel). Un KEEP doit aussi passer le checkpoint Assets. (27 October 2026, 17:15:21 +0100)
+>
+> 5. LIMITE. Ne jamais modifier la scène Houdini dans cette boucle : la chaîne scène vers livraison n'est pas calibrée (v546r : 1 908 fautes contre 1 367 pour v546). Les modifications de scène attendent cette calibration. (27 October 2026, 17:15:21 +0100)
+>
+> 6. FIN. Supprimer work/car/loop.lock. Ne rien promettre à Matthieu au-delà des chiffres mesurés. La porte « silhouette 0,9696 » n'est pas atteinte par cette boucle : elle la protège seulement contre une dégradation. (27 October 2026, 17:15:21 +0100)
+
+## 27 October 2026, 17:15:25 +0100 : Iteration
+
+<!-- feedback-event:f0355531a3b4d547f0de16b7f25f330078987783e6297c0388af0e778fa61d84 (27 October 2026, 17:15:25 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 17:15:25 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (27 October 2026, 17:15:25 +0100)
+
+> itération en cours (27 October 2026, 17:15:25 +0100)
