@@ -31093,3 +31093,27 @@
 >
 > La colonne vertébrale complète de la carrosserie : (27 October 2026, 15:02:35 +0100)
 > **Capot $\rightarrow$ Pare-brise (27 October 2026, 15:02:35 +0100)
+
+## 27 October 2026, 15:09:57 +0100 : Iteration
+
+<!-- feedback-event:38046e583b235b3e4440e9dcf34baca1e469b057c06b2d3dcbb01e4e3c39b389 (27 October 2026, 15:09:57 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 15:09:57 +0100)
+
+> Reconstitution des composants Lego ailes avant gauche (/obj/Component_Fender_Front_L_Lego) et droite (/obj/Component_Fender_Front_R_Lego) dans Houdini en 100 % quads purs (2 424 quads chacune, 0 triangle), éliminant les 32 triangles d'aile avant et 129 pôles sur arête vive, livraison v537. (27 October 2026, 15:09:57 +0100)
+
+## 27 October 2026, 15:10:08 +0100 : Iteration
+
+<!-- feedback-event:718fcbe278255af50d04a952019048875730134eb3a6d6a91ef2097df492841e (27 October 2026, 15:10:08 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 15:10:08 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 15:10:08 +0100)
+
+> ### Reconstitution autonome dans Houdini : ailes avant Lego 100 % quads et élimination de 32 triangles (v537) (27 October 2026, 15:10:08 +0100)
+>
+> En application de la **cadence élevée demandée sur les contours avant et arrière**, les ailes avant gauche et droite ont été traitées pour éliminer les micro-slivers de découpe et converties en composants Lego indépendants 100 % quads dans Houdini. (27 October 2026, 15:10:08 +0100)
+>
+> --- (27 October 2026, 15:10:08 +0100)
+>
+> ### 1. Nœuds Houdini créés et résolution des micro-slivers (27 October 2026, 15:10:08 +0100)
+>
+> 1. **Ailes avant modulaires ([`/obj/Component_Fender_Front_L_Lego`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/hip/ZenRayMeshes_v537.hip) et [`/obj/Component_Fender_Front_R_Lego`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/hip/ZenRayMeshes_v537.hip))** : (27 October 2026, 15:10:08 +0100)
+>    - Les 16 triangles résiduels de l'aile gauche et les 16 triangles de l'aile droite ( (27 October 2026, 15:10:08 +0100)
