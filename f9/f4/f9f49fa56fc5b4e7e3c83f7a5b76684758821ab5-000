@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-10-27T21:22:00.468Z",
+ "scannedAt": "2026-10-27T21:28:06.109Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
@@ -37,18 +37,18 @@
   },
   {
    "projectId": "zenray-meshes",
-   "lines": 29,
-   "work": 29,
+   "lines": 26,
+   "work": 26,
    "prompts": 0,
-   "first": "2026-10-27T13:32:34.415Z",
-   "last": "2026-10-27T21:21:21.292Z",
+   "first": "2026-10-27T13:41:59.322Z",
+   "last": "2026-10-27T21:24:52.159Z",
    "strength": "strong",
    "conversationId": "gemini:c1a6145e-c0a4-4812-b9ce-51db18c27b5b",
    "provider": "gemini",
    "sessionId": "c1a6145e-c0a4-4812-b9ce-51db18c27b5b",
-   "title": "Est-ce que tu appliques la logique Transformers et Lego pour tous les components? J'ai l'impression que là, tu recrées des components, que l",
-   "updatedAt": "2026-10-27T21:21:21.292894+00:00",
-   "bytes": 83811832,
+   "title": "Là, je pense que ce qu'il faudrait focus, c'est vraiment l'avant du capot tout en maintenant le cron. Mais compare vraiment les références e",
+   "updatedAt": "2026-10-27T21:24:52.159359+00:00",
+   "bytes": 56003328,
    "boundProject": "zenray-meshes"
   },
   {
