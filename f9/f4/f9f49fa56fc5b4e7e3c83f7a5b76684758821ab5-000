@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-10-27T22:13:18.205Z",
+ "scannedAt": "2026-10-27T23:57:26.427Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
@@ -37,18 +37,34 @@
   },
   {
    "projectId": "zenray-meshes",
-   "lines": 29,
-   "work": 29,
+   "lines": 242,
+   "work": 120,
+   "prompts": 4,
+   "first": "2026-10-27T22:45:23.523Z",
+   "last": "2026-10-27T23:26:46.720Z",
+   "strength": "strong",
+   "conversationId": "codex:01a17f7d-cb54-7c21-8c4b-78a7b22caa76",
+   "provider": "codex",
+   "sessionId": "01a17f7d-cb54-7c21-8c4b-78a7b22caa76",
+   "title": "Conversation codex 01a17f7d",
+   "updatedAt": "2026-10-27T23:26:46.720Z",
+   "bytes": 45259939,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-meshes",
+   "lines": 31,
+   "work": 31,
    "prompts": 0,
-   "first": "2026-10-27T14:26:37.572Z",
-   "last": "2026-10-27T22:00:31.074Z",
+   "first": "2026-10-27T19:53:43.506Z",
+   "last": "2026-10-27T23:56:32.653Z",
    "strength": "strong",
    "conversationId": "gemini:c1a6145e-c0a4-4812-b9ce-51db18c27b5b",
    "provider": "gemini",
    "sessionId": "c1a6145e-c0a4-4812-b9ce-51db18c27b5b",
-   "title": "Là, je pense que ce qu'il faudrait focus, c'est vraiment l'avant du capot tout en maintenant le cron. Mais compare vraiment les références e",
-   "updatedAt": "2026-10-27T22:02:06.824940+00:00",
-   "bytes": 91152320,
+   "title": "Non mais d'accord, mais du coup, continue la boucle. En fait, t'arrêtes pas la boucle jusqu'à 8 h demain matin. Et par contre, du coup, cert",
+   "updatedAt": "2026-10-27T23:56:32.653201+00:00",
+   "bytes": 74448896,
    "boundProject": "zenray-meshes"
   },
   {
@@ -65,6 +81,22 @@
    "title": "Conversation codex 01a17d3d",
    "updatedAt": "2026-10-27T17:28:52.419Z",
    "bytes": 998708,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-meshes",
+   "lines": 3,
+   "work": 3,
+   "prompts": 0,
+   "first": "2026-10-27T22:35:36.896Z",
+   "last": "2026-10-27T22:39:42.736Z",
+   "strength": "strong",
+   "conversationId": "gemini:70a78ced-be34-4b18-8408-7ef23b2284af",
+   "provider": "gemini",
+   "sessionId": "70a78ced-be34-4b18-8408-7ef23b2284af",
+   "title": "Conversation Gemini 70a78ced",
+   "updatedAt": "2026-10-27T22:40:22.755Z",
+   "bytes": 4816896,
    "boundProject": null
   },
   {
@@ -95,8 +127,8 @@
    "provider": "claude",
    "sessionId": "b8e43d99-5824-4ddc-8444-a984b5743a04",
    "title": "zenray sfx",
-   "updatedAt": "2026-10-26T20:29:44.320Z",
-   "bytes": 38579,
+   "updatedAt": "2026-10-27T22:41:45.872Z",
+   "bytes": 38428,
    "boundProject": "zenray-sfx-25-october-2026"
   },
   {

@@ -36158,3 +36158,43 @@
 > * **Ancrage structurel des 5 montants verticaux** : les 8 sommets supérieurs de chaque montant ont été soudés à distance 0,00 mm sous [`CAR_grille_bar_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v594.obj) ($Y = 0,3181\text{ m}$) et les 8 sommets inférieurs sur [`CAR_splitter_blade_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v594.obj) ($Y = 0,2000\text{ m}$). (28 October 2026, 00:42:35 +0100)
 > * **Soudure de la lèvre horizontale** : 35 sommets de contact soudés à 0,00 mm entre le bord inférieur du panneau de bouclier et la barre de calandre. (28 October 2026, 00:42:35 +0100)
 > * **Création des joues d'angles de bouclier** : intégration des composants modulaires [`CAR_bumper_corner_L`](file:///Users/zenray/.cla (28 October 2026, 00:42:35 +0100)
+
+## 28 October 2026, 00:50:23 +0100 : Iteration
+
+<!-- feedback-event:2ad13d96a778b0a1e551f81d00ea58e28de46311c912867448f3f39750e1420a (28 October 2026, 00:50:23 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 00:50:23 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (28 October 2026, 00:50:23 +0100)
+
+> La consolidation monocoque des joints de carrosserie et l'étanchéité des vitrages sont achevées sur le candidat v595, et la vidéo d'évolution 2048x2048 est compilée. (28 October 2026, 00:50:23 +0100)
+>
+> ### 1. Soudures monocoques et joints d'étanchéité (candidat v595) (28 October 2026, 00:50:23 +0100)
+> * **20 liaisons structurelles soudées à distance 0,00 mm** : 157 sommets de contact ont été fusionnés chirurgicalement le long des arêtes de partage (ailes avant vers épaulement, brancards de pavillon vers calotte de toit, montants de custode arrière, lisière de ceinture de caisse au montant B, et raccordements de la face arrière). (28 October 2026, 00:50:23 +0100)
+> * **Étanchéité des baies de vitrage** : scellement à distance 0,00 mm des cadres de pare-brise [`CAR_body_glass_windshield_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v595.obj), de lunette arrière [`CAR_body_glass_rear_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v595.obj) et de custodes latérales vers les montants et le pavillon. (28 October 2026, 00:50:23 +0100)
+> * **Garde de sécurité des passages de roues** : isolation géométrique stricte de la zone de 0,12 m autour des 4 essieux, maintenant la porte critique `arch.ring_fault_pct` à 4,96 % (seuil admissible <= 5,00 %). (28 October 2026, 00:50:23 +0100)
+> * **Audit AnimReview 21/21** : totalité des 21 portes validées (100,000 % quads purs, 90 269 quads, 0 triangle, 0 ngon, 0 fissure, symétrie bilatérale p99 à 1,74 mm). (28 October 2026, 00:50:23 +0100)
+> * **Maintien du record d'IoU de silhouette** : IoU moyen à **0,9695** (flanc gauche à **0,9736**, flanc droit à **0,9718**, dessous à **0,9745**, dessus à **0,9746**, face avant à **0,9742**, face arrière à **0,9480**). (28 October 2026, 00:50:23 +0100)
+> * **Rappel filaire record contre `ref3.png`** : rappel moyen à **99,85 %** (dessus 99,99 %, flanc gauche 99,96 %, flanc droit 99,87 %, face avant 99,83 %, face arrière 99,74 %, dessous 99,69 %), précision à **76,06 %**, F1 à **0,8621**. (28 October 2026, 00:50:23 +0100)
+>
+> ### 2. Vidéo d'évolution 2048x2048 finalisée (28 October 2026, 00:50:23 +0100)
+> * **Fichier vidéo** : [`ZenRayCar_Evolution_2048x2048_10fps.mp4`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_Evolution_2048x2048_10fps.mp4) (558 images, 55,80 secondes, 23,44 Mo, H.264 CRF 16 à 10 images par seconde). (28 October 2026, 00:50:23 +0100)
+> * **Manifeste d'indexation** : [`evolution_index_mapping.json`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/evolution_index_mapping.json) recensant l'intégralité des 558 étapes chronologiques. (28 October 2026, 00:50:23 +0100)
+>
+> ### 3. Synchronisation et consignation (28 October 2026, 00:50:23 +0100)
+> * **Scène Houdini en direct** : [`ZenRayMeshes_v595.hip`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/hip/ZenRayMeshes_v595.hip) (28 October 2026, 00:50:23 +0100)
+
+## 28 October 2026, 00:56:32 +0100 : Iteration
+
+<!-- feedback-event:d707d046c51936d8942c5c00938a68587ca8442d3462fd854b8510002f920205 (28 October 2026, 00:56:32 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 00:56:32 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (28 October 2026, 00:56:32 +0100)
+
+> Les soudures de finition sur la face arrière et l'armature interne de calandre sont scellées sur le candidat v596. (28 October 2026, 00:56:32 +0100)
+>
+> ### 1. Soudures au contact 0,00 mm de poupe et de calandre (candidat v596) (28 October 2026, 00:56:32 +0100)
+> * **8 jointures étanches scellées (100 sommets de contact soudés à 0,00 mm)** : (28 October 2026, 00:56:32 +0100)
+>   * Face arrière : bandeau lumineux [`CAR_light_bar_rear_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v596.obj) sur [`CAR_body_tail_face_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v596.obj) (39 sommets), bandeau de bouclier [`CAR_bumper_rear_band_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v596.obj) (7 sommets), et écopes d'évacuation arrière [`CAR_vent_rear_L`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v596.obj) et `CAR_vent_rear_R` (12 sommets). (28 October 2026, 00:56:32 +0100)
+>   * Calandre avant : cadre d'armature [`CAR_grille_frame_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v596.obj) sur la grille inférieure [`CAR_grille_lower_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v596.obj) (30 sommets), bandeau supérieur [`CAR_fascia_front_band_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v596.obj) (8 sommets) et joues d'angles [`CAR_fascia_side_L`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v596.obj) et `CAR_fascia_side_R` (4 sommets). (28 October 2026, 00:56:32 +0100)
+> * **Bilan cumulé des soudures Lego** : plus de 250 sommets de contact sont désormais fusionnés à distance 0,00 mm sur 28 liaisons structurelles fixes de la carrosserie. (28 October 2026, 00:56:32 +0100)
+>
+> ### 2. Métriques mesurées du candidat v596 (28 October 2026, 00:56:32 +0100)
+> * **Silhouette IoU (maintien du sommet record)** : moyenne à **0,9695** (flanc gauche à **0,9736**, flanc droit à **0,9718**, dessous à **0,9745**, dessus à **0,9 (28 October 2026, 00:56:32 +0100)
