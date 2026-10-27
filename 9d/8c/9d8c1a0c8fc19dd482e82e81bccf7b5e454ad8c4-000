@@ -31073,3 +31073,23 @@
 > ### 1. Nœuds Houdini créés et profil de courbes 3D (27 October 2026, 14:57:56 +0100)
 >
 > 1. **Pare-brise modulaire ([`/obj/Component_Windshield_Lego`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/hip/ZenRayMeshes_v535. (27 October 2026, 14:57:56 +0100)
+
+## 27 October 2026, 15:02:25 +0100 : Iteration
+
+<!-- feedback-event:392bee011521c2333fd37c18b7361f8f2573d86927e961b23c6e7876ea8bbec6 (27 October 2026, 15:02:25 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 15:02:25 +0100)
+
+> Reconstitution des composants Lego lunette arrière (/obj/Component_Glass_Rear_Lego) et coffre (/obj/Component_Decklid_Lego) dans Houdini en 100 % quads fermés (848 et 294 quads, score propre 1,0 sur le decklid) avec dégagement d'assemblage et 0 collision sur la colonne vertébrale, livraison v536. (27 October 2026, 15:02:25 +0100)
+
+## 27 October 2026, 15:02:35 +0100 : Iteration
+
+<!-- feedback-event:525d1f32afe8a01c646bcd6751d1e9514bd0959734ba6c7b95a29b7fa831b3ff (27 October 2026, 15:02:35 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 15:02:35 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 15:02:35 +0100)
+
+> ### Reconstitution autonome dans Houdini : composants Lego lunette arrière et coffre (v536) (27 October 2026, 15:02:35 +0100)
+>
+> En application stricte de la **règle 125 (Transformers et Lego)** et de la cadence élevée demandée sur les grandes formes visibles, la partie arrière supérieure a été entièrement reconstruite directement dans Houdini sous forme de composants modulaires fermés 100 % quads. (27 October 2026, 15:02:35 +0100)
+>
+> La colonne vertébrale complète de la carrosserie : (27 October 2026, 15:02:35 +0100)
+> **Capot $\rightarrow$ Pare-brise (27 October 2026, 15:02:35 +0100)
