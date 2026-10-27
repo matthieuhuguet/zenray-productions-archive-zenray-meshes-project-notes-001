@@ -30019,3 +30019,11 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (27 October 2026, 01:59:39 +0100)
 
 > Maintenant la consignation de v477 (skill, mémoire, journal), puis je continue. (27 October 2026, 01:59:39 +0100)
+
+## 27 October 2026, 02:24:28 +0100 : Iteration
+
+<!-- feedback-event:8cc6d2eb60dbc9fe3fd12d9f7a03647c8964e5895facb4558351117929389cdd (27 October 2026, 02:24:28 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 02:24:28 +0100)
+- Source: checkpoint:claude:09d15ec8-88ad-4965-a2f0-80b68515e880. (27 October 2026, 02:24:28 +0100)
+
+> Voiture v480 : fautes absolues 5566 (v470) vers 2387 (moins 57 pour cent), visibles 2,45 pour cent (limite 2), anneau d'arche 7,26 (limite 5), audit des six vues identique (0,9696 / 0,887 / 0,81). Outils : FloorRemesh.py, TailFace min_col_gap_m, PlanarizeQuads.py, RelaxQuads.py (laplace, glissement, regular), CleanChain.sh, tous gardes face par face, plafond 8 mm depuis l'ancre. Skill sections 118 a 123. Prochain geste : fautes de connectivite du bord des arches (poles sur pli, angles), decision de Matthieu sur l'exemption des fins de boucle. (27 October 2026, 02:24:28 +0100)
