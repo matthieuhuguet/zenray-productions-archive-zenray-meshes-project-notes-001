@@ -31302,3 +31302,11 @@
 > 1. **20e porte senior validée avec marge confortable** : (27 October 2026, 15:54:03 +0100)
 >    - `quality.fold_p95_deg` : chute de 6,34° à **4,86°** (seuil senior fixé à $\le 6,00^\circ$). (27 October 2026, 15:54:03 +0100)
 >    - **Total des portes validées** : **20 portes sur (27 October 2026, 15:54:03 +0100)
+
+## 27 October 2026, 16:13:43 +0100 : Prompt
+
+<!-- feedback-event:57e0785caf8839a1cd0a217ac0bffc8891494be40ec04c73d077acbbf6195a89 (27 October 2026, 16:13:43 +0100) -->
+- Project: zenray-meshes; kind: prompt. (27 October 2026, 16:13:43 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 16:13:43 +0100)
+
+> Là, je pense que ce qu'il faudrait focus, c'est vraiment l'avant du capot tout en maintenant le cron. Mais compare vraiment les références et tout. Parce que j'ai l'impression qu'en termes de components, t'as pas exactement compris. Et t'as aussi à... Comment dire ? Au fur et à mesure, en fait, t'as supprimé des vues dans l'éditeur pour que la modélisation s'affine, en fait. Du coup, en fait, il y a encore des couches ou sous-couches qui se parallélisent. Enfin, qui se... Comment dire ? Dont les overlaps se touchent parce que t'as pas supprimé certaines faces. Et en fait, t'as besoin de supprimer certaines faces au fur et à mesure. (27 October 2026, 16:13:43 +0100)
