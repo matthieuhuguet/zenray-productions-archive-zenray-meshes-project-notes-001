@@ -34868,3 +34868,13 @@
 > J’ai chargé dans Houdini le candidat **v565**, avec un capot plus étroit et un bord avant courbé. La silhouette mesurée passe de 0,9636 à 0,9637 et le score des traits de 0,864 à 0,868. Le contrôle ciblé ne détecte plus de croisement autour du capot, mais il ne couvre pas tous les recouvrements. (27 October 2026, 18:57:56 +0100)
 >
 > La [comparaison aux six vues](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Delivery_v565_vs_ref.png) montre que l’objectif reste ouvert : **1 201 faces sont encore signalées**, et la ressemblance à 99,9 % n’est pas démontrée. Le candidat reste masqué dans Houdini, sans remplacer la version précédente. (27 October 2026, 18:57:56 +0100)
+
+## 27 October 2026, 19:01:03 +0100 : Iteration
+
+<!-- feedback-event:22ad08b8929fbbb4da8b7984603381e8ca6283dfb1ab92f1f1d43b7fe0869109 (27 October 2026, 19:01:03 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 19:01:03 +0100)
+- Source: /Users/zenray/.codex/sessions/2026/10/27/rollout-2026-10-27T13-02-38-01a17d3d-b439-7f01-bbb4-7ff8aff96cab.jsonl. (27 October 2026, 19:01:03 +0100)
+
+> J’ai construit dans Houdini un panneau avant séparé et réglable. Le candidat v567 améliore le score des traits de face de **0,828 à 0,861**, sans changement mesuré de la silhouette globale. Le contrôle ciblé ne détecte plus de croisement avec ses voisins, mais il ne couvre pas tous les recouvrements possibles. (27 October 2026, 19:01:03 +0100)
+>
+> La [comparaison aux six vues](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Delivery_v567_vs_ref.png) et la [scène d’étude](/Users/zenray/.claude/tmp/tmp-zenray-meshes/hip/ZenRayMeshes_v567_study.hip) sont enregistrées. Le candidat reste à examiner aux jointures ; **1 201 faces sont encore signalées et les 99,9 % ne sont pas atteints**. (27 October 2026, 19:01:03 +0100)
