@@ -31183,3 +31183,56 @@
 >    - Les plis non-planaires excessifs chutent de 552 à 330 (222 plis aplanis). (27 October 2026, 15:29:47 +0100)
 >
 > 2. **Relaxation laplacienne sélective ([`RelaxQuads.py`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/RelaxQuads.py))** : (27 October 2026, 15:29:47 +0100)
+
+## 27 October 2026, 15:40:49 +0100 : Iteration
+
+<!-- feedback-event:acd6673204d90e053c9adae993dcc7acc6725f4631a70a3437e1a9d4feff901d (27 October 2026, 15:40:49 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 15:40:49 +0100)
+
+> Symétrisation des 5 sommets aberrants de carrosserie et validation intégrale de la porte de symétrie : symmetry.mirror_max_mm abaissé de 31,00 mm à 8,83 mm (seuil <= 10 mm) et mirror_p99_mm à 0,26 mm (seuil <= 3 mm), portant les portes validées à 18 sur 21 dans AnimReview, livraison v542. (27 October 2026, 15:40:49 +0100)
+
+## 27 October 2026, 15:40:59 +0100 : Iteration
+
+<!-- feedback-event:46c4d10bea2205dc552beaab12e5165774a9f0d43fd34df358d31ef4c304ce54 (27 October 2026, 15:40:59 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 15:40:59 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 15:40:59 +0100)
+
+> ### Symétrisation des points aberrants et validation intégrale de la porte de symétrie (v542) (27 October 2026, 15:40:59 +0100)
+>
+> En poursuite de la boucle autonome et sans attendre d'arbitrage, le diagnostic approfondi des critères d'évaluation senior a identifié la cause exacte du dépassement de la porte de symétrie (`symmetry.mirror_max_mm`) : sur 95 48 (27 October 2026, 15:40:59 +0100)
+
+## 27 October 2026, 15:44:44 +0100 : Iteration
+
+<!-- feedback-event:40c209253c5c2bbd5a3056d70fe31ef4568835087f115e1002a74a5ddafcbbb7 (27 October 2026, 15:44:44 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 15:44:44 +0100)
+
+> Relaxation profonde sous symétrie bilatérale stricte : fautes visibles abaissées à 2,04 % (1 510 faces fautives, 53 éliminées), score propre atteignant un record de 0,97885, critères de symétrie 100 % validés (mirror_max_mm 8,83 mm, p99 0,71 mm), livraison v543. (27 October 2026, 15:44:44 +0100)
+
+## 27 October 2026, 15:44:54 +0100 : Iteration
+
+<!-- feedback-event:6b4c1f41baf3c388134e68d87e44e7be1281271f5bfc2a06aeaab13e6630f617 (27 October 2026, 15:44:54 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 15:44:54 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 15:44:54 +0100)
+
+> ### Relaxation profonde sous symétrie bilatérale stricte : fautes visibles abaissées à 2,04 % (v543) (27 October 2026, 15:44:54 +0100)
+>
+> En poursuite de la boucle autonome, une passe de relaxation approfondie (`iters = 40`, `step = 0,25`, `crease-deg = 35`) combinée à un recalage de symétrie miroir immédiat a été exécutée. Elle élimine 53 faces fautives supplémentaires tout en verrouillant la conformité bilatérale. (27 October 2026, 15:44:54 +0100)
+>
+> --- (27 October 2026, 15:44:54 +0100)
+>
+> ### 1. Progression topologique et métriques senior ([`Review_v543_sym.json`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Review_v543_sym.json)) (27 October 2026, 15:44:54 +0100)
+>
+> 1. **Fautes visibles au plus bas historique** : (27 October 2026, 15:44:54 +0100)
+>    - `topology.fault_pct_visible` : passe de 2,10 % à **2,04 %** (1 510 faces fautives sur 74 200 visibles, seuil senior fixé à 2,00 %). (27 October 2026, 15:44:54 +0100)
+>    - `score_clean` : progresse à **0,97885** (nouveau record absolu de propreté du maillage, 1 905 faces en erreur totales). (27 October 2026, 15:44:54 +0100)
+>
+> 2. **Critères de symétrie 100 % validés** : (27 October 2026, 15:44:54 +0100)
+>    - `symmetry.mirror_max_mm` : maintenu à **8,83 mm** (seuil exigé $\le 10,0\text{ mm}$). (27 October 2026, 15:44:54 +0100)
+>    - `symmetry.mirror_p99_mm` : **0,71 mm** (seuil exigé $\le 3,0\text{ mm}$). (27 October 2026, 15:44:54 +0100)
+>    - 18 portes validées sur 21 dans AnimReview. (27 October 2026, 15:44:54 +0100)
+>
+> 3. **Topologie 100,000 % quads et 0 triangle ([`ZenRayCar_v543.obj`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v543.obj))** : (27 October 2026, 15:44:54 +0100)
+>    - Quads purs : **90 063 (100,0000 %)**. (27 October 2026, 15:44:54 +0100)
+>    - Triangles : **0**. Ngons : **0**. Fissures : **0**. Non-manifold : **0**. (27 October 2026, 15:44:54 +0100)
+>
+> 4. **Jeu d'assemblage et intégrité Lego ([`assembly_check_v543.json`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/work/car/ (27 October 2026, 15:44:54 +0100)
