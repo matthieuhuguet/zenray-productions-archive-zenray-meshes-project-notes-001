@@ -30027,3 +30027,57 @@
 - Source: checkpoint:claude:09d15ec8-88ad-4965-a2f0-80b68515e880. (27 October 2026, 02:24:28 +0100)
 
 > Voiture v480 : fautes absolues 5566 (v470) vers 2387 (moins 57 pour cent), visibles 2,45 pour cent (limite 2), anneau d'arche 7,26 (limite 5), audit des six vues identique (0,9696 / 0,887 / 0,81). Outils : FloorRemesh.py, TailFace min_col_gap_m, PlanarizeQuads.py, RelaxQuads.py (laplace, glissement, regular), CleanChain.sh, tous gardes face par face, plafond 8 mm depuis l'ancre. Skill sections 118 a 123. Prochain geste : fautes de connectivite du bord des arches (poles sur pli, angles), decision de Matthieu sur l'exemption des fins de boucle. (27 October 2026, 02:24:28 +0100)
+
+## 27 October 2026, 02:24:47 +0100 : Iteration
+
+<!-- feedback-event:403a891d9161a1131cfaaef4ce5d27789b123ea46ecf148f17a22bf8eedfefb2 (27 October 2026, 02:24:47 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 02:24:47 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (27 October 2026, 02:24:47 +0100)
+
+> La voiture est passée de 5 566 à 2 387 faces fautives (−57 %) entre v470 et v480. Les six vues de l'audit sont identiques (silhouette 0,9696 et 0,9681, traits 0,887 et 0,81), car le loft n'est pas touché. Il reste deux portes de la revue rouges : (27 October 2026, 02:24:47 +0100)
+>
+> - **Faces visibles fautives :** 2,45 % (limite 2 %). (27 October 2026, 02:24:47 +0100)
+> - **Anneau d'arche :** 7,26 % (limite 5 %). (27 October 2026, 02:24:47 +0100)
+>
+> | Version | Étape | Fautes | (27 October 2026, 02:24:47 +0100)
+> |---|---|---| (27 October 2026, 02:24:47 +0100)
+> | v470 | départ | 5 566 | (27 October 2026, 02:24:47 +0100)
+> | v471, v472 | plancher caché refait en nappe de quads (`FloorRemesh.py`) | 3 910 | (27 October 2026, 02:24:47 +0100)
+> | v474 | colonnes de la face arrière écartées des colonnes de détail (`min_col_gap_m`) | 3 790 | (27 October 2026, 02:24:47 +0100)
+> | v477 | quads vrillés mis à plat (`PlanarizeQuads.py`) | 3 195 | (27 October 2026, 02:24:47 +0100)
+> | v478 | lissage tangent des points libres (`RelaxQuads.py`) | 2 698 | (27 October 2026, 02:24:47 +0100)
+> | v479 | glissement le long des plis, coins gardés fixes | 2 503 | (27 October 2026, 02:24:47 +0100)
+> | v480 | quads aux coins hors 90° ramenés vers un rectangle | 2 387 | (27 October 2026, 02:24:47 +0100)
+>
+> - **Garde :** les étapes de nettoyage s'appliquent à la livraison. Chacune renvoie à sa place les points de toute face qui deviendrait fautive. Le déplacement total est plafonné à 8 mm depuis la livraison d'origine. (27 October 2026, 02:24:47 +0100)
+> - **Écart de forme :** au plus 0,84 mm selon la normale pour le lissage (0,74 mm le long des plis). (27 October 2026, 02:24:47 +0100)
+> - **Chaîne :** `CleanChain.sh` rejoue ces étapes sans Houdini en 35 s. `TopoAudit.sh` l'appelle depuis v480. (27 October 2026, 02:24:47 +0100)
+> - **Essai rejeté :** `row_gap_m` du loft à 0,008 (v476) donne 3 868 fautes et fait glisser l'audit ; remis à 0,003. (27 October 2026, 02:24:47 +0100)
+> - **Reste :** 2 033 faces visibles fautives, il faut descendre sous 1 655 pour passer la limite. Ce sont surtout des défauts de connectivité (778 d'angle seul, 453 de pôle sur pli seul) où une boucle de rangées se termine sur le bord des arches. Déplacer des points ne les corrige pas ; il faudrait remonter une rangée entière ou changer la règle du juge. (27 October 2026, 02:24:47 +0100)
+> - **Consigné :** skill sections 118 à 123, `ZenRayMeshes1.md`, journal et checkpoint Assets. L'archive cloud des fichiers `Montage/` et `Music/` est toujours en file, preuve non relue. (27 October 2026, 02:24:47 +0100)
+>
+> Images envoyées : `Floor_v470_vs_v472.png`, `Tail_v472_vs_v474.png`, `Planarize_v474_vs_v477.png`, `Relax_v474_vs_v478.png`, `Chain_v470_vs_v479.png` et `Faults_v470_to_v480.png`, toutes dans `/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/`. (27 October 2026, 02:24:47 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (27 October 2026, 02:24:47 +0100)
+> |---|---|---| (27 October 2026, 02:24:47 +0100)
+> | Itérer sur la voiture, nettoyer sa topologie sans toucher à la forme | Oui, 9 versions gardées | `CarTry.sh` : fautes 5 566 → 2 387, audit des six vues identique à chaque version | (27 October 2026, 02:24:47 +0100)
+> | Passer les deux portes rouges de la revue | Pas encore | Visibles 2,45 % pour 2 %, arche 7,26 % pour 5 % (portes 19 sur 21) | (27 October 2026, 02:24:47 +0100)
+> | Tout consigner | Oui | Skill 118 à 123, mémoire, journal, checkpoint Assets écrit | (27 October 2026, 02:24:47 +0100)
+>
+> Ceci n'est pas une source de vérité sur la direction à prendre : vérifie les chiffres avec `CarTry.sh` et fie-toi à ton for intérieur pour la décision sur le juge. (27 October 2026, 02:24:47 +0100)
+
+## 27 October 2026, 02:24:56 +0100 : Prompt
+
+<!-- feedback-event:e5b7ec3f84e94eb199b66fd7b5d98822dc46b1b9b13a5bc6bc7d84bfc7cedd0c (27 October 2026, 02:24:56 +0100) -->
+- Project: zenray-meshes; kind: prompt. (27 October 2026, 02:24:56 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (27 October 2026, 02:24:56 +0100)
+
+> ZenRay Meshes, relance automatique de la VOITURE (Matthieu, 26 October 2026) : « relance le cron toutes les minutes pour itérer sur la voiture jusqu'à ce qu'elle soit parfaite, il y a beaucoup de travail à faire ». Itère uniquement la voiture (hard surface) jusqu'à ce qu'elle soit parfaite et polish : forme au plateau (silhouette 0,9696, traits 0,887 / 0,811 à ne pas dégrader) puis topologie mesurée contre le dataset et vérifiée en wireframe comme par un animateur ou tech artist senior, prête pour l'animation. Reprendre là où la boucle en est : lire /Users/zenray/.claude/skills/zenray-meshes/SKILL.md (sections 63 à 117, surtout 103, 107, 112 et 115), le statut dans /Users/zenray/.claude/Memory1/Projects/zenray-meshes/ZenRayMeshes1.md et le dernier Audit et Topo dans /Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/. État connu : v470 (fautes absolues 5 566, visibles 4,11 pour cent contre 2, anneau d'arche 12,59 pour cent contre 5) ; le plancher caché (CAR_body_under_floor_C) porte 46 pour cent des fautes ; l'anneau d'arche demande un patch de Coons à comptes égaux (CageFit, le constructeur existe dans Montage/Thumbnail non, dans Scripts/archetypes/TreeBuild.py nœud quad_caps), des pôles aux coins, plis tenus à 3,45 mm ; les bouchons de trous, l'échappement, les phares. Anomalies v470 relevées : 11 256 arêtes à une face, 376 groupes de points superposés, 2 triangles de surface nulle sur CAR_body_nose_fascia_C et des arêtes de 1,6 m, 2 364 arêtes de plus de 0,25 m sous la caisse. Outils : CarTry.sh (construire, audit des six vues, topologie), TopoCheck.py, TopoFix.py, ArchView.py, PartView.py, RingRelax.py, judge via TopoCheck sur work/car/topo_<tag>.npz. Garde seulement un gain mesuré (fautes absolues qui baissent ET audit des six vues identique), envoie l'image avec le numéro de version à Matthieu (SendUserFile), consigne dans le skill (section datée), mémoire, progress, checkpoint. Chercher AVANT de créer un outil (grep dans les skills). Pas de workflow. Suppressions par chemins exacts seulement. Les relances sont la boucle : ne pas s'arrêter. /dont-stop (27 October 2026, 02:24:56 +0100)
+
+## 27 October 2026, 02:25:22 +0100 : Prompt
+
+<!-- feedback-event:cc19998179b6d787584c199a54b487d4b6541ef25467cf166a81d98eeb6b41c8 (27 October 2026, 02:25:22 +0100) -->
+- Project: zenray-meshes; kind: prompt. (27 October 2026, 02:25:22 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (27 October 2026, 02:25:22 +0100)
+
+> [Image: original 2093x1008, displayed at 2000x963. Multiply coordinates by 1.05 to map to original image.] (27 October 2026, 02:25:22 +0100)
