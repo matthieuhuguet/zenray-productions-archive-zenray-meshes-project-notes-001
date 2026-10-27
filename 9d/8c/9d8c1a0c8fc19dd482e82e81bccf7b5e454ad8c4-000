@@ -30927,3 +30927,89 @@
 > - **Revue senior (`AnimReview`)** : 20 portes validées sur 21, la coque du coffre satisfaisant désormais le test d'étanchéité des coques fermées requises. (27 October 2026, 14:25:16 +0100)
 > - **Silhouette (`SheetScore`)** : IoU moyen de silhouette conservé à **0,9692**, F1 des lignes arrière à **0,908** avec rappel de **0,948**. (27 October 2026, 14:25:16 +0100)
 > - **Houdini live** : `/obj/ZRM_CarReview/IN_delivery` actualisé avec delivery_v532.npz, scène sauvegardée dans [`/Users/zenray/.claude/tmp/tmp-zenray-meshes/hip/ZenRayMeshes_v532.hip`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/hip/ZenRayMeshes_v532.hip) et capture du viewport enregistrée dans [`/ (27 October 2026, 14:25:16 +0100)
+
+## 27 October 2026, 14:30:33 +0100 : Iteration
+
+<!-- feedback-event:2472e2b7a8f12e33a57d60593d378a3f5ade2a8424b1ee38513d307f13043064 (27 October 2026, 14:30:33 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 14:30:33 +0100)
+- Source: checkpoint:antigravity:c1a6145e-c0a4-4812-b9ce-51db18c27b5b. (27 October 2026, 14:30:33 +0100)
+
+> Intégration de la lunette arrière fermée par guide NURBS 3D avec zéro collision et pic de silhouette à 0.9693. (27 October 2026, 14:30:33 +0100)
+
+## 27 October 2026, 14:30:48 +0100 : Prompt
+
+<!-- feedback-event:32aa6315dfe3492e8ef81b90fcdc31269b860f1df7f8bea5e433d0c977f2e622 (27 October 2026, 14:30:48 +0100) -->
+- Project: zenray-meshes; kind: prompt. (27 October 2026, 14:30:48 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 14:30:48 +0100)
+
+> Est-ce que tu appliques la logique Transformers et Lego pour tous les components? J'ai l'impression que là, tu recrées des components, que la topologie n'est même pas forcément meilleure. Et que, ouais, en fait, là, on est dans un cadre où il faut découper tous les components de la voiture par rapport à une sheet qui aurait été refaite et itérer parfaitement sur chaque component. Parce que là, je sais pas, j'ai l'impression que tu fais de la merde, en fait. (27 October 2026, 14:30:48 +0100)
+
+## 27 October 2026, 14:32:34 +0100 : Prompt
+
+<!-- feedback-event:b7b0b2b64530ea2f7210293ce386752c30dd77af0aff594345dc1bfc4e2f6f3a (27 October 2026, 14:32:34 +0100) -->
+- Project: zenray-meshes; kind: prompt. (27 October 2026, 14:32:34 +0100)
+
+> Est-ce que tu appliques la logique Transformers et Lego pour tous les components? J'ai l'impression que là, tu recrées des components, que la topologie n'est même pas forcément meilleure. Et que, ouais, en fait, là, on est dans un cadre où il faut découper tous les components de la voiture par rapport à une sheet qui aurait été refaite et itérer parfaitement sur chaque component. Parce que là, je sais pas, j'ai l'impression que tu fais de la merde, en fait. (27 October 2026, 14:32:34 +0100)
+
+## 27 October 2026, 14:32:34 +0100 : Iteration
+
+<!-- feedback-event:c2155a17efe8d000663c8c990ca7adbbb6f48f28151e2bb0a1c0b9b0b71e117d (27 October 2026, 14:32:34 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 14:32:34 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 14:32:34 +0100)
+
+> Tu as totalement raison, et ton constat est exact : ce n'était pas la vraie logique Transformers et Lego, c'était du rapiéçage procédural sur un bloc uni. (27 October 2026, 14:32:34 +0100)
+>
+> ### 1. Le diagnostic lucide de ce qui n'allait pas (27 October 2026) (27 October 2026, 14:32:34 +0100)
+>
+> Le script `GuidePanel.py` ne construisait pas les pièces depuis la référence visuelle : (27 October 2026, 14:32:34 +0100)
+> 1. **Héritage d'un vieux maillage uni** : il prenait les sommets d'un ancien assemblage polygonal automatique (`loft_v2.npz`), ajustait une surface B-spline dessus, puis échantillonnait une grille uniforme de 40 × 16 quads. (27 October 2026, 14:32:34 +0100)
+> 2. **Topologie aveugle aux lignes de style** : une grille régulière de 40 × 16 quads ne suit ni les plis de carrosserie, ni les arêtes de carre (27 October 2026, 14:32:34 +0100)
+
+## 27 October 2026, 14:32:59 +0100 : Iteration
+
+<!-- feedback-event:ef0aed413bc5c86491e50812e75ab4c7929a1ae3c4095f0972c84ca74778e5bd (27 October 2026, 14:32:59 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 14:32:59 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 14:32:59 +0100)
+
+> Le prompt et le diagnostic sont enregistrés dans le journal de bord. Pour engager ce pivot Transformers et Lego sans perdre de temps : (27 October 2026, 14:32:59 +0100)
+>
+> ### Les deux voies pour repartir proprement (27 October 2026) (27 October 2026, 14:32:59 +0100)
+>
+> 1. **Option 1 : Générer la planche de décomposition en composants modulaires (27 October 2026, 14:32:59 +0100)
+
+## 27 October 2026, 14:33:20 +0100 : Iteration
+
+<!-- feedback-event:b7052fd380f28a8e142415a04576d256ae64e0cbd6651301c60ca7d327531a07 (27 October 2026, 14:33:20 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 14:33:20 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 14:33:20 +0100)
+
+> Voici le prompt compact prêt à copier et coller directement dans ChatGPT (avec l'image source [`06_Car_6views_25-October-2026.png`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/refs/objects/06_Car/06_Car_6views_25-October-2026.png)) pour obtenir la planche de décomposition éclatée selon les règles [`prompt-components-houdini`](file:///Users/zenray/.claude/skills/prompt-components-houdini/SKILL.md) et [`zenray-houdini-prompt-components-grey-mesh`](file:///Users/zenray/.claude/skills/zenray-houdini-prompt-components-grey-mesh/SKILL.md) : (27 October 2026, 14:33:20 +0100)
+>
+> ```text (27 October 2026, 14:33:20 +0100)
+> À partir de l'image globale de voiture de sport 6 vues jointe, décompose cette carrosserie en composants 3D modulaires séparés, pensés pour être assemblés et désassemblés comme des pièces de Lego ou des éléments de carrosserie de Transformers : (27 October 2026, 14:33:20 +0100)
+>
+> 1. Crée une infographie éclatée montrant chaque composant modulaire autonome en maillage géométrique gris mat uniforme (clay render / lambert render, style Maya ou Houdini sans aucune texture, sans couleur de matériau ni affichage UV). (27 October 2026, 14:33:20 +0100)
+> 2. Chaque pièce doit être représentée démontée et séparée de ses voisines : le capot avant (Component_Hood), le bouclier avant avec calandre et splitter (Component_Bumper_Front), les ailes avant gauche et droite (Component_Fender_Front_L et R), les portières avec rétroviseurs (Component_Door_L et R), le pare-brise (Component_Windshield), le pavillon de toit (Component_Roof), les ailes arrière et contreforts (Component_Quarter_Rear_L et R), la lunette arrière (Component_Glass_Rear), le coffre / pont arrière (Component_Decklid), le diffuseur arrière et feux (Component_Bumper_Rear), les bas de caisse (Component_Rocker_L et R) et les roues complètes démontées (jantes, (27 October 2026, 14:33:20 +0100)
+
+## 27 October 2026, 14:34:21 +0100 : Iteration
+
+<!-- feedback-event:53493ebfcfe89ee2a93bc4a41582d5582d2b36f05f0a397d46f500c123548492 (27 October 2026, 14:34:21 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 14:34:21 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 14:34:21 +0100)
+
+> En attente de ton arbitrage (Option 1 avec la planche éclatée ou Option 2 directement dans Houdini). (27 October 2026, 14:34:21 +0100)
+>
+> Pendant ce temps, les courbes 3D maîtresses de carrosserie sont déjà identifiées et prêtes dans [`design_curves_side_world.json`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/work/car/lines/design_curves_side_world.json) et [`design_curves_top_world.json`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/work/car/lines/design_curves_top_world.json) : (27 October 2026, 14:34:21 +0100)
+> - `plan_hood_edge`, `plan_cowl`, `plan_outline_front` pour isoler le capot (`Component_Hood`) (27 October 2026, 14:34:21 +0100)
+> - `door_front_joint`, `door_rear_joint`, `dlo_bottom`, `sill_crease` pour isoler la porte (`Component_Door_L`) (27 October 2026, 14:34:21 +0100)
+> - `dlo_top`, `plan_roof_front`, `plan_roof_rear` pour le pavillon de toit (`Component_Roof`) (27 October 2026, 14:34:21 +0100)
+>
+> Dès que tu donnes le feu vert, on reconstruit le premier composant modulaire autonome de zéro. (27 October 2026, 14:34:21 +0100)
+
+## 27 October 2026, 14:35:00 +0100 : Iteration
+
+<!-- feedback-event:a25b7a0bdd500f4abc713905db8a617f2817d07363635211cb3a5bc7e82d9265 (27 October 2026, 14:35:00 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 14:35:00 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 14:35:00 +0100)
+
+> État inchangé : en attente du choix de Matthieu (Option 1 : planche de décomposition, ou Option 2 : courbes directes dans Houdini). Prêt à démarrer immédiatement. (27 October 2026, 14:35:00 +0100)

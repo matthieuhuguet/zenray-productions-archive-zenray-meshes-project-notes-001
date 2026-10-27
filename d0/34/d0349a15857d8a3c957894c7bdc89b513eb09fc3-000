@@ -1,16 +1,16 @@
-# Resume zenray-meshes (27 October 2026 at 14:25)
+# Resume zenray-meshes (27 October 2026 at 14:30)
 
-- Generated from FEEDBACK.md, Rules.md and ConversationIndex.json; derived, never edited by hand, never a substitute for the originals. (27 October 2026 at 14:25)
-- Pinned rules, read first: [Rules.md](/Users/zenray/.claude/Memory1/Projects/zenray-meshes/Rules.md) (28 rules). (27 October 2026 at 14:25)
-- Canonical feedback: [FEEDBACK.md](/Users/zenray/.claude/Memory1/Projects/zenray-meshes/FEEDBACK.md), 1562 entries, last Iteration at 27 October 2026, 14:24:59 +0100. (27 October 2026 at 14:25)
+- Generated from FEEDBACK.md, Rules.md and ConversationIndex.json; derived, never edited by hand, never a substitute for the originals. (27 October 2026 at 14:30)
+- Pinned rules, read first: [Rules.md](/Users/zenray/.claude/Memory1/Projects/zenray-meshes/Rules.md) (28 rules). (27 October 2026 at 14:30)
+- Canonical feedback: [FEEDBACK.md](/Users/zenray/.claude/Memory1/Projects/zenray-meshes/FEEDBACK.md), 1564 entries, last Iteration at 27 October 2026, 14:30:33 +0100. (27 October 2026 at 14:30)
 
-## Latest conversations (27 October 2026 at 14:25)
+## Latest conversations (27 October 2026 at 14:30)
 
-- LATEST antigravity:c1a6145e-c0a4-4812-b9ce-51db18c27b5b, last activity 27 October 2026 at 14:24 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs antigravity:c1a6145e-c0a4-4812-b9ce-51db18c27b5b --out <file.md>`. (27 October 2026 at 14:25)
-- gemini:c1a6145e-c0a4-4812-b9ce-51db18c27b5b, « [$zenray-resume-coordinator](/Users/zenray/.codex/skills/zenray-resume », last activity 27 October 2026 at 14:19 Paris (from transcript). Original: `node scripts/Assets/ConversationDigest.mjs gemini:c1a6145e-c0a4-4812-b9ce-51db18c27b5b --out <file.md>`. (27 October 2026 at 14:25)
-- codex:01a17d3d-b439-7f01-bbb4-7ff8aff96cab, « Conversation codex 01a17d3d », last activity 27 October 2026 at 14:08 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs codex:01a17d3d-b439-7f01-bbb4-7ff8aff96cab --out <file.md>`. (27 October 2026 at 14:25)
+- LATEST antigravity:c1a6145e-c0a4-4812-b9ce-51db18c27b5b, last activity 27 October 2026 at 14:30 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs antigravity:c1a6145e-c0a4-4812-b9ce-51db18c27b5b --out <file.md>`. (27 October 2026 at 14:30)
+- gemini:c1a6145e-c0a4-4812-b9ce-51db18c27b5b, « [$zenray-resume-coordinator](/Users/zenray/.codex/skills/zenray-resume », last activity 27 October 2026 at 14:25 Paris (from transcript). Original: `node scripts/Assets/ConversationDigest.mjs gemini:c1a6145e-c0a4-4812-b9ce-51db18c27b5b --out <file.md>`. (27 October 2026 at 14:30)
+- codex:01a17d3d-b439-7f01-bbb4-7ff8aff96cab, « Conversation codex 01a17d3d », last activity 27 October 2026 at 14:08 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs codex:01a17d3d-b439-7f01-bbb4-7ff8aff96cab --out <file.md>`. (27 October 2026 at 14:30)
 
-## Last 6 prompts of Matthieu, oldest first (27 October 2026 at 14:25)
+## Last 6 prompts of Matthieu, oldest first (27 October 2026 at 14:30)
 
 ### 27 October 2026, 14:04:55 +0100 · Prompt · codex:01a17d3d
 
@@ -63,33 +63,33 @@
 > [... 465 more characters in FEEDBACK.md]
 
 
-## Last 3 iterations or checkpoints (27 October 2026 at 14:25)
-
-### 27 October 2026, 14:18:43 +0100 · Iteration · checkpoint antigravity:c1a6145e
-
-> Intégration du pare-brise et du toit par guides NURBS natifs 3D avec dégagement d interface et suppression des collisions d assemblage.
-
-### 27 October 2026, 14:19:17 +0100 · Iteration · antigravity:c1a6145e
-
-> ### Avancement ZenRay Meshes : voiture v531, pare-brise et toit (27 October 2026)
-> 
-> Conformément à la consigne de cadence élevée de Matthieu, les pièces majeures visibles suivantes, le pare-brise et le toit, ont été reconstruites sous forme de surfaces NURBS continues fermées, éliminant les pièces polygonales non guidées et résolvant les collisions d'assemblage.
-> 
-> #### 1. Remplacement par guides NURBS natifs (27 October 2026)
-> - **Pare-brise (`CAR_body_glass_windshield_C`)** : les 5 174 faces non guidées ont été remplacées par la surface issue de `/obj/ZRM_WindshieldGuides/OUT_panel` (1 392 quads fermés).
-> - **Toit (`CAR_body_roof_C`)** : les 3 550 faces non guidées ont été remplacées par la sur
-> [... 209 more characters in FEEDBACK.md]
+## Last 3 iterations or checkpoints (27 October 2026 at 14:30)
 
 ### 27 October 2026, 14:24:59 +0100 · Iteration · checkpoint antigravity:c1a6145e
 
 > Intégration du coffre arrière fermé par guide NURBS 3D avec zéro collision d assemblage et baisse des fautes à 1943.
 
+### 27 October 2026, 14:25:16 +0100 · Iteration · antigravity:c1a6145e
 
-## Last order of work (27 October 2026 at 14:25)
+> ### Avancement ZenRay Meshes : voiture v532, coffre arrière fermé et zéro collision (27 October 2026)
+> 
+> Poursuite immédiate de la boucle agentique à cadence élevée sur les grandes formes visibles : le coffre arrière (`CAR_body_decklid_C`) a été reconstruit sous forme de coque NURBS fermée paramétrée, éliminant l'ancien panneau ouvert non étanche et supprimant l'intégralité des collisions avec les pièces voisines.
+> 
+> #### 1. Reconstitution du coffre par guide NURBS (27 October 2026)
+> - **Remplacement de pièce** : l'ancien maillage de hayon ouvert (378 faces) issu du loft initial a été remplacé par une coque fermée et orientée de 1 392 quads.
+> - **Bornage précis d'assemblage** : Z borné entre -2,09
+> [... 1544 more characters in FEEDBACK.md]
+
+### 27 October 2026, 14:30:33 +0100 · Iteration · checkpoint antigravity:c1a6145e
+
+> Intégration de la lunette arrière fermée par guide NURBS 3D avec zéro collision et pic de silhouette à 0.9693.
+
+
+## Last order of work (27 October 2026 at 14:30)
 
 ### 26 October 2026, 21:00:47 +0100 · Order of work · claude:09d15ec8
 
 > [Image: original 3168x688, displayed at 2000x434. Multiply coordinates by 1.58 to map to original image.]
 
 
-Next step: reread the latest prompt above, check it against Rules.md, then continue; append through feedback.py and close the turn with Client.mjs checkpoint. (27 October 2026 at 14:25)
+Next step: reread the latest prompt above, check it against Rules.md, then continue; append through feedback.py and close the turn with Client.mjs checkpoint. (27 October 2026 at 14:30)
