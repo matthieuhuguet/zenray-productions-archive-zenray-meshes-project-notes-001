@@ -31050,3 +31050,26 @@
 > Le premier composant modulaire autonome a été reconstruit de zéro directement dans Houdini dans un nœud dédié ([`/obj/Component_Hood_Lego`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/hip/ZenRayMeshes_v534.hip)), sans hériter d'un seul sommet du vieux `loft_v2.npz`. (27 October 2026, 14:41:59 +0100)
 >
 > #### 1. Courbes 3D maîtresses croisées depuis les (27 October 2026, 14:41:59 +0100)
+
+## 27 October 2026, 14:56:37 +0100 : Iteration
+
+<!-- feedback-event:868ae454181c3b3e848b62f323ff351e8a40abc7b676135ff303e1f6e084e586 (27 October 2026, 14:56:37 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 14:56:37 +0100)
+
+> Reconstitution des composants Lego pare-brise (/obj/Component_Windshield_Lego) et toit (/obj/Component_Roof_Lego) dans Houdini en 100 % quads fermés (848 quads chacun, score propre 1,0 sur le toit) avec dégagement d'assemblage et 0 collision d'interface, livraison v535. (27 October 2026, 14:56:37 +0100)
+
+## 27 October 2026, 14:57:56 +0100 : Iteration
+
+<!-- feedback-event:0456530fcf4a7e7b64d5c477abd74abb1a5e155c732285cb3753c13d7bff7bf0 (27 October 2026, 14:57:56 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 14:57:56 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 14:57:56 +0100)
+
+> ### Reconstitution autonome dans Houdini : composants Lego pare-brise et toit (v535) (27 October 2026, 14:57:56 +0100)
+>
+> En application stricte de la **règle 125 (Transformers et Lego)** et de la priorité donnée aux grandes formes visibles (capot, pare-brise, toit), le pare-brise et le toit ont été reconstruits de zéro comme des composants modulaires indépendants dans la scène Houdini en direct. (27 October 2026, 14:57:56 +0100)
+>
+> --- (27 October 2026, 14:57:56 +0100)
+>
+> ### 1. Nœuds Houdini créés et profil de courbes 3D (27 October 2026, 14:57:56 +0100)
+>
+> 1. **Pare-brise modulaire ([`/obj/Component_Windshield_Lego`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/hip/ZenRayMeshes_v535. (27 October 2026, 14:57:56 +0100)
