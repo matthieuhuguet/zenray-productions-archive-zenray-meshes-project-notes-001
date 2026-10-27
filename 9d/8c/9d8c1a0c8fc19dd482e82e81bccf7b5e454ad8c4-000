@@ -31277,3 +31277,28 @@
 >    - Triangles : **0**. Ngons : **0**. Fissures : **0**. Non-manifold : **0**. (27 October 2026, 15:49:31 +0100)
 >
 > 5. **Intégrité d'assemblage et silhouette ([`assembly_check_v544.json`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/work/car/assembly_check_v544.json) et [`score (27 October 2026, 15:49:31 +0100)
+
+## 27 October 2026, 15:53:54 +0100 : Iteration
+
+<!-- feedback-event:6bf4a3a8b813831aa5bf36e0186818a2402dc2286bfb2f287cab168e1b19d2d6 (27 October 2026, 15:53:54 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 15:53:54 +0100)
+
+> Validation du critère senior de pliure (quality.fold_p95_deg à 4,86° contre <= 6,00°) et 20 portes validées sur 21 dans AnimReview, score propre dépassant 0,98 à 0,98003 (1 799 erreurs), livraison v545. (27 October 2026, 15:53:54 +0100)
+
+## 27 October 2026, 15:54:03 +0100 : Iteration
+
+<!-- feedback-event:6800833d5f841f4f3189285d313e9b40a9c756ebf808592078cf85ae03caf898 (27 October 2026, 15:54:03 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 15:54:03 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 15:54:03 +0100)
+
+> ### Validation du critère senior de pliure (4,86°) et 20 portes validées sur 21 (v545) (27 October 2026, 15:54:03 +0100)
+>
+> En poursuite de la boucle autonome, l'analyse approfondie de la fonction de planarisation a révélé que [`PlanarizeQuads.py`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/PlanarizeQuads.py) ciblait par défaut un angle de 17°, laissant intacts les quads pliés entre 6° et 17°. En abaissant le seuil cible à 5,5° (`--target-deg 5.5`, `--max-mm 6`, `--step 0.35`, `--iters 60`), les quads plissés ont été aplanis sous contrôle de non-régression. (27 October 2026, 15:54:03 +0100)
+>
+> --- (27 October 2026, 15:54:03 +0100)
+>
+> ### 1. Bilan d'évaluation senior ([`Review_v545.json`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Review_v545.json)) (27 October 2026, 15:54:03 +0100)
+>
+> 1. **20e porte senior validée avec marge confortable** : (27 October 2026, 15:54:03 +0100)
+>    - `quality.fold_p95_deg` : chute de 6,34° à **4,86°** (seuil senior fixé à $\le 6,00^\circ$). (27 October 2026, 15:54:03 +0100)
+>    - **Total des portes validées** : **20 portes sur (27 October 2026, 15:54:03 +0100)
