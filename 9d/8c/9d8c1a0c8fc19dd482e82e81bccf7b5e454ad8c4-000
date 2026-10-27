@@ -29995,3 +29995,27 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (27 October 2026, 01:26:48 +0100)
 
 > Gain mesuré : v471 passe de 5 566 à 4 043 fautes, avec l'audit des six vues identique. J'envoie l'image du plancher reconstruit puis je consigne. (27 October 2026, 01:26:48 +0100)
+
+## 27 October 2026, 01:36:51 +0100 : Prompt
+
+<!-- feedback-event:3cd2639d8df54cfe84fd305cc2609bff74dae810bb6fb654ddfd459f215e48bf (27 October 2026, 01:36:51 +0100) -->
+- Project: zenray-meshes; kind: prompt. (27 October 2026, 01:36:51 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (27 October 2026, 01:36:51 +0100)
+
+> [Image: original 2996x906, displayed at 2000x605. Multiply coordinates by 1.50 to map to original image.] (27 October 2026, 01:36:51 +0100)
+
+## 27 October 2026, 01:53:25 +0100 : Prompt
+
+<!-- feedback-event:fa74145abe5b556ccc41f152a7facbe68bc3069022a044a7e89d9472c4b6e48e (27 October 2026, 01:53:25 +0100) -->
+- Project: zenray-meshes; kind: prompt. (27 October 2026, 01:53:25 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (27 October 2026, 01:53:25 +0100)
+
+> [Image: original 3157x451, displayed at 2000x286. Multiply coordinates by 1.58 to map to original image.] (27 October 2026, 01:53:25 +0100)
+
+## 27 October 2026, 01:59:39 +0100 : Iteration
+
+<!-- feedback-event:382184f00475e4be2c94c543a00f73335d995ecb6d1bb7cc657335e9891cc251 (27 October 2026, 01:59:39 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 01:59:39 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (27 October 2026, 01:59:39 +0100)
+
+> Maintenant la consignation de v477 (skill, mémoire, journal), puis je continue. (27 October 2026, 01:59:39 +0100)
