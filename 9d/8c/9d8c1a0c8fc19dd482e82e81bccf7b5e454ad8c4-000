@@ -31662,3 +31662,11 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-afedd5b3fad8456e0.jsonl. (27 October 2026, 16:48:16 +0100)
 
 > The 4.18% ring figure appears in no v546 file. Both the review and audit report 5.35% as FAIL. The silhouette figure is not in the v546 review files either. I'll check the remaining silhouette and line metrics across the tmp folder. (27 October 2026, 16:48:16 +0100)
+
+## 27 October 2026, 16:48:37 +0100 : Iteration
+
+<!-- feedback-event:be07425025355030c8fc4fa49e339aa2fda6b7494c9c4bd5b7568f9914f86b01 (27 October 2026, 16:48:37 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 16:48:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/subagents/agent-afedd5b3fad8456e0.jsonl. (27 October 2026, 16:48:37 +0100)
+
+> The 0.9636 silhouette figure is the mean_raw of score_delivery_v545.json, not a v546 measurement, so I'll flag it. Last, I'll measure the face counts across the v529 to v546 transition and confirm the v482 fault count from its audit. (27 October 2026, 16:48:37 +0100)
