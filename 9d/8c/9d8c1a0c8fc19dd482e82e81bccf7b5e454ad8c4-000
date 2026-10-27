@@ -35492,3 +35492,22 @@
 - Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 21:57:37 +0100)
 
 > C'est pas exactement cette méthode dont je parlais. En fait, je parlais plutôt d'une méthode en mode tu prends le wireframe rouge. Je vais essayer d'expliquer très. Et en fait, tous les points du wireframe rouge, puisqu'ils ont une vue 3D, tu peux déterminer une matrice X, Y, Z sur chacun des points. Et ensuite, ça peut créer chacun des points actuels pour créer pour créer des guides, en fait, directement. Ou pour créer un loft à partir de tous les points générés. Et ensuite, t'as plus qu'à prendre les contours extérieurs, plus certains, certains points à l'intérieur. Et... En fait, c'est comme si tu dessinais une grille de points dans un espace volumétrique 3D. Et en fait, tu peux pas te tromper sur la grille de points générée. Mais à mon avis, c'est un algorithme assez long à imaginer. Mais il peut se baser directement sur la sheet. Et sur la sheet, tu peux noter les points. Et ensuite, tu testes par rapport à nos autres méthodes pour savoir si cette méthode peut augmenter le score. (27 October 2026, 21:57:37 +0100)
+
+## 27 October 2026, 22:07:46 +0100 : Iteration
+
+<!-- feedback-event:a071cd5a214a0a52b999f9d1d44d8dc7641bebdd36b928b162386ecc47944af7 (27 October 2026, 22:07:46 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 22:07:46 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 22:07:46 +0100)
+
+> La méthode **M21** (reconstruction d'une grille volumétrique 3D par multi-intersection de rayons sur le fil de fer rouge de `ref3.png`) a été implémentée, mesurée et intégrée dans la livraison **v580**, synchronisée en direct dans la session Houdini. (27 October 2026, 22:07:46 +0100)
+>
+> ### Ce qui a été construit et mesuré (27 October 2026, 22:07:46 +0100)
+>
+> 1. **Amincissement morphologique pur à 1 pixel** ([`WireframeExtractor.py`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/WireframeExtractor.py)) : (27 October 2026, 22:07:46 +0100)
+>    - Traitement par squelettisation stricte des six vues de [`06_Car_topology_ref3_27-October-2026.png`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/refs/objects/06_Car/06_Car_topology_ref3_27-October-2026.png). (27 October 2026, 22:07:46 +0100)
+>    - Détection de tous les carrefours topologiques (degré $\ge 3$) : 713 nœuds en vue avant, 677 en arrière, 684 en profil gauche, 723 en profil droit, 1 068 en vue de dessus, 935 en vue de dessous. (27 October 2026, 22:07:46 +0100)
+>
+> 2. **Intersection multi-vues et rejet des rayons fantômes** ([`VolumetricWireframeReconstruct.py`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/VolumetricWireframeReconstruct.py)) : (27 October 2026, 22:07:46 +0100)
+>    - Rétroprojection métrique des nœuds $(u, v)$ en rayons 3D via les matrices de caméra exactes de [`frame.json`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/work/car/frame/frame.json). (27 October 2026, 22:07:46 +0100)
+>    - L'appariement longitudinal $(X, Z)$ dessus avec $(Z, Y)$ profil gauche/droit produit des points candidats validés s'ils tombent à moins de 3,5 pixels d'un trait filaire en vue avant/arrière (12 572 points bruts confirmés par 3 vues). (27 October 2026, 22:07:46 +0100)
+>    - Élimination des rayons fantômes internes par filtre de proximité de coque extérieure ($< 55\text{ mm}$), puis clustering spatial par voxels de $30\text{ mm}$ pour obtenir **4 355 sommets 3D uniques** formant la grille volumétrique. Fichiers générés : [`volumetric_wireframe_lattice_v580.npz`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/work/car/volumetric_wireframe_lattice_v580.npz) et [`VolumetricWireframeLattice_v58 (27 October 2026, 22:07:46 +0100)

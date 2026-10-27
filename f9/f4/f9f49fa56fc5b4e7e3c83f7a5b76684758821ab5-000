@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-10-27T21:03:03.797Z",
+ "scannedAt": "2026-10-27T21:09:02.230Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
@@ -37,17 +37,17 @@
   },
   {
    "projectId": "zenray-meshes",
-   "lines": 29,
-   "work": 29,
+   "lines": 30,
+   "work": 30,
    "prompts": 0,
    "first": "2026-10-27T13:05:35.620Z",
-   "last": "2026-10-27T20:54:23.559Z",
+   "last": "2026-10-27T21:07:46.957Z",
    "strength": "strong",
    "conversationId": "gemini:c1a6145e-c0a4-4812-b9ce-51db18c27b5b",
    "provider": "gemini",
    "sessionId": "c1a6145e-c0a4-4812-b9ce-51db18c27b5b",
-   "title": "[$zenray-resume-coordinator](/Users/zenray/.codex/skills/zenray-resume-coordinator/SKILL.md) [$zenray-meshes](/Users/zenray/.codex/skills/ze",
-   "updatedAt": "2026-10-27T20:57:37.203544+00:00",
+   "title": "n'oublie pas le cron : Poursuis ZenRay Meshes dans cette conversation en lisant le dernier état et le skill /Users/zenray/.claude/skills/zen",
+   "updatedAt": "2026-10-27T21:07:46.957643+00:00",
    "bytes": 87419576,
    "boundProject": "zenray-meshes"
   },
