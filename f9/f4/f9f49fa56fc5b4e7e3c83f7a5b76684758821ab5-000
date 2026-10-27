@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-10-27T22:11:18.703Z",
+ "scannedAt": "2026-10-27T22:13:18.205Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
@@ -48,7 +48,7 @@
    "sessionId": "c1a6145e-c0a4-4812-b9ce-51db18c27b5b",
    "title": "Là, je pense que ce qu'il faudrait focus, c'est vraiment l'avant du capot tout en maintenant le cron. Mais compare vraiment les références e",
    "updatedAt": "2026-10-27T22:02:06.824940+00:00",
-   "bytes": 90759104,
+   "bytes": 91152320,
    "boundProject": "zenray-meshes"
   },
   {
