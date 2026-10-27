@@ -31163,3 +31163,23 @@
 - Project: zenray-meshes; kind: iteration. (27 October 2026, 15:29:26 +0100)
 
 > Planarisation et relaxation contrôlées des quads : score propre porté de 0,97594 à 0,97826 dans Houdini (209 faces fautives éliminées sous garde stricte de non-régression, quads à pli > 20° abaissés de 552 à 330), 100,000 % quads et 0 triangle maintenus, livraison v541. (27 October 2026, 15:29:26 +0100)
+
+## 27 October 2026, 15:29:47 +0100 : Iteration
+
+<!-- feedback-event:37757bce4ced9e3f9b73809d84ba3e28910e0e29804520a3aed4c51925067a0f (27 October 2026, 15:29:47 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 15:29:47 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 15:29:47 +0100)
+
+> ### Planarisation et relaxation contrôlées des quads : score propre porté à 0,97826 (v541) (27 October 2026, 15:29:47 +0100)
+>
+> En poursuite de la boucle autonome et sans attendre d'arbitrage, une passe combinée de planarisation et de relaxation a été appliquée à l'assemblage de carrosserie sous garde stricte de non-régression, éliminant 209 faces fautives supplémentaires tout en conservant 100,000 % de quads purs. (27 October 2026, 15:29:47 +0100)
+>
+> --- (27 October 2026, 15:29:47 +0100)
+>
+> ### 1. Amélioration de la qualité de surface et topologie ([`ZenRayMeshes_v541.hip`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/hip/ZenRayMeshes_v541.hip)) (27 October 2026, 15:29:47 +0100)
+>
+> 1. **Planarisation sous contrainte de garde ([`PlanarizeQuads.py`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/PlanarizeQuads.py))** : (27 October 2026, 15:29:47 +0100)
+>    - Les quads présentant un angle de pli supérieur à 20° sont redressés vers leur plan moyen (déplacement maximal plafonné à 5,0 mm, déplacement moyen de 0,83 mm sur 1 899 sommets ajustés). (27 October 2026, 15:29:47 +0100)
+>    - Les plis non-planaires excessifs chutent de 552 à 330 (222 plis aplanis). (27 October 2026, 15:29:47 +0100)
+>
+> 2. **Relaxation laplacienne sélective ([`RelaxQuads.py`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/RelaxQuads.py))** : (27 October 2026, 15:29:47 +0100)
