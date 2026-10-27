@@ -34923,3 +34923,40 @@
 >
 >
 > Le but actuel, c'est vraiment d'aller reproduire le modèle à 99,9% sans t'arrêter par rapport à l'amélioration des choses. (27 October 2026, 19:27:51 +0100)
+
+## 27 October 2026, 19:44:00 +0100 : Iteration
+
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 19:44:00 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 19:44:00 +0100)
+
+> ### Relève multi-agents, élévation coordonnée de traverse haute et livraison v577 (27 October 2026, 19:44:00 +0100)
+>
+> 1. **Relève du travail Codex/ChatGPT** : reprise du fil après arrêt à 19:11 Paris par quota. Intégration de la base v567 (panneau de face CAR_body_fascia_panel_C de 248 quads portant le F1 de face de 0,828 à 0,861). (27 October 2026, 19:44:00 +0100)
+> 2. **Diagnostic géométrique de la traverse haute** : l'analyse comparative avec 00_front_rgb.png a montré que la traverse haute de pare-brise dans le modèle était située 7,9 cm trop bas (py = 116,3 contre py = 103 dans la référence), tandis que le cowl était déjà parfaitement calé à py = 177. (27 October 2026, 19:44:00 +0100)
+> 3. **Élévation coordonnée et livraison v577** : élévation combinée de la traverse haute, du bord de pavillon et des rails à Z = 0,375 m avec jeu de dégagement latéral. (27 October 2026, 19:44:00 +0100)
+> 4. **Scores records mesurés** : (27 October 2026, 19:44:00 +0100)
+>    - F1 des lignes de face : bond de **0,861 à 0,907** (rappel à 93,7 %). F1 moyen à **0,881**. (27 October 2026, 19:44:00 +0100)
+>    - IoU de silhouette moyen : **0,9645** (dessus 0,9734, flanc gauche 0,9645, flanc droit 0,9616). (27 October 2026, 19:44:00 +0100)
+>    - AnimReview : **21 portes sur 21 validées (100 % all_pass)**, 90 291 quads purs (100,000 %, 0 triangle), score_clean à 0,98670, fautes visibles à 1,35 % (seuil senior <= 2,00 %). (27 October 2026, 19:44:00 +0100)
+> 5. **Houdini live** : scène sauvegardée dans `hip/ZenRayMeshes_v577.hip`, nœud `kept_latest` pointé sur `versions/ZenRayCar_v577.obj`, rendu hero dans `versions/Hero_delivery_v577.png` (178 Ko) et planches 6 vues `Delivery_v577_vs_ref.png` et `Line_v577.png`. (27 October 2026, 19:44:00 +0100)
+
+## 27 October 2026, 19:45:15 +0100 : Iteration
+
+<!-- feedback-event:a6173dc2df64b49c47ab6e66a1912c8b5789ea176ccf56ea585532cec93a5da4 (27 October 2026, 19:45:15 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 19:45:15 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 19:45:15 +0100)
+
+> ### Relève multi-agents et passage à la version v577 (27 October 2026) (27 October 2026, 19:45:15 +0100)
+>
+> Le transcript de la session parallèle (Codex / ChatGPT, interrompue à 19:11 Paris par épuisement de quota) a été intégralement analysé via le coordinateur.  (27 October 2026, 19:45:15 +0100)
+>
+> --- (27 October 2026, 19:45:15 +0100)
+>
+> ### 1. Analyse du travail de la session précédente (27 October 2026, 19:45:15 +0100)
+>
+> 1. **Intégration validée (v567)** : (27 October 2026, 19:45:15 +0100)
+>    - Ajout d'une coque de calandre indépendante `CAR_body_fascia_panel_C` (248 quads) via [`Scripts/FrontFasciaPanel.py`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/FrontFasciaPanel.py). (27 October 2026, 19:45:15 +0100)
+>    - Le score F1 des lignes de face est passé de 0,828 à **0,861** et le F1 moyen à **0,874**, sans collision détectée. (27 October 2026, 19:45:15 +0100)
+> 2. **Essais rejetés (v571 à v576)** : (27 October 2026, 19:45:15 +0100)
+>    - Tentative de relèvement du cowl de pare-brise par déformation globale (`WindshieldCowlLift.py`). (27 October 2026, 19:45:15 +0100)
+>    - (27 October 2026, 19:45:15 +0100)
