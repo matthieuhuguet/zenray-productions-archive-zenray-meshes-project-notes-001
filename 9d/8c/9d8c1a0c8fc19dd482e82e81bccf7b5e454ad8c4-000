@@ -35293,3 +35293,41 @@
 > --- (27 October 2026, 21:40:29 +0100)
 >
 > ### 2. Le mécanisme de la nouvelle méthode (M19 : R (27 October 2026, 21:40:29 +0100)
+
+## 27 October 2026, 21:42:47 +0100 : Prompt
+
+<!-- feedback-event:05d16ca48be0c0ca50503b01063baec7c379d02aa2734be21e0aa844f3aba210 (27 October 2026, 21:42:47 +0100) -->
+- Project: zenray-meshes; kind: prompt. (27 October 2026, 21:42:47 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (27 October 2026, 21:42:47 +0100)
+
+> J'ai une idée simplement sur la ligne d'ajout pour la topologie. En fait, il faudrait simplement dire un truc du genre wireframe fin qui symbolise la topologie, mais par contre, tous les wireframes seraient en rouge vif, comme ça, ça permet... comme ça, ça permet directement de faire une méthodologie sur l'outil ZenRay Meshes qui permettrait de reproduire avec une précision mathématique l'effet wireframe. Mais en soi, j'ai vraiment juste à dire, par exemple, fais une topologie parfaite comme l'aurait fait un texte artiste senior et l'IA, y a pas trop de différence dans le prompting. De la topologie en soi.  Rouge pur vif (#FF0000 edit la ligne (27 October 2026, 21:42:47 +0100)
+
+## 27 October 2026, 21:42:38 +0100 : Iteration
+
+<!-- feedback-event:042f0c7781d2f5f19663b140172ca4474c00ab042b027a0fcfb563c3bc0c988c (27 October 2026, 21:42:38 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 21:42:38 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 21:42:38 +0100)
+
+> L'outil de la méthode M19 [`WireframeExtractor.py`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/WireframeExtractor.py) a été développé et validé sur le banc d'essai : (27 October 2026, 21:42:38 +0100)
+>
+> 1. **Détection multi-signatures opérationnelle :** extraction automatique par soustraction orthogonale de canaux (Rouge vif, Vert fluo, Jaune vif ou Blanc pur) avec repli adaptatif pour les planches en niveaux de gris. (27 October 2026, 21:42:38 +0100)
+> 2. **Découpage et masquage 6 vues :** les masques filaires et les nœuds de jonction 2D sont extraits et enregistrés dans [`/Users/zenray/.claude/tmp/tmp-zenray-meshes/work/car/views_wire/`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/work/car/views_wire/). (27 October 2026, 21:42:38 +0100)
+> 3. **Surveillant actif :** la boucle d'automatisation continue [`/dont-stop`](file:///Users/zenray/.claude/skills/dont-stop/SKILL.md) (tâche `task-2921`) veille en tâche de fond jusqu'à 8 h demain matin (28 October 2026). (27 October 2026, 21:42:38 +0100)
+>
+> Dès que tu as généré ta planche avec le fil de fer coloré, dépose-la dans [`Downloads/`](file:///Users/zenray/Downloads/) ou dans [`refs/objects/06_Car/`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/refs/objects/06_Car/). Le pipeline la prendra en charge immédiatement pour la rétroprojection 3D à 0,99+. (27 October 2026, 21:42:38 +0100)
+
+## 27 October 2026, 21:42:54 +0100 : Iteration
+
+<!-- feedback-event:bb90e8b6c93b1afdf25583315687ed972f3195c1bb4dde56503bb5c45bb73a95 (27 October 2026, 21:42:54 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 21:42:54 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (27 October 2026, 21:42:54 +0100)
+
+> Voici la ligne d'ajout, toujours une seule, à insérer juste après « affichage » : (27 October 2026, 21:42:54 +0100)
+>
+> > **topologie = topologie parfaite comme l'aurait faite un tech artist senior hard surface en 2026, rendue en wireframe fin d'un rouge pur vif #FF0000 uniquement (aucun autre rouge ailleurs sur l'image, lignes d'un pixel de large, sans anti-crénelage coloré, sans ombre sur le fil)** ; (27 October 2026, 21:42:54 +0100)
+>
+> - **Le rouge pur.** Il permet d'isoler le wireframe dans la planche par un simple seuil de couleur. ZenRay Meshes lit ensuite les arêtes en pixels, puis compare leur flux au maillage reconstruit. (27 October 2026, 21:42:54 +0100)
+> - **Pas de rouge dans l'asset.** Une carrosserie rouge brouillerait ce seuil, d'où la mention « aucun autre rouge ailleurs ». Pour une voiture rouge, je suggère un gris viewport comme affichage de base. (27 October 2026, 21:42:54 +0100)
+> - **Pas de règle détaillée.** Je n'ai gardé que « topologie parfaite comme l'aurait faite un senior », comme vous le proposez. Les règles (pôles, boucles de maintien, multiples de 8) restent du côté de TopoCheck, pas du prompt. (27 October 2026, 21:42:54 +0100)
+>
+> Je n'ai rien écrit dans ZenRay Houdini, comme convenu. (27 October 2026, 21:42:54 +0100)
