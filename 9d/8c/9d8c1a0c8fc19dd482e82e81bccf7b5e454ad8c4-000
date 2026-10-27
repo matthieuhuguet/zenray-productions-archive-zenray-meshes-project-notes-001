@@ -35511,3 +35511,23 @@
 >    - Rétroprojection métrique des nœuds $(u, v)$ en rayons 3D via les matrices de caméra exactes de [`frame.json`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/work/car/frame/frame.json). (27 October 2026, 22:07:46 +0100)
 >    - L'appariement longitudinal $(X, Z)$ dessus avec $(Z, Y)$ profil gauche/droit produit des points candidats validés s'ils tombent à moins de 3,5 pixels d'un trait filaire en vue avant/arrière (12 572 points bruts confirmés par 3 vues). (27 October 2026, 22:07:46 +0100)
 >    - Élimination des rayons fantômes internes par filtre de proximité de coque extérieure ($< 55\text{ mm}$), puis clustering spatial par voxels de $30\text{ mm}$ pour obtenir **4 355 sommets 3D uniques** formant la grille volumétrique. Fichiers générés : [`volumetric_wireframe_lattice_v580.npz`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/work/car/volumetric_wireframe_lattice_v580.npz) et [`VolumetricWireframeLattice_v58 (27 October 2026, 22:07:46 +0100)
+
+## 27 October 2026, 22:17:10 +0100 : Iteration
+
+<!-- feedback-event:d9f57f561aa2667c68dc7b7e6739f8b2d8dbed989ac00c0dd1797e58c66665ef (27 October 2026, 22:17:10 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 22:17:10 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 22:17:10 +0100)
+
+> La boucle autonome a franchi un nouveau jalon avec la livraison **v581**, intégrant l'harmonisation de l'assiette aérodynamique (*rake angle*) et le calage précis de la hauteur de pavillon. (27 October 2026, 22:17:10 +0100)
+>
+> ### Ce qui a été accompli et mesuré (27 October 2026, 22:17:10 +0100)
+>
+> 1. **Diagnostic et réglage de l'assiette (*rake angle*)** ([`BuildDeliveryV581.py`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/BuildDeliveryV581.py)) : (27 October 2026, 22:17:10 +0100)
+>    - L'analyse des profils inférieurs de [`06_Car_topology_ref3_27-October-2026.png`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/refs/objects/06_Car/06_Car_topology_ref3_27-October-2026.png) a mis en évidence l'assiette plongeante du dessin technique : la lame avant est basse ($Y = 0,113\text{ m}$), les bas de caisse latéraux sont à mi-hauteur ($Y = 0,124\text{ m}$), et le diffuseur arrière remonte haut ($Y = 0,157\text{ m}$). (27 October 2026, 22:17:10 +0100)
+>    - La lame inférieure `CAR_splitter_blade_C` a été ajustée à $Y = 0,142\text{ m}$ (au lieu de $0,165\text{ m}$), ce qui comble le jour visible à l'avant tout en restant au-dessus de la ligne de visée arrière sous le diffuseur. Le score IoU de la face avant progresse nettement de **0,9608 à 0,9640**. (27 October 2026, 22:17:10 +0100)
+>
+> 2. **Calage du dôme de pavillon à 1,348 m** : (27 October 2026, 22:17:10 +0100)
+>    - 807 sommets du pavillon `CAR_body_roof_C` ont été calés pour que le point culminant atteigne $Y = 1,348\text{ m}$, correspondant exactement au barycentre mesuré entre la vue de profil ($1,352\text{ m}$) et la vue arrière ($1,334\text{ m}$). (27 October 2026, 22:17:10 +0100)
+>    - Ce calage supprime 240 pixels de manque sur la voûte du pavillon, hissant les scores de silhouette des deux flancs à **0,9679** (gauche) et **0,9663** (droit). (27 October 2026, 22:17:10 +0100)
+>
+> 3. **Nouveau record métrique global** ([`Audit_v58 (27 October 2026, 22:17:10 +0100)
