@@ -34968,3 +34968,16 @@
 - Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 20:20:16 +0100)
 
 > Mais non, mais pas du tout, mais de toute manière, il faut que tu consignes. Mais de toute manière, tu vois bien dans le workflow et dans la scène que c'est pas du tout bon. On est très très loin du résultat final. Là. Il faut que tous les components soient propres et parfaits en fait. Que la topologie soit soudée. Là je vois encore qu'il y a des trous entre les éléments. Que tout soit démontable en termes de pivot, etc. Qu'il n'y ait plus aucun problème de jonction. Bref, il y a encore énormément de taf. Il faut que la topologie, tu la regardes en mode wireframe et qu'elle soit parfaite, en fait. Elle est parfaite, ça t'aide pas vraiment, mais par exemple, n'importe quelle voiture, tu tapes car 3D topologie sur Google pour un car, tu vas voir à quoi ça ressemble. Normalement, c'est hyper propre. Normalement, c'est hyper propre, et du coup, bah, là, c'est ce qu'il faut faire, en fait. Il faut faire une topologie parfaite. Après, j'ai pas forcément la topologie pour le modèle en question. Mais, en tout cas, il faut que la topologie soit parfaite. Avec des quads, etc., que ça suive les Z-flows de la voiture. Et en tout cas, de toute manière, on n'est pas encore au niveau proche de... Au niveau proche de... Comment ça s'appelle? On n'est pas encore au niveau en termes de... De forme, ne serait-ce que globalement. Donc, tous les components... De toute manière, tu reprends la sheet et tu compares tous les components, etc. Et de toute manière, le skill ZenRay Meshes doit te... Enfin, tout doit être consigné dans l'algorithme, quoi. Donc, tu vois bien qu'on n'est pas du tout arrivé. De toute manière, tu relances la boucle à l'infini.  car on peut toujours améliorer les choses. De toute manière, il faut améliorer les choses. (27 October 2026, 20:20:16 +0100)
+
+## 27 October 2026, 20:53:43 +0100 : Iteration
+
+<!-- feedback-event:52ecf8e6ddde7589301e84b015fc5b33b1024c2b93e450d5c25f24eed17e4128 (27 October 2026, 20:53:43 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 20:53:43 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 20:53:43 +0100)
+
+> La candidate **v578** de ZenRay Meshes est finalisée, auditée, synchronisée dans la session live de Houdini et documentée dans le skill ainsi que dans le journal chronologique global. (27 October 2026, 20:53:43 +0100)
+>
+> ### Résumé des réalisations techniques (27 October 2026) (27 October 2026, 20:53:43 +0100)
+>
+> 1. **Fermeture du jour de 45 mm entre le capot et l'aile (shutlines réalistes de 2,0 mm) :** (27 October 2026, 20:53:43 +0100)
+>    - En v577, l'arête latérale du capot s'arrêtait à $X = 0,6656\text{ m}$ à $Z = 2,01\text{ m}$, alors que l'aile montait à $X = 0,7088\text{ m}$, laissant un gouffre bé (27 October 2026, 20:53:43 +0100)
