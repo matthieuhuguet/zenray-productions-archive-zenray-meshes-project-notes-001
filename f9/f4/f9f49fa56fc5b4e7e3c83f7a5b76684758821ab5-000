@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-10-27T21:50:57.529Z",
+ "scannedAt": "2026-10-27T22:09:10.062Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
@@ -37,18 +37,18 @@
   },
   {
    "projectId": "zenray-meshes",
-   "lines": 25,
-   "work": 25,
+   "lines": 30,
+   "work": 30,
    "prompts": 0,
-   "first": "2026-10-27T14:10:08.466Z",
-   "last": "2026-10-27T21:48:45.325Z",
+   "first": "2026-10-27T14:13:35.449Z",
+   "last": "2026-10-27T22:00:31.074Z",
    "strength": "strong",
    "conversationId": "gemini:c1a6145e-c0a4-4812-b9ce-51db18c27b5b",
    "provider": "gemini",
    "sessionId": "c1a6145e-c0a4-4812-b9ce-51db18c27b5b",
-   "title": "Conversation Gemini c1a6145e",
-   "updatedAt": "2026-10-27T21:50:57.430Z",
-   "bytes": 70724560,
+   "title": "Là, je pense que ce qu'il faudrait focus, c'est vraiment l'avant du capot tout en maintenant le cron. Mais compare vraiment les références e",
+   "updatedAt": "2026-10-27T22:02:06.824940+00:00",
+   "bytes": 90431424,
    "boundProject": "zenray-meshes"
   },
   {
