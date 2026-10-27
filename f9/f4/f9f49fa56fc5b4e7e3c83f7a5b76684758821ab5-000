@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-10-27T20:55:05.391Z",
+ "scannedAt": "2026-10-27T20:57:05.721Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
@@ -48,7 +48,7 @@
    "sessionId": "c1a6145e-c0a4-4812-b9ce-51db18c27b5b",
    "title": "[$zenray-resume-coordinator](/Users/zenray/.codex/skills/zenray-resume-coordinator/SKILL.md) [$zenray-meshes](/Users/zenray/.codex/skills/ze",
    "updatedAt": "2026-10-27T20:54:23.559838+00:00",
-   "bytes": 86305128,
+   "bytes": 61907808,
    "boundProject": "zenray-meshes"
   },
   {
