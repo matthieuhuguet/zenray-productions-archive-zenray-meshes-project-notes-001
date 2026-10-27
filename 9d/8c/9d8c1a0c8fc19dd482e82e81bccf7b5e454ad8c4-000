@@ -31236,3 +31236,44 @@
 >    - Triangles : **0**. Ngons : **0**. Fissures : **0**. Non-manifold : **0**. (27 October 2026, 15:44:54 +0100)
 >
 > 4. **Jeu d'assemblage et intégrité Lego ([`assembly_check_v543.json`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/work/car/ (27 October 2026, 15:44:54 +0100)
+
+## 27 October 2026, 15:49:19 +0100 : Iteration
+
+<!-- feedback-event:9ccd8281d52e8a08adebecdc4b4bf73be105d0db1236a22c5ca36f6285f7ce35 (27 October 2026, 15:49:19 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 15:49:19 +0100)
+
+> Franchissement du seuil senior des fautes visibles (1,97 % contre <= 2,00 %) et 19 portes validées sur 21 dans AnimReview, score propre atteignant 0,97968 (1 830 erreurs totales), symétrie et 100,000 % quads parfaits maintenus, livraison v544. (27 October 2026, 15:49:19 +0100)
+
+## 27 October 2026, 15:49:31 +0100 : Iteration
+
+<!-- feedback-event:1faae34776a8d624cb5e2c1f8bc1e2774963b23c4398c654edc12cece7ca89f8 (27 October 2026, 15:49:31 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 15:49:31 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (27 October 2026, 15:49:31 +0100)
+
+> ### Franchissement du seuil senior des fautes visibles (1,97 %) et 19 portes validées sur 21 (v544) (27 October 2026, 15:49:31 +0100)
+>
+> En poursuite de la boucle autonome, une passe de relaxation sélective sous garde (`iters = 50`, `step = 0,35`, `max-mm = 10`) suivie du recalage de symétrie miroir a permis de franchir officiellement le plafond senior de 2,00 % sur les fautes visibles. (27 October 2026, 15:49:31 +0100)
+>
+> --- (27 October 2026, 15:49:31 +0100)
+>
+> ### 1. Bilan d'évaluation senior ([`Review_v544.json`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Review_v544.json)) (27 October 2026, 15:49:31 +0100)
+>
+> 1. **Porte critique `topology.fault_pct_visible` validée** : (27 October 2026, 15:49:31 +0100)
+>    - Fautes visibles : passe de 2,04 % à **1,97 %** (seuil exigé $\le 2,00\%$). 75 faces fautives supplémentaires ont été définitivement résolues. (27 October 2026, 15:49:31 +0100)
+>    - Total des portes validées : **19 portes sur 21** passent au vert. (27 October 2026, 15:49:31 +0100)
+>
+> 2. **Nouveau record de propreté globale** : (27 October 2026, 15:49:31 +0100)
+>    - Score propre (`score_clean`) : **0,97968** (les faces en erreur sur l'ensemble de la carrosserie et du liner tombent à 1 830). (27 October 2026, 15:49:31 +0100)
+>    - `topology.fault_pct_hidden` : **2,33 %** (seuil $\le 15\%$). (27 October 2026, 15:49:31 +0100)
+>    - `quality.aspect_fault_pct_visible` : **0,182 %** (seuil $\le 1\%$). (27 October 2026, 15:49:31 +0100)
+>    - `quality.edge_ratio_p95_p50` : **3,04** (seuil $\le 6$). (27 October 2026, 15:49:31 +0100)
+>
+> 3. **Symétrie bilatérale parfaite** : (27 October 2026, 15:49:31 +0100)
+>    - `symmetry.mirror_max_mm` : **8,83 mm** (seuil $\le 10,0\text{ mm}$). (27 October 2026, 15:49:31 +0100)
+>    - `symmetry.mirror_p99_mm` : **1,14 mm** (seuil $\le 3,0\text{ mm}$). (27 October 2026, 15:49:31 +0100)
+>
+> 4. **100,000 % quads et zéro triangle ([`ZenRayCar_v544.obj`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v544.obj))** : (27 October 2026, 15:49:31 +0100)
+>    - Quads purs : **90 063 (100,0000 %)**. (27 October 2026, 15:49:31 +0100)
+>    - Triangles : **0**. Ngons : **0**. Fissures : **0**. Non-manifold : **0**. (27 October 2026, 15:49:31 +0100)
+>
+> 5. **Intégrité d'assemblage et silhouette ([`assembly_check_v544.json`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/work/car/assembly_check_v544.json) et [`score (27 October 2026, 15:49:31 +0100)
