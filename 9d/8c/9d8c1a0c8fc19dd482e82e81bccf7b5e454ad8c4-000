@@ -34718,3 +34718,55 @@
 >   <decision>DONT_NOTIFY</decision> (27 October 2026, 18:41:48 +0100)
 >   <message>La capture Houdini est surexposée et ne permet pas une comparaison fiable ; la forme n’a pas changé.</message> (27 October 2026, 18:41:48 +0100)
 > </heartbeat> (27 October 2026, 18:41:48 +0100)
+
+## 27 October 2026, 18:42:39 +0100 : Prompt
+
+<!-- feedback-event:a533fdecbdf71c7023c265166f276c509dc7a7a9b324e6e3ca653aff74589545 (27 October 2026, 18:42:39 +0100) -->
+- Project: zenray-meshes; kind: prompt. (27 October 2026, 18:42:39 +0100)
+- Source: /Users/zenray/.codex/sessions/2026/10/27/rollout-2026-10-27T13-02-38-01a17d3d-b439-7f01-bbb4-7ff8aff96cab.jsonl. (27 October 2026, 18:42:39 +0100)
+
+> <heartbeat> (27 October 2026, 18:42:39 +0100)
+>   <automation_id>zenray-meshes-voiture</automation_id> (27 October 2026, 18:42:39 +0100)
+>   <current_time_iso>2026-10-27T17:42:39.605Z</current_time_iso> (27 October 2026, 18:42:39 +0100)
+>   <instructions> (27 October 2026, 18:42:39 +0100)
+> Reprends activement ZenRay Meshes : si aucun travail ne tourne, choisis et exécute immédiatement une nouvelle action concrète de modélisation ou de développement de méthode, au-delà de la dernière version, puis mesure le résultat et consigne-le. Ne te limite jamais à consulter ou rapporter la dernière version. Privilégie les grandes formes et le capot continu d'après la référence, puis la topologie, avec Houdini ouvert, captures et comparaison de la livraison réelle. Préserve les versions précédentes et évite les doublons. Continue jusqu'à reproduction prouvée et topologie propre ; respecte les arrêts explicites. Reste silencieux en l'absence de résultat significatif. (27 October 2026, 18:42:39 +0100)
+>   </instructions> (27 October 2026, 18:42:39 +0100)
+> </heartbeat> (27 October 2026, 18:42:39 +0100)
+
+## 27 October 2026, 18:42:46 +0100 : Iteration
+
+<!-- feedback-event:314e6da34ff5d873c3864e3cfc1f5e03b6669c01c6279054ed7dd7a149ba07c7 (27 October 2026, 18:42:46 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 18:42:46 +0100)
+- Source: /Users/zenray/.codex/sessions/2026/10/27/rollout-2026-10-27T13-02-38-01a17d3d-b439-7f01-bbb4-7ff8aff96cab.jsonl. (27 October 2026, 18:42:46 +0100)
+
+> <heartbeat> (27 October 2026, 18:42:46 +0100)
+>   <automation_id>zenray-meshes-voiture</automation_id> (27 October 2026, 18:42:46 +0100)
+>   <decision>DONT_NOTIFY</decision> (27 October 2026, 18:42:46 +0100)
+>   <message>La capture doit être corrigée avant de pouvoir juger la forme ; aucune nouvelle version n’est validée.</message> (27 October 2026, 18:42:46 +0100)
+> </heartbeat> (27 October 2026, 18:42:46 +0100)
+
+## 27 October 2026, 18:43:39 +0100 : Prompt
+
+<!-- feedback-event:244941f9657a9cb843d7bcffe3713ef85bfe2d11afa0b8179f54ffa0ca929fbc (27 October 2026, 18:43:39 +0100) -->
+- Project: zenray-meshes; kind: prompt. (27 October 2026, 18:43:39 +0100)
+- Source: /Users/zenray/.codex/sessions/2026/10/27/rollout-2026-10-27T13-02-38-01a17d3d-b439-7f01-bbb4-7ff8aff96cab.jsonl. (27 October 2026, 18:43:39 +0100)
+
+> <heartbeat> (27 October 2026, 18:43:39 +0100)
+>   <automation_id>zenray-meshes-voiture</automation_id> (27 October 2026, 18:43:39 +0100)
+>   <current_time_iso>2026-10-27T17:43:39.609Z</current_time_iso> (27 October 2026, 18:43:39 +0100)
+>   <instructions> (27 October 2026, 18:43:39 +0100)
+> Reprends activement ZenRay Meshes : si aucun travail ne tourne, choisis et exécute immédiatement une nouvelle action concrète de modélisation ou de développement de méthode, au-delà de la dernière version, puis mesure le résultat et consigne-le. Ne te limite jamais à consulter ou rapporter la dernière version. Privilégie les grandes formes et le capot continu d'après la référence, puis la topologie, avec Houdini ouvert, captures et comparaison de la livraison réelle. Préserve les versions précédentes et évite les doublons. Continue jusqu'à reproduction prouvée et topologie propre ; respecte les arrêts explicites. Reste silencieux en l'absence de résultat significatif. (27 October 2026, 18:43:39 +0100)
+>   </instructions> (27 October 2026, 18:43:39 +0100)
+> </heartbeat> (27 October 2026, 18:43:39 +0100)
+
+## 27 October 2026, 18:43:57 +0100 : Iteration
+
+<!-- feedback-event:48c4487971b68bfc0db42c104932711611d17a9e7e63a254dc2956464bcbd89e (27 October 2026, 18:43:57 +0100) -->
+- Project: zenray-meshes; kind: iteration. (27 October 2026, 18:43:57 +0100)
+- Source: /Users/zenray/.codex/sessions/2026/10/27/rollout-2026-10-27T13-02-38-01a17d3d-b439-7f01-bbb4-7ff8aff96cab.jsonl. (27 October 2026, 18:43:57 +0100)
+
+> <heartbeat> (27 October 2026, 18:43:57 +0100)
+>   <automation_id>zenray-meshes-voiture</automation_id> (27 October 2026, 18:43:57 +0100)
+>   <decision>DONT_NOTIFY</decision> (27 October 2026, 18:43:57 +0100)
+>   <message>La désélection ne suffit pas à rendre la capture lisible ; la comparaison reste fondée sur la planche des six vues.</message> (27 October 2026, 18:43:57 +0100)
+> </heartbeat> (27 October 2026, 18:43:57 +0100)
