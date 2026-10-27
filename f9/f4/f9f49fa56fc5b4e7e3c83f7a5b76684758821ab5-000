@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-10-27T21:19:00.183Z",
+ "scannedAt": "2026-10-27T21:19:57.885Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
@@ -48,7 +48,7 @@
    "sessionId": "c1a6145e-c0a4-4812-b9ce-51db18c27b5b",
    "title": "Est-ce que tu appliques la logique Transformers et Lego pour tous les components? J'ai l'impression que là, tu recrées des components, que l",
    "updatedAt": "2026-10-27T21:17:10.314049+00:00",
-   "bytes": 62563240,
+   "bytes": 83156472,
    "boundProject": "zenray-meshes"
   },
   {
