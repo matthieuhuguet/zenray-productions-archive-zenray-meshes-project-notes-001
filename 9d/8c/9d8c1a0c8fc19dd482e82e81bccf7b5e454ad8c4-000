@@ -36367,3 +36367,47 @@
 > 1. **Sculpture de la cavité d'admission avant (undercut *shark nose*)** : (28 October 2026, 02:12:05 +0100)
 >    - Conformément à ta consigne sur la bouche avant sous le capot, l'analyse comparative contre [`ref3.png`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/refs/objects/06_Car/06_Car_topology_ref3_27-October-2026.png) a mis en évidence un museau plat qui avançait de 45 à 65 mm de trop sur les profils latéraux ($Z \approx +2,24\text{ m}$ au lieu de $Z \in [+2,15, +2,17\text{ m}]$). (28 October 2026, 02:12:05 +0100)
 >    - Recul vers l'intérieur ($-Z$) de 656 sommets de [`CAR_body_fascia_panel_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v605.obj), [`CAR_grille_bar_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v605.obj), [`CAR_grille_frame_C`](file (28 October 2026, 02:12:05 +0100)
+
+## 28 October 2026, 02:19:45 +0100 : Iteration
+
+<!-- feedback-event:b208264ce2830a5a2a5140380b32fcc0bf06b4594be6994dcac5213da7197b52 (28 October 2026, 02:19:45 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 02:19:45 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (28 October 2026, 02:19:45 +0100)
+
+> La candidate **v606** est finalisée, validée à 21/21 portes d'AnimReview, synchronisée dans la session live Houdini et documentée. (28 October 2026, 02:19:45 +0100)
+>
+> Le rapport de livraison complet est accessible dans l'artefact : [ZenRayCar_v606_Delivery_Report.md](file:///Users/zenray/.gemini/antigravity/brain/c1a6145e-c0a4-4812-b9ce-51db18c27b5b/ZenRayCar_v606_Delivery_Report.md). (28 October 2026, 02:19:45 +0100)
+>
+> --- (28 October 2026, 02:19:45 +0100)
+>
+> ### Actions Réalisées sur la Candidate v606 (28 October 2026, 02:19:45 +0100)
+>
+> 1. **Soudures hermétiques du diffuseur arrière (38 sommets à 0,00 mm)** : (28 October 2026, 02:19:45 +0100)
+>    - Prolongement direct du travail de finition des joints : 38 sommets de frontière de [`CAR_diffuser_rear_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v606.obj) ont été soudés à 0,00 mm sur [`CAR_body_tail_face_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v606.obj) avec un seuil strict de 7,0 mm. (28 October 2026, 02:19:45 +0100)
+>    - Fermeture intégrale de la fente ouverte transversale au-dessus du diffuseur, avec 0 arête non-variétale (0 fissure). (28 October 2026, 02:19:45 +0100)
+>
+> 2. **Galbe élargi de la jupe arrière (+12,0 mm)** : (28 October 2026, 02:19:45 +0100)
+>    - Élargissement symétrique de 354 sommets extérieurs de [`CAR_body_tail_face_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v606.obj), [`CAR_body_bumper_rear_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v606.obj) et des écopes [`CAR_vent_rear_L/R`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v606.obj) ($Y \in [0,20, 0,40\text{ m}]$, $Z < -1,95\text{ m}$, $|X| > 0,65\text{ m}$). (28 October 2026, 02:19:45 +0100)
+>    - L'IoU de la vue de dessous progresse à un nouveau record de **0,9747** (+1 point). (28 October 2026, 02:19:45 +0100)
+>
+> 3. **Calibrage des rebords de bas de caisse (+5,5 mm)** : (28 October 2026, 02:19:45 +0100)
+>    - Élargissement de 5,5 mm des 1 108 sommets du flasque extérieur de [`CAR_body_rocker_L/R`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v606.obj) ($|X| > 1,02\text{ m}$, $Y \in [0,20, 0,40\text{ m}]$). (28 October 2026, 02:19:45 +0100)
+>    - Comblement du déficit de 3 à 4 pixels sur les lignes 270 à 280 en vue arrière, hissant l'IoU de la face (28 October 2026, 02:19:45 +0100)
+
+## 28 October 2026, 02:22:57 +0100 : Iteration
+
+<!-- feedback-event:afdfcce18319b5a9e5aa8d083c6956534fd937c9d2ab8e1bdf64f328035f67d7 (28 October 2026, 02:22:57 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 02:22:57 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (28 October 2026, 02:22:57 +0100)
+
+> La candidate **v607** est finalisée, validée à 21/21 portes d'AnimReview, synchronisée dans la session live Houdini et documentée. (28 October 2026, 02:22:57 +0100)
+>
+> Le rapport de livraison complet est accessible dans l'artefact : [ZenRayCar_v607_Delivery_Report.md](file:///Users/zenray/.gemini/antigravity/brain/c1a6145e-c0a4-4812-b9ce-51db18c27b5b/ZenRayCar_v607_Delivery_Report.md). (28 October 2026, 02:22:57 +0100)
+>
+> --- (28 October 2026, 02:22:57 +0100)
+>
+> ### Actions Réalisées sur la Candidate v607 (28 October 2026, 02:22:57 +0100)
+>
+> 1. **Calibrage de la baie d'auvent de pare-brise** : (28 October 2026, 02:22:57 +0100)
+>    - Réduction drastique de la fente ouverte entre le bas du pare-brise [`CAR_body_glass_windshield_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v607.obj) et le bord de fuite du capot [`CAR_body_hood_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v607.obj). (28 October 2026, 02:22:57 +0100)
+>    - Les 34 sommets de base du pare-brise ($Z > 1,50\text{ m}$) ont été avancés en $+Z$ et abaissés de 70 % vers le capot, réduisant l'ancien jour de 30,8 mm à moins de 8,0 mm pour (28 October 2026, 02:22:57 +0100)
