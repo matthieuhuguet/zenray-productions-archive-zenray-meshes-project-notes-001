@@ -39471,3 +39471,105 @@
 > - **Nouvelle planche :** régénérer une planche cohérente avec le prompt « faces d'un cube » consigné dans ZenRay Houdini, puis viser 99,9 % dessus. (28 October 2026, 13:18:17 +0100)
 >
 > J'ai consigné la mesure dans le skill, section 214. Le nouvel outil d'écart par vue est [ViewDiff.py](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/ViewDiff.py). (28 October 2026, 13:18:17 +0100)
+
+## 28 October 2026, 13:21:24 +0100 : Prompt
+
+<!-- feedback-event:183ec36132a5f62e97dc1eb113337fcf9353a4b73f1e969cd18405beaf17ef74 (28 October 2026, 13:21:24 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 13:21:24 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:21:24 +0100)
+
+> <pasted_content id="f0a2"> (28 October 2026, 13:21:24 +0100)
+> Ok, alors je vais te donner une instruction très simple. Tu vois bien que la voiture actuellement, elle n'est pas utilisable par un 3D tech artist senior. Parce que le modèle n'est pas fini et ne peut pas passer au texturing. Donc là, par rapport à ZenRay Meshes, on a atteint quelque chose qui était intéressant. Sauf que, il faut fermer la... On va dire que, ok, la forme, là, elle est ok. Bah, ce qui reste à faire, du coup, c'est fermer toutes les jointures et refaire la topologie pour qu'elle soit parfaite. Et on est bon. Mais tu vois bien qu'il y a encore des écarts, il y a des bords d'escalier, il y a des morceaux qui sont pas droits, il y a un problème de topologie globale, genre il y a des trucs qui sont plus ou grands, plus ou moins grands en fonction de la topologie. Donc en fait, il faut finir la voiture pour qu'elle soit utilisable par un tech artist animator, voire un 3D tech texturing. (28 October 2026, 13:21:24 +0100)
+> </pasted_content id="f0a2"> (28 October 2026, 13:21:24 +0100)
+>
+>  ... c'est cette partie et cette méthodologie qu'il faut maintenant consigner dans ZenRay Meshes pour passer à l'étape d'après. réfléchis aussi (28 October 2026, 13:21:24 +0100)
+
+## 28 October 2026, 13:21:24 +0100 : Prompt
+
+<!-- feedback-event:b5846b815dc3db1d4a45148e6581cfa211747580db79d8fc99365dbd736f6aa0 (28 October 2026, 13:21:24 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 13:21:24 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:21:24 +0100)
+
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/images/2.webp] (28 October 2026, 13:21:24 +0100)
+
+## 28 October 2026, 13:21:31 +0100 : Prompt
+
+<!-- feedback-event:ab4307965ec36bfb8020ae0e6ef28fe700e47bfaa4ee65a09956dcd88812183e (28 October 2026, 13:21:31 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 13:21:31 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:21:31 +0100)
+
+> <pasted_content id="f0a2"> (28 October 2026, 13:21:31 +0100)
+> Ok, alors je vais te donner une instruction très simple. Tu vois bien que la voiture actuellement, elle n'est pas utilisable par un 3D tech artist senior. Parce que le modèle n'est pas fini et ne peut pas passer au texturing. Donc là, par rapport à ZenRay Meshes, on a atteint quelque chose qui était intéressant. Sauf que, il faut fermer la... On va dire que, ok, la forme, là, elle est ok. Bah, ce qui reste à faire, du coup, c'est fermer toutes les jointures et refaire la topologie pour qu'elle soit parfaite. Et on est bon. Mais tu vois bien qu'il y a encore des écarts, il y a des bords d'escalier, il y a des morceaux qui sont pas droits, il y a un problème de topologie globale, genre il y a des trucs qui sont plus ou grands, plus ou moins grands en fonction de la topologie. Donc en fait, il faut finir la voiture pour qu'elle soit utilisable par un tech artist animator, voire un 3D tech texturing. (28 October 2026, 13:21:31 +0100)
+> </pasted_content id="f0a2"> (28 October 2026, 13:21:31 +0100)
+>
+>  ... c'est cette partie et cette méthodologie qu'il faut maintenant consigner dans ZenRay Meshes pour passer à l'étape d'après. réfléchis aussi (28 October 2026, 13:21:31 +0100)
+>
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/images/2.webp] (28 October 2026, 13:21:31 +0100)
+
+## 28 October 2026, 13:21:35 +0100 : Iteration
+
+<!-- feedback-event:384c815c5d2057cf026c76928ac27303632cb6915e4f4cd9f0f537daf6438921 (28 October 2026, 13:21:35 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:21:35 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:21:35 +0100)
+
+> Je consigne cette étape comme une méthode à part, la « finition ». Elle vient après la forme et part de v644 gelée comme cible. Avant d'écrire, une mesure rapide : l'irrégularité de densité que vous voyez sur le fil de fer (grands et petits quads). (28 October 2026, 13:21:35 +0100)
+
+## 28 October 2026, 13:22:13 +0100 : Standing rule
+
+<!-- feedback-event:51e1bf3554f3c865562e6529a5c8f557d9afca0f7c2752f33b81819b086e65fd (28 October 2026, 13:22:13 +0100) -->
+- Project: zenray-meshes; kind: rule. (28 October 2026, 13:22:13 +0100)
+
+> Étape finition : la forme v644 est gelée comme cible ; on referme tous les joints et on refait la topologie, composant par composant, pour qu'un tech artist animator ou texturing puisse l'utiliser ; méthode en section 215 du skill (28 October 2026) (28 October 2026, 13:22:13 +0100)
+
+## 28 October 2026, 13:22:28 +0100 : Iteration
+
+<!-- feedback-event:c8efa7f12d5542fc7a47ac9323dfdb07e1469cf35a32ad44ace62fd91316dd40 (28 October 2026, 13:22:28 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:22:28 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:22:28 +0100)
+
+> La méthode de finition est consignée dans le skill ZenRay Meshes, section 215. Rien n'est encore construit, et v644 est gelée comme cible ([target_v644.npz](/Users/zenray/.claude/tmp/tmp-zenray-meshes/work/car/target_v644.npz)). (28 October 2026, 13:22:28 +0100)
+>
+> **Ce que confirme la mesure.** La densité est très irrégulière : sur toute la voiture, les arêtes vont de 4 mm à 71 mm, soit un rapport de 16. Dans une même pièce, le capot va de 17 à 89 mm et le panneau de calandre de 2,6 à 70 mm. S'y ajoutent les bords en escalier aux découpes (arches, coupes du nez et de la poupe) et 244 px de trous traversants par côté. (28 October 2026, 13:22:28 +0100)
+>
+> **Ma réflexion.** Depuis v546, chaque correction a nettoyé le maillage existant et réglé un défaut en en créant un autre ailleurs. Un tech artist senior ne retouche pas un tel maillage : il refait la topologie par-dessus la forme validée. Concrètement : (28 October 2026, 13:22:28 +0100)
+>
+> - **La forme v644 devient une cible.** On projette dessus et on mesure l'écart en millimètres. Elle n'est plus le livrable. (28 October 2026, 13:22:28 +0100)
+> - **Les joints se ferment par construction.** Deux pièces voisines partagent la même courbe de bord, découpée avec le même nombre de points des deux côtés. L'écart vaut donc 0 mm pour les pièces fixes, et un jeu exact de 2 mm pour les ouvrants (capot, coffre, portes). On ne soude plus rien après coup. (28 October 2026, 13:22:28 +0100)
+> - **Les bords redeviennent droits.** Les courbes sont lissées avec peu de points de contrôle et les arches deviennent de vrais cercles, ce qui supprime les escaliers. (28 October 2026, 13:22:28 +0100)
+> - **La densité devient régulière.** Une longueur d'arête cible unique (20 mm pour commencer), resserrée seulement le long des plis vifs et des joints. Chaque panneau est découpé en zones à quatre côtés, remplies de quads réguliers, avec les pôles hors des plis. (28 October 2026, 13:22:28 +0100)
+> - **La doublure disparaît.** Chaque pièce reçoit une épaisseur constante avec un rebord retourné dans le joint : au fond d'un joint, on voit de la tôle au lieu de l'intérieur. (28 October 2026, 13:22:28 +0100)
+>
+> **Le vérificateur**, à passer avant toute livraison : (28 October 2026, 13:22:28 +0100)
+>
+> | Critère | Seuil | (28 October 2026, 13:22:28 +0100)
+> |---|---| (28 October 2026, 13:22:28 +0100)
+> | Écart à la cible v644 | 1 mm au 95e centile, 3 mm au maximum | (28 October 2026, 13:22:28 +0100)
+> | Joints | 0 mm, ou le jeu nominal à 0,1 mm près pour les ouvrants | (28 October 2026, 13:22:28 +0100)
+> | Trous traversants | 0 px | (28 October 2026, 13:22:28 +0100)
+> | Densité dans une pièce | rapport des arêtes (95e centile sur médiane) au plus 1,6 | (28 October 2026, 13:22:28 +0100)
+> | Topologie | 100 % de quads, revue 21/21, pas de pli de plus de 10° dans un quad | (28 October 2026, 13:22:28 +0100)
+>
+> On avance un composant à la fois, du plus visible au moins visible, en commençant par le capot. Avant de construire quoi que ce soit, je compare quatre méthodes sur le capot seul, jugées par ce vérificateur : (28 October 2026, 13:22:28 +0100)
+>
+> - patchs de Coons sur les courbes partagées ; (28 October 2026, 13:22:28 +0100)
+> - Quad Remesh de Houdini, guidé par les courbes ; (28 October 2026, 13:22:28 +0100)
+> - surface NURBS, déjà prouvée sur la porte ; (28 October 2026, 13:22:28 +0100)
+> - Topo Transfer d'un capot propre posé sur la cible. (28 October 2026, 13:22:28 +0100)
+>
+> La méthode gagnante servira ensuite pour toutes les autres pièces. (28 October 2026, 13:22:28 +0100)
+
+## 28 October 2026, 13:25:12 +0100 : Prompt
+
+<!-- feedback-event:4abe6ca9cea6f3851669cc5e9f8650e95b73aff72a9e4d45262ac39feb467f25 (28 October 2026, 13:25:12 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 13:25:12 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:25:12 +0100)
+
+> Ah, bah du coup... Ah bah du coup, c'est exactement ça qu'il faut faire. Pour la partie finition, il faut pas retoucher le maillage, il faut refaire la topologie par-dessus la forme validée. Exactement, exactement ce que tu as écrit en fait. Enfin, à 2-3 trucs près, c'est à peu près ce qu'il fallait faire. Donc maintenant, vas-y. Go. lance le goal /goal (28 October 2026, 13:25:12 +0100)
+
+## 28 October 2026, 13:25:22 +0100 : Iteration
+
+<!-- feedback-event:38401a2f38203cf11edc14836863f42c2f2ad408591326f8526db6456c936b17 (28 October 2026, 13:25:22 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:25:22 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:25:22 +0100)
+
+> Je lance le tournoi sur le capot. D'abord le vérificateur de la finition, puis les méthodes une à une, jugées de la même façon. (28 October 2026, 13:25:22 +0100)
