@@ -44919,3 +44919,368 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 18:32:33 +0100)
 
 > Le vérificateur passe dans les deux sens : vert sur l'arc, le S et la droite, rouge sur le zigzag, l'escalier, la vague et la fausse droite. Je l'applique au rig et aux coupes de la cage actuelle. (28 October 2026, 18:32:33 +0100)
+
+## 28 October 2026, 18:47:00 +0100 : Iteration
+
+<!-- feedback-event:829f983d51e8778035b2efa18efd044d3ed841757ab2e8b10ec1a6460e1a470e (28 October 2026, 18:47:00 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 18:47:00 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 18:47:00 +0100)
+
+> Je consigne : les nouveaux outils entrent dans la commande unique de la voiture, pour que la règle soit contrôlée à chaque reconstruction et non sur ma mémoire. (28 October 2026, 18:47:00 +0100)
+
+## 28 October 2026, 18:47:49 +0100 : Iteration
+
+<!-- feedback-event:6ceb320c156941c594a810db51856bfef28441596f71e166fd624b6e721fda55 (28 October 2026, 18:47:49 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 18:47:49 +0100)
+
+> Itération K1c2 (28 October 2026) : réponse au schéma (coupes de contrôle, la cage montait 8 cm au-dessus de la forme à z -1,13). Règle des courbes lisses codée : CurveFair.py, autotest 10 cas vert et rouge, dans la commande unique. Cage lissée par énergie de flexion (mode fair, beta 0,05) : coupes lisses 6/20 -> 19/23, pire pli 10,8 -> 6,2 deg, écart à la sculpture inchangé (p50 4,4 mm). Bande de custode v2 depuis la vue de dessus (arête R, pli D, bord de vitre G, pied de contrefort FB ; rangées H1, H2, H3) : pli 158 deg -> 6,4 deg, toutes les coupes de la bande lisses. Planches : versions/Sections_qband_v2.png, versions/Cage_side_zebra_K1c2v2.png. (28 October 2026, 18:47:49 +0100)
+
+## 28 October 2026, 18:48:20 +0100 : Iteration
+
+<!-- feedback-event:41506921f5ec2aba80d1758407b4e4f66b06594de39b6712564450ac2381380b (28 October 2026, 18:48:20 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 18:48:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 18:48:20 +0100)
+
+> Le schéma ne dessinait pas la voiture : c'était une planche de contrôle. Elle montre six tranches de la caisse coupées en travers derrière la porte. Le gris est la forme visée, le rouge ma surface, et je m'en sers pour voir où ma surface quitte la vraie forme. À z = −1,13, le rouge montait 8 cm au-dessus du gris et ondulait. Le dessus de l'aile arrière y est presque à plat, et j'y avais posé une ligne lue sur la vue de côté : 1 cm d'erreur en hauteur y déplaçait le point de 30 cm vers l'intérieur. (28 October 2026, 18:48:20 +0100)
+>
+> Ta règle est inscrite, et elle est surtout vérifiée dans la commande unique, pour ne pas dépendre de ma mémoire. Le vérificateur [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/curverig/CurveFair.py](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/curverig/CurveFair.py) refuse le zigzag, la marche d'escalier, le segment en Z et la vague. Il refuse aussi un angle qui ne tombe pas sur une arête du design, parce que c'est un pincement. Il accepte un arrondi tendu, et une droite seulement si elle est vraiment droite. (28 October 2026, 18:48:20 +0100)
+>
+> En l'appliquant à la cage, j'ai trouvé d'où venaient les ondulations : chaque morceau de surface était bombé de son côté, si bien que la coupe festonnait d'un morceau à l'autre. La cage est maintenant lissée d'un seul tenant, et seules les arêtes vives restent des arêtes. La bande derrière la porte est refaite à partir de la vue de dessus. (28 October 2026, 18:48:20 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (28 October 2026, 18:48:20 +0100)
+> |---|---|---| (28 October 2026, 18:48:20 +0100)
+> | Savoir ce que montre le schéma | Oui | C'est une planche de coupes qui a fait voir le défaut de 8 cm | (28 October 2026, 18:48:20 +0100)
+> | Jamais de zigzag, d'escalier ni de Z | Oui, vérifié | Le test se prouve sur dix cas : vert sur l'arc, le S, la droite et l'arrondi, rouge sur le zigzag, l'escalier, la vague et le pincement | (28 October 2026, 18:48:20 +0100)
+> | Des courbes lisses sur la voiture | En partie | 19 coupes lisses sur 23, contre 6 sur 20 ce matin. Le pire pli passe de 10,8° à 6,2°, et l'écart à la forme visée ne bouge pas (4,4 mm) | (28 October 2026, 18:48:20 +0100)
+> | Finir la bande derrière la porte | Oui pour la bande | Le pli de 158° est tombé à 6,4°, et toutes ses coupes passent le vérificateur | (28 October 2026, 18:48:20 +0100)
+> | Une voiture finie et propre | Pas encore | Il reste de longues vagues douces sur les grands panneaux du bas, puis le contrefort, les montants et les cadres de vitre | (28 October 2026, 18:48:20 +0100)
+>
+> Les planches sont [/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Sections_qband_v2.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Sections_qband_v2.png) et [/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Cage_side_zebra_K1c2v2.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Cage_side_zebra_K1c2v2.png). La méthode est consignée dans la section 231 du skill. (28 October 2026, 18:48:20 +0100)
+>
+> Ta demande, plus courte : « Explique ce schéma. Règle ZenRay Meshes : aucune courbe en zigzag, en escalier ou en Z ; tout est lissé, sauf ce qui est vraiment droit. » (28 October 2026, 18:48:20 +0100)
+>
+> Deux termes utiles : (28 October 2026, 18:48:20 +0100)
+> - **peigne de courbure** : l'outil des designers pour juger une courbe. Des traits perpendiculaires, longs là où elle tourne fort, montrent d'un coup d'œil chaque vague. (28 October 2026, 18:48:20 +0100)
+> - **lissage par énergie de flexion** : la surface prend la forme qui plie le moins, comme une tôle fine posée sur les courbes. (28 October 2026, 18:48:20 +0100)
+
+## 28 October 2026, 18:48:25 +0100 : Prompt
+
+<!-- feedback-event:97cf952095bdf7944e69cafc584b132c8dd7e994b3f7139de817d143e28fb0e4 (28 October 2026, 18:48:25 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 18:48:25 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 18:48:25 +0100)
+
+> Surveillant dont-stop, voiture ZenRay Meshes par COMPOSANTS (section 229 du skill zenray-meshes : standard Forza et GTA, flux Maya, ZenRay Meshes est un algorithme). Atelier /Users/zenray/.claude/tmp/tmp-zenray-meshes. Si work/car/loop.lock existe avec un PID vivant, ne rien faire. Lire work/car/finish/TODO.md, section « 28 October 2026, 19:50 : FINITION PAR COMPOSANTS », et traiter la première tâche K non faite, une sous-étape vérifiable à la fois (K0 commande unique Scripts/ZenRayMeshesCar.py ; K1 caisse d'un seul tenant en cage de subdivision dont les boucles suivent les courbes ; K2 découpe en panneaux le long des jours, épaisseur 2 mm, jour 3 à 4 mm ; K3 ouvrants avec panneau intérieur et pivot, test d'ouverture à 30° ; puis K4 à K10). Lire le dernier versions/Gate_vNNN.json en KEEP avant toute action. Tout se fait par script paramétré (jamais à la main), surfaces calculées des courbes et de la cage (jamais collées au sculpt froissé), rayures zébrées régulières (Scripts/curverig/RenderRig.py), silhouettes contre la ref. Juger chaque composant par Scripts/finish/ComponentSheet.py (fermé, épais, sans quad plié, ajusté, pivot) et la voiture par zsh Scripts/JudgeDelivery.sh vNNN (21/21, trous non en hausse, silhouette pas plus basse que v644 de plus de 0,0005) et Scripts/finish/FinishAudit.py ; regarder le rendu avant de garder. KEEP : Gate_vNNN.json, OBJ dans /obj/ZRM_LatestKept/kept_latest de Houdini ouvert (MCP), planche des composants envoyée à Matthieu, consigner (FEEDBACK, progress, section 229 du SKILL), cocher la tâche. Rester silencieux si rien ne change. Ne jamais déclarer la voiture finie ni lancer ZenRay UV. Pas de tiret cadratin. (28 October 2026, 18:48:25 +0100)
+
+## 28 October 2026, 18:52:29 +0100 : Iteration
+
+<!-- feedback-event:d8ac96ec99f9ca330e7fb3fdd9e458e8e490bc4d6d20a87b79a2fea857b239de (28 October 2026, 18:52:29 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 18:52:29 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 18:52:29 +0100)
+
+> Le mur tient maintenant sur la peau : le pied et l'arête suivent le contrefort, de x 0,59 à 0,67, sans passer par la bosse. Je lance la commande unique, du rig jusqu'aux plis. (28 October 2026, 18:52:29 +0100)
+
+## 28 October 2026, 18:52:48 +0100 : Iteration
+
+<!-- feedback-event:68caafcd2f7ed548feb87eb20d84fb6fe3043176351cf440883dd29348359a1c (28 October 2026, 18:52:48 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 18:52:48 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 18:52:48 +0100)
+
+> Avec le contrefort, le réseau compte 33 patchs. Le pire pli reste à 6,3°, à l'avant du mur, 20 coupes sur 24 sont lisses et 83 courbes sur 88. Je regarde les coupes et le zébra avant de juger. (28 October 2026, 18:52:48 +0100)
+
+## 28 October 2026, 18:54:46 +0100 : Prompt
+
+<!-- feedback-event:e4e6573d7e29792c90634c5638ed234036449d5d40c18d9c15f34305d2ae9d5d (28 October 2026, 18:54:46 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 18:54:46 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 18:54:46 +0100)
+
+> The user sent a new message while you were working: (28 October 2026, 18:54:46 +0100)
+>
+>
+> <pasted_content id="f0a2"> (28 October 2026, 18:54:46 +0100)
+> Ok, je sais ce qu'on va faire. En fait, tu vas dessiner toutes les courbes et toutes les bandes selon plusieurs schémas principaux, selon plusieurs schémas par rapport au ref, et ensuite tu appliqueras directement. Mais en fait, ce qui va constater la vérité, c'est surtout les schémas. Parce qu'en fait, ça ira beaucoup plus vite de modifier des schémas plutôt que de tout faire component par component. En fait, ce qu'on va faire, c'est que tu vas dessiner tous les schémas avec du coup la nouvelle mesure et le fait de lisser les courbes par rapport au point. Donc tu me donnes plusieurs vues et donc ensuite ça me donne tous les schémas de la voiture et tu dessines tout. Tu peux aussi associer des matrices au point déterminé, mais le but c'est d'avoir toutes les courbes et tous les schémas selon une vue du coup top down, left, right, top et bot sur le même schéma. Comme ça, moi j'ai juste à vérifier les schémas et ensuite tu dessines les formes en 3D. Mais tu dois dessiner du coup chaque component qui a une NURBS est directement dessiné sur un schéma. (28 October 2026, 18:54:46 +0100)
+> </pasted_content id="f0a2"> (28 October 2026, 18:54:46 +0100)
+>
+>
+> This is how Claude Code surfaces messages the user sends mid-turn — within the running turn, often alongside the next tool result, rather than as a separate conversation turn. Address the message above as you continue this turn. (28 October 2026, 18:54:46 +0100)
+
+## 28 October 2026, 18:55:44 +0100 : Prompt
+
+<!-- feedback-event:0078ef0186887b9f1572982088cdfae54d8c2283523a905025fa7f3c8ce09151 (28 October 2026, 18:55:44 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 18:55:44 +0100)
+
+> Prompt de Matthieu (28 October 2026), tel quel : « Ok, je sais ce qu'on va faire. En fait, tu vas dessiner toutes les courbes et toutes les bandes selon plusieurs schémas principaux, selon plusieurs schémas par rapport au ref, et ensuite tu appliqueras directement. Mais en fait, ce qui va constater la vérité, c'est surtout les schémas. Parce qu'en fait, ça ira beaucoup plus vite de modifier des schémas plutôt que de tout faire component par component. En fait, ce qu'on va faire, c'est que tu vas dessiner tous les schémas avec du coup la nouvelle mesure et le fait de lisser les courbes par rapport au point. Donc tu me donnes plusieurs vues et donc ensuite ça me donne tous les schémas de la voiture et tu dessines tout. Tu peux aussi associer des matrices au point déterminé, mais le but c'est d'avoir toutes les courbes et tous les schémas selon une vue du coup top down, left, right, top et bot sur le même schéma. Comme ça, moi j'ai juste à vérifier les schémas et ensuite tu dessines les formes en 3D. Mais tu dois dessiner du coup chaque component qui a une NURBS est directement dessiné sur un schéma. » (28 October 2026, 18:55:44 +0100)
+
+## 28 October 2026, 18:55:44 +0100 : Standing rule
+
+<!-- feedback-event:ffc0ed7fb49204117b58f2e0f3a6bcc173514d010cbbbd631fd285c85461b38d (28 October 2026, 18:55:44 +0100) -->
+- Project: zenray-meshes; kind: rule. (28 October 2026, 18:55:44 +0100)
+
+> Les schémas font foi (28 October 2026) : toutes les courbes NURBS de chaque composant sont dessinées sur une planche unique des vues de la ref (face, arrière, gauche, droite, dessus, dessous), avec les points mesurés et la courbe lissée qui passe par eux ; Matthieu valide la planche, puis la 3D se construit depuis elle. Modifier un schéma passe avant toute retouche composant par composant. (28 October 2026, 18:55:44 +0100)
+
+## 28 October 2026, 18:55:44 +0100 : Iteration
+
+<!-- feedback-event:420f1b80f65d17299c8f9298e8e5b806627c42a3a9e7109051f8161b04ecf48d (28 October 2026, 18:55:44 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 18:55:44 +0100)
+
+> Itération K1c2 contrefort (28 October 2026) : rangée FIN (2 patchs) du pied FB à l'arête du montant C, arête lue sur la vue de gauche (droite y(z) par 4 relevés), x par rayon horizontal tenu sur le mur ; rayons droits (le mur est plat sur chaque coupe ; suivre la peau à la pointe de vitre bombait le mur de 1,5 cm, bombé ajusté -1,37 cm puis 0,08 cm). Réseau 33 patchs, 248 contrôleurs ; pire pli 6,18 deg hors contrefort ; coupes lisses 20/24, courbes 83/88. (28 October 2026, 18:55:44 +0100)
+
+## 28 October 2026, 18:56:26 +0100 : Iteration
+
+<!-- feedback-event:cd5fa10013e3e6b46a84ccf34710c431de1ec1b3f6f0dcde0a1f46107f747a89 (28 October 2026, 18:56:26 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 18:56:26 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 18:56:26 +0100)
+
+> Les six vues sont calibrées sur la même boîte (2,27 × 1,36 × 4,60 m, centrée), ce qui permet de projeter chaque courbe 3D exactement sur chaque vue. J'écris l'outil de planche. (28 October 2026, 18:56:26 +0100)
+
+## 28 October 2026, 18:57:12 +0100 : Prompt
+
+<!-- feedback-event:2f683cbb073c39fa6be103a6658495daaa1934883685a838e5d6f31f511986ee (28 October 2026, 18:57:12 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 18:57:12 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 18:57:12 +0100)
+
+> [Image: original 2604x2804, displayed at 1848x1990. Multiply coordinates by 1.41 to map to original image.] (28 October 2026, 18:57:12 +0100)
+
+## 28 October 2026, 18:58:26 +0100 : Iteration
+
+<!-- feedback-event:10e6efec2342ff4693543d84ee75dc7fbd2df8cf288ab45effe66e8b959afe9b (28 October 2026, 18:58:26 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 18:58:26 +0100)
+
+> Itération KS1 (28 October 2026) : planche des schémas versions/Schematic_car.png (six vues calibrées, 88 courbes NURBS par composant, côté droit en miroir, relevés en croix et courbe lissée violette, noeuds nommés) et work/car/schematic/points.json (56 noeuds avec matrice monde, lignes relevées avec résidus) ; étage schematic de la commande unique (1,1 s) ; TODO : KS2 schéma comme source, KS3 courbes 2D des composants restants avant toute 3D, 3D après validation de Matthieu. (28 October 2026, 18:58:26 +0100)
+
+## 28 October 2026, 18:58:49 +0100 : Iteration
+
+<!-- feedback-event:b6427ba2f83b6f8d5c05df3bef2c55c9557ae08109d02de38efbdc46e9259b55 (28 October 2026, 18:58:49 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 18:58:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 18:58:49 +0100)
+
+> C'est fait : la planche des schémas existe. Je l'ai ajoutée à la commande unique, si bien qu'elle se régénère à chaque reconstruction de la voiture. (28 October 2026, 18:58:49 +0100)
+>
+> La planche ([/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Schematic_car.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Schematic_car.png)) réunit les six vues de la ref sur une feuille : gauche, droite, dessus, dessous, face et arrière. (28 October 2026, 18:58:49 +0100)
+> - **Les courbes** : les 88 courbes NURBS déjà construites y sont projetées exactement, chacune dans la couleur de son composant (aile, porte, custode, bande, contrefort). Le côté droit est en miroir. (28 October 2026, 18:58:49 +0100)
+> - **Le trait** : il est épais pour une arête vive, moyen pour une ligne de design et fin pour un rayon. (28 October 2026, 18:58:49 +0100)
+> - **Les mesures** : les croix violettes sont les points relevés sur la ref, et la ligne violette est la courbe lissée qui passe par eux. Tu vois ainsi chaque mesure à côté de son lissage. (28 October 2026, 18:58:49 +0100)
+> - **Les matrices** : chaque nœud a la sienne (sens de la courbe, normale de la surface, position), comme un contrôleur Maya. Elles sont dans [/Users/zenray/.claude/tmp/tmp-zenray-meshes/work/car/schematic/points.json](/Users/zenray/.claude/tmp/tmp-zenray-meshes/work/car/schematic/points.json). (28 October 2026, 18:58:49 +0100)
+>
+> La planche montre aussi ce qui n'a pas encore de courbes : capot, toit, coffre, vitres, boucliers, phares et feux. La suite tient donc en deux étapes. D'abord, le schéma devient la source : chaque ligne vit dans un fichier de schéma, et la corriger suffit à refaire la 3D. Ensuite, je dessine en 2D, sur la planche, les courbes de ces composants. Leur 3D attend ta validation. (28 October 2026, 18:58:49 +0100)
+>
+> Avant ton message, j'ai fini le contrefort, le mur qui monte du dessus de l'aile jusqu'à l'arête du montant C. Je lis son arête sur la vue de côté, où le mur fait face à la caméra. Sur chaque coupe le mur est plat : ses rayons sont donc des droites. (28 October 2026, 18:58:49 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (28 October 2026, 18:58:49 +0100)
+> |---|---|---| (28 October 2026, 18:58:49 +0100)
+> | Toutes les vues sur une même planche | Oui | Six vues calibrées : l'anneau d'arche tombe sur la roue, la coupe de porte sur la porte | (28 October 2026, 18:58:49 +0100)
+> | Chaque composant à NURBS dessiné sur le schéma | Oui pour ceux qui en ont | 88 courbes et 56 nœuds dessinés. Capot, toit, coffre, vitres, boucliers et feux n'ont pas encore de courbes | (28 October 2026, 18:58:49 +0100)
+> | La nouvelle mesure et les courbes lissées par rapport aux points | Oui | Croix et courbe violette, avec l'écart de chaque point dans points.json (5,3 mm au plus pour l'arête) | (28 October 2026, 18:58:49 +0100)
+> | Des matrices aux points | Oui | Une matrice par nœud dans points.json | (28 October 2026, 18:58:49 +0100)
+> | Valider les schémas avant la 3D | Inscrit | La règle est dans les règles du projet, et les tâches de schémas passent en tête de la liste | (28 October 2026, 18:58:49 +0100)
+> | Le contrefort | Fait | Il bombait de 1,5 cm, il colle maintenant à la forme (0,08 cm). Le pire pli de la voiture, 6,2°, est ailleurs | (28 October 2026, 18:58:49 +0100)
+>
+> Ta demande, plus courte : « Dessine toutes les courbes de la voiture sur une planche des vues de la ref, avec les mesures et les courbes lissées. Je valide la planche, puis tu fais la 3D. » (28 October 2026, 18:58:49 +0100)
+>
+> Un terme utile, le **blueprint** : la planche des vues orthogonales sur laquelle les modeleurs de voitures tracent leurs courbes avant de modéliser. C'est exactement ce que tu viens de mettre en place. (28 October 2026, 18:58:49 +0100)
+
+## 28 October 2026, 18:58:56 +0100 : Prompt
+
+<!-- feedback-event:5b62f6a75e38869a028c838a0845869f8d2b5704e3464ea320d82b257d8f66c8 (28 October 2026, 18:58:56 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 18:58:56 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 18:58:56 +0100)
+
+> Surveillant dont-stop, voiture ZenRay Meshes par COMPOSANTS (section 229 du skill zenray-meshes : standard Forza et GTA, flux Maya, ZenRay Meshes est un algorithme). Atelier /Users/zenray/.claude/tmp/tmp-zenray-meshes. Si work/car/loop.lock existe avec un PID vivant, ne rien faire. Lire work/car/finish/TODO.md, section « 28 October 2026, 19:50 : FINITION PAR COMPOSANTS », et traiter la première tâche K non faite, une sous-étape vérifiable à la fois (K0 commande unique Scripts/ZenRayMeshesCar.py ; K1 caisse d'un seul tenant en cage de subdivision dont les boucles suivent les courbes ; K2 découpe en panneaux le long des jours, épaisseur 2 mm, jour 3 à 4 mm ; K3 ouvrants avec panneau intérieur et pivot, test d'ouverture à 30° ; puis K4 à K10). Lire le dernier versions/Gate_vNNN.json en KEEP avant toute action. Tout se fait par script paramétré (jamais à la main), surfaces calculées des courbes et de la cage (jamais collées au sculpt froissé), rayures zébrées régulières (Scripts/curverig/RenderRig.py), silhouettes contre la ref. Juger chaque composant par Scripts/finish/ComponentSheet.py (fermé, épais, sans quad plié, ajusté, pivot) et la voiture par zsh Scripts/JudgeDelivery.sh vNNN (21/21, trous non en hausse, silhouette pas plus basse que v644 de plus de 0,0005) et Scripts/finish/FinishAudit.py ; regarder le rendu avant de garder. KEEP : Gate_vNNN.json, OBJ dans /obj/ZRM_LatestKept/kept_latest de Houdini ouvert (MCP), planche des composants envoyée à Matthieu, consigner (FEEDBACK, progress, section 229 du SKILL), cocher la tâche. Rester silencieux si rien ne change. Ne jamais déclarer la voiture finie ni lancer ZenRay UV. Pas de tiret cadratin. (28 October 2026, 18:58:56 +0100)
+
+## 28 October 2026, 18:59:23 +0100 : Prompt
+
+<!-- feedback-event:c8eade5a8149acc6172a8c87b7469015471bc5ce42b53fe3063b431f576a1f94 (28 October 2026, 18:59:23 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 18:59:23 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 18:59:23 +0100)
+
+> deux choses à éditer du coup. La première, c'est que du coup c'est pas parfait, donc recommence. Recommence et fais les choses individuellement. Ensuite, t'as pas fait tout le toit. En fait, la partie rouge, elle est vraiment très mal placée. La partie violette, elle est pas placée jusqu'au bord. Les vitres sont pas dessinées. Le toit n'est pas dessiné. Les roues ne sont pas dessinées. Les roues sont pas dessinées. Donc recommence. À mon avis, tu devrais faire chaque component, enfin chaque image individuellement, et ensuite réunir la sheet uniquement une fois que tu as fait les 6 individuellement. consigne (28 October 2026, 18:59:23 +0100)
+
+## 28 October 2026, 18:59:23 +0100 : Prompt
+
+<!-- feedback-event:4260d783c949daebb4e94b19cb5f41fee1a33e5089387227f3743b7ea654baaf (28 October 2026, 18:59:23 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 18:59:23 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 18:59:23 +0100)
+
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/images/10.webp] (28 October 2026, 18:59:23 +0100)
+
+## 28 October 2026, 18:59:33 +0100 : Prompt
+
+<!-- feedback-event:e0c77c106f573a06785af94a84b999a7bd78aed050668740bcb0b3834eebc1c8 (28 October 2026, 18:59:33 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 18:59:33 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 18:59:33 +0100)
+
+> Surveillant dont-stop, voiture ZenRay Meshes par COMPOSANTS (section 229 du skill zenray-meshes : standard Forza et GTA, flux Maya, ZenRay Meshes est un algorithme). Atelier /Users/zenray/.claude/tmp/tmp-zenray-meshes. Si work/car/loop.lock existe avec un PID vivant, ne rien faire. Lire work/car/finish/TODO.md, section « 28 October 2026, 19:50 : FINITION PAR COMPOSANTS », et traiter la première tâche K non faite, une sous-étape vérifiable à la fois (K0 commande unique Scripts/ZenRayMeshesCar.py ; K1 caisse d'un seul tenant en cage de subdivision dont les boucles suivent les courbes ; K2 découpe en panneaux le long des jours, épaisseur 2 mm, jour 3 à 4 mm ; K3 ouvrants avec panneau intérieur et pivot, test d'ouverture à 30° ; puis K4 à K10). Lire le dernier versions/Gate_vNNN.json en KEEP avant toute action. Tout se fait par script paramétré (jamais à la main), surfaces calculées des courbes et de la cage (jamais collées au sculpt froissé), rayures zébrées régulières (Scripts/curverig/RenderRig.py), silhouettes contre la ref. Juger chaque composant par Scripts/finish/ComponentSheet.py (fermé, épais, sans quad plié, ajusté, pivot) et la voiture par zsh Scripts/JudgeDelivery.sh vNNN (21/21, trous non en hausse, silhouette pas plus basse que v644 de plus de 0,0005) et Scripts/finish/FinishAudit.py ; regarder le rendu avant de garder. KEEP : Gate_vNNN.json, OBJ dans /obj/ZRM_LatestKept/kept_latest de Houdini ouvert (MCP), planche des composants envoyée à Matthieu, consigner (FEEDBACK, progress, section 229 du SKILL), cocher la tâche. Rester silencieux si rien ne change. Ne jamais déclarer la voiture finie ni lancer ZenRay UV. Pas de tiret cadratin. (28 October 2026, 18:59:33 +0100)
+> deux choses à éditer du coup. La première, c'est que du coup c'est pas parfait, donc recommence. Recommence et fais les choses individuellement. Ensuite, t'as pas fait tout le toit. En fait, la partie rouge, elle est vraiment très mal placée. La partie violette, elle est pas placée jusqu'au bord. Les vitres sont pas dessinées. Le toit n'est pas dessiné. Les roues ne sont pas dessinées. Les roues sont pas dessinées. Donc recommence. À mon avis, tu devrais faire chaque component, enfin chaque image individuellement, et ensuite réunir la sheet uniquement une fois que tu as fait les 6 individuellement. consigne (28 October 2026, 18:59:33 +0100)
+>
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/images/10.webp] (28 October 2026, 18:59:33 +0100)
+
+## 28 October 2026, 19:00:06 +0100 : Prompt
+
+<!-- feedback-event:6a95665f083f1898ae11cdc9ea353703f99d39181c8423087a863046efe5a2fb (28 October 2026, 19:00:06 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 19:00:06 +0100)
+
+> Prompt de Matthieu (28 October 2026), grammaire seule, avec la planche Schematic_car.png : « Deux choses à éditer du coup. La première, c'est que du coup c'est pas parfait, donc recommence. Recommence et fais les choses individuellement. Ensuite, t'as pas fait tout le toit. En fait, la partie rouge, elle est vraiment très mal placée. La partie violette, elle est pas placée jusqu'au bord. Les vitres sont pas dessinées. Le toit n'est pas dessiné. Les roues ne sont pas dessinées. Donc recommence. À mon avis, tu devrais faire chaque component, enfin chaque image individuellement, et ensuite réunir la sheet uniquement une fois que tu as fait les 6 individuellement. Consigne. » (28 October 2026, 19:00:06 +0100)
+
+## 28 October 2026, 19:00:06 +0100 : Standing rule
+
+<!-- feedback-event:1a4f018052a046b2d84f9e7c4cbdedbd58d20f6edf9b15bdb4bf0f6e761fd0b5 (28 October 2026, 19:00:06 +0100) -->
+- Project: zenray-meshes; kind: rule. (28 October 2026, 19:00:06 +0100)
+
+> Un schéma se fait vue par vue (28 October 2026) : chacune des six vues de la ref est relevée individuellement, avec toutes les lignes visibles de tous les composants (caisse, toit, vitres, roues, feux, boucliers), chaque ligne lissée en une seule courbe ; la planche ne s'assemble qu'une fois les six vues faites. Une planche qui ne montre que le réseau 3D déjà construit n'est pas un schéma. (28 October 2026, 19:00:06 +0100)
+
+## 28 October 2026, 18:59:58 +0100 : Iteration
+
+<!-- feedback-event:1942253580c51965cdf6962b5266d4b601a8f88532f759f3d4c3b4655aebd17d (28 October 2026, 18:59:58 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 18:59:58 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 18:59:58 +0100)
+
+> Ta critique est juste et je la consigne : la planche affiche les courbes 3D que j'ai déjà, rien de plus. Le toit, les vitres et les roues manquent, l'aile rouge est mal posée et la bande violette s'arrête avant le bord. (28 October 2026, 18:59:58 +0100)
+>
+> Je recommence donc comme tu le dis, une vue à la fois. Sur chaque vue, je relève toutes les lignes visibles de la ref, de tous les composants, et chacune est lissée en une seule courbe. J'assemblerai la planche une fois les six vues faites. Je commence par la vue de gauche. (28 October 2026, 18:59:58 +0100)
+
+## 28 October 2026, 19:01:21 +0100 : Prompt
+
+<!-- feedback-event:0411e23b102adf13e15eba26f2731a6e72d30fef549f9125041afbc2e9b5b436 (28 October 2026, 19:01:21 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 19:01:21 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 19:01:21 +0100)
+
+> N'oublie pas d'assembler ça avec l'outil qui lisse Là, il s'agit plus de utiliser une ou une méthode. Il s'agit d'avoir bien en conscience toutes les méthodes qui existent et d'utiliser uniquement les prioritaires. On est vraiment sur les finitions là. (28 October 2026, 19:01:21 +0100)
+
+## 28 October 2026, 19:07:26 +0100 : Prompt
+
+<!-- feedback-event:309a6d6f06e203edf03d8a327da0b1aeef391788e215ba2953b556862b384c61 (28 October 2026, 19:07:26 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 19:07:26 +0100)
+
+> Prompt de Matthieu (28 October 2026), tel quel : « N'oublie pas d'assembler ça avec l'outil qui lisse Là, il s'agit plus de utiliser une ou une méthode. Il s'agit d'avoir bien en conscience toutes les méthodes qui existent et d'utiliser uniquement les prioritaires. On est vraiment sur les finitions là. » (28 October 2026, 19:07:26 +0100)
+
+## 28 October 2026, 19:07:26 +0100 : Standing rule
+
+<!-- feedback-event:63f3e27e76dafdeee68ce8ea1d55aef819e33e7cb5ae7fee91bb8aab1524249b (28 October 2026, 19:07:26 +0100) -->
+- Project: zenray-meshes; kind: rule. (28 October 2026, 19:07:26 +0100)
+
+> Avant d'outiller une étape, faire l'inventaire des méthodes déjà existantes (skill, Scripts, registre) et n'utiliser que les prioritaires, toujours assemblées avec l'outil de lissage (CurveFair) ; on est sur les finitions, pas sur une méthode de plus. (28 October 2026) (28 October 2026, 19:07:26 +0100)
+
+## 28 October 2026, 19:07:26 +0100 : Iteration
+
+<!-- feedback-event:6ad6a0ad5ec8360bd2121eaf260957ec7fa3d9a1339af097fba70864ac533b70 (28 October 2026, 19:07:26 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 19:07:26 +0100)
+
+> Itération KS1a (28 October 2026) : ViewTrace.py assemble les méthodes prioritaires inventoriées (contour du masque lissé, joints en squelette et carrefours M19, arêtes Canny, roues de Hough, composants par projection des pièces v752, recousage des morceaux, spline de lissage vérifiée par CurveFair) ; vue de gauche 113 lignes, toutes acceptées ; envoyée. (28 October 2026, 19:07:26 +0100)
+
+## 28 October 2026, 19:07:44 +0100 : Iteration
+
+<!-- feedback-event:a46a088c3f4f3bda88ee5722569506f1cb494d36bbbc653f1e6d2139ab13525d (28 October 2026, 19:07:44 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 19:07:44 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 19:07:44 +0100)
+
+> J'ai tout recommencé comme tu le demandais, une vue à la fois. Avant d'écrire la moindre ligne, j'ai fait l'inventaire de ce qui existait déjà, dont les deux planches de topologie que tu m'avais données le 27 octobre. (28 October 2026, 19:07:44 +0100)
+>
+> Pour relever les lignes d'une vue, l'atelier avait huit méthodes : (28 October 2026, 19:07:44 +0100)
+> - le contour Canny ; (28 October 2026, 19:07:44 +0100)
+> - le squelette des traits avec ses carrefours (M19) ; (28 October 2026, 19:07:44 +0100)
+> - les profils de gradient ; (28 October 2026, 19:07:44 +0100)
+> - les cercles de Hough pour les roues ; (28 October 2026, 19:07:44 +0100)
+> - le contour du masque ; (28 October 2026, 19:07:44 +0100)
+> - la double vue de ce matin ; (28 October 2026, 19:07:44 +0100)
+> - ta matrice de points M20 ; (28 October 2026, 19:07:44 +0100)
+> - la grille volumétrique M21. (28 October 2026, 19:07:44 +0100)
+>
+> Pour lisser, il y avait la courbe lisse unique par ligne et le vérificateur CurveFair. Le nouvel outil, [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/curverig/ViewTrace.py](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/curverig/ViewTrace.py), n'invente rien : il assemble les prioritaires et fait passer chaque ligne par le lissage. (28 October 2026, 19:07:44 +0100)
+>
+> La vue de gauche ([/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/views/View_left.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/views/View_left.png)) répond à tes points. Le toit, les vitres et les roues (anneaux et branches) sont dessinés, et la ceinture va d'un seul trait jusqu'au bord arrière. Chaque composant a sa couleur, donnée par la pièce de la voiture gardée projetée dans la vue. (28 October 2026, 19:07:44 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (28 October 2026, 19:07:44 +0100)
+> |---|---|---| (28 October 2026, 19:07:44 +0100)
+> | Recommencer, chaque vue individuellement | En cours | La vue de gauche est faite seule et envoyée ; les cinq autres sont listées une par une dans le TODO | (28 October 2026, 19:07:44 +0100)
+> | Le toit, les vitres, les roues dessinés | Oui sur la gauche | Toit en violet, vitres en bleu, roues en vert sur la planche envoyée | (28 October 2026, 19:07:44 +0100)
+> | La bande jusqu'au bord | Oui sur la gauche | La ceinture et l'épaule courent d'un trait jusqu'à la poupe | (28 October 2026, 19:07:44 +0100)
+> | Assembler avec l'outil qui lisse | Oui | Les 113 lignes sont toutes acceptées par CurveFair ; la silhouette ne fait plus de marche à la poupe | (28 October 2026, 19:07:44 +0100)
+> | Connaître toutes les méthodes, n'utiliser que les prioritaires | Oui | L'inventaire est écrit dans la section 233 du skill, et l'outil n'assemble que celles-là | (28 October 2026, 19:07:44 +0100)
+> | La planche des six vues | Pas encore | Elle ne s'assemblera qu'après les six vues, comme tu l'as demandé | (28 October 2026, 19:07:44 +0100)
+>
+> Ta demande, plus courte : « Refais le schéma vue par vue, avec toutes les lignes de tous les composants, lissées par les méthodes déjà prouvées, puis assemble la planche. » (28 October 2026, 19:07:44 +0100)
+>
+> Un terme utile, le **chapeau noir** (*black hat*) : un filtre d'image qui ne garde que les traits sombres plus fins qu'une taille donnée, idéal pour isoler les jours entre les panneaux d'une ref. (28 October 2026, 19:07:44 +0100)
+
+## 28 October 2026, 19:07:49 +0100 : Prompt
+
+<!-- feedback-event:1deeb432629c69ab4bb25cb66d2d2d8e67d3147a940b0fddb3780a10bac3e64f (28 October 2026, 19:07:49 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 19:07:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 19:07:49 +0100)
+
+> Surveillant dont-stop, voiture ZenRay Meshes par COMPOSANTS (section 229 du skill zenray-meshes : standard Forza et GTA, flux Maya, ZenRay Meshes est un algorithme). Atelier /Users/zenray/.claude/tmp/tmp-zenray-meshes. Si work/car/loop.lock existe avec un PID vivant, ne rien faire. Lire work/car/finish/TODO.md, section « 28 October 2026, 19:50 : FINITION PAR COMPOSANTS », et traiter la première tâche K non faite, une sous-étape vérifiable à la fois (K0 commande unique Scripts/ZenRayMeshesCar.py ; K1 caisse d'un seul tenant en cage de subdivision dont les boucles suivent les courbes ; K2 découpe en panneaux le long des jours, épaisseur 2 mm, jour 3 à 4 mm ; K3 ouvrants avec panneau intérieur et pivot, test d'ouverture à 30° ; puis K4 à K10). Lire le dernier versions/Gate_vNNN.json en KEEP avant toute action. Tout se fait par script paramétré (jamais à la main), surfaces calculées des courbes et de la cage (jamais collées au sculpt froissé), rayures zébrées régulières (Scripts/curverig/RenderRig.py), silhouettes contre la ref. Juger chaque composant par Scripts/finish/ComponentSheet.py (fermé, épais, sans quad plié, ajusté, pivot) et la voiture par zsh Scripts/JudgeDelivery.sh vNNN (21/21, trous non en hausse, silhouette pas plus basse que v644 de plus de 0,0005) et Scripts/finish/FinishAudit.py ; regarder le rendu avant de garder. KEEP : Gate_vNNN.json, OBJ dans /obj/ZRM_LatestKept/kept_latest de Houdini ouvert (MCP), planche des composants envoyée à Matthieu, consigner (FEEDBACK, progress, section 229 du SKILL), cocher la tâche. Rester silencieux si rien ne change. Ne jamais déclarer la voiture finie ni lancer ZenRay UV. Pas de tiret cadratin. (28 October 2026, 19:07:49 +0100)
+
+## 28 October 2026, 19:13:24 +0100 : Iteration
+
+<!-- feedback-event:b376101554f31f4540a20ee675c6cdbd3740a134160818a7cc2371baa5c85b7c (28 October 2026, 19:13:24 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 19:13:24 +0100)
+
+> Itération KS1b (28 October 2026) : vue de droite 144 lignes et vue de gauche refaite 142 lignes, toutes acceptées par CurveFair, envoyées ; ViewTrace corrigé (couture orientée aux carrefours, deux relevés gardés puis dédoublonnés sur fond sombre, roue jugée sur ses points). (28 October 2026, 19:13:24 +0100)
+
+## 28 October 2026, 19:13:36 +0100 : Iteration
+
+<!-- feedback-event:06c73ecc8bc07068ddcf433c3d792bbf80cd5f1ca70c9facb69bc513c9d366bd (28 October 2026, 19:13:36 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 19:13:36 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 19:13:36 +0100)
+
+> La vue de droite est faite, et la vue de gauche refaite avec le même outil corrigé. Elles comptent 144 et 142 lignes, toutes acceptées par le vérificateur des courbes lisses : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/views/View_right.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/views/View_right.png) et [/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/views/View_left.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/views/View_left.png). (28 October 2026, 19:13:36 +0100)
+>
+> La vue de droite a fait apparaître trois défauts de l'outil, que j'ai corrigés : (28 October 2026, 19:13:36 +0100)
+> - **Une boucle du toit en travers de la vitre.** Le recousage aux croisements perdait le sens des morceaux après la première couture. Chaque chemin est maintenant suivi d'un bout libre à l'autre. (28 October 2026, 19:13:36 +0100)
+> - **Le bas de vitre en miettes.** C'est un trait très léger collé à un saut de clarté, et les deux relevés s'excluaient l'un l'autre. Je garde maintenant les deux, puis je fusionne seulement les paires séparées par du sombre, c'est-à-dire les deux bords d'un même jour. Le rail de toit et le haut de vitre restent donc distincts. (28 October 2026, 19:13:36 +0100)
+> - **Les lèvres d'arche jetées.** Je les rangeais dans la roue d'après leur point moyen. L'appartenance se juge maintenant sur leurs points. (28 October 2026, 19:13:36 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (28 October 2026, 19:13:36 +0100)
+> |---|---|---| (28 October 2026, 19:13:36 +0100)
+> | Chaque vue faite individuellement | 2 vues sur 6 | Gauche et droite faites seules et envoyées | (28 October 2026, 19:13:36 +0100)
+> | Toutes les lignes, lissées | Oui sur les deux flancs | 142 et 144 lignes, toutes acceptées par CurveFair | (28 October 2026, 19:13:36 +0100)
+> | Vitres, toit, roues, arches | Oui sur les deux flancs | Contour de vitre entier, toit, montants, roues, lèvres d'arche visibles sur les planches | (28 October 2026, 19:13:36 +0100)
+> | Un seul trait par ligne | Oui | Un seul trait pour chaque jour de porte, pour le bas de vitre et pour la ceinture jusqu'à la poupe | (28 October 2026, 19:13:36 +0100)
+> | La planche des six | Pas encore | Restent le dessus, le dessous, la face et l'arrière | (28 October 2026, 19:13:36 +0100)
+
+## 28 October 2026, 19:13:41 +0100 : Prompt
+
+<!-- feedback-event:856d00e25b81e6cce680ae5b1b30accea96cfc11e291885555f5c2a4fb4cefec (28 October 2026, 19:13:41 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 19:13:41 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 19:13:41 +0100)
+
+> Surveillant dont-stop, voiture ZenRay Meshes par COMPOSANTS (section 229 du skill zenray-meshes : standard Forza et GTA, flux Maya, ZenRay Meshes est un algorithme). Atelier /Users/zenray/.claude/tmp/tmp-zenray-meshes. Si work/car/loop.lock existe avec un PID vivant, ne rien faire. Lire work/car/finish/TODO.md, section « 28 October 2026, 19:50 : FINITION PAR COMPOSANTS », et traiter la première tâche K non faite, une sous-étape vérifiable à la fois (K0 commande unique Scripts/ZenRayMeshesCar.py ; K1 caisse d'un seul tenant en cage de subdivision dont les boucles suivent les courbes ; K2 découpe en panneaux le long des jours, épaisseur 2 mm, jour 3 à 4 mm ; K3 ouvrants avec panneau intérieur et pivot, test d'ouverture à 30° ; puis K4 à K10). Lire le dernier versions/Gate_vNNN.json en KEEP avant toute action. Tout se fait par script paramétré (jamais à la main), surfaces calculées des courbes et de la cage (jamais collées au sculpt froissé), rayures zébrées régulières (Scripts/curverig/RenderRig.py), silhouettes contre la ref. Juger chaque composant par Scripts/finish/ComponentSheet.py (fermé, épais, sans quad plié, ajusté, pivot) et la voiture par zsh Scripts/JudgeDelivery.sh vNNN (21/21, trous non en hausse, silhouette pas plus basse que v644 de plus de 0,0005) et Scripts/finish/FinishAudit.py ; regarder le rendu avant de garder. KEEP : Gate_vNNN.json, OBJ dans /obj/ZRM_LatestKept/kept_latest de Houdini ouvert (MCP), planche des composants envoyée à Matthieu, consigner (FEEDBACK, progress, section 229 du SKILL), cocher la tâche. Rester silencieux si rien ne change. Ne jamais déclarer la voiture finie ni lancer ZenRay UV. Pas de tiret cadratin. (28 October 2026, 19:13:41 +0100)
+
+## 28 October 2026, 19:15:04 +0100 : Iteration
+
+<!-- feedback-event:94a1fac32c18818af14be741ce1b03bf27157fdc2c4bc6ae40da745cd9515d7a (28 October 2026, 19:15:04 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 19:15:04 +0100)
+
+> Itération KS1c (28 October 2026) : vue de dessus 43 lignes, toutes acceptées par CurveFair, envoyée ; direction vers la caméra fixée par vue (le tz de frame.json pointe à l'opposé pour dessus et dessous). (28 October 2026, 19:15:04 +0100)
+
+## 28 October 2026, 19:15:12 +0100 : Iteration
+
+<!-- feedback-event:97568ce3316032706d19d3f5ddea39f8c1337337e9f5eec9896f66ec08615919 (28 October 2026, 19:15:12 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 19:15:12 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 19:15:12 +0100)
+
+> La vue de dessus est faite et envoyée ([/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/views/View_top.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/views/View_top.png)) : 43 lignes, toutes acceptées par le vérificateur des courbes lisses. On y lit : (28 October 2026, 19:15:12 +0100)
+> - le pare-brise et sa jonction au toit ; (28 October 2026, 19:15:12 +0100)
+> - les deux vitres latérales ; (28 October 2026, 19:15:12 +0100)
+> - le toit, avec ses rails et son bord arrière ; (28 October 2026, 19:15:12 +0100)
+> - la lunette arrière ; (28 October 2026, 19:15:12 +0100)
+> - les montants B et les ailerons C ; (28 October 2026, 19:15:12 +0100)
+> - les arêtes en diagonale du capot ; (28 October 2026, 19:15:12 +0100)
+> - le dessus des ailes ; (28 October 2026, 19:15:12 +0100)
+> - les arêtes de la custode jusqu'à la poupe. (28 October 2026, 19:15:12 +0100)
+>
+> Avant le relevé, j'ai corrigé un piège. Dans le calibrage des vues, la direction de profondeur des vues de dessus et de dessous pointe à l'opposé de la caméra. Sans correction, les composants auraient été nommés d'après le dessous de la voiture vu à travers le toit. La direction vers la caméra est maintenant fixée pour chaque vue. (28 October 2026, 19:15:12 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (28 October 2026, 19:15:12 +0100)
+> |---|---|---| (28 October 2026, 19:15:12 +0100)
+> | Chaque vue faite individuellement | 3 vues sur 6 | Gauche, droite et dessus faites seules et envoyées | (28 October 2026, 19:15:12 +0100)
+> | Toutes les lignes, lissées | Oui sur le dessus | 43 lignes, toutes acceptées par CurveFair | (28 October 2026, 19:15:12 +0100)
+> | Vitres et toit dessinés | Oui sur le dessus | Pare-brise, vitres, toit et lunette visibles sur la planche envoyée | (28 October 2026, 19:15:12 +0100)
+> | La planche des six | Pas encore | Restent le dessous, la face et l'arrière | (28 October 2026, 19:15:12 +0100)
+
+## 28 October 2026, 19:15:16 +0100 : Prompt
+
+<!-- feedback-event:ae0f4210a11023d94759ce226f3d5f1e3e02fb12e479cb7029a820a5e3608cb4 (28 October 2026, 19:15:16 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 19:15:16 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 19:15:16 +0100)
+
+> Surveillant dont-stop, voiture ZenRay Meshes par COMPOSANTS (section 229 du skill zenray-meshes : standard Forza et GTA, flux Maya, ZenRay Meshes est un algorithme). Atelier /Users/zenray/.claude/tmp/tmp-zenray-meshes. Si work/car/loop.lock existe avec un PID vivant, ne rien faire. Lire work/car/finish/TODO.md, section « 28 October 2026, 19:50 : FINITION PAR COMPOSANTS », et traiter la première tâche K non faite, une sous-étape vérifiable à la fois (K0 commande unique Scripts/ZenRayMeshesCar.py ; K1 caisse d'un seul tenant en cage de subdivision dont les boucles suivent les courbes ; K2 découpe en panneaux le long des jours, épaisseur 2 mm, jour 3 à 4 mm ; K3 ouvrants avec panneau intérieur et pivot, test d'ouverture à 30° ; puis K4 à K10). Lire le dernier versions/Gate_vNNN.json en KEEP avant toute action. Tout se fait par script paramétré (jamais à la main), surfaces calculées des courbes et de la cage (jamais collées au sculpt froissé), rayures zébrées régulières (Scripts/curverig/RenderRig.py), silhouettes contre la ref. Juger chaque composant par Scripts/finish/ComponentSheet.py (fermé, épais, sans quad plié, ajusté, pivot) et la voiture par zsh Scripts/JudgeDelivery.sh vNNN (21/21, trous non en hausse, silhouette pas plus basse que v644 de plus de 0,0005) et Scripts/finish/FinishAudit.py ; regarder le rendu avant de garder. KEEP : Gate_vNNN.json, OBJ dans /obj/ZRM_LatestKept/kept_latest de Houdini ouvert (MCP), planche des composants envoyée à Matthieu, consigner (FEEDBACK, progress, section 229 du SKILL), cocher la tâche. Rester silencieux si rien ne change. Ne jamais déclarer la voiture finie ni lancer ZenRay UV. Pas de tiret cadratin. (28 October 2026, 19:15:16 +0100)
