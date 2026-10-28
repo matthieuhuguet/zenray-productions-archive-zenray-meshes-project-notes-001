@@ -36238,3 +36238,29 @@
 - Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (28 October 2026, 01:20:01 +0100)
 
 > C'est bien noté, la génération de la vidéo d'évolution et son sous-agent ont été immédiatement et définitivement stoppés pour consacrer cent pour cent du calcul et de l'attention aux allers-retours directs avec la référence ([`ref2.png`](file:///Users/zenray/Downloads/ref2.png) et [`ref3.png`](file:///Users (28 October 2026, 01:20:01 +0100)
+
+## 28 October 2026, 01:40:19 +0100 : Iteration
+
+<!-- feedback-event:9eb6cec3d6fcc3c7d8f34597c131c2c33a2ce4f5416d2be5a54b828e5cf5bd86 (28 October 2026, 01:40:19 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 01:40:19 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (28 October 2026, 01:40:19 +0100)
+
+> Le candidat **ZenRayCar_v600** a été généré, audité et synchronisé dans la session live Houdini au 28 October 2026. (28 October 2026, 01:40:19 +0100)
+>
+> ### 1. Actions ciblées d'après tes retours précis (28 October 2026, 01:40:19 +0100)
+>
+> 1. **Rehausse parabolique du pavillon de toit (`CAR_body_roof_C`)** : (28 October 2026, 01:40:19 +0100)
+>    - Traitement direct de ta remarque sur la forme du toit. L'analyse des silhouettes contre [`00_front_rgb.png`](/Users/zenray/.claude/tmp/tmp-zenray-meshes/work/car/views/00_front_rgb.png) et [`00_front_wire_mask.png`](/Users/zenray/.claude/tmp/tmp-zenray-meshes/work/car/views_wire/00_front_wire_mask.png) a isolé un déficit de 232 pixels sur les lignes 94 à 102 en face avant (l'apex du modèle culminait à $Y = 1,3514\text{ m}$ contre $1,3575\text{ m}$ sur la référence). (28 October 2026, 01:40:19 +0100)
+>    - 730 sommets du pavillon ($Y > 1,25\text{ m}$, $Z \in [-0,95, 0,25\text{ m}]$) ont été rehaussés selon une coupole parabolique (+5,5 mm), portant l'apex à $Y = 1,3568\text{ m}$ et épousant la cambrure supérieure de la référence. (28 October 2026, 01:40:19 +0100)
+>
+> 2. **Calibrage de la lame inférieure et de la bouche (`CAR_splitter_blade_C`)** : (28 October 2026, 01:40:19 +0100)
+>    - Traitement direct de ta remarque sur le module inférieur sous le capot et la bouche de calandre. (28 October 2026, 01:40:19 +0100)
+>    - Les 33 sommets de la lisière basse de la lame avant ont été abaissés de 5,5 mm ($Y = 0,1075\text{ m}$), comblant le vide de 268 pixels de la ligne 304 et captant la ligne filaire 215 px de la ligne 306 de [`ref3.png`](/Users/zenray/Downloads/ref3.png). (28 October 2026, 01:40:19 +0100)
+>    - L'IoU de silhouette de la face avant bondit à un **record historique de 0,9781** (gain direct de +41 points de silhouette). (28 October 2026, 01:40:19 +0100)
+>
+> 3. **Soudures chirurgicales de finition** : (28 October 2026, 01:40:19 +0100)
+>    - 16 sommets au contact scellés à distance $0,00\text{ mm}$ sur les liaisons des épaulements arrière [`CAR_body_shoulder_rear_L/R`](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v600.obj) avec la face arrière [`CAR_body_tail_face_C`](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v600.obj) (écart initial de 2,83 mm ramené à zéro) et des ceintures de portières. (28 October 2026, 01:40:19 +0100)
+>
+> 4. **Synchronisation Houdini live session** : (28 October 2026, 01:40:19 +0100)
+>    - Scène enregistrée : [`hip/ZenRayMeshes_v600.hip`](/Users/zenray/.claude/tmp/tmp-zenray-meshes/hip/ZenRayMeshes_v600.hip). (28 October 2026, 01:40:19 +0100)
+>    - Nœuds mis à jour : `/obj/ZRM_LatestKept/kept_latest` et `/obj/ZRM_LegoLattice_Tailor/car_mesh_file` pointés sur [`versions/ZenRayCar_v600.obj`](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_ (28 October 2026, 01:40:19 +0100)
