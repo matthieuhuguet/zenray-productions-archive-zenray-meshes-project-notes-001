@@ -36411,3 +36411,11 @@
 > 1. **Calibrage de la baie d'auvent de pare-brise** : (28 October 2026, 02:22:57 +0100)
 >    - Réduction drastique de la fente ouverte entre le bas du pare-brise [`CAR_body_glass_windshield_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v607.obj) et le bord de fuite du capot [`CAR_body_hood_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v607.obj). (28 October 2026, 02:22:57 +0100)
 >    - Les 34 sommets de base du pare-brise ($Z > 1,50\text{ m}$) ont été avancés en $+Z$ et abaissés de 70 % vers le capot, réduisant l'ancien jour de 30,8 mm à moins de 8,0 mm pour (28 October 2026, 02:22:57 +0100)
+
+## 28 October 2026, 02:30:16 +0100 : Iteration
+
+<!-- feedback-event:21870bbccf3be7f8bec0cc71813f2b693bb1573229d3e06c2701444fc6caf1b2 (28 October 2026, 02:30:16 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 02:30:16 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (28 October 2026, 02:30:16 +0100)
+
+> La candidate **v608** est finalisée, validée à 21/21 portes d'AnimReview, synchronisée dans la session live (28 October 2026, 02:30:16 +0100)
