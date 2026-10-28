@@ -36282,3 +36282,41 @@
 > 2. **Élargissement symétrique des coins de poupe** : (28 October 2026, 01:47:33 +0100)
 >    - 322 sommets de la périphérie extérieure de [`CAR_body_tail_face_C`](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v601.obj) et des écopes latérales [`CAR_vent_rear_L/R`](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v601.obj) ($Z < -2,05\text{ m}$, $Y \in [0,25, 0,50\text{ m}]$, $|X| > 0,82\text{ m}$) ont été élargis de 8 mm selon une rampe linéaire. (28 October 2026, 01:47:33 +0100)
 >    - Ce galbe comble le déficit latéral (28 October 2026, 01:47:33 +0100)
+
+## 28 October 2026, 01:51:21 +0100 : Iteration
+
+<!-- feedback-event:1060bc5978c13cb6cf0ca15fff19caa244d360881f39d6ea98e404b3a271843d (28 October 2026, 01:51:21 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 01:51:21 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (28 October 2026, 01:51:21 +0100)
+
+> Le candidat **ZenRayCar_v602** a été généré, audité et synchronisé dans la session live Houdini au 28 October 2026. Le palier symbolique de **0,9700 d'IoU moyen** de silhouette est franchi. (28 October 2026, 01:51:21 +0100)
+>
+> ### 1. Avancées mesurées du candidat v602 (28 October 2026, 01:51:21 +0100)
+>
+> 1. **Rehausse de courbure fastback (`CAR_body_glass_rear_C` et `CAR_body_buttress_L/R`)** : (28 October 2026, 01:51:21 +0100)
+>    - L'analyse des flancs gauche et droit a révélé un déficit de silhouette de 7 à 15 pixels sur les lignes 131 à 146, où la lunette et les contreforts plongeaient trop tôt par rapport à la référence. (28 October 2026, 01:51:21 +0100)
+>    - 1 538 sommets de [`CAR_body_glass_rear_C`](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v602.obj) et des contreforts [`CAR_body_buttress_L/R`](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v602.obj) ($Z \in [-1,65, -1,00\text{ m}]$) ont été rehaussés selon une arche sinusoïdale (+7,5 mm). (28 October 2026, 01:51:21 +0100)
+>    - Ce recalage propulse le **flanc gauche à 0,9754** et le **flanc droit à 0,9736**, hissant la moyenne globale des 6 vues au palier record de **0,9700**. (28 October 2026, 01:51:21 +0100)
+>
+> 2. **Maintien des records dimensionnels acquis** : (28 October 2026, 01:51:21 +0100)
+>    - Face avant maintenue à son niveau record de **0,9778** (lame avant calée à $Y = 0,1075\text{ m}$ et coupole de toit avant à +5,5 mm). (28 October 2026, 01:51:21 +0100)
+>    - Dessous à **0,9746**, dessus à **0,9746**, face arrière à **0,9443**. (28 October 2026, 01:51:21 +0100)
+>
+> 3. **Topologie pure et vérification AnimReview 21/21** : (28 October 2026, 01:51:21 +0100)
+>    - 100,000 % quads purs (90 269 quads, 0 triangle, 0 ngon, 0 fissure, 0 arête non-variétale). (28 October 2026, 01:51:21 +0100)
+>    - 21/21 portes d'[`Audit_v602.json`](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Audit_v602.json) franchies avec succès (`all_pass=True`), anneau de passage de roue verrouillé à 5,00 % (seuil admissible $\le 5,00\%$). (28 October 2026, 01:51:21 +0100)
+>    - Rappel filaire contre [`ref3.png`](/Users/zenray/Downloads/ref3.png) maintenu à **99,85 %**. (28 October 2026, 01:51:21 +0100)
+>
+> 4. **Synchronisation Houdini live session** : (28 October 2026, 01:51:21 +0100)
+>    - Scène enregistrée : [`hip/ZenRayMeshes_v602.hip`](/Users/zenray/.claude/tmp/tmp-zenray-meshes/hip/ZenRayMeshes_v602.hip). (28 October 2026, 01:51:21 +0100)
+>    - Nœuds mis à jour : `/obj/ZRM_LatestKept/kept_latest` et `/obj/ZRM_LegoLattice_Tailor/car_mesh_file` pointés sur [`versions/ZenRayCar_v602.obj`](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v602.obj). (28 October 2026, 01:51:21 +0100)
+>    - Viewports générés : [`versions/Viewport_v602.png`](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Viewport_v602.png) et [`versions/Viewport_v602_tailor.png`](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Viewport_v602_tailor.png). (28 October 2026, 01:51:21 +0100)
+>
+> --- (28 October 2026, 01:51:21 +0100)
+>
+> ### 2. Tableau récapitulatif (28 October 2026, 01:51:21 +0100)
+>
+> | Ce que tu voulais | Est-ce fait | Comment je le sais (preuve mesurée) | (28 October 2026, 01:51:21 +0100)
+> |---|---|---| (28 October 2026, 01:51:21 +0100)
+> | Combler le déficit de silhouette sur les flancs | Fait | 1 538 sommets fastback rehaussés de +7,5 mm : flanc gauche à **0,9754**, flanc droit à **0,9736**. | (28 October 2026, 01:51:21 +0100)
+> | Franchir le palier d'IoU moyen de 0,9700 | Fait | Moyenne globale sur les 6 vues hissée à **0,9700** (face avant 0,9778, flanc gauche 0,9 (28 October 2026, 01:51:21 +0100)
