@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-10-28T00:20:31.221Z",
+ "scannedAt": "2026-10-28T00:22:31.588Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
@@ -64,7 +64,7 @@
    "sessionId": "c1a6145e-c0a4-4812-b9ce-51db18c27b5b",
    "title": "Attends, du coup, est-ce que je pourrais pas te donner un fil un fil de fer, par exemple, blanc, rouge à la limite, ou jaune. Oui. Bref, on ",
    "updatedAt": "2026-10-28T00:20:01.564606+00:00",
-   "bytes": 109272880,
+   "bytes": 79235336,
    "boundProject": "zenray-meshes"
   },
   {
@@ -95,7 +95,7 @@
    "provider": "gemini",
    "sessionId": "70a78ced-be34-4b18-8408-7ef23b2284af",
    "title": "Conversation Gemini 70a78ced",
-   "updatedAt": "2026-10-27T22:40:22.755Z",
+   "updatedAt": "2026-10-28T00:22:00.029Z",
    "bytes": 4816896,
    "boundProject": null
   },
