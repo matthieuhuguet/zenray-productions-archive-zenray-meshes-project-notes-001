@@ -36349,3 +36349,21 @@
 > 3. **Topologie pure et vérification AnimReview 21/21** : (28 October 2026, 01:55:41 +0100)
 >    - 100,000 % quads purs (90 269 quads, 0 triangle, 0 ngon, 0 fissure, 0 arête non-variétale). (28 October 2026, 01:55:41 +0100)
 >    - 21/21 portes d'[`Audit_v603.json`](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Audit_v603.json) franchies avec succès (`all_pass=True (28 October 2026, 01:55:41 +0100)
+
+## 28 October 2026, 02:12:05 +0100 : Iteration
+
+<!-- feedback-event:2d4641678c107971b59afcfc8e6b3792fad9355e381e281714a80589fe9b0dc2 (28 October 2026, 02:12:05 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 02:12:05 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (28 October 2026, 02:12:05 +0100)
+
+> La candidate **v605** est finalisée, validée à 21/21 portes d'AnimReview, synchronisée dans la session live Houdini et documentée. (28 October 2026, 02:12:05 +0100)
+>
+> Le rapport de livraison complet avec planches comparatives est accessible dans l'artefact : [ZenRayCar_v605_Delivery_Report.md](file:///Users/zenray/.gemini/antigravity/brain/c1a6145e-c0a4-4812-b9ce-51db18c27b5b/ZenRayCar_v605_Delivery_Report.md). (28 October 2026, 02:12:05 +0100)
+>
+> --- (28 October 2026, 02:12:05 +0100)
+>
+> ### Actions Réalisées sur la Candidate v605 (28 October 2026, 02:12:05 +0100)
+>
+> 1. **Sculpture de la cavité d'admission avant (undercut *shark nose*)** : (28 October 2026, 02:12:05 +0100)
+>    - Conformément à ta consigne sur la bouche avant sous le capot, l'analyse comparative contre [`ref3.png`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/refs/objects/06_Car/06_Car_topology_ref3_27-October-2026.png) a mis en évidence un museau plat qui avançait de 45 à 65 mm de trop sur les profils latéraux ($Z \approx +2,24\text{ m}$ au lieu de $Z \in [+2,15, +2,17\text{ m}]$). (28 October 2026, 02:12:05 +0100)
+>    - Recul vers l'intérieur ($-Z$) de 656 sommets de [`CAR_body_fascia_panel_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v605.obj), [`CAR_grille_bar_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v605.obj), [`CAR_grille_frame_C`](file (28 October 2026, 02:12:05 +0100)
