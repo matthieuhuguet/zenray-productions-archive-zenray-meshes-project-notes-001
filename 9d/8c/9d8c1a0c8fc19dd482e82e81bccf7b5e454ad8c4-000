@@ -39573,3 +39573,115 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:25:22 +0100)
 
 > Je lance le tournoi sur le capot. D'abord le vérificateur de la finition, puis les méthodes une à une, jugées de la même façon. (28 October 2026, 13:25:22 +0100)
+
+## 28 October 2026, 13:26:37 +0100 : Iteration
+
+<!-- feedback-event:7091bd32eb4c6bcae08ff3b7fc1c427074aad993ac5b163039a9a6ea4e60900f (28 October 2026, 13:26:37 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:26:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:26:37 +0100)
+
+> Le contour trouvé est faux : 46 points et un côté de 1,7 cm, alors que le capot mesure 1,43 m sur 0,72 m. Je regarde les contours de la peau du dessus. (28 October 2026, 13:26:37 +0100)
+
+## 28 October 2026, 13:26:46 +0100 : Iteration
+
+<!-- feedback-event:a5c6e7202e54cd3e98c770926a938d887f1fbdb30b33f6b1dcb26ab88c112e7c (28 October 2026, 13:26:46 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:26:46 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:26:46 +0100)
+
+> Une seule région, mais le contour a des points de pincement : mon parcours s'arrêtait au premier embranchement. Je refais le parcours sur les arêtes, sans en réutiliser aucune. (28 October 2026, 13:26:46 +0100)
+
+## 28 October 2026, 13:27:52 +0100 : Iteration
+
+<!-- feedback-event:21aa9fe8936a844b6da63a76acde703ce7a10409782060f118cf1dcd48816f92 (28 October 2026, 13:27:52 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:27:52 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:27:52 +0100)
+
+> `matplotlib` n'est pas installé dans cet environnement. Je remplace sa recherche de triangle par la mienne : les plus proches centres de triangles, puis un test barycentrique. (28 October 2026, 13:27:52 +0100)
+
+## 28 October 2026, 13:29:57 +0100 : Iteration
+
+<!-- feedback-event:05ba3ac10b0c14cc8d1fb8f53519be99d44a20cfd8023c4edd310af5f9801980 (28 October 2026, 13:29:57 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:29:57 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:29:57 +0100)
+
+> La capture Houdini est trop lointaine pour juger. Je rends le fil de fer des deux capots avec la planche du juge de topologie. (28 October 2026, 13:29:57 +0100)
+
+## 28 October 2026, 13:31:18 +0100 : Iteration
+
+<!-- feedback-event:9109c8b02650f8455cab897881573451f11d44fcb7063ded58fb5ed35a213193 (28 October 2026, 13:31:18 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:31:18 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:31:18 +0100)
+
+> À droite, v645 : la lèvre du capot est propre, sans les dents et les bosses de v644. Je garde v645 et je la charge dans Houdini. (28 October 2026, 13:31:18 +0100)
+
+## 28 October 2026, 13:31:25 +0100 : Iteration
+
+<!-- feedback-event:b960cdc8b654d68b98d3ee4e0eba0955b327bbd86354fb7d1ddd772ac0b62611 (28 October 2026, 13:31:25 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:31:25 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:31:25 +0100)
+
+> Même méthode sur le toit. (28 October 2026, 13:31:25 +0100)
+
+## 28 October 2026, 13:31:51 +0100 : Iteration
+
+<!-- feedback-event:9d5c07c7c15cd8379183584ae2b23a9eb31379ff6dddd0e8db336e84c1a9e7b5 (28 October 2026, 13:31:51 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:31:51 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:31:51 +0100)
+
+> Le toit en 14 × 8 rouvre 4 px de trous, et en 10 × 6 l'écart est de 1,34 mm. J'essaie l'entre-deux. (28 October 2026, 13:31:51 +0100)
+
+## 28 October 2026, 13:32:57 +0100 : Iteration
+
+<!-- feedback-event:6b1c82e5815ddbe4545aa7e5ea4cb460f5e85e26e1901d0aaeb6f9ec880297e8 (28 October 2026, 13:32:57 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:32:57 +0100)
+
+> Finition lancée : capot (v645) et toit (v646) refaits par ParamGrid, quads réguliers de 20 mm, zéro faute sur ces pièces, revue 21/21, trous 530 à 498 (28 October 2026) (28 October 2026, 13:32:57 +0100)
+
+## 28 October 2026, 13:32:32 +0100 : Iteration
+
+<!-- feedback-event:895307b9275cff3cc94e7169fc6c6e7daffa27a335788e09e9560e5fad83620f (28 October 2026, 13:32:32 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:32:32 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:32:32 +0100)
+
+> v646 : le toit est lisse et propre. Je garde, je consigne la méthode qui gagne pour l'instant, et je fais le point. (28 October 2026, 13:32:32 +0100)
+
+## 28 October 2026, 13:33:08 +0100 : Iteration
+
+<!-- feedback-event:5dc7a6aa8e72b930aa7059b98a0a3173927698d58f178adf40aefb45654f6ea7 (28 October 2026, 13:33:08 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:33:08 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:33:08 +0100)
+
+> La finition est lancée : le capot et le toit sont refaits par-dessus la forme gelée, en quads réguliers de 20 mm, et le juge ne trouve plus aucune faute sur ces deux pièces. La dernière version gardée est v646, chargée dans la scène Houdini ouverte et sauvegardée sous [ZenRayMeshes_v646.hip](/Users/zenray/.claude/tmp/tmp-zenray-meshes/hip/ZenRayMeshes_v646.hip). (28 October 2026, 13:33:08 +0100)
+>
+> **Comment c'est fait.** Le nouvel outil [ParamGrid.py](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/finish/ParamGrid.py) traite une pièce en quatre temps : (28 October 2026, 13:33:08 +0100)
+> - il prend la peau visible de la pièce et la déplie à plat en carré ; (28 October 2026, 13:33:08 +0100)
+> - il y pose une grille régulière ; (28 October 2026, 13:33:08 +0100)
+> - il la replace sur la forme gelée, puis la lisse ; (28 October 2026, 13:33:08 +0100)
+> - il ajoute dessous une coque de 12 mm d'épaisseur. (28 October 2026, 13:33:08 +0100)
+>
+> Ma première méthode, une grille posée vue de dessus, échouait : le nez du capot s'enroule vers le bas et se replie sur lui-même vu de dessus. (28 October 2026, 13:33:08 +0100)
+>
+> **Le vérificateur.** [FinishCheck.py](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/finish/FinishCheck.py) juge chaque pièce seule. Il échoue bien sur l'ancien capot, qui avait un quad plié à 174°. (28 October 2026, 13:33:08 +0100)
+>
+> | | Capot ancien | Capot neuf | Toit neuf | (28 October 2026, 13:33:08 +0100)
+> |---|---|---|---| (28 October 2026, 13:33:08 +0100)
+> | Écart à la forme, 95e centile | 0 (c'est la cible) | 0,78 mm | 1,34 mm | (28 October 2026, 13:33:08 +0100)
+> | Pli maximal dans un quad | 174° | 6,2° | 4,4° | (28 October 2026, 13:33:08 +0100)
+> | Arêtes, de la courte à la longue | 17 à 89 mm | 13 à 24 mm | 17 à 27 mm | (28 October 2026, 13:33:08 +0100)
+>
+> **Dans la voiture**, de v644 à v646 : (28 October 2026, 13:33:08 +0100)
+>
+> | | v644 | v646 | (28 October 2026, 13:33:08 +0100)
+> |---|---|---| (28 October 2026, 13:33:08 +0100)
+> | Fautes du juge | 1 708 | 1 644 | (28 October 2026, 13:33:08 +0100)
+> | Trous traversants (px) | 530 | 498 | (28 October 2026, 13:33:08 +0100)
+> | Silhouette | 0,9713 | 0,9713 | (28 October 2026, 13:33:08 +0100)
+> | Traits | 0,844 | 0,844 | (28 October 2026, 13:33:08 +0100)
+> | Revue | 21/21 | 21/21 | (28 October 2026, 13:33:08 +0100)
+>
+> **Ce qui reste :** (28 October 2026, 13:33:08 +0100)
+> - **Toit :** il dépasse de peu l'objectif de 1 mm (1,34 mm au 95e centile). Une version plus fidèle rouvrait 2 à 4 px de trous, parce que les joints ne sont pas encore construits par courbes partagées. (28 October 2026, 13:33:08 +0100)
+> - **Bords :** l'écart maximal, de 3 à 20 mm, se loge sur les bords, là où la forme gelée v644 est elle-même froissée. (28 October 2026, 13:33:08 +0100)
+> - **Tournoi :** les trois autres méthodes prévues n'ont pas encore été jouées. (28 October 2026, 13:33:08 +0100)
+>
+> Prochaines pièces : le coffre et les vitrages, puis les courbes de joint partagées entre voisins, qui doivent fermer les écarts à 0 mm. (28 October 2026, 13:33:08 +0100)
