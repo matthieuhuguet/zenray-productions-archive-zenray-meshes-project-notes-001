@@ -36320,3 +36320,32 @@
 > |---|---|---| (28 October 2026, 01:51:21 +0100)
 > | Combler le déficit de silhouette sur les flancs | Fait | 1 538 sommets fastback rehaussés de +7,5 mm : flanc gauche à **0,9754**, flanc droit à **0,9736**. | (28 October 2026, 01:51:21 +0100)
 > | Franchir le palier d'IoU moyen de 0,9700 | Fait | Moyenne globale sur les 6 vues hissée à **0,9700** (face avant 0,9778, flanc gauche 0,9 (28 October 2026, 01:51:21 +0100)
+
+## 28 October 2026, 01:55:41 +0100 : Iteration
+
+<!-- feedback-event:db9e62f6195e7b8af03c04ba92763d1650b4f5cbc001300d870d63cc369cdaae (28 October 2026, 01:55:41 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 01:55:41 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (28 October 2026, 01:55:41 +0100)
+
+> Le candidat **ZenRayCar_v603** a été généré, audité et synchronisé dans la session live Houdini au 28 October 2026. (28 October 2026, 01:55:41 +0100)
+>
+> ### 1. Avancées mesurées du candidat v603 (28 October 2026, 01:55:41 +0100)
+>
+> 1. **Scellement hermétique intégral de la verrière de toit (68 sommets au contact)** : (28 October 2026, 01:55:41 +0100)
+>    - Traitement direct de ta consigne sur l'éradication des trous et la création de soudures franches. (28 October 2026, 01:55:41 +0100)
+>    - **Tête de pare-brise (34 sommets)** : les 34 sommets de tête de [`CAR_body_glass_windshield_C`](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v603.obj) ($Z < 0,40\text{ m}$) ont été soudés un à un sur le bord d'attaque avant de [`CAR_body_roof_C`](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v603.obj), scellant une fente ouverte initiale de 11,2 à 14,5 mm sans altérer la topologie. (28 October 2026, 01:55:41 +0100)
+>    - **Tête de lunette arrière (34 sommets)** : les 34 sommets avant de [`CAR_body_glass_rear_C`](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v603.obj) ($Z > -1,05\text{ m}$) ont été soudés sur le bord de fuite arrière du toit (écart initial de 0,6 à 8,4 mm scellé à zéro). (28 October 2026, 01:55:41 +0100)
+>    - Le pare-brise, le toit et la lunette arrière forment désormais une coque de verrière aérodynamique continue et totalement étanche. (28 October 2026, 01:55:41 +0100)
+>
+> 2. **Maintien solide du palier d'IoU moyen à 0,9700** : (28 October 2026, 01:55:41 +0100)
+>    - Face avant : **0,9778** (28 October 2026, 01:55:41 +0100)
+>    - Flanc gauche : **0,9754** (28 October 2026, 01:55:41 +0100)
+>    - Dessous : **0,9746** (28 October 2026, 01:55:41 +0100)
+>    - Dessus : **0,9746** (28 October 2026, 01:55:41 +0100)
+>    - Flanc droit : **0,9735** (28 October 2026, 01:55:41 +0100)
+>    - Face arrière : **0,9443** (28 October 2026, 01:55:41 +0100)
+>    - Moyenne globale sur les 6 vues solidement ancrée à **0,9700**. (28 October 2026, 01:55:41 +0100)
+>
+> 3. **Topologie pure et vérification AnimReview 21/21** : (28 October 2026, 01:55:41 +0100)
+>    - 100,000 % quads purs (90 269 quads, 0 triangle, 0 ngon, 0 fissure, 0 arête non-variétale). (28 October 2026, 01:55:41 +0100)
+>    - 21/21 portes d'[`Audit_v603.json`](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Audit_v603.json) franchies avec succès (`all_pass=True (28 October 2026, 01:55:41 +0100)
