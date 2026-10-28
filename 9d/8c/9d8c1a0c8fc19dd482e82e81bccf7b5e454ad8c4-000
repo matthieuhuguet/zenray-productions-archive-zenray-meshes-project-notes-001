@@ -36585,3 +36585,19 @@
 > 1. **Candidat v624 (Soudures des joues de bouche et pourtour des phares)** : (28 October 2026, 04:54:07 +0100)
 >    - Soudure en Z des sommets latéraux 26008 et 26030 de [`CAR_fascia_side_L/R`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v624.obj) sur les angles de bouclier [`CAR_bumper_corner_L/R`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v624.obj) à $Z = 2,1871\text{ m}$ (écart de 7,98 mm comblé à 0,00 mm). La jointure verticale entre la bouche et les ailes avant est désormais continue et étanche à 100,0 %. (28 October 2026, 04:54:07 +0100)
 >    - Scellement hermétique en Y et Z des sommets supérieurs 95738 et 95770 des blocs optiques avant [`CAR_light_headlight_L/R`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v624.obj) sur [`CAR_fascia_front_band_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_ (28 October 2026, 04:54:07 +0100)
+
+## 28 October 2026, 04:59:07 +0100 : Iteration
+
+<!-- feedback-event:f4156dd570bce5a01cd7c91d37e45d00eb9cd882a07dab0aa3b9854697c85a08 (28 October 2026, 04:59:07 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 04:59:07 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (28 October 2026, 04:59:07 +0100)
+
+> Le candidat **v626** est finalisé, validé sous audit topologique strict et synchronisé dans la session Houdini en direct. (28 October 2026, 04:59:07 +0100)
+>
+> Le rapport complet et les captures de viewport sont disponibles dans [ZenRayCar_v626_Delivery_Report.md](file:///Users/zenray/.gemini/antigravity/brain/c1a6145e-c0a4-4812-b9ce-51db18c27b5b/ZenRayCar_v626_Delivery_Report.md). (28 October 2026, 04:59:07 +0100)
+>
+> ### Synthèse des avancées (28 October 2026, 04:59:07 +0100)
+>
+> 1. **Candidat v626 (Soudures hermétiques du bandeau de face arrière sur la carrosserie)** : (28 October 2026, 04:59:07 +0100)
+>    - L'audit dimensionnel transversal a révélé des écarts résiduels de 0,39 à 4,47 mm le long de la couture horizontale à $Y \approx 0,544\text{ m}$ entre [`CAR_fascia_rear_panel_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v626.obj) et [`CAR_body_tail_face_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v626.obj). (28 October 2026, 04:59:07 +0100)
+>    - Soudure flush en Y et Z des 15 sommets de contact à 0,00 mm répartis sur 8 stations ($X = \pm 0,382\text{ m}$, $\pm 0,439\text{ m}$, $\pm 0,442\text{ m}$, $\pm 0,451\text{ m}$, $\pm 0,466\text{ m}$, $\pm 0, (28 October 2026, 04:59:07 +0100)
