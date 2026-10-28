@@ -36467,3 +36467,29 @@
 - Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (28 October 2026, 03:24:41 +0100)
 
 > La candidate **v613** est (28 October 2026, 03:24:41 +0100)
+
+## 28 October 2026, 03:31:58 +0100 : Iteration
+
+<!-- feedback-event:bdf44a9f2e560e36a4fdcee677de15205be128758a5206af5440ea1094a40951 (28 October 2026, 03:31:58 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 03:31:58 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (28 October 2026, 03:31:58 +0100)
+
+> La candidate **v614** est livrée, validée par l'audit 21/21 gates et synchronisée dans la session live Houdini : (28 October 2026, 03:31:58 +0100)
+>
+> Consulter le rapport complet : [ZenRayCar_v614_Delivery_Report.md](file:///Users/zenray/.gemini/antigravity/brain/c1a6145e-c0a4-4812-b9ce-51db18c27b5b/ZenRayCar_v614_Delivery_Report.md). (28 October 2026, 03:31:58 +0100)
+>
+> ### Points clés de la livraison v614 (28 October 2026) (28 October 2026, 03:31:58 +0100)
+>
+> 1. **Sculpture parabolique fine de la lèvre de capot avant (8 sommets)** : (28 October 2026, 03:31:58 +0100)
+>    - Recalage des sommets de bord d'attaque de `CAR_body_hood_C` selon la parabole $Z_{\text{max}}(X) = 2,298 - 0,05 \cdot X^2$. (28 October 2026, 03:31:58 +0100)
+>    - Suppression du porte-à-faux de 20 mm qui dépassait au-dessus des joues de calandre, éliminant 28 pixels de faux positifs sur la colonne 49 en vue de dessus. (28 October 2026, 03:31:58 +0100)
+>    - Propulse la vue de dessus à son record absolu de **0,9764** (+2 points sur v613). (28 October 2026, 03:31:58 +0100)
+> 2. **4 soudures hermétiques entre diffuseur inférieur et face arrière** : (28 October 2026, 03:31:58 +0100)
+>    - Scellement à 0,00 mm des 4 sommets de contact entre `CAR_body_tail_face_C` et `CAR_diffuser_rear_C` (seuil de 3,0 mm). (28 October 2026, 03:31:58 +0100)
+>    - Les 26 points de contact de cette interface sont désormais soudés à 0,00 mm avec 0 fissure et 0 arête non-variétale. (28 October 2026, 03:31:58 +0100)
+> 3. **Maintien de tous les sommets historiques** : (28 October 2026, 03:31:58 +0100)
+>    - Flanc gauche au record historique de **0,9772**, flanc droit à **0,9768**, dessous à **0,9756**, face avant à **0,9777**, dessus au record de **0,9764** et IoU moyen consolidé au sommet de **0,9714** (0,971383). (28 October 2026, 03:31:58 +0100)
+> 4. **Scène Houdini et fichiers** : (28 October 2026, 03:31:58 +0100)
+>    - Scène enregistrée : [ZenRayMeshes_v614.hip](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/hip/ZenRayMeshes_v614.hip). (28 October 2026, 03:31:58 +0100)
+>    - Modèle OBJ : [ZenRayCar_v614.obj](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v614.obj) et [delivery_v614.npz](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/work/car/delivery_v614.npz). (28 October 2026, 03:31:58 +0100)
+>    - Captures du viewport Houdini : [Viewport_v614.png](file:///Users/zenray/.gemini/antigravity/brain/c1a6145e-c0a4-4812-b9ce-51db18c27b5b/Viewport_v614.png) et [Viewport_v614_tailor.png](file:///Users/zenray/.gemini/antigravity/brain/c1a6145e-c0a4-4812-b9ce-51db18c27b5b/Viewport_v (28 October 2026, 03:31:58 +0100)
