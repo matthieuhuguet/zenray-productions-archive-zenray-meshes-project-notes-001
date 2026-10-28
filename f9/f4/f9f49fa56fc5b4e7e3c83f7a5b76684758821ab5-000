@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-10-28T00:42:44.442Z",
+ "scannedAt": "2026-10-28T00:49:47.289Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
@@ -53,18 +53,18 @@
   },
   {
    "projectId": "zenray-meshes",
-   "lines": 33,
-   "work": 33,
+   "lines": 32,
+   "work": 32,
    "prompts": 0,
-   "first": "2026-10-27T20:38:18.659Z",
-   "last": "2026-10-28T00:40:19.681Z",
+   "first": "2026-10-27T20:42:38.387Z",
+   "last": "2026-10-28T00:47:33.619Z",
    "strength": "strong",
    "conversationId": "gemini:c1a6145e-c0a4-4812-b9ce-51db18c27b5b",
    "provider": "gemini",
    "sessionId": "c1a6145e-c0a4-4812-b9ce-51db18c27b5b",
-   "title": "Attends, du coup, est-ce que je pourrais pas te donner un fil un fil de fer, par exemple, blanc, rouge à la limite, ou jaune. Oui. Bref, on ",
-   "updatedAt": "2026-10-28T00:40:19.681371+00:00",
-   "bytes": 86251000,
+   "title": "/Users/zenray/Downloads/ref3.png Voici l'image que j'ai faite avec un wireframe de type rouge. Donc maintenant, à toi de recréer parfaitemen",
+   "updatedAt": "2026-10-28T00:47:33.619219+00:00",
+   "bytes": 112549488,
    "boundProject": "zenray-meshes"
   },
   {

@@ -36264,3 +36264,21 @@
 > 4. **Synchronisation Houdini live session** : (28 October 2026, 01:40:19 +0100)
 >    - Scène enregistrée : [`hip/ZenRayMeshes_v600.hip`](/Users/zenray/.claude/tmp/tmp-zenray-meshes/hip/ZenRayMeshes_v600.hip). (28 October 2026, 01:40:19 +0100)
 >    - Nœuds mis à jour : `/obj/ZRM_LatestKept/kept_latest` et `/obj/ZRM_LegoLattice_Tailor/car_mesh_file` pointés sur [`versions/ZenRayCar_v600.obj`](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_ (28 October 2026, 01:40:19 +0100)
+
+## 28 October 2026, 01:47:33 +0100 : Iteration
+
+<!-- feedback-event:17d1abe1c88f4acc0c68861dc8f790ca89931eb535ed36a52a63280f88f0af5e (28 October 2026, 01:47:33 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 01:47:33 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (28 October 2026, 01:47:33 +0100)
+
+> Le candidat **ZenRayCar_v601** a été généré, audité et synchronisé dans la session live Houdini au 28 October 2026. (28 October 2026, 01:47:33 +0100)
+>
+> ### 1. Avancées mesurées du candidat v601 (28 October 2026, 01:47:33 +0100)
+>
+> 1. **Calibrage avant du pavillon de toit (`CAR_body_roof_C`)** : (28 October 2026, 01:47:33 +0100)
+>    - La rehausse parabolique de +5,5 mm a été concentrée sur la moitié avant ($Z \in [-0,20, 0,25\text{ m}]$) pour épouser la référence avant, tout en s'atténuant jusqu'à zéro vers la lunette arrière ($Z < -0,75\text{ m}$). (28 October 2026, 01:47:33 +0100)
+>    - Cette courbure élimine 200 pixels de faux positifs à l'apex en vue arrière, hissant l'IoU de vue arrière à **0,9443** (contre 0,9435 sur v600) tout en maintenant la face avant à un niveau record de **0,9778**. (28 October 2026, 01:47:33 +0100)
+>
+> 2. **Élargissement symétrique des coins de poupe** : (28 October 2026, 01:47:33 +0100)
+>    - 322 sommets de la périphérie extérieure de [`CAR_body_tail_face_C`](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v601.obj) et des écopes latérales [`CAR_vent_rear_L/R`](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v601.obj) ($Z < -2,05\text{ m}$, $Y \in [0,25, 0,50\text{ m}]$, $|X| > 0,82\text{ m}$) ont été élargis de 8 mm selon une rampe linéaire. (28 October 2026, 01:47:33 +0100)
+>    - Ce galbe comble le déficit latéral (28 October 2026, 01:47:33 +0100)
