@@ -45919,3 +45919,46 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 19:56:57 +0100)
 
 > Surveillant dont-stop, voiture ZenRay Meshes par COMPOSANTS (section 229 du skill zenray-meshes : standard Forza et GTA, flux Maya, ZenRay Meshes est un algorithme). Atelier /Users/zenray/.claude/tmp/tmp-zenray-meshes. Si work/car/loop.lock existe avec un PID vivant, ne rien faire. Lire work/car/finish/TODO.md, section « 28 October 2026, 19:50 : FINITION PAR COMPOSANTS », et traiter la première tâche K non faite, une sous-étape vérifiable à la fois (K0 commande unique Scripts/ZenRayMeshesCar.py ; K1 caisse d'un seul tenant en cage de subdivision dont les boucles suivent les courbes ; K2 découpe en panneaux le long des jours, épaisseur 2 mm, jour 3 à 4 mm ; K3 ouvrants avec panneau intérieur et pivot, test d'ouverture à 30° ; puis K4 à K10). Lire le dernier versions/Gate_vNNN.json en KEEP avant toute action. Tout se fait par script paramétré (jamais à la main), surfaces calculées des courbes et de la cage (jamais collées au sculpt froissé), rayures zébrées régulières (Scripts/curverig/RenderRig.py), silhouettes contre la ref. Juger chaque composant par Scripts/finish/ComponentSheet.py (fermé, épais, sans quad plié, ajusté, pivot) et la voiture par zsh Scripts/JudgeDelivery.sh vNNN (21/21, trous non en hausse, silhouette pas plus basse que v644 de plus de 0,0005) et Scripts/finish/FinishAudit.py ; regarder le rendu avant de garder. KEEP : Gate_vNNN.json, OBJ dans /obj/ZRM_LatestKept/kept_latest de Houdini ouvert (MCP), planche des composants envoyée à Matthieu, consigner (FEEDBACK, progress, section 229 du SKILL), cocher la tâche. Rester silencieux si rien ne change. Ne jamais déclarer la voiture finie ni lancer ZenRay UV. Pas de tiret cadratin. (28 October 2026, 19:56:57 +0100)
+
+## 28 October 2026, 20:06:19 +0100 : Iteration
+
+<!-- feedback-event:5db5a2d7d81b58b7df026159a0f50a8dfb2e5f5ead95d9ee9d57e96cf983256a (28 October 2026, 20:06:19 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 20:06:19 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 20:06:19 +0100)
+
+> Les quatre lèvres basses passent maintenant le vérificateur (87 courbes lisses sur 88, contre 83) ; je recalcule la cage et je vérifie qu'elle ne prend pas de nouveau pli. (28 October 2026, 20:06:19 +0100)
+
+## 28 October 2026, 20:10:25 +0100 : Iteration
+
+<!-- feedback-event:47c75e7789993c7c9621b089ecc9562b6d310b40460127476c287f49cd2e0736 (28 October 2026, 20:10:25 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 20:10:25 +0100)
+
+> Itération KF2a (28 October 2026) : les quatre lèvres basses des arches passent la règle des courbes lisses (ajustement lisse RigLib.fit_fair, x concave depuis le bas, tangente tenue au sommet) ; courbes du rig 83 -> 87/88, coupes et pire pli inchangés ; deux plis locaux nouveaux de 5 à 6 deg ; la piste d'un vérificateur 3D est écartée (il acceptait une vraie S) ; prochain : le coin du bas de caisse comme courbe vive (KF2b). (28 October 2026, 20:10:25 +0100)
+
+## 28 October 2026, 20:10:45 +0100 : Iteration
+
+<!-- feedback-event:85020b81dd428b90c25d62ec14cb4ebf966eacb6df21ce60b8ddb0d9e2e68d1a (28 October 2026, 20:10:45 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 20:10:45 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 20:10:45 +0100)
+
+> J'ai traité KF2a : les quatre lèvres basses des arches passent maintenant le contrôle des courbes lisses. Le réseau a 87 courbes lisses sur 88, contre 83 avant. La 3D des nouveaux composants attend toujours ta validation des planches. (28 October 2026, 20:10:45 +0100)
+>
+> Ces lèvres passent sous la voiture, tournent serré, puis remontent le long de l'arche. Ajustées avec seulement six points de contrôle, elles ondulaient autour de ce virage, deux fois chacune. Je les ajuste maintenant autrement : le bas est lissé pour effacer les petites bosses de la sculpture, et les points de contrôle se concentrent dans le virage. Au sommet, la courbe garde la même direction que la ligne de l'arche qu'elle prolonge. (28 October 2026, 20:10:45 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (28 October 2026, 20:10:45 +0100)
+> |---|---|---| (28 October 2026, 20:10:45 +0100)
+> | Plus aucune courbe qui ondule | En partie | 87 courbes lisses sur 88 ; reste un rayon de la bande de custode, qui passe par-dessus une arête puis plonge dans un creux | (28 October 2026, 20:10:45 +0100)
+> | Ne rien abîmer ailleurs | Presque | Le pire pli reste à 6,18 degrés et les coupes restent à 20 sur 24, mais deux petits plis apparaissent près des lèvres (6,2 et 5,1 degrés) | (28 October 2026, 20:10:45 +0100)
+> | Regarder avant de garder | Oui | Coupes avant et après envoyées : la lèvre remonte sans onduler | (28 October 2026, 20:10:45 +0100)
+>
+> Les coupes montrent aussi que la cage arrondit le coin du bas de caisse de plusieurs centimètres, et ça avant comme après, parce que ce coin n'existe pas encore comme ligne. C'est la prochaine sous-étape, KF2b : en faire une arête nette où les lèvres s'arrêteront en simples arcs. (28 October 2026, 20:10:45 +0100)
+>
+> Coupes : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Sections_KF2_lip_front.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Sections_KF2_lip_front.png) (28 October 2026, 20:10:45 +0100)
+
+## 28 October 2026, 20:10:48 +0100 : Prompt
+
+<!-- feedback-event:28bd41c7c212e09b6227543d04102b8c276008417799a5cb9b94ced41c2088ac (28 October 2026, 20:10:48 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 20:10:48 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 20:10:48 +0100)
+
+> Surveillant dont-stop, voiture ZenRay Meshes par COMPOSANTS (section 229 du skill zenray-meshes : standard Forza et GTA, flux Maya, ZenRay Meshes est un algorithme). Atelier /Users/zenray/.claude/tmp/tmp-zenray-meshes. Si work/car/loop.lock existe avec un PID vivant, ne rien faire. Lire work/car/finish/TODO.md, section « 28 October 2026, 19:50 : FINITION PAR COMPOSANTS », et traiter la première tâche K non faite, une sous-étape vérifiable à la fois (K0 commande unique Scripts/ZenRayMeshesCar.py ; K1 caisse d'un seul tenant en cage de subdivision dont les boucles suivent les courbes ; K2 découpe en panneaux le long des jours, épaisseur 2 mm, jour 3 à 4 mm ; K3 ouvrants avec panneau intérieur et pivot, test d'ouverture à 30° ; puis K4 à K10). Lire le dernier versions/Gate_vNNN.json en KEEP avant toute action. Tout se fait par script paramétré (jamais à la main), surfaces calculées des courbes et de la cage (jamais collées au sculpt froissé), rayures zébrées régulières (Scripts/curverig/RenderRig.py), silhouettes contre la ref. Juger chaque composant par Scripts/finish/ComponentSheet.py (fermé, épais, sans quad plié, ajusté, pivot) et la voiture par zsh Scripts/JudgeDelivery.sh vNNN (21/21, trous non en hausse, silhouette pas plus basse que v644 de plus de 0,0005) et Scripts/finish/FinishAudit.py ; regarder le rendu avant de garder. KEEP : Gate_vNNN.json, OBJ dans /obj/ZRM_LatestKept/kept_latest de Houdini ouvert (MCP), planche des composants envoyée à Matthieu, consigner (FEEDBACK, progress, section 229 du SKILL), cocher la tâche. Rester silencieux si rien ne change. Ne jamais déclarer la voiture finie ni lancer ZenRay UV. Pas de tiret cadratin. (28 October 2026, 20:10:48 +0100)
