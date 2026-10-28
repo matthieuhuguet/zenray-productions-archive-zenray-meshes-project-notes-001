@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-10-28T03:46:04.079Z",
+ "scannedAt": "2026-10-28T03:51:04.287Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
@@ -56,15 +56,15 @@
    "lines": 23,
    "work": 23,
    "prompts": 0,
-   "first": "2026-10-27T23:42:35.110Z",
-   "last": "2026-10-28T03:31:02.387Z",
+   "first": "2026-10-27T23:50:23.624Z",
+   "last": "2026-10-28T03:46:09.083Z",
    "strength": "strong",
    "conversationId": "gemini:c1a6145e-c0a4-4812-b9ce-51db18c27b5b",
    "provider": "gemini",
    "sessionId": "c1a6145e-c0a4-4812-b9ce-51db18c27b5b",
-   "title": "Là, il faut surtout que tu commences à te préoccuper du travail de finition, en fait. Surtout la finition qui va être importante. Parce que ",
-   "updatedAt": "2026-10-28T03:31:02.387444+00:00",
-   "bytes": 137846384,
+   "title": "Par contre, arrête de faire la vidéo en parallèle. T'as plus besoin de la faire et en plus ça prend trop de compute. Mais je t'ai déjà dit c",
+   "updatedAt": "2026-10-28T03:46:09.083847+00:00",
+   "bytes": 138797064,
    "boundProject": "zenray-meshes"
   },
   {
