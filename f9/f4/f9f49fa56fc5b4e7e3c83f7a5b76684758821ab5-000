@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-10-28T06:00:52.095Z",
+ "scannedAt": "2026-10-28T06:02:53.879Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
@@ -64,7 +64,7 @@
    "sessionId": "c1a6145e-c0a4-4812-b9ce-51db18c27b5b",
    "title": "Conversation Gemini c1a6145e",
    "updatedAt": "2026-10-28T04:54:24.883994+00:00",
-   "bytes": 123731968,
+   "bytes": 123764736,
    "boundProject": "zenray-meshes"
   },
   {
