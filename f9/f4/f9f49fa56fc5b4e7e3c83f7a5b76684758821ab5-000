@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-10-28T01:33:46.496Z",
+ "scannedAt": "2026-10-28T01:34:48.531Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
@@ -64,7 +64,7 @@
    "sessionId": "c1a6145e-c0a4-4812-b9ce-51db18c27b5b",
    "title": "C'est pas exactement cette méthode dont je parlais. En fait, je parlais plutôt d'une méthode en mode tu prends le wireframe rouge. Je vais e",
    "updatedAt": "2026-10-28T01:30:16.359093+00:00",
-   "bytes": 85558672,
+   "bytes": 104086152,
    "boundProject": "zenray-meshes"
   },
   {
