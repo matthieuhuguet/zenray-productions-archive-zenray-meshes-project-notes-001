@@ -39266,3 +39266,208 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:10:23 +0100)
 
 > Boucle voiture ZenRay Meshes (cron 2 min, jusqu'à 20 h le 28 October 2026). Atelier /Users/zenray/.claude/tmp/tmp-zenray-meshes. Si work/car/loop.lock existe et son PID tourne, ne rien faire. Sinon : N = plus haut versions/Gate_vNNN.json en KEEP (base actuelle v639), C = N+1. Une seule correction locale par itération, sur le défaut visible le plus gros : (1) trous traversants (Scripts/HoleMap.py, HoleCloser.py), (2) pièces froissées (rugosité p90 contre v577, Scripts/FairPart.py avec --hold 0.02 ; pour le bandeau avant et la barre de calandre, faits uniquement de bords, il faut une méthode propre aux bandes), (3) joints entre composants, à 0 mm visé. Jamais de soudure globale à tolérance large (elle a multiplié les fautes par 2,5). Juger par zsh Scripts/JudgeDelivery.sh vC : la revue doit rester à 21/21, la silhouette ne doit pas baisser de plus de 0,0002, les trous ne doivent pas monter. Regarder le rendu (Scripts/TopoToRender.py puis CleanView.py) avant de garder. KEEP : écrire versions/Gate_vC.json, pointer /obj/ZRM_LatestKept/kept_latest sur l'OBJ, envoyer l'image à Matthieu, consigner (FEEDBACK, progress, section du SKILL zenray-meshes). Ne jamais déclarer la voiture finie : seul Matthieu le décide. Ne jamais lancer ZenRay UV sans son ordre. Pas de tiret cadratin. (28 October 2026, 13:10:23 +0100)
+
+## 28 October 2026, 13:11:27 +0100 : Iteration
+
+<!-- feedback-event:4b3dad25936e13c81c1ba4f7b46c1cc53cc03daa0ad9adf00cb9b55f674a5a34 (28 October 2026, 13:11:27 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:11:27 +0100)
+
+> v642 KEEP : capot refait en une surface lisse (HeightFair deg 6), fautes 1708, trous 530, revue 21/21 (28 October 2026) (28 October 2026, 13:11:27 +0100)
+
+## 28 October 2026, 13:11:32 +0100 : Iteration
+
+<!-- feedback-event:eef7c7a4dff3baa13414f6104f86026a54d598198a8a3d403cef6ab92d39da1a (28 October 2026, 13:11:32 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:11:32 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:11:32 +0100)
+
+> J'ai gardé v642 : le capot est maintenant une seule surface lisse, et ses plis centraux ont disparu. (28 October 2026, 13:11:32 +0100)
+>
+> Pour cela, j'ai écrit [HeightFair.py](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/HeightFair.py). Il remplace la peau du dessus par une surface lisse et symétrique, garde l'épaisseur et laisse fixes les bords soudés. (28 October 2026, 13:11:32 +0100)
+>
+> | Mesure | v641 | v642 | (28 October 2026, 13:11:32 +0100)
+> |---|---|---| (28 October 2026, 13:11:32 +0100)
+> | Fautes de topologie | 1 698 | 1 708 | (28 October 2026, 13:11:32 +0100)
+> | Trous traversants (px) | 532 | 530 | (28 October 2026, 13:11:32 +0100)
+> | Silhouette | 0,9714 | 0,9714 | (28 October 2026, 13:11:32 +0100)
+> | Revue | 21/21 | 21/21 | (28 October 2026, 13:11:32 +0100)
+>
+> Je l'ai gardée malgré 10 fautes de plus, parce que la surface est nettement plus propre et que les règles de la boucle sont respectées. De petites marques restent au bord avant du capot, près des soudures. (28 October 2026, 13:11:32 +0100)
+>
+> La scène Houdini ouverte charge v642. Le comparatif est dans [Front_v641_v642.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Front_v641_v642.png). (28 October 2026, 13:11:32 +0100)
+>
+> Prochaines corrections : le toit et le coffre avec le même outil, puis le panneau de calandre. (28 October 2026, 13:11:32 +0100)
+
+## 28 October 2026, 13:12:23 +0100 : Prompt
+
+<!-- feedback-event:5d1755d91154dcb16c27f7ee59c413c5fb8d4cbdb66214a22b413fa5ca1a60dd (28 October 2026, 13:12:23 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 13:12:23 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:12:23 +0100)
+
+> Boucle voiture ZenRay Meshes (cron 2 min, jusqu'à 20 h le 28 October 2026). Atelier /Users/zenray/.claude/tmp/tmp-zenray-meshes. Si work/car/loop.lock existe et son PID tourne, ne rien faire. Sinon : N = plus haut versions/Gate_vNNN.json en KEEP (base actuelle v639), C = N+1. Une seule correction locale par itération, sur le défaut visible le plus gros : (1) trous traversants (Scripts/HoleMap.py, HoleCloser.py), (2) pièces froissées (rugosité p90 contre v577, Scripts/FairPart.py avec --hold 0.02 ; pour le bandeau avant et la barre de calandre, faits uniquement de bords, il faut une méthode propre aux bandes), (3) joints entre composants, à 0 mm visé. Jamais de soudure globale à tolérance large (elle a multiplié les fautes par 2,5). Juger par zsh Scripts/JudgeDelivery.sh vC : la revue doit rester à 21/21, la silhouette ne doit pas baisser de plus de 0,0002, les trous ne doivent pas monter. Regarder le rendu (Scripts/TopoToRender.py puis CleanView.py) avant de garder. KEEP : écrire versions/Gate_vC.json, pointer /obj/ZRM_LatestKept/kept_latest sur l'OBJ, envoyer l'image à Matthieu, consigner (FEEDBACK, progress, section du SKILL zenray-meshes). Ne jamais déclarer la voiture finie : seul Matthieu le décide. Ne jamais lancer ZenRay UV sans son ordre. Pas de tiret cadratin. (28 October 2026, 13:12:23 +0100)
+
+## 28 October 2026, 13:12:37 +0100 : Iteration
+
+<!-- feedback-event:7242baa8988fe34e4c77df56aaa3a97568520332c60ace18d22a9c26a2a772e7 (28 October 2026, 13:12:37 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:12:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:12:37 +0100)
+
+> Pour le toit, les trous passent de 530 à 534 px, ce que la règle interdit. Je réessaie avec un fondu plus large près des bords soudés. (28 October 2026, 13:12:37 +0100)
+
+## 28 October 2026, 13:12:49 +0100 : Iteration
+
+<!-- feedback-event:613c96e2134e1a9095060427e75ac72f7df2db2a6a54a7c3a5bef0788ddbdc0e (28 October 2026, 13:12:49 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:12:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:12:49 +0100)
+
+> Le fondu n'a aucun effet : le toit est une coque fermée, sans bord ouvert à figer. Ses côtés bougent et rouvrent des jours. Je passe au coffre pour cette itération. (28 October 2026, 13:12:49 +0100)
+
+## 28 October 2026, 13:12:59 +0100 : Iteration
+
+<!-- feedback-event:41e1540a75118fcb25154b9baf4fb9b5739172e07a1354de8d3a2252051fc090 (28 October 2026, 13:12:59 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:12:59 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:12:59 +0100)
+
+> Pour le coffre, tous les chiffres sont neutres. Je regarde le rendu de l'arrière. (28 October 2026, 13:12:59 +0100)
+
+## 28 October 2026, 13:13:16 +0100 : Iteration
+
+<!-- feedback-event:34eeafa1ad0c05d26565736264e9ffb5a4975236807bfd50439b372ec34b8adb (28 October 2026, 13:13:16 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:13:16 +0100)
+
+> v643 DROP : toit (trous +4) et coffre (aucun gain) par HeightFair (28 October 2026) (28 October 2026, 13:13:16 +0100)
+
+## 28 October 2026, 13:13:20 +0100 : Iteration
+
+<!-- feedback-event:19283ef8e2653ffb033f4b506cd9f7ca91e4a002225ba2e27fd8de2b23159050 (28 October 2026, 13:13:20 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:13:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:13:20 +0100)
+
+> J'ai rejeté les deux essais de cette itération : v642 reste la version gardée. (28 October 2026, 13:13:20 +0100)
+>
+> - **Toit lissé :** les trous traversants passent de 530 à 534 px. Le toit est une coque fermée, sans bord ouvert qu'on puisse figer, donc le lissage déplace aussi ses côtés et rouvre des jours. Pour le refaire, il faut d'abord figer une bande sur les côtés. (28 October 2026, 13:13:20 +0100)
+> - **Coffre lissé :** aucun gain mesuré, et aucune différence visible sur le rendu. (28 October 2026, 13:13:20 +0100)
+>
+> Sur la vue arrière ([Rear_v642_v643.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Rear_v642_v643.png)), les défauts qui restent sont la face arrière ondulée et un creux sur la lunette. Le panneau de calandre est aussi à reprendre. (28 October 2026, 13:13:20 +0100)
+
+## 28 October 2026, 13:14:22 +0100 : Prompt
+
+<!-- feedback-event:a1fe9c7829d3b358ccb84578b169ed50dae3479ba67c6437dc895a68f2d6589d (28 October 2026, 13:14:22 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 13:14:22 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:14:22 +0100)
+
+> Boucle voiture ZenRay Meshes (cron 2 min, jusqu'à 20 h le 28 October 2026). Atelier /Users/zenray/.claude/tmp/tmp-zenray-meshes. Si work/car/loop.lock existe et son PID tourne, ne rien faire. Sinon : N = plus haut versions/Gate_vNNN.json en KEEP (base actuelle v639), C = N+1. Une seule correction locale par itération, sur le défaut visible le plus gros : (1) trous traversants (Scripts/HoleMap.py, HoleCloser.py), (2) pièces froissées (rugosité p90 contre v577, Scripts/FairPart.py avec --hold 0.02 ; pour le bandeau avant et la barre de calandre, faits uniquement de bords, il faut une méthode propre aux bandes), (3) joints entre composants, à 0 mm visé. Jamais de soudure globale à tolérance large (elle a multiplié les fautes par 2,5). Juger par zsh Scripts/JudgeDelivery.sh vC : la revue doit rester à 21/21, la silhouette ne doit pas baisser de plus de 0,0002, les trous ne doivent pas monter. Regarder le rendu (Scripts/TopoToRender.py puis CleanView.py) avant de garder. KEEP : écrire versions/Gate_vC.json, pointer /obj/ZRM_LatestKept/kept_latest sur l'OBJ, envoyer l'image à Matthieu, consigner (FEEDBACK, progress, section du SKILL zenray-meshes). Ne jamais déclarer la voiture finie : seul Matthieu le décide. Ne jamais lancer ZenRay UV sans son ordre. Pas de tiret cadratin. (28 October 2026, 13:14:22 +0100)
+
+## 28 October 2026, 13:15:13 +0100 : Iteration
+
+<!-- feedback-event:04b153ecf66d3e0b5bca2d552f530909b18e6cf53ddcb8c535ac15d71b0555ef (28 October 2026, 13:15:13 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:15:13 +0100)
+
+> v644 KEEP : toit lissé par HeightFair, côtés figés (28 October 2026) (28 October 2026, 13:15:13 +0100)
+
+## 28 October 2026, 13:15:05 +0100 : Iteration
+
+<!-- feedback-event:2172e01045d73f72083d6995ff7a585e03f5ae4e4f9247f06b28c5d9b8a06950 (28 October 2026, 13:15:05 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:15:05 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:15:05 +0100)
+
+> À droite, v644 : le toit est plus lisse et ne montre plus de pli transversal. Je garde v644. (28 October 2026, 13:15:05 +0100)
+
+## 28 October 2026, 13:15:18 +0100 : Iteration
+
+<!-- feedback-event:0b04a68fea335a0711254cd9abfedde07a65ba080fc7f58074bcb554a7420136 (28 October 2026, 13:15:18 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:15:18 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:15:18 +0100)
+
+> J'ai gardé v644 : le toit est lissé et son pli transversal a disparu sur le rendu. (28 October 2026, 13:15:18 +0100)
+>
+> Cette fois, les côtés du toit étaient figés au-delà de 0,45 m de l'axe, ce qui a évité de rouvrir des jours comme dans l'essai rejeté v643. Les trous restent donc à 530 px. Les autres mesures tiennent : (28 October 2026, 13:15:18 +0100)
+>
+> - **Silhouette :** 0,9713, soit 0,0001 de moins, dans la tolérance. (28 October 2026, 13:15:18 +0100)
+> - **Traits :** 0,844. (28 October 2026, 13:15:18 +0100)
+> - **Revue :** 21/21. (28 October 2026, 13:15:18 +0100)
+> - **Fautes :** 1 708, comme avant. (28 October 2026, 13:15:18 +0100)
+>
+> La scène Houdini ouverte charge v644. L'image avant/après est dans [Roof_v642_v644.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Roof_v642_v644.png). (28 October 2026, 13:15:18 +0100)
+>
+> Prochaines corrections : la face arrière ondulée, la lunette arrière, puis le panneau de calandre. (28 October 2026, 13:15:18 +0100)
+
+## 28 October 2026, 13:15:58 +0100 : Prompt
+
+<!-- feedback-event:8b9a04cbcb8cc15808750f2d62a7c9aaf892d33bc6d8c2c13f16e03f2a8e862f (28 October 2026, 13:15:58 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 13:15:58 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:15:58 +0100)
+
+> Arrête la boucle et le cron  Mais simplement, fixe-toi le goal. À 99,9% de la ref sur le modèle 3D. /goal (28 October 2026, 13:15:58 +0100)
+
+## 28 October 2026, 13:16:06 +0100 : Standing rule
+
+<!-- feedback-event:8846155cec184eafa04e3ad484a0be897afc891b8cac563215e64ea8ed0da96d (28 October 2026, 13:16:06 +0100) -->
+- Project: zenray-meshes; kind: rule. (28 October 2026, 13:16:06 +0100)
+
+> Objectif fixé par Matthieu : modèle 3D de la voiture à 99,9 % de la référence (six vues). État v644 : silhouette 0,9713, traits 0,844. Boucle et cron arrêtés à sa demande (28 October 2026) (28 October 2026, 13:16:06 +0100)
+
+## 28 October 2026, 13:16:10 +0100 : Iteration
+
+<!-- feedback-event:96129e61fa7d568f84606df3559cfd86facae76a813ca01160c86bb3c022858e (28 October 2026, 13:16:10 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:16:10 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:16:10 +0100)
+
+> La boucle est arrêtée : le cron est supprimé et aucune itération ne tourne. La dernière version gardée est v644, chargée dans la scène Houdini ouverte. (28 October 2026, 13:16:10 +0100)
+>
+> J'ai consigné l'objectif dans les règles du projet : le modèle 3D doit atteindre 99,9 % de la référence sur les six vues. (28 October 2026, 13:16:10 +0100)
+>
+> L'écart reste grand. v644 mesure 0,9713 en silhouette et 0,844 en traits, soit environ 2,9 points de silhouette et 15,6 points de traits sous la cible. Les corrections de cette session ont défroissé les pièces et fermé des trous, mais elles ne rapprochent presque pas la forme de la référence. (28 October 2026, 13:16:10 +0100)
+>
+> Atteindre 99,9 % demande donc une autre méthode, qui reconstruise les composants à partir de la référence. Je ne la lance pas sans votre feu vert. (28 October 2026, 13:16:10 +0100)
+
+## 28 October 2026, 13:17:07 +0100 : Prompt
+
+<!-- feedback-event:f4713f6565245dcd4e39650628da305c77c5dec627ebabec2a5fe8e1beae8605 (28 October 2026, 13:17:07 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 13:17:07 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:17:07 +0100)
+
+> go (28 October 2026, 13:17:07 +0100)
+
+## 28 October 2026, 13:17:17 +0100 : Iteration
+
+<!-- feedback-event:23f009c286835f1fba1126d93eecc9a660cf6a4310719c8cbeef5bdb7e9dc5db (28 October 2026, 13:17:17 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:17:17 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:17:17 +0100)
+
+> La vue arrière est la plus loin (0,9446, contre 0,976 à 0,977 pour les autres). Je regarde où elle diffère de la référence. (28 October 2026, 13:17:17 +0100)
+
+## 28 October 2026, 13:18:09 +0100 : Iteration
+
+<!-- feedback-event:59d6e506c8342ff9b952a0fc24abe438b354610380380b9bce1a2291d0200e62 (28 October 2026, 13:18:09 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:18:09 +0100)
+
+> Plafond de la planche mesuré : face 0,9452 et dos 0,9661 au mieux pour un objet qui respecte les six vues ; 99,9 % sur toutes les vues impossible avec cette planche, choix de la définition demandé à Matthieu (28 October 2026) (28 October 2026, 13:18:09 +0100)
+
+## 28 October 2026, 13:18:17 +0100 : Iteration
+
+<!-- feedback-event:3f505f591412b1d18c86ff5c96cad5a95b5689a2e14f873f711f250ac16bb410 (28 October 2026, 13:18:17 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 13:18:17 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 13:18:17 +0100)
+
+> J'ai mesuré avant de modifier quoi que ce soit : avec cette planche, aucun modèle ne peut atteindre 99,9 % sur les six vues à la fois. (28 October 2026, 13:18:17 +0100)
+>
+> **Pourquoi.** J'ai calculé l'enveloppe des six silhouettes, c'est-à-dire le plus grand volume que toutes les vues acceptent en même temps. Elle donne le meilleur score possible par vue : (28 October 2026, 13:18:17 +0100)
+>
+> | Vue | Plafond de la planche | v644 | (28 October 2026, 13:18:17 +0100)
+> |---|---|---| (28 October 2026, 13:18:17 +0100)
+> | Face | 0,9452 | 0,9776 | (28 October 2026, 13:18:17 +0100)
+> | Dos | 0,9661 | 0,9446 | (28 October 2026, 13:18:17 +0100)
+> | Gauche | 0,9919 | 0,9773 | (28 October 2026, 13:18:17 +0100)
+> | Droite | 0,9903 | 0,9763 | (28 October 2026, 13:18:17 +0100)
+> | Dessus | 0,9935 | 0,9764 | (28 October 2026, 13:18:17 +0100)
+> | Dessous | 0,9710 | 0,9757 | (28 October 2026, 13:18:17 +0100)
+>
+> v644 dépasse le plafond de face et de dessous parce qu'elle sacrifie la vue de dos. On ne peut pas gagner partout à la fois. (28 October 2026, 13:18:17 +0100)
+>
+> **La contradiction principale** se voit sur [diff_back.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Audit_v644/diff_back.png). La vue de face dessine une lame avant très basse, à 11 cm du sol. La vue de dos montre le sol vide entre les pneus. En vue orthographique, cette lame basse devrait pourtant se voir de dos, sous la voiture : c'est la bande bleue, 2 779 px en trop sur les 3 173 de la vue arrière. La planche, générée par une IA, n'est pas cohérente entre ses vues. (28 October 2026, 13:18:17 +0100)
+>
+> **Le choix est donc le vôtre**, entre deux définitions de l'objectif : (28 October 2026, 13:18:17 +0100)
+> - **Contre le plafond :** viser 99,9 % du meilleur score possible de chaque vue. C'est atteignable avec cette planche, et il reste des points à prendre de côté et de dessus. (28 October 2026, 13:18:17 +0100)
+> - **Nouvelle planche :** régénérer une planche cohérente avec le prompt « faces d'un cube » consigné dans ZenRay Houdini, puis viser 99,9 % dessus. (28 October 2026, 13:18:17 +0100)
+>
+> J'ai consigné la mesure dans le skill, section 214. Le nouvel outil d'écart par vue est [ViewDiff.py](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/ViewDiff.py). (28 October 2026, 13:18:17 +0100)
