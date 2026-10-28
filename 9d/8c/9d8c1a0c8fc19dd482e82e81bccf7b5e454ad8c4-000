@@ -36567,3 +36567,21 @@
 > - [ZenRayCar_v621_Delivery_Report.md](file:///Users/zenray/.gemini/antigravity/brain/c1a6145e-c0a4-4812-b9ce-51db18c27b5b/ZenRayCar_v621_Delivery_Report.md) (28 October 2026, 04:46:09 +0100)
 > - [ZenRayCar_v622_Delivery_Report.md](file:///Users/zenray/.gemini/antigravity/brain/c1a6145e-c0a4-4812-b9ce-51db18c27b5b/ZenRayCar_v622_Delivery_Report.md) (28 October 2026, 04:46:09 +0100)
 > - [ZenRayCar_v62 (28 October 2026, 04:46:09 +0100)
+
+## 28 October 2026, 04:54:07 +0100 : Iteration
+
+<!-- feedback-event:da7bf76837d2d9f0642b9c3ceb48e74ed6e55828f198e4c3a6f37bbb4b3c305f (28 October 2026, 04:54:07 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 04:54:07 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (28 October 2026, 04:54:07 +0100)
+
+> Les candidats **v624** et **v625** sont finalisés, audités avec succès et synchronisés dans la session Houdini en direct. (28 October 2026, 04:54:07 +0100)
+>
+> Les rapports détaillés et captures de viewport sont consultables dans : (28 October 2026, 04:54:07 +0100)
+> - [ZenRayCar_v624_Delivery_Report.md](file:///Users/zenray/.gemini/antigravity/brain/c1a6145e-c0a4-4812-b9ce-51db18c27b5b/ZenRayCar_v624_Delivery_Report.md) (28 October 2026, 04:54:07 +0100)
+> - [ZenRayCar_v625_Delivery_Report.md](file:///Users/zenray/.gemini/antigravity/brain/c1a6145e-c0a4-4812-b9ce-51db18c27b5b/ZenRayCar_v625_Delivery_Report.md) (28 October 2026, 04:54:07 +0100)
+>
+> ### Synthèse des avancées (28 October 2026, 04:54:07 +0100)
+>
+> 1. **Candidat v624 (Soudures des joues de bouche et pourtour des phares)** : (28 October 2026, 04:54:07 +0100)
+>    - Soudure en Z des sommets latéraux 26008 et 26030 de [`CAR_fascia_side_L/R`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v624.obj) sur les angles de bouclier [`CAR_bumper_corner_L/R`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v624.obj) à $Z = 2,1871\text{ m}$ (écart de 7,98 mm comblé à 0,00 mm). La jointure verticale entre la bouche et les ailes avant est désormais continue et étanche à 100,0 %. (28 October 2026, 04:54:07 +0100)
+>    - Scellement hermétique en Y et Z des sommets supérieurs 95738 et 95770 des blocs optiques avant [`CAR_light_headlight_L/R`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v624.obj) sur [`CAR_fascia_front_band_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_ (28 October 2026, 04:54:07 +0100)
