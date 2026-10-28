@@ -36501,3 +36501,17 @@
 - Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (28 October 2026, 03:48:51 +0100)
 
 > Le rapport de livraison détaillé est consigné dans l'artéfact [`ZenRayCar_v615_Delivery_Report.md`](file:///Users/zenray/.gemini/antigravity/brain/c1a6145e-c0a4-481 (28 October 2026, 03:48:51 +0100)
+
+## 28 October 2026, 04:00:54 +0100 : Iteration
+
+<!-- feedback-event:085ecf02e61780685ab0e1182c884a1b2f7e5fe41e9fb83f0125e3fb23756d60 (28 October 2026, 04:00:54 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 04:00:54 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (28 October 2026, 04:00:54 +0100)
+
+> Le rapport de livraison détaillé est consigné dans l'artéfact [`ZenRayCar_v616_Delivery_Report.md`](file:///Users/zenray/.gemini/antigravity/brain/c1a6145e-c0a4-4812-b9ce-51db18c27b5b/ZenRayCar_v616_Delivery_Report.md). (28 October 2026, 04:00:54 +0100)
+>
+> ### Synthèse des avancées de finition v616 (28 October 2026) (28 October 2026, 04:00:54 +0100)
+>
+> 1. **Scellement hermétique de la lèvre supérieure de bouche** : élimination complète du jour de 12 à 14 mm en Z le long du plan horizontal $Y = 0,5000\text{ m}$ entre le bandeau supérieur [`CAR_fascia_front_band_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v616.obj) et le panneau de calandre [`CAR_body_fascia_panel_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v616.obj). Scellement en Z de 5 sommets de contact à $X = -0,4358\text{ m}$ (25793 sur 95696), $X = -0,0533\text{ m}$ (25801 sur 95577), $X = 0,0000\text{ m}$ (25802 sur 95703), $X = +0,0533\text{ m}$ (25803 sur 95579) et $X = +0,4358\text{ m}$ (25811 sur 95585), assurant avec les sommets à $\|X\| = 0,2413\text{ m}$ une continuité totale à 0,00 mm sur les 7 points de contact de la lèvre d'admission. (28 October 2026, 04:00:54 +0100)
+> 2. **Étanchéité complète des joues de calandre et coins de bouclier** : scellement des sommets supérieurs de joues de [`CAR_bumper_corner_L`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v616.obj) (sommet 95835) et [`CAR_bumper_corner_R`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v616.obj) (sommet 95851) contre [`CAR_fascia_front_band_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v616.obj) (sommets 25752 et 25720) à $\|X\| = 0,7772\text{ m}, Y = 0,5002\text{ m}$ (comblant un jour de 13,4 mm en Z), et alignement en Z des sommets médians 95831 et 95847 sur $Z = 2,1871\text{ m}$, étanchant la totalité des arêtes des coins de bouclier sans fuite de lumière. (28 October 2026, 04:00:54 +0100)
+> 3. **Validation et synchronisation complète** : 100,000 % quads purs (90 269 quads), 21/21 portes AnimReview franchies, SheetScore IoU record maintenu à 0,9714 (gauche 0,9772, (28 October 2026, 04:00:54 +0100)
