@@ -36198,3 +36198,35 @@
 >
 > ### 2. Métriques mesurées du candidat v596 (28 October 2026, 00:56:32 +0100)
 > * **Silhouette IoU (maintien du sommet record)** : moyenne à **0,9695** (flanc gauche à **0,9736**, flanc droit à **0,9718**, dessous à **0,9745**, dessus à **0,9 (28 October 2026, 00:56:32 +0100)
+
+## 28 October 2026, 01:12:15 +0100 : Iteration
+
+<!-- feedback-event:56faa0e686cebcb7d32f40ee7c900ee10e197a2724c38843d8ad7c4fbf0f3bd0 (28 October 2026, 01:12:15 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 01:12:15 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (28 October 2026, 01:12:15 +0100)
+
+> Le candidat de modélisation procédurale **v597** est finalisé, audité et synchronisé dans la session live Houdini, et la vidéo d'évolution haute résolution 2048x2048 a été mise à jour jusqu'à cette nouvelle version. (28 October 2026, 01:12:15 +0100)
+>
+> --- (28 October 2026, 01:12:15 +0100)
+>
+> ### 1. Centrage du soubassement et soudures au contact de finition (candidat v597) (28 October 2026, 01:12:15 +0100)
+>
+> * **Recalage axial strict des plaques de soubassement** : (28 October 2026, 01:12:15 +0100)
+>   * Détection et correction des décalages latéraux résiduels sur 5 composants centraux sous plancher, désormais parfaitement centrés sur $X = 0,00\text{ mm}$ : (28 October 2026, 01:12:15 +0100)
+>     * [`CAR_under_bolt_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v597.obj) (+17,01 mm) (28 October 2026, 01:12:15 +0100)
+>     * [`CAR_under_plate_center_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v597.obj) (+21,27 mm) (28 October 2026, 01:12:15 +0100)
+>     * [`CAR_under_plate_front_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v597.obj) (+21,26 mm) (28 October 2026, 01:12:15 +0100)
+>     * [`CAR_under_plate_rear_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v597.obj) (+21,46 mm) (28 October 2026, 01:12:15 +0100)
+>     * [`CAR_under_tail_lip_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v597.obj) (-17,01 mm) (28 October 2026, 01:12:15 +0100)
+>
+> * **434 sommets au contact scellés à 0,00 mm sur 18 jointures structurelles** : (28 October 2026, 01:12:15 +0100)
+>   * **Assemblage intégral des 4 roues** : fusion étanche des moyeux aux rayons (288 sommets au total, 72 sommets par roue), des cylindres de jante aux rayons (144 sommets, 36 par roue) et des rebords de jante aux rayons (120 sommets, 30 par roue), créant des ensembles monoblocs sans micro-jours. (28 October 2026, 01:12:15 +0100)
+>   * **Carrosserie et calandre** : le capot de malle arrière [`CAR_body_decklid_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v597.obj) est soudé à ses contreforts latéraux [`CAR_body_buttress_L/R`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v597.obj) (6 sommets), les ailes avant sont scellées aux écopes [`CAR_vent_fender_L/R`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v597.obj) (10 sommets), les épaulements sont soudés aux écopes (6 sommets) et les coins de bouclier avant [`CAR_bumper_corner_ (28 October 2026, 01:12:15 +0100)
+
+## 28 October 2026, 01:13:20 +0100 : Prompt
+
+<!-- feedback-event:3649b1cdf447a8c407651130a9d4512cc779b94ad74ac8535d394a8b0f9d608d (28 October 2026, 01:13:20 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 01:13:20 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (28 October 2026, 01:13:20 +0100)
+
+> Par contre, arrête de faire la vidéo en parallèle. T'as plus besoin de la faire et en plus ça prend trop de compute. Mais je t'ai déjà dit ce que tu dois faire jusqu'à demain matin. Enfin, tu dois régler les problèmes de trous et tu dois respecter la modélisation par rapport à la ref. En fait, j'ai l'impression que tu fais plus trop d'aller-retour par rapport à la ref, mais ça reste la source de vérité première, tu vois. (28 October 2026, 01:13:20 +0100)
