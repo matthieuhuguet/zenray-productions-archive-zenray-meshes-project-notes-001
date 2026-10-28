@@ -36528,3 +36528,17 @@
 >
 > 1. **Scellement hermétique de la lèvre inférieure de calandre (v617)** : scellement en Z de l'ensemble des 34 sommets de contact externes le long du plan $Y = 0,2650\text{ m}$ entre la calandre inférieure [`CAR_grille_lower_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v617.obj) et le cadre d'admission [`CAR_grille_frame_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v617.obj), éliminant un décalage de 13,9 mm et portant à 68/68 (100,0 %) les sommets de contact scellés à 0,00 mm sur ce pourtour inférieur. (28 October 2026, 04:21:11 +0100)
 > 2. **Soudures hermétiques du barreau central d'admission (v618)** : scellement en Z et en Y des 66 sommets de contact le long de la couture horizontale médiane $Y = 0,3130\text{ m}$ entre le barreau central [`CAR_grille_bar_C`](file:///Users/zenray/.claude (28 October 2026, 04:21:11 +0100)
+
+## 28 October 2026, 04:27:44 +0100 : Iteration
+
+<!-- feedback-event:f771e6840d933ac5c75c0a56b8a1ff6c3fdb04c4ea247254c63901c189c84183 (28 October 2026, 04:27:44 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 04:27:44 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (28 October 2026, 04:27:44 +0100)
+
+> Le rapport de livraison détaillé est consigné dans l'artéfact [`ZenRayCar_v619_Delivery_Report.md`](file:///Users/zenray/.gemini/antigravity/brain/c1a6145e-c0a4-4812-b9ce-51db18c27b5b/ZenRayCar_v619_Delivery_Report.md). (28 October 2026, 04:27:44 +0100)
+>
+> ### Synthèse des avancées de finition v619 (28 October 2026) (28 October 2026, 04:27:44 +0100)
+>
+> 1. **Scellement hermétique des retours latéraux de calandre inférieure** : scellement en Z et en Y de 16 sommets de contact d'angle latéraux ($|X| > 0,650\text{ m}, Y \approx 0,2000\text{ m}$) entre la calandre inférieure [`CAR_grille_lower_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v619.obj) et le plateau supérieur de la lame de splitter [`CAR_splitter_blade_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v619.obj), étanchant la base des joues d'admission sans aucune fissure ni jour lumineux. (28 October 2026, 04:27:44 +0100)
+> 2. **Soudures hermétiques propres des ouïes arrière** : scellement hermétique de deux paires de sommets bilatéraux symétriques entre les écopes arrière [`CAR_vent_rear_L`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v619.obj) / [`CAR_vent_rear_R`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v619.obj) et la face arrière [`CAR_body_tail_face_C`](file:///Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v619.obj) (sommets 37479 à 81980 et 34798 à 80860 comblant 4,85 mm; sommets 37320 à 81783 et 34915 à 81064 comblant 5,18 mm), validé à 0 arête non-variétale et 0 fissure (`topology.cracks_nonmanifold_flipped` = 0). (28 October 2026, 04:27:44 +0100)
+> 3. **Validation et synchronisation complète** : 100,000 % quads purs (90 269 quads), 21/21 portes AnimReview franchies (all_pass=True), SheetScore IoU record maintenu à 0,9714 (gauche 0,9772, droite 0,9768, face 0,9777, dessus 0,9764, dessous 0,9756, (28 October 2026, 04:27:44 +0100)
