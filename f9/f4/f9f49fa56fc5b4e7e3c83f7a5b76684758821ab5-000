@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-10-28T00:57:47.147Z",
+ "scannedAt": "2026-10-28T01:02:47.501Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
@@ -53,10 +53,10 @@
   },
   {
    "projectId": "zenray-meshes",
-   "lines": 32,
-   "work": 32,
+   "lines": 31,
+   "work": 31,
    "prompts": 0,
-   "first": "2026-10-27T20:47:36.625Z",
+   "first": "2026-10-27T20:50:37.697Z",
    "last": "2026-10-28T00:55:41.218Z",
    "strength": "strong",
    "conversationId": "gemini:c1a6145e-c0a4-4812-b9ce-51db18c27b5b",
@@ -64,7 +64,7 @@
    "sessionId": "c1a6145e-c0a4-4812-b9ce-51db18c27b5b",
    "title": "/Users/zenray/Downloads/ref3.png Voici l'image que j'ai faite avec un wireframe de type rouge. Donc maintenant, à toi de recréer parfaitemen",
    "updatedAt": "2026-10-28T00:55:41.218018+00:00",
-   "bytes": 80347136,
+   "bytes": 95136000,
    "boundProject": "zenray-meshes"
   },
   {
