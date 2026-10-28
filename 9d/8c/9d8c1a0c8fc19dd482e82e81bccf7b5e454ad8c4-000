@@ -45852,3 +45852,70 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 19:49:57 +0100)
 
 > La planche par composant est construite (14 planches, chaque composant avec ses propres traits et ceux qui le bordent) ; je la relis avant de te l'envoyer. (28 October 2026, 19:49:57 +0100)
+
+## 28 October 2026, 19:53:20 +0100 : Prompt
+
+<!-- feedback-event:a97fb348b26e431710f9a044e480888fcf3e11ac9712b341a7c9ba93a918b0da (28 October 2026, 19:53:20 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 19:53:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 19:53:20 +0100)
+
+> [Image: original 2580x490, displayed at 2000x380. Multiply coordinates by 1.29 to map to original image.] (28 October 2026, 19:53:20 +0100)
+
+## 28 October 2026, 19:54:56 +0100 : Prompt
+
+<!-- feedback-event:3cd6adbb8d673ce3b53c9b9c92e708bf65e1d04670683fa69a19683a42104384 (28 October 2026, 19:54:56 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 19:54:56 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 19:54:56 +0100)
+
+> [Image: original 2580x490, displayed at 2000x380. Multiply coordinates by 1.29 to map to original image.] (28 October 2026, 19:54:56 +0100)
+
+## 28 October 2026, 19:55:12 +0100 : Iteration
+
+<!-- feedback-event:e11874d40536f758ef020cc680b15e7853768f8eda8c6889491a094bc2519451 (28 October 2026, 19:55:12 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 19:55:12 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 19:55:12 +0100)
+
+> Je range l'outil sous un nom qui ne se confond pas avec la planche 3D existante (`SchematicComponents.py`), je l'ajoute à la commande unique, puis je consigne et je t'envoie les planches. (28 October 2026, 19:55:12 +0100)
+
+## 28 October 2026, 19:56:21 +0100 : Iteration
+
+<!-- feedback-event:98422aebf21cc18b1b34a2e4606bf25caddac3e3aa1fc87c0124d8d01de2529f (28 October 2026, 19:56:21 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 19:56:21 +0100)
+
+> Itération KS3 (28 October 2026) : étiquettes des traits corrigées (épaule et ceinture partagées par panneau selon la position le long de la voiture ; motif du panneau arrière qui ne trouvait jamais sa pièce) ; SchematicComponents.py donne une planche par composant, ses traits et ceux qui le bordent dans chaque vue, versions/Schematic_components.png ; la ref ne dessine ni phares ni rétroviseurs ; un bandeau de feux possible en haut du creux arrière est à confirmer. (28 October 2026, 19:56:21 +0100)
+
+## 28 October 2026, 19:56:52 +0100 : Iteration
+
+<!-- feedback-event:f72d5b44cfd5c89f550da40289ece71b9184650d593435b3d47f35794773881c (28 October 2026, 19:56:52 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 19:56:52 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 19:56:52 +0100)
+
+> J'ai fait la tâche KS3 : chaque composant est maintenant dessiné en 2D sur sa propre planche. Il n'y a toujours aucune 3D nouvelle, puisqu'elle attend ta validation. (28 October 2026, 19:56:52 +0100)
+>
+> Avant de faire les planches, j'ai dû corriger les couleurs des traits. La pièce d'épaule de v752 va du nez jusqu'au-dessus de la porte, donc les traits de l'aile avant ressortaient en « custode ». Chaque trait reçoit maintenant son panneau selon sa position le long de la voiture, comparée à la position de la porte. Deuxième erreur : le panneau arrière n'était jamais reconnu (un problème de majuscule), et ses traits prenaient l'étiquette de leurs voisins. (28 October 2026, 19:56:52 +0100)
+>
+> Chaque planche montre les traits du composant en épais, et en plus fin ceux qui le bordent. Le joint entre le capot et le pare-brise apparaît donc sur les deux planches. (28 October 2026, 19:56:52 +0100)
+>
+> La référence ne dessine ni phares ni rétroviseurs : le nez est taillé en facettes, sans optique. Je ne les ai donc pas inventés. Seule une bande sur toute la largeur, en haut du creux arrière, pourrait être un bandeau de feux. C'est à toi de trancher. (28 October 2026, 19:56:52 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (28 October 2026, 19:56:52 +0100)
+> |---|---|---| (28 October 2026, 19:56:52 +0100)
+> | Chaque composant dessiné sur un schéma | Oui | 14 planches, une par composant, avec ses points de contrôle | (28 October 2026, 19:56:52 +0100)
+> | Les bonnes couleurs (aile avant, custode, arrière) | Oui | Vue de dessus : 5 traits d'aile avant au lieu de 1. Vue arrière : 31 traits de bouclier au lieu de 0 | (28 October 2026, 19:56:52 +0100)
+> | Phares, feux, rétroviseurs | Non dessinés | La référence n'en montre pas ; reste le bandeau arrière à confirmer | (28 October 2026, 19:56:52 +0100)
+> | La 3D des nouveaux composants | En attente | Elle attend ta validation des planches | (28 October 2026, 19:56:52 +0100)
+>
+> La commande unique produit désormais les deux planches. L'outil s'appelle `SchematicComponents.py`, pour ne pas le confondre avec la planche 3D qui existait déjà. (28 October 2026, 19:56:52 +0100)
+>
+> Fichiers : (28 October 2026, 19:56:52 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Schematic_components.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Schematic_components.png) (28 October 2026, 19:56:52 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Schematic_views.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Schematic_views.png) (28 October 2026, 19:56:52 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/curverig/SchematicComponents.py](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/curverig/SchematicComponents.py) (28 October 2026, 19:56:52 +0100)
+
+## 28 October 2026, 19:56:57 +0100 : Prompt
+
+<!-- feedback-event:2052738da6e076424a7da128d96c04e19e4e5d5bef61b2de8521ee437011640e (28 October 2026, 19:56:57 +0100) -->
+- Project: zenray-meshes; kind: prompt. (28 October 2026, 19:56:57 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (28 October 2026, 19:56:57 +0100)
+
+> Surveillant dont-stop, voiture ZenRay Meshes par COMPOSANTS (section 229 du skill zenray-meshes : standard Forza et GTA, flux Maya, ZenRay Meshes est un algorithme). Atelier /Users/zenray/.claude/tmp/tmp-zenray-meshes. Si work/car/loop.lock existe avec un PID vivant, ne rien faire. Lire work/car/finish/TODO.md, section « 28 October 2026, 19:50 : FINITION PAR COMPOSANTS », et traiter la première tâche K non faite, une sous-étape vérifiable à la fois (K0 commande unique Scripts/ZenRayMeshesCar.py ; K1 caisse d'un seul tenant en cage de subdivision dont les boucles suivent les courbes ; K2 découpe en panneaux le long des jours, épaisseur 2 mm, jour 3 à 4 mm ; K3 ouvrants avec panneau intérieur et pivot, test d'ouverture à 30° ; puis K4 à K10). Lire le dernier versions/Gate_vNNN.json en KEEP avant toute action. Tout se fait par script paramétré (jamais à la main), surfaces calculées des courbes et de la cage (jamais collées au sculpt froissé), rayures zébrées régulières (Scripts/curverig/RenderRig.py), silhouettes contre la ref. Juger chaque composant par Scripts/finish/ComponentSheet.py (fermé, épais, sans quad plié, ajusté, pivot) et la voiture par zsh Scripts/JudgeDelivery.sh vNNN (21/21, trous non en hausse, silhouette pas plus basse que v644 de plus de 0,0005) et Scripts/finish/FinishAudit.py ; regarder le rendu avant de garder. KEEP : Gate_vNNN.json, OBJ dans /obj/ZRM_LatestKept/kept_latest de Houdini ouvert (MCP), planche des composants envoyée à Matthieu, consigner (FEEDBACK, progress, section 229 du SKILL), cocher la tâche. Rester silencieux si rien ne change. Ne jamais déclarer la voiture finie ni lancer ZenRay UV. Pas de tiret cadratin. (28 October 2026, 19:56:57 +0100)
