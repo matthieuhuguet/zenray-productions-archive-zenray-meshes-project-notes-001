@@ -36443,3 +36443,19 @@
 > ### Candidate v610 livrée : Cambrure fastback C, galbes de bouclier arrière et record 0,9711 (28 October 2026, 02:54:03 +0100)
 >
 > Le rapport de livraison complet est consigné dans l'artéfact [`ZenRayCar_v610_Delivery_Report.md`](file:///Users/zenray/.gemini/antigravity/brain/c1a6145e-c0a4- (28 October 2026, 02:54:03 +0100)
+
+## 28 October 2026, 03:17:19 +0100 : Iteration
+
+<!-- feedback-event:b29d3163b3cb0b4c5f78dceb598bc0e773d2400af3bfd62d945476244ea3e190 (28 October 2026, 03:17:19 +0100) -->
+- Project: zenray-meshes; kind: iteration. (28 October 2026, 03:17:19 +0100)
+- Source: /Users/zenray/.gemini/antigravity/conversations/c1a6145e-c0a4-4812-b9ce-51db18c27b5b.db. (28 October 2026, 03:17:19 +0100)
+
+> La candidate **v612** est livrée, validée par l'audit 21/21 gates et synchronisée dans la session live Houdini : (28 October 2026, 03:17:19 +0100)
+>
+> Consulter le rapport complet : [ZenRayCar_v612_Delivery_Report.md](file:///Users/zenray/.gemini/antigravity/brain/c1a6145e-c0a4-4812-b9ce-51db18c27b5b/ZenRayCar_v612_Delivery_Report.md). (28 October 2026, 03:17:19 +0100)
+>
+> ### Points clés de la livraison v612 (28 October 2026) (28 October 2026, 03:17:19 +0100)
+>
+> 1. **Symétrisation de la bouche et des montants de calandre** : (28 October 2026, 03:17:19 +0100)
+>    - Recalage de `CAR_grille_upright_03` au centre absolu $X = 0,0000\text{ m}$ (largeur 20,0 mm, $X \in [-0,0100, +0,0100]\text{ m}$), éliminant le décentrage initial de +5,9 mm vers la droite. (28 October 2026, 03:17:19 +0100)
+>    - Symétrisation bilatérale des montants latéraux `CAR_grille_upright_01` et `CAR_grille_upright_05 (28 October 2026, 03:17:19 +0100)
