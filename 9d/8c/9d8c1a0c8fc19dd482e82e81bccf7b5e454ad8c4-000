@@ -47469,3 +47469,72 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 02:56:58 +0100)
 
 > Je découpe l'aile en micro-composants ; le premier essai produit neuf morceaux mais une erreur bloque leur construction, je la corrige. (29 October 2026, 02:56:58 +0100)
+
+## 29 October 2026, 03:17:29 +0100 : Prompt
+
+<!-- feedback-event:f4567c0022f9a0826b1fe5c49528cc026796cdb5f8f8c6c922eabb6e44f4bfef (29 October 2026, 03:17:29 +0100) -->
+- Project: zenray-meshes; kind: prompt. (29 October 2026, 03:17:29 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 03:17:29 +0100)
+
+> [Image: original 2400x1198, displayed at 2000x998. Multiply coordinates by 1.20 to map to original image.] (29 October 2026, 03:17:29 +0100)
+
+## 29 October 2026, 03:17:59 +0100 : Iteration
+
+<!-- feedback-event:bd3fd34d4bbeea62314e892abe9ed8eb8e09e54eb9c664cd56bb48792ed1ecf0 (29 October 2026, 03:17:59 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 03:17:59 +0100)
+
+> 29 October 2026, itération : assemblage v001, portes gauche et droite, capot et toit à 100 % en place ; pièces complexes (aile, custode, bas de caisse, épaulements, rails, arrière, arches) non finies, trois méthodes écartées (boucles d'arcs, découpe en feuilles, Tutte sur la coque) ; prochaine méthode : surface de travail lissée puis Quad Remesh Houdini en concurrent, juge pour maillages non réguliers. (29 October 2026, 03:17:59 +0100)
+
+## 29 October 2026, 03:18:37 +0100 : Iteration
+
+<!-- feedback-event:ffaa80a1be5685ac1559669b9df818eaf57b62c165cb1974f7ca6474195ac594 (29 October 2026, 03:18:37 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 03:18:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 03:18:37 +0100)
+
+> La voiture n'est pas finie. Il y a maintenant 4 composants à 100 % et une méthode qui se réplique sur tous les panneaux simples. Les pièces complexes (ailes, custodes, bas de caisse, épaulements, rails, arrière, arches) restent toutes sous 77 %. (29 October 2026, 03:18:37 +0100)
+>
+> **La méthode trouvée**, appuyée sur la littérature : (29 October 2026, 03:18:37 +0100)
+> - **Partition propre :** la forme validée v752 est fermée en une seule coque, et chaque point de cette coque appartient à un seul composant. La partition est symétrique, sans trou à l'avant ni à l'arrière, et elle corrige le défaut que tu as signalé. (29 October 2026, 03:18:37 +0100)
+> - **Surface lisse par composant :** la forme validée est lissée en retirant les plis courts, sans s'en écarter de plus de quelques millimètres (méthode de lissage sous contrainte, Hildebrandt et Polthier). (29 October 2026, 03:18:37 +0100)
+> - **Grille de quads :** les quatre bords sont lissés, puis la grille est posée sans pli possible. Un théorème garantit l'absence de pli quand le contour est convexe (Tutte, Floater), un autre pour toute région à quatre côtés (Radó-Kneser-Choquet). (29 October 2026, 03:18:37 +0100)
+> - **Panneau :** fermé, 2 mm d'épaisseur, bord roulé. (29 October 2026, 03:18:37 +0100)
+> - **Juge à 13 lignes :** il vérifie qu'il n'y a que des quads, que le panneau est fermé, sans pli ni cassure, avec des rayures zébrées régulières et un écart mesuré à la forme. Je l'ai testé dans les deux sens : il valide un panneau propre et refuse une bosse, une ondulation, un pli, un trou, un triangle et un décalage. (29 October 2026, 03:18:37 +0100)
+> - **Tournoi :** pour chaque composant, huit variantes sont construites et seule la meilleure est gardée. (29 October 2026, 03:18:37 +0100)
+>
+> **Ce qui ne passe pas**, et pourquoi : sur les pièces qui s'enroulent ou se creusent, j'ai essayé trois méthodes successives. Aucune n'a dépassé 77 %. Leur région sur la coque est trop irrégulière pour former des patchs propres à quatre côtés. Ces trois méthodes sont consignées comme écartées. (29 October 2026, 03:18:37 +0100)
+>
+> **La méthode suivante proposée** pour ces pièces : une surface de travail lissée, puis le Quad Remesh natif de Houdini mis en concurrence dans le tournoi, avec un juge adapté aux maillages non réguliers. Une option plus forte est QuadWild Bi-MDF, mais elle demande ton accord pour la télécharger. (29 October 2026, 03:18:37 +0100)
+>
+> Je n'ai pas fait l'outil HTML de tracé, comme tu l'avais conditionné. (29 October 2026, 03:18:37 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (29 October 2026, 03:18:37 +0100)
+> |---|---|---| (29 October 2026, 03:18:37 +0100)
+> | Une méthode mathématique pour finir n'importe quel modèle | En partie | Elle marche sur les panneaux simples ; les pièces complexes attendent la méthode suivante | (29 October 2026, 03:18:37 +0100)
+> | Valider un micro-composant à 100 % | Oui | Porte, capot et toit passent les 13 lignes sur 13 du juge | (29 October 2026, 03:18:37 +0100)
+> | Découpe par couleur, sans trou | Oui | Partition sur coque fermée, symétrie exacte, planche jointe | (29 October 2026, 03:18:37 +0100)
+> | Soudé, « si tu décales un truc, ça décale l'autre » | Pas encore | Les 285 bords partagés existent, mais chaque panneau a encore ses propres sommets | (29 October 2026, 03:18:37 +0100)
+> | Supprimer les anciens lofts | En partie | Les 4 pièces remplacées sont retirées ; tout le reste est encore l'ancien | (29 October 2026, 03:18:37 +0100)
+> | Voiture totalement finie | Non | Seulement 4 composants sur une trentaine de grandes pièces visibles | (29 October 2026, 03:18:37 +0100)
+> | Consigné dans le skill | Oui | Sections 237 et 238, scripts copiés dans le skill, feedback et journal à jour | (29 October 2026, 03:18:37 +0100)
+>
+> Fichiers : (29 October 2026, 03:18:37 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Retopo_Car_v001.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Retopo_Car_v001.png) (29 October 2026, 03:18:37 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Retopo_CAR_body_door_L.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Retopo_CAR_body_door_L.png) (29 October 2026, 03:18:37 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Retopo_Partition.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/Retopo_Partition.png) (29 October 2026, 03:18:37 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/PLAN_Retopology_29-October-2026.md](/Users/zenray/.claude/tmp/tmp-zenray-meshes/PLAN_Retopology_29-October-2026.md) (29 October 2026, 03:18:37 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/retopo](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/retopo) (29 October 2026, 03:18:37 +0100)
+>
+> Ta demande, en plus court : « Crée un module de finition qui découpe le modèle validé en micro-composants colorés, refait chacun en quads propres jusqu'à 100 % selon un juge mesurable, les soude entre eux, et l'applique à toute la voiture. » Deux termes utiles : (29 October 2026, 03:18:37 +0100)
+> - **Partition :** chaque point de la surface appartient à exactement un composant. (29 October 2026, 03:18:37 +0100)
+> - **Application harmonique :** une façon de déplier une région sur un carré qui garantit qu'aucun quad ne se replie. (29 October 2026, 03:18:37 +0100)
+>
+> Sources : (29 October 2026, 03:18:37 +0100)
+> - [Pattern-Based Quadrangulation for N-Sided Patches](https://cims.nyu.edu/gcl/papers/pattern-based-quadrangulation.pdf) (29 October 2026, 03:18:37 +0100)
+> - [Reliable feature-line driven quad-remeshing (QuadWild)](https://vcg.isti.cnr.it/publication/2021/PNACT21) (29 October 2026, 03:18:37 +0100)
+> - [quadwild-bimdf](https://github.com/cgg-bern/quadwild-bimdf) (29 October 2026, 03:18:37 +0100)
+> - [Quad Layouts via Constrained T-Mesh Quantization](https://graphics.rwth-aachen.de/publication/03330) (29 October 2026, 03:18:37 +0100)
+> - [Constraint-based fairing](https://page.mi.fu-berlin.de/polthier/articles/constraint/fairing.pdf) (29 October 2026, 03:18:37 +0100)
+> - [Convex combination mappings](https://apps.dtic.mil/sti/pdfs/ADP013710.pdf) (29 October 2026, 03:18:37 +0100)
+> - [Houdini Quad Remesh](https://www.sidefx.com/docs/houdini/nodes/sop/quadremesh.html) (29 October 2026, 03:18:37 +0100)
+> - [Car modelling workflow, polycount](https://polycount.com/discussion/222893/car-modelling-workflow) (29 October 2026, 03:18:37 +0100)
+> - [3D Car Models for Games, Sunstrike](https://sunstrikestudios.com/en/blog/car_modeling_for_games/) (29 October 2026, 03:18:37 +0100)
