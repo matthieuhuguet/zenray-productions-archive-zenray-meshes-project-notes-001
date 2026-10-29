@@ -50252,3 +50252,43 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 14:19:09 +0100)
 
 > Les chiffres de l'éditeur suivent maintenant le juge du moteur (564 quads sous 0,5 des deux côtés, 161 contre 169 pliés). Je consigne ces derniers ajouts et je recopie les fichiers dans le skill. (29 October 2026, 14:19:09 +0100)
+
+## 29 October 2026, 14:21:23 +0100 : Iteration
+
+<!-- feedback-event:7dff671ef51c8c7908d3997fe53926a0e9d1eba362437c125d5abcb0b01c0566 (29 October 2026, 14:21:23 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 14:21:23 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 14:21:23 +0100)
+
+> Je teste sur le personnage Manny du banc d'essai. Pour partir d'une page blanche sur un nouveau modèle, j'ajoute d'abord un bouton « New empty network ». (29 October 2026, 14:21:23 +0100)
+
+## 29 October 2026, 14:21:44 +0100 : Iteration
+
+<!-- feedback-event:799ce42c29150eb32e0544492459dac336c020d28fe7a2347d4839a39b498b5a (29 October 2026, 14:21:44 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 14:21:44 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 14:21:44 +0100)
+
+> Le test générique attrape un vrai défaut : la bascule sur Manny échoue (`IndexError`). Je lis la trace du serveur. (29 October 2026, 14:21:44 +0100)
+
+## 29 October 2026, 14:22:07 +0100 : Iteration
+
+<!-- feedback-event:6df2333e6b477cf0db082c9e299c7d71b1537855e5655ea1b9ae4419d013eec7 (29 October 2026, 14:22:07 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 14:22:07 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 14:22:07 +0100)
+
+> Manny est la source de vérité (30 418 triangles, 1,80 m), sur un réseau vide. Je pose un patch de quatre clics sur le torse en vue de face et je convertis. (29 October 2026, 14:22:07 +0100)
+
+## 29 October 2026, 14:22:20 +0100 : Prompt
+
+<!-- feedback-event:6a0ba9e68f91c100af22703666114f089f9ae199c0193ed8a9ffbe01590b33b7 (29 October 2026, 14:22:20 +0100) -->
+- Project: zenray-meshes; kind: prompt. (29 October 2026, 14:22:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 14:22:20 +0100)
+
+> [Image: original 1984x1932, displayed at 1955x1904. Multiply coordinates by 1.01 to map to original image.] (29 October 2026, 14:22:20 +0100)
+
+## 29 October 2026, 14:24:37 +0100 : Iteration
+
+<!-- feedback-event:fb2ffbe5b81c40b1f9de22c67c909548975bf3a8f54a43122499aa9b38bae9d0 (29 October 2026, 14:24:37 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 14:24:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 14:24:37 +0100)
+
+> Je lance le deuxième appel de non-régression : gestes de topologie (patch miroir, boucle, bande, coin, soudure de nœuds, annuler et rétablir). (29 October 2026, 14:24:37 +0100)
