@@ -50155,3 +50155,45 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 13:58:16 +0100)
 
 > Les options par nom de component fonctionnent dans le moteur (rotation, saut, densité). Je branche l'éditeur dessus et j'écris « Best pattern ». (29 October 2026, 13:58:16 +0100)
+
+## 29 October 2026, 14:01:50 +0100 : Iteration
+
+<!-- feedback-event:c57b0d6609705f9b74f909177bae205f103038cde5cbf1b0e7411f15ca7e97ef (29 October 2026, 14:01:50 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 14:01:50 +0100)
+
+> 29 October 2026, 14:17 : ZenRay Lines 3D, suite : patch miroir (_L vers _R), la graine la plus proche du centre nomme la face, options par nom de component (stables quand le réseau change), Isoler (U), Meilleur motif (B, 6 variantes de la custode en 0,4 s, meilleure à 10 plis), Name faces from the model, Its curves, réseau tiré du découpage MBO (ZrlNetworkFromMbo.py, 21 faces maillées, 307 plis : alternatif, pas défaut). Essai de tous les boutons sans erreur ; aller-retour Save conservant graines, options et coins. Skill section 243. (29 October 2026, 14:01:50 +0100)
+
+## 29 October 2026, 14:01:27 +0100 : Iteration
+
+<!-- feedback-event:2adfb068807f30c155fb8a1deb1f52af24cbb9f0a7e60418514089221ddc5da1 (29 October 2026, 14:01:27 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 14:01:27 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 14:01:27 +0100)
+
+> Le réseau des components se charge (35 components nommés, sa liste de problèmes). Je consigne ces ajouts dans le skill (section 243), je recopie les fichiers et je synchronise. (29 October 2026, 14:01:27 +0100)
+
+## 29 October 2026, 14:05:54 +0100 : Prompt
+
+<!-- feedback-event:7a808ab6bbfa938adf5d6bf7d95d63a495147fceda135d4b4a7a6501d8d1a6fb (29 October 2026, 14:05:54 +0100) -->
+- Project: zenray-meshes; kind: prompt. (29 October 2026, 14:05:54 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 14:05:54 +0100)
+
+> The user sent a new message while you were working: (29 October 2026, 14:05:54 +0100)
+> On pourrait meme imaginer une phase pour que zenray lines fonctionne aussi depuis la ref de base 6 views puis sur le modele 3D qui devient la source de verite /promptstacking    … puis s’accorde avec la vrai forme 3d au fur et a mesure rend ça possible pour que zenray lines soit possible a toutes les etapes … et continue (29 October 2026, 14:05:54 +0100)
+>
+> consigne (29 October 2026, 14:05:54 +0100)
+>
+> This is how Claude Code surfaces messages the user sends mid-turn — within the running turn, often alongside the next tool result, rather than as a separate conversation turn. Address the message above as you continue this turn. (29 October 2026, 14:05:54 +0100)
+
+## 29 October 2026, 14:06:48 +0100 : Prompt
+
+<!-- feedback-event:360eb5417bbff59f62e0087dae00fa7b807d5379da0c153a5dbf131c7c7ce50f (29 October 2026, 14:06:48 +0100) -->
+- Project: zenray-meshes; kind: prompt. (29 October 2026, 14:06:48 +0100)
+
+> 29 October 2026, 14:06, prompt de Matthieu (grammaire seule) : « On pourrait même imaginer une phase pour que ZenRay Lines fonctionne aussi depuis la ref de base 6 views, puis sur le modèle 3D qui devient la source de vérité, puis s'accorde avec la vraie forme 3D au fur et à mesure. Rends ça possible pour que ZenRay Lines soit possible à toutes les étapes, et continue. Consigne. » (29 October 2026, 14:06:48 +0100)
+
+## 29 October 2026, 14:06:48 +0100 : Standing rule
+
+<!-- feedback-event:4fe9972222db4c29208200c5c2e58566082db8be6b80f632f66bea374d4aff84 (29 October 2026, 14:06:48 +0100) -->
+- Project: zenray-meshes; kind: rule. (29 October 2026, 14:06:48 +0100)
+
+> ZenRay Lines doit fonctionner à toutes les étapes de ZenRay Meshes : sur la planche six vues (référence de base), puis sur le modèle 3D qui devient la source de vérité, et les courbes se recalent sur la vraie forme 3D à chaque nouvelle version du modèle ; un seul document de lignes traverse les étapes. (29 October 2026) (29 October 2026, 14:06:48 +0100)
