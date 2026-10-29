@@ -50092,3 +50092,50 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 13:42:06 +0100)
 
 > Je teste les variantes de motif sur la custode gauche (face à 5 coins), une variante par appel pour rester court. (29 October 2026, 13:42:06 +0100)
+
+## 29 October 2026, 13:43:34 +0100 : Iteration
+
+<!-- feedback-event:41fbaa7dc47666891828a9c698617deb1f4398ee56b7a0836b2044ef9f6c8670 (29 October 2026, 13:43:34 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 13:43:34 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 13:43:34 +0100)
+
+> Même résultat, un peu plus rapide (3,8 s). J'enchaîne avec l'envoi à Houdini, en vérifiant d'abord que la passerelle répond. (29 October 2026, 13:43:34 +0100)
+
+## 29 October 2026, 13:46:24 +0100 : Prompt
+
+<!-- feedback-event:65444771c6451d5e6231f0bfe59e7abb60ae22b0fa015e3f5b89411b9e7810cb (29 October 2026, 13:46:24 +0100) -->
+- Project: zenray-meshes; kind: prompt. (29 October 2026, 13:46:24 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 13:46:24 +0100)
+
+> [Image: original 2080x1932, displayed at 1989x1848. Multiply coordinates by 1.05 to map to original image.] (29 October 2026, 13:46:24 +0100)
+
+## 29 October 2026, 13:48:11 +0100 : Prompt
+
+<!-- feedback-event:0a750675aa19cd44ccdd62d6b6a0fc1d12bc8cba1207fb1764b7fba739abced6 (29 October 2026, 13:48:11 +0100) -->
+- Project: zenray-meshes; kind: prompt. (29 October 2026, 13:48:11 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 13:48:11 +0100)
+
+> [Image: original 2080x1932, displayed at 1989x1848. Multiply coordinates by 1.05 to map to original image.] (29 October 2026, 13:48:11 +0100)
+
+## 29 October 2026, 13:49:27 +0100 : Iteration
+
+<!-- feedback-event:dad47fc980a1dcea2d418d03c2f09b1dfe0fabdb5ecd377a2774b9e3728c32dd (29 October 2026, 13:49:27 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 13:49:27 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 13:49:27 +0100)
+
+> J'ai rendu l'export SVG lisible (courbes vues en trait plein, parties cachées en pointillé clair, plus le fil de fer visible des quads) ; je le vérifie. (29 October 2026, 13:49:27 +0100)
+
+## 29 October 2026, 13:51:05 +0100 : Iteration
+
+<!-- feedback-event:48cfaef728705c50ef8999ac72a914241a72d337eee7db3c85d80475a1aeb843 (29 October 2026, 13:51:05 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 13:51:05 +0100)
+
+> 29 October 2026, 13:58 : ZenRay Lines 3D complété et vérifié dans le navigateur intégré. Outils : patch 4 clics, boucle d'arêtes (L), extension de bande (E), choix de face (G), coin K, Target Weld, accroche d'extrémité, masquer une pièce (H), navigateur de problèmes (N), Repair network, Snap curves on surface, Selected curves only, couleurs par component, exports dans l'atelier (PNG, SVG avec fil de fer visible, OBJ par component, JSON). Moteur : projection des courbes, coins dans les courbes, 15 croisements coupés, anneaux et recouvrements refusés, Winslow plan, plis 322 vers 97 sur la voiture. Preuves : patch porte 720 quads Jacobien min 0,998 à 1,0 ; deux boucles 3 faces à 0,999 ; Houdini /obj/ZRL_Retopo reçoit 4 364 quads comme l'aperçu, mêmes nombres par component ; variantes de motif de la custode 10 à 173 plis. Limite : le réseau tiré des lignes 2D (21 morceaux, courbes doublées, 40 faces fines) reste à reprendre à la main, guidé par N. Skill section 242. (29 October 2026, 13:51:05 +0100)
+
+## 29 October 2026, 13:51:08 +0100 : Iteration
+
+<!-- feedback-event:b9a0a06397be6a48b65bb55000690446a9539aa3fc5dd62ead75aa6326cdccfa (29 October 2026, 13:51:08 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 13:51:08 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 13:51:08 +0100)
+
+> Consignation faite (skill section 242 synchronisé, feedback, journal). Je mets à jour l'état de reprise puis je continue la boucle. (29 October 2026, 13:51:08 +0100)
