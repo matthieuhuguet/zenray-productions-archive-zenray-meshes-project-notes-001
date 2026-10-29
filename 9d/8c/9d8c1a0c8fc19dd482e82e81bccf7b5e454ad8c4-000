@@ -50300,3 +50300,37 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 14:26:18 +0100)
 
 > Toute la conversion actuelle de la voiture (13 562 quads) est partie dans Houdini avec 16 sorties de component. Je prends une capture du viewport Houdini comme preuve. (29 October 2026, 14:26:18 +0100)
+
+## 29 October 2026, 14:31:08 +0100 : Iteration
+
+<!-- feedback-event:380f4ab61bc5cfaee0958cd1a44f66fe2bba2f3fd677ed3f6bf20dabf83c9b63 (29 October 2026, 14:31:08 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 14:31:08 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 14:31:08 +0100)
+
+> Le recollage par ajustement de courbe fonctionne et s'annule proprement. Je consigne ces mesures franches dans le skill (ce qui aide, ce qui empire, et pourquoi). (29 October 2026, 14:31:08 +0100)
+
+## 29 October 2026, 14:32:56 +0100 : Prompt
+
+<!-- feedback-event:f2714661fdab9874fd0ee9bb5023ed0be63c11a923a36c52d9c9293e997c90f8 (29 October 2026, 14:32:56 +0100) -->
+- Project: zenray-meshes; kind: prompt. (29 October 2026, 14:32:56 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 14:32:56 +0100)
+
+> The user sent a new message while you were working: (29 October 2026, 14:32:56 +0100)
+> Mannu chest par encore parfait vs un tech senior animatir retopogy phase fais en sorte que ce soit parfait … (29 October 2026, 14:32:56 +0100)
+>
+> This is how Claude Code surfaces messages the user sends mid-turn — within the running turn, often alongside the next tool result, rather than as a separate conversation turn. Address the message above as you continue this turn. (29 October 2026, 14:32:56 +0100)
+
+## 29 October 2026, 14:33:36 +0100 : Prompt
+
+<!-- feedback-event:0b6cb62eb1efcde75c2fdff80ae99457fb33ee256b34558bcc2af1c1deb83e71 (29 October 2026, 14:33:36 +0100) -->
+- Project: zenray-meshes; kind: prompt. (29 October 2026, 14:33:36 +0100)
+
+> 29 October 2026, 14:36, prompt de Matthieu (grammaire seule) : « Manny chest pas encore parfait vs un tech senior, animation retopology phase : fais en sorte que ce soit parfait. » (29 October 2026, 14:33:36 +0100)
+
+## 29 October 2026, 14:35:51 +0100 : Prompt
+
+<!-- feedback-event:d678a564bce6479ef46c373cd488e97a593252545ef4ceff5bc2a4e8f219ebef (29 October 2026, 14:35:51 +0100) -->
+- Project: zenray-meshes; kind: prompt. (29 October 2026, 14:35:51 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 14:35:51 +0100)
+
+> [Image: original 1984x1932, displayed at 1955x1904. Multiply coordinates by 1.01 to map to original image.] (29 October 2026, 14:35:51 +0100)
