@@ -51689,3 +51689,110 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 17:16:33 +0100)
 
 > Je corrige d'abord la marge blanche des images de référence, puis j'ajoute le mode d'ombrage par composant avec les étiquettes. (29 October 2026, 17:16:33 +0100)
+
+## 29 October 2026, 17:18:59 +0100 : Iteration
+
+<!-- feedback-event:c948c940ab8e3fc38dc5bb203f57cb947d99915c93d4998ca6a70b3ad33f94e6 (29 October 2026, 17:18:59 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 17:18:59 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 17:18:59 +0100)
+
+> Je code la vue composants : un ombrage « Couleurs » (chaque pièce de sa couleur), le gris actuel, et des étiquettes ancrées au centre de chaque composant, masquées quand une pièce les cache. (29 October 2026, 17:18:59 +0100)
+
+## 29 October 2026, 17:20:36 +0100 : Iteration
+
+<!-- feedback-event:144985e5a5e42bb0dfd2e05fdbdf97c7809703ac59c091c4656dfc088e5fa478 (29 October 2026, 17:20:36 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 17:20:36 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 17:20:36 +0100)
+
+> J'écris le branchement du mode couleurs dans le rendu, puis les étiquettes dans l'éditeur. (29 October 2026, 17:20:36 +0100)
+
+## 29 October 2026, 17:21:45 +0100 : Iteration
+
+<!-- feedback-event:6b929e6084b90b31ea90b58625c0546b58b2073e93a60e16685815f40b0d45f9 (29 October 2026, 17:21:45 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 17:21:45 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 17:21:45 +0100)
+
+> Now the page: a Grey / Colours switch and a Names toggle in the View block (the Names checkbox moves out of the drawer, same id). (29 October 2026, 17:21:45 +0100)
+
+## 29 October 2026, 17:22:36 +0100 : Iteration
+
+<!-- feedback-event:7342de00bb9f29a4bb37efaab8ff8bbbb045e2ad44ff536d7c0473b203e4f936 (29 October 2026, 17:22:36 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 17:22:36 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 17:22:36 +0100)
+
+> Now the server side: an auto patch puts its seed (and so its name label) in the middle of the zone instead of where you clicked. (29 October 2026, 17:22:36 +0100)
+
+## 29 October 2026, 17:23:20 +0100 : Iteration
+
+<!-- feedback-event:3a11d5d5106be981e1c790935970492550cca8965155a156adb299343f0e9756 (29 October 2026, 17:23:20 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 17:23:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 17:23:20 +0100)
+
+> Les étiquettes coûtent environ 6 ms par image, la rotation reste fluide ; je vérifie le rendu à l'écran. (29 October 2026, 17:23:20 +0100)
+
+## 29 October 2026, 17:24:05 +0100 : Iteration
+
+<!-- feedback-event:e706179519c3688c919ecf0693bf7ce34ee3d13c08fdca2f0a73d3536175a213 (29 October 2026, 17:24:05 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 17:24:05 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 17:24:05 +0100)
+
+> La vue Couleurs et les étiquettes fonctionnent, et la marge blanche a disparu. Je teste les raccourcis Maj+N et Maj+V. (29 October 2026, 17:24:05 +0100)
+
+## 29 October 2026, 17:25:29 +0100 : Iteration
+
+<!-- feedback-event:9c323ccf53f9f63a229582f96d7850eed8573646d9b12fb4c37a4a068cf4af9d (29 October 2026, 17:25:29 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 17:25:29 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 17:25:29 +0100)
+
+> Je m'occupe maintenant de la roue : une zone en anneau ne peut pas être un seul patch à quatre côtés, donc je la découpe en quatre quarts d'anneau soudés. (29 October 2026, 17:25:29 +0100)
+
+## 29 October 2026, 17:26:47 +0100 : Prompt
+
+<!-- feedback-event:3ed185de267c2de9f23107e3d05c7f070bfbd5e2db7a2a61ba4def1da549baed (29 October 2026, 17:26:47 +0100) -->
+- Project: zenray-meshes; kind: prompt. (29 October 2026, 17:26:47 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 17:26:47 +0100)
+
+> The user sent a new message while you were working: (29 October 2026, 17:26:47 +0100)
+> Il faut aussi une vue qui permet d'isoler un component. Ou alors une vue qui permet aussi de... Oui, une vue qui permet d'isoler un component serait pratique parce que du coup, ça me permettrait de dessiner une ligne. Et il faut aussi une vue qui permet de merge deux points ensemble, en leur centre. Je parle des courbes, hein, du coup. Parce que du coup, ça permettrait d'avoir parfaitement les coordonnées de deux points. fait ça parfaitement et rajoute cette feature. (29 October 2026, 17:26:47 +0100)
+>
+> This is how Claude Code surfaces messages the user sends mid-turn — within the running turn, often alongside the next tool result, rather than as a separate conversation turn. Address the message above as you continue this turn. (29 October 2026, 17:26:47 +0100)
+
+## 29 October 2026, 17:27:26 +0100 : Iteration
+
+<!-- feedback-event:ec69a55821f5e3bef00d7ae00fa8d946c49185d8f0207006d3f60a48e9191ddf (29 October 2026, 17:27:26 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 17:27:26 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 17:27:26 +0100)
+
+> Le découpage de la roue en quatre quarts fonctionne côté serveur ; je regroupe l'étiquette d'un composant à plusieurs faces, puis je teste la roue dans l'éditeur. (29 October 2026, 17:27:26 +0100)
+
+## 29 October 2026, 17:28:19 +0100 : Iteration
+
+<!-- feedback-event:ce3e046e63a373418d9ea9188146714ffc0e0ea7200f552719b1b79bfefc7877 (29 October 2026, 17:28:19 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 17:28:19 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 17:28:19 +0100)
+
+> La roue est maintenant découpée en quatre quarts (448 quads, aucun replié) ; il reste un doublon de couture que je corrige. (29 October 2026, 17:28:19 +0100)
+
+## 29 October 2026, 17:28:53 +0100 : Iteration
+
+<!-- feedback-event:b8550892e29aede86a30d5bbe5490f2b28a9b5466cfa79fb772d0aa8b6220a83 (29 October 2026, 17:28:53 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 17:28:53 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 17:28:53 +0100)
+
+> La roue est réglée : quatre quarts soudés, 448 quads, aucun replié. J'attaque l'isolement d'un composant. (29 October 2026, 17:28:53 +0100)
+
+## 29 October 2026, 17:30:38 +0100 : Iteration
+
+<!-- feedback-event:8ed446583479dbfe0e7c1605bc7169c0932430f935307a7fdd0484b0fdc62931 (29 October 2026, 17:30:38 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 17:30:38 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 17:30:38 +0100)
+
+> J'ajoute maintenant l'isolement d'un composant (outil + touche U) et la fusion de deux points de courbe en leur milieu (outil Maj+M), avec le point remis sur la surface. (29 October 2026, 17:30:38 +0100)
+
+## 29 October 2026, 17:30:43 +0100 : Iteration
+
+<!-- feedback-event:29eade0a02d7b1ad0db7e5db06f0446a9362b2828c79d5116ab537c3b71d39d2 (29 October 2026, 17:30:43 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 17:30:43 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 17:30:43 +0100)
+
+> Server first (a "closest point" op), then the editor code. (29 October 2026, 17:30:43 +0100)
