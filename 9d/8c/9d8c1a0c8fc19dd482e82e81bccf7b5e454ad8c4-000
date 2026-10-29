@@ -50292,3 +50292,11 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 14:24:37 +0100)
 
 > Je lance le deuxième appel de non-régression : gestes de topologie (patch miroir, boucle, bande, coin, soudure de nœuds, annuler et rétablir). (29 October 2026, 14:24:37 +0100)
+
+## 29 October 2026, 14:26:18 +0100 : Iteration
+
+<!-- feedback-event:2d7851e2598ee8bea7027f19fa31768a861d100b9d371679be9d7039f229ead7 (29 October 2026, 14:26:18 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 14:26:18 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 14:26:18 +0100)
+
+> Toute la conversion actuelle de la voiture (13 562 quads) est partie dans Houdini avec 16 sorties de component. Je prends une capture du viewport Houdini comme preuve. (29 October 2026, 14:26:18 +0100)
