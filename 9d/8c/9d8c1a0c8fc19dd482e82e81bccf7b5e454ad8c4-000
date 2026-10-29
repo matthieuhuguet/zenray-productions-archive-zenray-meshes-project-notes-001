@@ -50197,3 +50197,50 @@
 - Project: zenray-meshes; kind: rule. (29 October 2026, 14:06:48 +0100)
 
 > ZenRay Lines doit fonctionner à toutes les étapes de ZenRay Meshes : sur la planche six vues (référence de base), puis sur le modèle 3D qui devient la source de vérité, et les courbes se recalent sur la vraie forme 3D à chaque nouvelle version du modèle ; un seul document de lignes traverse les étapes. (29 October 2026) (29 October 2026, 14:06:48 +0100)
+
+## 29 October 2026, 14:08:53 +0100 : Prompt
+
+<!-- feedback-event:3e1723ba1bebddb7950cf4bec6955997c30c620db76b04e3ea676d246d781598 (29 October 2026, 14:08:53 +0100) -->
+- Project: zenray-meshes; kind: prompt. (29 October 2026, 14:08:53 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 14:08:53 +0100)
+
+> [Image: original 2400x500, displayed at 2000x417. Multiply coordinates by 1.20 to map to original image.] (29 October 2026, 14:08:53 +0100)
+
+## 29 October 2026, 14:09:30 +0100 : Iteration
+
+<!-- feedback-event:cf979eb5b4e40ba60b8d5127eb0b74ec675817033f2f048d6e354f1b9b892ff7 (29 October 2026, 14:09:30 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 14:09:30 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 14:09:30 +0100)
+
+> J'ai ajouté le choix du fond dans l'éditeur 2D (rendu du modèle ou planche de référence recalée) ; je le vérifie dans un onglet séparé. (29 October 2026, 14:09:30 +0100)
+
+## 29 October 2026, 14:11:09 +0100 : Iteration
+
+<!-- feedback-event:bc0789282a3d0f91f69830528eb9923ab10c6fe17925c2b7fc3e2b99007d34ad (29 October 2026, 14:11:09 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 14:11:09 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 14:11:09 +0100)
+
+> Je vérifie les plans de référence dans l'éditeur 3D : en vue de gauche, la planche doit apparaître derrière la voiture, au bon endroit. (29 October 2026, 14:11:09 +0100)
+
+## 29 October 2026, 14:14:12 +0100 : Iteration
+
+<!-- feedback-event:7bd9b864e8f8c605fe98f6af2305f3f5dcff18846985209a08d02ed608bc2d6e (29 October 2026, 14:14:12 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 14:14:12 +0100)
+
+> 29 October 2026, 14:15 : ZenRay Lines à toutes les étapes, fait et prouvé. Planche : ZrlSheetViews.py recale la planche six vues sur les caméras (fondu vérifié), fond au choix dans l'éditeur 2D, plans de référence dans l'éditeur 3D. Modèle source de vérité : « Use this model » (POST /model, ZrlUseModel.py) refait référence 3D, vues 2D et planche, puis recale toutes les courbes sur la nouvelle surface (POST /project avec ref). Test toit +3 cm : bascule 6,1 s, courbes du toit montées jusqu'à 2,9 cm ; retour exact au v752 ensuite. Skill section 244. (29 October 2026, 14:14:12 +0100)
+
+## 29 October 2026, 14:14:36 +0100 : Iteration
+
+<!-- feedback-event:f9678158c740c86c0fe770e18b74f81dccc61eaff0e7260a89a71d15535a6fe5 (29 October 2026, 14:14:36 +0100) -->
+- Project: zenray-meshes; kind: iteration. (29 October 2026, 14:14:36 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 14:14:36 +0100)
+
+> Je consigne aussi dans le journal global, puis je regarde la face du toit isolée (73 × 59 quads, 6 pliés) pour comprendre où naissent les plis sur un grand panneau propre. (29 October 2026, 14:14:36 +0100)
+
+## 29 October 2026, 14:14:43 +0100 : Prompt
+
+<!-- feedback-event:d388fefa43c0c8096064160bc8a4090e77baf7ef25c7a2b7a67aec448851dda9 (29 October 2026, 14:14:43 +0100) -->
+- Project: zenray-meshes; kind: prompt. (29 October 2026, 14:14:43 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 14:14:43 +0100)
+
+> [Image: original 2080x1932, displayed at 1989x1848. Multiply coordinates by 1.05 to map to original image.] (29 October 2026, 14:14:43 +0100)
