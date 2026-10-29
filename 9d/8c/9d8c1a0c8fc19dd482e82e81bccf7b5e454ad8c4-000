@@ -49241,3 +49241,263 @@
 > Deux termes utiles : (29 October 2026, 12:03:47 +0100)
 > - **Lissage de Winslow :** une méthode qui redistribue les points d'une grille pour que ses lignes se croisent presque à angle droit. (29 October 2026, 12:03:47 +0100)
 > - **Surface de classe A :** une surface de carrosserie sans aucune ondulation visible dans les reflets. (29 October 2026, 12:03:47 +0100)
+
+## 29 October 2026, 12:53:13 +0100 : Prompt
+
+<!-- feedback-event:04ddc41f50c587f0ec9814acb4c32cce3b5f56d10bba172fc1764c921cd20a9a (29 October 2026, 12:53:13 +0100) -->
+- Project: zenray-meshes; kind: prompt. (29 October 2026, 12:53:13 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 12:53:13 +0100)
+
+> <pasted_content id="f0a2"> (29 October 2026, 12:53:13 +0100)
+> /think-of-everything construis ZenRay Lines pour que l'application soit parfaite en pensant à tout. Et il faut aussi que je puisse me déplacer dans une vue 3D, comme ça je peux positionner toutes les curbs et ça les renverra directement pour l'algorithme. Il faut que tu passes, je sais pas, peut-être jusqu'à 15 heures pour continuer d'améliorer le logiciel. en pensant à tout, et notamment à toutes les recherches qui ont déjà été faites, et tu l'ajoutes à ZenRay Lines. Mais là, c'est assez prometteur, mais c'est juste, par exemple, il y a des lines sur les roues, etc., que j'aimerais pouvoir supprimer, d'autres que j'aimerais pouvoir modifier le tracé, etc. Il y a pas mal de features, en fait, qui doivent être ajoutées. Le fait de pouvoir arrondir certaines curves, le fait de pouvoir ajouter un segment, en retirer un, le fait de pouvoir transférer en SVG ou en PNG, le fait de pouvoir convertir directement en mesh, il faut pouvoir faire ça. Mais ZenRay Lines, c'est déjà pas mal du tout. Mais il faut vraiment ajouter un maximum de features, en mode toutes les features de Maya, notamment sur la retopologie. En fait, il faut que ZenRay Lines, ça devienne notre outil de retopologie par rapport au nombre de contraintes 3D qu'il y aura. Parce que là, tu vois, on crée une voiture, mais demain, on créera un modèle 3D. Donc, il faut que tu ajoutes toutes ces fonctionnalités sur ZenRayLines... /dont-stop 15 h (29 October 2026, 12:53:13 +0100)
+> </pasted_content id="f0a2"> (29 October 2026, 12:53:13 +0100)
+
+## 29 October 2026, 12:54:26 +0100 : Prompt
+
+<!-- feedback-event:5b6e3b07d11fda55da5fe0fe13325b1b88641f97449f2eaf87fce3096f61390f (29 October 2026, 12:54:26 +0100) -->
+- Project: zenray-meshes; kind: prompt. (29 October 2026, 12:54:26 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 12:54:26 +0100)
+
+> (Re-invocation of /think-of-everything — the skill instructions were previously loaded; the arguments or dynamic output below are new.) (29 October 2026, 12:54:26 +0100)
+
+## 29 October 2026, 12:54:26 +0100 : Prompt
+
+<!-- feedback-event:8ece2abd2e89d45f1079d5a34e5d5866e4f6c174e4cacadcf25038b5ed2d19d8 (29 October 2026, 12:54:26 +0100) -->
+- Project: zenray-meshes; kind: prompt. (29 October 2026, 12:54:26 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 12:54:26 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/think-of-everything (29 October 2026, 12:54:26 +0100)
+>
+> # Think of Everything (Pense à Tout) (29 October 2026, 12:54:26 +0100)
+>
+> Surface the FEW risks that matter on ANY decision — code, business, life, art — each proven against the real facts, each with a concrete check, ending in a decision. 40 generic checklist items is a failure; 5 proven, ranked risks is a success. This pass answers the question asked, its opposite, and the ones nobody asked, then verifies against reality instead of memory. (29 October 2026, 12:54:26 +0100)
+>
+> **Specialist rule (anti-generic), applies to every output line:** write at the level of the expert who gets paid to review exactly this — immigration lawyer, senior rigger, tax advisor, DB architect. Every kept risk must contain at least one exact value from the real context (number, date, name, path, price, spec) verified this session. A risk that could be pasted unchanged into someone else's situation is generic: sharpen it or cut it. (29 October 2026, 12:54:26 +0100)
+>
+> ## Step 0: Classify and scale (two lines) (29 October 2026, 12:54:26 +0100)
+>
+> - Domain + the specialist to embody + type: (a) action to take, (b) existing thing to audit, (c) pure decision, nothing built yet. (29 October 2026, 12:54:26 +0100)
+> - For (b), the source of truth is the actual artifact (`git diff`, the contract, the scene file), never its description. (29 October 2026, 12:54:26 +0100)
+> - Trivial, cheap and reversible case: say so, jump to Step 4 + verdict, 5 output lines max. The full pass is for anything expensive, irreversible, deadline-bound, or touching shared state, money, auth, public APIs. (29 October 2026, 12:54:26 +0100)
+>
+> ## Step 1: Read the request four ways (one line each) (29 October 2026, 12:54:26 +0100)
+>
+> 1. **Literal**: restate exactly what was asked. (29 October 2026, 12:54:26 +0100)
+> 2. **Inverse**: what if the premise is false? What single condition breaks this? And what does NOT doing it cost? (29 October 2026, 12:54:26 +0100)
+> 3. **Adjacent**: the 2-3 questions the specialist would ask next, unprompted. Parallel questions, not follow-ups. (29 October 2026, 12:54:26 +0100)
+> 4. **Reframed**: the clearest version of this request. If it differs from the literal one, answer that too. (29 October 2026, 12:54:26 +0100)
+>
+> ## Step 2: Verify the real facts (never from memory) (29 October 2026, 12:54:26 +0100)
+>
+> **Evidence rule, the core of this skill: every claim cites its proof — file:line, URL of an official source, a measured value, or a posed calculation — found THIS SESSION, or carries the label [non vérifié]. No exceptions.** (29 October 2026, 12:54:26 +0100)
+>
+> Sources by domain: (29 October 2026, 12:54:26 +0100)
+>
+> - **Code**: `rg -n "<symbol|route|table|key>"` across the whole repo — every call site, not just the edited file. Hyrum's law: who depends on the CURRENT undocumented behavior (output format, ordering, timing, error text)? Does the new code re-read data written by the old code? (29 October 2026, 12:54:26 +0100)
+> - **Business / life / admin**: read the actual documents (contracts, statements, notes, Memory files); web-search official sources for external facts (rules, prices, deadlines, opening days); compute the real numbers and dates — count, never estimate. (29 October 2026, 12:54:26 +0100)
+> - **Physical / creative (3D, drawing, video, print)**: open the actual source files (scene, layers, footage); check the official specs (software docs, platform limits, physical medium constraints); measure, don't eyeball. (29 October 2026, 12:54:26 +0100)
+> - **People**: who else is affected, who must agree, whose workflow breaks if this changes? (29 October 2026, 12:54:26 +0100)
+>
+> If the facts can't be reached, label the whole map "non vérifié / spéculatif". Never present a guess as a finding. (29 October 2026, 12:54:26 +0100)
+>
+> ## Step 3: Impact surface (12 universal axes, one killer question each) (29 October 2026, 12:54:26 +0100)
+>
+> 1. **Existing state**: does what already exists (data, commitments, acquired rights) stay valid? Partial overwrite possible? (29 October 2026, 12:54:26 +0100)
+> 2. **Conflicts / concurrency**: two actors or processes on the same resource at once — then what? (29 October 2026, 12:54:26 +0100)
+> 3. **Limits & deadlines**: which cap (budget, size, rate, date, capacity) gets hit first, and what happens at the boundary? (29 October 2026, 12:54:26 +0100)
+> 4. **Security / legal**: who can trigger or abuse this? Compliant with law, terms, licenses? (29 October 2026, 12:54:26 +0100)
+> 5. **Partial failure**: stopped halfway — what state remains, is it recoverable? (29 October 2026, 12:54:26 +0100)
+> 6. **Backward compatibility**: old data, clients, habits, commitments still work? (29 October 2026, 12:54:26 +0100)
+> 7. **Scale & durability**: still fine at 100x the volume, or repeated weekly for a year? (29 October 2026, 12:54:26 +0100)
+> 8. **Recurring cost**: money, time, energy that scales with usage? (29 October 2026, 12:54:26 +0100)
+> 9. **Observability**: if it fails silently, how and when do you find out? (29 October 2026, 12:54:26 +0100)
+> 10. **Edge cases**: empty/first-run, oversized, duplicate, offline; holiday, sick day, exception case. (29 October 2026, 12:54:26 +0100)
+> 11. **Checks**: a test or verification that catches the regression BEFORE real impact? (29 October 2026, 12:54:26 +0100)
+> 12. **Reversibility**: one action to undo? Does what got engaged meanwhile (money sent, word given, data written) survive? (29 October 2026, 12:54:26 +0100)
+>
+> Keep only the applicable axes, expressed in the domain's own units and vocabulary. Dismiss the rest in one line ("N/A: ..."), never pad. (29 October 2026, 12:54:26 +0100)
+>
+> ## Step 4: Premortem (narrative, not checklist) (29 October 2026, 12:54:26 +0100)
+>
+> "Three weeks later it failed, and it was THIS decision. Write the most plausible incident, then the second." Use THIS domain's high-frequency classics — code: off-by-one, empty/first-run state, stale cache, non-idempotent retry, timezone/encoding, two concurrent writers; admin/life: missed deadline, missing document, misread eligibility rule, transfer delay, closed office; business: nobody pays, no distribution channel; 3D/art/print: wrong units or scale, topology breaks at rig, export color shift, asset license. (29 October 2026, 12:54:26 +0100)
+>
+> ## Step 5: Rank, cut, decide (29 October 2026, 12:54:26 +0100)
+>
+> - Rank each risk: severity (cosmetic → irreversible loss) x likelihood. Irreversible bumps severity one level. (29 October 2026, 12:54:26 +0100)
+> - Keep the top 5 maximum. Dismissed risks get one summary line total. (29 October 2026, 12:54:26 +0100)
+> - Every kept risk carries its **proof** (per Step 2) and **one concrete check** to confirm or kill it: a command, a test, a call, a calculation, a measurement. (29 October 2026, 12:54:26 +0100)
+>
+> ## Output format (compact, French by default on this account) (29 October 2026, 12:54:26 +0100)
+>
+> ``` (29 October 2026, 12:54:26 +0100)
+> Décision/changement : 1 à 3 lignes. (29 October 2026, 12:54:26 +0100)
+> Angles morts (4 lectures) : 1 ligne chacune. (29 October 2026, 12:54:26 +0100)
+> | # | Risque | Preuve | Sév x Prob | Vérification | (29 October 2026, 12:54:26 +0100)
+> Écartés : 1 ligne. (29 October 2026, 12:54:26 +0100)
+> Questions ouvertes : numérotées, chacune avec un défaut recommandé (accord par silence). (29 October 2026, 12:54:26 +0100)
+> Verdict : GO / GO avec corrections (listées) / NO-GO + correction minimale. (29 October 2026, 12:54:26 +0100)
+> ``` (29 October 2026, 12:54:26 +0100)
+>
+> ## Stop conditions and anti-goals (29 October 2026, 12:54:26 +0100)
+>
+> - **ONE pass.** Re-run only if the facts changed afterwards, and only on the delta. Never apply this skill to its own output. (29 October 2026, 12:54:26 +0100)
+> - It audits ONE stated decision or change. It does not generate unsolicited master plans. (29 October 2026, 12:54:26 +0100)
+> - Not a substitute for tests, CI, or licensed professionals on high-stakes legal, medical or financial moves: it catches known failure classes, not novel ones. Say that plainly instead of implying completeness. (29 October 2026, 12:54:26 +0100)
+>
+>
+> ARGUMENTS: Construire ZenRay Lines en outil de retopologie générique (voiture aujourd'hui, n'importe quel modèle demain) jusqu'à 15 h : vue 3D navigable (orbite, déplacement, zoom), courbes posées et éditées directement sur la surface, suppression de lignes (roues), modification du tracé, arrondi des courbes, ajout et retrait de segments, dessin de nouvelles courbes, exports SVG, PNG, JSON, conversion directe en maillage quad par l'algorithme (faces du réseau, coins, comptes entiers milp, patchs de Coons projetés, relaxation), fonctions de retopologie façon Maya Quad Draw, intégration des recherches (interval assignment, Tarini, Coons, MBO, juge), serveur Python local existant (ZrlServe.py, port 8766), application HTML JS sans dépendance (lines/), maillage de référence de 2 millions de sommets. (29 October 2026, 12:54:26 +0100)
+
+## 29 October 2026, 12:54:28 +0100 : Prompt
+
+<!-- feedback-event:74c865fc366748347d34ca4083c20b0761095614e31d8dc19ef2d813562aa7a2 (29 October 2026, 12:54:28 +0100) -->
+- Project: zenray-meshes; kind: prompt. (29 October 2026, 12:54:28 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 12:54:28 +0100)
+
+> (Re-invocation of /dont-stop — the skill instructions were previously loaded; the arguments or dynamic output below are new.) (29 October 2026, 12:54:28 +0100)
+
+## 29 October 2026, 12:54:28 +0100 : Prompt
+
+<!-- feedback-event:c953ed3400af987535d0695e1e5f5890fa71685fa43a61492a4b7d81a0d92d24 (29 October 2026, 12:54:28 +0100) -->
+- Project: zenray-meshes; kind: prompt. (29 October 2026, 12:54:28 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 12:54:28 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/dont-stop (29 October 2026, 12:54:28 +0100)
+>
+> # Dont stop (30 September 2026) (29 October 2026, 12:54:28 +0100)
+>
+> Continue jusqu’à ce que ce soit parfait par rapport à la contrainte `X` donnée par l’utilisateur. Ne t’arrête pas à un résultat partiel. (30 September 2026) (29 October 2026, 12:54:28 +0100)
+>
+> Corrige, vérifie contre `X`, puis recommence tant qu’un écart subsiste. Termine quand `X` est satisfaite, avec une preuve. (30 September 2026) (29 October 2026, 12:54:28 +0100)
+>
+> Si `X` manque, demande-la. Si un obstacle réel empêche de continuer, précise ce qui manque pour reprendre. (30 September 2026) (29 October 2026, 12:54:28 +0100)
+>
+> ## Surveillant de reprise toutes les minutes (27 October 2026) (29 October 2026, 12:54:28 +0100)
+>
+> À chaque invocation pour une tâche, installer dès le démarrage un surveillant récurrent, avec un intervalle cible de 60 secondes, lié à cette même conversation et à sa contrainte `X`. Réutiliser le surveillant existant de cette tâche au lieu d’en créer plusieurs. (27 October 2026) (29 October 2026, 12:54:28 +0100)
+>
+> Dans Codex, utiliser l’outil natif `automation_update` en mode heartbeat lié à la conversation ; dans un autre hôte, utiliser son ordonnanceur disponible. Vérifier que l’outil accepte réellement une fréquence d’une minute et confirmer la programmation par son résultat. Si cette fréquence ou la reprise de conversation est indisponible, signaler cette limite ; écrire une instruction dans ce skill ne crée pas à lui seul un cron actif. (27 October 2026) (29 October 2026, 12:54:28 +0100)
+>
+> Le prompt du surveillant reprend l’objectif exact, `X`, les preuves attendues et l’état de reprise : « Vérifie si la tâche satisfait X avec une preuve. Si elle est inachevée et qu’aucune exécution de cette tâche n’est en cours, reprends au dernier point vérifié, exécute la prochaine action utile et poursuis la boucle de correction et de vérification. Si elle tourne déjà, laisse-la continuer sans lancer de doublon. » (27 October 2026) (29 October 2026, 12:54:28 +0100)
+>
+> À chaque réveil, lire le dernier état avant toute action. Une tâche en attente d’une réponse, d’une autorisation ou d’une dépendance externe reste en attente : ne pas répéter des tentatives identiques tant que le blocage ne change pas. Respecter toute pause ou annulation explicite de l’utilisateur. (27 October 2026) (29 October 2026, 12:54:28 +0100)
+>
+> Dès que `X` est satisfaite avec une preuve, désactiver le surveillant et annoncer le résultat. Le désactiver aussi si l’utilisateur annule la tâche ; lors d’une pause explicite, le mettre en pause. Rester silencieux lorsque l’état est inchangé ; notifier un résultat, un échec nouveau ou une intervention nécessaire. La cadence réelle dépend de l’ordonnanceur et de l’hôte disponible, elle ne garantit pas une exécution à la seconde près. (27 October 2026) (29 October 2026, 12:54:28 +0100)
+>
+>
+> ARGUMENTS: 15 h : améliorer ZenRay Lines sans s'arrêter jusqu'à 15:00 le 29 October 2026, contrainte X = une application de retopologie complète et vérifiée (vue 3D, édition des courbes sur la surface, opérations de courbe, dessin, conversion en maillage quad, fonctions façon Maya, exports), chaque fonction prouvée dans le navigateur intégré. (29 October 2026, 12:54:28 +0100)
+
+## 29 October 2026, 12:54:40 +0100 : Prompt
+
+<!-- feedback-event:d337531518be745c40de6f06617c3c5b9c9b8be8541f72f919b465104c68a8de (29 October 2026, 12:54:40 +0100) -->
+- Project: zenray-meshes; kind: prompt. (29 October 2026, 12:54:40 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (29 October 2026, 12:54:40 +0100)
+
+> (Re-invocation of /think-of-everything — the skill instructions were previously loaded; the arguments or dynamic output below are new.) (29 October 2026, 12:54:40 +0100)
+>
+> Base directory for this skill: /Users/zenray/.claude/skills/think-of-everything (29 October 2026, 12:54:40 +0100)
+>
+> # Think of Everything (Pense à Tout) (29 October 2026, 12:54:40 +0100)
+>
+> Surface the FEW risks that matter on ANY decision — code, business, life, art — each proven against the real facts, each with a concrete check, ending in a decision. 40 generic checklist items is a failure; 5 proven, ranked risks is a success. This pass answers the question asked, its opposite, and the ones nobody asked, then verifies against reality instead of memory. (29 October 2026, 12:54:40 +0100)
+>
+> **Specialist rule (anti-generic), applies to every output line:** write at the level of the expert who gets paid to review exactly this — immigration lawyer, senior rigger, tax advisor, DB architect. Every kept risk must contain at least one exact value from the real context (number, date, name, path, price, spec) verified this session. A risk that could be pasted unchanged into someone else's situation is generic: sharpen it or cut it. (29 October 2026, 12:54:40 +0100)
+>
+> ## Step 0: Classify and scale (two lines) (29 October 2026, 12:54:40 +0100)
+>
+> - Domain + the specialist to embody + type: (a) action to take, (b) existing thing to audit, (c) pure decision, nothing built yet. (29 October 2026, 12:54:40 +0100)
+> - For (b), the source of truth is the actual artifact (`git diff`, the contract, the scene file), never its description. (29 October 2026, 12:54:40 +0100)
+> - Trivial, cheap and reversible case: say so, jump to Step 4 + verdict, 5 output lines max. The full pass is for anything expensive, irreversible, deadline-bound, or touching shared state, money, auth, public APIs. (29 October 2026, 12:54:40 +0100)
+>
+> ## Step 1: Read the request four ways (one line each) (29 October 2026, 12:54:40 +0100)
+>
+> 1. **Literal**: restate exactly what was asked. (29 October 2026, 12:54:40 +0100)
+> 2. **Inverse**: what if the premise is false? What single condition breaks this? And what does NOT doing it cost? (29 October 2026, 12:54:40 +0100)
+> 3. **Adjacent**: the 2-3 questions the specialist would ask next, unprompted. Parallel questions, not follow-ups. (29 October 2026, 12:54:40 +0100)
+> 4. **Reframed**: the clearest version of this request. If it differs from the literal one, answer that too. (29 October 2026, 12:54:40 +0100)
+>
+> ## Step 2: Verify the real facts (never from memory) (29 October 2026, 12:54:40 +0100)
+>
+> **Evidence rule, the core of this skill: every claim cites its proof — file:line, URL of an official source, a measured value, or a posed calculation — found THIS SESSION, or carries the label [non vérifié]. No exceptions.** (29 October 2026, 12:54:40 +0100)
+>
+> Sources by domain: (29 October 2026, 12:54:40 +0100)
+>
+> - **Code**: `rg -n "<symbol|route|table|key>"` across the whole repo — every call site, not just the edited file. Hyrum's law: who depends on the CURRENT undocumented behavior (output format, ordering, timing, error text)? Does the new code re-read data written by the old code? (29 October 2026, 12:54:40 +0100)
+> - **Business / life / admin**: read the actual documents (contracts, statements, notes, Memory files); web-search official sources for external facts (rules, prices, deadlines, opening days); compute the real numbers and dates — count, never estimate. (29 October 2026, 12:54:40 +0100)
+> - **Physical / creative (3D, drawing, video, print)**: open the actual source files (scene, layers, footage); check the official specs (software docs, platform limits, physical medium constraints); measure, don't eyeball. (29 October 2026, 12:54:40 +0100)
+> - **People**: who else is affected, who must agree, whose workflow breaks if this changes? (29 October 2026, 12:54:40 +0100)
+>
+> If the facts can't be reached, label the whole map "non vérifié / spéculatif". Never present a guess as a finding. (29 October 2026, 12:54:40 +0100)
+>
+> ## Step 3: Impact surface (12 universal axes, one killer question each) (29 October 2026, 12:54:40 +0100)
+>
+> 1. **Existing state**: does what already exists (data, commitments, acquired rights) stay valid? Partial overwrite possible? (29 October 2026, 12:54:40 +0100)
+> 2. **Conflicts / concurrency**: two actors or processes on the same resource at once — then what? (29 October 2026, 12:54:40 +0100)
+> 3. **Limits & deadlines**: which cap (budget, size, rate, date, capacity) gets hit first, and what happens at the boundary? (29 October 2026, 12:54:40 +0100)
+> 4. **Security / legal**: who can trigger or abuse this? Compliant with law, terms, licenses? (29 October 2026, 12:54:40 +0100)
+> 5. **Partial failure**: stopped halfway — what state remains, is it recoverable? (29 October 2026, 12:54:40 +0100)
+> 6. **Backward compatibility**: old data, clients, habits, commitments still work? (29 October 2026, 12:54:40 +0100)
+> 7. **Scale & durability**: still fine at 100x the volume, or repeated weekly for a year? (29 October 2026, 12:54:40 +0100)
+> 8. **Recurring cost**: money, time, energy that scales with usage? (29 October 2026, 12:54:40 +0100)
+> 9. **Observability**: if it fails silently, how and when do you find out? (29 October 2026, 12:54:40 +0100)
+> 10. **Edge cases**: empty/first-run, oversized, duplicate, offline; holiday, sick day, exception case. (29 October 2026, 12:54:40 +0100)
+> 11. **Checks**: a test or verification that catches the regression BEFORE real impact? (29 October 2026, 12:54:40 +0100)
+> 12. **Reversibility**: one action to undo? Does what got engaged meanwhile (money sent, word given, data written) survive? (29 October 2026, 12:54:40 +0100)
+>
+> Keep only the applicable axes, expressed in the domain's own units and vocabulary. Dismiss the rest in one line ("N/A: ..."), never pad. (29 October 2026, 12:54:40 +0100)
+>
+> ## Step 4: Premortem (narrative, not checklist) (29 October 2026, 12:54:40 +0100)
+>
+> "Three weeks later it failed, and it was THIS decision. Write the most plausible incident, then the second." Use THIS domain's high-frequency classics — code: off-by-one, empty/first-run state, stale cache, non-idempotent retry, timezone/encoding, two concurrent writers; admin/life: missed deadline, missing document, misread eligibility rule, transfer delay, closed office; business: nobody pays, no distribution channel; 3D/art/print: wrong units or scale, topology breaks at rig, export color shift, asset license. (29 October 2026, 12:54:40 +0100)
+>
+> ## Step 5: Rank, cut, decide (29 October 2026, 12:54:40 +0100)
+>
+> - Rank each risk: severity (cosmetic → irreversible loss) x likelihood. Irreversible bumps severity one level. (29 October 2026, 12:54:40 +0100)
+> - Keep the top 5 maximum. Dismissed risks get one summary line total. (29 October 2026, 12:54:40 +0100)
+> - Every kept risk carries its **proof** (per Step 2) and **one concrete check** to confirm or kill it: a command, a test, a call, a calculation, a measurement. (29 October 2026, 12:54:40 +0100)
+>
+> ## Output format (compact, French by default on this account) (29 October 2026, 12:54:40 +0100)
+>
+> ``` (29 October 2026, 12:54:40 +0100)
+> Décision/changement : 1 à 3 lignes. (29 October 2026, 12:54:40 +0100)
+> Angles morts (4 lectures) : 1 ligne chacune. (29 October 2026, 12:54:40 +0100)
+> | # | Risque | Preuve | Sév x Prob | Vérification | (29 October 2026, 12:54:40 +0100)
+> Écartés : 1 ligne. (29 October 2026, 12:54:40 +0100)
+> Questions ouvertes : numérotées, chacune avec un défaut recommandé (accord par silence). (29 October 2026, 12:54:40 +0100)
+> Verdict : GO / GO avec corrections (listées) / NO-GO + correction minimale. (29 October 2026, 12:54:40 +0100)
+> ``` (29 October 2026, 12:54:40 +0100)
+>
+> ## Stop conditions and anti-goals (29 October 2026, 12:54:40 +0100)
+>
+> - **ONE pass.** Re-run only if the facts changed afterwards, and only on the delta. Never apply this skill to its own output. (29 October 2026, 12:54:40 +0100)
+> - It audits ONE stated decision or change. It does not generate unsolicited master plans. (29 October 2026, 12:54:40 +0100)
+> - Not a substitute for tests, CI, or licensed professionals on high-stakes legal, medical or financial moves: it catches known failure classes, not novel ones. Say that plainly instead of implying completeness. (29 October 2026, 12:54:40 +0100)
+>
+>
+> ARGUMENTS: Construire ZenRay Lines en outil de retopologie générique (voiture aujourd'hui, n'importe quel modèle demain) jusqu'à 15 h : vue 3D navigable (orbite, déplacement, zoom), courbes posées et éditées directement sur la surface, suppression de lignes (roues), modification du tracé, arrondi des courbes, ajout et retrait de segments, dessin de nouvelles courbes, exports SVG, PNG, JSON, conversion directe en maillage quad par l'algorithme (faces du réseau, coins, comptes entiers milp, patchs de Coons projetés, relaxation), fonctions de retopologie façon Maya Quad Draw, intégration des recherches (interval assignment, Tarini, Coons, MBO, juge), serveur Python local existant (ZrlServe.py, port 8766), application HTML JS sans dépendance (lines/), maillage de référence de 2 millions de sommets. (29 October 2026, 12:54:40 +0100)
+>
+> (Re-invocation of /dont-stop — the skill instructions were previously loaded; the arguments or dynamic output below are new.) (29 October 2026, 12:54:40 +0100)
+>
+> Base directory for this skill: /Users/zenray/.claude/skills/dont-stop (29 October 2026, 12:54:40 +0100)
+>
+> # Dont stop (30 September 2026) (29 October 2026, 12:54:40 +0100)
+>
+> Continue jusqu’à ce que ce soit parfait par rapport à la contrainte `X` donnée par l’utilisateur. Ne t’arrête pas à un résultat partiel. (30 September 2026) (29 October 2026, 12:54:40 +0100)
+>
+> Corrige, vérifie contre `X`, puis recommence tant qu’un écart subsiste. Termine quand `X` est satisfaite, avec une preuve. (30 September 2026) (29 October 2026, 12:54:40 +0100)
+>
+> Si `X` manque, demande-la. Si un obstacle réel empêche de continuer, précise ce qui manque pour reprendre. (30 September 2026) (29 October 2026, 12:54:40 +0100)
+>
+> ## Surveillant de reprise toutes les minutes (27 October 2026) (29 October 2026, 12:54:40 +0100)
+>
+> À chaque invocation pour une tâche, installer dès le démarrage un surveillant récurrent, avec un intervalle cible de 60 secondes, lié à cette même conversation et à sa contrainte `X`. Réutiliser le surveillant existant de cette tâche au lieu d’en créer plusieurs. (27 October 2026) (29 October 2026, 12:54:40 +0100)
+>
+> Dans Codex, utiliser l’outil natif `automation_update` en mode heartbeat lié à la conversation ; dans un autre hôte, utiliser son ordonnanceur disponible. Vérifier que l’outil accepte réellement une fréquence d’une minute et confirmer la programmation par son résultat. Si cette fréquence ou la reprise de conversation est indisponible, signaler cette limite ; écrire une instruction dans ce skill ne crée pas à lui seul un cron actif. (27 October 2026) (29 October 2026, 12:54:40 +0100)
+>
+> Le prompt du surveillant reprend l’objectif exact, `X`, les preuves attendues et l’état de reprise : « Vérifie si la tâche satisfait X avec une preuve. Si elle est inachevée et qu’aucune exécution de cette tâche n’est en cours, reprends au dernier point vérifié, exécute la prochaine action utile et poursuis la boucle de correction et de vérification. Si elle tourne déjà, laisse-la continuer sans lancer de doublon. » (27 October 2026) (29 October 2026, 12:54:40 +0100)
+>
+> À chaque réveil, lire le dernier état avant toute action. Une tâche en attente d’une réponse, d’une autorisation ou d’une dépendance externe reste en attente : ne pas répéter des tentatives identiques tant que le blocage ne change pas. Respecter toute pause ou annulation explicite de l’utilisateur. (27 October 2026) (29 October 2026, 12:54:40 +0100)
+>
+> Dès que `X` est satisfaite avec une preuve, désactiver le surveillant et annoncer le résultat. Le désactiver aussi si l’utilisateur annule la tâche ; lors d’une pause explicite, le mettre en pause. Rester silencieux lorsque l’état est inchangé ; notifier un résultat, un échec nouveau ou une intervention nécessaire. La cadence réelle dépend de l’ordonnanceur et de l’hôte disponible, elle ne garantit pas une exécution à la seconde près. (27 October 2026) (29 October 2026, 12:54:40 +0100)
+>
+>
+> ARGUMENTS: 15 h : améliorer ZenRay Lines sans s'arrêter jusqu'à 15:00 le 29 October 2026, contrainte X = une application de retopologie complète et vérifiée (vue 3D, édition des courbes sur la surface, opérations de courbe, dessin, conversion en maillage quad, fonctions façon Maya, exports), chaque fonction prouvée dans le navigateur intégré. (29 October 2026, 12:54:40 +0100)
