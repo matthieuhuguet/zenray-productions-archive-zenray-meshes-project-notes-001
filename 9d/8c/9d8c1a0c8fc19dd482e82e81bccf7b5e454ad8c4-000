@@ -55858,3 +55858,37 @@
 > |---|---|---| (30 October 2026, 10:38:39 +0100)
 > | Ne rien casser avant 11 h | Oui | md5 voiture, 3 projets et 2 OBJ vérifiés | (30 October 2026, 10:38:39 +0100)
 > | Rien de risqué dans les dernières minutes | Oui | Aucun calcul lancé | (30 October 2026, 10:38:39 +0100)
+
+## 30 October 2026, 11:08:21 +0100 : Prompt
+
+<!-- feedback-event:7d2f102c0448910f24665bd23c5aec23ddd3d7a80d2ff6be02be6e665d9017cb (30 October 2026, 11:08:21 +0100) -->
+- Project: zenray-meshes; kind: prompt. (30 October 2026, 11:08:21 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (30 October 2026, 11:08:21 +0100)
+
+> Boucle ZenRay Lines (consigne de Matthieu du 30 October 2026 au soir : « continue la boucle jusqu'à demain 11 h, ne fais aucune erreur »). Si l'heure locale est après 11:00 le 30 October 2026, ne rien lancer et supprimer ce cron. Sinon : (0) lire /Users/zenray/.claude/tmp/tmp-zenray-meshes/lines/STATE.md (dernière section) et la dernière section du skill /Users/zenray/.claude/skills/zenray-meshes/SKILL.md. (1) Avant 04:10 : Manny seulement (épaules, trapèzes, cou, pieds, tête ; ne remplacer le projet manny qu'avec sauvegarde dans projects/manny/data/backups ; reconstruire par Scripts/lines/ZrlBodyNet.py, prouver par ZrlClosedCheck.py et images face, DOS, profil ZrlMeshView.py --parts, envoyées avec SendUserFile). (2) À partir de 04:10 : la VOITURE (projet par défaut de lines/, fichier lines/data/lines_edit.json) avec exactement la même méthode et les mêmes retours que pour Manny : un composant à la fois dessiné parfaitement (courbes sur la surface, droites, symétriques, anneaux et jonctions propres, comptes équilibrés, faces toutes maillées, maillage fermé à 100 pour cent : Euler 2, 0 arête de bord, 0 face non maillée), zones colorées pâles (palette lines/palette.json), densités égales, aucune face orpheline, jamais de quads repliés en silence ; TRAVAILLER SUR UNE COPIE dans work/lines/car_parts/, sauvegarder lines/data/lines_edit.json dans lines/data/backups/ AVANT de l'écraser, ne remplacer qu'un état vérifié fermé et meilleur. (3) Consigner à chaque boucle : skill zenray-meshes (section datée), feedback.py, progress.mjs, STATE.md. (4) Si une conversation est déjà en cours, ne rien lancer. Règles de la maison : pas de Workflow, pas de tiret cadratin, dates en anglais, chemins absolus, tableau final de trois colonnes, rendre compte en peu de lignes. Matthieu revient le 30 October 2026 à 11:00. (30 October 2026, 11:08:21 +0100)
+
+## 30 October 2026, 11:08:31 +0100 : Iteration
+
+<!-- feedback-event:99bce9d32b044ffc9e3cec89a401bafba1c0987106362196fa95ba8c057e8958 (30 October 2026, 11:08:31 +0100) -->
+- Project: zenray-meshes; kind: iteration. (30 October 2026, 11:08:31 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (30 October 2026, 11:08:31 +0100)
+
+> Il est 11 h 08, après l'heure limite : je ne lance rien et je supprime le cron. (30 October 2026, 11:08:31 +0100)
+
+## 30 October 2026, 11:08:37 +0100 : Iteration
+
+<!-- feedback-event:3e03789a64d111e6592be6babc4684954371887e3d8932356762647feb308d0c (30 October 2026, 11:08:37 +0100) -->
+- Project: zenray-meshes; kind: iteration. (30 October 2026, 11:08:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (30 October 2026, 11:08:37 +0100)
+
+> Le cron `17210293` est supprimé et la boucle de nuit est terminée. Rien n'a été lancé après 11 h. (30 October 2026, 11:08:37 +0100)
+>
+> État laissé pour ton retour : (30 October 2026, 11:08:37 +0100)
+> - **Manny (mk24) :** projet `manny`, [manny_mesh.obj](/Users/zenray/.claude/tmp/tmp-zenray-meshes/lines/data/manny_mesh.obj), fermé, symétrique à 98,7 %. (30 October 2026, 11:08:37 +0100)
+> - **Voiture :** projet `car-panels`, [car_panels_mesh.obj](/Users/zenray/.claude/tmp/tmp-zenray-meshes/lines/data/car_panels_mesh.obj), 35 composants maillés chacun seul, 33 repliés. Le réseau d'origine est intact (md5 `29e3460b…`). (30 October 2026, 11:08:37 +0100)
+> - **Restes :** la poitrine de Manny (épaules, trapèzes, cou) à refondre, une jonction de cheville, puis l'arrière (13 repliés) et la lunette (7) de la voiture. (30 October 2026, 11:08:37 +0100)
+>
+> | Ce que demandait le cron | Fait ? | Comment je le sais | (30 October 2026, 11:08:37 +0100)
+> |---|---|---| (30 October 2026, 11:08:37 +0100)
+> | Arrêter après 11 h | Oui | Heure vérifiée (11 h 08), cron supprimé | (30 October 2026, 11:08:37 +0100)
+> | Laisser un état exploitable | Oui | Deux OBJ, trois projets, STATE à jour | (30 October 2026, 11:08:37 +0100)
