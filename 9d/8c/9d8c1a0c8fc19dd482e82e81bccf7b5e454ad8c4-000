@@ -56198,3 +56198,80 @@
 > | Fermer les composants non fermés | Presque | Plis : 33 → 5 sur 7 012 quads (`ZrlFoldView.py`) | (30 October 2026, 12:23:03 +0100)
 > | Améliorer l'algorithme | Oui | `thin_strip`, `reflex_split` et `--sweep` ajoutés et consignés | (30 October 2026, 12:23:03 +0100)
 > | Voiture fermée à 100 % | Pas encore | 5 plis et 2 quads écrasés restent, dits sans détour | (30 October 2026, 12:23:03 +0100)
+
+## 30 October 2026, 12:41:33 +0100 : Prompt
+
+<!-- feedback-event:038de476912036fc1d36d49b0463f3ea6368358c5954fe1ddc7dc4c1b8c0894d (30 October 2026, 12:41:33 +0100) -->
+- Project: zenray-meshes; kind: prompt. (30 October 2026, 12:41:33 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (30 October 2026, 12:41:33 +0100)
+
+> bah continue alors (30 October 2026, 12:41:33 +0100)
+
+## 30 October 2026, 12:42:00 +0100 : Iteration
+
+<!-- feedback-event:089af0ff4fdb04acac5a9434a69229fb29d205e28ee1add1806560069f49aa29 (30 October 2026, 12:42:00 +0100) -->
+- Project: zenray-meshes; kind: iteration. (30 October 2026, 12:42:00 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (30 October 2026, 12:42:00 +0100)
+
+> Pour `bumper_front_C`, un seuil de coin à 70° donne 0 pli. J'ajoute ce réglage de seuil au balayage des panneaux centraux et je relance. (30 October 2026, 12:42:00 +0100)
+
+## 30 October 2026, 12:42:18 +0100 : Iteration
+
+<!-- feedback-event:655fb496b68db040fe142bbbf6a944177e5bed1c74e4aa134bb0cbaba2e00fc1 (30 October 2026, 12:42:18 +0100) -->
+- Project: zenray-meshes; kind: iteration. (30 October 2026, 12:42:18 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (30 October 2026, 12:42:18 +0100)
+
+> `hood_C` et `bumper_front_C` sont maintenant propres : 4 plis restent, tous sur les pointes aiguës des ailes et des épaules arrière. J'installe cet état. (30 October 2026, 12:42:18 +0100)
+
+## 30 October 2026, 12:43:03 +0100 : Iteration
+
+<!-- feedback-event:2bc4f768a0c4fc2ecc8072c3a569cacdf70dd53461c8ba60458617cc935767a8 (30 October 2026, 12:43:03 +0100) -->
+- Project: zenray-meshes; kind: iteration. (30 October 2026, 12:43:03 +0100)
+
+> Boucle voiture 12 h 35 : zero quad plie (corner_deg, repair border_ok), section 291 (30 October 2026, 12:43:03 +0100)
+
+## 30 October 2026, 12:42:44 +0100 : Iteration
+
+<!-- feedback-event:ae7832fc56c0c1bebcb915a624ae89e66f57a1343b948de428f982bd13c2ac24 (30 October 2026, 12:42:44 +0100) -->
+- Project: zenray-meshes; kind: iteration. (30 October 2026, 12:42:44 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (30 October 2026, 12:42:44 +0100)
+
+> 0 plié sur 7 177 quads. Je vérifie à l'œil que la réparation des bords n'a pas déformé les panneaux touchés. (30 October 2026, 12:42:44 +0100)
+
+## 30 October 2026, 12:42:49 +0100 : Prompt
+
+<!-- feedback-event:f1fca977dbacbbb8baf295ed9390f174586119564c8da9072ff9a43638d9cf64 (30 October 2026, 12:42:49 +0100) -->
+- Project: zenray-meshes; kind: prompt. (30 October 2026, 12:42:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (30 October 2026, 12:42:49 +0100)
+
+> [Image: original 1000x3346, displayed at 598x2000. Multiply coordinates by 1.67 to map to original image.] (30 October 2026, 12:42:49 +0100)
+
+## 30 October 2026, 12:42:52 +0100 : Iteration
+
+<!-- feedback-event:605e513b0c5991f276727855a442beb2b900dbf272860019ddcf73a77beb2c67 (30 October 2026, 12:42:52 +0100) -->
+- Project: zenray-meshes; kind: iteration. (30 October 2026, 12:42:52 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (30 October 2026, 12:42:52 +0100)
+
+> Plus aucun quad plié ; le panneau reste cohérent, seulement cisaillé en diagonale avec 4 quads écrasés. J'installe, j'envoie la planche et je consigne. (30 October 2026, 12:42:52 +0100)
+
+## 30 October 2026, 12:43:10 +0100 : Iteration
+
+<!-- feedback-event:bcbaff3c2fa662fe9db4d1c76850aeb4d4e6cece34b98626b3b728b0fcda767d (30 October 2026, 12:43:10 +0100) -->
+- Project: zenray-meshes; kind: iteration. (30 October 2026, 12:43:10 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (30 October 2026, 12:43:10 +0100)
+
+> Il ne reste plus aucun quad plié sur la voiture : 35 panneaux sur 35 sont maillés, soit 7 177 quads, contre 33 pliés sur 8 310 au début de la boucle. (30 October 2026, 12:43:10 +0100)
+>
+> - **Seuil de coin par panneau** (`--sweep`) : `bumper_front_C` passe à 70° et devient propre ; `hood_C` l'était déjà avec un bord à 0,92. (30 October 2026, 12:43:10 +0100)
+> - **Réparation étendue aux bords** : quand un pli reste, une seconde passe laisse bouger les sommets de bord de l'anneau du pli, et elle n'est gardée que si les plis baissent. Elle a levé les 4 derniers plis sur les ailes avant et les épaules arrière, qui étaient des pointes aiguës. (30 October 2026, 12:43:10 +0100)
+> - **Reste à faire :** 48 quads écrasés (Jacobien sous 0,3), surtout du cisaillement en diagonale sur `shoulder_rear_L`, où 4 quads sont touchés. Le panneau reste cohérent, rien n'est cassé. (30 October 2026, 12:43:10 +0100)
+> - **Installé et consigné :** l'état est dans `lines/data/lines_car_patches.json`, `car-panels` et `car_panels_mesh.obj`, avec sauvegarde datée de 12 h 35. Le réseau d'origine est inchangé (md5 29e3460b). Le skill `zenray-meshes` (section 291), `STATE.md`, le feedback et le journal sont à jour, et la planche de face t'est envoyée. (30 October 2026, 12:43:10 +0100)
+>
+> Je continue sur les 48 écrasés si tu veux. Le cron de 12 h 30 est supprimé, donc rien ne tourne en arrière-plan. (30 October 2026, 12:43:10 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (30 October 2026, 12:43:10 +0100)
+> |---|---|---| (30 October 2026, 12:43:10 +0100)
+> | Continuer la boucle voiture | Oui | Plis : 5 → 0 sur 7 177 quads (`ZrlFoldView.py`) | (30 October 2026, 12:43:10 +0100)
+> | Améliorer l'algorithme | Oui | Seuil de coin par panneau et réparation avec bords ajoutés, consignés en 291 | (30 October 2026, 12:43:10 +0100)
+> | Voiture fermée à 100 % | Presque | 0 plié, mais 48 quads encore écrasés | (30 October 2026, 12:43:10 +0100)
+> | Ne rien casser | Oui | md5 du réseau d'origine inchangé, sauvegarde datée faite | (30 October 2026, 12:43:10 +0100)
