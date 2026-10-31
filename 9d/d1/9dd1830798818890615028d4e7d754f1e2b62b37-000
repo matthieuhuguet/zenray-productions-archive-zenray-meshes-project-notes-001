@@ -1,0 +1,102 @@
+"""Pass 8 : common judge for quad meshes, same definitions as the earlier passes. Written 30 October 2026.
+Normal of a quad = normalize((P2 - P0) x (P3 - P1)) (diagonals, Verdict / Knupp). Corner Jacobian = n . (a x b) / (|a| |b|)
+with a, b the two edges leaving the corner. Folded = min corner Jacobian < 0 ; squashed = min corner Jacobian < 0.3.
+FR : juge commun, plie = Jacobien normalise minimal < 0, ecrase = < 0,3."""
+import numpy as np
+import collections
+
+
+def quad_normals(P, Q):
+    n = np.cross(P[Q[:, 2]] - P[Q[:, 0]], P[Q[:, 3]] - P[Q[:, 1]])
+    ln = np.linalg.norm(n, axis=1, keepdims=True)
+    return n / np.maximum(ln, 1e-30)
+
+
+def corner_jacobians(P, Q, normals=None):
+    """(nq, 4) normalized Jacobians at the four corners, signed by the diagonal normal."""
+    n = quad_normals(P, Q) if normals is None else normals
+    J = np.zeros((len(Q), 4))
+    for k in range(4):
+        a = P[Q[:, (k + 1) % 4]] - P[Q[:, k]]
+        b = P[Q[:, (k - 1) % 4]] - P[Q[:, k]]
+        # for a counter clockwise quad, a x b points along the quad normal : a regular quad gets +1
+        c = np.cross(a, b)
+        J[:, k] = np.einsum("ij,ij->i", c, n) / np.maximum(np.linalg.norm(a, axis=1) * np.linalg.norm(b, axis=1), 1e-30)
+    return J
+
+
+def judge(P, Q, ref_tris=None, fold_thr=0.0, squash_thr=0.3, verbose=False):
+    """Return a dict of metrics. P (nv, 3), Q (nq, 4) int."""
+    P = np.asarray(P, float); Q = np.asarray(Q, int)
+    nq = len(Q)
+    J = corner_jacobians(P, Q)
+    jmin = J.min(axis=1)
+    res = {"quads": int(nq),
+           "folded_frac": float((jmin < fold_thr).mean()),
+           "squashed_frac": float((jmin < squash_thr).mean()),
+           "jac_mean": float(jmin.mean()),
+           "jac_below_05_frac": float((jmin < 0.5).mean())}
+    # edge length regularity : std over mean of all edge lengths
+    E = np.concatenate([Q[:, [k, (k + 1) % 4]] for k in range(4)])
+    L = np.linalg.norm(P[E[:, 0]] - P[E[:, 1]], axis=1)
+    res["edge_cv"] = float(L.std() / max(L.mean(), 1e-30))
+    # edge length ratio inside each quad (opposite edges) : mean of min/max over the two pairs
+    e = np.stack([np.linalg.norm(P[Q[:, (k + 1) % 4]] - P[Q[:, k]], axis=1) for k in range(4)], axis=1)
+    r1 = np.minimum(e[:, 0], e[:, 2]) / np.maximum(np.maximum(e[:, 0], e[:, 2]), 1e-30)
+    r2 = np.minimum(e[:, 1], e[:, 3]) / np.maximum(np.maximum(e[:, 1], e[:, 3]), 1e-30)
+    res["opposite_ratio_mean"] = float(np.minimum(r1, r2).mean())
+    # side ratio : adjacent edges (aspect)
+    asp = np.minimum(e.min(axis=1) / np.maximum(e.max(axis=1), 1e-30), 1.0)
+    res["aspect_mean"] = float(asp.mean())
+    # area equalization : coefficient of variation of the quad areas (planar approximation by diagonal cross product / 2)
+    A = 0.5 * np.linalg.norm(np.cross(P[Q[:, 2]] - P[Q[:, 0]], P[Q[:, 3]] - P[Q[:, 1]]), axis=1)
+    res["area_cv"] = float(A.std() / max(A.mean(), 1e-30))
+    # topology : valence of vertices, interior vertices only
+    ec = collections.Counter()
+    for q in Q:
+        for k in range(4):
+            a, b = int(q[k]), int(q[(k + 1) % 4])
+            ec[(a, b) if a < b else (b, a)] += 1
+    nb = collections.Counter(); onb = set(); nonman = 0
+    for (a, b), c in ec.items():
+        nb[a] += 1; nb[b] += 1
+        if c == 1:
+            onb.add(a); onb.add(b)
+        elif c > 2:
+            nonman += 1
+    interior = [v for v in nb if v not in onb]
+    val = np.array([nb[v] for v in interior]) if interior else np.zeros(0, int)
+    res["interior_vertices"] = int(len(val))
+    res["valence4_frac"] = float((val == 4).mean()) if len(val) else 1.0
+    res["poles_per_1000_quads"] = float(((val != 4).sum()) * 1000.0 / nq)
+    res["boundary_edges"] = int(sum(1 for c in ec.values() if c == 1))
+    res["nonmanifold_edges"] = int(nonman)
+    # Euler characteristic of the used vertices
+    used = np.unique(Q)
+    res["euler"] = int(len(used) - len(ec) + nq)
+    if ref_tris is not None:
+        res.update(distance_to_reference(P, Q, ref_tris))
+    return res
+
+
+def distance_to_reference(P, Q, ref):
+    """Mean and 99% distance from quad vertices to the reference surface, as a fraction of the reference bbox diagonal.
+    ref = (V, F) triangle mesh. Needs trimesh."""
+    import trimesh
+    rv, rf = ref
+    m = trimesh.Trimesh(rv, rf, process=False)
+    used = np.unique(Q)
+    _, d, _ = trimesh.proximity.closest_point(m, P[used])
+    diag = np.linalg.norm(rv.max(axis=0) - rv.min(axis=0))
+    return {"dist_mean_frac_diag": float(d.mean() / diag), "dist_p99_frac_diag": float(np.percentile(d, 99) / diag)}
+
+
+def fmt(res):
+    keys = ["quads", "folded_frac", "squashed_frac", "jac_mean", "jac_below_05_frac", "edge_cv", "area_cv", "valence4_frac",
+            "poles_per_1000_quads", "nonmanifold_edges", "boundary_edges", "euler", "dist_mean_frac_diag"]
+    out = []
+    for k in keys:
+        if k in res:
+            v = res[k]
+            out.append("%s=%s" % (k, ("%.4g" % v) if isinstance(v, float) else v))
+    return " ".join(out)

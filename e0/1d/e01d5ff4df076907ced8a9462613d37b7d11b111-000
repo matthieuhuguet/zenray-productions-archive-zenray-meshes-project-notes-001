@@ -1,0 +1,208 @@
+{
+ "name": "car-finish-30-October-2026",
+ "project": "zenray-meshes",
+ "repo": "matthieuhuguet/Memory",
+ "branch": "main",
+ "created": "30 October 2026 18:15",
+ "max_mb": 20.0,
+ "files": [
+  {
+   "key": "tmp/tmp-zenray-meshes/refs/objects/06_Car/finish_references_30-October-2026/arch-quadwild-mechanical-board_hard-surface-reference.png",
+   "source": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/refs/objects/06_Car/finish_references_30-October-2026/arch-quadwild-mechanical-board_hard-surface-reference.png",
+   "bytes": 205001,
+   "sha256": "5da0730127775ec13b24fbc27a63ae58e4460ecf6cc015b11bdd49a130840e15",
+   "status": "copied",
+   "blob": "e2ec64f184a80b2caa73a5674760f3a00467fad6",
+   "repo_path": "Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/refs/objects/06_Car/finish_references_30-October-2026/arch-quadwild-mechanical-board_hard-surface-reference.png",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/refs/objects/06_Car/finish_references_30-October-2026/arch-quadwild-mechanical-board_hard-surface-reference.png",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/refs/objects/06_Car/finish_references_30-October-2026/arch-quadwild-mechanical-board_hard-surface-reference.png"
+  },
+  {
+   "key": "tmp/tmp-zenray-meshes/refs/objects/06_Car/finish_references_30-October-2026/mclaren-750s-photo_finish-reference.webp",
+   "source": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/refs/objects/06_Car/finish_references_30-October-2026/mclaren-750s-photo_finish-reference.webp",
+   "bytes": 198614,
+   "sha256": "bb296c5c5a0628c6c4f6a7aa3ee99ad2ede0578faf59ccf7ebd952c26448a758",
+   "status": "copied",
+   "blob": "a366c3983be388d7c9313925aaba0d54c0d6d136",
+   "repo_path": "Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/refs/objects/06_Car/finish_references_30-October-2026/mclaren-750s-photo_finish-reference.webp",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/refs/objects/06_Car/finish_references_30-October-2026/mclaren-750s-photo_finish-reference.webp",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/refs/objects/06_Car/finish_references_30-October-2026/mclaren-750s-photo_finish-reference.webp"
+  },
+  {
+   "key": "tmp/tmp-zenray-meshes/refs/objects/06_Car/finish_references_30-October-2026/peugeot-inception-photo_finish-reference.webp",
+   "source": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/refs/objects/06_Car/finish_references_30-October-2026/peugeot-inception-photo_finish-reference.webp",
+   "bytes": 118860,
+   "sha256": "73a2e071fff552bfa41c5d26379326dbe11712036e5d65b5bad76f83e8668174",
+   "status": "copied",
+   "blob": "540e3b88e61eead3fb06302adf622e6779fa8a43",
+   "repo_path": "Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/refs/objects/06_Car/finish_references_30-October-2026/peugeot-inception-photo_finish-reference.webp",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/refs/objects/06_Car/finish_references_30-October-2026/peugeot-inception-photo_finish-reference.webp",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/refs/objects/06_Car/finish_references_30-October-2026/peugeot-inception-photo_finish-reference.webp"
+  },
+  {
+   "key": "tmp/tmp-zenray-meshes/refs/objects/06_Car/06_Car_6views_25-October-2026.png",
+   "source": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/refs/objects/06_Car/06_Car_6views_25-October-2026.png",
+   "bytes": 1503427,
+   "sha256": "0eeb2481539a0c48e38b8726a98bcc4c4d0c7640363e5d4aa4affd046e378046",
+   "status": "copied",
+   "blob": "c6574d91df91273b66e3c30bf51c4d05d53b1beb",
+   "repo_path": "Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/refs/objects/06_Car/06_Car_6views_25-October-2026.png",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/refs/objects/06_Car/06_Car_6views_25-October-2026.png",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/refs/objects/06_Car/06_Car_6views_25-October-2026.png"
+  },
+  {
+   "key": "tmp/tmp-zenray-meshes/refs/objects/06_Car/06_Car_topology_ref2_27-October-2026.png",
+   "source": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/refs/objects/06_Car/06_Car_topology_ref2_27-October-2026.png",
+   "bytes": 1705895,
+   "sha256": "a19070c64313653684d6e8b284dc577ceb4f1a139ec9b26e4e30bfb037ff1211",
+   "status": "copied",
+   "blob": "618eaf541a2865263ccbad115e674d590d6e9a94",
+   "repo_path": "Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/refs/objects/06_Car/06_Car_topology_ref2_27-October-2026.png",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/refs/objects/06_Car/06_Car_topology_ref2_27-October-2026.png",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/refs/objects/06_Car/06_Car_topology_ref2_27-October-2026.png"
+  },
+  {
+   "key": "tmp/tmp-zenray-meshes/refs/objects/06_Car/06_Car_topology_ref3_27-October-2026.png",
+   "source": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/refs/objects/06_Car/06_Car_topology_ref3_27-October-2026.png",
+   "bytes": 1784583,
+   "sha256": "e92662a84ab88538bc166fd6b52dfb3a69a55e4062d43e8dd53d5ac6237f43f2",
+   "status": "copied",
+   "blob": "3051ef648d326add9d6cf8ee487bd62a4e88a641",
+   "repo_path": "Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/refs/objects/06_Car/06_Car_topology_ref3_27-October-2026.png",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/refs/objects/06_Car/06_Car_topology_ref3_27-October-2026.png",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/refs/objects/06_Car/06_Car_topology_ref3_27-October-2026.png"
+  },
+  {
+   "key": "tmp/tmp-zenray-meshes/versions/ZenRayCar_v752.obj",
+   "source": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v752.obj",
+   "bytes": 9305775,
+   "sha256": "6f0998658574e3cb362b8a454889608d07260bb4a3edb7b8b64be1aad14efa65",
+   "status": "copied",
+   "blob": "7ea588cfa3d8509a169f0eee869de4278e8a3cc3",
+   "repo_path": "Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/versions/ZenRayCar_v752.obj",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/versions/ZenRayCar_v752.obj",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/versions/ZenRayCar_v752.obj"
+  },
+  {
+   "key": "tmp/tmp-zenray-meshes/versions/ComponentSheet_v752.png",
+   "source": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ComponentSheet_v752.png",
+   "bytes": 234966,
+   "sha256": "2716511f44025f8ab8524ad05af3107402f6921c682237c0b471da453beafacb",
+   "status": "copied",
+   "blob": "b89def58e0348565eb52d8442f3e2cc9c6e058b6",
+   "repo_path": "Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/versions/ComponentSheet_v752.png",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/versions/ComponentSheet_v752.png",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/versions/ComponentSheet_v752.png"
+  },
+  {
+   "key": "tmp/tmp-zenray-meshes/work/lines/boards/car_30oct/v752_finish_view.png",
+   "source": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/work/lines/boards/car_30oct/v752_finish_view.png",
+   "bytes": 159908,
+   "sha256": "8c1bb26328a65d7f926c7897bdc2b2d09d989b82111c482ba438c4bd6eb20ad7",
+   "status": "copied",
+   "blob": "8fbb93a64cbf7b2487f6cc5cedad133fc1f049b2",
+   "repo_path": "Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/boards/car_30oct/v752_finish_view.png",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/boards/car_30oct/v752_finish_view.png",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/boards/car_30oct/v752_finish_view.png"
+  },
+  {
+   "key": "tmp/tmp-zenray-meshes/work/lines/boards/car_30oct/arch_merged_state.png",
+   "source": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/work/lines/boards/car_30oct/arch_merged_state.png",
+   "bytes": 212609,
+   "sha256": "05550381df6fd7de9d0f9275920f0e7bf847a25299e5d71e7edffadd85223762",
+   "status": "copied",
+   "blob": "2b6af653fa6ac044b7078c2a40463fe5406d62c5",
+   "repo_path": "Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/boards/car_30oct/arch_merged_state.png",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/boards/car_30oct/arch_merged_state.png",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/boards/car_30oct/arch_merged_state.png"
+  },
+  {
+   "key": "tmp/tmp-zenray-meshes/work/lines/boards/car_30oct/car_inplace_angle.png",
+   "source": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/work/lines/boards/car_30oct/car_inplace_angle.png",
+   "bytes": 358454,
+   "sha256": "b28baa83be82b0f13aa743b30d4c6b04ddfc7156a2da145b7689893fd0239946",
+   "status": "copied",
+   "blob": "6a41875f970b832e515ee35e2898fcefbcf152aa",
+   "repo_path": "Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/boards/car_30oct/car_inplace_angle.png",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/boards/car_30oct/car_inplace_angle.png",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/boards/car_30oct/car_inplace_angle.png"
+  },
+  {
+   "key": "tmp/tmp-zenray-meshes/work/lines/boards/car_30oct/car_coverage_back.png",
+   "source": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/work/lines/boards/car_30oct/car_coverage_back.png",
+   "bytes": 250522,
+   "sha256": "ae89163b57548416272dd235288fa11fc46db9001f15ca0ed6d2969c1c551b8f",
+   "status": "copied",
+   "blob": "a95498831654d53d1db0bfea2fded29c01ba0df0",
+   "repo_path": "Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/boards/car_30oct/car_coverage_back.png",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/boards/car_30oct/car_coverage_back.png",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/boards/car_30oct/car_coverage_back.png"
+  },
+  {
+   "key": "skills/zenray-meshes/SKILL.md",
+   "source": "/Users/zenray/.claude/skills/zenray-meshes/SKILL.md",
+   "bytes": 910570,
+   "sha256": "f65f9a83c023c0c43b2d73ba8e58de2c30898863f2070622c2d117b8456b4511",
+   "status": "copied",
+   "blob": "b216116fe6d60d42ae44047bde723430ab26b16c",
+   "repo_path": "Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/skills/zenray-meshes/SKILL.md",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/skills/zenray-meshes/SKILL.md",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/skills/zenray-meshes/SKILL.md"
+  },
+  {
+   "key": "skills/zenray-meshes/scripts/ZenRayMeshesCar.py",
+   "source": "/Users/zenray/.claude/skills/zenray-meshes/scripts/ZenRayMeshesCar.py",
+   "bytes": 2604,
+   "sha256": "c464cd087524f7549c9fd4ac787d318a3e5206522b74242acc06871f60617649",
+   "status": "copied",
+   "blob": "a7406f5bbf8ad72955112b3e8104bd3c81e5a96c",
+   "repo_path": "Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/skills/zenray-meshes/scripts/ZenRayMeshesCar.py",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/skills/zenray-meshes/scripts/ZenRayMeshesCar.py",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/skills/zenray-meshes/scripts/ZenRayMeshesCar.py"
+  },
+  {
+   "key": "skills/zenray-meshes/scripts/BlueprintLoft.py",
+   "source": "/Users/zenray/.claude/skills/zenray-meshes/scripts/BlueprintLoft.py",
+   "bytes": 7530,
+   "sha256": "f37fae58c08cc4e4ddd423e387352917e08ca03ea29fd4e156f6691db84bdc17",
+   "status": "copied",
+   "blob": "34c944cadd35c4d968b9312c4c8c2ea8a9e5ca94",
+   "repo_path": "Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/skills/zenray-meshes/scripts/BlueprintLoft.py",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/skills/zenray-meshes/scripts/BlueprintLoft.py",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/skills/zenray-meshes/scripts/BlueprintLoft.py"
+  },
+  {
+   "key": "skills/zenray-meshes/scripts/ComponentScore.py",
+   "source": "/Users/zenray/.claude/skills/zenray-meshes/scripts/ComponentScore.py",
+   "bytes": 35390,
+   "sha256": "5e4c04909f34699944356f5bf69cefcbac84fed603cff160d165d89a4451b8f1",
+   "status": "copied",
+   "blob": "8aa686256eb7c6ca9ae83d9d0722766de511ef60",
+   "repo_path": "Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/skills/zenray-meshes/scripts/ComponentScore.py",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/skills/zenray-meshes/scripts/ComponentScore.py",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/skills/zenray-meshes/scripts/ComponentScore.py"
+  },
+  {
+   "key": "skills/zenray-meshes/templates/car/assembly.json",
+   "source": "/Users/zenray/.claude/skills/zenray-meshes/templates/car/assembly.json",
+   "bytes": 3256,
+   "sha256": "5ea6af6f221926b4628ecce485a3ea812c8981d2d128d2e04ee26caa0894913f",
+   "status": "copied",
+   "blob": "9310257272e2e97c9e33045937de30fb84bd65d8",
+   "repo_path": "Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/skills/zenray-meshes/templates/car/assembly.json",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/skills/zenray-meshes/templates/car/assembly.json",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/skills/zenray-meshes/templates/car/assembly.json"
+  },
+  {
+   "key": "skills/zenray-meshes/templates/car/pipeline.json",
+   "source": "/Users/zenray/.claude/skills/zenray-meshes/templates/car/pipeline.json",
+   "bytes": 4876,
+   "sha256": "2399311860c9c5ca7457f69a7aa5d7f495cd9b699e79c883624e49dc63f4942f",
+   "status": "copied",
+   "blob": "dde9b9f65eb6246521e0af851c6d8290917ced1a",
+   "repo_path": "Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/skills/zenray-meshes/templates/car/pipeline.json",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/skills/zenray-meshes/templates/car/pipeline.json",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/car-finish-30-October-2026/files/skills/zenray-meshes/templates/car/pipeline.json"
+  }
+ ]
+}
