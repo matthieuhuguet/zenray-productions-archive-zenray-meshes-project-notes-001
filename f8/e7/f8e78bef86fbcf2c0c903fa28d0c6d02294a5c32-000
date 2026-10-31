@@ -3,3 +3,8 @@
 - Project ID: zenray-meshes. (25 October 2026)
 - Canonical feedback: /Users/zenray/.claude/Memory1/Projects/zenray-meshes/FEEDBACK.md. (25 October 2026)
 - Append dated decisions and verified knowledge here; retain existing entries. (25 October 2026)
+
+## 30 October 2026 : état de la finition de la voiture et de la chaîne ZenRay Meshes
+
+- 30 October 2026 : la voiture finale est `/Users/zenray/.claude/tmp/tmp-zenray-meshes/versions/ZenRayCar_v760_facet_closed_30-October-2026.obj` (138 groupes, 151 938 quads, étanche, jonctions soudées, panneaux plans), produite de v752 par `skills/zenray-meshes/scripts/ZenRayFinishAll.py` en 252 s ; tableau des composants `Components_v760.md`. Journal complet : `skills/zenray-meshes/references/CarFinish.md` (C1 à C17). (30 October 2026)
+- 30 October 2026 : chaîne de bout en bout testée sur une voiture indépendante à vérité exacte : `ZenRayMeshesPipeline.py tri.obj out --target 40000` (rétopologie de l'agent puis finition, 157 s) ; erreur contre la vérité inchangée, planarité 36 vers 65 %, plis nets 4 vers 43-50 %. Limites connues : la grille ne suit pas les plis (plis en dents de scie en diagonale), l'épaisseur des coques de 12 mm s'amincit (option `--thickness-mode post`), les coins avant de la voiture restent froissés, les plaques `CAR_closer_*` ne sont pas reconstruites, aucun test sur une voiture réelle autre que celle de la planche (téléchargement à valider). (30 October 2026)

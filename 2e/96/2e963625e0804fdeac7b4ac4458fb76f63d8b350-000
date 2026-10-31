@@ -1,0 +1,20 @@
+# Voiture : méthodes essayées qui n'ont PAS marché (30 October 2026)
+
+Liste unique, pour ne jamais les rejouer. Détail et chiffres : `/Users/zenray/.claude/skills/zenray-meshes/references/CarFinish.md` et `/Users/zenray/.claude/skills/zenray-meshes/SKILL.md` sections 307 à 314. (30 October 2026)
+
+| Méthode | Pourquoi elle a échoué | Où c'est noté |
+|---|---|---|
+| Rétopologie pièce par pièce (QuadWild sur chaque composant, assemblage par couverture) | Les jonctions s'ouvrent (1 575 à 2 426 arêtes ouvertes contre 104), 1,5 % de quads pliés | SKILL 308, 311 |
+| Barrière de redressement sur v752 sans garde | Quads pliés 0,32 vers 0,47 %, sommets déplacés de 20 mm | SKILL 311 |
+| Redresseur par centroïdes | Aucun gain, la rectitude mesurée était un artefact | SKILL 307 |
+| Plans RANSAC en place sur v752 (recherche cloud) | Le capot demande 8 plans, 15 mm d'écart : seule la porte tient | recherche cloud, pass 2 |
+| Filtre de facettes global, mêmes réglages partout (cette session) | Aplatit aussi ce qui doit être courbe, jugé sur mes propres chiffres et jamais contre la référence | CarFinish C1 à C11 |
+| Filtre trop faible ou troisième passe | Presque sans effet, ou jonctions rouvertes | CarFinish C1, C6 |
+| Barrière après le filtre, relaxation des quads | Quads pires ou gain marginal | CarFinish C1, C20 |
+| Plis droits par ajustement de droites et d'arcs | Gain faible, quads empirés | CarFinish C2 |
+| Épaisseur des coques : maître et esclave | Porte à 8,5 % sous 3 mm | CarFinish C9, C10 |
+| Petites pièces en enveloppe convexe | Ovales, quads écrasés | CarFinish C5 |
+| Second tour de rétopologie sans plis imposés | Plis non alignés, fidélité en baisse | CarFinish C17 |
+| Juger une amélioration sur des chiffres sans regarder la planche | Le filtre déchirait car_arch_v15 ; v760 reste loin de la référence | CarFinish C11, message du 30 October 2026 |
+
+Ce que je n'ai JAMAIS fait : nettoyer composant par composant en comparant chaque fois à la référence dans la même vue, avec une décision par composant (droit ou courbe). (30 October 2026)

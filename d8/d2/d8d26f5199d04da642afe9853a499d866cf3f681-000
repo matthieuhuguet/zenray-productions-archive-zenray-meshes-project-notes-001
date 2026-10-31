@@ -21,3 +21,8 @@ Lire ceci avant d'itérer : les commandes qui marchent, ce qui est écarté, l'o
 
 ## Arbre : le bois d'abord (26 October 2026, 18 h, consigne de Matthieu)
 - Les feuilles se font en dernier. `OBJ=tree zsh Scripts/TreeFromSheet.sh wNN` (PHASE=wood par défaut : tronc, limbes, branches mesurés, 15 s) puis `PHASE=full` pour les brindilles et les feuilles. Courbes : une spline par courbe de branche entière (`tol=0.08`), jugées par `CurveStats.py` (plis, courbure, fourches), le banc de crêtes et, sur un arbre synthétique, la vérité 3D. Dataset des guides : `/Users/zenray/.claude/Memory1/Trees/Trees1.md`. Relais arbre et voiture : skill section 112. Supprimer par chemin exact (section 113). (26 October 2026)
+
+## 30 October 2026 : finir une voiture (ou toute surface dure bruitée) en une commande
+
+- 30 October 2026 : `python -I /Users/zenray/.claude/skills/zenray-meshes/scripts/ZenRayFinishAll.py in.obj out_dir` (4 minutes pour 150 mille quads) : filtre de facettes avec garde « ne pas nuire », bouchons de trous, dalles propres des petites pièces, rapport par pièce, planches avant/après. Auto-test : `ZenRayFinishSelfTest.py` (vert dans les deux sens). Journal, pièges et mesures : `/Users/zenray/.claude/skills/zenray-meshes/references/CarFinish.md` (C1 à C14). Python : `/Users/zenray/.venvs/zenray-uv/bin/python -I`. (30 October 2026)
+- 30 October 2026 : avant d'appliquer à un objet inconnu : lister ses groupes (`CarPartsReport.py`) pour régler `--freeze` (pièces rondes), regarder la planche avant/après AVANT d'écrire « amélioré » (les chiffres ont trompé une fois), et ne pas filtrer un maillage dont la grille suit déjà les plis. (30 October 2026)

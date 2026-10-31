@@ -1,0 +1,17 @@
+# Handoff zenray-meshes / arch-real-30-October-2026 (30 October 2026 17:42)
+
+Index mapping of the files given to the cloud session. Read MANIFEST.json for the machine form.
+
+| key | bytes | status | link |
+|---|---|---|---|
+| tmp/tmp-zenray-meshes/benchmark/gt/arch_hard.obj | 97861 | copied | https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/benchmark/gt/arch_hard.obj |
+| tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.obj | 3111071 | copied | https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.obj |
+| tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.feature | 73949 | copied | https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.feature |
+| tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.c_feature | 2794 | copied | https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.c_feature |
+| tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.patch | 246791 | copied | https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.patch |
+| tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.corners | 11628 | copied | https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.corners |
+| tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0_123_quadrangulation.obj | 297056 | copied | https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0_123_quadrangulation.obj |
+| tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0_123_quadrangulation_smooth.obj | 297058 | copied | https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0_123_quadrangulation_smooth.obj |
+| tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/main.txt | 672 | copied | https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/main.txt |
+| tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/prep.txt | 56 | copied | https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/prep.txt |
+| tmp/tmp-zenray-meshes/Scripts/lines/ZrlQuadBarrier.py | 7708 | copied | https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/Scripts/lines/ZrlQuadBarrier.py |

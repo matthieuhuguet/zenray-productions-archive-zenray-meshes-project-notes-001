@@ -1,0 +1,131 @@
+{
+ "name": "arch-real-30-October-2026",
+ "project": "zenray-meshes",
+ "repo": "matthieuhuguet/Memory",
+ "branch": "main",
+ "created": "30 October 2026 17:42",
+ "max_mb": 20.0,
+ "files": [
+  {
+   "key": "tmp/tmp-zenray-meshes/benchmark/gt/arch_hard.obj",
+   "source": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/benchmark/gt/arch_hard.obj",
+   "bytes": 97861,
+   "sha256": "b929fb7c7648f909a1b2621218325ae8d91b6706353911973317700baeb1a19e",
+   "status": "copied",
+   "blob": "b468e96d593ecdcf52e412f2346b22fd73ede1f3",
+   "repo_path": "Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/benchmark/gt/arch_hard.obj",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/benchmark/gt/arch_hard.obj",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/benchmark/gt/arch_hard.obj"
+  },
+  {
+   "key": "tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.obj",
+   "source": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.obj",
+   "bytes": 3111071,
+   "sha256": "c516b241bc2a490f462859710e515973cc8facdf9f071a9efdbd2f4c406413c4",
+   "status": "copied",
+   "blob": "856e5368652f83eca28b39be8b3a4fe4ca6ab4dd",
+   "repo_path": "Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.obj",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.obj",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.obj"
+  },
+  {
+   "key": "tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.feature",
+   "source": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.feature",
+   "bytes": 73949,
+   "sha256": "e949d395d5f65f3d114d2adfc91dcdbc05957be85336c646adede1171789cab3",
+   "status": "copied",
+   "blob": "9191ae714f6dcc6fa9234bae268a7d88ed5995b2",
+   "repo_path": "Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.feature",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.feature",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.feature"
+  },
+  {
+   "key": "tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.c_feature",
+   "source": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.c_feature",
+   "bytes": 2794,
+   "sha256": "857040feb38cd24b3da6e733761c0ca7cbea4fb499661285df68cb98a4422ba4",
+   "status": "copied",
+   "blob": "c554d68a0d037ec0797eee7e38721ad092bb7aca",
+   "repo_path": "Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.c_feature",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.c_feature",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.c_feature"
+  },
+  {
+   "key": "tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.patch",
+   "source": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.patch",
+   "bytes": 246791,
+   "sha256": "243a196962f9ea9952d76cf4b3c40da33f04b841889df681e155b46f7dd44b70",
+   "status": "copied",
+   "blob": "876e9a7cda0150387d6867891a25bd2003bcf856",
+   "repo_path": "Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.patch",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.patch",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.patch"
+  },
+  {
+   "key": "tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.corners",
+   "source": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.corners",
+   "bytes": 11628,
+   "sha256": "24334af2215a97f78f6ad7fe04c4b3618f55200dab3a21775f2f519fa75b3dd7",
+   "status": "copied",
+   "blob": "4c0126840353d9d2226d788900ffa44c56c3876a",
+   "repo_path": "Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.corners",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.corners",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0.corners"
+  },
+  {
+   "key": "tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0_123_quadrangulation.obj",
+   "source": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0_123_quadrangulation.obj",
+   "bytes": 297056,
+   "sha256": "801c31894b07714d2210666918b69ec0b6ded8a21e8640a5250c3b4b3c031a29",
+   "status": "copied",
+   "blob": "03a3bffce43de093c05bb74e81bb75042bef5055",
+   "repo_path": "Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0_123_quadrangulation.obj",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0_123_quadrangulation.obj",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0_123_quadrangulation.obj"
+  },
+  {
+   "key": "tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0_123_quadrangulation_smooth.obj",
+   "source": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0_123_quadrangulation_smooth.obj",
+   "bytes": 297058,
+   "sha256": "3e90a90e51f209d4019350ef78bbad804937b360950508b00edcc86a1c086b46",
+   "status": "copied",
+   "blob": "a4722322f21db7ca460e21b3e174eb0b51499771",
+   "repo_path": "Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0_123_quadrangulation_smooth.obj",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0_123_quadrangulation_smooth.obj",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/part_rem_p0_123_quadrangulation_smooth.obj"
+  },
+  {
+   "key": "tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/main.txt",
+   "source": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/main.txt",
+   "bytes": 672,
+   "sha256": "5108a767288bfc8a53d1c8f1b901be5716010a255055121a5c3d779020d98836",
+   "status": "copied",
+   "blob": "3df7716435e8b462ff21172f02d59aed65c6cd04",
+   "repo_path": "Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/main.txt",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/main.txt",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/main.txt"
+  },
+  {
+   "key": "tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/prep.txt",
+   "source": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/prep.txt",
+   "bytes": 56,
+   "sha256": "2992b386212421fbc5dfd00a5ecff352db74053c90b2892c457876b7eea3928f",
+   "status": "copied",
+   "blob": "df21088451fd3e48673dcc18a4f9efbd4f7738c7",
+   "repo_path": "Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/prep.txt",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/prep.txt",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/work/lines/sweep_30oct/arch/t35_a0.005_lemon/prep.txt"
+  },
+  {
+   "key": "tmp/tmp-zenray-meshes/Scripts/lines/ZrlQuadBarrier.py",
+   "source": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/lines/ZrlQuadBarrier.py",
+   "bytes": 7708,
+   "sha256": "bbb9849d804c6d4aec387218a5b6c87297f9e6b2cffc32eff0f367f95bf9f2f7",
+   "status": "copied",
+   "blob": "e252fafdc503e68a8251f035c643cc3c1232b416",
+   "repo_path": "Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/Scripts/lines/ZrlQuadBarrier.py",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/Scripts/lines/ZrlQuadBarrier.py",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zenray-meshes/handoff/arch-real-30-October-2026/files/tmp/tmp-zenray-meshes/Scripts/lines/ZrlQuadBarrier.py"
+  }
+ ]
+}
