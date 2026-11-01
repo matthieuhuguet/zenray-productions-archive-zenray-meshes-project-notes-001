@@ -1253,3 +1253,39 @@ Sources (26 October 2026) : Aryan, « How to Model Cars in Blender » (YouTube N
 
 - 31 October 2026 : idée de Matthieu : donner à l'algorithme des guides (courbes en matrices de points de contrôle, comme ZenRay Lines), les prévisualiser en volume dans un outil léger qui n'est pas Houdini, puis traduire les vecteurs en mesh dans Houdini. Testée sur la roue : 70 points de contrôle, aperçu numpy en 0,11 s, mesh Houdini en 1,07 s, silhouettes identiques à 0,99999 d'IoU, 100 % quads, 0 arête ouverte, un guide édité reconstruit en 1,2 s. (31 October 2026)
 - 31 October 2026 : découverte : dans Houdini, un solide est extérieur quand son volume signé main droite est négatif ; la roue faite à la main avait donc les normales rentrées. Détail, commandes, limites et suite : skill `zenray-meshes`, section 352 ; scripts `/Users/zenray/.claude/skills/zenray-meshes/scripts/Car/` ; paquet `templates/car/wheel_guides_ref06.json`. (31 October 2026)
+
+## 45. M22, la chaîne des micro-components (1 November 2026)
+
+- 1 November 2026 : Matthieu définit la chaîne de production : diviser atomiquement la reproduction en micro-components, chacun demandé en 6 vues sur une feuille de 4, 8 ou 16 lignes, à partir de masques semi-transparents justes à 99 % ; un document HTML par projet recense tout. Personnages plus tard. Texte intégral et ordre : skill `zenray-meshes`, section 353. (1 November 2026)
+- 1 November 2026 : première version de M22 sur la voiture : `/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/06_Car/index.html`, 86 micro-components, 14 feuilles, chaîne en 54 s par `zsh Scripts/micro/MicroAll.sh Projects/06_Car/params.json` ; la référence décide des bords, le gabarit donne les noms. 99 % non atteint : 83 à 91 % des bords sur un trait, 76 lignes sur 86 cohérentes. Aucune image réelle encore relue, étapes 7 à 9 à construire. Détail : skill `zenray-meshes`, section 354. (1 November 2026)
+
+
+## 46. M22 : masques mesurés contre une vérité, feuilles vides, test sur Manny (1 November 2026)
+
+- 1 November 2026 : sur une planche rendue depuis un modèle connu, avec un gabarit faussé exprès, le détecteur juge juste 99,47 % des pixels à ± 1 pixel, 99,93 % à ± 2 pixels et 99,998 % à ± 3 pixels, aussi bien sur Manny (organique, 45 corps) que sur la voiture v752 (137 pièces). 99,9 % tient donc à ± 2 pixels, pas à ± 1 pixel. (1 November 2026)
+- 1 November 2026 : sur la vraie planche voiture, aucune vérité n'existe : les chiffres (bords sur un trait, accord miroir) orientent et ne certifient rien. La décision y revient à l'œil de Matthieu. (1 November 2026)
+- 1 November 2026 : les feuilles ne portent plus aucune forme : cases vides, dimensions mesurées, deux icônes de référence. La forme vient du générateur. Lecteur prouvé par simulation dans les deux sens (voiture 82 sur 82, Manny 24 sur 24, faussées rouges), jamais encore sur une vraie image générée. (1 November 2026)
+- 1 November 2026 : méthode et commandes : skill `zenray-meshes`, section 355. Documents : `/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/06_Car/index.html` et `/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/07_Manny/index.html`. (1 November 2026)
+
+- 1 November 2026 : correction de la section 46 après un regard au zoom : le masque de la vraie voiture avait une encoche, des bords dentelés et une ombre au sol que les chiffres ne signalaient pas ; réparés (skill, section 356). Mesures finales sur vérité : Manny 99,477 %, 99,935 %, 99,998 % ; voiture rendue 99,470 %, 99,935 %, 99,999 %. Vraie voiture : 81 pièces, 4 lignes restent à revoir. (1 November 2026)
+
+## 47. M22 : la finition des masques, des bords dessinés (1 November 2026)
+
+- 1 November 2026 : chaque bord de masque est maintenant une droite, sinon une courbe à peu de points de contrôle, et deux morceaux alignés forment un seul trait. Sur la vérité, cela améliore la justesse : Manny 99,510 % à ± 1 pixel et 99,944 % à ± 2 pixels, voiture rendue 99,536 % et 99,956 %. Skill, section 357. (1 November 2026)
+- 1 November 2026 : le ± 1 pixel à 99,9 % n'est pas atteint : les erreurs restantes sont là où l'image ne montre aucun trait entre deux surfaces, donc le tracé n'y peut rien. (1 November 2026)
+
+## 48. M22 : la découpe demandée à ChatGPT Images et l'historique des versions (1 November 2026)
+
+- 1 November 2026 : la voiture est refusée à l'œil malgré des chiffres en hausse : la découpe n'utilise aucun modèle de vision et son banc d'essai est plus facile que le vrai cas. Essai décidé : planche de découpe par ChatGPT Images. Prompts et images : Projects/06_Car/03_sheets/cut_*, boutons en tête du document. Skill, section 358. (1 November 2026)
+
+## 49. M22 : découpe validée par ChatGPT Images, couleurs pré-attribuées (1 November 2026)
+
+- 1 November 2026 : ChatGPT Images réussit la découpe que l'algorithme ne réussissait pas. Méthode retenue : l'algorithme fixe les composants et leurs couleurs et rend un aperçu semi-transparent non valide ; ChatGPT dessine la découpe définitive depuis la planche, l'aperçu et le prompt ; on vérifie les couleurs reçues, puis on valide les composants. Skill, section 359. (1 November 2026)
+
+## 50. M22 : la chaîne de valeur, preview et légende pour valider, vraie découpe ensuite (1 November 2026)
+
+- 1 November 2026 : le même workflow doit servir une épée, une voiture ou une maison. La Preview Components LowRes et sa légende ne servent qu'à valider les composants et leurs couleurs ; ChatGPT Images dessine la vraie découpe depuis la seule planche 6 vues ; les feuilles à remplir n'existent qu'après, sur cette vraie découpe. Sans gabarit, la liste de composants reste à construire. Détail : skill, section 360. (1 November 2026)
+
+## 51. M22 : l'index de pastilles et le vérificateur (1 November 2026)
+
+- 1 November 2026 : deux générations du même prompt ne sont justes ensemble que sur 94 pastilles sur 416 et se contredisent sur 268 ; les grandes pièces tiennent, les petites changent d'identité. Une preview en seconde image risquerait de faire recopier ses bords faux ; on donne donc la planche intacte et des pastilles, aucune ligne de l'algorithme. La vérification du prompt guide le modèle, `MicroCutCheck.py` tranche. L'effet de l'index reste à mesurer sur les générations suivantes. Détail : skill, section 361. (1 November 2026)
