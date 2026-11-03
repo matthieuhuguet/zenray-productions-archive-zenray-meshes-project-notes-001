@@ -1,22 +1,22 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-11-01T19:22:50.283Z",
+ "scannedAt": "2026-11-02T22:57:47.419Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
-   "lines": 12229,
-   "work": 1985,
-   "prompts": 217,
+   "lines": 12983,
+   "work": 2159,
+   "prompts": 219,
    "first": "2026-10-25T14:44:31.322Z",
-   "last": "2026-11-01T19:19:13.773Z",
+   "last": "2026-11-02T21:58:43.566Z",
    "strength": "strong",
    "conversationId": "claude:09d15ec8-88ad-4965-a2f0-80b68515e880",
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-11-01T19:19:20.321Z",
-   "bytes": 973132553,
+   "updatedAt": "2026-11-02T21:58:50.087Z",
+   "bytes": 44902,
    "boundProject": "zenray-meshes"
   },
   {
@@ -126,8 +126,8 @@
    "conversationId": "gemini:70a78ced-be34-4b18-8408-7ef23b2284af",
    "provider": "gemini",
    "sessionId": "70a78ced-be34-4b18-8408-7ef23b2284af",
-   "title": "Est-ce que pour la vidéo, tu peux simplement refaire, recompute la vidéo, mais je veux enlever toute l'UI, l'interface, je veux juste garder",
-   "updatedAt": "2026-10-27T22:39:42.736795+00:00",
+   "title": "Conversation Gemini 70a78ced",
+   "updatedAt": "2026-10-27T22:40:22.755Z",
    "bytes": 4816896,
    "boundProject": null
   },
@@ -159,8 +159,8 @@
    "provider": "codex",
    "sessionId": "01a1977d-1eef-7101-ab27-b8d1bd35afcf",
    "title": "Conversation codex 01a1977d",
-   "updatedAt": "2026-11-01T19:07:00.053Z",
-   "bytes": 7547107,
+   "updatedAt": "2026-11-01T22:23:16.100Z",
+   "bytes": 8373764,
    "boundProject": null
   },
   {
@@ -178,6 +178,22 @@
    "updatedAt": "2026-10-28T19:53:44.541Z",
    "bytes": 2522605,
    "boundProject": "qlmarkdown-designs-25-october-2026"
+  },
+  {
+   "projectId": "zenray-meshes",
+   "lines": 16,
+   "work": 0,
+   "prompts": 1,
+   "first": "2026-11-02T18:40:37.819Z",
+   "last": "2026-11-02T20:47:46.628Z",
+   "strength": "weak",
+   "conversationId": "claude:6800f4cb-0693-4309-9fee-622e37a3698e",
+   "provider": "claude",
+   "sessionId": "6800f4cb-0693-4309-9fee-622e37a3698e",
+   "title": "Camion Gnomon reproduit dans Houdini",
+   "updatedAt": "2026-11-02T21:32:00.260Z",
+   "bytes": 40621,
+   "boundProject": null
   },
   {
    "projectId": "zenray-meshes",
@@ -242,6 +258,22 @@
    "updatedAt": "2026-10-26T11:24:39.709Z",
    "bytes": 38519,
    "boundProject": "zenray-dictate"
+  },
+  {
+   "projectId": "zenray-meshes",
+   "lines": 2,
+   "work": 0,
+   "prompts": 1,
+   "first": "2026-11-02T21:40:15.471Z",
+   "last": "2026-11-02T21:40:15.471Z",
+   "strength": "weak",
+   "conversationId": "claude:fd247c15-80dd-4c74-93af-112af60fa28e",
+   "provider": "claude",
+   "sessionId": "fd247c15-80dd-4c74-93af-112af60fa28e",
+   "title": "zenray height",
+   "updatedAt": "2026-11-02T22:25:37.927Z",
+   "bytes": 37947,
+   "boundProject": "alien-skin-2-november-2026"
   }
  ]
 }

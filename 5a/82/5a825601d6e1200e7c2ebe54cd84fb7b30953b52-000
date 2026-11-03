@@ -1289,3 +1289,15 @@ Sources (26 October 2026) : Aryan, « How to Model Cars in Blender » (YouTube N
 ## 51. M22 : l'index de pastilles et le vérificateur (1 November 2026)
 
 - 1 November 2026 : deux générations du même prompt ne sont justes ensemble que sur 94 pastilles sur 416 et se contredisent sur 268 ; les grandes pièces tiennent, les petites changent d'identité. Une preview en seconde image risquerait de faire recopier ses bords faux ; on donne donc la planche intacte et des pastilles, aucune ligne de l'algorithme. La vérification du prompt guide le modèle, `MicroCutCheck.py` tranche. L'effet de l'index reste à mesurer sur les générations suivantes. Détail : skill, section 361. (1 November 2026)
+
+## 52. M22 : le masque donne les pièces, la planche donne les bords (2 November 2026)
+
+- 2 November 2026 : l'image de ChatGPT Images se lit comme une ID map : les traits ferment les cellules, la couleur les distingue localement, et le nom vient des pièces voisines de la preview, parce que le modèle ne tient pas 66 couleurs distinctes sur une planche. Le calage sur la référence donne 99,904 % de pixels justes à 2 px sur une vérité simulée, contre 99,203 % sans calage ; 99,220 % à 1 px, le 99,9 % n'y est pas atteint. Les feuilles portent la vraie image de chaque pièce, découpée dans la planche. Détail : skill, section 362. (2 November 2026)
+
+## 53. M22 : un composant, une image, un prompt (2 November 2026)
+
+- 2 November 2026 : une feuille de plusieurs pièces échoue : le modèle remplit des cases et ne raisonne plus sur un objet, avec 55,8 % d'écart de hauteur entre les vues de son capot. On repart de ce qui a réussi la voiture : une image, un objet, six vues, sans grille. Un objet se contrôle seul : même longueur d'un axe partout, vues opposées en miroir. Aucune image d'un composant seul n'a encore été générée. Détail : skill, section 363. (2 November 2026)
+
+## 54. Aucune mesure imposée (2 November 2026)
+
+- 2 November 2026 : en 3D, ce sont les proportions qui comptent, elles restent modifiables, et c'est l'œil de Matthieu qui tranche, jamais une mesure. Les prompts et les fiches ne portent plus de dimensions. Détail : skill, section 364. (2 November 2026)
