@@ -65468,3 +65468,11 @@
 - Project: zenray-meshes; kind: rule. (4 November 2026, 20:26:40 +0100)
 
 > Camion Gnomon : juger sur la photo du tuto (superposition, rendu argile à côté de la photo), jamais sur un score de silhouette seul ; un anneau de points (circle) doit être de type polygone. (4 November 2026, 20:26:40 +0100)
+
+## 4 November 2026, 20:37:24 +0100 : Prompt
+
+<!-- feedback-event:47d6e6dfa475d70269e44f101ea3fcb4fca9687141c87f49ee3e724ba41e8a7f (4 November 2026, 20:37:24 +0100) -->
+- Project: zenray-meshes; kind: prompt. (4 November 2026, 20:37:24 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (4 November 2026, 20:37:24 +0100)
+
+> [Image: original 3398x1260, displayed at 2000x742. Multiply coordinates by 1.70 to map to original image.] (4 November 2026, 20:37:24 +0100)
