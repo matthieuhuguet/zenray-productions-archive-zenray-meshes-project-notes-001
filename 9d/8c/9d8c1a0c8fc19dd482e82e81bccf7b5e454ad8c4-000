@@ -65476,3 +65476,39 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (4 November 2026, 20:37:24 +0100)
 
 > [Image: original 3398x1260, displayed at 2000x742. Multiply coordinates by 1.70 to map to original image.] (4 November 2026, 20:37:24 +0100)
+
+## 4 November 2026, 20:41:53 +0100 : Iteration
+
+<!-- feedback-event:02f96dd1a28a5ea12581a42a15b20ec7e8393cd45efd978690da0d059075f01d (4 November 2026, 20:41:53 +0100) -->
+- Project: zenray-meshes; kind: iteration. (4 November 2026, 20:41:53 +0100)
+
+> Carte blanche, focus organique, /dont-stop (4 November 2026): thigh set by triangulation; clay turntable showed the whole sculpt tore wings and plates; sculpt faded near thin parts; final 91.57/94.63 used, 92.56/95.78 unseen; no 99.9. Skill section 376. (4 November 2026, 20:41:53 +0100)
+
+## 4 November 2026, 20:42:25 +0100 : Iteration
+
+<!-- feedback-event:db7e2fc6aa78341698e7a694a58c5b9ccf5a06c9d207ebc446b0c6218bf4bdc4 (4 November 2026, 20:42:25 +0100) -->
+- Project: zenray-meshes; kind: iteration. (4 November 2026, 20:42:25 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (4 November 2026, 20:42:25 +0100)
+
+> Le dragon est amélioré et la méthode est consignée, mais le 99,9 % n'est toujours pas atteint. Sur trois vues jamais utilisées pour le construire, il fait 92,56 % strict et 95,78 % à 1 pixel. Sur les six vues utilisées : 91,57 % et 94,63 %. (4 November 2026, 20:42:25 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (4 November 2026, 20:42:25 +0100)
+> |---|---|---| (4 November 2026, 20:42:25 +0100)
+> | Améliorer le skill, l'algorithme, le sculpt, surtout l'organique | Oui | Skill section 376 (commit `37ea2425e`), scripts copiés dedans, dont `runs/run_g.sh` pour tout rejouer. | (4 November 2026, 20:42:25 +0100)
+> | Un résultat extrêmement convaincant | En partie | Le dragon est propre sous six angles en argile, ailes et plaques entières, cuisse enfin posée. Il reste imparfait de face. | (4 November 2026, 20:42:25 +0100)
+> | Avoir appris les leçons | Oui | Trois nouvelles leçons ci-dessous, chacune écrite dans le skill. | (4 November 2026, 20:42:25 +0100)
+> | 99,9 % | **Non** | Le contour d'une vidéo en 1280 px ne permet pas de prouver mieux que ces chiffres. | (4 November 2026, 20:42:25 +0100)
+>
+> Les trois leçons de cette séance : (4 November 2026, 20:42:25 +0100)
+> - **La cuisse :** elle est devant le ventre, donc elle n'a aucun contour, et aucun ajustement sur silhouette ne pouvait la voir. Je l'ai placée par triangulation sur trois vues (1 à 4 pixels d'écart), puis tenue en place. (4 November 2026, 20:42:25 +0100)
+> - **Regarder l'objet :** le dragon seul en argile sous six angles a montré que le sculpt global déchirait les membranes d'ailes et les plaques, alors que son score était meilleur (92,57 % contre 91,57 % sur les vues utilisées). J'ai préféré l'objet propre au meilleur score. (4 November 2026, 20:42:25 +0100)
+> - **Le sculpt ciblé :** il s'estompe maintenant près des pièces fines et reste sur le corps, la queue, la tête, la cuisse et le mollet, puis SculptForge lisse l'ensemble. (4 November 2026, 20:42:25 +0100)
+>
+> Défauts restants, par ordre de coût : de face, la cuisse se lit comme un ovale peu marqué contre le ventre ; la vue basse 1455 n'est qu'à 88,9 % ; une couture se voit le long des plaques, de dos. (4 November 2026, 20:42:25 +0100)
+>
+> Fichiers : (4 November 2026, 20:42:25 +0100)
+> - [Scène Houdini finale](/Users/zenray/.claude/tmp/tmp-zenray-meshes/work/dracard/v3/parts/T_all/g/Dracard_Final_4-November-2026.hip), avec la chaîne modifiable de chaque pièce. (4 November 2026, 20:42:25 +0100)
+> - [Maillage propre](/Users/zenray/.claude/tmp/tmp-zenray-meshes/work/dracard/v3/parts/evolution/Dracard_final_4-November-2026.obj). (4 November 2026, 20:42:25 +0100)
+> - [Rotation en argile](/Users/zenray/.claude/tmp/tmp-zenray-meshes/work/dracard/v3/parts/T_all/g/show/turn_masked.png). (4 November 2026, 20:42:25 +0100)
+>
+> Je n'ai pas installé de surveillant à une minute : tu avais retiré le cron, donc je me suis tenu à la boucle de cette session. J'ai aussi supprimé un verrou git périmé dans le dépôt Memory1 (vide, vieux de plusieurs heures, aucun git actif dessus). (4 November 2026, 20:42:25 +0100)
