@@ -65666,3 +65666,25 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (4 November 2026, 21:54:04 +0100)
 
 > Le premier lancement a échoué tout de suite (pas de commande `timeout` sur ce Mac). Je l'ai relancé sans, pour 9 minutes. J'enchaîne la chaîne complète à sa fin. (4 November 2026, 21:54:04 +0100)
+
+## 4 November 2026, 22:03:04 +0100 : Prompt
+
+<!-- feedback-event:be14d015e3e1cc84d98a448b85dc26ffaa687aa056e4db8a22d6f832694d1fbe (4 November 2026, 22:03:04 +0100) -->
+- Project: zenray-meshes; kind: prompt. (4 November 2026, 22:03:04 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (4 November 2026, 22:03:04 +0100)
+
+> <task-notification> (4 November 2026, 22:03:04 +0100)
+> <task-id>b5fhqagr7</task-id> (4 November 2026, 22:03:04 +0100)
+> <tool-use-id>toolu_01S3YommJJ56Zzy9cyWfM11H</tool-use-id> (4 November 2026, 22:03:04 +0100)
+> <output-file>/private/tmp/claude-501/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880/tasks/b5fhqagr7.output</output-file> (4 November 2026, 22:03:04 +0100)
+> <status>completed</status> (4 November 2026, 22:03:04 +0100)
+> <summary>Background command "Refit body, tail, limbs under leash" completed (exit code 0)</summary> (4 November 2026, 22:03:04 +0100)
+> </task-notification> (4 November 2026, 22:03:04 +0100)
+
+## 4 November 2026, 22:03:12 +0100 : Iteration
+
+<!-- feedback-event:9a3f89ab081213373523e325e1acbe10642de7b46b63ca48179553d1ac117066 (4 November 2026, 22:03:12 +0100) -->
+- Project: zenray-meshes; kind: iteration. (4 November 2026, 22:03:12 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (4 November 2026, 22:03:12 +0100)
+
+> Le réajustement du corps et des membres ne gagne que 0,2 point en tubes seuls (92,41 / 95,49 contre 92,22 / 95,31). Je fais quand même passer toute la chaîne dessus (`h2`) pour vérifier si le gain survit sur les vues non vues. (4 November 2026, 22:03:12 +0100)
