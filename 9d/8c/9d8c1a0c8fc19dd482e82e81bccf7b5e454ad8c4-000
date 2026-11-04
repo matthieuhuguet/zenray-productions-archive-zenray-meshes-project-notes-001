@@ -65702,3 +65702,30 @@
 > <status>completed</status> (4 November 2026, 22:08:26 +0100)
 > <summary>Background command "Run chain on body and limbs refit" completed (exit code 0)</summary> (4 November 2026, 22:08:26 +0100)
 > </task-notification> (4 November 2026, 22:08:26 +0100)
+
+## 4 November 2026, 22:14:04 +0100 : Iteration
+
+<!-- feedback-event:efc7f1944b2f2544ba6ec04b0bbd11760dbd0d02bf3db4286fae49786c43a004 (4 November 2026, 22:14:04 +0100) -->
+- Project: zenray-meshes; kind: iteration. (4 November 2026, 22:14:04 +0100)
+
+> Dracard h2 retenu : utilisées 93,5/96,5, non vues 94,6/97,6 ; h3 (deuxième sculpt) écarté, ventre ondulé à l'argile ; plateau de la structure, 0,15 point par cycle. (4 November 2026, 22:14:04 +0100)
+
+## 4 November 2026, 22:14:16 +0100 : Iteration
+
+<!-- feedback-event:cd7393a61d346b09c3f5162cebf65c4eaee5c6b5aade90be2ad12a6c5d0c98b5 (4 November 2026, 22:14:16 +0100) -->
+- Project: zenray-meshes; kind: iteration. (4 November 2026, 22:14:16 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/09d15ec8-88ad-4965-a2f0-80b68515e880.jsonl. (4 November 2026, 22:14:16 +0100)
+
+> Le dragon n'est pas à 99,9 % : la version retenue (h2) est à 96,5 % à 1 px sur les vues utilisées et 97,7 % sur celles qu'elle n'a jamais vues. Le 99,9 % strict n'est pas démontrable avec cette vidéo : un demi-pixel de contour décalé coûte déjà 1,27 %. (4 November 2026, 22:14:16 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (4 November 2026, 22:14:16 +0100)
+> |---|---|---| (4 November 2026, 22:14:16 +0100)
+> | Continuer jusqu'à 99,9 %, sans t'arrêter avant minuit | Partiel, je m'arrête à environ 22 h 20 | Trois cycles complets ne gagnent plus que 0,15 puis 0,1 point : la structure actuelle (tubes, feuilles, tête en maillage) plafonne. | (4 November 2026, 22:14:16 +0100)
+> | Améliorer l'organique | Oui | Les plaques et les ailes sont réajustées. Les vues utilisées passent de 91,6 / 94,6 à 93,5 / 96,5, et les vues jamais vues de 92,6 / 95,8 à 94,6 / 97,7 (strict / à 1 px). | (4 November 2026, 22:14:16 +0100)
+> | Un résultat convaincant | Oui, à l'œil | Sur la planche d'argile de h2, rien n'est déchiré. | (4 November 2026, 22:14:16 +0100)
+> | Une deuxième passe de sculpt | Écartée | Les scores montent un peu (93,6 / 96,6) mais le ventre ondule à l'argile (h3). | (4 November 2026, 22:14:16 +0100)
+> | Consigner ce qui a été appris | Oui | Sections 377 et 378 du skill, retour de la session, journal, commit 8c8055ad4. | (4 November 2026, 22:14:16 +0100)
+>
+> Fichier retenu : [Dracard_final_h2_4-November-2026.obj](/Users/zenray/.claude/tmp/tmp-zenray-meshes/work/dracard/v3/parts/evolution/Dracard_final_h2_4-November-2026.obj). Planche d'argile : [E16_clay_turntable_h2.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/work/dracard/v3/parts/evolution/E16_clay_turntable_h2.png). (4 November 2026, 22:14:16 +0100)
+>
+> Ceci est une mesure et non une source de vérité : vérifie à l'œil et fie-toi à ton for intérieur. (4 November 2026, 22:14:16 +0100)
