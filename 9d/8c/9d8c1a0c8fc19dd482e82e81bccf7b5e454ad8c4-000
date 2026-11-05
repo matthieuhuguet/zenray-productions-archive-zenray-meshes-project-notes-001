@@ -67730,3 +67730,27 @@
 - Project: zenray-meshes; kind: log. (5 November 2026, 19:18:14 +0100)
 
 > Premier capot réellement reconstruit en HDA Houdini autonome, six nœuds de modélisation et 19 paramètres (8/8/3). HDA et HIP réouverts indépendamment, même empreinte ; variation de largeur +10 % modifie la géométrie puis retour exact. Aucun bord ouvert, arête non manifold, orientation incohérente ni face dégénérée. Méthode et pièges de sauvegarde consignés en section 424 du skill zenray-meshes ; fichiers components/hood-panel/v001 de l’atelier. La fidélité à l’original et le 99,9 % ne sont pas validés. (5 November 2026, 19:18:14 +0100)
+
+## 5 November 2026, 19:42:59 +0100 : Prompt
+
+<!-- feedback-event:62e02ea9d2ca528deb79a0692115d937be5e2bce029ba577d88b608e4e890e17 (5 November 2026, 19:42:59 +0100) -->
+- Project: zenray-meshes; kind: prompt. (5 November 2026, 19:42:59 +0100)
+- Source: claude-code-0611e96b. (5 November 2026, 19:42:59 +0100)
+
+> reprends cette conv pour avancer sur /zenray meshes d'ailleurs le skill global à disparu bizarre et continue d'itérer pour améliorer la modélisation des meshes hard surface a partir des planches généré par chatgpt codex://threads/01a1ac6e-9d82-73f3-92c6-5f7d03471753 (5 November 2026, 19:42:59 +0100)
+
+## 5 November 2026, 19:42:59 +0100 : Iteration
+
+<!-- feedback-event:c93d72386ae962ddf0b6fd6bc65f1490a9e78f9f971ca4a0aa235ef14831556b (5 November 2026, 19:42:59 +0100) -->
+- Project: zenray-meshes; kind: iteration. (5 November 2026, 19:42:59 +0100)
+- Source: claude-code-0611e96b. (5 November 2026, 19:42:59 +0100)
+
+> 5 November 2026 : skill disparu = SKILL.md au-delà de 1 Mo (limite de chargement Claude Code) ; corps déplacé dans references/ZenRayMeshes1.md, SKILL.md devenu routeur de 4 Ko, garde de taille dans sync-skill.sh. Capot V002 (zenray::hood_panel::2.0) : générateur réécrit (panneau central surélevé, bords rabattus, bourrelet, profil superellipse), réglé par CompareSheetViews et FitHoodProfile ; proportions -3,1/+3,3/+3,6 % (plancher ±3,3 % imposé par la planche), silhouettes 0,93/0,83/0,97 ; vérification en processus neuf verte. Attente de la validation à l'œil. (5 November 2026, 19:42:59 +0100)
+
+## 5 November 2026, 19:42:59 +0100 : Standing rule
+
+<!-- feedback-event:1ccfda957c8c0236d5fdd30624eef89429a6fe7633d010349768b378f5ec97a9 (5 November 2026, 19:42:59 +0100) -->
+- Project: zenray-meshes; kind: rule. (5 November 2026, 19:42:59 +0100)
+- Source: claude-code-0611e96b. (5 November 2026, 19:42:59 +0100)
+
+> Toute nouvelle section de méthode s'ajoute en fin de references/ZenRayMeshes1.md, jamais dans SKILL.md, qui reste un routeur sous 64 Ko (Claude Code ignore un SKILL.md de plus de 1 Mo). (5 November 2026, 19:42:59 +0100)
