@@ -67723,3 +67723,10 @@
 - Project: zenray-meshes; kind: prompt. (5 November 2026, 19:02:28 +0100)
 
 > certes mais quid de la reproduction du components ? via hda houdini ou blender du coup // btw la méthode est elle consigné ? (5 November 2026, 19:02:28 +0100)
+
+## 5 November 2026, 19:18:14 +0100 : Log
+
+<!-- feedback-event:42dfd7458076ff7e15a0c597ee1b6fdda5f9858a59e61acbd239d3bf741356b2 (5 November 2026, 19:18:14 +0100) -->
+- Project: zenray-meshes; kind: log. (5 November 2026, 19:18:14 +0100)
+
+> Premier capot réellement reconstruit en HDA Houdini autonome, six nœuds de modélisation et 19 paramètres (8/8/3). HDA et HIP réouverts indépendamment, même empreinte ; variation de largeur +10 % modifie la géométrie puis retour exact. Aucun bord ouvert, arête non manifold, orientation incohérente ni face dégénérée. Méthode et pièges de sauvegarde consignés en section 424 du skill zenray-meshes ; fichiers components/hood-panel/v001 de l’atelier. La fidélité à l’original et le 99,9 % ne sont pas validés. (5 November 2026, 19:18:14 +0100)
