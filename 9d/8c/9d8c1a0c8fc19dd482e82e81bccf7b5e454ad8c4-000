@@ -68758,3 +68758,59 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (6 November 2026, 00:47:45 +0100)
 
 > L'aile et le projecteur ont fini, mais avec l'ancienne mise en page en 1536 x 1024. La manille, elle, rend maintenant des planches carrées. Je fais refaire leur planche à l'aile et au projecteur. (6 November 2026, 00:47:45 +0100)
+
+## 6 November 2026, 00:51:07 +0100 : Iteration
+
+<!-- feedback-event:5d45b9e9b7b43fda5c796cf24756400e22bc06098d9e5a6aa1616b9b4eaf240f (6 November 2026, 00:51:07 +0100) -->
+- Project: zenray-meshes; kind: iteration. (6 November 2026, 00:51:07 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (6 November 2026, 00:51:07 +0100)
+
+> Le projecteur et la manille ont leurs planches carrées. Je les rapatrie, je fais refaire la planche de la roue, et je lance le projecteur à grille. (6 November 2026, 00:51:07 +0100)
+
+## 6 November 2026, 00:51:40 +0100 : Iteration
+
+<!-- feedback-event:ee0a726f0cd38f98f759d7d78cf26fa1671e8c7bbf7427883ce8ccf25125dc08 (6 November 2026, 00:51:40 +0100) -->
+- Project: zenray-meshes; kind: iteration. (6 November 2026, 00:51:40 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (6 November 2026, 00:51:40 +0100)
+
+> Je lance le projecteur à grille dans l'onglet libéré et je regarde où en est la nouvelle planche du treuil. (6 November 2026, 00:51:40 +0100)
+
+## 6 November 2026, 00:52:10 +0100 : Iteration
+
+<!-- feedback-event:39cd8153f3e13da848b9a92b544309f5fef8cbff7703b02f6b89bf66e0150af7 (6 November 2026, 00:52:10 +0100) -->
+- Project: zenray-meshes; kind: iteration. (6 November 2026, 00:52:10 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (6 November 2026, 00:52:10 +0100)
+
+> Le treuil a maintenant trois planches carrées. Je le rapatrie et je réutilise cet onglet pour le rétroviseur. (6 November 2026, 00:52:10 +0100)
+
+## 6 November 2026, 00:52:54 +0100 : Iteration
+
+<!-- feedback-event:ab08fdd5cd7de5804690ae96d170a06d662119b4e6e33728b5242422a401dbd7 (6 November 2026, 00:52:54 +0100) -->
+- Project: zenray-meshes; kind: iteration. (6 November 2026, 00:52:54 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (6 November 2026, 00:52:54 +0100)
+
+> Sept pièces sont mesurées ; le phare, la manille et le projecteur d'aile passent tous leurs accords. Pendant que quatre autres tournent, j'écris la méthode dans le skill. (6 November 2026, 00:52:54 +0100)
+
+## 6 November 2026, 00:55:40 +0100 : Iteration
+
+<!-- feedback-event:c4038bdb210e051846300347178fdca80d474f4272206950afad60c07ca4e515 (6 November 2026, 00:55:40 +0100) -->
+- Project: zenray-meshes; kind: iteration. (6 November 2026, 00:55:40 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (6 November 2026, 00:55:40 +0100)
+
+> L'aile et la roue ont leurs planches carrées. Je les rapatrie et je lance la portière et la prise d'air. (6 November 2026, 00:55:40 +0100)
+
+## 6 November 2026, 00:57:16 +0100 : Iteration
+
+<!-- feedback-event:a704c35b2c18305931c5d871f1328630c4b6c9c4e5edc4f9098dacbf35e08592 (6 November 2026, 00:57:16 +0100) -->
+- Project: zenray-meshes; kind: iteration. (6 November 2026, 00:57:16 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (6 November 2026, 00:57:16 +0100)
+
+> La planche de la roue est bonne, c'est mon test de classement qui était trop strict : les vues frôlent les lignes médianes. Je l'assouplis et je revérifie l'autotest. (6 November 2026, 00:57:16 +0100)
+
+## 6 November 2026, 00:57:29 +0100 : Iteration
+
+<!-- feedback-event:98a91d63a6d22e8e963b5b29d78bcff9169555b8b17bf555b73d4b1c6dee96df (6 November 2026, 00:57:29 +0100) -->
+- Project: zenray-meshes; kind: iteration. (6 November 2026, 00:57:29 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (6 November 2026, 00:57:29 +0100)
+
+> Neuf pièces sont mesurées. La roue tombe à 0,89 sur la hauteur, juste sous le seuil. J'attends les quatre suivantes. (6 November 2026, 00:57:29 +0100)
