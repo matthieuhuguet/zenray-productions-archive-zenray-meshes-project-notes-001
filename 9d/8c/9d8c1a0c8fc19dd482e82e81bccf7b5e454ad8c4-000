@@ -67963,3 +67963,42 @@
 > Une limite déjà mesurée sur le capot : même avec ce prompt, les vues de ChatGPT ne concordaient pas entre elles. La longueur variait de 19 % d'une vue à l'autre au départ, et encore de 10,5 % sur la planche finale. Une planche sert donc de référence de forme, pas de plan coté. Chaque pièce reconstruite passe ensuite par le comparateur, qui indique jusqu'où la planche permet d'aller. (5 November 2026, 20:08:43 +0100)
 >
 > J'ai noté ta demande dans le journal des retours du projet. Faire tous les composants dans ChatGPT puis les rassembler dans un seul document est une bonne façon de procéder : on obtient d'abord une bibliothèque complète des références, puis on construit les HDA un par un à partir d'elle. (5 November 2026, 20:08:43 +0100)
+
+## 5 November 2026, 20:09:49 +0100 : Prompt
+
+<!-- feedback-event:5f65797a4e48726b5fc975c67cbac0aa91a182c80fe690e6d083e4996ce3e10f (5 November 2026, 20:09:49 +0100) -->
+- Project: zenray-meshes; kind: prompt. (5 November 2026, 20:09:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (5 November 2026, 20:09:49 +0100)
+
+> Mais est-ce que dans ce prompt, en fait, tu fais une étape de vérification Python pour voir que le modèle et ses vues proportionnelles correspondent à 99,9% à chaque fois? Et sinon, dans ce cas-là, tu relances une génération et ensuite tu fais une boucle dans le sens où l'étape de vérification fait repartir au modèle 1, mais pour ChatGPT directement. Enfin, pour le modèle chat, tu vois. Donc directement indiqué dans le prompt. /zenray-1-line (5 November 2026, 20:09:49 +0100)
+
+## 5 November 2026, 20:09:55 +0100 : Prompt
+
+<!-- feedback-event:6fb049e88afba0e0e3f41b753177d22ea70716d01fb168405083c8136d03a0a5 (5 November 2026, 20:09:55 +0100) -->
+- Project: zenray-meshes; kind: prompt. (5 November 2026, 20:09:55 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (5 November 2026, 20:09:55 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/zenray-1-line (5 November 2026, 20:09:55 +0100)
+>
+> # ZenRay OneLine (14 October 2026) (5 November 2026, 20:09:55 +0100)
+>
+> Réponds en une seule ligne stricte, dense et autosuffisante, sans préambule, sans puce et sans conclusion. (14 October 2026) (5 November 2026, 20:09:55 +0100)
+>
+>
+> ARGUMENTS: Mais est-ce que dans ce prompt, en fait, tu fais une étape de vérification Python pour voir que le modèle et ses vues proportionnelles correspondent à 99,9% à chaque fois? Et sinon, dans ce cas-là, tu relances une génération et ensuite tu fais une boucle dans le sens où l'étape de vérification fait repartir au modèle 1, mais pour ChatGPT directement. Enfin, pour le modèle chat, tu vois. Donc directement indiqué dans le prompt. (5 November 2026, 20:09:55 +0100)
+
+## 5 November 2026, 20:10:15 +0100 : Prompt
+
+<!-- feedback-event:7552f2fb5d71a3294949d47984cfece540f23d23f9fb6a1b35c85bf3c5d173c6 (5 November 2026, 20:10:15 +0100) -->
+- Project: zenray-meshes; kind: prompt. (5 November 2026, 20:10:15 +0100)
+- Source: claude-code-0611e96b. (5 November 2026, 20:10:15 +0100)
+
+> Mais est-ce que dans ce prompt, en fait, tu fais une étape de vérification Python pour voir que le modèle et ses vues proportionnelles correspondent à 99,9% à chaque fois? Et sinon, dans ce cas-là, tu relances une génération et ensuite tu fais une boucle dans le sens où l'étape de vérification fait repartir au modèle 1, mais pour ChatGPT directement. Enfin, pour le modèle chat, tu vois. Donc directement indiqué dans le prompt. /zenray-1-line (5 November 2026, 20:10:15 +0100)
+
+## 5 November 2026, 20:10:20 +0100 : Iteration
+
+<!-- feedback-event:97ce4e54114e96db8db8d46fa2d71bc1da31ed3fee5eeb22cfd3312864f115ec (5 November 2026, 20:10:20 +0100) -->
+- Project: zenray-meshes; kind: iteration. (5 November 2026, 20:10:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (5 November 2026, 20:10:20 +0100)
+
+> Non, la V3 ne fait aucune vérification en Python et ne boucle pas : son étape 4 n'est qu'une auto-comparaison visuelle par ChatGPT, et le contrôle mesuré (`SheetConsistency.py`, qui avait trouvé 5,6 / 3,4 / 19 % d'écart sur le capot) tourne hors de ChatGPT, après coup ; une V4 peut demander à ChatGPT de mesurer ses vues en Python (silhouettes, rapports d'axes partagés, seuil 0,1 %) et de repartir de l'étape 1 tant que c'est rouge, sous réserve non vérifiée que son outil Python puisse lire les images qu'il vient de générer. (5 November 2026, 20:10:20 +0100)
