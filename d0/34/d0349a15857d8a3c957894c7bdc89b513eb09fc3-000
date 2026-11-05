@@ -1,66 +1,68 @@
-# Resume zenray-meshes (5 November 2026 at 17:04)
+# Resume zenray-meshes (5 November 2026 at 20:02)
 
-- Generated from FEEDBACK.md, Rules.md and ConversationIndex.json; derived, never edited by hand, never a substitute for the originals. (5 November 2026 at 17:04)
-- Pinned rules, read first: [Rules.md](/Users/zenray/.claude/Memory1/Projects/zenray-meshes/Rules.md) (108 rules). (5 November 2026 at 17:04)
-- Canonical feedback: [FEEDBACK.md](/Users/zenray/.claude/Memory1/Projects/zenray-meshes/FEEDBACK.md), 4012 entries, last Iteration at 5 November 2026, 16:38:12 +0100. (5 November 2026 at 17:04)
+- Generated from FEEDBACK.md, Rules.md and ConversationIndex.json; derived, never edited by hand, never a substitute for the originals. (5 November 2026 at 20:02)
+- Pinned rules, read first: [Rules.md](/Users/zenray/.claude/Memory1/Projects/zenray-meshes/Rules.md) (112 rules). (5 November 2026 at 20:02)
+- Canonical feedback: [FEEDBACK.md](/Users/zenray/.claude/Memory1/Projects/zenray-meshes/FEEDBACK.md), 4035 entries, last Prompt at 5 November 2026, 19:27:07 +0100. (5 November 2026 at 20:02)
 
-## Latest conversations (5 November 2026 at 17:04)
+## Latest conversations (5 November 2026 at 20:02)
 
-- LATEST claude:09d15ec8-88ad-4965-a2f0-80b68515e880, « zenray meshes », last activity 5 November 2026 at 16:38 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs claude:09d15ec8-88ad-4965-a2f0-80b68515e880 --out <file.md>`. (5 November 2026 at 17:04)
-- gemini:c1a6145e-c0a4-4812-b9ce-51db18c27b5b, « Conversation Gemini c1a6145e », last activity 28 October 2026 at 05:54 Paris (from transcript). Original: `node scripts/Assets/ConversationDigest.mjs gemini:c1a6145e-c0a4-4812-b9ce-51db18c27b5b --out <file.md>`. (5 November 2026 at 17:04)
-- antigravity:c1a6145e-c0a4-4812-b9ce-51db18c27b5b, last activity 28 October 2026 at 05:54 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs antigravity:c1a6145e-c0a4-4812-b9ce-51db18c27b5b --out <file.md>`. (5 November 2026 at 17:04)
+- LATEST codex:01a1ac6e-9d82-73f3-92c6-5f7d03471753, « Conversation codex 01a1ac6e », last activity 5 November 2026 at 20:00 Paris (from transcript). Original: `node scripts/Assets/ConversationDigest.mjs codex:01a1ac6e-9d82-73f3-92c6-5f7d03471753 --out <file.md>`. (5 November 2026 at 20:02)
+- claude:0611e96b-26b2-4d65-a9e1-cb913738cca3, last activity 5 November 2026 at 19:27 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs claude:0611e96b-26b2-4d65-a9e1-cb913738cca3 --out <file.md>`. (5 November 2026 at 20:02)
+- claude:09d15ec8-88ad-4965-a2f0-80b68515e880, « zenray meshes dragon sculpt », last activity 5 November 2026 at 16:38 Paris (from transcript). Original: `node scripts/Assets/ConversationDigest.mjs claude:09d15ec8-88ad-4965-a2f0-80b68515e880 --out <file.md>`. (5 November 2026 at 20:02)
 
-## Last 6 prompts of Matthieu, oldest first (5 November 2026 at 17:04)
+## Last 6 prompts of Matthieu, oldest first (5 November 2026 at 20:02)
 
-### 5 November 2026, 13:13:03 +0100 · Prompt · claude:09d15ec8
+### 5 November 2026, 18:39:35 +0100 · Prompt · codex:01a1ac6e
 
-> [Image: original 1500x2317, displayed at 1295x2000. Multiply coordinates by 1.16 to map to original image.]
+> NON archi non le graph de components devrait quasi avoir aucune info autre que la modélisation parfaite du component tu fais exactement le jeu de l'AI slop ici...
 
-### 5 November 2026, 13:13:19 +0100 · Prompt · claude:09d15ec8
+### 5 November 2026, 18:40:33 +0100 · Prompt · manual
 
-> [Image: original 1500x2307, displayed at 1300x2000. Multiply coordinates by 1.15 to map to original image.]
+> NON archi non le graph de components devrait quasi avoir aucune info autre que la modélisation parfaite du component tu fais exactement le jeu de l’AI slop ici...
 
-### 5 November 2026, 13:23:30 +0100 · Prompt · claude:09d15ec8
+### 5 November 2026, 19:01:19 +0100 · Prompt · codex:01a1ac6e
 
-> [Image: original 1024x2048, displayed at 1000x2000. Multiply coordinates by 1.02 to map to original image.]
+> certes mais quid de la reproduction du components ? via hda houdini ou blender du coup // btw la méthode est elle consigné ?
 
-### 5 November 2026, 14:26:59 +0100 · Prompt · claude:09d15ec8
+### 5 November 2026, 19:02:28 +0100 · Prompt · manual
 
-> This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation.
+> certes mais quid de la reproduction du components ? via hda houdini ou blender du coup // btw la méthode est elle consigné ?
+
+### 5 November 2026, 19:42:59 +0100 · Prompt · manual
+
+> reprends cette conv pour avancer sur /zenray meshes d'ailleurs le skill global à disparu bizarre et continue d'itérer pour améliorer la modélisation des meshes hard surface a partir des planches généré par chatgpt codex://threads/01a1ac6e-9d82-73f3-92c6-5f7d03471753
+
+### 5 November 2026, 19:27:07 +0100 · Prompt · claude:0611e96b
+
+> reprends cette conv pour avancer sur /zenray meshes d'ailleurs le skill global à disparu bizarre et continue d'itérer pour améliorer la modélisation des meshes hard surface a partir des planches généré par chatgpt codex://threads/01a1ac6e-9d82-73f3-92c6-5f7d03471753
+
+
+## Last 3 iterations or checkpoints (5 November 2026 at 20:02)
+
+### 5 November 2026, 18:54:22 +0100 · Iteration · checkpoint codex:01a1ac6e
+
+> Périmètre corrigé : aucun générateur de meshes IA ; seules les planches ChatGPT Chat sont autorisées. Après rejet de l’infographie, quatre étapes exécutées et planche de composant seule obtenue, encore non validée à 99,9 %. Bilan 66 documents / 2124 titres vérifié, 12 images, aucun lien interne cassé. Article lié et métadonnées publiées ; archive 12b87a9d-767b-40b3-8c10-2a4b6035410e en file, empreintes cloud actuelles non encore correspondantes. Prochain : corriger les formes depuis les vues GNOMON originales et construire le composant éditable, puis vérifier les empreintes cloud.
+
+### 5 November 2026, 18:55:50 +0100 · Iteration · codex:01a1ac6e
+
+> J’ai retiré l’habillage : les quatre étapes travaillent désormais uniquement la forme du composant, avec les vérifications hors de l’image.
 > 
-> <system-reminder>
-> <tools-used-before-summary>Agent, Bash, CronCreate, CronDelete, CronList, Edit, ListAgents, Monitor, Read, ReadNotifications, ScheduleWakeup, SendMessage, SendUserFile, Skill, TaskStop, ToolSearch, WebFetch, WebSearch, Write, bash, mcp__Claude_Browser__browser_batch, mcp__Claude_Browser__computer, mcp__Claude_Browser__find, mcp__Claude_Browser__get_page_text, mcp__Claude_Browser__javascript_tool, mcp__Claude_Browser__navigate, mcp__Claude_Browser__preview_start, mcp__Claude_Browser__preview_stop, mcp__Claude_Browser__read_c
-> [... 16350 more characters in FEEDBACK.md]
-
-### 5 November 2026, 16:35:29 +0100 · Prompt · claude:09d15ec8
-
-> [Image: original 2448x760, displayed at 2000x621. Multiply coordinates by 1.22 to map to original image.]
-
-### 5 November 2026, 16:36:02 +0100 · Prompt · claude:09d15ec8
-
-> [Image: original 2448x760, displayed at 2000x621. Multiply coordinates by 1.22 to map to original image.]
-
-
-## Last 3 iterations or checkpoints (5 November 2026 at 17:04)
-
-### 5 November 2026, 16:37:28 +0100 · Iteration · claude:09d15ec8
-
-> La feuille est régénérée : 7 composants à valider, 8 à itérer, 1 pas commencé. Je l'envoie, puis je consigne dans le skill et le feedback.
-
-### 5 November 2026, 16:37:44 +0100 · Iteration · claude:09d15ec8
-
-> Un verrou git bloque le commit. Je vérifie si un processus git tourne avant de toucher au verrou.
-
-### 5 November 2026, 16:38:12 +0100 · Iteration · claude:09d15ec8
-
-> Oui, j'avais compris, et j'ai livré les deux, mais ma première itération était mal faite. Les 14 HDA individuels existent dans `/Users/zenray/.claude/skills/zenray-meshes/otls/`. Le tour précédent, lui, ne faisait que régler des curseurs automatiquement. Le réglage ne crée pas une forme que le générateur ne sait pas faire : les doigts d'aile sont restés à 0,21 avant et après. Là où ça ne ressemblait pas, il fallait réécrire le générateur d'après la référence, comme pour le pied.
+> ![Planche épurée du capot](/Users/zenray/.claude/tmp/tmp-zenray-meshes/research/component-round-5-November-2026/chatgpt-hood-chain/clean-views-05.png)
 > 
-> C'est ce que j'ai fait sur les trois pires :
-> - **Doigts d'aile :** ce sont maintenant trois tubes d'épaisseur presque constante, avec une collerette à la base, un bout arrondi et une courbure propre à chaque doigt. 
-> [... 1871 more characters in FEEDBACK.md]
+> [Bilan HTML corrigé](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Articles/meshes-audit-5-November-2026.html).
+> 
+> | Tu voulais | État | Preuve |
+> |---|---|---|
+> | Seulement le composant | Fait | Aucun texte ni tableau dans la planche |
+> | Une reproduction parfaite | Non | Les vues présentent encore des écarts |
+> | Sauvegarde cloud | En attente | Dernières versions non vérifiées |
+
+### 5 November 2026, 19:42:59 +0100 · Iteration · manual
+
+> 5 November 2026 : skill disparu = SKILL.md au-delà de 1 Mo (limite de chargement Claude Code) ; corps déplacé dans references/ZenRayMeshes1.md, SKILL.md devenu routeur de 4 Ko, garde de taille dans sync-skill.sh. Capot V002 (zenray::hood_panel::2.0) : générateur réécrit (panneau central surélevé, bords rabattus, bourrelet, profil superellipse), réglé par CompareSheetViews et FitHoodProfile ; proportions -3,1/+3,3/+3,6 % (plancher ±3,3 % imposé par la planche), silhouettes 0,93/0,83/0,97 ; vérification en processus neuf verte. Attente de la validation à l'œil.
 
 
-## Last order of work (5 November 2026 at 17:04)
+## Last order of work (5 November 2026 at 20:02)
 
 ### 30 October 2026, 23:33:47 +0100 · Order of work · claude:09d15ec8
 
@@ -72,4 +74,4 @@
 > [... 741 more characters in FEEDBACK.md]
 
 
-Next step: reread the latest prompt above, check it against Rules.md, then continue; append through feedback.py and close the turn with Client.mjs checkpoint. (5 November 2026 at 17:04)
+Next step: reread the latest prompt above, check it against Rules.md, then continue; append through feedback.py and close the turn with Client.mjs checkpoint. (5 November 2026 at 20:02)
