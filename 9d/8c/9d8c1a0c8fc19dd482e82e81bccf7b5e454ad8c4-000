@@ -67936,3 +67936,30 @@
 - Source: claude-code-0611e96b. (5 November 2026, 20:08:28 +0100)
 
 > Bah, je pense que dans un premier temps, tu devrais générer tous les components directement via ChatGPT, euh, les append dans un document. Est-ce que tu peux me donner juste le prompt 4 étapes actuel qui permet de générer un component sans une UI surchargée? (5 November 2026, 20:08:28 +0100)
+
+## 5 November 2026, 20:08:43 +0100 : Iteration
+
+<!-- feedback-event:f847f3057cfe497d8cb5494920be91f7ffcd323c985b5d6000f714f2b95b8e66 (5 November 2026, 20:08:43 +0100) -->
+- Project: zenray-meshes; kind: iteration. (5 November 2026, 20:08:43 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (5 November 2026, 20:08:43 +0100)
+
+> Voici le prompt actuel, la version V3, celle qui a produit la planche propre du capot. Joins l'image d'origine, puis remplace `[COMPONENT]` par le nom de la pièce et `[FEATURES]` par ses formes à restituer (galbes, plis, creux, épaisseurs, fixations). (5 November 2026, 20:08:43 +0100)
+>
+> ```text (5 November 2026, 20:08:43 +0100)
+> La planche doit contenir UNIQUEMENT la géométrie du composant, presque aucune information autre que sa modélisation. Aucun texte, titre, tableau, numéro, cote, flèche, légende, encadré, score, logo ou décoration dans les images. Aucune présentation du protocole. Chaque étape est une action successive, pas une case d'une infographie. (5 November 2026, 20:08:43 +0100)
+>
+> Exécute ces QUATRE ÉTAPES dans ChatGPT Chat avec création/édition d'images : (5 November 2026, 20:08:43 +0100)
+>
+> 1. Crée une image de [COMPONENT] seul depuis la référence ORIGINALE jointe, même angle, mêmes proportions et mêmes détails. Retire seulement les pièces voisines. Fond uni, gris neutre, sans texture. Reproduction à 99,9 % comme cible. (5 November 2026, 20:08:43 +0100)
+> 2. Édite ce composant en comparant à l'original : restitue précisément [FEATURES]. Aucun relief exagéré ni détail inventé. L'image contient seulement la pièce. (5 November 2026, 20:08:43 +0100)
+> 3. Crée une planche épurée de cette même pièce : face en haut à gauche, profil gauche en haut à droite, dessus en bas à gauche, trois quarts en bas à droite. Trois premières vues orthographiques à échelle commune ; la trois quarts sert à lire le volume. Quatre composants seuls sur fond uniforme, sans texte, cadres ni traits de construction. (5 November 2026, 20:08:43 +0100)
+> 4. Compare cette planche à l'original et entre ses vues, puis corrige la géométrie dans une dernière image si nécessaire. Conserve exactement les mêmes formes et détails d'une vue à l'autre. La sortie finale montre seulement les quatre vues propres du composant, avec toute la précision de sa modélisation. Les éventuelles vérifications se font à part et ne sont jamais dessinées dans la planche. Ne déclare pas le 99,9 % atteint sans mesure. (5 November 2026, 20:08:43 +0100)
+>
+> Déroule les quatre étapes. Ne rends pas une infographie. (5 November 2026, 20:08:43 +0100)
+> ``` (5 November 2026, 20:08:43 +0100)
+>
+> Il vit dans [/Users/zenray/.claude/skills/zenray-meshes/templates/component-chain/prompt_component_clean_chain_v3.md](/Users/zenray/.claude/skills/zenray-meshes/templates/component-chain/prompt_component_clean_chain_v3.md). (5 November 2026, 20:08:43 +0100)
+>
+> Une limite déjà mesurée sur le capot : même avec ce prompt, les vues de ChatGPT ne concordaient pas entre elles. La longueur variait de 19 % d'une vue à l'autre au départ, et encore de 10,5 % sur la planche finale. Une planche sert donc de référence de forme, pas de plan coté. Chaque pièce reconstruite passe ensuite par le comparateur, qui indique jusqu'où la planche permet d'aller. (5 November 2026, 20:08:43 +0100)
+>
+> J'ai noté ta demande dans le journal des retours du projet. Faire tous les composants dans ChatGPT puis les rassembler dans un seul document est une bonne façon de procéder : on obtient d'abord une bibliothèque complète des références, puis on construit les HDA un par un à partir d'elle. (5 November 2026, 20:08:43 +0100)
