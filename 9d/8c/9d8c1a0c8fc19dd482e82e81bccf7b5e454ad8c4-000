@@ -67754,3 +67754,185 @@
 - Source: claude-code-0611e96b. (5 November 2026, 19:42:59 +0100)
 
 > Toute nouvelle section de méthode s'ajoute en fin de references/ZenRayMeshes1.md, jamais dans SKILL.md, qui reste un routeur sous 64 Ko (Claude Code ignore un SKILL.md de plus de 1 Mo). (5 November 2026, 19:42:59 +0100)
+
+## 5 November 2026, 19:27:07 +0100 : Prompt
+
+<!-- feedback-event:bf9418859a5f5fc73d9e991f81ab0e29fedc3a03b2b2fe18106d7242dede933e (5 November 2026, 19:27:07 +0100) -->
+- Project: zenray-meshes; kind: prompt. (5 November 2026, 19:27:07 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (5 November 2026, 19:27:07 +0100)
+
+> reprends cette conv pour avancer sur /zenray meshes d'ailleurs le skill global à disparu bizarre et continue d'itérer pour améliorer la modélisation des meshes hard surface a partir des planches généré par chatgpt codex://threads/01a1ac6e-9d82-73f3-92c6-5f7d03471753 (5 November 2026, 19:27:07 +0100)
+
+## 5 November 2026, 19:27:59 +0100 : Iteration
+
+<!-- feedback-event:21e924da6d420e90a4b6996b5dd415992ba080302af333793bcbdd195a4af5b0 (5 November 2026, 19:27:59 +0100) -->
+- Project: zenray-meshes; kind: iteration. (5 November 2026, 19:27:59 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (5 November 2026, 19:27:59 +0100)
+
+> Je vérifie pourquoi le skill a disparu : son SKILL.md pèse 1,1 Mo, je cherche la limite dans Claude Code. (5 November 2026, 19:27:59 +0100)
+
+## 5 November 2026, 19:28:37 +0100 : Iteration
+
+<!-- feedback-event:697b528b37616cdd13370a1aa643d5c7d3b1379d69a773306dca6ebab1e9c147 (5 November 2026, 19:28:37 +0100) -->
+- Project: zenray-meshes; kind: iteration. (5 November 2026, 19:28:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (5 November 2026, 19:28:37 +0100)
+
+> Cause trouvée : le SKILL.md a dépassé la limite de 1 Mo de Claude Code le 2 November. Je lis maintenant les dernières sections (422 à 424) pour reprendre le capot. (5 November 2026, 19:28:37 +0100)
+
+## 5 November 2026, 19:28:55 +0100 : Iteration
+
+<!-- feedback-event:ad4695a2405030d0f7c57b0e8a2c13363e8699c7875ed027072ff1c93b482c81 (5 November 2026, 19:28:55 +0100) -->
+- Project: zenray-meshes; kind: iteration. (5 November 2026, 19:28:55 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (5 November 2026, 19:28:55 +0100)
+
+> Je transforme le SKILL.md en petit routeur et range la méthode intégrale, texte intact, dans `references/ZenRayMeshes1.md`. (5 November 2026, 19:28:55 +0100)
+
+## 5 November 2026, 19:29:26 +0100 : Iteration
+
+<!-- feedback-event:6a651f7292e6631b9b96dc0635e656674c549a76c9871011cda6fc275017c352 (5 November 2026, 19:29:26 +0100) -->
+- Project: zenray-meshes; kind: iteration. (5 November 2026, 19:29:26 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (5 November 2026, 19:29:26 +0100)
+
+> Now the size guard in the sync script, so it can never happen silently again. (5 November 2026, 19:29:26 +0100)
+
+## 5 November 2026, 19:30:01 +0100 : Iteration
+
+<!-- feedback-event:a985650a7ae36ac06567db12bec5f6721027d471c16727a95e2b9ac98f442383 (5 November 2026, 19:30:01 +0100) -->
+- Project: zenray-meshes; kind: iteration. (5 November 2026, 19:30:01 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (5 November 2026, 19:30:01 +0100)
+
+> Le skill est revenu dans la liste des skills de cette session même, preuve que la limite de 1 Mo était la cause. Je passe au capot : la v001 est trop plate et trop mince face à la planche. (5 November 2026, 19:30:01 +0100)
+
+## 5 November 2026, 19:39:46 +0100 : Iteration
+
+<!-- feedback-event:7df0770194fc6a2826dd53c2a4ff96e8b95b3a15e8e208310b69358c542d71a9 (5 November 2026, 19:39:46 +0100) -->
+- Project: zenray-meshes; kind: iteration. (5 November 2026, 19:39:46 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (5 November 2026, 19:39:46 +0100)
+
+> Les trois rapports sont au plancher théorique (−3,1 / +3,3 / +3,6 %, imposé par l'incohérence de 10,5 % de la planche). Je regarde le résultat. (5 November 2026, 19:39:46 +0100)
+
+## 5 November 2026, 19:41:22 +0100 : Iteration
+
+<!-- feedback-event:9016a1b50f0afd64d47eaf4be02db9c2fa6cd21708f475ed019eec13417b14e2 (5 November 2026, 19:41:22 +0100) -->
+- Project: zenray-meshes; kind: iteration. (5 November 2026, 19:41:22 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (5 November 2026, 19:41:22 +0100)
+
+> Le seul contrôle rouge vient du vérificateur : il mesurait un creux (V001) alors que la V002 fait un relief, d'où un écart de signe. Je mesure la valeur absolue et je relance. (5 November 2026, 19:41:22 +0100)
+
+## 5 November 2026, 19:43:16 +0100 : Iteration
+
+<!-- feedback-event:2fb6ac05a05708670bf1c3d196c2f90c66d744be36e3b2c1b10210d7c7c20c2b (5 November 2026, 19:43:16 +0100) -->
+- Project: zenray-meshes; kind: iteration. (5 November 2026, 19:43:16 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (5 November 2026, 19:43:16 +0100)
+
+> Je consigne dans le journal global, puis je mets à jour la synthèse HTML du projet. (5 November 2026, 19:43:16 +0100)
+
+## 5 November 2026, 19:44:03 +0100 : Iteration
+
+<!-- feedback-event:75b8fd410b9254b92b016bda45da5e31161584d561ea19493e0ccc34f2059712 (5 November 2026, 19:44:03 +0100) -->
+- Project: zenray-meshes; kind: iteration. (5 November 2026, 19:44:03 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (5 November 2026, 19:44:03 +0100)
+
+> Je mets à jour la synthèse HTML du projet : trois paragraphes, le schéma de chaîne existant et un nouveau schéma 1920 × 1080 de cette itération. (5 November 2026, 19:44:03 +0100)
+
+## 5 November 2026, 20:00:43 +0100 : Iteration
+
+<!-- feedback-event:40b695e67a93eaabec4e3b643f3fa7f88951c30df90455d1bf46a238366d70bb (5 November 2026, 20:00:43 +0100) -->
+- Project: zenray-meshes; kind: iteration. (5 November 2026, 20:00:43 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (5 November 2026, 20:00:43 +0100)
+
+> Le Chrome sans écran s'est bloqué ; je vérifie le schéma par un autre moteur de rendu SVG, puis je mesure que les textes tiennent dans leurs boîtes. (5 November 2026, 20:00:43 +0100)
+
+## 5 November 2026, 20:01:59 +0100 : Prompt
+
+<!-- feedback-event:87970aa68611f23a298e7667e0117d562749f4fc2a654bbdc9aca733040e217e (5 November 2026, 20:01:59 +0100) -->
+- Project: zenray-meshes; kind: prompt. (5 November 2026, 20:01:59 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (5 November 2026, 20:01:59 +0100)
+
+> [Image: original 1280x2098, displayed at 1220x2000. Multiply coordinates by 1.05 to map to original image.] (5 November 2026, 20:01:59 +0100)
+
+## 5 November 2026, 20:02:04 +0100 : Iteration
+
+<!-- feedback-event:063af2f8101b7b93118505194826e7d300322e3fc1e2bc1eaff6ae08ae25c695 (5 November 2026, 20:02:04 +0100) -->
+- Project: zenray-meshes; kind: iteration. (5 November 2026, 20:02:04 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (5 November 2026, 20:02:04 +0100)
+
+> La synthèse s'affiche correctement et aucun texte ne déborde de ses boîtes (contrôle mesuré par Playwright). Je pousse maintenant la synthèse dans le projet ZenRay Assets et je lance l'archive. (5 November 2026, 20:02:04 +0100)
+
+## 5 November 2026, 20:03:20 +0100 : Iteration
+
+<!-- feedback-event:e417e8e2d9ae36a7435067fc90dca3f97ad60f5633b184612e0fe9a8daff698a (5 November 2026, 20:03:20 +0100) -->
+- Project: zenray-meshes; kind: iteration. (5 November 2026, 20:03:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (5 November 2026, 20:03:20 +0100)
+
+> Je déclare la synthèse dans ZenRay Assets ; le registre refuse la référence, je cherche pourquoi dans son code. (5 November 2026, 20:03:20 +0100)
+
+## 5 November 2026, 20:03:40 +0100 : Iteration
+
+<!-- feedback-event:68d159238c14e8083f180919a119fa01923783593a40c4ac266374aa239e8a31 (5 November 2026, 20:03:40 +0100) -->
+- Project: zenray-meshes; kind: iteration. (5 November 2026, 20:03:40 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (5 November 2026, 20:03:40 +0100)
+
+> Article déclaré. Je publie les métadonnées et lance l'archive cloud. (5 November 2026, 20:03:40 +0100)
+
+## 5 November 2026, 20:04:47 +0100 : Iteration
+
+<!-- feedback-event:328b143f787310bf32fc2230aa92132029122834cc7af6de0f4b9bd881f69324 (5 November 2026, 20:04:47 +0100) -->
+- Project: zenray-meshes; kind: iteration. (5 November 2026, 20:04:47 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (5 November 2026, 20:04:47 +0100)
+
+> J'ai relancé le fil Codex là où il s'était arrêté, à 19:18, sur la limite d'usage de Codex. Le capot V002 est maintenant mieux proportionné et plus détaillé que la V001, et il attend ton œil. (5 November 2026, 20:04:47 +0100)
+>
+> **Pourquoi le skill avait disparu.** Le binaire de Claude Code contient ce message : « Its SKILL.md is larger than the 1 MB Claude Code loads for a skill ». Le `SKILL.md` de ZenRay Meshes a franchi 1 Mo le 2 November vers 21:00, puis il est monté jusqu'à 1,13 Mo. Claude Code a alors cessé de le charger, sans aucun message. (5 November 2026, 20:04:47 +0100)
+> - J'ai déplacé tout le contenu, intact et avec ses 425 sections numérotées, dans [/Users/zenray/.claude/skills/zenray-meshes/references/ZenRayMeshes1.md](/Users/zenray/.claude/skills/zenray-meshes/references/ZenRayMeshes1.md). (5 November 2026, 20:04:47 +0100)
+> - Le `SKILL.md` n'est plus qu'un routeur de 4 Ko. Le skill est réapparu dans la liste de cette même session dès la synchronisation. (5 November 2026, 20:04:47 +0100)
+> - La synchronisation des skills refuse désormais tout `SKILL.md` de plus de 1 Mo et prévient au-delà de 512 Ko. Attention, `zenray-houdini` pèse déjà 508 Ko. (5 November 2026, 20:04:47 +0100)
+>
+> **Le capot V002.** La V001 était trop courte (écart de −32 % sur la longueur) et n'avait que deux rainures. J'ai réécrit sa façon d'être construite, parce qu'un réglage de curseur ne crée pas une forme absente. Il a maintenant : (5 November 2026, 20:04:47 +0100)
+> - un panneau central surélevé entre deux plis qui s'effacent vers le pare-brise ; (5 November 2026, 20:04:47 +0100)
+> - des bords latéraux rabattus qui naissent après le coin avant ; (5 November 2026, 20:04:47 +0100)
+> - un bourrelet avant épais aux extrémités arrondies ; (5 November 2026, 20:04:47 +0100)
+> - un profil qui plonge presque à la verticale vers l'avant. (5 November 2026, 20:04:47 +0100)
+>
+> Tout se règle par la mesure, avec deux nouveaux outils : un comparateur vue par vue et un ajustement automatique du profil de côté (près de 1 000 essais en moins de 2 secondes). (5 November 2026, 20:04:47 +0100)
+>
+> La planche ChatGPT se contredit elle-même de 10,5 % entre ses vues, donc aucun modèle ne peut faire mieux qu'environ 3,3 % d'écart par vue. Le capot en est à ce plancher. Ce score compare seulement les contours : il ne juge ni la netteté des plis ni la finition. À l'œil, les plis restent plus vifs que sur la planche, le bourrelet un peu détaché et l'avant moins enroulé de profil. (5 November 2026, 20:04:47 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (5 November 2026, 20:04:47 +0100)
+> |---|---|---| (5 November 2026, 20:04:47 +0100)
+> | Comprendre pourquoi le skill a disparu | Oui | Message du binaire, et taille mesurée au-dessus de 1 Mo depuis le 2 November à 20:58 | (5 November 2026, 20:04:47 +0100)
+> | Que le skill revienne | Oui | Il est réapparu dans la liste de cette session | (5 November 2026, 20:04:47 +0100)
+> | Que ça ne se reproduise pas | Oui | La synchronisation refuse au-delà de 1 Mo, testé à 4 Ko, 600 Ko et 1,1 Mo | (5 November 2026, 20:04:47 +0100)
+> | Un capot plus fidèle à la planche | En partie | Écarts de proportions passés de −19/−32/+31 % à −3,1/+3,3/+3,6 % ; contours de profil 0,45 → 0,83 | (5 November 2026, 20:04:47 +0100)
+> | Une pièce Houdini qui marche seule | Oui | Rouverte dans un Houdini neuf ; une modification puis un retour redonnent exactement la même pièce ; aucun bord ouvert | (5 November 2026, 20:04:47 +0100)
+> | Méthode consignée | Oui | Section 425, retour et règle du projet, journal | (5 November 2026, 20:04:47 +0100)
+> | Synthèse publiée dans Assets | Oui | Article déclaré et métadonnées publiées | (5 November 2026, 20:04:47 +0100)
+> | Sauvegarde cloud | Pas vérifié | L'archive tourne encore, rien n'est confirmé | (5 November 2026, 20:04:47 +0100)
+> | Validation à l'œil | En attente | C'est ton verdict | (5 November 2026, 20:04:47 +0100)
+>
+> Fichiers : (5 November 2026, 20:04:47 +0100)
+> - Comparaison planche contre modèle (déjà envoyée) : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/components/hood-panel/v002/compare/board.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/components/hood-panel/v002/compare/board.png) (5 November 2026, 20:04:47 +0100)
+> - Pièce Houdini : [/Users/zenray/.claude/skills/zenray-meshes/otls/zenray_hood_panel_v002.hda](/Users/zenray/.claude/skills/zenray-meshes/otls/zenray_hood_panel_v002.hda) (5 November 2026, 20:04:47 +0100)
+> - Scène : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/components/hood-panel/v002/hood_panel.hip](/Users/zenray/.claude/tmp/tmp-zenray-meshes/components/hood-panel/v002/hood_panel.hip) (5 November 2026, 20:04:47 +0100)
+> - Paramètres modifiables : [/Users/zenray/.claude/skills/zenray-meshes/scripts/components/HoodPanel.json](/Users/zenray/.claude/skills/zenray-meshes/scripts/components/HoodPanel.json) (5 November 2026, 20:04:47 +0100)
+> - Synthèse : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Articles/index.html](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Articles/index.html) (5 November 2026, 20:04:47 +0100)
+>
+> Reformulation plus courte de ta demande : « Reprends le fil Codex de ZenRay Meshes, répare le skill disparu, puis continue d'améliorer les pièces hard surface à partir des planches ChatGPT. » (5 November 2026, 20:04:47 +0100)
+> - **Routeur** : petit fichier d'entrée qui indique où lire une section, sans contenir la méthode elle-même. (5 November 2026, 20:04:47 +0100)
+> - **Silhouette normalisée** : le contour d'une vue ramené à un même cadre, pour comparer les formes sans tenir compte de leur taille. (5 November 2026, 20:04:47 +0100)
+
+## 5 November 2026, 20:08:18 +0100 : Prompt
+
+<!-- feedback-event:04364b7f01734c80e19cdfcca00f70a34670e4e0dfd9ec6f917009cbccd80c81 (5 November 2026, 20:08:18 +0100) -->
+- Project: zenray-meshes; kind: prompt. (5 November 2026, 20:08:18 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (5 November 2026, 20:08:18 +0100)
+
+> Bah, je pense que dans un premier temps, tu devrais générer tous les components directement via ChatGPT, euh, les append dans un document. Est-ce que tu peux me donner juste le prompt 4 étapes actuel qui permet de générer un component sans une UI surchargée? (5 November 2026, 20:08:18 +0100)
+
+## 5 November 2026, 20:08:28 +0100 : Prompt
+
+<!-- feedback-event:4ae717fc477b64253f7c10e75ada0f0bbf1011c7890ba6e03e6dda40102ea752 (5 November 2026, 20:08:28 +0100) -->
+- Project: zenray-meshes; kind: prompt. (5 November 2026, 20:08:28 +0100)
+- Source: claude-code-0611e96b. (5 November 2026, 20:08:28 +0100)
+
+> Bah, je pense que dans un premier temps, tu devrais générer tous les components directement via ChatGPT, euh, les append dans un document. Est-ce que tu peux me donner juste le prompt 4 étapes actuel qui permet de générer un component sans une UI surchargée? (5 November 2026, 20:08:28 +0100)
