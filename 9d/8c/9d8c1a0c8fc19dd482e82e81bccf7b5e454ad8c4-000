@@ -68918,3 +68918,97 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (6 November 2026, 01:26:00 +0100)
 
 > Il ne manque plus que la planche du siège. Je lui fais refaire l'étape 3. (6 November 2026, 01:26:00 +0100)
+
+## 6 November 2026, 01:26:17 +0100 : Iteration
+
+<!-- feedback-event:9af969ca30bc7adf814469f66ba776d16030629fc5e2a716e11d7deb00c152d8 (6 November 2026, 01:26:17 +0100) -->
+- Project: zenray-meshes; kind: iteration. (6 November 2026, 01:26:17 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (6 November 2026, 01:26:17 +0100)
+
+> Pendant que le siège tourne, je regarde d'un coup d'œil les dix-sept planches retenues pour vérifier qu'elles sont propres. (6 November 2026, 01:26:17 +0100)
+
+## 6 November 2026, 01:26:37 +0100 : Iteration
+
+<!-- feedback-event:f9ffcda83b80c8be2a449ea1341bd734ef7251b850767012c71f1d1b7d3563b7 (6 November 2026, 01:26:37 +0100) -->
+- Project: zenray-meshes; kind: iteration. (6 November 2026, 01:26:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (6 November 2026, 01:26:37 +0100)
+
+> Les dix-sept planches sont propres et lisibles, sans texte. J'ajoute cette vue d'ensemble au document, générée par le même script. (6 November 2026, 01:26:37 +0100)
+
+## 6 November 2026, 01:27:00 +0100 : Iteration
+
+<!-- feedback-event:76e3ee8d1e43459a70a0a66cd1f2d5fb5dfbb14f37441dba0b8c05ac8391d8f1 (6 November 2026, 01:27:00 +0100) -->
+- Project: zenray-meshes; kind: iteration. (6 November 2026, 01:27:00 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (6 November 2026, 01:27:00 +0100)
+
+> Je consigne la méthode dans le routeur du skill et dans le suivi du projet pendant que le siège termine. (6 November 2026, 01:27:00 +0100)
+
+## 6 November 2026, 01:27:21 +0100 : Prompt
+
+<!-- feedback-event:20473227084c882af07cf97cbd3da983a6e206c34b82edcd1fd60626c9bd6f05 (6 November 2026, 01:27:21 +0100) -->
+- Project: zenray-meshes; kind: prompt. (6 November 2026, 01:27:21 +0100)
+
+> 6 November 2026 : Matthieu, « Oui, tous les composants » : isoler chaque pièce du camion depuis une seule image et les rassembler dans un document. Fait : 18 pièces, une conversation ChatGPT chacune (effort High), images rapatriées et remesurées, document Articles/truck-components-6-November-2026.html. (6 November 2026, 01:27:21 +0100)
+
+## 6 November 2026, 01:27:21 +0100 : Standing rule
+
+<!-- feedback-event:ec86d65fe7042e2e53e74fe695fcad051fc7290e1a593c46637e203d782dbbf0 (6 November 2026, 01:27:21 +0100) -->
+- Project: zenray-meshes; kind: rule. (6 November 2026, 01:27:21 +0100)
+
+> 6 November 2026 : une planche de composant est une image carrée séparée, quatre vues en quarts égaux, sans vue isolée, sans trait ni texte ; sinon relancer seulement l'étape 3 dans la même conversation. Ses accords se remesurent hors de ChatGPT et la meilleure planche est retenue. (6 November 2026, 01:27:21 +0100)
+
+## 6 November 2026, 01:27:37 +0100 : Iteration
+
+<!-- feedback-event:43cf4fb8073d9181211343a561dba1ec89c11b573f7eb64eef8e6c6ad370d26a (6 November 2026, 01:27:37 +0100) -->
+- Project: zenray-meshes; kind: iteration. (6 November 2026, 01:27:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (6 November 2026, 01:27:37 +0100)
+
+> Le siège a rendu une nouvelle planche carrée et la mesure. Pendant ce temps, je regarde comment l'index du projet recense ses fichiers. (6 November 2026, 01:27:37 +0100)
+
+## 6 November 2026, 01:30:20 +0100 : Iteration
+
+<!-- feedback-event:252df89611a81de2a1fca58480e42378b0a20cbaa0e33e53f4be96841634b7e2 (6 November 2026, 01:30:20 +0100) -->
+- Project: zenray-meshes; kind: iteration. (6 November 2026, 01:30:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (6 November 2026, 01:30:20 +0100)
+
+> Le siège a maintenant une planche propre : les dix-huit pièces sont réunies. Je reconstruis la synthèse du projet et je vérifie son rendu. (6 November 2026, 01:30:20 +0100)
+
+## 6 November 2026, 01:30:54 +0100 : Iteration
+
+<!-- feedback-event:ef79ebd1c1bb8196a7e0be4ee70ac0b5b796014fc912eba1f76e4e477390bca7 (6 November 2026, 01:30:54 +0100) -->
+- Project: zenray-meshes; kind: iteration. (6 November 2026, 01:30:54 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (6 November 2026, 01:30:54 +0100)
+
+> Le schéma est lisible, mais l'arrondi à deux décimales affiche la portière à 0,90 en orange : je passe les barres à trois décimales pour lever l'ambiguïté. (6 November 2026, 01:30:54 +0100)
+
+## 6 November 2026, 01:31:05 +0100 : Iteration
+
+<!-- feedback-event:3bef941b985183a380450c82d9e08bbc0e950a307beff0546de43ecb1b31a2aa (6 November 2026, 01:31:05 +0100) -->
+- Project: zenray-meshes; kind: iteration. (6 November 2026, 01:31:05 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (6 November 2026, 01:31:05 +0100)
+
+> Je vérifie aussi que chaque chiffre du schéma correspond bien aux mesures, dans les deux sens. (6 November 2026, 01:31:05 +0100)
+
+## 6 November 2026, 01:31:21 +0100 : Iteration
+
+<!-- feedback-event:af2ee98e04e7f00e5de42a46013b0b8a75d5cb148dfecf12057a9bad8a77c0bb (6 November 2026, 01:31:21 +0100) -->
+- Project: zenray-meshes; kind: iteration. (6 November 2026, 01:31:21 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (6 November 2026, 01:31:21 +0100)
+
+> Les dix-huit chiffres du schéma correspondent aux mesures, et une copie faussée est bien détectée. Je mets à jour l'index du projet, puis je publie dans ZenRay Assets. (6 November 2026, 01:31:21 +0100)
+
+## 6 November 2026, 01:31:47 +0100 : Iteration
+
+<!-- feedback-event:2c0f39110deaed55a1b52c370fd44ad085c300f13fa2e9c917e19af6188a4c69 (6 November 2026, 01:31:47 +0100) -->
+- Project: zenray-meshes; kind: iteration. (6 November 2026, 01:31:47 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (6 November 2026, 01:31:47 +0100)
+
+> L'article est lié, mais l'état de sauvegarde du projet affiche une erreur GitHub d'un archivage précédent. Je regarde le message entier avant de relancer. (6 November 2026, 01:31:47 +0100)
+
+## 6 November 2026, 01:32:25 +0100 : Iteration
+
+<!-- feedback-event:1a66897a13d773d2dc89b64dc1307df795d68f465a7141681b5ff0aa63329739 (6 November 2026, 01:32:25 +0100) -->
+- Project: zenray-meshes; kind: iteration. (6 November 2026, 01:32:25 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (6 November 2026, 01:32:25 +0100)
+
+> L'archivage automatique échoue parce que le quota de l'API GitHub du compte est épuisé. Je regarde quand il se recharge, pour ne pas relancer dans le vide. (6 November 2026, 01:32:25 +0100)
