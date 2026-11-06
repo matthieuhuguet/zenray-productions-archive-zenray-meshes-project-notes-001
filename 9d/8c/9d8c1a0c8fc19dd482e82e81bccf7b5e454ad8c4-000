@@ -69012,3 +69012,74 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (6 November 2026, 01:32:25 +0100)
 
 > L'archivage automatique échoue parce que le quota de l'API GitHub du compte est épuisé. Je regarde quand il se recharge, pour ne pas relancer dans le vide. (6 November 2026, 01:32:25 +0100)
+
+## 6 November 2026, 01:33:01 +0100 : Iteration
+
+<!-- feedback-event:dd95c3ff66dce28f643ca3457f067fd400cf2b9023a257101f0d25157b87294e (6 November 2026, 01:33:01 +0100) -->
+- Project: zenray-meshes; kind: iteration. (6 November 2026, 01:33:01 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (6 November 2026, 01:33:01 +0100)
+
+> Le quota est revenu à 4 999 appels. Je lance un seul archivage, limité aux 217 fichiers de ce tour, et je surveille sa consommation. (6 November 2026, 01:33:01 +0100)
+
+## 6 November 2026, 01:33:35 +0100 : Iteration
+
+<!-- feedback-event:305b3d081217ce23c15aa6f9c3e1a4900e024153d64c34ce12c28b616606a82d (6 November 2026, 01:33:35 +0100) -->
+- Project: zenray-meshes; kind: iteration. (6 November 2026, 01:33:35 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (6 November 2026, 01:33:35 +0100)
+
+> Pendant l'archivage, je range le navigateur : je retire les données que j'avais posées dans ChatGPT et je ferme les onglets supplémentaires. (6 November 2026, 01:33:35 +0100)
+
+## 6 November 2026, 01:34:25 +0100 : Iteration
+
+<!-- feedback-event:35a348873f495cff3e6c9204944ff711436ab20c9bf6eda514cea9463f63e936 (6 November 2026, 01:34:25 +0100) -->
+- Project: zenray-meshes; kind: iteration. (6 November 2026, 01:34:25 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (6 November 2026, 01:34:25 +0100)
+
+> J'attends la fin de l'archivage cloud des fichiers de ce tour ; tout le reste est rangé et consigné. (6 November 2026, 01:34:25 +0100)
+
+## 6 November 2026, 01:46:12 +0100 : Iteration
+
+<!-- feedback-event:ce3f8c0fa49871f77e31032ea77d7fa8dadf54ffb9ae3a6294b6368ec5002ccc (6 November 2026, 01:46:12 +0100) -->
+- Project: zenray-meshes; kind: iteration. (6 November 2026, 01:46:12 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (6 November 2026, 01:46:12 +0100)
+
+> Les 18 pièces visibles du camion ont chacune leur conversation ChatGPT (effort High), à partir de la même image d'origine. Chacune a donné une planche propre en quatre vues : image carrée, quatre quarts, aucun texte. Le document les rassemble avec, en tête, un tableau et une vue d'ensemble : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Articles/truck-components-6-November-2026.html](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Articles/truck-components-6-November-2026.html). (6 November 2026, 01:46:12 +0100)
+>
+> J'ai remesuré moi-même chaque planche avec la règle du prompt. Les chiffres de ChatGPT ne servent donc pas de juge. (6 November 2026, 01:46:12 +0100)
+>
+> **Les trois accords à 0,90 ou plus (7 pièces) :** (6 November 2026, 01:46:12 +0100)
+> - phare avant ; (6 November 2026, 01:46:12 +0100)
+> - manille ; (6 November 2026, 01:46:12 +0100)
+> - projecteur d'aile ; (6 November 2026, 01:46:12 +0100)
+> - projecteur à grille ; (6 November 2026, 01:46:12 +0100)
+> - volant ; (6 November 2026, 01:46:12 +0100)
+> - marchepied ; (6 November 2026, 01:46:12 +0100)
+> - coffre latéral. (6 November 2026, 01:46:12 +0100)
+>
+> **Les 11 autres** ont au moins un accord plus bas, presque toujours la longueur entre le profil et le dessus. Les plus faibles : (6 November 2026, 01:46:12 +0100)
+> - la calandre et l'aile avant, à 0,54 ; (6 November 2026, 01:46:12 +0100)
+> - le treuil, à 0,78 ; (6 November 2026, 01:46:12 +0100)
+> - le rétroviseur, à 0,79 ; (6 November 2026, 01:46:12 +0100)
+> - le pare-chocs, à 0,80. (6 November 2026, 01:46:12 +0100)
+>
+> Comme pour le capot, c'est la reconstruction dans Houdini qui rattrapera ces écarts. (6 November 2026, 01:46:12 +0100)
+>
+> **Ce que le test a appris :** (6 November 2026, 01:46:12 +0100)
+> - **Mise en page :** avec la V4, une pièce sur deux mêlait une grande vue isolée et quatre petites vues dans la même image, parfois avec des mesures écrites dedans. J'ai donc durci l'étape 3, ce qui donne la V4.1. Malgré cela, la moitié des pièces ont encore eu besoin d'une relance « refais uniquement l'étape 3 » dans leur conversation, qui a suffi à chaque fois. (6 November 2026, 01:46:12 +0100)
+> - **Fin de protocole :** un essai sur trois s'est arrêté sur un message vide, et la portière comme la prise d'air n'ont jamais lancé leur calcul. Ma remesure couvre ces cas. (6 November 2026, 01:46:12 +0100)
+> - **Récupérer les images :** le navigateur intégré bloque le téléchargement, le presse-papiers et les liens directs. Seul un formulaire envoyé vers un petit récepteur local passe. Les outils sont rangés dans le skill (section 427) : lancement, rapatriement et récepteur. (6 November 2026, 01:46:12 +0100)
+>
+> **Mon erreur, corrigée :** pendant le travail, j'ai cru que deux conversations avaient inventé leurs mesures. C'était mon compteur qui se trompait, car leur outil de calcul porte un autre nom. Leurs chiffres sont en fait identiques aux miens à quatre décimales près. (6 November 2026, 01:46:12 +0100)
+>
+> **Ce qui n'a pas marché : la sauvegarde cloud.** L'article est lié dans Assets et les métadonnées sont publiées. En revanche, l'archivage des 217 fichiers a vidé à lui seul les 5 000 appels GitHub de l'heure, comme deux archivages automatiques juste avant. Je ne l'ai pas relancé, puisque chaque essai consomme le quota de tout le compte ; il se recharge à 02:32. J'ai proposé une session à part pour corriger ce moteur d'archivage, puis refaire la sauvegarde et la vérifier. (6 November 2026, 01:46:12 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (6 November 2026, 01:46:12 +0100)
+> |---|---|---| (6 November 2026, 01:46:12 +0100)
+> | Une seule image du camion, chaque pièce isolée | Oui | 18 conversations, toutes avec l'image d'origine jointe | (6 November 2026, 01:46:12 +0100)
+> | Effort High dans ChatGPT | Oui | Le lanceur refuse d'envoyer si l'effort affiché n'est pas High | (6 November 2026, 01:46:12 +0100)
+> | Tout réuni dans un document | Oui | 18 pièces, 96 images, page testée sur ordinateur et téléphone sans débordement | (6 November 2026, 01:46:12 +0100)
+> | Des planches propres, sans texte | Oui | Planche carrée exigée par le script, et j'ai regardé les 18 | (6 November 2026, 01:46:12 +0100)
+> | Des proportions qui concordent | En partie | 7 pièces sur 18 tiennent les trois accords à 0,90 | (6 November 2026, 01:46:12 +0100)
+> | Sauvegarde dans le cloud | Non | Archivage refusé par GitHub, quota épuisé | (6 November 2026, 01:46:12 +0100)
+>
+> En passant : dans ChatGPT, j'ai retiré les données que j'avais stockées dans le navigateur, et le récepteur local est arrêté. Ton presse-papiers contient toujours l'image du camion. (6 November 2026, 01:46:12 +0100)
