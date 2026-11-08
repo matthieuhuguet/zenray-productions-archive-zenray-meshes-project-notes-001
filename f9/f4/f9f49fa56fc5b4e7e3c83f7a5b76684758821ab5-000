@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-11-06T06:47:50.093Z",
+ "scannedAt": "2026-11-08T18:27:49.689Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
@@ -94,8 +94,8 @@
    "conversationId": "gemini:70a78ced-be34-4b18-8408-7ef23b2284af",
    "provider": "gemini",
    "sessionId": "70a78ced-be34-4b18-8408-7ef23b2284af",
-   "title": "Est-ce que pour la vidéo, tu peux simplement refaire, recompute la vidéo, mais je veux enlever toute l'UI, l'interface, je veux juste garder",
-   "updatedAt": "2026-10-27T22:39:42.736795+00:00",
+   "title": "Conversation Gemini 70a78ced",
+   "updatedAt": "2026-10-27T22:40:22.755Z",
    "bytes": 4816896,
    "boundProject": null
   },
@@ -114,22 +114,6 @@
    "updatedAt": "2026-11-05T15:32:18.428Z",
    "bytes": 41473,
    "boundProject": null
-  },
-  {
-   "projectId": "zenray-meshes",
-   "lines": 12,
-   "work": 2,
-   "prompts": 5,
-   "first": "2026-10-28T19:13:11.027Z",
-   "last": "2026-10-30T01:09:36.901Z",
-   "strength": "strong",
-   "conversationId": "codex:01a183ee-37b7-7c60-a028-d9f9a184591a",
-   "provider": "codex",
-   "sessionId": "01a183ee-37b7-7c60-a028-d9f9a184591a",
-   "title": "Conversation codex 01a183ee",
-   "updatedAt": "2026-10-31T06:22:27.936Z",
-   "bytes": 130681305,
-   "boundProject": "zenray-edit"
   },
   {
    "projectId": "zenray-meshes",
