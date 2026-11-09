@@ -73046,3 +73046,83 @@
 > Continue the conversation from where it left off without asking the user any further questions. Resume directly — do not acknowledge the summary, do not recap what was happening, do not preface with "I'll continue" or similar. Pick up the last task as if the break never happened. (9 November 2026, 23:58:54 +0100)
 >
 > The messages after this summary are the most recent messages from before compaction, kept verbatim. The summary was written without seeing them, so something it says has not happened yet may already have happened in them. (9 November 2026, 23:58:54 +0100)
+
+## 9 November 2026, 23:59:42 +0100 : Iteration
+
+<!-- feedback-event:428993e2d42fe34dd8c1db3e173d1e985ed418de6439d0d42d22522325a36fa0 (9 November 2026, 23:59:42 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 23:59:42 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 23:59:42 +0100)
+
+> Je reprends la boucle : je relis d'abord le plan actuel et les vues de référence pour chiffrer ce qui manque, puis j'enchaîne les itérations numérotées. (9 November 2026, 23:59:42 +0100)
+
+## 9 November 2026, 23:59:43 +0100 : Prompt
+
+<!-- feedback-event:8f7c89cf210a88a7149014642565d0df51a11daf0a73cd02875eccb3e4c41d33 (9 November 2026, 23:59:43 +0100) -->
+- Project: zenray-meshes; kind: prompt. (9 November 2026, 23:59:43 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 23:59:43 +0100)
+
+> [Image: original 2373x1524, displayed at 2000x1284. Multiply coordinates by 1.19 to map to original image.] (9 November 2026, 23:59:43 +0100)
+
+## 9 November 2026, 23:59:45 +0100 : Prompt
+
+<!-- feedback-event:85fee646ee9b971bed196b94a48ff5a603969a37597c65b098e4442f7f803c65 (9 November 2026, 23:59:45 +0100) -->
+- Project: zenray-meshes; kind: prompt. (9 November 2026, 23:59:45 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 23:59:45 +0100)
+
+> [Image: original 2373x1524, displayed at 2000x1284. Multiply coordinates by 1.19 to map to original image.] (9 November 2026, 23:59:45 +0100)
+
+## 10 November 2026, 00:01:07 +0100 : Iteration
+
+<!-- feedback-event:3aa512695e47e95b321ed725bfd215aa410d3744bd860cc75c6484f60b6c5d00 (10 November 2026, 00:01:07 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 00:01:07 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 00:01:07 +0100)
+
+> Je lis où le plan actuel garde des tracés bruts (les ondulations visibles sur la planche), pour les remplacer par de vraies lignes de dessin. (10 November 2026, 00:01:07 +0100)
+
+## 10 November 2026, 00:03:06 +0100 : Iteration
+
+<!-- feedback-event:08157d36d22f2c64641c2defc9e66c5a473999355ae9a12ce982b8ef5984e662 (10 November 2026, 00:03:06 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 00:03:06 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 00:03:06 +0100)
+
+> La passe « lignes de dessin » est écrite : chaque arête tracée devient une spline lisse, tangente à ses voisines. Je la mesure sur la voiture (itération 11). (10 November 2026, 00:03:06 +0100)
+
+## 10 November 2026, 00:04:52 +0100 : Iteration
+
+<!-- feedback-event:1d32bd21dfae86f3881e6d4bcfea8aa1844932870ca19f4b8f1e1c51ee54025c (10 November 2026, 00:04:52 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 00:04:52 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 00:04:52 +0100)
+
+> J'écris maintenant le lanceur d'itérations : une commande qui reconstruit tout, mesure, et ajoute une ligne au journal, pour enchaîner les itérations sans rien perdre. (10 November 2026, 00:04:52 +0100)
+
+## 10 November 2026, 00:07:21 +0100 : Iteration
+
+<!-- feedback-event:d365d13036a48384259d2398e8a00a1074f142afff94a30c61ffeac1ded91b4d (10 November 2026, 00:07:21 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 00:07:21 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 00:07:21 +0100)
+
+> Le lanceur fonctionne (une itération complète en 25 à 50 secondes). Je lui ajoute maintenant une planche de diagnostic en niveaux de gris, pour voir où la voiture s'écarte de la référence. (10 November 2026, 00:07:21 +0100)
+
+## 10 November 2026, 00:08:11 +0100 : Prompt
+
+<!-- feedback-event:7dc9d2e62ed2c7a30c9ada0149e98f2679187ad24b6cf19b694af475584e2b90 (10 November 2026, 00:08:11 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 00:08:11 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 00:08:11 +0100)
+
+> [Image: original 2484x2488, displayed at 1929x1932. Multiply coordinates by 1.29 to map to original image.] (10 November 2026, 00:08:11 +0100)
+
+## 10 November 2026, 00:08:12 +0100 : Prompt
+
+<!-- feedback-event:210b40654d4d45b2fb81a7949faa29aaf453431a8b76ac6ce97d3d01e92ba56c (10 November 2026, 00:08:12 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 00:08:12 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 00:08:12 +0100)
+
+> [Image: original 2484x2488, displayed at 1929x1932. Multiply coordinates by 1.29 to map to original image.] (10 November 2026, 00:08:12 +0100)
+
+## 10 November 2026, 00:10:36 +0100 : Iteration
+
+<!-- feedback-event:718a262394c6283d590002a3d74a5ce17588ece416cd07a92a4ca42223e36d30 (10 November 2026, 00:10:36 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 00:10:36 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 00:10:36 +0100)
+
+> Je regarde comment le contrôle traite les pièces de kit (roues), pour que la nouvelle bibliothèque d'éléments réels (vis, barres, tubes, rétroviseurs) passe les mêmes portes. (10 November 2026, 00:10:36 +0100)
