@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-11-09T15:19:18.812Z",
+ "scannedAt": "2026-11-09T15:32:36.441Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
@@ -53,18 +53,18 @@
   },
   {
    "projectId": "zenray-meshes",
-   "lines": 248,
-   "work": 28,
+   "lines": 276,
+   "work": 31,
    "prompts": 1,
    "first": "2026-11-05T18:27:27.070Z",
-   "last": "2026-11-09T15:18:39.137Z",
+   "last": "2026-11-09T15:31:23.257Z",
    "strength": "strong",
    "conversationId": "claude:0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "provider": "claude",
    "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "title": "zenray meshes v3",
-   "updatedAt": "2026-11-09T15:18:47.394Z",
-   "bytes": 28109394,
+   "updatedAt": "2026-11-09T15:31:55.292Z",
+   "bytes": 29849309,
    "boundProject": "zenray-meshes"
   },
   {
@@ -242,6 +242,22 @@
    "updatedAt": "2026-11-02T22:25:37.927Z",
    "bytes": 38091,
    "boundProject": "alien-skin-2-november-2026"
+  },
+  {
+   "projectId": "zenray-meshes",
+   "lines": 1,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-09T15:24:21.297Z",
+   "last": "2026-11-09T15:24:21.297Z",
+   "strength": "weak",
+   "conversationId": "claude:db59f75b-cccf-46e4-a3ce-27e1c3aebd7b",
+   "provider": "claude",
+   "sessionId": "db59f75b-cccf-46e4-a3ce-27e1c3aebd7b",
+   "title": "Auditer le prompt Gemini de ZenRay Knight",
+   "updatedAt": "2026-11-09T15:31:29.723Z",
+   "bytes": 42059,
+   "boundProject": null
   },
   {
    "projectId": "zenray-meshes",

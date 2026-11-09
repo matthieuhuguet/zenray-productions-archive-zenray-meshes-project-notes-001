@@ -70296,3 +70296,202 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/subagents/agent-a87809900af81623e.jsonl. (9 November 2026, 16:19:40 +0100)
 
 > Le contrôle des tirets confirme deux plages « 0–1 » restées dans la source Components1.md. Je vérifie les occurrences de « -- », la présence d'échecs ou de réserves dans Components1.md, et les comptes de paramètres par catégorie. (9 November 2026, 16:19:40 +0100)
+
+## 9 November 2026, 16:22:54 +0100 : Iteration
+
+<!-- feedback-event:b408d8ad610ad00c3d4a48cea0bc19739fe97fd52dbaccf7db603624c9ea59fa (9 November 2026, 16:22:54 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 16:22:54 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/subagents/agent-aa95db25a2e5f2f5b.jsonl. (9 November 2026, 16:22:54 +0100)
+
+> # Lecteur E : mémoire du projet et règles (9 November 2026, 16:22:54 +0100)
+>
+> Je n'ai pas écrit `reader-E.md` : la consigne système interdit d'écrire un rapport en fichier .md. Le rapport complet suit donc ici. Deux verdicts s'ajoutent à ceux demandés : EN COURS et NON VÉRIFIÉ. (9 November 2026, 16:22:54 +0100)
+>
+> **Périmètre lu en entier** : `/Users/zenray/.claude/Memory1/Projects/zenray-meshes/ZenRayMeshes1.md` (1 303 lignes, huit lectures), `Rules.md` (119 lignes), `Playbook.md`, `FailedMethods_Car.md`, `RESUME.md`, `Components_latest.md`, même dossier. Non ouverts : `FEEDBACK.md`, `Trees1.md`, `research-dataset/`, les skills cités. Le catalogue externe (§1 à §7 : Maya, 3ds Max, Houdini, Blender, ZBrush, algorithmes, environ 400 entrées) est lu mais regroupé faute de place ; aucune URL n'a été ouverte. `§` renvoie aux titres de `ZenRayMeshes1.md`, `l.` aux lignes de `Rules.md`. (9 November 2026, 16:22:54 +0100)
+>
+> **En résumé** : le projet a produit des mesures solides (juges, garde anti-régression, symétrie, roue), mais aucune chaîne de construction validée de bout en bout. La règle du 99,9 % a aussi changé de sens en cours de route. (9 November 2026, 16:22:54 +0100)
+>
+> ## Méthodes (9 November 2026, 16:22:54 +0100)
+>
+> **M1. Volumes, silhouettes, SilFit** (visual hull, ShadowBox, VDB). Cible : les deux. Fait : ajuste un volume ou une cage aux silhouettes des six vues. Où : §9 (25 October 2026), l. 8, §6.10. Outils : SilFit (§9), VDB from Polygons (§3.8). Preuves : « 0,9883 contre l'enveloppe mais voiture « écrasée », sans pièces » (§9). Verdict : ABANDONNÉ comme construction et livrable (l. 8 : un volume ne sert qu'à mesurer). Gardé comme mesure. (9 November 2026, 16:22:54 +0100)
+>
+> **M2. Cage canonique ArchetypeCar** (ArchetypeFit, CageComp). Cible : hard surface, voiture. Fait : cage de 32 stations par 16 points (496 quads), stations nommées, plis à 2,5, Catmull-Clark à 3 niveaux. Où : §8 (25 October 2026). Outils : `/Users/zenray/.claude/tmp/tmp-zenray-meshes/Scripts/archetypes/ArchetypeCar.py`. Preuves : note 0,9761 en v25 ; silhouette 0,9695 à 0,9696 de v366 à v445, « forme identique » (§14). Verdict : PARTIEL. Base de la voiture jusqu'à v752 (§36). Le corps reste une surface de blocage découpée en panneaux (§10, n° 1), ce qui contredit l. 27. (9 November 2026, 16:22:54 +0100)
+>
+> **M3. Feuille de composants et ComponentScore.** Cible : voiture. Fait : nomme 44 groupes (§10), mesure chacun (lignes F1, topologie, placement). Où : §10, §14, `Components_latest.md`. Outils : `Scripts/ComponentScore.py`. Preuves : « moyenne 87,6 %, 39 composants : exact 20, proche 15, non exact 4 » (v416). Verdict : PARTIEL. Mesure retenue, mais dix composants ont un marqueur mal placé (l. 18 en fait un facteur). `Components_latest.md` date du 26 October 2026 : ce n'est pas le dernier état. (9 November 2026, 16:22:54 +0100)
+>
+> **M4. Juges de topologie** (TopoCheck, TopoFix, AnimReview, ZrlTopoJudge). Cible : les deux. Fait : compte plis, écrasés, Jacobien, pôles, rectitude, symétrie ; AnimReview évalue 21 portes. Où : §14, §23, §29, §31. Preuves : auto-tests vert et rouge (§29, §31) ; la normale de coin 0 comptait « 1 249 plis » contre « 862 » avec la normale des diagonales (§22). Verdict : MARCHE pour mesurer. Les chiffres antérieurs à §23 (§16, §17) sont des bornes hautes, selon le texte. (9 November 2026, 16:22:54 +0100)
+>
+> **M5. Plans RANSAC.** Cible : hard surface. Où : `FailedMethods_Car.md`. Preuves : « Le capot demande 8 plans, 15 mm d'écart : seule la porte tient ». Verdict : ÉCHEC. (9 November 2026, 16:22:54 +0100)
+>
+> **M6. Filtre de facettes ZenRayFinish et ZenRayFinishAll** (§39 à §41, `references/CarFinish.md`). Cible : hard surface. Fait : filtre des normales, sommets ramenés aux plans voisins, laisse de 30 puis 20 mm, garde « ne pas nuire ». Preuves : v752 vers v760, « dièdres mous 35 vers 19 % » (§39). Régression : rayons de capot sous 3 mm, « 1,8 % pour v752 contre 11,2 % après filtre » (§40), puis « 10,6 % » (§41). Facette synthétique : erreur « 7,37 vers 7,44 mm », plis nets « 4 vers 43 % » (§41). Verdict : PARTIEL. Adopté pour v760, mais la planéité se paie en erreur et en épaisseur. `FailedMethods_Car.md` classe encore le « filtre de facettes global » en ÉCHEC. (9 November 2026, 16:22:54 +0100)
+>
+> **M7. Retopologie pièce par pièce, assemblage par couverture.** Cible : voiture. Preuves : « 1 575 à 2 426 arêtes ouvertes contre 104 » (`FailedMethods_Car.md`) ; hybride « écrasés 12,8 % contre 2,2 % » pour QuadWild mechanical partout (§33). Le « meilleur de chaque pièce » avait « 133 pièces sur 137 » (§36). Verdict : ÉCHEC comme méthode unique, utile seulement en tournoi (M8). (9 November 2026, 16:22:54 +0100)
+>
+> **M8. Tournoi de réglages du Quad Remesh par pièce** (SOP `quadremesh`). Cible : tout maillage. Fait : treize réglages testés, garde le minimum de « plié + 0,3 écrasé + 0,0005 pôles pour 1 000 quads ». Preuves : 53 pièces rejouées, 51 améliorées, « plié 1,06 % (624 quads) » (§17) ; à densité égale, « 59 017 quads, plié 0,64 %, écrasé 2,48 % » (§25). Aucun réglage unique ne gagne. Verdict : MARCHE comme référence. Les deux chiffres divergent parce que la normale du juge a changé (§23), sans réconciliation écrite. (9 November 2026, 16:22:54 +0100)
+>
+> **M9. QuadWild** (Bi-MDF, organic ou mechanical). Cible : tout maillage. Fait : champ de directions, patchs, quantification entière, densité réglée par `scaleFact` (§25). Preuves : arche à densité égale, « 0,15 % plié, 1,1 % écrasé » contre Quad Remesh « 0,68 %, 0,9 % » (§25) ; seuil d'arêtes vives à 85 degrés, « plié 0,02 %, écrasé 0,39 % » (§39). Matthieu : « quasi la perfection absolue » sur les angles de l'arche, mais « il faut encore un tout petit peu straighten les quads » (§32). Verdict : PARTIEL. Gagne sur l'arche au seuil 85, pas partout. Ne symétrise pas. Rectitude à corriger. (9 November 2026, 16:22:54 +0100)
+>
+> **M10. Hybride QuadWild et Tutte** (ZrlHybrid, ZrlTutte7). Preuves : Jacobien moyen de Manny « 0,929 contre 0,909 » (§28) ; le texte conclut que l'hypothèse « n'est PAS confirmée ». Arche, F1 : « 6 840 quads pour 5 104 visés, plié 0,76 %, écrasé 4,36 % » (§39). Passe 7 : arche « couverture 0,997, plié 0,06 %, écrasé 0,87 % » (§27), mais « rien n'est encore porté dans Scripts/lines/ZrlTutteFill.py ». Verdict : PARTIEL. La passe 7 est la meilleure mesure, non portée. (9 November 2026, 16:22:54 +0100)
+>
+> **M11. Comptes d'arêtes entiers (MILP) et conditions de Tarini.** Preuves : heptagone et octogone réguliers « 137 et 128 quads, 0 plié » (§18) ; conditions vérifiées sur « 97 patchs sur 97 » de QuadWild (§31). Limites : N = 2 non traité ; année de la référence « 2021 ou 2022 » (§29). Verdict : MARCHE sur plan et sur patchs. (9 November 2026, 16:22:54 +0100)
+>
+> **M12. Redressement des quads** (redresseur par centroïdes, barrière de Winslow, PlanarizeQuads, RelaxQuads, HillClimb, terme `fair`). Preuves : redresseur simple « n'apporte rien » ; Winslow « gagne 0,65 degré de rectitude » (§32) ; v477 « 3 790 vers 3 195 » fautes absolues ; v478 « 3 195 vers 2 698 », écart de forme « 0,84 mm au plus » ; v482 « 2 387 vers 1 919 » (§14). Terme `fair` : arche « 6,4 vers 4,0 mais plis et écrasés doublent » (§39). Verdict : PARTIEL. Rectitude de l'arche encore rouge à 6,7 degrés (§40). l. 44 interdit de bouger les polygones à la main ; ces outils les bougent par algorithme. Pas clair si l'esprit de la règle est respecté. (9 November 2026, 16:22:54 +0100)
+>
+> **M13. Symétrie par moitié reflétée puis soudée.** Preuves : Manny, distance de symétrie « 0,30 » (Quad Remesh), « 0,29 » (QuadWild), « 0,31 » (hybride), « 0,01 » (paires miroir) (§31) ; arche « symétrie (0,000) » (§40). Limites : layouts QuadWild non symétriques, « 4 paires miroir sur 12 arcs » (§31) ; symétrie défectueuse sur visage et bras (§36). Verdict : MARCHE sur les cas testés. (9 November 2026, 16:22:54 +0100)
+>
+> **M14. ZenRay Lines, puis ZenRay Retopology** (réseau de courbes, patchs à quatre coins). Preuves : 35 panneaux visibles, « 7 177 quads, plié 0 %, écrasé 0,67 % » (§16, ancienne normale). Échec : « tout ce qui n'a pas de réseau de courbes » (§16). Verdict : PARTIEL. Bon sur la carrosserie à courbes, pas ailleurs. Matthieu : « on va l'appeler ZenRay Meshes » (§26). (9 November 2026, 16:22:54 +0100)
+>
+> **M15. Décomposition automatique en patchs** (ZrlAny, régions à angle, VSA). Preuves : arche « de 3 000 à 3 500 quads pliés sur 11 000 à 14 000 » (§19) ; « fusion de patchs (les patchs minces sont des faces CAD) » (§40, « approches échouées »). Verdict : ÉCHEC. (9 November 2026, 16:22:54 +0100)
+>
+> **M16. `ZenRayRetopology.py run` et garde `baseline_guard`.** Preuves : banc de 18 cas (§41, garde anti-régression) : huit portes vertes sur porte, toit, pneu, vitre, pare-brise ; la référence rend capot, arrière et panneaux à plis ; arche, eucalyptus, Manny et lys restent rouges sur la rectitude. Rectitude sous 2 degrés et fermeture de l'arche « non atteintes ». Verdict : PARTIEL. La garde répond à l. 80 et l. 82. Les critères de §38 ne sont pas validés par Matthieu. (9 November 2026, 16:22:54 +0100)
+>
+> **M17. Guides de courbes, aperçu léger, traduction Houdini (roue).** Preuves : « aperçu numpy en 0,11 s, mesh Houdini en 1,07 s, silhouettes identiques à 0,99999 d'IoU, 100 % quads, 0 arête ouverte » (§44) ; « Jacobien minimal 0,553 aux rayons » (§43). La roue codée à la main donnait « 12 faces à 7 côtés, Jacobien minimal 0,0 ». Verdict : MARCHE pour une pièce, non testé ailleurs. Le codage à la main : ÉCHEC. (9 November 2026, 16:22:54 +0100)
+>
+> **M18. Arbre, méthodes procédurales** (ordres TreeWP et WpFit, rayons X, réglage en bloc, blobs, masques binaires). Preuves : « F moyen 0,878 contre 0,849 par défaut et 0,708 en rayons X » (§14) ; la pénalité de surface en rayons X « rétrécit les arbres » (§14). Verdict : REMPLACÉ pour les branches (Playbook : « ne servent plus que de repli »). Masques binaires, réglage en bloc, blobs : ÉCHEC (l. 22). (9 November 2026, 16:22:54 +0100)
+>
+> **M19. Arbre, branches lues sur les crêtes** (BranchLab, BranchMethods m20, bouchons `quad_caps`). Preuves : « vainqueur m20 (G 0,52 contre 0,19) » (§14) ; w43 « banc F 0,61, vérité 3D 0,47 sur tree_syn » ; w46 bois 0,937, f46 0,886 (§14). Matthieu (l. 23) : « les branches dessinées ne sont pas les bonnes, c'est un contour ». Verdict : PARTIEL. Meilleure méthode mesurée, vérité 3D basse, rien validé à l'œil. Le Playbook affiche encore « Version jeu : v20 (100 % de quads) ». (9 November 2026, 16:22:54 +0100)
+>
+> **M20. Chaîne ChatGPT Images** (planche six vues, découpe, index de pastilles, grilles 4, 8, 16). Preuves : « une feuille de plusieurs pièces échoue », « 55,8 % d'écart de hauteur » sur le capot (§53) ; deux générations justes ensemble « sur 94 pastilles sur 416 » (§51) ; « 99,904 % de pixels justes à 2 px sur une vérité simulée, contre 99,203 % sans calage ; 99,220 % à 1 px » (§52) ; cohérence entre vues « 0,3 à 0,7 sur cinq tours » (l. 117). Verdict : grilles ÉCHEC, remplacées par l. 97 (une image, un objet). Découpe PARTIELLE : §49 écrit qu'elle « réussit », sans mesure dans le fichier. (9 November 2026, 16:22:54 +0100)
+>
+> **M21. Lecteur de masques** (MicroDetect, `has_truth`). Preuves, sur vérité simulée : Manny « 99,477 %, 99,935 %, 99,998 % » à ±1, ±2, ±3 px (§46) ; après finition « 99,510 % à ±1 px, 99,944 % à ±2 px » (§47). « Le 99,9 % tient donc à ± 2 pixels, pas à ± 1 pixel » (§46). Sur la vraie planche, « aucune vérité n'existe » (§46). Verdict : MARCHE sur vérité simulée, NON VÉRIFIÉ sur image réelle. (9 November 2026, 16:22:54 +0100)
+>
+> **M22. Lecture de tutoriels vidéo par agents** (Gnomon, Dracard, On Mars 3D, Aryan). Preuves : « 4,16 millions de tokens » pour douze lecteurs d'épisodes 01 et 02 (l. 105) ; camion, « 86,1 % sur l'image utilisée contre 78,1 % en moyenne sur 4 images à part » (l. 103) ; un score élevé cachait des pieds effondrés et des paumes gonflées (l. 110). Verdict : ÉCHEC comme méthode de lecture. Ne garder que « nodes et intention d'abord, un composant à la fois » (l. 99) : PARTIEL. (9 November 2026, 16:22:54 +0100)
+>
+> **M23. Composants par planche ChatGPT Chat** (quatre étapes, planche à quatre vues, capot V002). Preuves : seuls « plaques, tête, aile, jambe, torse+queue » ont une planche, et « AUCUN n'a été reconstruit depuis sa planche sauf l'essai des plaques (négatif) » (l. 112). Capot V002 : « -3,1/+3,3/+3,6 % (plancher ±3,3 % imposé par la planche) », en « attente de la validation à l'œil » (RESUME, 5 November 2026). Verdict : EN COURS. (9 November 2026, 16:22:54 +0100)
+>
+> **M24. Générateurs de maillage par IA** (Hunyuan, TRELLIS, Meshy, Tripo, Rodin). Verdict : EXCLUS (l. 114, « reconstruction 3D exclusivement déterministe »). Voir décision 6. (9 November 2026, 16:22:54 +0100)
+>
+> ## Les règles de Matthieu (Rules.md), par thème (9 November 2026, 16:22:54 +0100)
+>
+> - **Cible 99,9 %** : l. 6 (score contre la planche), l. 12 (« pas 99,9 % de recouvrement »), l. 92 (l'œil prime), l. 101 (« 83,9 % n'est pas 99,9 % »), l. 114 (déterministe). Les trois définitions ne se citent pas entre elles. (9 November 2026, 16:22:54 +0100)
+> - **Méthode** : l. 5 (au moins 16 méthodes sur 4 phases avant de construire), l. 9 (consigner la méthode), l. 50 (inventaire avant tout outil), l. 79 (une commande, auto-test dans les deux sens), l. 84 (lire l'index du skill avant de coder), l. 116 (nouvelles sections en fin de `references/`). l. 13 (« décider seul jusqu'au 26 October 2026, 8 h ») est échue et devrait sortir. (9 November 2026, 16:22:54 +0100)
+> - **Voiture et composants** : l. 11 (archétypes, pas d'ajustement en bloc), l. 12 et l. 27 (composants séparés, Lego, NURBS), l. 29 (good enough), l. 30 (capot faux), l. 33 (nœud `kept_latest` sur v551, périmé), l. 34 (seul Matthieu déclare la voiture finie), l. 36 et l. 37 (v644 gelée, dépassée sans ligne), l. 45 (composant démontable), l. 46 (« Procedura », aucune trace ailleurs). (9 November 2026, 16:22:54 +0100)
+> - **Topologie et courbes** : l. 8 (quads seuls), l. 40 (une ligne de carrosserie, un segment), l. 43 (pas de rustines), l. 44 (forme pilotée par courbes), l. 47 et l. 107 (courbes lisses, l. 107 en anglais, corrigée par l. 108), l. 52, 53, 56, 57, 59 (ZenRay Lines, remplacées par l. 72), l. 54 et 55 (critères chiffrés), l. 65 et 66 (anneaux d'articulation), l. 74 (aucun composant ne disparaît), l. 80 et 82 (la référence gagne si elle est meilleure). (9 November 2026, 16:22:54 +0100)
+> - **Mesure et visuel** : l. 39 (comparer vue par vue), l. 41, l. 69 (visuel à chaque étape), l. 71 et 81 (planches du code final), l. 77 (regarder la planche avant de dire « amélioré »), l. 90 et 91 (contour au zoom, pas de calage point par point), l. 104 (deux scores). (9 November 2026, 16:22:54 +0100)
+> - **Arbre** : l. 19 à 25 (un outil pour deux objets, pas de littéral, par étages, branches sur les crêtes, feuilles en dernier). (9 November 2026, 16:22:54 +0100)
+> - **Images et ChatGPT** : l. 86 (grilles 4, 8, 16) remplacée par l. 97 sans citation ; l. 87 et 89 ; l. 93 à 96 ; l. 115 (planche = modélisation seule) ; l. 117 à 119. (9 November 2026, 16:22:54 +0100)
+> - **Tutoriels et agents** : l. 17 (Haiku pour les images), l. 99 à 103, l. 105, l. 106 (une quarantaine de planches par agent), l. 111. (9 November 2026, 16:22:54 +0100)
+> - **Environnement** : l. 28 et l. 35 (identiques, Houdini ouvert via MCP), l. 42, l. 58, l. 61, l. 85, l. 112 (voir points ouverts). (9 November 2026, 16:22:54 +0100)
+> - **Hors projet ou doublons** : l. 16 (storyboard motion design) et l. 26 (orthographe, montage) n'ont rien à faire ici. l. 31 et l. 32 sont identiques, l. 32 sans identifiant. (9 November 2026, 16:22:54 +0100)
+>
+> ## Décisions contredites ou remplacées (9 November 2026, 16:22:54 +0100)
+>
+> 1. **99,9 % défini trois fois** : l. 6, l. 12, l. 101. La tolérance qui fait passer le seuil a été fixée après mesure, « à ± 2 pixels » (§46), sans ligne de règle modifiée. (9 November 2026, 16:22:54 +0100)
+> 2. **Voiture en composants séparés (l. 12, l. 27) contre une surface unique découpée** (§8, §10 n° 1 « CAR_body_blockout », §36). Aucune ligne n'acte le changement. (9 November 2026, 16:22:54 +0100)
+> 3. **Forme gelée v644 (l. 36 et 37, 28 October 2026)**, puis v752 et v760 (§36 à §41). Aucune ligne ne remplace la cible. La silhouette reste à 0,9695 à 0,9696 de v366 à v445 (§14), loin de 0,999. (9 November 2026, 16:22:54 +0100)
+> 4. **« On corrige les courbes, jamais le maillage » (l. 57)** contre les filtres et redressements sur le maillage (§31, §39 à §41), et « pas de rustines » (l. 43). Pas clair si l. 57 vaut hors ZenRay Lines. (9 November 2026, 16:22:54 +0100)
+> 5. **Quads seuls (l. 8)** contre des livrables avec triangles et n-gones : v400 avait « triangles 304 » et « n-gones 50 » (§14), v405 a été livré en OBJ. v760 n'est pas qualifiée. (9 November 2026, 16:22:54 +0100)
+> 6. **Reconstruction « exclusivement déterministe » (l. 114)** contre des planches ChatGPT, génératives, dont l'accord varie de 0,3 à 0,7 (l. 117). Le catalogue (§20) cite encore QuadGPT, comme « long-term baseline », Meshtron, SATO et NeurCross, alors que §3.8 dit « à ne pas utiliser ». (9 November 2026, 16:22:54 +0100)
+> 7. **Grilles et « feuilles à remplir » (l. 86, 89, 94)** remplacées par une image par objet (l. 97), sans citation, alors que l. 3 l'exige. (9 November 2026, 16:22:54 +0100)
+> 8. **ZenRay Lines puis ZenRay Retopology** (l. 52, 53, 56, 57, 59), renommés en l. 72 et §26, sans citation. Les préfixes `Zrl` et le dossier `lines/` restent. (9 November 2026, 16:22:54 +0100)
+> 9. **Filtre de facettes** : ÉCHEC dans `FailedMethods_Car.md`, adopté avec garde en §39 à §41. La fiche n'est pas mise à jour. (9 November 2026, 16:22:54 +0100)
+> 10. **Playbook.md (v470, 5 566 fautes) et Components_latest.md (v416)** sont antérieurs à v752 et v760. `RESUME.md` ne donne aucun état de la voiture. (9 November 2026, 16:22:54 +0100)
+> 11. **Licence Houdini** : « Refresh » (l. 28, l. 35) complété par « se log via computer use sur SideFX » (l. 112), sans citation. (9 November 2026, 16:22:54 +0100)
+>
+> ## Points ouverts (9 November 2026, 16:22:54 +0100)
+>
+> - **Version de référence de la voiture** : v644 (l. 36), v551 (l. 33), v470 (Playbook), v752, v760, v761 (§36 à §41), capot V002 (RESUME). Lequel fait foi ? Pas clair. (9 November 2026, 16:22:54 +0100)
+> - **Validation de la forme** : aucune validation écrite de Matthieu hors le gel de l. 36. Capot V002 en attente de son œil. (9 November 2026, 16:22:54 +0100)
+> - **Composants ChatGPT** : cinq planches, aucune pièce reconstruite sauf un essai négatif (l. 112). (9 November 2026, 16:22:54 +0100)
+> - **Question du 5 November sans réponse écrite** (RESUME) : reproduction « via hda houdini ou blender », et « la méthode est elle consignée ». Blender n'a aucun verdict dans le fichier. (9 November 2026, 16:22:54 +0100)
+> - **Piste arbre** : arrêtée le 26 October 2026 à 18 h 50, w46 et f46 non validés à l'œil. Pas clair si elle est abandonnée. (9 November 2026, 16:22:54 +0100)
+> - **Critères de perfection (§38)** : rectitude sous 2 degrés, fermeture, couverture d'au moins 0,97 sur Manny et le lys, plis sur panneaux. Non atteints, non validés. (9 November 2026, 16:22:54 +0100)
+> - **Passe 7 de Tutte** (§27) : non portée dans `Scripts/lines/ZrlTutteFill.py`. (9 November 2026, 16:22:54 +0100)
+> - **Chiffres à réconcilier** : §17 (58 585 quads, 1,06 % plié) contre §25 (59 017 quads, 0,64 %). Capot : 11,2 % (§40) contre 10,6 % (§41). Erreur de forme 7,37 vers 7,44 mm (§41), non commentée. Rectitude de QuadWild 24,2 degrés (§31) corrigée en 5,30 (§32), sans mise à jour du tableau. Titre de §33 « 131 pièces » contre « 137 » dans le texte (§32, §36). (9 November 2026, 16:22:54 +0100)
+> - **Numérotation** : §39, §40, §41 et §42 ont chacun deux titres, donc les renvois « section 41 » sont ambigus. Deux fichiers s'appellent `ZenRayMeshes1.md`, celui-ci et celui des références du skill. (9 November 2026, 16:22:54 +0100)
+> - **Sources** : aucune URL du catalogue n'a été ouverte. §11 à §13 sont marqués « interne, à vérifier ». (9 November 2026, 16:22:54 +0100)
+> - **Non défini** : « Procedura » (l. 46), `CurveFair.py` (l. 50), origine de l'objet « Manny » (objet de test ?), branche `research/retopo-cloud` annoncée mais non confirmée poussée (§30). (9 November 2026, 16:22:54 +0100)
+> - **Sécurité** : l. 112 demande de lire les identifiants dans `Identity/Matthieu1.md` et de se connecter soi-même à SideFX par computer use. Saisir un mot de passe est interdit sans accord explicite de Matthieu. À reformuler : Matthieu se connecte, puis l'agent relance hython. (9 November 2026, 16:22:54 +0100)
+> - **Droits** : l. 113 demande d'extraire des images de médias ArtStation. Les droits d'usage ne sont pas traités. (9 November 2026, 16:22:54 +0100)
+
+## 9 November 2026, 16:22:32 +0100 : Iteration
+
+<!-- feedback-event:167be8b97a78d902ce083fab3b726547ff2a780a7900c8245afa960345b61383 (9 November 2026, 16:22:32 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 16:22:32 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/subagents/agent-a87809900af81623e.jsonl. (9 November 2026, 16:22:32 +0100)
+
+> J'ai tout le nécessaire. Je rédige le rapport dans le fichier demandé, puis je supprime mes deux fichiers temporaires de comparaison. (9 November 2026, 16:22:32 +0100)
+
+## 9 November 2026, 16:23:10 +0100 : Iteration
+
+<!-- feedback-event:736f4c74a03bb8467c5e028ff969e827cf457bfec042cc3389b8354d8f0b470e (9 November 2026, 16:23:10 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 16:23:10 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/subagents/agent-a87809900af81623e.jsonl. (9 November 2026, 16:23:10 +0100)
+
+> Le rapport est écrit. Je vérifie le nombre de mots, l'absence de tirets cadratins dans le texte, et je supprime mes fichiers temporaires. (9 November 2026, 16:23:10 +0100)
+
+## 9 November 2026, 16:23:13 +0100 : Iteration
+
+<!-- feedback-event:08b3923f9e47f3a5171af6bfbe0ac13672af0c7a562ff1559be6eb48f65962d5 (9 November 2026, 16:23:13 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 16:23:13 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/subagents/agent-a87809900af81623e.jsonl. (9 November 2026, 16:23:13 +0100)
+
+> Le rapport dépasse la limite de 3500 mots (3949) et contient encore un tiret à retirer. Je repère le tiret, puis je resserre le texte. (9 November 2026, 16:23:13 +0100)
+
+## 9 November 2026, 16:23:15 +0100 : Iteration
+
+<!-- feedback-event:b87a965f31b913a16cb56d5e85573b00be7052216c260b90f25f71365dc4270d (9 November 2026, 16:23:15 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 16:23:15 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/subagents/agent-a821f5c0541d4de24.jsonl. (9 November 2026, 16:23:15 +0100)
+
+> Rapport écrit : `/Users/zenray/.claude/tmp/tmp-zenray-meshes/research/v3-audit-9-November-2026/reader-G.md` (environ 3 290 mots, sans tiret long). (9 November 2026, 16:23:15 +0100)
+>
+> - Dracard : 16 pièces, aucune à 99,9 %. Gagnant du tournoi D22 (D02, D03, D18, D22). Matthieu a jugé le dragon « nul » le 5 November 2026. La corne « bien marchée » n'est écrite dans aucun fichier lu. (9 November 2026, 16:23:15 +0100)
+> - Dracard : le lissage de l'accrochage D18 est MARCHE, D17, D19 et D21 sont écartés. La tête reste le premier propriétaire d'erreur (51 %), statut todo, sans HDA. (9 November 2026, 16:23:15 +0100)
+> - Camion Gnomon : les boîtes posées à l'estime sont ABANDONNÉES (« ne correspondait à rien »). La coque à deux contours est PARTIELLE : 78,1 % hors échantillon, 99,9 % non atteint. (9 November 2026, 16:23:15 +0100)
+> - Retopologie : R07 gagne le tournoi sur une seule pièce. ZenRayRetopology a au moins un rouge sur 8 cas sur 11. La finition est PARTIELLE. Les bouchons de trous et les plis imposés à QuadWild sont MARCHE sur l'objet test. (9 November 2026, 16:23:15 +0100)
+> - ZenRay Lines : le maillage de la voiture est un ÉCHEC (0 face sur 18 au juge strict, non fermé). La cause probable se trouve dans `lines.json`, mais c'est une inférence non vérifiée. (9 November 2026, 16:23:15 +0100)
+> - Vérifié par commande : JSON valide, 15 HDA et planches présents, `zrm_head` absent, formule de Tarini exacte. (9 November 2026, 16:23:15 +0100)
+> - Incohérences signalées : 14, 28 ou V_001 à V_028 versions du camion, homonymie « Dracard » (tuto contre dragon), « crocodile » contre « dragon », D15 dit « écarté » à tort. (9 November 2026, 16:23:15 +0100)
+> - Décision attendue de Matthieu : la reprise de la génération ChatGPT (main, pied, cornes, dents) a été refusée par le garde-fou (« Matthieu a dit stop »). (9 November 2026, 16:23:15 +0100)
+
+## 9 November 2026, 16:23:18 +0100 : Iteration
+
+<!-- feedback-event:e2e97ca18735df6d1d6b5776c8c58062bd2c95b7d19d0734ffb2dbda50a1b3ba (9 November 2026, 16:23:18 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 16:23:18 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/subagents/agent-a87809900af81623e.jsonl. (9 November 2026, 16:23:18 +0100)
+
+> Le tiret restant reprend la plage « 0–1 » citée telle quelle. Je réécris le rapport plus court, sans perdre les preuves ni les renvois. (9 November 2026, 16:23:18 +0100)
+
+## 9 November 2026, 16:24:05 +0100 : Iteration
+
+<!-- feedback-event:bdd2479e48110c50fcfc7d4027d4328e5cbd2a011c4bd34a8a421fd1cfc2af01 (9 November 2026, 16:24:05 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 16:24:05 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/subagents/agent-a87809900af81623e.jsonl. (9 November 2026, 16:24:05 +0100)
+
+> Le rapport tient en 3367 mots, sans tiret cadratin. En le relisant, j'ai trouvé une erreur : M13 attribue au chapitre C1 l. 85 à 95 le « badge » et le nœud `OUT_`, qui figurent en réalité en C2 l. 779 à 786. Je corrige ce passage avec une substitution vérifiée. (9 November 2026, 16:24:05 +0100)
+
+## 9 November 2026, 16:24:18 +0100 : Iteration
+
+<!-- feedback-event:96daf00021afadfcce6aa3237a8a66b013a834d284443c9b77c7fbd718947d05 (9 November 2026, 16:24:18 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 16:24:18 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/subagents/agent-a87809900af81623e.jsonl. (9 November 2026, 16:24:18 +0100)
+
+> Lecteur F terminé : `/Users/zenray/.claude/tmp/tmp-zenray-meshes/research/v3-audit-9-November-2026/reader-F.md` (3 380 mots). (9 November 2026, 16:24:18 +0100)
+>
+> 1. Les deux fichiers ont été lus en entier : Components1.md (548 lignes) et ComponentsFromHoudini1.md (2 043 lignes). (9 November 2026, 16:24:18 +0100)
+> 2. ComponentsFromHoudini1.md recopie Components1.md l. 32 à 495 à l'identique (vérifié par diff). Un seul écart : la plage « 0–1 » reste dans la source, alors que la copie et son en-tête annoncent qu'elle a été corrigée. (9 November 2026, 16:24:18 +0100)
+> 3. Méthode écrite : protocole HDA en cinq étapes, courbes et sweep 2.0, curseurs liés au maître par `ch("../")`, recettes hython, snapshots, UV par pièce. (9 November 2026, 16:24:18 +0100)
+> 4. Constructions : six HDA (Armature, WoodFacade, PorchStairs, WindowA, WindowB, Roof), plus Entrance_Arch_Clean, l'eucalyptus et la bande de trim du lys. (9 November 2026, 16:24:18 +0100)
+> 5. Cuisson à neuf le 12 septembre 2026 : cinq HDA sur six cuisent, WoodFacade rend 0 point sans erreur. Components1.md garde pourtant VALIDE pour les six. (9 November 2026, 16:24:18 +0100)
+> 6. Ce qui marche, mesuré : normales réparées par soudure (160 à 9 nulles, 925 à 0 non unitaires), prop propre de 2 928 à 995 faces avec symétrie à 0,0004 mm, tuiles comptées, superposition à 12 à 14 px RMS. (9 November 2026, 16:24:18 +0100)
+> 7. Remplacé ou échoué : UV For-Each V2, encore présentée dans Components1.md l. 499 à 529, ouvertures par boolean sur clins, classement par table d'ids (88 lamelles mal classées), format snapshot `parms-only`, tronc VEX v004, eucalyptus v016 rejeté. (9 November 2026, 16:24:18 +0100)
+> 8. Verdicts surtout PARTIEL. Aucun verdict de Matthieu sur les six composants dans les deux fichiers, et la phrase « marchait à peu près » n'y figure pas. (9 November 2026, 16:24:18 +0100)
+> 9. Contradictions à trancher : sens des normales (anti-horaire contre horaire), Roof 5 528 points contre 5 832 à neuf, noms `window_a` contre `windowa`. (9 November 2026, 16:24:18 +0100)
+> 10. Points ouverts : PorchVestibule sans fiche, snapshots non réécrits après les audits de septembre, « 0.001 ms » sans trace de mesure. (9 November 2026, 16:24:18 +0100)
+
+## 9 November 2026, 16:28:44 +0100 : Iteration
+
+<!-- feedback-event:f49d146c8c7773e25f99d1f62620631fe4a3c77b82a1cab06a91e99fdc0be7f8 (9 November 2026, 16:28:44 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 16:28:44 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 16:28:44 +0100)
+
+> Les sept lecteurs ont fini. Le lecteur E a rendu son rapport dans sa réponse au lieu de l'écrire : je le range sur le disque, puis je lis les rapports F et G. (9 November 2026, 16:28:44 +0100)
+
+## 9 November 2026, 16:30:54 +0100 : Iteration
+
+<!-- feedback-event:b63da3850443890ad0d02f3b765e4ea8c5b8875a63ea79ce4db7ee2849475c86 (9 November 2026, 16:30:54 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 16:30:54 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 16:30:54 +0100)
+
+> Je passe au test, sur le capot du vrai camion. D'abord je regarde le capot de près sur les deux photos calibrées. (9 November 2026, 16:30:54 +0100)
