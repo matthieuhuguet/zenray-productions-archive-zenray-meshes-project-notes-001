@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-11-09T06:29:53.699Z",
+ "scannedAt": "2026-11-09T12:30:51.428Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
@@ -94,8 +94,8 @@
    "conversationId": "gemini:70a78ced-be34-4b18-8408-7ef23b2284af",
    "provider": "gemini",
    "sessionId": "70a78ced-be34-4b18-8408-7ef23b2284af",
-   "title": "Conversation Gemini 70a78ced",
-   "updatedAt": "2026-10-27T22:40:22.755Z",
+   "title": "Est-ce que pour la vidéo, tu peux simplement refaire, recompute la vidéo, mais je veux enlever toute l'UI, l'interface, je veux juste garder",
+   "updatedAt": "2026-10-27T22:39:42.736795+00:00",
    "bytes": 4816896,
    "boundProject": null
   },
@@ -113,22 +113,6 @@
    "title": "Camion Gnomon reproduit dans Houdini",
    "updatedAt": "2026-11-05T15:32:18.428Z",
    "bytes": 41473,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-meshes",
-   "lines": 2,
-   "work": 1,
-   "prompts": 0,
-   "first": "2026-11-01T15:10:26.500Z",
-   "last": "2026-11-01T15:10:26.542Z",
-   "strength": "weak",
-   "conversationId": "codex:01a1977d-1eef-7101-ab27-b8d1bd35afcf",
-   "provider": "codex",
-   "sessionId": "01a1977d-1eef-7101-ab27-b8d1bd35afcf",
-   "title": "Conversation codex 01a1977d",
-   "updatedAt": "2026-11-01T22:23:16.100Z",
-   "bytes": 8373764,
    "boundProject": null
   },
   {
