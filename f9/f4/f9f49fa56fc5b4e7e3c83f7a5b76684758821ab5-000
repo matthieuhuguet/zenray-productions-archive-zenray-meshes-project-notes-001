@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-11-09T12:30:51.428Z",
+ "scannedAt": "2026-11-09T15:19:18.812Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
@@ -16,7 +16,7 @@
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes dragon sculpt",
    "updatedAt": "2026-11-05T15:38:15.829Z",
-   "bytes": 58286,
+   "bytes": 58287,
    "boundProject": "zenray-meshes"
   },
   {
@@ -53,18 +53,18 @@
   },
   {
    "projectId": "zenray-meshes",
-   "lines": 206,
-   "work": 20,
+   "lines": 248,
+   "work": 28,
    "prompts": 1,
    "first": "2026-11-05T18:27:27.070Z",
-   "last": "2026-11-06T00:46:12.506Z",
+   "last": "2026-11-09T15:18:39.137Z",
    "strength": "strong",
    "conversationId": "claude:0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "provider": "claude",
    "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
-   "title": "zenray meshes v2",
-   "updatedAt": "2026-11-06T00:46:16.004Z",
-   "bytes": 43524,
+   "title": "zenray meshes v3",
+   "updatedAt": "2026-11-09T15:18:47.394Z",
+   "bytes": 28109394,
    "boundProject": "zenray-meshes"
   },
   {
@@ -176,7 +176,7 @@
    "sessionId": "37715230-b8ac-48ec-ad5f-63dcb4149925",
    "title": "louisiana bayou shorts",
    "updatedAt": "2026-10-30T02:12:26.822Z",
-   "bytes": 37224,
+   "bytes": 37446,
    "boundProject": null
   },
   {
@@ -200,15 +200,15 @@
    "lines": 2,
    "work": 0,
    "prompts": 1,
-   "first": "2026-11-04T13:01:30.447Z",
-   "last": "2026-11-04T13:01:30.517Z",
+   "first": "2026-11-03T15:09:41.952Z",
+   "last": "2026-11-03T15:09:41.952Z",
    "strength": "weak",
-   "conversationId": "claude:ab8eb886-c8c8-4907-9217-d36f0dd11c49",
+   "conversationId": "claude:fdce96ce-c0fd-4b6e-8530-957817ed13c2",
    "provider": "claude",
-   "sessionId": "ab8eb886-c8c8-4907-9217-d36f0dd11c49",
-   "title": "Libération d'espace disque Mac",
-   "updatedAt": "2026-11-04T23:52:01.228Z",
-   "bytes": 37939,
+   "sessionId": "fdce96ce-c0fd-4b6e-8530-957817ed13c2",
+   "title": "zenray documents",
+   "updatedAt": "2026-11-09T15:03:20.176Z",
+   "bytes": 38048,
    "boundProject": null
   },
   {
@@ -216,15 +216,15 @@
    "lines": 2,
    "work": 0,
    "prompts": 1,
-   "first": "2026-11-03T15:09:41.952Z",
-   "last": "2026-11-03T15:09:41.952Z",
+   "first": "2026-11-04T13:01:30.447Z",
+   "last": "2026-11-04T13:01:30.517Z",
    "strength": "weak",
-   "conversationId": "claude:fdce96ce-c0fd-4b6e-8530-957817ed13c2",
+   "conversationId": "claude:ab8eb886-c8c8-4907-9217-d36f0dd11c49",
    "provider": "claude",
-   "sessionId": "fdce96ce-c0fd-4b6e-8530-957817ed13c2",
-   "title": "zenray assets and edit",
-   "updatedAt": "2026-11-03T19:10:42.095Z",
-   "bytes": 37850,
+   "sessionId": "ab8eb886-c8c8-4907-9217-d36f0dd11c49",
+   "title": "zenray disk space",
+   "updatedAt": "2026-11-09T15:00:58.399Z",
+   "bytes": 38186,
    "boundProject": null
   },
   {
@@ -240,8 +240,24 @@
    "sessionId": "fd247c15-80dd-4c74-93af-112af60fa28e",
    "title": "zenray height",
    "updatedAt": "2026-11-02T22:25:37.927Z",
-   "bytes": 38014,
+   "bytes": 38091,
    "boundProject": "alien-skin-2-november-2026"
+  },
+  {
+   "projectId": "zenray-meshes",
+   "lines": 1,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-09T13:05:18.524Z",
+   "last": "2026-11-09T13:05:18.524Z",
+   "strength": "weak",
+   "conversationId": "claude:6af72161-967c-4826-aab6-8fed6ea2efc6",
+   "provider": "claude",
+   "sessionId": "6af72161-967c-4826-aab6-8fed6ea2efc6",
+   "title": "zenray knight",
+   "updatedAt": "2026-11-09T13:51:18.651Z",
+   "bytes": 39009,
+   "boundProject": "conversation-claude-5316aef55aa94522e805fa65"
   },
   {
    "projectId": "zenray-meshes",
@@ -256,7 +272,7 @@
    "sessionId": "a1fda4e5-399d-437b-9e9e-c21bc6b9973f",
    "title": "Skill ZenRay Build Nintendo Games",
    "updatedAt": "2026-11-04T13:43:18.407Z",
-   "bytes": 37949,
+   "bytes": 37950,
    "boundProject": null
   },
   {
