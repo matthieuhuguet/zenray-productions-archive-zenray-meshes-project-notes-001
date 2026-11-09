@@ -72711,3 +72711,70 @@
 > 10. Frame 024: the routed board with no counter. No dimension lines, enclosure, ISO image or BOM are visible in any frame.</result> (9 November 2026, 23:10:16 +0100)
 > <usage><subagent_tokens>387628</subagent_tokens><tool_uses>28</tool_uses><duration_ms>234090</duration_ms></usage> (9 November 2026, 23:10:16 +0100)
 > </task-notification> (9 November 2026, 23:10:16 +0100)
+
+## 9 November 2026, 23:10:51 +0100 : Iteration
+
+<!-- feedback-event:05e22f73136c63588519cf2cd41a7b341ead6c1e0b0da129b852db8745870d56 (9 November 2026, 23:10:51 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 23:10:51 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 23:10:51 +0100)
+
+> L'audit du premier lecteur est net : les 24 images demandées ont bien été reçues (aucune refusée), donc son rapport repose sur des images réellement vues. La première moitié de la vidéo montre une démarche d'ingénieur en étapes comptées : un cahier des charges long, un fichier de spécification aux exigences numérotées avec les choix d'architecture justifiés, dix feuilles de schéma par sous-système, puis le placement des 249 pièces et le routage, étape par étape sur 119. J'attends le second lecteur pour la suite. (9 November 2026, 23:10:51 +0100)
+
+## 9 November 2026, 23:11:19 +0100 : Iteration
+
+<!-- feedback-event:30627330cf1e65ce3f182e3f4f34545b337a4c1d7c3e5a35929e17d35eec0a83 (9 November 2026, 23:11:19 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 23:11:19 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/subagents/agent-a55f36eedaccac576.jsonl. (9 November 2026, 23:11:19 +0100)
+
+> Report: `/Users/zenray/.claude/tmp/tmp-zenray-meshes/research/v4-architecture-video-10-November-2026/reports/reader-B.md` (9 November 2026, 23:11:19 +0100)
+>
+> Images actually seen: 24 of 24 (9 November 2026, 23:11:19 +0100)
+>
+> Summary of steps, frames 025 to 048: (9 November 2026, 23:11:19 +0100)
+>
+> 1. Seconds 24 to 28: the finished main PCB as a 3D render, top-down, then orbited to show the port edge. (9 November 2026, 23:11:19 +0100)
+> 2. Second 29: exploded view starts, with the PCB lifted above a dark bottom shell. (9 November 2026, 23:11:19 +0100)
+> 3. Seconds 30 to 34: a top cover is added (first a flat vented panel, then a box-shaped housing with ribs and three front cut-outs), with posts and feet appearing under the parts. (9 November 2026, 23:11:19 +0100)
+> 4. Second 34: housing and shell turn opaque black, with silver pins at the shell corners. (9 November 2026, 23:11:19 +0100)
+> 5. Seconds 35 to 36: assembled black enclosure, first on legs, then on its base; front ports and top vents are visible. (9 November 2026, 23:11:19 +0100)
+> 6. Seconds 37 to 38: the enclosure on a wooden table with cables plugged into the front ports. (9 November 2026, 23:11:19 +0100)
+> 7. Seconds 39 to 41: split screen. A coding assistant writes an SD-card image builder (build-image.py), a code diff, and three helper files (config-cm5.txt, fetch-firmware.py, flash-zigbee.sh). (9 November 2026, 23:11:19 +0100)
+> 8. Second 41: terminal dry run for a CM5 target (Home Assistant OS 18.3) and SHA-256 checks of the Zigbee and Thread firmware. (9 November 2026, 23:11:19 +0100)
+> 9. Seconds 42 to 45: back to the product shot; close-up of the front plate (two round buttons, two green LEDs, a USB-A port) and the top vents. (9 November 2026, 23:11:19 +0100)
+> 10. Seconds 46 to 47: fade to dark; second 47 is a solid black frame. (9 November 2026, 23:11:19 +0100)
+>
+> No dimensions in millimetres, tolerances or callouts appear in any of the 24 frames. The vent, rib and pin counts in the report are my visual estimates. (9 November 2026, 23:11:19 +0100)
+
+## 9 November 2026, 23:11:19 +0100 : Prompt
+
+<!-- feedback-event:afc9bab736fa4f2feec269fc3eb31d43e32e41788a8173fcb7eccf8f1b69d51c (9 November 2026, 23:11:19 +0100) -->
+- Project: zenray-meshes; kind: prompt. (9 November 2026, 23:11:19 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 23:11:19 +0100)
+
+> <task-notification> (9 November 2026, 23:11:19 +0100)
+> <task-id>a55f36eedaccac576</task-id> (9 November 2026, 23:11:19 +0100)
+> <tool-use-id>toolu_01NvP4YUY9znvajFax6u5CYe</tool-use-id> (9 November 2026, 23:11:19 +0100)
+> <output-file>/private/tmp/claude-501/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/tasks/a55f36eedaccac576.output</output-file> (9 November 2026, 23:11:19 +0100)
+> <status>completed</status> (9 November 2026, 23:11:19 +0100)
+> <summary>Agent "Read video frames 25 to 48" finished</summary> (9 November 2026, 23:11:19 +0100)
+> <note>A task-notification fires each time this agent stops with no live background children of its own. The user can send it another message and resume it, so the same task-id may notify more than once.</note> (9 November 2026, 23:11:19 +0100)
+> <result>Report: `/Users/zenray/.claude/tmp/tmp-zenray-meshes/research/v4-architecture-video-10-November-2026/reports/reader-B.md` (9 November 2026, 23:11:19 +0100)
+>
+> Images actually seen: 24 of 24 (9 November 2026, 23:11:19 +0100)
+>
+> Summary of steps, frames 025 to 048: (9 November 2026, 23:11:19 +0100)
+>
+> 1. Seconds 24 to 28: the finished main PCB as a 3D render, top-down, then orbited to show the port edge. (9 November 2026, 23:11:19 +0100)
+> 2. Second 29: exploded view starts, with the PCB lifted above a dark bottom shell. (9 November 2026, 23:11:19 +0100)
+> 3. Seconds 30 to 34: a top cover is added (first a flat vented panel, then a box-shaped housing with ribs and three front cut-outs), with posts and feet appearing under the parts. (9 November 2026, 23:11:19 +0100)
+> 4. Second 34: housing and shell turn opaque black, with silver pins at the shell corners. (9 November 2026, 23:11:19 +0100)
+> 5. Seconds 35 to 36: assembled black enclosure, first on legs, then on its base; front ports and top vents are visible. (9 November 2026, 23:11:19 +0100)
+> 6. Seconds 37 to 38: the enclosure on a wooden table with cables plugged into the front ports. (9 November 2026, 23:11:19 +0100)
+> 7. Seconds 39 to 41: split screen. A coding assistant writes an SD-card image builder (build-image.py), a code diff, and three helper files (config-cm5.txt, fetch-firmware.py, flash-zigbee.sh). (9 November 2026, 23:11:19 +0100)
+> 8. Second 41: terminal dry run for a CM5 target (Home Assistant OS 18.3) and SHA-256 checks of the Zigbee and Thread firmware. (9 November 2026, 23:11:19 +0100)
+> 9. Seconds 42 to 45: back to the product shot; close-up of the front plate (two round buttons, two green LEDs, a USB-A port) and the top vents. (9 November 2026, 23:11:19 +0100)
+> 10. Seconds 46 to 47: fade to dark; second 47 is a solid black frame. (9 November 2026, 23:11:19 +0100)
+>
+> No dimensions in millimetres, tolerances or callouts appear in any of the 24 frames. The vent, rib and pin counts in the report are my visual estimates.</result> (9 November 2026, 23:11:19 +0100)
+> <usage><subagent_tokens>399055</subagent_tokens><tool_uses>28</tool_uses><duration_ms>289605</duration_ms></usage> (9 November 2026, 23:11:19 +0100)
+> </task-notification> (9 November 2026, 23:11:19 +0100)
