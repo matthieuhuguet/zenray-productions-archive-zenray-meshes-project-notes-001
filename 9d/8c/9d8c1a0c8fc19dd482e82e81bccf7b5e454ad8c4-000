@@ -71297,3 +71297,444 @@
 > - **Une petite part de la silhouette n'appartient à aucune pièce** : de 0,2 % (vues de face et de dos) à 1 % (vue de dessus). (9 November 2026, 20:57:52 +0100)
 >
 > Les fichiers sont dans [/Users/zenray/.claude/tmp/tmp-zenray-meshes/research/v3-car-masks-9-November-2026](/Users/zenray/.claude/tmp/tmp-zenray-meshes/research/v3-car-masks-9-November-2026). (9 November 2026, 20:57:52 +0100)
+
+## 9 November 2026, 21:14:13 +0100 : Prompt
+
+<!-- feedback-event:6ec855866faa5543856eeaf821e27eb3c5466751ed3f14e35b09b4957a9373fd (9 November 2026, 21:14:13 +0100) -->
+- Project: zenray-meshes; kind: prompt. (9 November 2026, 21:14:13 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 21:14:13 +0100)
+
+> <pasted_content id="9a95"> (9 November 2026, 21:14:13 +0100)
+> C'est vraiment pas mal, sauf que on n'est pas encore parfait niveau au niveau du découpage, mais je pense que c'est à cause de ChatGPT du coup. Donc peut-être qu'après cette étape du masque de ChatGPT, peut-être qu'il faut le refaire de manière encore plus propre. Mais actuellement je ne saurais pas comment le faire du coup. Parce que ce qu'il faut, c'est qu'on améliore le perfectionnement du découpage de la voiture par rapport au masque existant. Donc à mon avis, il faut que tu prennes le masque existant, ou alors tu continues en ID map gris aléatoire. Mais disons que les components sont pas encore parfaits par rapport à la ref, quoi. Le découpage n'est pas encore parfait. Je pense que ce qu'on devrait faire, c'est un protocole de vérification qui vérifie les formes, notamment l'aspect adouci qu'on avait commencé à créer avec ZenRay Lines. Et certains composants, le masque marche pas. Donc je sais pas, soit on reprend le masque coloré, soit on repart de la base existante, pour itérer sur un découpage parfait. Mais ce qu'il faut faire, c'est à mon avis, c'est créer une nouvelle méthodologie qui permet de, à partir de notre masque actuel, faire en sorte depuis la ref d'avoir des pièces parfaites. À mon avis, ça doit être possible via des formes procédurales faites à l'avance et on identifie proprement comment les faire. Et on adoucit les splines et les objets. Et je pense que à terme, on va réussir à créer le masque parfait, mais il faut pas oublier notre objectif initial qui est d'avoir et d'obtenir des masques parfaits pour recréer le component en 3D. Mais en soi, j'ai l'impression qu'on s'en rapproche. Mais je pense que, je sais pas, il faut proposer une méthode qui marche à coup sûr. Essayons de lister des méthodes qui pourraient fonctionner. J'ai besoin que tu fasses des web search et que tu fasses un protocole de recherche d'une nouvelle méthodologie qui pourrait marcher à 99%. À mon avis, il faut reprendre le masque en ID map. À mon avis, le masque ID map et le masque coloré, que ce soit du ChatGPT ou le nôtre, ça donne à peu près aujourd'hui les mêmes informations sur le découpage actuel. Mais on a un découpage actuel qui est quand même pas mal du tout. Donc, soit on itère sur le prompt ChatGPT, mais c'est pas forcément une bonne chose parce que en soi, c'est encore créer une méthode alternative sur ChatGPT dont on ne dépend pas du résultat. Soit on continue d'itérer en Python ou on crée une méthodologie, et je pense que c'est ça qu'il faut faire pour pré-générer les masques et avoir une source de vérité qui finit par trancher sur la meilleure méthode. En mode, il hésite entre deux choses, entre un rond pas parfaitement droit et un rond parfaitement droit, et au final, il finit par trancher par un rond parfaitement droit, ou alors une hélice, ou alors un component qu'il identifie comme étant une forme qui aurait plus de sens. Par exemple, le profil gauche et le profil droit de la voiture ne donnent pas le même clignotant, tu vois. Et au niveau de la vitre inférieure, il découpe pas la dernière bande de la vitre arrière de la voiture, tu vois. Donc en soi, le masque de découpe n'est pas parfait, mais parce que la découpe de ChatGPT ne l'était pas. Donc en fait, ce qu'il faut, c'est reprendre à partir de la référence, à partir de l'étape où on a le masque depuis ChatGPT, et faire en sorte d'itérer sur des components, mais qui soient parfaits à 99% par rapport à la ref. Donc après, ça peut aussi venir d'un input manuel, en mode asking a question, mais je pense qu'en soi on va faire perdre du temps à l'utilisateur, tu vois. Alors que le but c'est de modéliser, tu vois. Enfin c'est de modéliser automatiquement et procéduralement. Mais je pense que notre ID maps en mode index il est intéressant déjà. (9 November 2026, 21:14:13 +0100)
+> </pasted_content id="9a95"> (9 November 2026, 21:14:13 +0100)
+>
+>  créons une nouvelle méthode un nouveau protocole sinon run un tournoi peut être pas de 16 mais de 4 /zenray-methodology (9 November 2026, 21:14:13 +0100)
+
+## 9 November 2026, 21:14:19 +0100 : Prompt
+
+<!-- feedback-event:b16232e52cc9c86601143aa53ef4dd38eeb2069624b0c5e0f6eee3fcfd237837 (9 November 2026, 21:14:19 +0100) -->
+- Project: zenray-meshes; kind: prompt. (9 November 2026, 21:14:19 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 21:14:19 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/zenray-methodology (9 November 2026, 21:14:19 +0100)
+>
+> # Méthodologie : itérer sur la méthode, pas sur le résultat (10 October 2026) (9 November 2026, 21:14:19 +0100)
+>
+> Ce skill fixe la conduite à tenir lorsqu'un travail bloque. Il vaut pour toute tâche où un résultat ne vient pas, qu'il s'agisse d'une image, d'un code, d'un modèle 3D, d'une texture, d'une mise en page ou de données (10 October 2026). (9 November 2026, 21:14:19 +0100)
+>
+> Il ne remplace ni `debug-par-la-preuve`, qui remonte d'un symptôme à la cause d'un bug, ni `tasks-sequence`, qui découpe une demande en étapes. Il répond à une autre question, celle de la méthode à construire (10 October 2026). (9 November 2026, 21:14:19 +0100)
+>
+> ## Le principe (10 October 2026) (9 November 2026, 21:14:19 +0100)
+>
+> - Un réglage ne modifie que des valeurs, jamais la forme de ce qu'on construit. Si la structure de la méthode est fausse, aucune valeur ne peut la sauver (10 October 2026). (9 November 2026, 21:14:19 +0100)
+> - Quand on bloque, on n'itère donc pas sur le résultat d'une seule méthode. On itère sur la méthode elle-même, jusqu'à en trouver une qui débloque, et l'on ne règle finement que celle-là (10 October 2026). (9 November 2026, 21:14:19 +0100)
+> - Une comparaison aide à le comprendre : une clé qui ne tourne pas dans une serrure ne se lime pas indéfiniment. On en essaie une autre, on garde celle qui ouvre, puis on ajuste (10 October 2026). (9 November 2026, 21:14:19 +0100)
+>
+> ## La procédure (10 October 2026) (9 November 2026, 21:14:19 +0100)
+>
+> 1. Il faut d'abord cesser de retoucher les valeurs de la méthode bloquée, puis nommer le blocage par un symptôme précis et mesuré (10 October 2026). (9 November 2026, 21:14:19 +0100)
+> 2. Ensuite, on dresse la liste d'au moins seize méthodes différentes qui pourraient fonctionner. Chacune repose sur un principe distinct, et non sur un simple autre réglage. Ces méthodes se consignent dans la feuille du chantier (10 October 2026). (9 November 2026, 21:14:19 +0100)
+> 3. On ne teste alors que les quatre premières phases de chaque méthode. Une phase est un pas de la méthode, tandis qu'une passe désigne un essai complet du graphe, construit d'un seul coup. Chaque phase donne une planche et une mesure (10 October 2026). (9 November 2026, 21:14:19 +0100)
+> 4. Les masques noir et blanc servent à mesurer. Leur seuil provient de la seule référence, et ils désignent la prochaine itération. Aucun score ne sert de porte, et la référence ne se copie jamais dans le graphe (10 October 2026). (9 November 2026, 21:14:19 +0100)
+> 5. Il reste à comparer les planches côte à côte, à l'œil, avant toute conclusion (10 October 2026). (9 November 2026, 21:14:19 +0100)
+> 6. On tranche alors selon le critère que Matthieu fixe après les quatre phases (10 October 2026). (9 November 2026, 21:14:19 +0100)
+> 7. Seulement après, on règle la méthode retenue par ses paramètres (10 October 2026). (9 November 2026, 21:14:19 +0100)
+>
+> ## Garde-fous (10 October 2026) (9 November 2026, 21:14:19 +0100)
+>
+> - Le nombre de passes ne constitue pas une méthode. Dès lors, pour une passe donnée, il faut chercher le nombre maximal de couches qu'elle peut porter : on teste 4096, 2048, 1024, puis 512, en mesurant le temps de calcul et les plantages (10 October 2026). (9 November 2026, 21:14:19 +0100)
+> - Chaque méthode est limitée à trente-deux passes. Au-delà, on change radicalement de méthode, car une simple variante de la même ne sauve rien (10 October 2026). (9 November 2026, 21:14:19 +0100)
+> - Lorsqu'une itération s'étire, résiste ou tourne sans gain mesurable, on suspend la boucle. On cherche alors pourquoi la méthode coince, on relit les consignes pour vérifier qu'on ne les trahit pas, puis l'on propose une méthode meilleure avant de reprendre (10 October 2026). (9 November 2026, 21:14:19 +0100)
+> - Après deux essais ratés par le texte, on demande plutôt une capture annotée, qui débloque souvent plus vite qu'une description détaillée (10 October 2026). (9 November 2026, 21:14:19 +0100)
+> - La voie la plus rapide passe en premier : une mesure, une capture de la vue ou un rendu léger, plutôt qu'une longue attente. Une relance planifiée ne descend pas sous soixante secondes. Lorsque la consigne fixe une durée, on ne s'arrête pas après chaque passe (10 October 2026). (9 November 2026, 21:14:19 +0100)
+>
+> ## Le registre (10 October 2026) (9 November 2026, 21:14:19 +0100)
+>
+> - Chaque chantier tient une feuille explicative qui recense chaque méthode, son résultat et la raison de son abandon. Une piste écartée ne se rejoue jamais (10 October 2026). (9 November 2026, 21:14:19 +0100)
+> - Chaque demande de Matthieu se consigne dans le FEEDBACK du projet, sous un identifiant d'événement stable (10 October 2026). (9 November 2026, 21:14:19 +0100)
+>
+> ## Le lien avec le HDA (10 October 2026) (9 November 2026, 21:14:19 +0100)
+>
+> - La méthode joue le rôle de la définition, puisqu'elle porte la structure. Les paramètres en sont les instances, que l'on règle seulement après avoir choisi la bonne définition (10 October 2026). (9 November 2026, 21:14:19 +0100)
+> - En revanche, une valeur se modifie en un seul endroit, et l'on ne paramètre que ce qui varie déjà (10 October 2026). (9 November 2026, 21:14:19 +0100)
+>
+> ## La preuve (10 October 2026) (9 November 2026, 21:14:19 +0100)
+>
+> - Chaque méthode dispose d'une planche et d'une mesure. Un vérificateur se teste dans les deux sens : il doit rendre le vert sur un cas juste, la référence comparée à elle-même (IoU de 1, zéro erreur), et le rouge sur un cas cassé, la référence inversée (IoU de 0). L'IoU, ou intersection sur union, mesure le recouvrement de deux masques (10 October 2026). (9 November 2026, 21:14:19 +0100)
+>
+> ## Exemple vécu : la fenêtre de Louisiana Bayou (10 October 2026) (9 November 2026, 21:14:19 +0100)
+>
+> - Feuille de suivi : [WindowMethodSheet.md](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/Heights/WindowMethodSheet.md) (10 October 2026). (9 November 2026, 21:14:19 +0100)
+> - Mesure par masques : [MaskMeasure.py](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/Heights/Scripts/MaskMeasure.py). Lanceur par passe : [PassLoop.py](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/Heights/Scripts/PassLoop.py) (10 October 2026). (9 November 2026, 21:14:19 +0100)
+> - Saturation mesurée : 256 familles de peinture, sur 512 au total, couvraient 85 % du canevas à l'union par max. Une couverture calibrée pour chaque famille ramène cette part à 34 % (10 October 2026). (9 November 2026, 21:14:19 +0100)
+> - Recalcul mesuré : 512 familles de type absolu ont pris 31,7 s, contre 16,1 s pour 256, d'où une limite propre à chaque type de famille (10 October 2026). (9 November 2026, 21:14:19 +0100)
+> - Capacité mesurée : 4136 nœuds recalculés en 8,25 s, puis 8232 nœuds en 66,8 s (10 October 2026). (9 November 2026, 21:14:19 +0100)
+>
+> ## Voir aussi (10 October 2026) (9 November 2026, 21:14:19 +0100)
+>
+> - `zenray-houdini` : outillage Houdini, avec un renvoi vers ce skill en tête de sa section PRIORITÉ 0 (10 October 2026). (9 November 2026, 21:14:19 +0100)
+> - `progress` : consigner chaque méthode testée et son verdict dans le journal (10 October 2026). (9 November 2026, 21:14:19 +0100)
+>
+> ## 10 October 2026 : méthode complète de la boucle M01 (consigne de Matthieu, 23:58) (9 November 2026, 21:14:19 +0100)
+>
+> - 10 October 2026 : CORRECTION de la règle 4, « Aucun score ne sert de porte ». Le score sert désormais de critère d'arrêt de la boucle et règle la couverture de chaque région ; la décision finale reste visuelle, et elle se consigne à côté du score. (10 October 2026) (9 November 2026, 21:14:19 +0100)
+> - 10 October 2026 : CORRECTION de la règle « trente-deux passes par méthode ». La boucle M01 va au moins à 96 passes, avec un plafond de sécurité de 300. (10 October 2026) (9 November 2026, 21:14:19 +0100)
+> - 10 October 2026 : N et M sont des indications que la boucle détermine. Pour la fenêtre : N = 512 familles, soit 4096 nodes ; M = au moins 96 passes, puis arrêt au verdict ou au plateau. (10 October 2026) (9 November 2026, 21:14:19 +0100)
+> - 10 October 2026 : vérification par cellules : grille de 4 lignes et 2 colonnes, seuils provisoires de 0,01 par cellule et 0,02 par région, à tester contre le verdict à l'œil. (10 October 2026) (9 November 2026, 21:14:19 +0100)
+> - 10 October 2026 : un essai qui empire est consigné puis désactivé. La passe P10 (768 familles, profondeur pilotée) est passée de 0,076 à 0,175 ; elle ne se refait pas sans étude. (10 October 2026) (9 November 2026, 21:14:19 +0100)
+> - 10 October 2026 : relance par processus en arrière-plan, avec une pause de 15 secondes entre deux passes. Le cron est exclu : son minimum est une minute. (10 October 2026) (9 November 2026, 21:14:19 +0100)
+> - 10 October 2026 : la boucle s'arrête seule et s'annonce quand elle piétine (plateau), conformément à la pause réflexive du 06 October 2026. (10 October 2026) (9 November 2026, 21:14:19 +0100)
+>
+> ## 11 October 2026 : CORRECTION, piétinement alternant et pivot autonome (boucle M01) (9 November 2026, 21:14:19 +0100)
+>
+> - 11 October 2026 : PIÉTINEMENT. Une boucle dont la répartition des familles se recalcule à chaque passe peut alterner entre deux états : bon, mauvais, bon, mauvais (P11 à P16 : 0,07 puis 0,15). Un gain plus faible ne suffit pas à le supprimer. (11 October 2026) (9 November 2026, 21:14:19 +0100)
+> - 11 October 2026 : PIVOT, selon la règle de pause réflexive. On fige la variable qui oscille (répartition égale par compartiment) et on ne laisse varier que la couverture, avec un gain amorti. Après le pivot, les passes P17 à P19 sont stables à 0,060. (11 October 2026) (9 November 2026, 21:14:19 +0100)
+> - 11 October 2026 : la profondeur de trou devient une variable de la boucle, bornée à 0,10 et 0,45. C'est le seul levier qui fait monter la part sombre de la zone « haut » ; la couverture seule plafonne. (11 October 2026) (9 November 2026, 21:14:19 +0100)
+> - 11 October 2026 : N, nombre de familles, est le plus grand nombre dont la cuisson reste sous 20 s (règle de Matthieu). Un essai à une seule passe ne tranche pas ; il faut plusieurs passes avant de juger. (11 October 2026) (9 November 2026, 21:14:19 +0100)
+>
+> ## 11 October 2026 : renvoi, bilan de la fenêtre et méthode par composantes (9 November 2026, 21:14:19 +0100)
+>
+> - 11 October 2026 : le bilan complet et daté est dans `~/.claude/skills/zenray-houdini/references/WindowBilan1.md`. Il contient les seize méthodes, la boucle de P9 à P38, le score à 12 composantes et la méthode proposée. (11 October 2026) (9 November 2026, 21:14:19 +0100)
+> - 11 October 2026 : le score (`Metrics2.py`) n'est plus seulement un journal. Il devient la mesure qui guide les paramètres : chaque composante en écart pilote un paramètre dédié, la répartition est figée, les réglages sont amortis. Le seul contrôleur par fractions plafonne. (11 October 2026) (9 November 2026, 21:14:19 +0100)
+>
+> ## 11 October 2026 : test des leviers, couplage mesuré, plan d'expérience proposé (9 November 2026, 21:14:19 +0100)
+>
+> - 11 October 2026 : un levier par composante ne suffit pas. L'étirement horizontal pilote l'anisotropie et l'orientation, mais il fait fusionner les taches et baisser l'énergie des bords. Mesuré : EQUIV de 0,552 à 0,562 seulement. (11 October 2026) (9 November 2026, 21:14:19 +0100)
+> - 11 October 2026 : méthode suivante proposée : un plan d'expérience (huit à seize passes) pour mesurer la sensibilité des douze composantes à quatre paramètres, puis un pas amorti. Détail et chiffres dans `~/.claude/skills/zenray-houdini/references/WindowBilan1.md`, section 11. (11 October 2026) (9 November 2026, 21:14:19 +0100)
+>
+> ## 26 October 2026 : arbre en tournoi, une seule méthode vainqueur (consigne de Matthieu) (9 November 2026, 21:14:19 +0100)
+>
+> - 26 October 2026 : mots de Matthieu (grammaire seule) : « le but, c'est de comparer beaucoup de méthodes et de faire comme un tournoi dans Dragon Ball Z pour gagner uniquement la méthode vainqueur. » Le tournoi ne réduit pas le nombre de méthodes : on en aligne toujours au moins seize, de principes distincts, comme la procédure le prévoit. (26 October 2026) (9 November 2026, 21:14:19 +0100)
+> - 26 October 2026 : l'arbre est un tableau à élimination directe. Chaque tour oppose les méthodes deux à deux sur la même mesure (masques, planche côte à côte, verdict à l'œil) : 16 → 8 → 4 → 2 → 1. Le perdant sort et se consigne dans la feuille du chantier avec la raison de sa défaite ; il ne se rejoue jamais. (26 October 2026) (9 November 2026, 21:14:19 +0100)
+> - 26 October 2026 : chaque méthode passe ses quatre phases comme la procédure le prévoit, puis le tableau se joue sur leurs planches et leurs mesures. Seule la méthode vainqueur passe ensuite au réglage de ses paramètres. (26 October 2026) (9 November 2026, 21:14:19 +0100)
+>
+> ## 9 November 2026 : contexte par ZenRay Past (9 November 2026) (9 November 2026, 21:14:19 +0100)
+>
+> - 9 November 2026 : pour retrouver le passé de ce domaine (décisions, valeur actuelle et versions dépassées, conversations, notes du jour, commits), interroger d'abord ZenRay Past, MCP `zenray-past` (`past_recall`, `past_resume`), avant de relire de gros fichiers ; voir la priorité 0 du CLAUDE.md global. (9 November 2026) (9 November 2026, 21:14:19 +0100)
+>
+>
+> ARGUMENTS: Perfectionner le découpage de la voiture (masques de pièces sur la planche 6 vues orthographique) à 99 % par rapport à la référence, à partir du masque ID map existant (gris aléatoire par pièce, MaskAtlas.py) : formes procédurales prédéfinies (droite, arc, cercle parfait, hélice), adoucissement des splines comme ZenRay Lines, symétrie gauche/droite (clignotant différent entre profils), bandes manquantes (dernière bande de la vitre arrière), protocole de vérification des formes ; recherche web de méthodes ; nouvelle méthode ou tournoi de 4 méthodes au lieu de 16 ; objectif final : masques parfaits pour recréer les composants en 3D, automatiquement et procéduralement, sans faire perdre de temps à l'utilisateur. (9 November 2026, 21:14:19 +0100)
+
+## 9 November 2026, 21:15:10 +0100 : Prompt
+
+<!-- feedback-event:fb3929ec900392b4ff08604e2d4f5e9c7458119d977cf8a6acc15ec31a2a1ee7 (9 November 2026, 21:15:10 +0100) -->
+- Project: zenray-meshes; kind: prompt. (9 November 2026, 21:15:10 +0100)
+
+> 9 November 2026 : le découpage n'est pas encore parfait (ChatGPT) : clignotant différent entre profil gauche et droit, dernière bande de la vitre arrière non découpée. Créer une nouvelle méthodologie qui, depuis le masque ID map actuel et la référence, donne des pièces parfaites à 99 % : formes procédurales prédéfinies, splines adoucies comme ZenRay Lines, protocole de vérification des formes ; recherche web ; nouvelle méthode ou tournoi de 4 (pas 16) ; objectif : masques parfaits pour recréer les composants 3D, automatiquement, sans faire perdre de temps à l'utilisateur. (9 November 2026, 21:15:10 +0100)
+
+## 9 November 2026, 21:16:45 +0100 : Iteration
+
+<!-- feedback-event:5a1e297bb84fa30261cc3fe70d3fdc9cfa584ef8636d8a55ed663ad3a77be360 (9 November 2026, 21:16:45 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 21:16:45 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 21:16:45 +0100)
+
+> Le juge passe son autotest dans les deux sens. Je mesure maintenant les masques actuels, ce qui donne la référence de départ que chaque méthode du tournoi devra battre. (9 November 2026, 21:16:45 +0100)
+
+## 9 November 2026, 21:21:50 +0100 : Iteration
+
+<!-- feedback-event:e8c696ee2dacbe151529fc3cecd50cda66f91eb1581e2157a5315cde3c8701da (9 November 2026, 21:21:50 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 21:21:50 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 21:21:50 +0100)
+
+> Le tournoi a tourné, mais aucune méthode ne donne encore la découpe parfaite. La meilleure combinaison corrige tes deux défauts : la bande de la vitre arrière est désormais découpée, et les profils gauche et droit concordent à 98 %. Elle dégrade en revanche les bords de la silhouette, que l'on voit dentelés sur la planche. (9 November 2026, 21:21:50 +0100)
+>
+> J'ai d'abord construit un juge commun, puisqu'aucun tournoi ne peut trancher sans lui. Il mesure trois choses, uniquement à partir de la référence : (9 November 2026, 21:21:50 +0100)
+> - **Les traits.** La part des traits noirs de la planche qu'une découpe suit ; un trait sans découpe signale une découpe manquante. (9 November 2026, 21:21:50 +0100)
+> - **Les bordures.** La part des bordures posées sur un trait ou sur une arête d'ombrage. (9 November 2026, 21:21:50 +0100)
+> - **La symétrie.** Le profil gauche mis en miroir comparé au profil droit, pièce par pièce, et chaque vue comparée à elle-même en miroir. (9 November 2026, 21:21:50 +0100)
+>
+> Son autotest passe dans les deux sens : il rend le vert sur un cas juste et le rouge sur un cas décalé. Les quatre méthodes s'appuient sur les techniques trouvées en recherche : la balle piégée pour découper un dessin au trait ([Zhang et al. 2009](https://cg.cs.tsinghua.edu.cn/papers/TVCG_2009_cartoon.pdf), [variante SIGGRAPH Asia 2024](https://www.olm.co.jp/post/anime-line-art)), le recouvrement en droites et en arcs ([Vacavant et al.](https://arxiv.org/pdf/2111.05688.pdf)), et l'égalité de deux vues orthographiques opposées ([Front2Back](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yao_Front2Back_Single_View_3D_Shape_Reconstruction_via_Front_to_Back_CVPR_2020_paper.pdf)). (9 November 2026, 21:21:50 +0100)
+>
+> | Méthode | Traits | Bordures | Symétrie | Verdict | (9 November 2026, 21:21:50 +0100)
+> |---|---|---|---|---| (9 November 2026, 21:21:50 +0100)
+> | Découpe actuelle | 0,67 | 0,78 | 0,85 | point de départ | (9 November 2026, 21:21:50 +0100)
+> | M1, les traits d'abord | 0,59 | 0,98 | 0,75 | efface des découpes justes en vue de face, où la planche dessine peu de traits | (9 November 2026, 21:21:50 +0100)
+> | M1b, M1 en phase 2 | 0,76 | 0,78 | 0,78 | retrouve les découpes manquantes, dont la bande de la vitre, mais rend les bords dentelés | (9 November 2026, 21:21:50 +0100)
+> | M2, droites et arcs | 0,67 | 0,78 | 0,84 | ne change rien pour le juge ; à garder pour la finition | (9 November 2026, 21:21:50 +0100)
+> | M3, la symétrie | 0,62 | 0,78 | 0,94 | les profils gauche et droit concordent à 98 % | (9 November 2026, 21:21:50 +0100)
+> | M4, formes prédéfinies | 0,35 | 0,57 | 0,67 | éliminée | (9 November 2026, 21:21:50 +0100)
+> | M1b puis M3 | 0,70 | 0,76 | 0,94 | la plus équilibrée, mais la silhouette reste dentelée | (9 November 2026, 21:21:50 +0100)
+>
+> M1b crée aussi 37 nouvelles pièces sur le profil gauche et 40 sur le droit, qui ne s'apparient pas encore. (9 November 2026, 21:21:50 +0100)
+>
+> La phase suivante découle de ce que montre la planche : (9 November 2026, 21:21:50 +0100)
+> - **Ne déplacer que les bordures intérieures**, jamais la silhouette : c'est elle qui dentelle les bords aujourd'hui. (9 November 2026, 21:21:50 +0100)
+> - **N'ajouter une découpe que si la cellule fermée existe sur les deux profils en miroir**, ce qui supprimera les nouvelles pièces non appariées. (9 November 2026, 21:21:50 +0100)
+> - **Finir par le lissage de MaskAtlas et les droites et arcs de M2.** (9 November 2026, 21:21:50 +0100)
+>
+> Tout est consigné en test non validé : la feuille du tournoi, [/Users/zenray/.claude/tmp/tmp-zenray-meshes/research/v3-car-cut-tournament-9-November-2026/CarCutMethodSheet.md](/Users/zenray/.claude/tmp/tmp-zenray-meshes/research/v3-car-cut-tournament-9-November-2026/CarCutMethodSheet.md), la section 432 du skill, les deux nouveaux outils et le journal. (9 November 2026, 21:21:50 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (9 November 2026, 21:21:50 +0100)
+> |---|---|---| (9 November 2026, 21:21:50 +0100)
+> | « recherche web d'une nouvelle méthodologie » | Oui | Trois familles de méthodes trouvées, avec leurs sources. | (9 November 2026, 21:21:50 +0100)
+> | « protocole de vérification des formes » | Oui | Le juge commun, autotest vert et rouge passé. | (9 November 2026, 21:21:50 +0100)
+> | « un tournoi pas de 16 mais de 4 » | Oui, phase 1 | Quatre méthodes plus une phase 2 de M1, toutes mesurées par le même juge. | (9 November 2026, 21:21:50 +0100)
+> | « la dernière bande de la vitre arrière », « le clignotant » | En partie | La bande est découpée par M1b ; les profils concordent à 98 % avec M3. | (9 November 2026, 21:21:50 +0100)
+> | « des masques parfaits à 99 % » | Pas encore | Au mieux 0,70 de traits, 0,76 de bordures et 0,94 de symétrie. | (9 November 2026, 21:21:50 +0100)
+
+## 9 November 2026, 21:22:24 +0100 : Prompt
+
+<!-- feedback-event:b79850920ae62192e1f500a1aa25d7d24f41b76b39973bb4f28cda4e0d69398c (9 November 2026, 21:22:24 +0100) -->
+- Project: zenray-meshes; kind: prompt. (9 November 2026, 21:22:24 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 21:22:24 +0100)
+
+> Aucune nouvelle méthode ne batte la méthode actuelle. Donc, à mon avis, on a besoin d'un vrai outil dédié qui est beaucoup plus puissant pour créer les bonnes découpes par rapport à la référence initiale. (9 November 2026, 21:22:24 +0100)
+
+## 9 November 2026, 21:22:42 +0100 : Iteration
+
+<!-- feedback-event:d7d767e8cfee683087c2255f7b2516dd4a86ccd11415eec1aceb5a798ced0859 (9 November 2026, 21:22:42 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 21:22:42 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 21:22:42 +0100)
+
+> Tu as raison : les mesures le confirment, aucune variante ne bat la découpe actuelle sur l'ensemble des critères. Je vérifie ce que le Mac a déjà pour un outil de segmentation plus puissant, avant de te proposer quoi que ce soit. (9 November 2026, 21:22:42 +0100)
+
+## 9 November 2026, 21:23:03 +0100 : Prompt
+
+<!-- feedback-event:bb3e83bc4629f79ca5885d147aa970657b5dac0504ba238b641fec9aff5ec191 (9 November 2026, 21:23:03 +0100) -->
+- Project: zenray-meshes; kind: prompt. (9 November 2026, 21:23:03 +0100)
+
+> 9 November 2026 : aucune nouvelle méthode ne bat la méthode actuelle ; il faut un vrai outil dédié beaucoup plus puissant pour créer les bonnes découpes par rapport à la référence initiale. (9 November 2026, 21:23:03 +0100)
+
+## 9 November 2026, 21:23:16 +0100 : Iteration
+
+<!-- feedback-event:9350cdb246a34f8e494408f3a9f7240da6024256d997a822ad3bfca6773e2f7a (9 November 2026, 21:23:16 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 21:23:16 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 21:23:16 +0100)
+
+> D'accord. Les mesures le confirment : aucune variante ne bat la découpe actuelle sur les trois critères à la fois. Il faut donc un outil d'une autre classe, qui voie réellement les bords de l'image. (9 November 2026, 21:23:16 +0100)
+>
+> Je propose SAM 2.1, le modèle de segmentation de Meta (licence Apache 2.0). Il ne fabrique aucune forme : il trouve dans l'image elle-même les contours d'une région qu'on lui désigne. Il ne relève donc pas des générateurs de maillage par IA que tu as exclus. Le Mac a déjà ce qu'il faut pour le faire tourner : PyTorch 2.14 avec le GPU Apple, dans l'environnement `zenray-motion`. Il manque le paquet `sam2` et ses poids, qui ne sont nulle part sur le disque. (9 November 2026, 21:23:16 +0100)
+>
+> L'outil, que j'appellerais ZenRay Cut, fonctionnerait en trois temps : (9 November 2026, 21:23:16 +0100)
+> 1. **Recaler chaque pièce sur les vrais bords.** Pour chaque pièce de l'ID map actuelle, SAM reçoit sa boîte, quelques points à l'intérieur et des points interdits dans les pièces voisines. Il rend un masque posé sur les vrais bords de l'image. (9 November 2026, 21:23:16 +0100)
+> 2. **Trouver les découpes manquantes.** SAM découpe aussi chaque vue tout seul, sans indication. Toute région qui chevauche deux pièces signale une découpe manquante, comme la bande de la vitre arrière, et devient une pièce. Elle n'est gardée que si elle existe aussi sur le profil opposé. (9 November 2026, 21:23:16 +0100)
+> 3. **Assembler, puis juger.** Les masques se résolvent en une découpe sans trou ni chevauchement. La symétrie M3 s'applique, puis MaskAtlas en tire les SVG propres. Le résultat n'est retenu que s'il bat la découpe actuelle sur les trois mesures du juge. (9 November 2026, 21:23:16 +0100)
+>
+> Je ne peux rien télécharger sans ton accord. Voici ce qu'il faudrait récupérer : (9 November 2026, 21:23:16 +0100)
+> - **Le paquet `sam2`**, depuis le dépôt officiel `facebookresearch/sam2` sur GitHub, avec ses dépendances Python. (9 November 2026, 21:23:16 +0100)
+> - **Les poids, au choix**, depuis le serveur officiel de Meta (`dl.fbaipublicfiles.com`) : (9 November 2026, 21:23:16 +0100)
+>   - `sam2.1_hiera_large.pt`, environ 900 Mo : le plus précis sur les bords fins, ma recommandation. (9 November 2026, 21:23:16 +0100)
+>   - `sam2.1_hiera_base_plus.pt`, environ 320 Mo : plus léger, un peu moins précis. (9 November 2026, 21:23:16 +0100)
+>
+> Ces tailles sont de mémoire : je les vérifierai avant de télécharger. (9 November 2026, 21:23:16 +0100)
+
+## 9 November 2026, 21:23:51 +0100 : Prompt
+
+<!-- feedback-event:c56de69b1ca8142ae605dc6c075dfde17cbba5b9644ebc53827acfe4f5f618fd (9 November 2026, 21:23:51 +0100) -->
+- Project: zenray-meshes; kind: prompt. (9 November 2026, 21:23:51 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 21:23:51 +0100)
+
+> testons essaie le meilleur modele directement. (9 November 2026, 21:23:51 +0100)
+
+## 9 November 2026, 21:24:14 +0100 : Iteration
+
+<!-- feedback-event:ca44e3c2613fa9f8d499599180228d01422754335c29df360d8bb023b0aae679 (9 November 2026, 21:24:14 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 21:24:14 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 21:24:14 +0100)
+
+> SAM 2.1 large, c'est parti. J'installe le paquet sans toucher au PyTorch déjà en place, je télécharge les poids depuis le serveur officiel de Meta, puis je vérifie le modèle sur une pièce avant de construire l'outil. (9 November 2026, 21:24:14 +0100)
+
+## 9 November 2026, 21:25:57 +0100 : Prompt
+
+<!-- feedback-event:9429d7812bb45885ec4f083e0063de6f8caee4e132fc4045b834b4671116c687 (9 November 2026, 21:25:57 +0100) -->
+- Project: zenray-meshes; kind: prompt. (9 November 2026, 21:25:57 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 21:25:57 +0100)
+
+> This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation. (9 November 2026, 21:25:57 +0100)
+>
+> <system-reminder> (9 November 2026, 21:25:57 +0100)
+> <tools-used-before-summary>Agent, Bash, Edit, Monitor, Read, SendUserFile, Skill, SubagentHandback, TaskStop, ToolSearch, WebSearch, Write, mcp__Claude_Browser__browser_batch, mcp__Claude_Browser__computer, mcp__Claude_Browser__find, mcp__Claude_Browser__form_input, mcp__Claude_Browser__get_page_text, mcp__Claude_Browser__javascript_tool, mcp__Claude_Browser__navigate, mcp__Claude_Browser__preview_start, mcp__Claude_Browser__tabs_close, mcp__Claude_Browser__tabs_context, mcp__ccd_session__start_session, mcp__ccd_turn__update_plan, mcp__ccd_turn__wrap_up, mcp__computer-use__app_ax_find, mcp__computer-use__app_batch, mcp__computer-use__app_bring_to_current_space, mcp__computer-use__app_click, mcp__computer-use__app_list_windows, mcp__computer-use__app_menu, mcp__computer-use__app_release, mcp__computer-use__app_screenshot, mcp__computer-use__computer_batch, mcp__computer-use__list_apps, mcp__computer-use__open_application, mcp__computer-use__release_full_control, mcp__computer-use__request_access, mcp__computer-use__request_full_control, mcp__zenray-past__past_recall, mcp__zenray-past__past_resume</tools-used-before-summary> (9 November 2026, 21:25:57 +0100)
+> </system-reminder> (9 November 2026, 21:25:57 +0100)
+> Summary: (9 November 2026, 21:25:57 +0100)
+> 1. Primary Request and Intent: (9 November 2026, 21:25:57 +0100)
+>    - **Overall goal, ZenRay Meshes V3.** Find a clean method to iterate on geometry in Houdini or Blender from a reference, with lots of detail, for organic or hard-surface props, without losing the existing work. Clean, procedural, perfect in size, proportion and detail. The SVG blueprint method was tested; ChatGPT image sub-components are deprecated. (9 November 2026, 21:25:57 +0100)
+>    - **Later user requirements, in order:** (9 November 2026, 21:25:57 +0100)
+>      - Show components in 4 views and as reference against model view. (9 November 2026, 21:25:57 +0100)
+>      - Stop redoing the tutorial (deviation). (9 November 2026, 21:25:57 +0100)
+>      - Return to the car and build simple components from the existing masks with the SVG method; shape must be perfect before retopology. (9 November 2026, 21:25:57 +0100)
+>      - Record tests as "not validated". (9 November 2026, 21:25:57 +0100)
+>      - Test 3 more components in parallel, done myself without agents. (9 November 2026, 21:25:57 +0100)
+>      - Draw all car masks at once in random grey per part, like Substance Designer "tile random" or Flood Fill to Random Grayscale (NOT colour), and export clean SVGs of all masks. (9 November 2026, 21:25:57 +0100)
+>      - Then create a new methodology or run a 4-method tournament to perfect the cut to 99 % against the reference. Named defects: the blinker differs between left and right profiles; the last band of the rear window is not cut. The cut must be automatic and must not waste the user's time. (9 November 2026, 21:25:57 +0100)
+>      - User concluded that no new method beats the current one: "on a besoin d'un vrai outil dédié qui est beaucoup plus puissant pour créer les bonnes découpes par rapport à la référence initiale." (9 November 2026, 21:25:57 +0100)
+>      - **Latest message:** "testons essaie le meilleur modele directement." This approves testing SAM 2.1 with the best (large) model directly. (9 November 2026, 21:25:57 +0100)
+>
+> 2. Key Technical Concepts: (9 November 2026, 21:25:57 +0100)
+>    - **Orthographic 6-view car sheet and its calibration.** Sheet at `refs/objects/06_Car/06_Car_6views_25-October-2026.png`. Calibration `work/car/frame/frame.json` gives, per view, rx, uy, px_per_m and bbox, plus the object box lo and dims. (9 November 2026, 21:25:57 +0100)
+>    - **Pixel to world mapping:** `u = x0 + s (P·rx − min rx)`, `v = y1 − s (P·uy − min uy)`. (9 November 2026, 21:25:57 +0100)
+>    - **Labels:** `labels_<view>.npz` at scale 3. Value = atom id from `micro.json` (112 atoms, e.g. 0 hood M, 1/2 roof L/R, 3/4 door L/R, 54 rear panel), mapped to French names via `catalog.json`. (9 November 2026, 21:25:57 +0100)
+>    - **Planar-map vectorization (MaskAtlas).** Border chains between junctions, cleaned once (split at corners, moving average, Douglas-Peucker) and shared by both neighbouring parts, so there is no gap and no overlap. (9 November 2026, 21:25:57 +0100)
+>    - **Panel building.** Coons patch from 4 sides. Each edge is lifted to 3D from two orthographic views (secondary outlines or per-column edge curves). Modes: sum, loft, coons, and interior from crest lines. (9 November 2026, 21:25:57 +0100)
+>    - **Judge.** Line recall on dark lines (black top-hat plus Otsu plus skeleton). Border precision on dark lines plus Canny edges. Symmetry IoU: left against mirrored right with L↔R partners, and each view against itself mirrored about x = 0, where a part crossing the axis keeps its best-matching name. (9 November 2026, 21:25:57 +0100)
+>    - **Web research:** (9 November 2026, 21:25:57 +0100)
+>      - trapped-ball segmentation (Zhang et al. 2009; leak-resistant anime segmentation, SIGGRAPH Asia 2024); (9 November 2026, 21:25:57 +0100)
+>      - tangential cover with lines and arcs (Vacavant et al.); (9 November 2026, 21:25:57 +0100)
+>      - Front2Back (opposite orthographic views). (9 November 2026, 21:25:57 +0100)
+>    - **Next tool: SAM 2.1** (Meta, Apache 2.0) on torch 2.14.1 with MPS in `/Users/zenray/.venvs/zenray-motion` (also has cv2). (9 November 2026, 21:25:57 +0100)
+>    - **Helper code:** ModelViews (numpy rasterizer with photo cameras or ortho cameras), PerspectiveFix, CameraHeight, BlueprintLoop. (9 November 2026, 21:25:57 +0100)
+>    - **Rules in force:** HDA parametric code, files dated, English identifiers. (9 November 2026, 21:25:57 +0100)
+>
+> 3. Files and Code Sections (all under `/Users/zenray/.claude/skills/zenray-meshes/scripts/v3/` unless stated): (9 November 2026, 21:25:57 +0100)
+>    - **Blueprint.py** (fixed): `load()` uses local SVG millimetres with no translate subtraction. `params(path)` reads `data-param-*` as floats. `as_function`, `path_points`, and a self-test. (9 November 2026, 21:25:57 +0100)
+>    - **PhotoToBlueprint.py, BuildHoodFromBlueprint.py, BlueprintBoard.py** (`silhouette_error`). (9 November 2026, 21:25:57 +0100)
+>    - **PerspectiveFix.py, BlueprintLoop.sh:** usage `<builder.py> <trace.json> <view> <curve> <svg> <out> [rounds]`. (9 November 2026, 21:25:57 +0100)
+>    - **ModelViews.py:** (9 November 2026, 21:25:57 +0100)
+>      - `render(V,F,cam,crop,k)` (z-buffer, Gouraud clay, faint wire), `compare()`, `turntable()`. (9 November 2026, 21:25:57 +0100)
+>      - `orbit_camera` frames ortho views on the object extent (`np.ptp`). (9 November 2026, 21:25:57 +0100)
+>      - `WIRE_ALPHA` overridable via the spec key `wire_alpha`. (9 November 2026, 21:25:57 +0100)
+>    - **CameraHeight.py:** `--pitch` mode; writes a `<name>_v3` camera into cameras.json. The backup `cameras.before-9-November-2026.json` was restored afterwards. (9 November 2026, 21:25:57 +0100)
+>    - **TraceGrid.py:** zoomed crop with a labelled pixel grid. (9 November 2026, 21:25:57 +0100)
+>    - **ImageToBlueprint.py, BuildHornFromBlueprint.py:** horn work, stopped. (9 November 2026, 21:25:57 +0100)
+>    - **MaskToBlueprint.py (v2):** (9 November 2026, 21:25:57 +0100)
+>      - outline of a label in any view; (9 November 2026, 21:25:57 +0100)
+>      - `outlines` list for secondary outlines; (9 November 2026, 21:25:57 +0100)
+>      - `depth` curves (label or silhouette; edge top/bottom/left/right; fit quadratic, auto or polyline); (9 November 2026, 21:25:57 +0100)
+>      - `build` recipe stored as the `data-build` JSON attribute; (9 November 2026, 21:25:57 +0100)
+>      - writes `data-param-centre_x/y/z`. (9 November 2026, 21:25:57 +0100)
+>    - **BuildPanelFromBlueprint.py (v2):** (9 November 2026, 21:25:57 +0100)
+>      - `corners_of`, `sides`, `resample`, `span_at`; (9 November 2026, 21:25:57 +0100)
+>      - modes sum and loft; (9 November 2026, 21:25:57 +0100)
+>      - `build_coons` (sides from secondary outline sides via `name_sides`, e.g. "zmin", or `{"curve": id}`; corner reconciliation; optional `interior` crest correction); (9 November 2026, 21:25:57 +0100)
+>      - `shell()` builds a closed quad shell. (9 November 2026, 21:25:57 +0100)
+>      - Runs with python or hython (saves `.bgeo.sc` and `.hip` under hython). (9 November 2026, 21:25:57 +0100)
+>    - **SheetViews.py:** (9 November 2026, 21:25:57 +0100)
+>      - `views <frame> <views_dir> <obj> <title> <out.json> view[:x0:y0:x1:y1]...`: auto crop when only the view name is given. (9 November 2026, 21:25:57 +0100)
+>      - `iou <views.json> <idx> <labels.npz> <label> <scale> [--outer]`. (9 November 2026, 21:25:57 +0100)
+>    - **MaskAtlas.py:** (9 November 2026, 21:25:57 +0100)
+>      - `PALETTE='grey'`, `GREY_RANGE=(38,242)`, `grey_of(i)` (golden-ratio greys), `colour(i)`. (9 November 2026, 21:25:57 +0100)
+>      - `chains_of(L)`, `simplify`, `clean_chain(pts, tol, k=8, corner_deg=35.0, window=9)`, `view_map`, `names_of`. (9 November 2026, 21:25:57 +0100)
+>      - `run_view` writes `car-masks-<view>.svg` and checks it with rsvg-convert, background `colour(-1)`. (9 November 2026, 21:25:57 +0100)
+>      - `render` writes `-grey.png`, `-grey-numbered.png`, `-overlay.png` (red borders). (9 November 2026, 21:25:57 +0100)
+>      - `legend`; default `--tol 1.0`. (9 November 2026, 21:25:57 +0100)
+>      - Usage: `MaskAtlas.py <project_dir> <views_dir> <frame.json> <out_dir>`. (9 November 2026, 21:25:57 +0100)
+>    - **MaskJudge.py:** (9 November 2026, 21:25:57 +0100)
+>      - Constants: `SCALE=3`, `TOL=1.5`, `LINE_RADIUS=2`, `SIL_BAND=3`, `EDGE_SIGMA=1.0`, `PAIRS` (left/right plus self pairs). (9 November 2026, 21:25:57 +0100)
+>      - Functions: `remap(src, frame, vsrc, vdst, shape, mirror_x)`, `partners(micro)`, `drawn_lines(views_dir, view, with_edges=False)`, `line_scores`, `sym_scores` (self-pair best-name mapping), `judge(...)`, `selftest`. (9 November 2026, 21:25:57 +0100)
+>      - Usage: `judge <labels_dir> <views_dir> <frame> <micro> <out> --name tag` and `selftest ...`. (9 November 2026, 21:25:57 +0100)
+>    - **CutTournament.py:** (9 November 2026, 21:25:57 +0100)
+>      - Parameter dict: `P = {'snap_px':6, 'ball_px':4, 'line_disk':6, 'split_min_px':900, 'split_line_share':0.8, 'line_tol_px':1.2, 'arc_tol_px':1.5, 'shape_param_cost':0.004, 'shape_max_corners':8}`. (9 November 2026, 21:25:57 +0100)
+>      - Methods: `m1_lines` (watershed cells with majority vote and split), `m1b_snap_split`, `m2_prims`, `m3_sym`, `m4_shapes` (ellipse guarded); `fill_gaps`. (9 November 2026, 21:25:57 +0100)
+>      - Usage: `<labels_dir> <views_dir> <frame> <micro> <out> [m1,m2,...]`. (9 November 2026, 21:25:57 +0100)
+>    - **Data and outputs** (under `/Users/zenray/.claude/tmp/tmp-zenray-meshes/`): (9 November 2026, 21:25:57 +0100)
+>      - `Projects/10_CarCutFit/02_masks/` (labels, micro.json, catalog.json); (9 November 2026, 21:25:57 +0100)
+>      - `work/car/views/` (`00_front_rgb.png`, `_mask.png`, etc.) and `work/car/frame/frame.json`; (9 November 2026, 21:25:57 +0100)
+>      - `research/v3-car-door-9-November-2026/batch/` (specs, builds with `.hip`, compare and 4views boards, `four-components-board.png`); (9 November 2026, 21:25:57 +0100)
+>      - `research/v3-car-masks-9-November-2026/` (six SVGs, grey, overlay and grey-numbered PNGs, boards, legend, `car-masks-report.json`); (9 November 2026, 21:25:57 +0100)
+>      - `research/v3-car-cut-tournament-9-November-2026/` (baseline, m1, m1b, m2, m3, m4, chain, chain_b, `tournament-board.png`, `CarCutMethodSheet.md`, `tournament.json`). (9 November 2026, 21:25:57 +0100)
+>    - **Skill docs:** (9 November 2026, 21:25:57 +0100)
+>      - `references/ZenRayMeshes1.md`: sections 428 to 432 appended (429 rewritten after the heredoc bug, with a pitfall line). (9 November 2026, 21:25:57 +0100)
+>      - `references/ZenRayMeshesV3.md`: lines added. (9 November 2026, 21:25:57 +0100)
+>      - `templates/blueprint-v3/truck-hood/`. (9 November 2026, 21:25:57 +0100)
+>      - Skill synced several times. (9 November 2026, 21:25:57 +0100)
+>    - **Memory1 project files:** `Projects/zenray-meshes/FEEDBACK.md` and `Rules.md` (grey rule pinned). (9 November 2026, 21:25:57 +0100)
+>    - **Journal:** PROGRESS entries appended through `progress.mjs`. (9 November 2026, 21:25:57 +0100)
+>
+> 4. Errors and fixes: (9 November 2026, 21:25:57 +0100)
+>    - **Blueprint translate bug:** fixed; self-test expectations updated. (9 November 2026, 21:25:57 +0100)
+>    - **Hood side trace followed the lamp and foliage:** fixed by row colour detection (foliage stops where B ≥ G). (9 November 2026, 21:25:57 +0100)
+>    - **Quick Look SVG crop:** used `rsvg-convert` instead. (9 November 2026, 21:25:57 +0100)
+>    - **`ndarray.ptp` removed in numpy:** used `np.ptp`. (9 November 2026, 21:25:57 +0100)
+>    - **Radius graph scale in the horn builder:** normalised the graph x to 0..1. (9 November 2026, 21:25:57 +0100)
+>    - **Horn collar circle fit from one arc:** added top and bottom points. (9 November 2026, 21:25:57 +0100)
+>    - **Unquoted heredoc (`<<EOF`) executed backticks** and erased file names in section 429: rewritten with a quoted heredoc and a Python script; pitfall recorded. (9 November 2026, 21:25:57 +0100)
+>    - **Label values are atom ids, not catalog n:** mapped through the `index.json` shown pixel counts and then `micro.json`. (9 November 2026, 21:25:57 +0100)
+>    - **Roof coons failed (thin slivers 11–18 px):** tried edges by column curve and an interior crest correction. The judge was then measured on the outer skin only (`--outer`). The roof stays at about 0.69. (9 November 2026, 21:25:57 +0100)
+>    - **Bottom-view outline of the rear panel was partial:** KeyError 'zmin'; kept the sum version. (9 November 2026, 21:25:57 +0100)
+>    - **Masks first shown in colour:** user corrected to grey ("Non, je t'avais demandé de le faire en nuance de gris… comme un tile random dans substance designer consigne le et ou crée l'outil"). Switched to grey, pinned the rule. (9 November 2026, 21:25:57 +0100)
+>    - **SVG check fell to 0.28 after the grey switch:** the rsvg background was still the old grey; fixed with `'-b', 'rgb(%d,%d,%d)' % colour(-1)`. (9 November 2026, 21:25:57 +0100)
+>    - **Stair steps in SVG paths:** fixed with `clean_chain` (corner split, smoothing, `tol` 1.0). (9 November 2026, 21:25:57 +0100)
+>    - **Safety check blocked `rm -f $O/*-idmap.png`:** used `rm -f "${O:?}"/*-idmap.png`. (9 November 2026, 21:25:57 +0100)
+>    - **Git index.lock blocking the Memory1 commit:** the first time it was stale and removed after checking no git ran in Memory1 (pushed f686ecda8). The second time it was not removed; left to auto-sync. (9 November 2026, 21:25:57 +0100)
+>    - **Judge self-test errors:** identity test fixed with a double mirror; self-symmetry naming fixed; precision now includes Canny edges; the red threshold changed to drops > 0.2. (9 November 2026, 21:25:57 +0100)
+>    - **Ellipse fit crash on slivers:** guarded with try/except. (9 November 2026, 21:25:57 +0100)
+>    - **M1 merged the front view (recall 0.09)** because the front view has few dark lines; M1b keeps existing borders. (9 November 2026, 21:25:57 +0100)
+>    - **User feedback on deviation:** "tu t'écartes de ce que tu dois faire… tu refais le tutoriel… arrête-toi… Le but était de tester une méthode de protocole SVG"; "ça ne peut pas marcher parce que tu fais un calcul des contours par rapport à une vue perspective". (9 November 2026, 21:25:57 +0100)
+>
+> 5. Problem Solving: (9 November 2026, 21:25:57 +0100)
+>    - **Solved:** (9 November 2026, 21:25:57 +0100)
+>      - Rendering and judging tools (ModelViews, SheetViews, MaskJudge). (9 November 2026, 21:25:57 +0100)
+>      - All-masks atlas with clean shared-border SVGs, faithful at 1.0 interior. (9 November 2026, 21:25:57 +0100)
+>      - Door, hood, roof and rear-panel component tests (contours 0.98–0.99). (9 November 2026, 21:25:57 +0100)
+>      - 4-method tournament run. (9 November 2026, 21:25:57 +0100)
+>    - **Open:** (9 November 2026, 21:25:57 +0100)
+>      - The cut is not perfect: missing cuts, L/R asymmetry, jagged edges with M1b. (9 November 2026, 21:25:57 +0100)
+>      - No method beats the baseline on all three measures (0.6747 / 0.7785 / 0.8479). Best balance M1b then M3: 0.705 / 0.755 / 0.938. (9 November 2026, 21:25:57 +0100)
+>      - The user wants a dedicated, more powerful tool; SAM 2.1 large is approved for testing. (9 November 2026, 21:25:57 +0100)
+>
+> 6. All user messages (user-role turns after the previous summary): (9 November 2026, 21:25:57 +0100)
+>    - "D'accord, mais j'ai actuellement pas le component en vue 3D pour savoir s'il est bon ou pas… Redonne-moi la corne… image de référence et image de vue… l'arête du capot sur la vue de profil s'arrêtait un peu plus nettement au niveau du commencement de la vitre et de la portière… sur la vue front… pas parfaitement aligné sur l'axe Y… sur quoi tu te bases… quel stack technologique" (9 November 2026, 21:25:57 +0100)
+>    - (with image) "Non, ça peut pas marcher parce que là, tu fais un calcul des contours par rapport à une vue perspective. Il faut que tu calcules les vecteurs ou que tu récupères directement une vue depuis le profil… pas encore exactement la bonne, que ce soit en termes de topologie ou bien en termes d'ajustement des components entre eux" (9 November 2026, 21:25:57 +0100)
+>    - "Oui, mais là, tu t'écartes de ce que tu dois faire… tu refais le tutoriel… on a lu 427 sections… arrête-toi… Le but était de tester une méthode de protocole SVG… J'ai même pas pu regarder le capot parce que tu me l'as pas mis dans une vue 4 vues…" (9 November 2026, 21:25:57 +0100)
+>    - "Repars sur la voiture avec la méthode actuelle et essaie de faire un component simple qui est déjà découpé par masque." (9 November 2026, 21:25:57 +0100)
+>    - "Attends, arrête-toi maintenant. Dis-moi comment t'as fait pour faire un masque aussi clean… Est-ce que tu utilises la photo procédurale ou tu utilises les masques?" (9 November 2026, 21:25:57 +0100)
+>    - "parle en francais : [pasted English answer]" (9 November 2026, 21:25:57 +0100)
+>    - "D'accord, mais en soi, t'as juste besoin de… la vue en gris, plus de la vue avec les traits découpés comme Substance Designer… indexé… preview de la découpe pour obtenir des vraies découpes… masques clean… run l'outil SVG… Donc fais désormais, à partir de ce masque, le component parfait à partir de la méthode SVG. Si la méthode SVG, c'est pas la bonne, bah, fais-en une autre. Mais tu as aussi ZenRay rétopologie à faire après. et consigne" (9 November 2026, 21:25:57 +0100)
+>    - "test avant de consigner ou consigne le test c'est pas validé pour l'instant fais le rapidement stp Tu dois énormément t'appliquer sur la géométrie. Pas forcément sur la retopologie maintenant, mais au moins la forme doit être parfaite avant de passer à la retopologie… surtout par rapport à l'image ref. Ça me semble pas si compliqué… tu galères." (9 November 2026, 21:25:57 +0100)
+>    - (mid-turn) "Teste en parallèle trois autres components… par exemple capot / toit /… Sinon, fais-le, ne délègue pas à des agents, mais juste continue et fais-moi trois autres tests avec trois autres components à partir du masque sur les components." (9 November 2026, 21:25:57 +0100)
+>    - "Ok, et les components et la topologie, tu la draw avec quoi du coup?… houdini blender ou python custom ? /zenray-1-line" (9 November 2026, 21:25:57 +0100)
+>    - (pasted) "Montre-moi tous les masques de la voiture… chaque component est par une couleur différente via un run ID… Ou sinon… niveau de gris… je vérifie si certains masques sont bons… dessine-moi uniquement les SVG des masques… de tous les masques de la voiture… hyper proprement… lecture en index par nuance de gris différente pour chaque masque, pour chaque cellule fermée. Et le calage…" plus "go all components." (9 November 2026, 21:25:57 +0100)
+>    - "Non, je t'avais demandé de le faire en nuance de gris, pas en colorisation. comme un tile random dans substance designer consigne le et ou crée l'outil" (9 November 2026, 21:25:57 +0100)
+>    - (pasted) "C'est vraiment pas mal, sauf que on n'est pas encore parfait niveau… découpage… à cause de ChatGPT… protocole de vérification qui vérifie les formes… l'aspect adouci… ZenRay Lines… formes procédurales faites à l'avance… adoucit les splines… lister des méthodes… web search… protocole de recherche… 99%… le profil gauche et le profil droit de la voiture ne donnent pas le même clignotant… au niveau de la vitre inférieure, il découpe pas la dernière bande de la vitre arrière… reprendre à partir de la référence… components… parfaits à 99%… input manuel… perdre du temps à l'utilisateur… modéliser automatiquement et procéduralement… notre ID maps en mode index il est intéressant" plus "créons une nouvelle méthode un nouveau protocole sinon run un tournoi peut être pas de 16 mais de 4 /zenray-methodology" (9 November 2026, 21:25:57 +0100)
+>    - "Aucune nouvelle méthode ne batte la méthode actuelle. Donc, à mon avis, on a besoin d'un vrai outil dédié qui est beaucoup plus puissant pour créer les bonnes découpes par rapport à la référence initiale." (9 November 2026, 21:25:57 +0100)
+>    - "testons essaie le meilleur modele directement." (explicit approval to download and test SAM 2.1 large) (9 November 2026, 21:25:57 +0100)
+>    - **Standing security and behaviour constraints:** (9 November 2026, 21:25:57 +0100)
+>      - Never open, drive, click or capture Matthieu's personal browser; the built-in browser is allowed. (9 November 2026, 21:25:57 +0100)
+>      - Sudo password lives in `Memory1/Identity/Matthieu1.md` and must never be displayed; never type passwords (Houdini licence: log in via License Administrator without typing a password). (9 November 2026, 21:25:57 +0100)
+>      - League of Legends and Riot are forbidden until 1 November 2027, even if asked. (9 November 2026, 21:25:57 +0100)
+>      - Workflows are banned without double confirmation. (9 November 2026, 21:25:57 +0100)
+>      - No AI mesh generation (Hunyuan, TRELLIS, Meshy, Tripo, Rodin). SAM is segmentation, not mesh generation, and was presented as such. (9 November 2026, 21:25:57 +0100)
+>      - Never `git add -A` in `~/.claude`. (9 November 2026, 21:25:57 +0100)
+>      - Downloads require explicit permission with file name, source and size; permission is now given for SAM 2.1 large. (9 November 2026, 21:25:57 +0100)
+>      - At most 40 images per reading agent; announce the token cost before launching agents. (9 November 2026, 21:25:57 +0100)
+>      - No em dashes; full absolute paths as links; French prose; code identifiers in English with a dated comment; HDA parametric code. (9 November 2026, 21:25:57 +0100)
+>      - Masks are shown in grey levels, never colour. (9 November 2026, 21:25:57 +0100)
+>      - Record tests as "test, non validé". (9 November 2026, 21:25:57 +0100)
+>      - Never delete through unguarded shell variables. (9 November 2026, 21:25:57 +0100)
+>
+> 7. Pending Tasks: (9 November 2026, 21:25:57 +0100)
+>    - **Build the dedicated SAM 2.1 cut tool ("ZenRay Cut"):** (9 November 2026, 21:25:57 +0100)
+>      - install the `sam2` package (facebookresearch/sam2) in `/Users/zenray/.venvs/zenray-motion` (torch 2.14.1 with MPS); (9 November 2026, 21:25:57 +0100)
+>      - download `sam2.1_hiera_large.pt` from dl.fbaipublicfiles.com and verify its size, stated as about 900 MB from memory; (9 November 2026, 21:25:57 +0100)
+>      - prompt SAM per part from the current ID map (box, interior positives, negatives in neighbours); (9 November 2026, 21:25:57 +0100)
+>      - run the automatic mask generator to find missing cuts (kept only if mirrored on the opposite profile); (9 November 2026, 21:25:57 +0100)
+>      - resolve into a partition, apply M3 symmetry, vectorise with MaskAtlas; (9 November 2026, 21:25:57 +0100)
+>      - keep the result only if it beats the baseline on all three MaskJudge measures (0.6747 / 0.7785 / 0.8479); (9 November 2026, 21:25:57 +0100)
+>      - boards in grey, consigned as a non-validated test. (9 November 2026, 21:25:57 +0100)
+>    - Previously proposed but unrequested: retopology of the components; camera calibration of the Unimog photos; horn (stopped). (9 November 2026, 21:25:57 +0100)
+>    - The Assets archive of zenray-meshes was queued earlier; it is not verified. (9 November 2026, 21:25:57 +0100)
+>    - Memory1 commit for the latest skill-mirror changes is pending (git lock); auto-sync should push it. (9 November 2026, 21:25:57 +0100)
+>
+> 8. Current Work: (9 November 2026, 21:25:57 +0100)
+>    - Just before the summary, I proposed SAM 2.1 as the dedicated cut tool and asked permission to download: (9 November 2026, 21:25:57 +0100)
+>      - the package `sam2` from the official `facebookresearch/sam2` GitHub; (9 November 2026, 21:25:57 +0100)
+>      - the weights `sam2.1_hiera_large.pt` (~900 MB) or `sam2.1_hiera_base_plus.pt` (~320 MB) from `dl.fbaipublicfiles.com`, sizes to be verified. (9 November 2026, 21:25:57 +0100)
+>    - The environment was checked: `/Users/zenray/.venvs/zenray-motion/bin/python` has torch 2.14.1 with MPS available and cv2. No SAM package or weights are on disk; potrace is at `/opt/homebrew/bin/potrace`. (9 November 2026, 21:25:57 +0100)
+>    - The user answered: "testons essaie le meilleur modele directement." (9 November 2026, 21:25:57 +0100)
+>    - Tool design as stated to the user: (9 November 2026, 21:25:57 +0100)
+>      - prompt per part from the ID map (box, interior points, negative points in neighbours); (9 November 2026, 21:25:57 +0100)
+>      - automatic segmentation to find regions straddling two parts (missing cuts such as the rear window band), kept only if present on the opposite profile; (9 November 2026, 21:25:57 +0100)
+>      - partition, M3 symmetry, MaskAtlas SVGs; (9 November 2026, 21:25:57 +0100)
+>      - accepted only if it beats the current cut on all three judge measures. (9 November 2026, 21:25:57 +0100)
+>
+> 9. Optional Next Step: (9 November 2026, 21:25:57 +0100)
+>    - Install SAM 2 and download the large checkpoint, verify its size, run a smoke test on one view, then build the prompted cut tool and judge it with MaskJudge against the baseline. (9 November 2026, 21:25:57 +0100)
+>    - User's exact approval: "testons essaie le meilleur modele directement." (9 November 2026, 21:25:57 +0100)
+>    - My preceding proposal (paraphrased from my last message): download `sam2.1_hiera_large.pt` (~900 MB, the most precise on fine edges, recommended) and the `sam2` package from `facebookresearch/sam2`. (9 November 2026, 21:25:57 +0100)
+>    - Concretely: (9 November 2026, 21:25:57 +0100)
+>      1. `pip install` sam2 (from the GitHub repo) into `/Users/zenray/.venvs/zenray-motion`. (9 November 2026, 21:25:57 +0100)
+>      2. Download `https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_large.pt` into a dedicated models folder. The URL must be verified from the official repo, and the size reported. (9 November 2026, 21:25:57 +0100)
+>      3. Write `scripts/v3/SamCut.py`: per view, per atom of `labels_<view>.npz`, SAM2 image predictor with a box, interior points and neighbour negatives; resolve overlaps; automatic mask generator to find missing cuts, mirrored left and right; then M3 symmetry. (9 November 2026, 21:25:57 +0100)
+>      4. Run `MaskJudge.py judge` and compare with the baseline; board in grey; record as a non-validated test (section 433). (9 November 2026, 21:25:57 +0100)
+>
+> If you need specific details from before compaction (like exact code snippets, error messages, or content you generated), read the full transcript at: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl (9 November 2026, 21:25:57 +0100)
+> Continue the conversation from where it left off without asking the user any further questions. Resume directly — do not acknowledge the summary, do not recap what was happening, do not preface with "I'll continue" or similar. Pick up the last task as if the break never happened. (9 November 2026, 21:25:57 +0100)
+>
+> The messages after this summary are the most recent messages from before compaction, kept verbatim. The summary was written without seeing them, so something it says has not happened yet may already have happened in them. (9 November 2026, 21:25:57 +0100)
+
+## 9 November 2026, 21:28:04 +0100 : Iteration
+
+<!-- feedback-event:e7c37c6c7460ffce6bad54d1a4f6bc845a358dd4aebef8218e031d0e65d166e7 (9 November 2026, 21:28:04 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 21:28:04 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 21:28:04 +0100)
+
+> Le paquet est installé sans toucher à torch 2.14.1, et le serveur officiel annonce 898 083 611 octets pour les poids, soit 856 Mio. Je les télécharge maintenant. (9 November 2026, 21:28:04 +0100)
