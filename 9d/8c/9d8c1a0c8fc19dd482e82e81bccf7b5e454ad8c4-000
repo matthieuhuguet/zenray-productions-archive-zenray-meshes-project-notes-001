@@ -70798,3 +70798,93 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 16:48:36 +0100)
 
 > The fit check works: it flagged three titles too wide for their boxes. I'm reducing their size. (9 November 2026, 16:48:36 +0100)
+
+## 9 November 2026, 18:18:17 +0100 : Iteration
+
+<!-- feedback-event:47d8421bcc34b4a2f3f519a7cf8225ea3403871807e21b51cb69971580a0a5cb (9 November 2026, 18:18:17 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 18:18:17 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 18:18:17 +0100)
+
+> The bar labels run over the dashed boxes. I'm tightening the scale and adding that case to the fit check. (9 November 2026, 18:18:17 +0100)
+
+## 9 November 2026, 18:18:48 +0100 : Iteration
+
+<!-- feedback-event:ff2ecbac97b81be9a8fc8cbada57325811abed152d4a80800531327d7139a5da (9 November 2026, 18:18:48 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 18:18:48 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 18:18:48 +0100)
+
+> The article is declared in Assets. I'm now running publish then the cloud archive, once only and with no retry loop, since the GitHub quota blocked it last time. (9 November 2026, 18:18:48 +0100)
+
+## 9 November 2026, 18:19:46 +0100 : Iteration
+
+<!-- feedback-event:6a0219bb8d904e5d22ac54dd8e64921c37ced36f6db8cf2d5fb0e237bfdc5a74 (9 November 2026, 18:19:46 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 18:19:46 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 18:19:46 +0100)
+
+> The archive is running, with 8 files left to send. While it finishes, I'm filing the document in ZenRay Documents and updating the log. (9 November 2026, 18:19:46 +0100)
+
+## 9 November 2026, 18:20:18 +0100 : Iteration
+
+<!-- feedback-event:88967cfa786df05519f2357a59fc9348cdf380b598cd04095367017f74f58a0e (9 November 2026, 18:20:18 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 18:20:18 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 18:20:18 +0100)
+
+> The document is filed in ZenRay Documents. I'm writing the log entry, then checking the cloud archive. (9 November 2026, 18:20:18 +0100)
+
+## 9 November 2026, 18:21:21 +0100 : Iteration
+
+<!-- feedback-event:15891dd9099f9fcf836c36581aea4e2ce4d8ea2164e4f78b56402e3fde8c03d6 (9 November 2026, 18:21:21 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 18:21:21 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 18:21:21 +0100)
+
+> The archive jobs are queued behind a task already running on the service. I'm not going to poll them in a loop. I'm committing the Memory changes for this work only, by explicit paths. (9 November 2026, 18:21:21 +0100)
+
+## 9 November 2026, 18:21:33 +0100 : Iteration
+
+<!-- feedback-event:d5887de35be8fa0cc1d3ec32b98f6ff124ab3c56cf6e24d753c3480af4141f77 (9 November 2026, 18:21:33 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 18:21:33 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 18:21:33 +0100)
+
+> The lock is a stale empty file from 14:33, and no git process is running. The automatic Memory sync has therefore been blocked for four hours without any warning. I'm removing it and committing. (9 November 2026, 18:21:33 +0100)
+
+## 9 November 2026, 18:21:42 +0100 : Iteration
+
+<!-- feedback-event:25bd89f11eb1a702ae3d96672efac2e00d2fe5bb3e6e836a0397bb7cc9dbe8ec (9 November 2026, 18:21:42 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 18:21:42 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 18:21:42 +0100)
+
+> The git process that is running belongs to another repository (`~/.claude`, session backups), not to Memory1. Memory1's lock is stale. (9 November 2026, 18:21:42 +0100)
+
+## 9 November 2026, 18:22:29 +0100 : Iteration
+
+<!-- feedback-event:380f8808a22f1f3bee0c2d9f347a64f25359822b1efc4eefb42eb29ca1f54849 (9 November 2026, 18:22:29 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 18:22:29 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 18:22:29 +0100)
+
+> ZenRay Meshes V3 now rests on a single method. On the truck hood, it gives the right length where the old version, tuned on a generated image, was 47 cm too long. (9 November 2026, 18:22:29 +0100)
+>
+> The method has three steps. First, a few key curves are traced on the calibrated reference photos. These curves become an SVG plan in millimetres, with the original photo underneath. Second, this plan drives the hood's parametric HDA in Houdini, and a rebuild takes 1.38 s. Third, the model is drawn in red wireframe on the same photos to be judged. To change the model, you give me a correction out loud, or you move a point in a drawing program, and the model rebuilds. (9 November 2026, 18:22:29 +0100)
+>
+> The test showed something I had not anticipated. Read directly, without correction, the plan gave the right proportions, but the front silhouette was off by 21.6 px. Toward the front of the hood, the outline the camera sees comes from the edge nearest to it, 0.87 m in front of the centre line where the curve had been placed. Rounding the corners changed nothing (21.4 px). A perspective correction, which puts each curve back on the right plane, brings the gap down to 3.3 px in two rounds, against 18.5 px for V002. The whole thing runs as a single command. (9 November 2026, 18:22:29 +0100)
+>
+> | What you asked for | Done? | How I know | (9 November 2026, 18:22:29 +0100)
+> |---|---|---| (9 November 2026, 18:22:29 +0100)
+> | « reprendre ZenRay Meshes de zéro sans perdre l'existant » | Yes | Seven Haiku readers covered all 427 sections. Nothing was deleted or moved: the 286 old scripts remain as a library, because the sections cite their paths. Audit: [/Users/zenray/.claude/tmp/tmp-zenray-meshes/research/v3-audit-9-November-2026/AUDIT.md](/Users/zenray/.claude/tmp/tmp-zenray-meshes/research/v3-audit-9-November-2026/AUDIT.md) | (9 November 2026, 18:22:29 +0100)
+> | « identifier les protocoles qui ont marché et ceux qui n'ont pas marché » | Yes | Every time pixels drove the geometry, the result plateaued around 0.97 with a crumpled surface. Every time curves or sliders drove it, it came out clean. The working horn is not recorded anywhere: 89 % silhouette, never validated by eye. | (9 November 2026, 18:22:29 +0100)
+> | « convertir une image PNG en SVG qu'on édite comme un architecte » | Yes | Plan: [/Users/zenray/.claude/skills/zenray-meshes/templates/blueprint-v3/truck-hood/hood.blueprint.svg](/Users/zenray/.claude/skills/zenray-meshes/templates/blueprint-v3/truck-hood/hood.blueprint.svg). The plan reader's self-test is green on the good case and red on a broken one. | (9 November 2026, 18:22:29 +0100)
+> | Le SVG « qui va éditer directement le modèle 3D » | Yes | Hood: 1.38 s, 99.9 % quads. The silhouette on the side photo is 3.3 px off at worst. | (9 November 2026, 18:22:29 +0100)
+> | Tester aussi l'itération directe sur un premier mesh | Yes | V002, tuned with sliders: 1.145 m long against 0.677 m on the photos, 18.5 px off. | (9 November 2026, 18:22:29 +0100)
+> | « la méthode ChatGPT image, elle est deprecated » | Yes | Recorded in the skill and in the project rules. | (9 November 2026, 18:22:29 +0100)
+> | Une seule méthode, consignée | Yes | [/Users/zenray/.claude/skills/zenray-meshes/references/ZenRayMeshesV3.md](/Users/zenray/.claude/skills/zenray-meshes/references/ZenRayMeshesV3.md), section 428, skill synced, commit pushed | (9 November 2026, 18:22:29 +0100)
+> | Document de synthèse avec schémas simples | Yes | [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Articles/index.html](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Articles/index.html) is declared in Assets and filed in ZenRay Documents. Its numbers are recomputed from the reports: green on the real file, red on a corrupted copy. | (9 November 2026, 18:22:29 +0100)
+> | Sauvegarde cloud | Not verified | The archive is still running, with 8 files left to send. | (9 November 2026, 18:22:29 +0100)
+>
+> Four other points: (9 November 2026, 18:22:29 +0100)
+> - **Front view.** The hood is shifted down by about 20 px as a block, but its width and creases land in the right place. The cause is the front camera's height, already known to be off by about 10 %. It still needs recalibrating. (9 November 2026, 18:22:29 +0100)
+> - **Not yet tested.** No organic component or Blender builder has been tried with this method. (9 November 2026, 18:22:29 +0100)
+> - **Audit cost.** The readers used about 3.5 million tokens, five times my estimate. No workflow was used. (9 November 2026, 18:22:29 +0100)
+> - **Memory sync.** It had been stuck since 14:33 by a leftover git lock file, with no warning. I removed it, and the push went through. (9 November 2026, 18:22:29 +0100)
+>
+> A shorter version of your request: « Audite ZenRay Meshes, garde ce qui marche, et donne-moi une seule méthode où un plan SVG en millimètres, relevé sur les photos, pilote le modèle Houdini. » (9 November 2026, 18:22:29 +0100)
+> - **Blueprint**: the plan in millimetres that drives the geometry. (9 November 2026, 18:22:29 +0100)
+> - **Silhouette**: the object's outline as the camera sees it. (9 November 2026, 18:22:29 +0100)
