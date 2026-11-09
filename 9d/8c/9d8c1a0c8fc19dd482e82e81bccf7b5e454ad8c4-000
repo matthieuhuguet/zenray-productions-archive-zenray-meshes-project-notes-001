@@ -70913,3 +70913,36 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 18:32:19 +0100)
 
 > I'm looking for the frames of the original video where Dracard's horns can be seen, so the horn can be judged against the real reference and not against a generated image. (9 November 2026, 18:32:19 +0100)
+
+## 9 November 2026, 18:45:06 +0100 : Prompt
+
+<!-- feedback-event:aa9884c01157f5cafc50aa7f2b1700968f2769ca13c9678929f7847d061f35a4 (9 November 2026, 18:45:06 +0100) -->
+- Project: zenray-meshes; kind: prompt. (9 November 2026, 18:45:06 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 18:45:06 +0100)
+
+> Non, ça peut pas marcher parce que là, tu fais un calcul des contours par rapport à une vue perspective. Il faut que tu calcules les vecteurs ou que tu récupères directement une vue depuis le profil. Après, la modélisation semble propre, mais tu vois que c'est pas encore exactement la bonne, que ce soit en termes de topologie ou bien en termes d'ajustement des components entre eux, même pour un truc ultra simple. (9 November 2026, 18:45:06 +0100)
+
+## 9 November 2026, 18:45:06 +0100 : Prompt
+
+<!-- feedback-event:0d442d63368b6a1ea8dc23fdd5969f2a2a38c8f19ef3f09276e69316f2e7c805 (9 November 2026, 18:45:06 +0100) -->
+- Project: zenray-meshes; kind: prompt. (9 November 2026, 18:45:06 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 18:45:06 +0100)
+
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/images/1.webp] (9 November 2026, 18:45:06 +0100)
+
+## 9 November 2026, 18:45:07 +0100 : Prompt
+
+<!-- feedback-event:489cf6fc95db4e5a8fb57b245502d7c1abc16c1c3bac4448b801861b43f86f84 (9 November 2026, 18:45:07 +0100) -->
+- Project: zenray-meshes; kind: prompt. (9 November 2026, 18:45:07 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 18:45:07 +0100)
+
+> Non, ça peut pas marcher parce que là, tu fais un calcul des contours par rapport à une vue perspective. Il faut que tu calcules les vecteurs ou que tu récupères directement une vue depuis le profil. Après, la modélisation semble propre, mais tu vois que c'est pas encore exactement la bonne, que ce soit en termes de topologie ou bien en termes d'ajustement des components entre eux, même pour un truc ultra simple. (9 November 2026, 18:45:07 +0100)
+>
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/images/1.webp] (9 November 2026, 18:45:07 +0100)
+
+## 9 November 2026, 18:45:27 +0100 : Prompt
+
+<!-- feedback-event:c440f8b6a34e97a10e4c6f2bb8144a8133418b3d827c171f65e3781271755bf6 (9 November 2026, 18:45:27 +0100) -->
+- Project: zenray-meshes; kind: prompt. (9 November 2026, 18:45:27 +0100)
+
+> 9 November 2026 : ça ne peut pas marcher, tu calcules des contours sur une vue perspective ; il faut calculer les vecteurs ou récupérer directement une vue de profil. La modélisation semble propre mais pas exactement la bonne, ni en topologie ni en ajustement des components entre eux (corne et collier), même pour un truc ultra simple. (9 November 2026, 18:45:27 +0100)
