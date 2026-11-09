@@ -73126,3 +73126,46 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 00:10:36 +0100)
 
 > Je regarde comment le contrôle traite les pièces de kit (roues), pour que la nouvelle bibliothèque d'éléments réels (vis, barres, tubes, rétroviseurs) passe les mêmes portes. (10 November 2026, 00:10:36 +0100)
+
+## 10 November 2026, 00:28:50 +0100 : Iteration
+
+<!-- feedback-event:8f753d9647a1080d5ae5c54f81a448483c68c8b65fd98b87f27d5420bab63066 (10 November 2026, 00:28:50 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 00:28:50 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 00:28:50 +0100)
+
+> Dix itérations mesurées sont au journal (V_011 à V_020) : 105 pièces, lignes de la référence retrouvées de 0,41 à 0,55. Je regarde maintenant le rendu et les planches de la V_020. (10 November 2026, 00:28:50 +0100)
+
+## 10 November 2026, 00:29:27 +0100 : Prompt
+
+<!-- feedback-event:277299e51c6e5dfaa2870a72cb0b622173b8c66c3c3d7eda6d656f282fd9ec76 (10 November 2026, 00:29:27 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 00:29:27 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 00:29:27 +0100)
+
+> [Usage limit reached; a short grace allowance remains, then this turn is cut off without warning. Judge what's left: if it's genuinely only a few steps, finish it properly, then stop and say so without extra polishing. Otherwise don't attempt it all: finish the piece in hand and at most two more like it, then stop. The allowance also pays for any subagents you have running: they don't get this message and will keep going, so it's up to you how to handle them. Either way, end by telling the user their usage limit was reached, what's done and what's left.] (10 November 2026, 00:29:27 +0100)
+
+## 10 November 2026, 00:30:16 +0100 : Iteration
+
+<!-- feedback-event:a9baec9ac91868d03f07eb63bcab591c701a12a44133513748c23842545c9829 (10 November 2026, 00:30:16 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 00:30:16 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 00:30:16 +0100)
+
+> Ta limite d'utilisation est atteinte, je m'arrête ici : dix itérations mesurées sont faites sur les cent demandées, et la voiture n'est pas encore au niveau AAA. (10 November 2026, 00:30:16 +0100)
+>
+> Les deux images envoyées (plan d'ensemble et comparaison à la référence de la V_020) ont été générées mais je ne les ai pas relues. Le plan réussit 9 règles sur 12 et rien n'est validé à l'œil. (10 November 2026, 00:30:16 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (10 November 2026, 00:30:16 +0100)
+> |---|---|---| (10 November 2026, 00:30:16 +0100)
+> | Courbes lissées sur le plan | Oui, mesuré | L'ondulation des arêtes passe de 1 099 à 11 degrés ; chaque arête tracée est maintenant une seule courbe lisse, tangente à ses voisines | (10 November 2026, 00:30:16 +0100)
+> | Composants préétablis | Oui, première série | Bibliothèque de vis, barres, tubes, rétroviseurs (autotest vert) ; posés sur la voiture : 3 barres de calandre, 2 rétroviseurs, 26 vis, bras de suspension, ailettes de diffuseur | (10 November 2026, 00:30:16 +0100)
+> | Beaucoup plus de détail | En partie | 75 pièces puis 105 ; lame avant, panneau arrière en trois, feux, plaques du dessous, répétiteur ; les lignes de la référence retrouvées passent de 0,41 à 0,55 (objectif 0,80) | (10 November 2026, 00:30:16 +0100)
+> | Un vrai plan | En partie | Planche d'ensemble à cinq vues avec contour épais et repères des éléments ; non relue | (10 November 2026, 00:30:16 +0100)
+> | Au moins 100 itérations | Non | 10 au journal (V_011 à V_020), 25 à 50 secondes chacune | (10 November 2026, 00:30:16 +0100)
+> | Niveau AAA, fini | Non | 13 portes sur 27, comme au départ ; la silhouette n'a pas bougé (0,927 au pire, objectif 0,97) | (10 November 2026, 00:30:16 +0100)
+>
+> - **Régression :** les quads de l'épaule et de l'aile arrière se sont dégradés après la correction de la ceinture de caisse (7 et 10 quads pliés par côté). (10 November 2026, 00:30:16 +0100)
+> - **Porte de lissage redéfinie :** elle mesure maintenant la flèche des facettes (0,15 mm) au lieu d'un angle seul, pour juger pareil un panneau et une tête de vis. Les passages de roue et les moyeux échouent à cette nouvelle mesure. (10 November 2026, 00:30:16 +0100)
+> - **Ce qui manque pour les itérations suivantes :** l'outil d'ajustement automatique des coins sur les six vues n'est pas écrit. C'est lui qui doit corriger la silhouette et porter les dizaines d'itérations restantes. (10 November 2026, 00:30:16 +0100)
+>
+> Tout est consigné dans le skill (synchronisé) et dans le journal global. Pour reprendre : (10 November 2026, 00:30:16 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/STATE.md](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/STATE.md) (10 November 2026, 00:30:16 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/ITERATIONS.md](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/ITERATIONS.md) (10 November 2026, 00:30:16 +0100)
