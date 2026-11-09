@@ -72818,3 +72818,75 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 23:21:29 +0100)
 
 > Je vérifie Houdini avant d'écrire qu'il manque, puis je termine la consignation (routeur du skill, sections datées, spécification de la voiture, synchronisation). (9 November 2026, 23:21:29 +0100)
+
+## 9 November 2026, 23:23:16 +0100 : Standing rule
+
+<!-- feedback-event:d9827f05f3692e08fbce27ea61bd84ecf8f9a7a554deb3ae5392db5550f76a31 (9 November 2026, 23:23:16 +0100) -->
+- Project: zenray-meshes; kind: rule. (9 November 2026, 23:23:16 +0100)
+
+> 10 November 2026 : un asset entier depuis une planche six vues se construit par une cage (coins lus dans une vue, troisième coordonnée lue dans une autre vue ou règle écrite), jamais par des pixels ; la découpe 2D ne sert qu'à mesurer. Méthode : references/ZenRayMeshesV4.md. (9 November 2026, 23:23:16 +0100)
+
+## 9 November 2026, 23:23:16 +0100 : Standing rule
+
+<!-- feedback-event:36d9a3b0b24a15b498941c80a7946574d1094663466452f95f3e7e55ef83dc15 (9 November 2026, 23:23:16 +0100) -->
+- Project: zenray-meshes; kind: rule. (9 November 2026, 23:23:16 +0100)
+
+> 10 November 2026 : spécification, architecture et contrôle du plan (Plan.py check, 10 règles) AVANT tout quad ; puis contrôle de production (MeshQA.py, 27 portes). Un plan qui échoue ne se maille pas. (9 November 2026, 23:23:16 +0100)
+
+## 9 November 2026, 23:23:16 +0100 : Standing rule
+
+<!-- feedback-event:97a5146486e748357c62351bbc3b9936edac0bec7f2fb076fe5840ab0e3b1d29 (9 November 2026, 23:23:16 +0100) -->
+- Project: zenray-meshes; kind: rule. (9 November 2026, 23:23:16 +0100)
+
+> 10 November 2026 : lecture d'une vidéo par agents Haiku : une image par seconde, 24 images par agent au plus pour celle-ci (jamais plus de 40), rapport écrit sur disque, puis audit du journal de chaque agent (images demandées contre images reçues) avant de croire le rapport. (9 November 2026, 23:23:16 +0100)
+
+## 9 November 2026, 23:23:42 +0100 : Prompt
+
+<!-- feedback-event:7fd4cd25f5cb14b212d79f15b5c208f1f05e90579de3b83ed8803d56a2eb816a (9 November 2026, 23:23:42 +0100) -->
+- Project: zenray-meshes; kind: prompt. (9 November 2026, 23:23:42 +0100)
+
+> 10 November 2026, en cours de travail (mots de Matthieu condensés) : lire la vidéo https://www.youtube.com/watch?v=vdYynH177h0 seconde par seconde par des agents Haiku 5.5 (48 images), dans cette conversation ; puis inverser le plan : lancer la méthode vidéo maintenant, avant de continuer les quads, pour définir d'abord les composants et rédiger le plan parfait (requirements, architecture, plan blanc sur fond bleu, jamais « ZenRay Blueprint »), ensuite générer les plans de manière ultra rigoureuse et continuer ; ne pas oublier l'existant de ZenRay Meshes. (9 November 2026, 23:23:42 +0100)
+
+## 9 November 2026, 23:24:22 +0100 : Iteration
+
+<!-- feedback-event:c1475a9b2bf211048b798f52388fc7100ea9e6419ad73e40bba67997bd30f358 (9 November 2026, 23:24:22 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 23:24:22 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 23:24:22 +0100)
+
+> La voiture n'est pas encore parfaite : la nouvelle chaîne existe, elle est testée et consignée, et la cage V_010 donne une voiture nette en 251 218 quads, mais elle ne passe que 13 portes de contrôle sur 27 et il lui manque des pièces. (9 November 2026, 23:24:22 +0100)
+>
+> ## Ce qui a changé de méthode (9 November 2026, 23:24:22 +0100)
+>
+> La géométrie n'est plus pilotée par des pixels mais par une **cage** : un petit fichier où chaque coin de panneau est lu dans une vue, et sa troisième coordonnée dans une autre vue ou par une règle écrite. La découpe SAM ne sert plus qu'à mesurer. (9 November 2026, 23:24:22 +0100)
+>
+> La vidéo (« Claude Fable 5.2 designs a working voice-assistant hub ») a donné l'ordre du travail, que j'ai transposé : spécification aux exigences numérotées, feuilles par sous-ensemble, contrôle du plan avant tout quad, fabrication, puis contrôle de production. Le contrôle du plan a tout de suite trouvé une faute que le maillage ne signalait pas : une crête d'aile qui n'était plus partagée entre deux composants. (9 November 2026, 23:24:22 +0100)
+>
+> ## Où en est la voiture (9 November 2026, 23:24:22 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (9 November 2026, 23:24:22 +0100)
+> |---|---|---| (9 November 2026, 23:24:22 +0100)
+> | Une méthode nouvelle, plus simple, sans perdre l'existant | Oui | Huit outils dans `scripts/v4`, les sept qui ont un autotest passent au vert et au rouge ; l'ancien skill est intact | (9 November 2026, 23:24:22 +0100)
+> | Une topologie propre | En partie | 251 218 quads, aucun triangle, coques fermées ; Houdini recompte le même nombre. Il reste 14 quads pliés (aile arrière, porte) | (9 November 2026, 23:24:22 +0100)
+> | Symétrie exacte, roues au sol | Oui | Écart nul entre gauche et droite, point le plus bas à 0 | (9 November 2026, 23:24:22 +0100)
+> | La voiture fidèle à la planche | En partie | Silhouette de 0,929 à 0,966 selon la vue, sous ma limite de 0,97 ; traits retrouvés 0,41 | (9 November 2026, 23:24:22 +0100)
+> | Chaque composant très détaillé | Non | Roues détaillées (pneu rainuré, cinq branches, écrous, étrier). Manquent lame avant, calandre, diffuseur, lèvres d'arche et le vrai dessous | (9 November 2026, 23:24:22 +0100)
+> | Un protocole de vérification rigoureux | Oui | 10 règles sur le plan et 27 portes sur le maillage ; l'autotest des portes refuse huit maillages cassés exprès | (9 November 2026, 23:24:22 +0100)
+> | La vidéo lue seconde par seconde par Haiku | Oui | 48 images reçues sur 48 d'après les journaux des deux agents, environ 790 000 jetons ; deux images contrôlées à l'œil | (9 November 2026, 23:24:22 +0100)
+> | Le plan blanc sur fond bleu | Oui | Sept feuilles en SVG et PNG, plan 10 règles sur 10 | (9 November 2026, 23:24:22 +0100)
+> | La scène Houdini | Oui | `ZenRayCar_V_010.hip`, Houdini 22.0.368, 75 composants (ce n'est pas encore un HDA à curseurs) | (9 November 2026, 23:24:22 +0100)
+> | Relier aux UV et au texturing | Non | Pas commencé | (9 November 2026, 23:24:22 +0100)
+> | Tout consigner dans le skill | Oui | Méthode V4, sections 433 à 435, trois règles épinglées, skill synchronisé, journal écrit | (9 November 2026, 23:24:22 +0100)
+>
+> Rien n'est validé à ton œil : tout est en « test, non validé ». La synthèse HTML et l'archive ZenRay Assets ne sont pas faites, et le camion Unimog n'est pas commencé. (9 November 2026, 23:24:22 +0100)
+>
+> ## Fichiers (9 November 2026, 23:24:22 +0100)
+>
+> - Méthode : [/Users/zenray/.claude/skills/zenray-meshes/references/ZenRayMeshesV4.md](/Users/zenray/.claude/skills/zenray-meshes/references/ZenRayMeshesV4.md) (9 November 2026, 23:24:22 +0100)
+> - Tour de la voiture : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/03_mesh/V_010/turn.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/03_mesh/V_010/turn.png) (9 November 2026, 23:24:22 +0100)
+> - Scène Houdini : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/03_mesh/V_010/ZenRayCar_V_010.hip](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/03_mesh/V_010/ZenRayCar_V_010.hip) (9 November 2026, 23:24:22 +0100)
+> - Plan d'ensemble : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/05_plan/V_010/sheet-01-general.svg](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/05_plan/V_010/sheet-01-general.svg) (9 November 2026, 23:24:22 +0100)
+> - Contrôle de production : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/04_checks/V_010-qa/QA.md](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/04_checks/V_010-qa/QA.md) (9 November 2026, 23:24:22 +0100)
+> - Spécification : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/00_spec/spec.md](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/00_spec/spec.md) (9 November 2026, 23:24:22 +0100)
+> - État de reprise : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/STATE.md](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/STATE.md) (9 November 2026, 23:24:22 +0100)
+>
+> Le nom de l'étape reste à ton choix : j'ai écrit « architecture » partout, jamais « ZenRay Blueprint ». (9 November 2026, 23:24:22 +0100)
