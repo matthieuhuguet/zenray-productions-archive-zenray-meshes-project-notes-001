@@ -70767,3 +70767,34 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 16:41:56 +0100)
 
 > Now the board measures the silhouette in pixels, so the edit loop has a number and not just an impression. (9 November 2026, 16:41:56 +0100)
+
+## 9 November 2026, 16:46:59 +0100 : Standing rule
+
+<!-- feedback-event:f833b7e1d0a46f8ab1bc293ed194ae21170c2c7a43c8e2183495792150ea7108 (9 November 2026, 16:46:59 +0100) -->
+- Project: zenray-meshes; kind: rule. (9 November 2026, 16:46:59 +0100)
+
+> ZenRay Meshes V3 (9 November 2026) : une seule méthode, references/ZenRayMeshesV3.md ; courbes relevées sur les photos calées, plan SVG en mm édité comme un architecte, HDA du composant piloté par le plan, jugé en fil de fer rouge sur les photos avec correction de perspective (BlueprintLoop.sh) ; planches ChatGPT Images de composants dépréciées. (9 November 2026, 16:46:59 +0100)
+
+## 9 November 2026, 16:47:03 +0100 : Iteration
+
+<!-- feedback-event:d108dcff5106ea760907c24de6e72a580acf9653417faf2a6a4bb35231176ad6 (9 November 2026, 16:47:03 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 16:47:03 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 16:47:03 +0100)
+
+> The skill is up to date (V3 method, section 428, synced). I'm moving on to the synthesis document with its schemas. (9 November 2026, 16:47:03 +0100)
+
+## 9 November 2026, 16:48:29 +0100 : Iteration
+
+<!-- feedback-event:0a84eb096bedc993fb07490ca9b0d98f51f9513edb4370407f155aada122d121 (9 November 2026, 16:48:29 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 16:48:29 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 16:48:29 +0100)
+
+> I'm generating the synthesis from the measurement reports: the numbers in the document are recomputed, never typed by hand. (9 November 2026, 16:48:29 +0100)
+
+## 9 November 2026, 16:48:36 +0100 : Iteration
+
+<!-- feedback-event:343d7c814395bfea71c4ae4979db88dfd670c9c959962393a846591907b79e84 (9 November 2026, 16:48:36 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 16:48:36 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 16:48:36 +0100)
+
+> The fit check works: it flagged three titles too wide for their boxes. I'm reducing their size. (9 November 2026, 16:48:36 +0100)
