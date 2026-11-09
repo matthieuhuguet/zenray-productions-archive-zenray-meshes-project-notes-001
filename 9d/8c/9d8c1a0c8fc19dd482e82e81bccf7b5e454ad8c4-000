@@ -71164,3 +71164,27 @@
 - Project: zenray-meshes; kind: prompt. (9 November 2026, 19:04:23 +0100)
 
 > 9 November 2026 : teste en parallèle trois autres components (par exemple capot, toit) pour juger sur plusieurs au lieu d'un seul ; fais-le toi-même, ne délègue pas, trois autres tests depuis les masques des components. (9 November 2026, 19:04:23 +0100)
+
+## 9 November 2026, 19:13:42 +0100 : Iteration
+
+<!-- feedback-event:fc4c0559fbd3b88a37f67801726e2f10c3c215039df3a51e8e9df31242c7b1b9 (9 November 2026, 19:13:42 +0100) -->
+- Project: zenray-meshes; kind: iteration. (9 November 2026, 19:13:42 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (9 November 2026, 19:13:42 +0100)
+
+> J'ai construit trois composants de plus en plus de la porte, tout seul et sans agent : le capot, le toit et le panneau arrière. Ils sont réunis sur une seule planche : [four-components-board.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/research/v3-car-door-9-November-2026/batch/four-components-board.png). Le constat est net : le contour sort juste partout, mais la profondeur n'est fiable que là où une deuxième vue montre vraiment la pièce. (9 November 2026, 19:13:42 +0100)
+>
+> La méthode qui marche le mieux est celle des plans d'architecte. Chaque arête de découpe est vue dans deux vues orthographiques, ce qui suffit à la lever en 3D. On tend ensuite un patch de quads entre les 4 arêtes, ce qui garde aussi bien les facettes que les bombés. C'est ainsi que le capot passe de 0,84 à 0,93 en vue de face. (9 November 2026, 19:13:42 +0100)
+>
+> En revanche, le toit n'apparaît de face et de côté que comme un liseré de 11 à 18 px. Son sommet, à 1,356 m, dépasse ses bords d'environ 10 cm, et aucune variante n'a dépassé 0,70 en contrôle indépendant. La porte et le panneau arrière ne sont pas vraiment visibles dans une autre vue : la profondeur de la porte suit la ligne d'épaule, et le cintrage du panneau arrière, tiré d'une bande partielle vue de dessous, est probablement faux. (9 November 2026, 19:13:42 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (9 November 2026, 19:13:42 +0100)
+> |---|---|---| (9 November 2026, 19:13:42 +0100)
+> | « trois autres components depuis le masque » | Oui | Capot, toit et panneau arrière, chacun avec sa scène Houdini `.hip`, en coques fermées de quads. | (9 November 2026, 19:13:42 +0100)
+> | « juger sur plusieurs components » | Oui | Une planche des quatre, avec les superpositions et le modèle seul. | (9 November 2026, 19:13:42 +0100)
+> | « la forme doit être parfaite par rapport à l'image » | En partie | Les contours sont à 0,98–0,99 contre les masques. La profondeur tient pour le capot (0,93), pas pour le toit (0,70 et 0,68) ni pour le panneau arrière. | (9 November 2026, 19:13:42 +0100)
+> | « consigne le test, pas validé pour l'instant » | Oui | Sections 429 et 430 du skill, notées test non validé, skill synchronisé. | (9 November 2026, 19:13:42 +0100)
+> | Rétopologie | Pas lancée | Comme tu l'as dit, la forme d'abord ; les patchs sont déjà des grilles de quads. | (9 November 2026, 19:13:42 +0100)
+>
+> Deux pièges payés au passage : (9 November 2026, 19:13:42 +0100)
+> - **Les étiquettes des masques sont des identifiants de pièce, pas les numéros du catalogue.** Je les fais désormais correspondre par leur nombre de pixels. La porte testée était bien la porte gauche. (9 November 2026, 19:13:42 +0100)
+> - **Mon contrôle mesurait aussi l'épaisseur du panneau sur les liserés fins.** Il se fait maintenant sur la seule peau extérieure. (9 November 2026, 19:13:42 +0100)
