@@ -73328,3 +73328,27 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 03:07:34 +0100)
 
 > Le rabot fonctionne : vues avant et arrière à 0,981 (au-dessus du seuil 0,98), dessus et dessous à 0,985, 18 portes sur 27. Il reste les vues de côté (0,968) : je regarde où. (10 November 2026, 03:07:34 +0100)
+
+## 10 November 2026, 03:28:14 +0100 : Iteration
+
+<!-- feedback-event:b15b3696a55ccccb982eeb0fdc6b7e895b1536ca1e81347658bc6fb9299af10e (10 November 2026, 03:28:14 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 03:28:14 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 03:28:14 +0100)
+
+> Bandes de silhouette : avant et arrière 0,994, côtés 0,979, dessus et dessous 0,990. Je regarde le rendu 3D de cette version (V_065) pour vérifier l'aspect réel. (10 November 2026, 03:28:14 +0100)
+
+## 10 November 2026, 03:28:15 +0100 : Prompt
+
+<!-- feedback-event:c7d5718497178ad0c3ec915a8347c7decf8e8035b52df40e9fd6fd2fe0aaa17f (10 November 2026, 03:28:15 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 03:28:15 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 03:28:15 +0100)
+
+> [Image: original 2812x2327, displayed at 2000x1655. Multiply coordinates by 1.41 to map to original image.] (10 November 2026, 03:28:15 +0100)
+
+## 10 November 2026, 03:30:11 +0100 : Prompt
+
+<!-- feedback-event:813198e9367e575b1d52875c976955535368d97cb823e8fa38e608e0c1d0d147 (10 November 2026, 03:30:11 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 03:30:11 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 03:30:11 +0100)
+
+> [Image: original 1873x2483, displayed at 1509x2000. Multiply coordinates by 1.24 to map to original image.] (10 November 2026, 03:30:11 +0100)
