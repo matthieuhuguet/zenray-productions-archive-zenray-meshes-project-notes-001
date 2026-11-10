@@ -9192,3 +9192,11 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: rule. (10 November 2026, 08:26:17 +0100)
 
 > ZenRay Meshes V4 : quand deux vues de la planche se contredisent sur une même arête, suivre la lecture partagée par le plus de vues et l'écrire dans la note du patch ; une plaque posée sur une face courbe se modèle en pans du panneau, pas en plaque sur son plan moyen ; une face déclarée plane échappe au rabot (10 November 2026) (10 November 2026, 08:26:17 +0100)
+
+## 10 November 2026, 08:28:16 +0100 : Iteration
+
+<!-- feedback-event:da34dccf9908089a827e070a6925063fa6587e0071c88c763972874851f2d7a4 (10 November 2026, 08:28:16 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 08:28:16 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 08:28:16 +0100)
+
+> Version 130 moins bonne que la 128 (sans collerette, le jour autour de la roue réapparaît de profil) : écartée. Je relis la liste chiffrée de la version 128 pour choisir la suite. (10 November 2026, 08:28:16 +0100)
