@@ -12020,3 +12020,59 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 > | Nœuds natifs seulement | Oui | add, resample, skin, subdivide, sweep, polyextrude, blast, polyfill, box, color, merge | (11 November 2026, 00:39:23 +0100)
 >
 > La méthode, les mesures et quatre pièges sont consignés dans le skill (section du 11 November 2026, 00:55) et dans le journal. Parmi les pièges : le lissage par subdivision arrondit les pointes, et le remplissage en quads exige un nombre pair d'arêtes. Ce qui manque à l'œil, c'est surtout la bande blanche entre le capot et la bouche, puis la lèvre en sourire sous la grille. (11 November 2026, 00:39:23 +0100)
+
+## 11 November 2026, 00:41:31 +0100 : Prompt
+
+<!-- feedback-event:76a1feaad8f7895f22fe93fe58966fa5642d72aa78241caf218e36b7aad76de9 (11 November 2026, 00:41:31 +0100) -->
+- Project: zenray-meshes; kind: prompt. (11 November 2026, 00:41:31 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 00:41:31 +0100)
+
+> Oui, nez et lèvre (11 November 2026, 00:41:31 +0100)
+
+## 11 November 2026, 00:41:51 +0100 : Iteration
+
+<!-- feedback-event:46a1328cc46254d987aa9c950a8b5f252df662dbd9ed3ce57ca0c99c656be518 (11 November 2026, 00:41:51 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 00:41:51 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 00:41:51 +0100)
+
+> Je continue avec le bandeau de nez et la lèvre. D'abord la mesure : je zoome sur le nez de profil et sur la lèvre de face, avec la grille métrique, puis je relève les bords de la lèvre colonne par colonne. (11 November 2026, 00:41:51 +0100)
+
+## 11 November 2026, 00:43:37 +0100 : Iteration
+
+<!-- feedback-event:00ab314f6852b455c7c18778ac44615467f9f0f840b519e8ecb31f93bc87c2c8 (11 November 2026, 00:43:37 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 00:43:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 00:43:37 +0100)
+
+> Le bandeau de nez et la lèvre sont posés et se calculent sans erreur. Je compare maintenant les deux vues zoomées à la référence. (11 November 2026, 00:43:37 +0100)
+
+## 11 November 2026, 00:43:38 +0100 : Prompt
+
+<!-- feedback-event:890f9de89f62d4c7527ae69615ac48722f765fd1902c391a36bd0772046b771a (11 November 2026, 00:43:38 +0100) -->
+- Project: zenray-meshes; kind: prompt. (11 November 2026, 00:43:38 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 00:43:38 +0100)
+
+> [Image: original 2824x576, displayed at 2000x408. Multiply coordinates by 1.41 to map to original image.] (11 November 2026, 00:43:38 +0100)
+
+## 11 November 2026, 00:43:39 +0100 : Prompt
+
+<!-- feedback-event:75f1a38693ec1f406386823960170c365529d4382ba149abd2db54ef40110977 (11 November 2026, 00:43:39 +0100) -->
+- Project: zenray-meshes; kind: prompt. (11 November 2026, 00:43:39 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 00:43:39 +0100)
+
+> [Image: original 2824x576, displayed at 2000x408. Multiply coordinates by 1.41 to map to original image.] (11 November 2026, 00:43:39 +0100)
+
+## 11 November 2026, 00:43:58 +0100 : Iteration
+
+<!-- feedback-event:23c30f9c2f50fa6fcbbef2735816a3c052c32b205119d45a97074da36406583f (11 November 2026, 00:43:58 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 00:43:58 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 00:43:58 +0100)
+
+> Je vérifie un écart entre deux vues : de profil, la pointe du nez semble arriver à z 2,41, alors que de dessus le logo du nez est à z 2,44. Je mesure la silhouette de profil ligne par ligne. (11 November 2026, 00:43:58 +0100)
+
+## 11 November 2026, 00:45:15 +0100 : Iteration
+
+<!-- feedback-event:3851fa83bcdbddd471b9020e9f2c7e9909f74a2ce0f754ada3bd0db43d0323e7 (11 November 2026, 00:45:15 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 00:45:15 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 00:45:15 +0100)
+
+> Le capot reste désormais sous la silhouette de profil, et de face on lit l'enchaînement capot, nez, bouche et lèvre. Je prépare la vue de face zoomée, puis je consigne. (11 November 2026, 00:45:15 +0100)
