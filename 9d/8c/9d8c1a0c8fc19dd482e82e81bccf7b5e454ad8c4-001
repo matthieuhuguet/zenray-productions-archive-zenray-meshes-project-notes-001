@@ -9216,3 +9216,106 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 08:31:22 +0100)
 
 > Je garde la version 131 comme nouvelle référence et je relis maintenant le contour du bac avant sur le décalque de la vue de dessous (la vue la moins bien retrouvée). (10 November 2026, 08:31:22 +0100)
+
+## 10 November 2026, 08:34:18 +0100 : Iteration
+
+<!-- feedback-event:f384253d0ed62591ba21a3a83ddd351422993f17eb5113d2fdfd0c81707f793a (10 November 2026, 08:34:18 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 08:34:18 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 08:34:18 +0100)
+
+> Le relevé ligne par ligne fonctionne : version 132, lignes retrouvées 0,858 et précision 0,827 (dessous 0,72 → 0,77 et 0,82 → 0,85). Je fais le même relevé pour l'arrière du dessous. (10 November 2026, 08:34:18 +0100)
+
+## 10 November 2026, 08:36:50 +0100 : Iteration
+
+<!-- feedback-event:7daf11b1ab600b194b2c4e73ac805adb6e6487985e0bffedaff73cfc874ca854 (10 November 2026, 08:36:50 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 08:36:50 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 08:36:50 +0100)
+
+> Version 133 : dessous à 0,81 de lignes retrouvées et 0,865 de précision (F2 0,866, F3 0,828). Je relis ce qui reste dans la vue de dessous. (10 November 2026, 08:36:50 +0100)
+
+## 10 November 2026, 08:38:23 +0100 : Iteration
+
+<!-- feedback-event:43e37735a59e15ee5d3550e6d87c6fb6f471299d307bdac19c759fab53853d5f (10 November 2026, 08:38:23 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 08:38:23 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 08:38:23 +0100)
+
+> La ligne de capot des vues de côté : l'arête capot-aile du modèle est une corde droite alors que la planche la dessine bombée de 5 cm. J'ajoute ce bombé. (10 November 2026, 08:38:23 +0100)
+
+## 10 November 2026, 08:41:49 +0100 : Iteration
+
+<!-- feedback-event:127037d55ced407e96f322a738cb44ede226ff6dc90a7f612171cede33a4c45a (10 November 2026, 08:41:49 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 08:41:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 08:41:49 +0100)
+
+> Version 135 : toujours 26 portes, lignes retrouvées 0,869. Je regarde maintenant la ligne arrière de porte dans les vues de côté (54 px non retrouvés à droite). (10 November 2026, 08:41:49 +0100)
+
+## 10 November 2026, 08:42:30 +0100 : Prompt
+
+<!-- feedback-event:4afc436c227d72033d82384847a8f901522c3c912800c509bb6a41447fab3594 (10 November 2026, 08:42:30 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 08:42:30 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 08:42:30 +0100)
+
+> [Image: original 2086x630, displayed at 2000x604. Multiply coordinates by 1.04 to map to original image.] (10 November 2026, 08:42:30 +0100)
+
+## 10 November 2026, 08:42:32 +0100 : Prompt
+
+<!-- feedback-event:3f01c6c3497682554eae7a6c53415dbd7aeb0ac78adbd9804b4230788b2d61e9 (10 November 2026, 08:42:32 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 08:42:32 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 08:42:32 +0100)
+
+> [Image: original 2086x630, displayed at 2000x604. Multiply coordinates by 1.04 to map to original image.] (10 November 2026, 08:42:32 +0100)
+
+## 10 November 2026, 08:43:53 +0100 : Iteration
+
+<!-- feedback-event:73d9fae48e753fae737d246972c107ae826e78d7198fd5f783cc9b18ab330279 (10 November 2026, 08:43:53 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 08:43:53 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 08:43:53 +0100)
+
+> Version 136 retenue (26 portes, F3 0,831). Je fais le nettoyage final du plan, puis je fige la version et je régénère tous les livrables. (10 November 2026, 08:43:53 +0100)
+
+## 10 November 2026, 08:45:46 +0100 : Iteration
+
+<!-- feedback-event:6265e68edb8319a7e07bb32a940c85ffc1cc7dfe91a262cd54691be5bbd2c735 (10 November 2026, 08:45:46 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 08:45:46 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 08:45:46 +0100)
+
+> Version 137 figée, livrables régénérés. Contrôle visuel de la vue de dessous et du tour d'horizon avant envoi. (10 November 2026, 08:45:46 +0100)
+
+## 10 November 2026, 08:45:48 +0100 : Prompt
+
+<!-- feedback-event:435bc986801868c51eff6b2f89cfab7496937eded0c906d497a2c190c6140b83 (10 November 2026, 08:45:48 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 08:45:48 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 08:45:48 +0100)
+
+> [Image: original 3070x535, displayed at 2000x349. Multiply coordinates by 1.53 to map to original image.] (10 November 2026, 08:45:48 +0100)
+
+## 10 November 2026, 08:45:49 +0100 : Prompt
+
+<!-- feedback-event:c84fee80306730f9a071943777ab6821872c3a4e28e227b47abfd9d8fe0ac61e (10 November 2026, 08:45:49 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 08:45:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 08:45:49 +0100)
+
+> [Image: original 3070x535, displayed at 2000x349. Multiply coordinates by 1.53 to map to original image.] (10 November 2026, 08:45:49 +0100)
+
+## 10 November 2026, 08:46:29 +0100 : Standing rule
+
+<!-- feedback-event:98f2727d7f3287259a184008556b2dddd2a413fd95e8a67bd280a4d1606f6a74 (10 November 2026, 08:46:29 +0100) -->
+- Project: zenray-meshes; kind: rule. (10 November 2026, 08:46:29 +0100)
+
+> ZenRay Meshes V4 : sur une vue plane (dessous, dessus), relever les lignes du décalque rangée par rangée et colonne par colonne (MaskJudge.drawn_lines) et écrire les coins du plan sur ces nombres en free ; un coin lu à l'œil tombe sur le boulon voisin ; une arête dessinée dans aucune vue est un pli de facette, la rattacher à la pièce voisine (10 November 2026) (10 November 2026, 08:46:29 +0100)
+
+## 10 November 2026, 08:47:16 +0100 : Iteration
+
+<!-- feedback-event:d6ee1cf56e558df5c29ef769e957439e47b3404ce8d5aa853643941b50eca08a (10 November 2026, 08:47:16 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 08:47:16 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 08:47:16 +0100)
+
+> J'écris maintenant la synthèse HTML du projet (titre, trois paragraphes, schéma 1080p, planche), en réutilisant le générateur de la version précédente, puis je la publie dans Assets. (10 November 2026, 08:47:16 +0100)
+
+## 10 November 2026, 08:48:38 +0100 : Iteration
+
+<!-- feedback-event:d3ff5395ad2651f871d523ea4dd585b1008e75e1d79945971b48d27b2e498262 (10 November 2026, 08:48:38 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 08:48:38 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 08:48:38 +0100)
+
+> Générateur de la synthèse écrit ; je le lance, je vérifie les chiffres dans les deux sens et je regarde le rendu. (10 November 2026, 08:48:38 +0100)
