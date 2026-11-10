@@ -11637,3 +11637,76 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 22:38:25 +0100)
 
 > Le pont répond. Je pose maintenant la vue de profil de la planche dans la scène, à l'échelle exacte du calage, puis le graphe du pneu. (10 November 2026, 22:38:25 +0100)
+
+## 10 November 2026, 22:39:33 +0100 : Iteration
+
+<!-- feedback-event:5432ae7c54eff31b69c1d22a335e0156ec6e2ec0d6ad627266b8bfa8620a4c0f (10 November 2026, 22:39:33 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 22:39:33 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 22:39:33 +0100)
+
+> Le pneu est construit en n\u0153uds natifs seuls : 1 440 quads, épaules arrondies par un chanfrein natif. Je pose une caméra de profil sur la référence et je capture la comparaison. (10 November 2026, 22:39:33 +0100)
+
+## 10 November 2026, 22:39:51 +0100 : Iteration
+
+<!-- feedback-event:0aaf06afb81d4f789dff8774fa788849e2611adfe147c079d90774acc06c194d (10 November 2026, 22:39:51 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 22:39:51 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 22:39:51 +0100)
+
+> La planche ne s'affiche pas dans la vue (texture non lue par le viewport). Je la passe en couleur de points par le nœud natif Attribute from Map, que le viewport affiche toujours. (10 November 2026, 22:39:51 +0100)
+
+## 10 November 2026, 22:40:27 +0100 : Iteration
+
+<!-- feedback-event:fb847f1f786d9f9246c86de2666d74781de41bc5c9cb3bd6d28427410c137f17 (10 November 2026, 22:40:27 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 22:40:27 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 22:40:27 +0100)
+
+> La référence s'affiche et le pneu tombe dessus. Pour juger l'écart, je capture la référence seule, puis un fondu à 50 %, plus une vue en perspective avec le fil de fer pour la topologie. (10 November 2026, 22:40:27 +0100)
+
+## 10 November 2026, 22:41:07 +0100 : Iteration
+
+<!-- feedback-event:7cc984960da6d47f40fc056d071bb00b0f88f7336623251a09f9d426934f4744 (10 November 2026, 22:41:07 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 22:41:07 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 22:41:07 +0100)
+
+> Une rangée de faces se retournait sous le chanfrein : la rangée extérieure du flanc (19 mm) était plus étroite que l'arrondi (35 mm). Je corrige le découpage du flanc et je recontrôle. (10 November 2026, 22:41:07 +0100)
+
+## 10 November 2026, 22:41:33 +0100 : Standing rule
+
+<!-- feedback-event:6723edbda2a72fe6c3d7b96b150f7e76277024a28678b9eacabac41dcb3350f5 (10 November 2026, 22:41:33 +0100) -->
+- Project: zenray-meshes; kind: rule. (10 November 2026, 22:41:33 +0100)
+
+> 10 November 2026 : Houdini devient le moteur de ZenRay Meshes. Chaque composant se construit dans la scène ouverte par un graphe de nœuds natifs Houdini seulement : aucun nœud Python, aucun VEX, aucun outil codé ; le Python du MCP ne sert qu'à poser les nœuds. On découpe en composants de composants (voiture, roue, pneu, jante, vis), un à la fois, chacun comparé à la référence posée dans la scène, et on itère sur le graphe et ses curseurs. (10 November 2026, 22:41:33 +0100)
+
+## 10 November 2026, 22:42:09 +0100 : Iteration
+
+<!-- feedback-event:3d50e48e40051f68853e6ac408cdb2e55042f366593746dc5fc39267647d1372 (10 November 2026, 22:42:09 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 22:42:09 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 22:42:09 +0100)
+
+> Houdini est ouvert sur la scène du supercar (la deuxième voiture, celle avec l'aileron). Le premier sous-composant de la roue, le pneu, est construit uniquement avec des nœuds natifs de Houdini : aucun nœud Python, aucun VEX. Le Python passe seulement par le pont MCP, pour poser les nœuds et régler leurs paramètres, comme une main sur la souris. (10 November 2026, 22:42:09 +0100)
+>
+> **La scène.** Elle est ouverte dans Houdini : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_001.hiplc](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_001.hiplc). Elle s'enregistre en `.hiplc` parce que la licence active est Indie. (10 November 2026, 22:42:09 +0100)
+> - **`REF_car2`** porte la vue de profil de la planche, à l'échelle exacte du calage. Elle est affichée en couleur de points, parce que le viewport ne montrait pas la texture du matériau. (10 November 2026, 22:42:09 +0100)
+> - **`CAM_side`** est une caméra orthographique qui regarde cette vue de profil. (10 November 2026, 22:42:09 +0100)
+> - **`CAM_persp`** sert à regarder le pneu en perspective. (10 November 2026, 22:42:09 +0100)
+>
+> **Le graphe du pneu (`WHEEL_tyre`).** Il enchaîne neuf nœuds natifs : (10 November 2026, 22:42:09 +0100)
+> - deux `tube` : l'un pour la bande de roulement, l'autre à hauteur nulle pour le flanc ; (10 November 2026, 22:42:09 +0100)
+> - `reverse` et `mirror` pour créer le deuxième flanc ; (10 November 2026, 22:42:09 +0100)
+> - `merge` et `fuse` pour souder les morceaux ; (10 November 2026, 22:42:09 +0100)
+> - `polybevel` pour arrondir les épaules ; (10 November 2026, 22:42:09 +0100)
+> - `xform` pour placer le pneu sur la roue ; (10 November 2026, 22:42:09 +0100)
+> - `CTRL_tyre`, qui porte les curseurs : rayon, rayon du talon, largeur, arrondi, divisions, centre de la roue. (10 November 2026, 22:42:09 +0100)
+>
+> Résultat : 1 056 quads, et aucune face tournée vers l'intérieur. (10 November 2026, 22:42:09 +0100)
+>
+> Une première version retournait 192 faces : le flanc était découpé trop finement pour l'arrondi de 35 mm. Une seule rangée de faces sur le flanc a réglé le défaut. (10 November 2026, 22:42:09 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (10 November 2026, 22:42:09 +0100)
+> |---|---|---| (10 November 2026, 22:42:09 +0100)
+> | Ouvrir Houdini et la scène de la voiture | Oui | Houdini 22.0.368 répond par le pont MCP, et la scène est enregistrée | (10 November 2026, 22:42:09 +0100)
+> | Uniquement des graphes de nœuds Houdini, ni Python ni VEX | Oui | Liste des types de nœuds de la scène : aucun nœud Python, aucun wrangle | (10 November 2026, 22:42:09 +0100)
+> | Composant de composant, et non la voiture entière | Oui, le pneu d'abord | Le pneu est montré seul sur la planche, sans la jante ni la carrosserie | (10 November 2026, 22:42:09 +0100)
+> | Coller à la référence | En partie | En vue de profil, le bord extérieur et le talon tombent sur la planche. La largeur de 0,42 m n'est qu'une estimation tirée de la vue de dessous ; elle est réglable par le curseur `tyre_width` | (10 November 2026, 22:42:09 +0100)
+>
+> La règle « graphes natifs seulement, composant par composant » est consignée dans le feedback du projet, dans le skill (`references/ZenRayMeshesV4.md`, section du 10 November 2026, 22:41) et dans le journal. Après le pneu vient la jante, elle aussi découpée en sous-composants : la lèvre, le voile, les cinq bras en Y, le moyeu, le cache central. (10 November 2026, 22:42:09 +0100)
