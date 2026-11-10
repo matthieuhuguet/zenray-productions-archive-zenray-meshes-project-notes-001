@@ -1,77 +1,72 @@
-# Resume zenray-meshes (5 November 2026 at 20:02)
+# Resume zenray-meshes (10 November 2026 at 13:45)
 
-- Generated from FEEDBACK.md, Rules.md and ConversationIndex.json; derived, never edited by hand, never a substitute for the originals. (5 November 2026 at 20:02)
-- Pinned rules, read first: [Rules.md](/Users/zenray/.claude/Memory1/Projects/zenray-meshes/Rules.md) (112 rules). (5 November 2026 at 20:02)
-- Canonical feedback: [FEEDBACK.md](/Users/zenray/.claude/Memory1/Projects/zenray-meshes/FEEDBACK.md), 4035 entries, last Prompt at 5 November 2026, 19:27:07 +0100. (5 November 2026 at 20:02)
+- Generated from FEEDBACK.md, Rules.md and ConversationIndex.json; derived, never edited by hand, never a substitute for the originals. (10 November 2026 at 13:45)
+- Pinned rules, read first: [Rules.md](/Users/zenray/.claude/Memory1/Projects/zenray-meshes/Rules.md) (128 rules). (10 November 2026 at 13:45)
+- Canonical feedback: [FEEDBACK.md](/Users/zenray/.claude/Memory1/Projects/zenray-meshes/FEEDBACK.md), 4882 entries, last Iteration at 10 November 2026, 12:33:33 +0100. (10 November 2026 at 13:45)
 
-## Latest conversations (5 November 2026 at 20:02)
+## Latest conversations (10 November 2026 at 13:45)
 
-- LATEST codex:01a1ac6e-9d82-73f3-92c6-5f7d03471753, « Conversation codex 01a1ac6e », last activity 5 November 2026 at 20:00 Paris (from transcript). Original: `node scripts/Assets/ConversationDigest.mjs codex:01a1ac6e-9d82-73f3-92c6-5f7d03471753 --out <file.md>`. (5 November 2026 at 20:02)
-- claude:0611e96b-26b2-4d65-a9e1-cb913738cca3, last activity 5 November 2026 at 19:27 Paris (from feedback). Original: `node scripts/Assets/ConversationDigest.mjs claude:0611e96b-26b2-4d65-a9e1-cb913738cca3 --out <file.md>`. (5 November 2026 at 20:02)
-- claude:09d15ec8-88ad-4965-a2f0-80b68515e880, « zenray meshes dragon sculpt », last activity 5 November 2026 at 16:38 Paris (from transcript). Original: `node scripts/Assets/ConversationDigest.mjs claude:09d15ec8-88ad-4965-a2f0-80b68515e880 --out <file.md>`. (5 November 2026 at 20:02)
+- LATEST claude:0611e96b-26b2-4d65-a9e1-cb913738cca3, « zenray meshes v4 », last activity 10 November 2026 at 12:33 Paris (from transcript). Original: `node scripts/Assets/ConversationDigest.mjs claude:0611e96b-26b2-4d65-a9e1-cb913738cca3 --out <file.md>`. (10 November 2026 at 13:45)
+- codex:01a1ac6e-9d82-73f3-92c6-5f7d03471753, « Conversation codex 01a1ac6e », last activity 5 November 2026 at 20:00 Paris (from transcript). Original: `node scripts/Assets/ConversationDigest.mjs codex:01a1ac6e-9d82-73f3-92c6-5f7d03471753 --out <file.md>`. (10 November 2026 at 13:45)
+- claude:09d15ec8-88ad-4965-a2f0-80b68515e880, « zenray meshes dragon sculpt », last activity 5 November 2026 at 16:38 Paris (from transcript). Original: `node scripts/Assets/ConversationDigest.mjs claude:09d15ec8-88ad-4965-a2f0-80b68515e880 --out <file.md>`. (10 November 2026 at 13:45)
 
-## Last 6 prompts of Matthieu, oldest first (5 November 2026 at 20:02)
+## Last 6 prompts of Matthieu, oldest first (10 November 2026 at 13:45)
 
-### 5 November 2026, 18:39:35 +0100 · Prompt · codex:01a1ac6e
+### 10 November 2026, 12:13:28 +0100 · Prompt · claude:0611e96b
 
-> NON archi non le graph de components devrait quasi avoir aucune info autre que la modélisation parfaite du component tu fais exactement le jeu de l'AI slop ici...
+> [Image: original 3344x1839, displayed at 2000x1100. Multiply coordinates by 1.67 to map to original image.]
 
-### 5 November 2026, 18:40:33 +0100 · Prompt · manual
+### 10 November 2026, 12:15:59 +0100 · Prompt · claude:0611e96b
 
-> NON archi non le graph de components devrait quasi avoir aucune info autre que la modélisation parfaite du component tu fais exactement le jeu de l’AI slop ici...
+> Est-ce que tu peux simplement me donner en une ligne le pass de la SixViewRef et ensuite tu continues ce que tu fais déjà? voiture
 
-### 5 November 2026, 19:01:19 +0100 · Prompt · codex:01a1ac6e
+### 10 November 2026, 12:17:35 +0100 · Prompt · claude:0611e96b
 
-> certes mais quid de la reproduction du components ? via hda houdini ou blender du coup // btw la méthode est elle consigné ?
+> J'ai juste besoin du pass de ma voiture initiale. Est-ce que tu peux me la redonner, s'il te plaît? Mais la ref initiale. Et ensuite, tu continues ce que tu fais déjà.
 
-### 5 November 2026, 19:02:28 +0100 · Prompt · manual
+### 10 November 2026, 12:17:38 +0100 · Prompt · claude:0611e96b
 
-> certes mais quid de la reproduction du components ? via hda houdini ou blender du coup // btw la méthode est elle consigné ?
+> J'ai juste besoin du pass de ma voiture initiale. Est-ce que tu peux me la redonner, s'il te plaît? Mais la ref initiale. Et ensuite, tu continues ce que tu fais déjà.
 
-### 5 November 2026, 19:42:59 +0100 · Prompt · manual
+### 10 November 2026, 12:31:44 +0100 · Prompt · claude:0611e96b
 
-> reprends cette conv pour avancer sur /zenray meshes d'ailleurs le skill global à disparu bizarre et continue d'itérer pour améliorer la modélisation des meshes hard surface a partir des planches généré par chatgpt codex://threads/01a1ac6e-9d82-73f3-92c6-5f7d03471753
+> [Image: original 2354x1522, displayed at 2000x1293. Multiply coordinates by 1.18 to map to original image.]
 
-### 5 November 2026, 19:27:07 +0100 · Prompt · claude:0611e96b
+### 10 November 2026, 12:31:46 +0100 · Prompt · claude:0611e96b
 
-> reprends cette conv pour avancer sur /zenray meshes d'ailleurs le skill global à disparu bizarre et continue d'itérer pour améliorer la modélisation des meshes hard surface a partir des planches généré par chatgpt codex://threads/01a1ac6e-9d82-73f3-92c6-5f7d03471753
+> [Image: original 2354x1522, displayed at 2000x1293. Multiply coordinates by 1.18 to map to original image.]
 
 
-## Last 3 iterations or checkpoints (5 November 2026 at 20:02)
+## Last 3 iterations or checkpoints (10 November 2026 at 13:45)
 
-### 5 November 2026, 18:54:22 +0100 · Iteration · checkpoint codex:01a1ac6e
+### 10 November 2026, 12:27:32 +0100 · Iteration · claude:0611e96b
 
-> Périmètre corrigé : aucun générateur de meshes IA ; seules les planches ChatGPT Chat sont autorisées. Après rejet de l’infographie, quatre étapes exécutées et planche de composant seule obtenue, encore non validée à 99,9 %. Bilan 66 documents / 2124 titres vérifié, 12 images, aucun lien interne cassé. Article lié et métadonnées publiées ; archive 12b87a9d-767b-40b3-8c10-2a4b6035410e en file, empreintes cloud actuelles non encore correspondantes. Prochain : corriger les formes depuis les vues GNOMON originales et construire le composant éditable, puis vérifier les empreintes cloud.
+> V_139 est construite (poupe redécoupée) ; je la regarde contre la référence avec le nouveau juge, puis je corrige les facettes mal maillées (gorge, prise d'air) avant de te montrer l'image.
 
-### 5 November 2026, 18:55:50 +0100 · Iteration · codex:01a1ac6e
+### 10 November 2026, 12:31:43 +0100 · Iteration · claude:0611e96b
 
-> J’ai retiré l’habillage : les quatre étapes travaillent désormais uniquement la forme du composant, avec les vérifications hors de l’image.
+> V_140 est construite (23 contrôles sur 27) ; je regarde ses deux images de l'arrière avant de te les envoyer.
+
+### 10 November 2026, 12:33:33 +0100 · Iteration · claude:0611e96b
+
+> L'arrière est redécoupé en facettes d'après la vue arrière de la référence (V_140), mais on reste très loin de 0,999 : le nouveau juge retrouve environ la moitié des arêtes du dessin dans la vue arrière. Rien n'est validé par ton œil ; les trois images envoyées montrent l'état réel.
 > 
-> ![Planche épurée du capot](/Users/zenray/.claude/tmp/tmp-zenray-meshes/research/component-round-5-November-2026/chatgpt-hood-chain/clean-views-05.png)
+> - **Pourquoi les outils plafonnaient.** L'ancien juge ne lisait que les traits sombres de la planche. Or la voiture est facettée et presque toutes ses arêtes sont des marches de gris, donc tout le bas de la poupe passait sans perte alors qu'il était faux.
+> - **Nouveau juge, `photo.py`.** Il rend le modèle avec une lumière ajustée sur la référence, puis compare toutes les arêtes des deux images, zone par zone. C'e
+> [... 2878 more characters in FEEDBACK.md]
+
+
+## Last order of work (10 November 2026 at 13:45)
+
+### 9 November 2026, 23:06:29 +0100 · Order of work · claude:0611e96b
+
+> You are reading still frames of a 48-second video, one frame per second, to produce a faithful written record. The video is "Claude Fable 5.2 designs a working voice-assistant hub" (an AI model designing a physical hardware product). Your record will be used to derive a 3D modelling method (requirements, architecture, blueprint, detailed hard-surface components), so precision matters more than style.
 > 
-> [Bilan HTML corrigé](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Articles/meshes-audit-5-November-2026.html).
+> Your frames: /Users/zenray/.claude/tmp/tmp-zenray-meshes/research/v4-architecture-video-10-November-2026/frames/frame_025.png to frame_048.png (frame_NNN shows second NNN-1 of the video; 1920 x 1080 PNG). Another reader handles frames 001 to 024; do not read those.
 > 
-> | Tu voulais | État | Preuve |
-> |---|---|---|
-> | Seulement le composant | Fait | Aucun texte ni tableau dans la planche |
-> | Une reproduction parfaite | Non | Les vues présentent encore des écarts |
-> | Sauvegarde cloud | En attente | Dernières versions non vérifiées |
-
-### 5 November 2026, 19:42:59 +0100 · Iteration · manual
-
-> 5 November 2026 : skill disparu = SKILL.md au-delà de 1 Mo (limite de chargement Claude Code) ; corps déplacé dans references/ZenRayMeshes1.md, SKILL.md devenu routeur de 4 Ko, garde de taille dans sync-skill.sh. Capot V002 (zenray::hood_panel::2.0) : générateur réécrit (panneau central surélevé, bords rabattus, bourrelet, profil superellipse), réglé par CompareSheetViews et FitHoodProfile ; proportions -3,1/+3,3/+3,6 % (plancher ±3,3 % imposé par la planche), silhouettes 0,93/0,83/0,97 ; vérification en processus neuf verte. Attente de la validation à l'œil.
+> Method, strict:
+> 1. Read the 
+> [... 2153 more characters in FEEDBACK.md]
 
 
-## Last order of work (5 November 2026 at 20:02)
-
-### 30 October 2026, 23:33:47 +0100 · Order of work · claude:09d15ec8
-
-> Tu analyses des épisodes d'une série de tutoriels Houdini 22 (SideFX) « DRACARD Character Creation » pour en extraire le WORKFLOW exact, node par node. Tu peux seulement LIRE des fichiers (outil Read, qui affiche les images), exécuter `ls`/`grep`/`sed` en lecture, et ÉCRIRE un seul fichier de notes.
-> 
-> Atelier : /Users/zenray/.claude/tmp/tmp-houdini-dracard/
-> - Transcriptions (ASR bruitée, souvent dégradée : alors les images font foi) : transcripts/ep10_kNFneG4z3WU.srt (Skeleton & Skinning, ~4100 images), ep11_381MYNvWxXo.srt (Auto Rig Builder, ~1500), ep12_Evh7fzjaFFs.srt (LookDev & Rendering, ~585)
-> - Images (doublons retirés, 1024 px) : frames/ep10_kNFneG4z3WU/, frames/ep11_381MYNvWxXo/, fram
-> [... 741 more characters in FEEDBACK.md]
-
-
-Next step: reread the latest prompt above, check it against Rules.md, then continue; append through feedback.py and close the turn with Client.mjs checkpoint. (5 November 2026 at 20:02)
+Next step: reread the latest prompt above, check it against Rules.md, then continue; append through feedback.py and close the turn with Client.mjs checkpoint. (10 November 2026 at 13:45)
