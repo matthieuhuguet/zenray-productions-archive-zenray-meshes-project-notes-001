@@ -73169,3 +73169,138 @@
 > Tout est consigné dans le skill (synchronisé) et dans le journal global. Pour reprendre : (10 November 2026, 00:30:16 +0100)
 > - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/STATE.md](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/STATE.md) (10 November 2026, 00:30:16 +0100)
 > - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/ITERATIONS.md](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/ITERATIONS.md) (10 November 2026, 00:30:16 +0100)
+
+## 10 November 2026, 02:11:02 +0100 : Prompt
+
+<!-- feedback-event:ce1f010f034d4ccde56fb8b91e923a17585014bdd0d796d6aaf68538deba80f3 (10 November 2026, 02:11:02 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 02:11:02 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 02:11:02 +0100)
+
+> Oui continue n'oublie pas toutes les étapes à suivre. Attention la vue blueprint on remarque que le toit de la voiture n'est pas parfait renforcer ce protocole ce workflow... beaucoup d'éléments initiaux n'hésite pas à changer de méthode il faut vraiment que chaque niveau individuel soit pixel perfect... n'hésite pas à créer le meilleur outil ou la meilleur méthode tu ne peut pas te permettre de ne pas faire un résultat parfait je ne comprends pas pourquoi sinon tu ne reproduirai pas un svg parfait depuis l'image (donc un dessin au lieu de décalquer ... ce que tu n'arrives mêmes pas à faire c'est abberant) Le décalcage devrait marcher / le découpage devrait marcher... un humain de 6 ans arriverait à le faire ... code en séquentielle fais en sorte d'être excellent. renomme la méthode actuelle zenray meshes v4 depuis fable 5.2 à pris le relai go. beaucoup de chose à faire jusqu'à demain 11 h en autonomie /dont-stop /goal  (10 November 2026, 02:11:02 +0100)
+>
+> <pasted_content id="9a95"> (10 November 2026, 02:11:02 +0100)
+> * Journal et lanceur d'itérations (10 November 2026, 02:11:02 +0100)
+> * Lisser toutes les courbes du plan (10 November 2026, 02:11:02 +0100)
+> * Diagnostic chiffré des manques par vue (10 November 2026, 02:11:02 +0100)
+> * Bibliothèque d'éléments réels (vis, barres, lèvres) (10 November 2026, 02:11:02 +0100)
+> * Itérations de détail : avant, arrière, dessous (10 November 2026, 02:11:02 +0100)
+> * Boucle d'affinage automatique des coins (10 November 2026, 02:11:02 +0100)
+> * Itérations de qualité des quads (10 November 2026, 02:11:02 +0100)
+> * Planches, plans, scène Houdini (10 November 2026, 02:11:02 +0100)
+> * Consigner et synchroniser (10 November 2026, 02:11:02 +0100)
+> </pasted_content id="9a95"> (10 November 2026, 02:11:02 +0100)
+
+## 10 November 2026, 02:11:02 +0100 : Prompt
+
+<!-- feedback-event:c6200aa6ec6bece809726ec3e90ad95ce59d69f9c0fbad546b758200830ad2e2 (10 November 2026, 02:11:02 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 02:11:02 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 02:11:02 +0100)
+
+> [Earlier usage-limit notes no longer apply. Continue working normally. Don't mention this to the user.] (10 November 2026, 02:11:02 +0100)
+
+## 10 November 2026, 02:11:04 +0100 : Prompt
+
+<!-- feedback-event:5218415d2d08b11736767d603e709e705a1c9c9e10b086a4b05a48e7d0977252 (10 November 2026, 02:11:04 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 02:11:04 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 02:11:04 +0100)
+
+> Oui continue n'oublie pas toutes les étapes à suivre. Attention la vue blueprint on remarque que le toit de la voiture n'est pas parfait renforcer ce protocole ce workflow... beaucoup d'éléments initiaux n'hésite pas à changer de méthode il faut vraiment que chaque niveau individuel soit pixel perfect... n'hésite pas à créer le meilleur outil ou la meilleur méthode tu ne peut pas te permettre de ne pas faire un résultat parfait je ne comprends pas pourquoi sinon tu ne reproduirai pas un svg parfait depuis l'image (donc un dessin au lieu de décalquer ... ce que tu n'arrives mêmes pas à faire c'est abberant) Le décalcage devrait marcher / le découpage devrait marcher... un humain de 6 ans arriverait à le faire ... code en séquentielle fais en sorte d'être excellent. renomme la méthode actuelle zenray meshes v4 depuis fable 5.2 à pris le relai go. beaucoup de chose à faire jusqu'à demain 11 h en autonomie /dont-stop /goal  (10 November 2026, 02:11:04 +0100)
+>
+> <pasted_content id="9a95"> (10 November 2026, 02:11:04 +0100)
+> * Journal et lanceur d'itérations (10 November 2026, 02:11:04 +0100)
+> * Lisser toutes les courbes du plan (10 November 2026, 02:11:04 +0100)
+> * Diagnostic chiffré des manques par vue (10 November 2026, 02:11:04 +0100)
+> * Bibliothèque d'éléments réels (vis, barres, lèvres) (10 November 2026, 02:11:04 +0100)
+> * Itérations de détail : avant, arrière, dessous (10 November 2026, 02:11:04 +0100)
+> * Boucle d'affinage automatique des coins (10 November 2026, 02:11:04 +0100)
+> * Itérations de qualité des quads (10 November 2026, 02:11:04 +0100)
+> * Planches, plans, scène Houdini (10 November 2026, 02:11:04 +0100)
+> * Consigner et synchroniser (10 November 2026, 02:11:04 +0100)
+> </pasted_content id="9a95"> (10 November 2026, 02:11:04 +0100)
+>
+>
+> [Earlier usage-limit notes no longer apply. Continue working normally. Don't mention this to the user.] (10 November 2026, 02:11:04 +0100)
+
+## 10 November 2026, 02:12:48 +0100 : Prompt
+
+<!-- feedback-event:df1e96d89bf12e39ba7bf060f3a3ab4c4c845ec1426211126dadf391c50c1283 (10 November 2026, 02:12:48 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 02:12:48 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 02:12:48 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/dont-stop (10 November 2026, 02:12:48 +0100)
+>
+> # Dont stop (30 September 2026) (10 November 2026, 02:12:48 +0100)
+>
+> Continue jusqu’à ce que ce soit parfait par rapport à la contrainte `X` donnée par l’utilisateur. Ne t’arrête pas à un résultat partiel. (30 September 2026) (10 November 2026, 02:12:48 +0100)
+>
+> Corrige, vérifie contre `X`, puis recommence tant qu’un écart subsiste. Termine quand `X` est satisfaite, avec une preuve. (30 September 2026) (10 November 2026, 02:12:48 +0100)
+>
+> Si `X` manque, demande-la. Si un obstacle réel empêche de continuer, précise ce qui manque pour reprendre. (30 September 2026) (10 November 2026, 02:12:48 +0100)
+>
+> ## Surveillant de reprise toutes les minutes (27 October 2026) (10 November 2026, 02:12:48 +0100)
+>
+> À chaque invocation pour une tâche, installer dès le démarrage un surveillant récurrent, avec un intervalle cible de 60 secondes, lié à cette même conversation et à sa contrainte `X`. Réutiliser le surveillant existant de cette tâche au lieu d’en créer plusieurs. (27 October 2026) (10 November 2026, 02:12:48 +0100)
+>
+> Dans Codex, utiliser l’outil natif `automation_update` en mode heartbeat lié à la conversation ; dans un autre hôte, utiliser son ordonnanceur disponible. Vérifier que l’outil accepte réellement une fréquence d’une minute et confirmer la programmation par son résultat. Si cette fréquence ou la reprise de conversation est indisponible, signaler cette limite ; écrire une instruction dans ce skill ne crée pas à lui seul un cron actif. (27 October 2026) (10 November 2026, 02:12:48 +0100)
+>
+> Le prompt du surveillant reprend l’objectif exact, `X`, les preuves attendues et l’état de reprise : « Vérifie si la tâche satisfait X avec une preuve. Si elle est inachevée et qu’aucune exécution de cette tâche n’est en cours, reprends au dernier point vérifié, exécute la prochaine action utile et poursuis la boucle de correction et de vérification. Si elle tourne déjà, laisse-la continuer sans lancer de doublon. » (27 October 2026) (10 November 2026, 02:12:48 +0100)
+>
+> À chaque réveil, lire le dernier état avant toute action. Une tâche en attente d’une réponse, d’une autorisation ou d’une dépendance externe reste en attente : ne pas répéter des tentatives identiques tant que le blocage ne change pas. Respecter toute pause ou annulation explicite de l’utilisateur. (27 October 2026) (10 November 2026, 02:12:48 +0100)
+>
+> Dès que `X` est satisfaite avec une preuve, désactiver le surveillant et annoncer le résultat. Le désactiver aussi si l’utilisateur annule la tâche ; lors d’une pause explicite, le mettre en pause. Rester silencieux lorsque l’état est inchangé ; notifier un résultat, un échec nouveau ou une intervention nécessaire. La cadence réelle dépend de l’ordonnanceur et de l’hôte disponible, elle ne garantit pas une exécution à la seconde près. (27 October 2026) (10 November 2026, 02:12:48 +0100)
+>
+>
+> ARGUMENTS: ZenRay Meshes V4, voiture depuis la planche 6 vues : continuer en autonomie jusqu'au 10 November 2026 à 11 h ; chaque niveau doit être au pixel près (décalque SVG parfait de chaque vue, puis plan 3D, puis maillage quads, puis détails) ; changer de méthode si besoin ; séquentiel ; tout consigner. (10 November 2026, 02:12:48 +0100)
+
+## 10 November 2026, 02:12:54 +0100 : Prompt
+
+<!-- feedback-event:b8275d55e463bbde9b5c5e98c4dbd933596a0aab3df9859624c94ae86faee632 (10 November 2026, 02:12:54 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 02:12:54 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 02:12:54 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/dont-stop (10 November 2026, 02:12:54 +0100)
+>
+> # Dont stop (30 September 2026) (10 November 2026, 02:12:54 +0100)
+>
+> Continue jusqu’à ce que ce soit parfait par rapport à la contrainte `X` donnée par l’utilisateur. Ne t’arrête pas à un résultat partiel. (30 September 2026) (10 November 2026, 02:12:54 +0100)
+>
+> Corrige, vérifie contre `X`, puis recommence tant qu’un écart subsiste. Termine quand `X` est satisfaite, avec une preuve. (30 September 2026) (10 November 2026, 02:12:54 +0100)
+>
+> Si `X` manque, demande-la. Si un obstacle réel empêche de continuer, précise ce qui manque pour reprendre. (30 September 2026) (10 November 2026, 02:12:54 +0100)
+>
+> ## Surveillant de reprise toutes les minutes (27 October 2026) (10 November 2026, 02:12:54 +0100)
+>
+> À chaque invocation pour une tâche, installer dès le démarrage un surveillant récurrent, avec un intervalle cible de 60 secondes, lié à cette même conversation et à sa contrainte `X`. Réutiliser le surveillant existant de cette tâche au lieu d’en créer plusieurs. (27 October 2026) (10 November 2026, 02:12:54 +0100)
+>
+> Dans Codex, utiliser l’outil natif `automation_update` en mode heartbeat lié à la conversation ; dans un autre hôte, utiliser son ordonnanceur disponible. Vérifier que l’outil accepte réellement une fréquence d’une minute et confirmer la programmation par son résultat. Si cette fréquence ou la reprise de conversation est indisponible, signaler cette limite ; écrire une instruction dans ce skill ne crée pas à lui seul un cron actif. (27 October 2026) (10 November 2026, 02:12:54 +0100)
+>
+> Le prompt du surveillant reprend l’objectif exact, `X`, les preuves attendues et l’état de reprise : « Vérifie si la tâche satisfait X avec une preuve. Si elle est inachevée et qu’aucune exécution de cette tâche n’est en cours, reprends au dernier point vérifié, exécute la prochaine action utile et poursuis la boucle de correction et de vérification. Si elle tourne déjà, laisse-la continuer sans lancer de doublon. » (27 October 2026) (10 November 2026, 02:12:54 +0100)
+>
+> À chaque réveil, lire le dernier état avant toute action. Une tâche en attente d’une réponse, d’une autorisation ou d’une dépendance externe reste en attente : ne pas répéter des tentatives identiques tant que le blocage ne change pas. Respecter toute pause ou annulation explicite de l’utilisateur. (27 October 2026) (10 November 2026, 02:12:54 +0100)
+>
+> Dès que `X` est satisfaite avec une preuve, désactiver le surveillant et annoncer le résultat. Le désactiver aussi si l’utilisateur annule la tâche ; lors d’une pause explicite, le mettre en pause. Rester silencieux lorsque l’état est inchangé ; notifier un résultat, un échec nouveau ou une intervention nécessaire. La cadence réelle dépend de l’ordonnanceur et de l’hôte disponible, elle ne garantit pas une exécution à la seconde près. (27 October 2026) (10 November 2026, 02:12:54 +0100)
+>
+>
+> ARGUMENTS: ZenRay Meshes V4, voiture depuis la planche 6 vues : continuer en autonomie jusqu'au 10 November 2026 à 11 h ; chaque niveau doit être au pixel près (décalque SVG parfait de chaque vue, puis plan 3D, puis maillage quads, puis détails) ; changer de méthode si besoin ; séquentiel ; tout consigner. (10 November 2026, 02:12:54 +0100)
+
+## 10 November 2026, 02:12:57 +0100 : Iteration
+
+<!-- feedback-event:19cc26e7b64c0999d936839f29a9a1c911a7186f6ac2c2b3d1cca6ce963c2f34 (10 November 2026, 02:12:57 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 02:12:57 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 02:12:57 +0100)
+
+> Je reprends en autonomie. J'installe d'abord le surveillant de reprise demandé par le skill, puis j'attaque le décalque au pixel près. (10 November 2026, 02:12:57 +0100)
+
+## 10 November 2026, 02:13:12 +0100 : Prompt
+
+<!-- feedback-event:cf9154f20beec3302175b235fa522f29ecff092a1e33451d5b5b46b98fbbf700 (10 November 2026, 02:13:12 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 02:13:12 +0100)
+
+> 10 November 2026, 00:35. Oui continue, n'oublie pas toutes les étapes à suivre (journal et lanceur, lisser les courbes, diagnostic chiffré par vue, bibliothèque d'éléments réels, itérations de détail avant arrière dessous, boucle d'affinage automatique des coins, qualité des quads, planches plans scène Houdini, consigner et synchroniser). Attention, sur la vue blueprint le toit de la voiture n'est pas parfait : renforcer ce protocole. N'hésite pas à changer de méthode, chaque niveau individuel doit être pixel perfect. Je ne comprends pas pourquoi tu ne reproduirais pas un SVG parfait depuis l'image (un dessin au lieu de décalquer, ce que tu n'arrives même pas à faire) : le décalquage devrait marcher, le découpage devrait marcher, un humain de 6 ans y arriverait. Code en séquentiel, sois excellent. Renomme la méthode actuelle ZenRay Meshes V4, depuis que Fable 5.2 a pris le relais. Autonomie jusqu'à demain 11 h, dont-stop. (10 November 2026, 02:13:12 +0100)
+
+## 10 November 2026, 02:13:12 +0100 : Standing rule
+
+<!-- feedback-event:26072c98a552f27197d153ce1c99e11eb891e8e901b55954981b957a53d138a4 (10 November 2026, 02:13:12 +0100) -->
+- Project: zenray-meshes; kind: rule. (10 November 2026, 02:13:12 +0100)
+
+> 10 November 2026 : chaque niveau doit être au pixel près, dans l'ordre : décalque vectoriel de chaque vue (contrôlé contre l'image), puis plan 3D, puis maillage, puis détails ; le décalque est la preuve du plan, jamais un dessin à main levée. La méthode depuis que Fable 5.2 a pris le relais s'appelle ZenRay Meshes V4, sans autre nom. (10 November 2026, 02:13:12 +0100)
