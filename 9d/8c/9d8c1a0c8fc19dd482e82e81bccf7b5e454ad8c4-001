@@ -11971,3 +11971,52 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 00:37:29 +0100)
 
 > [Image: original 2720x748, displayed at 2000x550. Multiply coordinates by 1.36 to map to original image.] (11 November 2026, 00:37:29 +0100)
+
+## 11 November 2026, 00:38:36 +0100 : Prompt
+
+<!-- feedback-event:5d2f4261c969886f655ef4e9f1081e696e327586a2e20f77f8fd629255343aa7 (11 November 2026, 00:38:36 +0100) -->
+- Project: zenray-meshes; kind: prompt. (11 November 2026, 00:38:36 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 00:38:36 +0100)
+
+> [Image: original 3012x568, displayed at 2000x377. Multiply coordinates by 1.51 to map to original image.] (11 November 2026, 00:38:36 +0100)
+
+## 11 November 2026, 00:39:23 +0100 : Iteration
+
+<!-- feedback-event:3092c392aec36f57f03b40834541ee0d8823b956b349f60e6a10522e9c0e41fb (11 November 2026, 00:39:23 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 00:39:23 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 00:39:23 +0100)
+
+> L'avant est découpé en composants, et le capot et la bouche sont posés dans Houdini en nœuds natifs seuls. La scène est enregistrée : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_006.hiplc](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_006.hiplc). (11 November 2026, 00:39:23 +0100)
+>
+> **La découpe de l'avant.** J'y compte dix composants : (11 November 2026, 00:39:23 +0100)
+> - le capot central ; (11 November 2026, 00:39:23 +0100)
+> - la bouche, avec son cadre, sa grille en retrait et sa barre centrale ; (11 November 2026, 00:39:23 +0100)
+> - le bandeau de nez, entre le capot et la bouche ; (11 November 2026, 00:39:23 +0100)
+> - la lèvre inférieure en sourire ; (11 November 2026, 00:39:23 +0100)
+> - la lame avant ; (11 November 2026, 00:39:23 +0100)
+> - les deux prises latérales, avec leurs ailettes ; (11 November 2026, 00:39:23 +0100)
+> - les optiques rondes ; (11 November 2026, 00:39:23 +0100)
+> - les fentes de sourcil ; (11 November 2026, 00:39:23 +0100)
+> - le dessus des ailes ; (11 November 2026, 00:39:23 +0100)
+> - le logo. (11 November 2026, 00:39:23 +0100)
+>
+> Ce passage traite les deux premiers. (11 November 2026, 00:39:23 +0100)
+>
+> **La mesure.** Pour lire les formes en mètres, j'ai posé une grille métrique calée sur chaque vue de la planche. J'ai aussi ajouté dans la scène les vues de face et de dessus, avec leurs caméras, pour juger chaque pièce sous trois angles. (11 November 2026, 00:39:23 +0100)
+>
+> **Le capot.** Il est construit à partir de quatre sections transversales, du pare-brise (z 1,82 m, 0,886 m de haut au centre) jusqu'au nez (z 2,45 m, 0,57 m), lissées puis réunies par `skin` et `subdivide`. Le résultat fait 576 quads. Sa forme est encore une première approche, réglable section par section sur `CTRL_front`. (11 November 2026, 00:39:23 +0100)
+>
+> **La bouche.** Mon premier contour était un ovale. J'ai donc relevé les bords de la grille colonne par colonne sur la vue de face : (11 November 2026, 00:39:23 +0100)
+> - **le haut** passe à 0,472 m au centre et monte doucement vers les côtés ; (11 November 2026, 00:39:23 +0100)
+> - **le bas** reste plat à 0,21 m jusqu'à x 0,25, puis remonte en biais vers deux pointes vives. (11 November 2026, 00:39:23 +0100)
+>
+> La grille est un fond en quads, en retrait de 8 cm derrière un cadre. (11 November 2026, 00:39:23 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (11 November 2026, 00:39:23 +0100)
+> |---|---|---| (11 November 2026, 00:39:23 +0100)
+> | Sous-diviser l'avant en composants | Oui | Dix composants nommés, consignés dans le skill | (11 November 2026, 00:39:23 +0100)
+> | Placer le capot | Oui, première forme | Il suit la base du pare-brise et la largeur de face sur les trois vues. Son galbe reste approximatif | (11 November 2026, 00:39:23 +0100)
+> | Placer la bouche | Oui | Recouvrement de la zone sombre en vue de face : 0,778, puis 0,797, puis 0,810 après les mesures | (11 November 2026, 00:39:23 +0100)
+> | Nœuds natifs seulement | Oui | add, resample, skin, subdivide, sweep, polyextrude, blast, polyfill, box, color, merge | (11 November 2026, 00:39:23 +0100)
+>
+> La méthode, les mesures et quatre pièges sont consignés dans le skill (section du 11 November 2026, 00:55) et dans le journal. Parmi les pièges : le lissage par subdivision arrondit les pointes, et le remplissage en quads exige un nombre pair d'arêtes. Ce qui manque à l'œil, c'est surtout la bande blanche entre le capot et la bouche, puis la lèvre en sourire sous la grille. (11 November 2026, 00:39:23 +0100)
