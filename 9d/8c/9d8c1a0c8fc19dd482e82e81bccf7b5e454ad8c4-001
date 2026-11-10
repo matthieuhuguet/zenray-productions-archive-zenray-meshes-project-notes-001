@@ -9162,3 +9162,33 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 08:20:37 +0100)
 
 > Géométrie arrêtée à la version 128 (26 portes sur 27, silhouettes ≥ 0,986). Je lance en parallèle tous les livrables : planche de preuve, tours d'horizon, plans cotés, scène Houdini. (10 November 2026, 08:20:37 +0100)
+
+## 10 November 2026, 08:23:30 +0100 : Iteration
+
+<!-- feedback-event:0f92dc0a9e8f20dbe504ced55cb8f31c311a767a0003ec65fa68608b98086675 (10 November 2026, 08:23:30 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 08:23:30 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 08:23:30 +0100)
+
+> Je tente de fermer le coin arrière (le passage de roue dépasse derrière le pare-chocs dans la vue arrière) : une vérification du sens des angles du passage de roue, puis un seul essai. (10 November 2026, 08:23:30 +0100)
+
+## 10 November 2026, 08:26:03 +0100 : Iteration
+
+<!-- feedback-event:32a5a4b7997f3988b6b0b1c06dc638e4337f86023644780e36a3507280246fd2 (10 November 2026, 08:26:03 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 08:26:03 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 08:26:03 +0100)
+
+> Je consigne : état du projet, règles retenues, journal, puis synchronisation du skill. (10 November 2026, 08:26:03 +0100)
+
+## 10 November 2026, 08:26:17 +0100 : Standing rule
+
+<!-- feedback-event:1e85d9b28a335220ef51208055d80e20bfd5456f0fca603dd43c9c96f6ac8a54 (10 November 2026, 08:26:17 +0100) -->
+- Project: zenray-meshes; kind: rule. (10 November 2026, 08:26:17 +0100)
+
+> ZenRay Meshes V4 : avant de corriger un plan, lancer scripts/v4/tools/missing.py (plus longues lignes non retrouvées et plus longs bords sur aucune ligne, par vue, avec la paire de pièces), regarder l'endroit avec lookdiag.py, puis écrire un patch par ligne de cette liste ; ne jamais choisir une correction à l'œil sur l'image de diagnostic entière (10 November 2026) (10 November 2026, 08:26:17 +0100)
+
+## 10 November 2026, 08:26:17 +0100 : Standing rule
+
+<!-- feedback-event:b0da59c3bb45d21d68d4bdc3169443b7a51eba02ed2564119ea582147fc2f965 (10 November 2026, 08:26:17 +0100) -->
+- Project: zenray-meshes; kind: rule. (10 November 2026, 08:26:17 +0100)
+
+> ZenRay Meshes V4 : quand deux vues de la planche se contredisent sur une même arête, suivre la lecture partagée par le plus de vues et l'écrire dans la note du patch ; une plaque posée sur une face courbe se modèle en pans du panneau, pas en plaque sur son plan moyen ; une face déclarée plane échappe au rabot (10 November 2026) (10 November 2026, 08:26:17 +0100)
