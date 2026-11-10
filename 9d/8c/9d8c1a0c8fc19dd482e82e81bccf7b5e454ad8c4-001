@@ -10456,3 +10456,131 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 > - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/canopy-split-P_002_10-November-2026.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/canopy-split-P_002_10-November-2026.png) (10 November 2026, 18:57:22 +0100)
 > - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/02_cut/ledger.json](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/02_cut/ledger.json) (10 November 2026, 18:57:22 +0100)
 > - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/STATE.md](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/STATE.md) (10 November 2026, 18:57:22 +0100)
+
+## 10 November 2026, 18:59:43 +0100 : Prompt
+
+<!-- feedback-event:9918de5ba0466af91e4f49d5cd006f40b368b18f6648fe12c153bdcef8f20eb1 (10 November 2026, 18:59:43 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 18:59:43 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 18:59:43 +0100)
+
+> <local-command-caveat>The command below was run directly in Claude Code, not sent to you as a request, and its output goes straight to the user. It's recorded here as context for later messages.</local-command-caveat> (10 November 2026, 18:59:43 +0100)
+
+## 10 November 2026, 18:59:43 +0100 : Prompt
+
+<!-- feedback-event:d4ba821ca5d8ecadec9c133485aa6f9411bba79804fb484ea2e3a842b1677627 (10 November 2026, 18:59:43 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 18:59:43 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 18:59:43 +0100)
+
+> <command-name>/model</command-name> (10 November 2026, 18:59:43 +0100)
+>             <command-message>model</command-message> (10 November 2026, 18:59:43 +0100)
+>             <command-args>claude-opus-5-5</command-args> (10 November 2026, 18:59:43 +0100)
+
+## 10 November 2026, 18:59:43 +0100 : Prompt
+
+<!-- feedback-event:9830e3f6866cc5d71b0b595a10d0633cbe065e51b4a3b1638b46212428d96be9 (10 November 2026, 18:59:43 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 18:59:43 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 18:59:43 +0100)
+
+> <local-command-stdout>Set model to `claude-opus-5-5`</local-command-stdout> (10 November 2026, 18:59:43 +0100)
+
+## 10 November 2026, 19:13:33 +0100 : Prompt
+
+<!-- feedback-event:ea00298ce772f46368735c19b4d155b91355fe34b27dab4c3d000d71e41680b7 (10 November 2026, 19:13:33 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 19:13:33 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 19:13:33 +0100)
+
+> <pasted_content id="9a95"> (10 November 2026, 19:13:33 +0100)
+> Je sais pas, après tout ce qu'on a créé, j'ai l'impression que c'est quasi pas possible d'automatiser vraiment la création 3D. Et en fait, j'ai l'impression que j'aurais plutôt dû partir du principe de plutôt essayer de générer un maximum de components Houdini valides. Et à terme, ça m'aurait créé ZenRay meshes. Cela dit, c'est toujours pas trop tard pour le faire. Mais j'ai l'impression qu'on a perdu pas mal de temps avec ZenRay meshes, surtout que on se base même plus comme engine de base sur Houdini, donc je sais pas. En fait, je pensais qu'avec l'avènement des modèles Opus 5.5 ou Fable 5.2, ça allait réussir à faire en sorte de réussir à créer un outil 3D sur mesure, mais à terme, j'ai pas réussi à le construire. Donc peut-être que tu peux faire l'audit de ZenRay meshes pour me donner quelques pistes sans non plus les coder, mais m'inviter à réfléchir sur le sujet et limite lancer une deep research actuelle sur l'état de l'art, sur ce qui est possible de faire et ou non. Parce qu'au final, j'ai l'impression que c'est extrêmement dur de faire de la 3D à l'ère de l'IA, alors que finalement, avec tout ce qui est Blender, Houdini, etc., ça aurait dû devenir de plus en plus simple. (10 November 2026, 19:13:33 +0100)
+> </pasted_content id="9a95"> (10 November 2026, 19:13:33 +0100)
+>
+> .. (10 November 2026, 19:13:33 +0100)
+
+## 10 November 2026, 19:15:03 +0100 : Iteration
+
+<!-- feedback-event:1248f4d665a7d8c18838f81a51014361d0f40297b3d116d93613ecf942f5869e (10 November 2026, 19:15:03 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 19:15:03 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 19:15:03 +0100)
+
+> Je fais l'audit à partir des faits du projet (durée, versions, outils, mesures), puis une recherche sur l'état de l'art en novembre 2026, sans rien coder. (10 November 2026, 19:15:03 +0100)
+
+## 10 November 2026, 19:17:29 +0100 : Iteration
+
+<!-- feedback-event:c6ace4e4e10b7a9097416fb04845000b1c9e61fabe1118a663b9e0980eaae24d (10 November 2026, 19:17:29 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 19:17:29 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 19:17:29 +0100)
+
+> Ton intuition tient, et l'état de l'art va dans son sens. Le blocage ne vient pas surtout d'un manque de puissance de l'IA : la cible était impossible à atteindre telle qu'on l'avait posée, et le seul endroit où ça a marché est celui où un composant paramétrique valide existait déjà. (10 November 2026, 19:17:29 +0100)
+>
+> ## Les faits (10 November 2026, 19:17:29 +0100)
+>
+> Du 25 October au 10 November 2026, ZenRay Meshes a produit 367 entrées du journal, dont 333 dans les six premiers jours. Le dépôt compte 705 scripts Python (environ 74 600 lignes), 140 versions de la cage de la première voiture et huit projets. La voiture domine largement ; ont aussi été essayés la porte, Manny, l'arbre, un personnage, une tête, le coffre, le lys, le cheval, le camion et le dragon. (10 November 2026, 19:17:29 +0100)
+>
+> **Ce qui a marché a toujours le même point commun : un modèle fort imposé à la pièce.** (10 November 2026, 19:17:29 +0100)
+> - La roue, que tu as validée : un cercle, une symétrie d'ordre 5, une branche en Y. (10 November 2026, 19:17:29 +0100)
+> - Les pièces effilées du 5 November en tubes paramétriques, la méthode dont tu disais qu'elle avait « tout débloqué ». (10 November 2026, 19:17:29 +0100)
+> - Les outils de mesure eux-mêmes : calage des vues, décalque, consensus, rendu à zébrures. Ils restent réutilisables. (10 November 2026, 19:17:29 +0100)
+>
+> ## Pourquoi le reste a échoué, par ordre de poids (10 November 2026, 19:17:29 +0100)
+>
+> 1. **La cible 0,999 n'existait pas.** (10 November 2026, 19:17:29 +0100)
+>    - Une planche générée par une IA ne décrit pas un seul objet : sur la première voiture, les roues sont à 23 cm d'écart entre deux vues ; sur la seconde, même une forme parfaite ne peut pas épouser à la fois la vue avant et la vue arrière à plus de 0,87. (10 November 2026, 19:17:29 +0100)
+>    - À 620 px par vue, un pixel vaut 5 à 9 mm et un bras de jante fait 2 px. (10 November 2026, 19:17:29 +0100)
+> 2. **Le vérificateur mesurait autre chose que ton œil, et on le savait dès le premier jour.** (10 November 2026, 19:17:29 +0100)
+>    - Le journal du 25 October le note : des silhouettes à 0,998 pour une 3D à 0,55 à 0,68. (10 November 2026, 19:17:29 +0100)
+>    - Plus tard, 26 contrôles sur 27 étaient au vert pour une voiture que tu jugeais en carton. C'est ma part : j'ai trop souvent montré des chiffres rassurants au lieu de regarder. (10 November 2026, 19:17:29 +0100)
+> 3. **On a reconstruit un noyau de modélisation en Python à la place de Houdini.** (10 November 2026, 19:17:29 +0100)
+>    - Maillage, lissage, coque, chanfreins et retopologie ont été refaits à la main, et Houdini ne servait plus qu'à l'export. (10 November 2026, 19:17:29 +0100)
+>    - Les ondulations et l'effet carton venaient de ce noyau maison, alors que les nœuds de chanfrein, de subdivision et de remaillage en quads existent déjà dans Houdini. C'est la dérive que tu as sentie. (10 November 2026, 19:17:29 +0100)
+> 4. **On a commencé par le boss final.** Une supercar relève du surfaçage de classe A, qui reste manuel dans l'industrie : je n'ai trouvé aucune source montrant le contraire. Ta propre grille l'estime à 150 à 240 h pour un professionnel. (10 November 2026, 19:17:29 +0100)
+>
+> ## L'état de l'art, novembre 2026 (10 November 2026, 19:17:29 +0100)
+>
+> - **Générateurs image vers 3D.** Les meilleurs sont Rodin Gen-2.5 (quads, hébergé), Hunyuan3D 3.x (maillages propres en triangles) et TRELLIS.2 (ouvert). Ils sont fidèles en silhouette, mais la topologie demande presque toujours une passe de retopologie. Ils savent scanner, pas encore dessiner. (10 November 2026, 19:17:29 +0100)
+> - **Agents qui écrivent du code 3D.** Le banc de test 3DCodeBench (DeepMind, Google et l'université de Californie du Sud, mai 2026, 12 modèles) le confirme : (10 November 2026, 19:17:29 +0100)
+>   - les modèles écrivent du code valide ; (10 November 2026, 19:17:29 +0100)
+>   - les échecs viennent d'appels d'API faux et de pièces qui flottent ; (10 November 2026, 19:17:29 +0100)
+>   - ce qui aide, c'est l'itération avec le retour d'exécution ; (10 November 2026, 19:17:29 +0100)
+>   - les auteurs ont dû s'appuyer sur des préférences humaines, parce que les mesures automatiques ne captent pas la qualité perçue d'une forme. C'est exactement notre expérience. (10 November 2026, 19:17:29 +0100)
+>   - LL3M arrive au même schéma : planificateur, codeur, critique, vérificateur, et l'humain dans la boucle. (10 November 2026, 19:17:29 +0100)
+> - **Modélisation procédurale inverse : c'est ton intuition, et elle a un nom.** (10 November 2026, 19:17:29 +0100)
+>   - DI-PCG (CVPR 2025) estime les paramètres d'un générateur procédural existant à partir d'une image. Il s'entraîne sur des rendus de paramètres tirés au hasard. (10 November 2026, 19:17:29 +0100)
+>   - Un article de KDD 2026 retrouve des graphes paramétriques éditables de bâtiments à partir d'images. (10 November 2026, 19:17:29 +0100)
+> - **Houdini 22.** SideFX ajoute de l'apprentissage automatique en appoint (profondeur, SAM, MoGe) et un serveur MCP en préversion pour le rigging. La direction est « procédural plus aides », pas « l'IA fait le modèle ». (10 November 2026, 19:17:29 +0100)
+>
+> ## Pistes à méditer, sans code (10 November 2026, 19:17:29 +0100)
+>
+> 1. **D'abord la bibliothèque, ensuite l'automate.** Des HDA valides par construction (roue, prise d'air, aileron, rétroviseur, panneau avec bombage et chanfrein), chacun avec huit curseurs au plus. ZenRay Meshes deviendrait alors : choisir les composants, puis estimer leurs paramètres d'après la référence. Les exemples d'entraînement se fabriquent dans Houdini lui-même : paramètres au hasard, rendus. (10 November 2026, 19:17:29 +0100)
+> 2. **Houdini comme seul noyau.** L'IA n'écrit que des paramètres et des graphes de nœuds, par le MCP que tu as déjà, et juge sur des rendus. (10 November 2026, 19:17:29 +0100)
+> 3. **Une autre référence.** De vrais plans, ou des photos avec des cotes. Ou bien un générateur (Rodin, Hunyuan) utilisé comme simple scan, puis remodelé par composants. Cette dernière option touche ta règle « pas de génération de maillage par IA » : c'est ta décision. (10 November 2026, 19:17:29 +0100)
+> 4. **Ton œil comme vérificateur, composant par composant.** C'est la seule chose qui a fonctionné ; les chiffres ne servent qu'à le préparer. (10 November 2026, 19:17:29 +0100)
+> 5. **Un domaine où le procédural est fort.** Décors modulaires, accessoires, mécanique, architecture : Louisiana Bayou en est déjà là. C'est aussi le levier argent, puisque ces pièces se vendent sur Fab et prouvent ton Houdini auprès des studios. (10 November 2026, 19:17:29 +0100)
+>
+> Trois questions pour y réfléchir : (10 November 2026, 19:17:29 +0100)
+> - Dans trois semaines, veux-tu montrer un outil, ou des assets faits avec lui ? (10 November 2026, 19:17:29 +0100)
+> - Avec cent composants HDA parfaits demain matin, que construirais-tu ? (10 November 2026, 19:17:29 +0100)
+> - Cherches-tu à automatiser la modélisation, ou à modéliser dix fois plus vite toi-même ? (10 November 2026, 19:17:29 +0100)
+>
+> Ce n'est pas une source de vérité : vérifie et fie-toi à ton for intérieur. (10 November 2026, 19:17:29 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (10 November 2026, 19:17:29 +0100)
+> |---|---|---| (10 November 2026, 19:17:29 +0100)
+> | L'audit de ZenRay Meshes | Oui | Chiffres comptés sur le journal et le dépôt, mesures reprises des contrôles de la session | (10 November 2026, 19:17:29 +0100)
+> | L'état de l'art, ce qui est possible ou non | Oui | Recherche web du 10 November 2026, sources ci-dessous | (10 November 2026, 19:17:29 +0100)
+> | Des pistes sans les coder | Oui | Cinq pistes et trois questions ; aucun script écrit | (10 November 2026, 19:17:29 +0100)
+> | Consigner | Oui | Section ajoutée au skill (synchronisation sortie à 0), entrée au journal | (10 November 2026, 19:17:29 +0100)
+>
+> Je peux aussi en faire une page à partager. (10 November 2026, 19:17:29 +0100)
+>
+> Sources : (10 November 2026, 19:17:29 +0100)
+> - [Best 3D Model Generation APIs in 2026](https://www.3daistudio.com/blog/best-3d-model-generation-apis-2026) (10 November 2026, 19:17:29 +0100)
+> - [AI 3D Model Generation in 2026: Every Major Release, Dated](https://app.cinevva.com/guides/ai-3d-model-generation-timeline-2026) (10 November 2026, 19:17:29 +0100)
+> - [QuadGPT](https://arxiv.org/pdf/2509.21420) (10 November 2026, 19:17:29 +0100)
+> - [MeshFlow](https://arxiv.org/pdf/2606.04621) (10 November 2026, 19:17:29 +0100)
+> - [3DCodeBench](https://arxiv.org/abs/2606.01057) (10 November 2026, 19:17:29 +0100)
+> - [LL3M: Large Language 3D Modelers](https://arxiv.org/abs/2508.08228) (10 November 2026, 19:17:29 +0100)
+> - [DI-PCG, CVPR 2025](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhao_DI-PCG_Diffusion-based_Efficient_Inverse_Procedural_Content_Generation_for_High-quality_3D_CVPR_2025_paper.pdf) (10 November 2026, 19:17:29 +0100)
+> - [Inverse Parametric Building Modeling, KDD 2026](https://dl.acm.org/doi/abs/10.1145/3770855.3819045) (10 November 2026, 19:17:29 +0100)
+> - [OmniPart](https://arxiv.org/abs/2507.06165) (10 November 2026, 19:17:29 +0100)
+> - [Houdini 22 ML](https://www.sidefx.com/docs/houdini/ml/index.html) (10 November 2026, 19:17:29 +0100)
+> - [SideFX et NVIDIA, MCP pour le rigging](https://www.jonpeddie.com/news/sidefx-and-nvidia-bring-mcp-powered-ai-agents-to-houdini-22s-rigging-workflow-at-siggraph-2026/) (10 November 2026, 19:17:29 +0100)
+> - [Class-A et subdivision, Digital Engineering](https://www.digitalengineering247.com/article/cad-users-embrace-hybrid-modeling) (10 November 2026, 19:17:29 +0100)
