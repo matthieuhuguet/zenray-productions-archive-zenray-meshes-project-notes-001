@@ -10348,3 +10348,56 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 > - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/wheel-inner-I_003_10-November-2026.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/wheel-inner-I_003_10-November-2026.png) (10 November 2026, 14:50:41 +0100)
 > - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/02_cut/wheel_inner_I_003/wheel_inner.json](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/02_cut/wheel_inner_I_003/wheel_inner.json) (10 November 2026, 14:50:41 +0100)
 > - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/STATE.md](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/STATE.md) (10 November 2026, 14:50:41 +0100)
+
+## 10 November 2026, 14:51:52 +0100 : Prompt
+
+<!-- feedback-event:a56d86332fab18d5f885c3400d6c81eca726e5023e5adee3f15179f5b63f439c (10 November 2026, 14:51:52 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 14:51:52 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 14:51:52 +0100)
+
+> Oui sauf que les jantes devrait être strictement symétrique et identique.  et il manque le petit cercle au milieu passe au component suivant. ça commence à bien marcher commence à consigner découpage component par component. (10 November 2026, 14:51:52 +0100)
+
+## 10 November 2026, 14:52:35 +0100 : Standing rule
+
+<!-- feedback-event:a178b245b4fadd16a3d6a71e7801d16e7aa6fa23fe4ecad52b04b94446cb57e5 (10 November 2026, 14:52:35 +0100) -->
+- Project: zenray-meshes; kind: rule. (10 November 2026, 14:52:35 +0100)
+
+> 10 November 2026, Matthieu sur la planche de l'intérieur des jantes : oui, sauf que les jantes devraient être strictement symétriques et identiques, et il manque le petit cercle au milieu. Passer au component suivant. « Ça commence à bien marcher, commence à consigner : découpage component par component. » Règle : un composant répété (roue, jante) a UNE définition et des instances identiques ; gauche et droite strictement en miroir. (10 November 2026, 14:52:35 +0100)
+
+## 10 November 2026, 14:56:59 +0100 : Iteration
+
+<!-- feedback-event:7728229a4877554c57f0a11f3a81f00abec36a85eb75758447358c71cbd61306 (10 November 2026, 14:56:59 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 14:56:59 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 14:56:59 +0100)
+
+> Tes deux remarques sur les jantes sont appliquées, le protocole composant par composant est consigné dans le skill, et le composant suivant (les vitrages) est commencé : le pare-brise passe ses contrôles, la vitre latérale est à refaire. (10 November 2026, 14:56:59 +0100)
+>
+> **La roue** (10 November 2026, 14:56:59 +0100)
+>
+> - **Strictement identique** : il n'y a plus qu'une seule définition de roue, en mètres, et quatre instances. La roue droite est le miroir de la gauche. Les quatre mesures différaient de quelques millimètres (± 5 mm au plus sur les rayons) ; la définition est leur moyenne. (10 November 2026, 14:56:59 +0100)
+> - **Petit cercle central** : ajouté, 3,4 cm de rayon, avec l'anneau qui l'entoure et le moyeu. (10 November 2026, 14:56:59 +0100)
+> - **Limite mesurée** : 80 à 85 % des traits de la définition tombent sur une arête de l'image. La définition n'explique que 46 à 48 % des arêtes de l'intérieur de la jante : l'étrier, le double bord des bras et la texture du disque ne sont pas dessinés. (10 November 2026, 14:56:59 +0100)
+>
+> **Le protocole consigné** (10 November 2026, 14:56:59 +0100)
+>
+> Sept gestes par composant : le regarder de près, le demander seul à SAM, chercher sa forme exacte, le contrôler par deux témoins, faire sa planche seule, attendre ta validation, l'inscrire au registre. Un calque validé n'est plus jamais recalculé. Les leçons des roues y sont écrites, et le registre du découpage est ouvert avec ses statuts. (10 November 2026, 14:56:59 +0100)
+>
+> **Les vitrages** (10 November 2026, 14:56:59 +0100)
+>
+> - **Pare-brise vu de face et verrière vue de dessus** : forme symétrique propre, stable (0,997 et 0,999), bord sur les arêtes à 0,99 et 0,96. (10 November 2026, 14:56:59 +0100)
+> - **Vitre latérale** : à refaire, deux essais. Le rétroviseur passe devant et mord le coin, SAM réunit le pare-brise vu de profil et la vitre parce que le montant qui les sépare est un trait fin, et le bord haut ondule. (10 November 2026, 14:56:59 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (10 November 2026, 14:56:59 +0100)
+> |---|---|---| (10 November 2026, 14:56:59 +0100)
+> | Jantes strictement symétriques et identiques | Oui | Une définition, quatre instances ; droite en miroir de la gauche | (10 November 2026, 14:56:59 +0100)
+> | Le petit cercle au milieu | Oui | Lu sur les quatre roues à 3,7 à 4,3 px du centre, visible sur la planche | (10 November 2026, 14:56:59 +0100)
+> | Consigner le découpage composant par composant | Oui | Section « protocole » ajoutée au skill, registre créé, synchronisation sortie à 0 | (10 November 2026, 14:56:59 +0100)
+> | Passer au composant suivant | En partie | Pare-brise : contrôles passés ; vitre latérale : rejetée par les contrôles et à l'œil | (10 November 2026, 14:56:59 +0100)
+> | Étrier, écrous, perçage du disque | Non | Pas commencé | (10 November 2026, 14:56:59 +0100)
+>
+> Fichiers : (10 November 2026, 14:56:59 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/wheel-definition-C_001_10-November-2026.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/wheel-definition-C_001_10-November-2026.png) (10 November 2026, 14:56:59 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/glass-windshield-V_002_10-November-2026.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/glass-windshield-V_002_10-November-2026.png) (10 November 2026, 14:56:59 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/glass-side-V_002-redo_10-November-2026.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/glass-side-V_002-redo_10-November-2026.png) (10 November 2026, 14:56:59 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/02_cut/ledger.json](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/02_cut/ledger.json) (10 November 2026, 14:56:59 +0100)
+> - [/Users/zenray/.claude/skills/zenray-meshes/references/ZenRayMeshesV4.md](/Users/zenray/.claude/skills/zenray-meshes/references/ZenRayMeshesV4.md) (10 November 2026, 14:56:59 +0100)
