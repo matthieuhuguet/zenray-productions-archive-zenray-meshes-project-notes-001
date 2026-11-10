@@ -10319,3 +10319,32 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: rule. (10 November 2026, 14:47:05 +0100)
 
 > 10 November 2026 : Matthieu valide les calques pneu et jante des quatre roues de profil de la deuxième voiture (planche wheels-W_002) : « Validé, continue ». Méthode validée : SAM comme témoin, cercle ajusté comme forme enregistrée, rayon de jante lu sur les anneaux de l'image, contrôle gauche contre droite. (10 November 2026, 14:47:05 +0100)
+
+## 10 November 2026, 14:50:41 +0100 : Iteration
+
+<!-- feedback-event:e6de882ad36bf7cfb3d8ce10546493f3e2e62eeb4532dec7709ce3f3c55b3910 (10 November 2026, 14:50:41 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 14:50:41 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 14:50:41 +0100)
+
+> Tes huit calques pneu et jante sont enregistrés comme validés, et l'intérieur des quatre jantes est maintenant décrit en formes exactes, à valider sur la planche envoyée. (10 November 2026, 14:50:41 +0100)
+>
+> - **Nombre de branches** : cinq sur les quatre roues. C'est la symétrie qui explique le mieux chaque image, de peu (marge 0,004 à 0,014) ; ce qui le confirme, c'est que les quatre roues donnent le même nombre. (10 November 2026, 14:50:41 +0100)
+> - **Anneaux** : bord du disque de frein à 28,7 à 29,3 px du centre et début de la lèvre à 33,7 à 34,0 px, donc identiques à moins d'un pixel d'une roue à l'autre. Le rayon du moyeu est moins sûr : il varie de 8,0 à 10,3 px. (10 November 2026, 14:50:41 +0100)
+> - **Branches** : chaque branche est un Y, un pied sur l'axe puis deux bras droits qui s'ouvrent vers la jante. L'arête lue sur l'image tombe à moins d'un pixel de cette forme pour 91 à 99 % de ses points. (10 November 2026, 14:50:41 +0100)
+>
+> Deux essais ont été écartés avant celui-ci : un modèle de branche courbe qui ne collait qu'à 12 à 49 % de l'arête, puis des bras sans pied. (10 November 2026, 14:50:41 +0100)
+>
+> Pas fait : l'étrier, les écrous, le perçage du disque et le logo du moyeu. Les pneus vus de face, d'arrière et de dessous ne sont pas faits non plus. (10 November 2026, 14:50:41 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (10 November 2026, 14:50:41 +0100)
+> |---|---|---| (10 November 2026, 14:50:41 +0100)
+> | Garder les masques validés | Oui | Les huit calques pneu et jante portent le statut validé dans le fichier des calques | (10 November 2026, 14:50:41 +0100)
+> | Continuer la boucle par composant sur les roues | Oui | Cinq calques par jante : branches, moyeu, disque, creux, lèvre | (10 November 2026, 14:50:41 +0100)
+> | Des formes exactes, vérifiées | En partie | Branches : 91 à 99 % de l'arête à moins d'1 px ; anneaux à moins d'1 px entre roues ; moyeu dispersé de 2,3 px | (10 November 2026, 14:50:41 +0100)
+> | Tous les petits éléments | Non | Étrier, écrous, perçage du disque, logo : pas commencés | (10 November 2026, 14:50:41 +0100)
+> | Pneus dans les autres vues | Non | Pas commencé | (10 November 2026, 14:50:41 +0100)
+>
+> Fichiers : (10 November 2026, 14:50:41 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/wheel-inner-I_003_10-November-2026.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/wheel-inner-I_003_10-November-2026.png) (10 November 2026, 14:50:41 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/02_cut/wheel_inner_I_003/wheel_inner.json](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/02_cut/wheel_inner_I_003/wheel_inner.json) (10 November 2026, 14:50:41 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/STATE.md](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/STATE.md) (10 November 2026, 14:50:41 +0100)
