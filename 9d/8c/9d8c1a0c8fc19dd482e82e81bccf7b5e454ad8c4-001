@@ -11573,3 +11573,33 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 22:10:23 +0100)
 
 > Les graphiques sont propres ; je vérifie la page en largeur téléphone, puis je consigne l'audit dans le skill et te l'envoie. (10 November 2026, 22:10:23 +0100)
+
+## 10 November 2026, 22:11:34 +0100 : Iteration
+
+<!-- feedback-event:b0a005b9ffc1e9e4faf8ea3405f54078dc88b7849250e1cdb55109db49fb4a44 (10 November 2026, 22:11:34 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 22:11:34 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 22:11:34 +0100)
+
+> L'audit est fini. La page complète, avec ses douze graphiques, est ici : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Audit_10-November-2026/Audit-ZenRay-Meshes_10-November-2026.html](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Audit_10-November-2026/Audit-ZenRay-Meshes_10-November-2026.html). (10 November 2026, 22:11:34 +0100)
+>
+> **Le résultat principal.** Tout ce que tu as validé est un composant isolé dont la forme était imposée : les roues de profil, le torse et le bassin de Manny, la découpe par composant. Tout ce que tu as rejeté venait d'un ensemble jugé par des chiffres. Le graphique des contrôles le montre bien : la voiture passe de 13 à 26 contrôles réussis sur 27, et c'est justement à 23 et 26 que tombent tes rejets « foutage de gueule » et « toujours pas ça ». La mesure automatique ne prédit donc pas ton œil. Sur 546 essais, la moitié se conclut sur un chiffre qui monte, et le journal ne contient aucune de tes 27 validations. Tes messages, eux, comptent 124 rejets. (10 November 2026, 22:11:34 +0100)
+>
+> **Le code tourne presque entièrement hors de Houdini.** Seuls 11 % des 705 scripts importent Houdini, et 108 des 160 méthodes du registre tournent en Python. Maillage, lissage et topologie y ont été refaits à la main, alors que Houdini sait déjà les faire. (10 November 2026, 22:11:34 +0100)
+>
+> **L'état réel des 30 HDA, vérifié en les ouvrant dans Houdini 22 :** (10 November 2026, 22:11:34 +0100)
+> - **Dragon :** les onze pièces recopient le même générateur Python et plantent avec leurs valeurs par défaut. (10 November 2026, 22:11:34 +0100)
+> - **Sept autres pièces** (capot, composant générique, pied, bouche, plaques, doigts d'aile) fonctionnent, mais chacune ne contient qu'un seul nœud Python. (10 November 2026, 22:11:34 +0100)
+> - **Camion :** ses douze pièces sont les seules à produire de vrais réseaux de nœuds natifs : tubes, chanfreins, booléens, 31 773 polygones dont 96 % de quads. Leur défaut est qu'elles dépendent d'un script rangé dans un dossier temporaire. (10 November 2026, 22:11:34 +0100)
+>
+> Ce camion est donc le point de départ le plus proche des « vrais graphes » que tu veux. La carte de migration de la page indique, étape par étape, quels nœuds Houdini 22 remplaceraient le Python. Chacun de ces nœuds a été vérifié dans Houdini 22. Il n'existe pas de nœud SAM : il passerait par le nœud ONNX ou resterait un script qui fournit des masques. (10 November 2026, 22:11:34 +0100)
+>
+> **Le coût.** Les agents ont consommé environ 3 millions de tokens : 2,55 millions sont mesurés pour cinq d'entre eux, et le sixième n'a pas pu être relevé. C'est le double de ce que j'avais annoncé (1 à 1,5 million). (10 November 2026, 22:11:34 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (10 November 2026, 22:11:34 +0100)
+> |---|---|---| (10 November 2026, 22:11:34 +0100)
+> | Un vrai audit par des agents Haiku 5.5 en effort extra | Oui | Six agents ont lu leurs fichiers en entier. Les citations de tes messages ont été retrouvées mot pour mot, et 1 978 chiffres sur 1 980 (journal) et 302 sur 307 (méthodes) existent dans la source | (10 November 2026, 22:11:34 +0100)
+> | Savoir ce qui a été fait et ce qui ne l'a pas été | Oui | Inventaire des 705 scripts, des 266 composants et des 160 méthodes. Les 30 HDA ont été ouverts dans Houdini 22 et leur géométrie comptée | (10 November 2026, 22:11:34 +0100)
+> | Des graphiques de ce qui marche et ne marche pas | Oui | Douze graphiques, en niveaux de gris comme tu les veux. La page a été vérifiée dans un navigateur isolé, sur écran d'ordinateur et de téléphone | (10 November 2026, 22:11:34 +0100)
+> | Préparer le passage à Houdini 22 | Carte seulement | Étapes et nœuds vérifiés dans Houdini 22, mais rien de codé : c'est un test, pas encore validé | (10 November 2026, 22:11:34 +0100)
+>
+> Tout est consigné dans le skill (`references/ZenRayMeshesV4.md`, section du 10 November 2026, 22:10) et dans le journal. Je peux aussi publier cette page comme lien privé à partager, si tu veux la montrer à Andreas. (10 November 2026, 22:11:34 +0100)
