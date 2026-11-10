@@ -73304,3 +73304,11 @@
 - Project: zenray-meshes; kind: rule. (10 November 2026, 02:13:12 +0100)
 
 > 10 November 2026 : chaque niveau doit être au pixel près, dans l'ordre : décalque vectoriel de chaque vue (contrôlé contre l'image), puis plan 3D, puis maillage, puis détails ; le décalque est la preuve du plan, jamais un dessin à main levée. La méthode depuis que Fable 5.2 a pris le relais s'appelle ZenRay Meshes V4, sans autre nom. (10 November 2026, 02:13:12 +0100)
+
+## 10 November 2026, 02:29:51 +0100 : Prompt
+
+<!-- feedback-event:888c0361b0408c776f214dc67bfc2cbc8615e77bce064020b10daba2aa08c980 (10 November 2026, 02:29:51 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 02:29:51 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 02:29:51 +0100)
+
+> [Image: original 3768x4279, displayed at 1761x2000. Multiply coordinates by 2.14 to map to original image.] (10 November 2026, 02:29:51 +0100)
