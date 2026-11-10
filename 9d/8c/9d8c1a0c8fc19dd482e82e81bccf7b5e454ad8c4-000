@@ -73500,3 +73500,19 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 03:59:34 +0100)
 
 > Le code de la grille en bande est en place ; je le teste maintenant sur un coin synthétique (trapèze 4 cm vers 60 cm, puis triangle à pointe de 25 degrés) avant de l'essayer sur la voiture. (10 November 2026, 03:59:34 +0100)
+
+## 10 November 2026, 04:18:01 +0100 : Iteration
+
+<!-- feedback-event:858e2a0fda7f9f9c8b239d20f2bbb97755f813970f3a217b16467de534083cbc (10 November 2026, 04:18:01 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 04:18:01 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 04:18:01 +0100)
+
+> Le correctif V_079 a été refusé par le lanceur (une suppression de bord ouvert mal adressée) ; je regarde la syntaxe attendue et je relance. (10 November 2026, 04:18:01 +0100)
+
+## 10 November 2026, 04:31:04 +0100 : Iteration
+
+<!-- feedback-event:e13eadfb54bd61d0e099c6e2c148cee4a3c3c9850f310688a5ce37e623d4fc36 (10 November 2026, 04:31:04 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 04:31:04 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 04:31:04 +0100)
+
+> Le mailleur a refusé V_087 (une contrainte de nombres fixes qu'il ne sait pas satisfaire) ; je lis son message et je corrige. (10 November 2026, 04:31:04 +0100)
