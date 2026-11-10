@@ -73484,3 +73484,11 @@
 > Continue the conversation from where it left off without asking the user any further questions. Resume directly — do not acknowledge the summary, do not recap what was happening, do not preface with "I'll continue" or similar. Pick up the last task as if the break never happened. (10 November 2026, 03:48:37 +0100)
 >
 > The messages after this summary are the most recent messages from before compaction, kept verbatim. The summary was written without seeing them, so something it says has not happened yet may already have happened in them. (10 November 2026, 03:48:37 +0100)
+
+## 10 November 2026, 03:51:18 +0100 : Iteration
+
+<!-- feedback-event:2a8b2dac86011e6cc632e4618345938ebe6cb8c14bc12acd03b93f56a9ac0212 (10 November 2026, 03:51:18 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 03:51:18 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 03:51:18 +0100)
+
+> Je lis le détail du contrôle de V_076 pour savoir quelles pièces font échouer les portes des quads (angles, allongement, voile, quads pliés), puis je corrige ces pièces une par une. (10 November 2026, 03:51:18 +0100)
