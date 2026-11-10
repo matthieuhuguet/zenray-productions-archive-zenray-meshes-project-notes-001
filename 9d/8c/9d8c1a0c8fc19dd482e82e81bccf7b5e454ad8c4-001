@@ -11603,3 +11603,37 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 > | Préparer le passage à Houdini 22 | Carte seulement | Étapes et nœuds vérifiés dans Houdini 22, mais rien de codé : c'est un test, pas encore validé | (10 November 2026, 22:11:34 +0100)
 >
 > Tout est consigné dans le skill (`references/ZenRayMeshesV4.md`, section du 10 November 2026, 22:10) et dans le journal. Je peux aussi publier cette page comme lien privé à partager, si tu veux la montrer à Andreas. (10 November 2026, 22:11:34 +0100)
+
+## 10 November 2026, 22:35:18 +0100 : Prompt
+
+<!-- feedback-event:35eae6508a7b724d5fa6379e68c7bcd3a2eb6a25ffcbc589a7220c727076f353 (10 November 2026, 22:35:18 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 22:35:18 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 22:35:18 +0100)
+
+> <pasted_content id="9a95"> (10 November 2026, 22:35:18 +0100)
+> Personnellement, je suis sûr que si on fait en sorte que Houdini soit notre back-end ou notre moteur principal, je suis sûr qu'on va réussir à faire de la 3D. Et deuxième point, je suis aussi persuadé que ce qu'il faut faire, c'est la méthode par components et même par rapport à une référence, le découpage par components de components, tu vois. En mode, au lieu de faire une voiture, on fait une roue, et au lieu de faire une roue, on fait une vis, tu vois, ou simplement les jantes, tu vois, ou simplement les pneus. Et si notre backend c'est Houdini et qu'on a un graphe et qu'on peut itérer sur le graphe, je suis sûr que ça va marcher. Donc ouvre Houdini, on reprend le travail de la voiture et on itère directement dans la scène components par components via directement des graphes Houdini, mais qui utilisent uniquement des modules de Houdini, donc pas de ce qu'on appelle pas de Python ni de Vex. Et on va réussir. Et du coup, ouvre-moi la scène et on reprend actuellement notre travail, mais uniquement via des graphes, jamais par du Python qui coderait un module ou un outil. Et go, on va reproduire la voiture supercar. (10 November 2026, 22:35:18 +0100)
+> </pasted_content id="9a95"> (10 November 2026, 22:35:18 +0100)
+
+## 10 November 2026, 22:36:04 +0100 : Iteration
+
+<!-- feedback-event:92887af87c16aa433023591b4a7eef897f83e7b18487ea83f99904395cc50d8b (10 November 2026, 22:36:04 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 22:36:04 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 22:36:04 +0100)
+
+> Le supercar est la deuxième voiture (planche `09_Car2`), sur laquelle les calques pneu et jante ont déjà été validés. Je lance Houdini FX et je prépare la scène. (10 November 2026, 22:36:04 +0100)
+
+## 10 November 2026, 22:37:20 +0100 : Iteration
+
+<!-- feedback-event:94eaff138ea5f3a70d82a5476c46f6d114b57389888f4ce43300733cee75e7ca (10 November 2026, 22:37:20 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 22:37:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 22:37:20 +0100)
+
+> Houdini démarre ; je mesure le pneu sur la planche (rayon 0,434 m déjà validé, largeur lue sur la vue de dessous) et je vérifie que le pont MCP répond. (10 November 2026, 22:37:20 +0100)
+
+## 10 November 2026, 22:38:25 +0100 : Iteration
+
+<!-- feedback-event:d3868b72a1888a808d9e886a47c88bf4205f329759f29a8298643beb63151bb0 (10 November 2026, 22:38:25 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 22:38:25 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 22:38:25 +0100)
+
+> Le pont répond. Je pose maintenant la vue de profil de la planche dans la scène, à l'échelle exacte du calage, puis le graphe du pneu. (10 November 2026, 22:38:25 +0100)
