@@ -9835,3 +9835,50 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 12:31:46 +0100)
 
 > [Image: original 2354x1522, displayed at 2000x1293. Multiply coordinates by 1.18 to map to original image.] (10 November 2026, 12:31:46 +0100)
+
+## 10 November 2026, 12:33:12 +0100 : Standing rule
+
+<!-- feedback-event:b76cf67a2d3e8ccf5d9480e47f0e93e53948ff18a325cc5c4a4bd87a21698f27 (10 November 2026, 12:33:12 +0100) -->
+- Project: zenray-meshes; kind: rule. (10 November 2026, 12:33:12 +0100)
+
+> 10 November 2026 : le juge des lignes ne voit que les traits sombres ; pour une forme facettée, mesurer avec photo.py (toutes les arêtes du dessin contre le rendu ajusté du modèle) avant de dire qu'une zone est juste. Quand deux groupes de vues se contredisent, suivre la majorité, écrire carve false sur les coins concernés et montrer à Matthieu le contour quitté. (10 November 2026, 12:33:12 +0100)
+
+## 10 November 2026, 12:33:33 +0100 : Iteration
+
+<!-- feedback-event:d427d2fcb0db76a17cb7648a4d2e7e13857d6fbd9cd971369ebbcd55b8185f4c (10 November 2026, 12:33:33 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 12:33:33 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 12:33:33 +0100)
+
+> L'arrière est redécoupé en facettes d'après la vue arrière de la référence (V_140), mais on reste très loin de 0,999 : le nouveau juge retrouve environ la moitié des arêtes du dessin dans la vue arrière. Rien n'est validé par ton œil ; les trois images envoyées montrent l'état réel. (10 November 2026, 12:33:33 +0100)
+>
+> - **Pourquoi les outils plafonnaient.** L'ancien juge ne lisait que les traits sombres de la planche. Or la voiture est facettée et presque toutes ses arêtes sont des marches de gris, donc tout le bas de la poupe passait sans perte alors qu'il était faux. (10 November 2026, 12:33:33 +0100)
+> - **Nouveau juge, `photo.py`.** Il rend le modèle avec une lumière ajustée sur la référence, puis compare toutes les arêtes des deux images, zone par zone. C'est la mesure à viser pour 0,999. (10 November 2026, 12:33:33 +0100)
+> - **La planche se contredit sur les roues.** La vue de dessous dessine la roue arrière 23 cm plus en avant que les vues de côté (11 cm à l'avant). J'ai suivi les vues de côté pour les roues, et les vues arrière et de côté pour le coin : la carrosserie passe derrière le pneu. (10 November 2026, 12:33:33 +0100)
+> - **Ce choix quitte le contour de dessus aux deux coins arrière**, davantage qu'en V_138 (troisième image). C'est la décision que je te demande de trancher. (10 November 2026, 12:33:33 +0100)
+> - **Ce qui reste faux à l'arrière :** (10 November 2026, 12:33:33 +0100)
+>   - les facettes sont encore bombées là où le dessin est plat ; (10 November 2026, 12:33:33 +0100)
+>   - le bord latéral de la lunette est un arc au lieu d'une droite ; (10 November 2026, 12:33:33 +0100)
+>   - les montants et les vitres de custode ne sont pas relus ; (10 November 2026, 12:33:33 +0100)
+>   - la facette de coin est vrillée ; (10 November 2026, 12:33:33 +0100)
+>   - le dessous du pare-chocs s'enroule ; (10 November 2026, 12:33:33 +0100)
+>   - la bande et le panneau sont trop sombres ; (10 November 2026, 12:33:33 +0100)
+>   - les nervures ne sont pas commencées. (10 November 2026, 12:33:33 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (10 November 2026, 12:33:33 +0100)
+> |---|---|---| (10 November 2026, 12:33:33 +0100)
+> | Le chemin de la référence initiale | Oui | Planche 6 vues du 25 October 2026, envoyée en image avec son chemin | (10 November 2026, 12:33:33 +0100)
+> | Reprendre le blueprint et refaire le coffre | En partie | Vue arrière relue coin par coin ; score d'arêtes 0,41 (V_138) → 0,57 (V_140), 0,61 en V_139 | (10 November 2026, 12:33:33 +0100)
+> | Un arrière « vraiment parfait », 0,999 | Non | Arêtes du dessin retrouvées : 0,49 en vue arrière, 0,39 de dessus, 0,17 de côté | (10 November 2026, 12:33:33 +0100)
+> | Créer de nouveaux outils si ça plafonne | Oui | `photo.py`, `region.py`, `shot.py` et trois règles du solveur (`sweep`, `facet`, `carve false`) ; test interne du solveur vert | (10 November 2026, 12:33:33 +0100)
+> | Découpage pneus et carrosserie | En partie | La fin de l'arche n'est plus dans le pneu ; contrepartie, le contour de dessus est quitté aux coins | (10 November 2026, 12:33:33 +0100)
+> | Maillage propre | En partie | 23 contrôles sur 27 en V_140, contre 26 en V_138 : la facette de coin vrillée en fait tomber trois | (10 November 2026, 12:33:33 +0100)
+> | Ne plus voir à travers la voiture | Pas vérifié | Fond sombre ajouté derrière les panneaux, pas recontrôlé sur l'image des pièces | (10 November 2026, 12:33:33 +0100)
+> | Consigner dans le skill | Oui | Sections du 10 November 2026 (12:10 et 12:35) ajoutées, synchronisation sortie à 0 | (10 November 2026, 12:33:33 +0100)
+>
+> La synthèse HTML et l'archive Assets sont restées sur V_137. (10 November 2026, 12:33:33 +0100)
+>
+> Fichiers : (10 November 2026, 12:33:33 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/04_checks/V_140-rear-left34.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/04_checks/V_140-rear-left34.png) (10 November 2026, 12:33:33 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/04_checks/V_140-photo-back.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/04_checks/V_140-photo-back.png) (10 November 2026, 12:33:33 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/04_checks/V_138-V_140-top-rear-outline.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/04_checks/V_138-V_140-top-rear-outline.png) (10 November 2026, 12:33:33 +0100)
+> - [/Users/zenray/.claude/skills/zenray-meshes/references/ZenRayMeshesV4.md](/Users/zenray/.claude/skills/zenray-meshes/references/ZenRayMeshesV4.md) (10 November 2026, 12:33:33 +0100)
