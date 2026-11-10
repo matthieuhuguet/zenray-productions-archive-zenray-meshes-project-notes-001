@@ -10202,3 +10202,66 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 >
 >
 > This is how Claude Code surfaces messages the user sends mid-turn — within the running turn, often alongside the next tool result, rather than as a separate conversation turn. Address the message above as you continue this turn. (10 November 2026, 14:36:46 +0100)
+
+## 10 November 2026, 14:37:40 +0100 : Standing rule
+
+<!-- feedback-event:f3eb15570ef2c465c83f1755a912eb5c2fe873886fe1f9337e57acb35b68f4e4 (10 November 2026, 14:37:40 +0100) -->
+- Project: zenray-meshes; kind: rule. (10 November 2026, 14:37:40 +0100)
+
+> 10 November 2026, 14:45, prompt de Matthieu (grammaire seule) : il faut faire une passe de SAM par component, et pas une passe où SAM essaie de récupérer tous les components. On prend un component via une passe de SAM où on décrit exactement le component qu'on veut prendre, ensuite on refait une autre passe, et ainsi de suite : une boucle pour savoir exactement quels components on prend. Ce qu'on sauvegarde comme étapes, ce sont les masques déjà validés. Par exemple : d'abord le contour, ensuite une jante, ensuite une autre, ensuite un tout petit élément, puis un autre. Peu importe le temps que prend SAM : le but est d'obtenir le graphe avec tous les calques et toute la découpe de manière parfaite. (10 November 2026, 14:37:40 +0100)
+
+## 10 November 2026, 14:39:32 +0100 : Iteration
+
+<!-- feedback-event:1cebdb871f030598fbb84f2f2420ec22784097b18d9a950a32b92ee225c43541 (10 November 2026, 14:39:32 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 14:39:32 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 14:39:32 +0100)
+
+> La phase blueprint et composants est reprise dans l'ordre que tu fixes : blueprint d'abord, puis une passe de SAM par composant, la 3D seulement après. Le blueprint n'est pas à 0,999 et aucun calque n'est encore validé par ton œil. (10 November 2026, 14:39:32 +0100)
+>
+> **Le contour** (10 November 2026, 14:39:32 +0100)
+>
+> Trois témoins indépendants (détourage par gris, SAM sur l'objet entier, tracé vectoriel) ne s'accordaient qu'à 0,946 en moyenne, donc le contour que je t'avais montré n'était pas prouvé. Chaque zone en désaccord a ensuite été tranchée d'après l'image. Ce contrôle a trouvé quatre vraies erreurs : (10 November 2026, 14:39:32 +0100)
+> - les vitres latérales prises pour des trous ; (10 November 2026, 14:39:32 +0100)
+> - les jours sous l'aileron bouchés ; (10 November 2026, 14:39:32 +0100)
+> - l'ombre sous le diffuseur gardée ; (10 November 2026, 14:39:32 +0100)
+> - le bas des pneus coupé. (10 November 2026, 14:39:32 +0100)
+>
+> Limite : « tranché » ne veut pas dire « juste ». Il reste environ 600 pixels indécis en vue arrière et des bords en dents de scie. (10 November 2026, 14:39:32 +0100)
+>
+> **Le blueprint** (10 November 2026, 14:39:32 +0100)
+>
+> Le premier décalque prenait les reflets de la peinture brillante pour des traits. La planche que je t'ai envoyée ne garde que le contour et les lignes de design assez longues. Je l'ai refaite depuis le nouveau contour, mais je n'ai pas encore regardé cette version, donc je ne te l'ai pas envoyée. (10 November 2026, 14:39:32 +0100)
+>
+> **Les composants** (10 November 2026, 14:39:32 +0100)
+>
+> - **Liste** : 35 composants nommés, avec leur cadre dans chaque vue. (10 November 2026, 14:39:32 +0100)
+> - **Une seule passe de SAM pour tout** : essayée, trop grossière (presque toute la carrosserie en un morceau), écartée. (10 November 2026, 14:39:32 +0100)
+> - **Une passe par composant** (ta méthode) : 143 calques demandés, 42 gardés par les contrôles automatiques, 101 à refaire. (10 November 2026, 14:39:32 +0100)
+>   - Bons : pare-brise, capot, calandre, pneus et jantes de profil, vitre latérale, ouïes du capot moteur, lame d'aileron, fond plat. (10 November 2026, 14:39:32 +0100)
+>   - Faux bien que gardés : en vue arrière le « toit » est en réalité l'aileron, et l'aile arrière déborde sur le pneu. (10 November 2026, 14:39:32 +0100)
+>
+> La cause des calques faux est dans mes consignes, pas dans SAM : mes cadres lus à l'œil sont trop larges et se chevauchent. La suite est donc exactement ta boucle : un composant à la fois, cadre resserré, points posés dessus et points « pas ça » sur ses voisins, calque montré seul à côté de la référence, et enregistré seulement une fois validé. (10 November 2026, 14:39:32 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (10 November 2026, 14:39:32 +0100)
+> |---|---|---| (10 November 2026, 14:39:32 +0100)
+> | Ne pas sauter le blueprint et les composants | Oui | Les deux planches envoyées ; la 3D est à l'arrêt | (10 November 2026, 14:39:32 +0100)
+> | Un contour vérifié | En partie | Accord des trois témoins 0,946, puis verdict zone par zone ; ~600 px indécis en vue arrière | (10 November 2026, 14:39:32 +0100)
+> | Un blueprint à 0,999 | Non | Aucune mesure n'atteint ce niveau ; la dernière planche n'est pas regardée | (10 November 2026, 14:39:32 +0100)
+> | Une passe de SAM par composant, en boucle | Commencé | 42 calques gardés sur 143, dont plusieurs faux vus sur la planche | (10 November 2026, 14:39:32 +0100)
+> | Ne garder que les masques validés | Pas encore | Aucun calque n'a le statut validé : il faut ton œil | (10 November 2026, 14:39:32 +0100)
+> | Créer et consigner les outils | Oui | Six outils ajoutés au skill, synchronisation sortie à 0 | (10 November 2026, 14:39:32 +0100)
+>
+> Fichiers : (10 November 2026, 14:39:32 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/layers-L_001_10-November-2026.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/layers-L_001_10-November-2026.png) (10 November 2026, 14:39:32 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/components-N_001_10-November-2026.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/components-N_001_10-November-2026.png) (10 November 2026, 14:39:32 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/blueprint-clean_10-November-2026.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/blueprint-clean_10-November-2026.png) (10 November 2026, 14:39:32 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/blueprint-V2_10-November-2026.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/blueprint-V2_10-November-2026.png) (10 November 2026, 14:39:32 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/STATE.md](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/STATE.md) (10 November 2026, 14:39:32 +0100)
+
+## 10 November 2026, 14:39:59 +0100 : Prompt
+
+<!-- feedback-event:6a27d2ee26bd12388507cc047b5e1adb134981aa77b5303b1ae14f643f95a6d7 (10 November 2026, 14:39:59 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 14:39:59 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 14:39:59 +0100)
+
+> Oui, jantes et pneus (10 November 2026, 14:39:59 +0100)
