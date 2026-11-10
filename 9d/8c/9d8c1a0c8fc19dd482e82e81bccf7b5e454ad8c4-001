@@ -11846,3 +11846,96 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 > | Coller à la référence | En partie | L'accord des contours à 12 mm passe de 0,589 à 0,675 après le recalage des branches. Le pied des branches est encore trop fin, et la face de la jante est plate au lieu d'être creusée en cône | (10 November 2026, 23:41:28 +0100)
 >
 > Tout est consigné dans le skill (`references/ZenRayMeshesV4.md`, section du 10 November 2026, 23:40), avec les quatre pièges rencontrés, ainsi que dans le journal. (10 November 2026, 23:41:28 +0100)
+
+## 10 November 2026, 23:56:49 +0100 : Prompt
+
+<!-- feedback-event:47687c7b4b93aae090f7931e8a7375d7510e6228ed128dce7cfba68d3a2c4713 (10 November 2026, 23:56:49 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 23:56:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 23:56:49 +0100)
+
+> Pas mal, sauf qu'il manque. Du coup, j'ai l'impression qu'il manque le cylindre de derrière. Il est un petit peu plus gros, le cylindre du frein. Mais sinon, on est pas mal. En soi, je pense qu'on peut passer à un autre élément. Peut-être ce qu'il y a autour de la truc. Mais en tout cas, c'est très propre. Bravo. Continuons comme ça, c'est très bien. Jusqu'ici, c'est le meilleur résultat qu'on ait eu. À terme, on mettra plus de détails sur le pneu, mais je préfère passer à un autre component, mais qui est à proximité de la roue. Peut-être, à mon avis, la jante, enfin, ce qui entoure le pneu. au niveau de la carrosserie du véhicule. (10 November 2026, 23:56:49 +0100)
+
+## 10 November 2026, 23:57:18 +0100 : Standing rule
+
+<!-- feedback-event:2563ce5afebfbd41043e71bacab903f0d92445a6d746b7b682493529762eee04 (10 November 2026, 23:57:18 +0100) -->
+- Project: zenray-meshes; kind: rule. (10 November 2026, 23:57:18 +0100)
+
+> 10 November 2026 : roue avant gauche W_007 jugée par Matthieu « très propre », « le meilleur résultat qu'on ait eu » ; seul défaut : le disque de frein derrière doit être un peu plus grand. Méthode retenue : graphe Houdini en nœuds natifs, HDA natif pour les pièces répétées (zrm_ring), mesures lues sur la référence, un composant à la fois puis le composant voisin (ensuite le passage de roue de la carrosserie). Plus de détails sur le pneu plus tard. (10 November 2026, 23:57:18 +0100)
+
+## 10 November 2026, 23:57:12 +0100 : Iteration
+
+<!-- feedback-event:73d0ec750a356b4563d942cf0376e882430754664412e0ec9464dfea27423cc7 (10 November 2026, 23:57:12 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 23:57:12 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 23:57:12 +0100)
+
+> Merci, c'est noté : roue validée, méthode retenue. J'agrandis d'abord le disque de frein, puis je passe au passage de roue, c'est-à-dire la carrosserie qui entoure le pneu. Je commence par mesurer son contour sur la référence. (10 November 2026, 23:57:12 +0100)
+
+## 10 November 2026, 23:58:49 +0100 : Iteration
+
+<!-- feedback-event:7df210cecbacc104db27f0565f5fea29bf97426a030071627de1062b0de61e98 (10 November 2026, 23:58:49 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 23:58:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 23:58:49 +0100)
+
+> Pour ne pas figer ta session une seconde fois, je fais d'abord calculer le passage de roue dans le Houdini sans interface. (10 November 2026, 23:58:49 +0100)
+
+## 10 November 2026, 23:59:03 +0100 : Iteration
+
+<!-- feedback-event:a78f7394f07e43e9becc6407a677ce5c93158bd3e83434955757115453bec032 (10 November 2026, 23:59:03 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 23:59:03 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 23:59:03 +0100)
+
+> Le calcul passe sans erreur : 896 quads. Je pose le passage de roue dans ta session et je le capture sur la référence, avec un cadrage plus large. (10 November 2026, 23:59:03 +0100)
+
+## 10 November 2026, 23:59:09 +0100 : Prompt
+
+<!-- feedback-event:0b5c6d986f83ca957910a601883ebc2d988caec71a39972c3b81a511ebd4987a (10 November 2026, 23:59:09 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 23:59:09 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 23:59:09 +0100)
+
+> [Image: original 2450x670, displayed at 2000x547. Multiply coordinates by 1.23 to map to original image.] (10 November 2026, 23:59:09 +0100)
+
+## 10 November 2026, 23:59:45 +0100 : Prompt
+
+<!-- feedback-event:7cb805c04342b47abd475ab8d6cca52f1c4522f5e4c9e7e84529d91fe35b693f (10 November 2026, 23:59:45 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 23:59:45 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 23:59:45 +0100)
+
+> [Image: original 2450x670, displayed at 2000x547. Multiply coordinates by 1.23 to map to original image.] (10 November 2026, 23:59:45 +0100)
+
+## 10 November 2026, 23:59:55 +0100 : Iteration
+
+<!-- feedback-event:e48ed9af6ecf9343fef0f6c715c23ea9e5558124dcaf4ff1485bdfe7f2f57fe3 (10 November 2026, 23:59:55 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 23:59:55 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 23:59:55 +0100)
+
+> Dans le fondu à 50 %, le pneu ne se dédouble pas et le bord de l'arche tombe sur celui de la référence. Je chiffre l'accord des contours dans l'anneau du passage de roue. (10 November 2026, 23:59:55 +0100)
+
+## 11 November 2026, 00:00:49 +0100 : Iteration
+
+<!-- feedback-event:5396e521a8d8d2b767ec0f49c43fa1a946fb32c496cb1077d9cf9c602c4867eb (11 November 2026, 00:00:49 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 00:00:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 00:00:49 +0100)
+
+> Merci, c'est noté dans le projet : la roue est validée et la méthode est retenue, à savoir un graphe en nœuds natifs, un HDA natif pour les pièces répétées et des mesures prises sur la référence, un composant à la fois. Les détails du pneu viendront plus tard. (11 November 2026, 00:00:49 +0100)
+>
+> **Le frein.** Le disque passe de 0,256 à 0,29 m de rayon. L'étrier s'élargit avec lui (de 0,20 à 0,315 m) pour continuer à le pincer. (11 November 2026, 00:00:49 +0100)
+>
+> **Le passage de roue avant gauche.** C'est le composant voisin. Sur la référence, son bord suit un cercle presque concentrique à la roue, à 0,455 m du centre, soit 2 cm au-dessus du pneu. Il commence à l'avant, un peu sous le centre, et redescend à l'arrière jusqu'au bas de caisse. Je l'ai construit en trois sous-composants natifs : (11 November 2026, 00:00:49 +0100)
+> - **la doublure sombre** à l'intérieur ; (11 November 2026, 00:00:49 +0100)
+> - **le bord arrondi** de la carrosserie ; (11 November 2026, 00:00:49 +0100)
+> - **le bourrelet d'aile**, étroit, dont l'arête se voit vers 0,50 m sur la référence. (11 November 2026, 00:00:49 +0100)
+>
+> Chacun est un profil tourné autour de l'axe de la roue (`add`, `revolve` en arc ouvert, `fuse`, puis `polybevel` pour le bord). Les trois suivent automatiquement le centre de la roue. Le tout fait 896 quads, et les réglages sont sur `CTRL_arch`. (11 November 2026, 00:00:49 +0100)
+>
+> Mon premier essai posait un large anneau d'aile, qui ressemblait à un garde-boue rapporté. Un bourrelet étroit colle mieux : l'accord des contours dans l'anneau du passage de roue passe de 0,892 à 0,937. (11 November 2026, 00:00:49 +0100)
+>
+> La scène est enregistrée : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_004.hiplc](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_004.hiplc). (11 November 2026, 00:00:49 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (11 November 2026, 00:00:49 +0100)
+> |---|---|---| (11 November 2026, 00:00:49 +0100)
+> | Le disque de frein un peu plus grand | Oui | Rayon de 0,29 m au lieu de 0,256 ; l'étrier suit | (11 November 2026, 00:00:49 +0100)
+> | Passer à ce qui entoure le pneu sur la carrosserie | Oui, à valider | Doublure, bord et bourrelet sont posés autour de la roue. Le fondu à 50 % montre un seul bord, celui de la référence | (11 November 2026, 00:00:49 +0100)
+> | Rester en nœuds natifs | Oui | Types de nœuds du passage de roue : add, revolve, fuse, polybevel, color, merge, xform, null | (11 November 2026, 00:00:49 +0100)
+> | Coller à la référence | Oui sur le profil | F 0,937 dans l'anneau. La forme vue de dessus et de face n'est pas encore contrôlée | (11 November 2026, 00:00:49 +0100)
+>
+> Le verdict, les mesures et la règle d'angle sont consignés dans le skill (section du 11 November 2026, 00:00) et dans le journal. La suite logique est soit la peau d'aile au-delà du bourrelet, c'est-à-dire la surface libre de la caisse, soit les trois autres roues avec leurs arches, posées comme instances. (11 November 2026, 00:00:49 +0100)
