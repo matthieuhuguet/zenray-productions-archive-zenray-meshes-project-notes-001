@@ -10059,3 +10059,59 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 14:09:08 +0100)
 
 > [Image: original 2898x878, displayed at 2000x606. Multiply coordinates by 1.45 to map to original image.] (10 November 2026, 14:09:08 +0100)
+
+## 10 November 2026, 14:10:32 +0100 : Prompt
+
+<!-- feedback-event:50029d92a069dfabbd4ec9bb800181a24cde1e80f6d1c316618d950849a9f631 (10 November 2026, 14:10:32 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 14:10:32 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 14:10:32 +0100)
+
+> The user sent a new message while you were working: (10 November 2026, 14:10:32 +0100)
+> C'est vraiment du foutage de gueule à ce stade. (10 November 2026, 14:10:32 +0100)
+>
+> This is how Claude Code surfaces messages the user sends mid-turn — within the running turn, often alongside the next tool result, rather than as a separate conversation turn. Address the message above as you continue this turn. (10 November 2026, 14:10:32 +0100)
+
+## 10 November 2026, 14:10:48 +0100 : Standing rule
+
+<!-- feedback-event:c38c942519b5a11b59a8a96f1829aaa66b9b74370d3fd395d4066982c119173e (10 November 2026, 14:10:48 +0100) -->
+- Project: zenray-meshes; kind: rule. (10 November 2026, 14:10:48 +0100)
+
+> 10 November 2026, 14:12, Matthieu, après l'image des volumes de la nouvelle voiture (savon sans détail) et les zébrures encore ondulées : « C'est vraiment du foutage de gueule à ce stade. » Règle : ne jamais montrer une voiture entière en volumes grossiers quand il demande des détails et une finition irréprochable ; appliquer sa règle du 5 November 2026 : UN composant à la fois, fini à fond (forme, surface, arêtes, topologie), montré seul à côté de la référence, validé par son œil avant le suivant. Un volume d'ensemble est un outil interne de mesure, pas un résultat à montrer. (10 November 2026, 14:10:48 +0100)
+
+## 10 November 2026, 14:11:03 +0100 : Iteration
+
+<!-- feedback-event:96123652d44613a57c2e3f44fffc5faf0ed0cc7b3be797c880870e57c432ace0 (10 November 2026, 14:11:03 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 14:11:03 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 14:11:03 +0100)
+
+> Tu as raison : tu demandais énormément de détails et une finition irréprochable, et je t'ai montré une voiture entière en forme de savon. (10 November 2026, 14:11:03 +0100)
+>
+> **Où on en est vraiment** (10 November 2026, 14:11:03 +0100)
+>
+> - **Nouvelle voiture** : planche découpée, calée et décalquée, puis des volumes grossiers par composants. Les six silhouettes tombent à 0,97 en moyenne, mais il n'y a aucun détail, aucune arête, aucune surface travaillée. (10 November 2026, 14:11:03 +0100)
+> - **Ancienne voiture** : rien de mieux à l'écran. La règle de bombage et le rendu à zébrures sont écrits et testés à part, pas encore branchés dans la chaîne. Les zébrures ondulent toujours sur la poupe et les flancs. Arches de roue et vitre avant : pas touchées. (10 November 2026, 14:11:03 +0100)
+> - **Écart avec tes références** : entier. (10 November 2026, 14:11:03 +0100)
+>
+> **Pourquoi on en est toujours loin** (10 November 2026, 14:11:03 +0100)
+>
+> - **J'ai violé ta règle du 5 November 2026** : un composant à la fois, fini à fond, validé par ton œil avant le suivant. J'ai refait une voiture entière approximative. (10 November 2026, 14:11:03 +0100)
+> - **Chaque panneau est une plaque indépendante.** Rien ne lie sa courbure à celle de sa voisine, d'où l'effet carton. C'est mesuré sur V_140 : les zébrures cassent à chaque bord. (10 November 2026, 14:11:03 +0100)
+> - **Mes notes mesurent des silhouettes et des traits, pas la qualité d'une surface.** Un savon obtient 0,97. (10 November 2026, 14:11:03 +0100)
+>
+> **Ce que je change** (10 November 2026, 14:11:03 +0100)
+>
+> Un seul composant de la nouvelle voiture, mené jusqu'au niveau de la voiture Maya : forme, surface lisse à bombage régulier, arêtes nettes, topologie en quads qui suit la forme. Je te le montre seul, à côté de la référence, en gris et en zébrures, et rien d'autre tant qu'il n'est pas validé. Je propose l'aileron arrière (lame, dérives, bras) : il est isolé, visible sur quatre vues, et il a de vraies courbes. (10 November 2026, 14:11:03 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (10 November 2026, 14:11:03 +0100)
+> |---|---|---| (10 November 2026, 14:11:03 +0100)
+> | Références de qualité et nouvelle voiture rangées dans le projet | Oui | Sept images dans `refs/quality_10-November-2026`, deux planches dans `refs/objects/09_Car2` | (10 November 2026, 14:11:03 +0100)
+> | Partir sur le nouveau modèle, par composants, vers 0,999 | Non | Volumes seulement : silhouettes 0,92 puis 0,97, zéro détail | (10 November 2026, 14:11:03 +0100)
+> | Bombage uniforme, surfaces propres | Non | Outil écrit et son test passe, mais pas dans la chaîne ; zébrures encore ondulées sur poupe et flancs | (10 November 2026, 14:11:03 +0100)
+> | Arches de roue et vitre avant de l'ancienne voiture | Non | Pas commencé | (10 November 2026, 14:11:03 +0100)
+> | Finition du niveau des références | Non | Voir les images envoyées | (10 November 2026, 14:11:03 +0100)
+> | Consigner outils et règles | Oui | Skill synchronisé (sortie 0), ta réaction et la règle « un composant fini à fond » notées dans le FEEDBACK | (10 November 2026, 14:11:03 +0100)
+>
+> Fichiers : (10 November 2026, 14:11:03 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/B_002-clay.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/B_002-clay.png) (10 November 2026, 14:11:03 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/04_checks/V_140-fair-test-clay-zebra.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/04_checks/V_140-fair-test-clay-zebra.png) (10 November 2026, 14:11:03 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/STATE.md](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/STATE.md) (10 November 2026, 14:11:03 +0100)
