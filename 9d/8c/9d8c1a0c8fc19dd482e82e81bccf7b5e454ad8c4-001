@@ -10304,3 +10304,18 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 > - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/wheels-W_002_10-November-2026.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/wheels-W_002_10-November-2026.png) (10 November 2026, 14:43:30 +0100)
 > - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/02_cut/wheels_W_002/layers.json](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/02_cut/wheels_W_002/layers.json) (10 November 2026, 14:43:30 +0100)
 > - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/STATE.md](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/STATE.md) (10 November 2026, 14:43:30 +0100)
+
+## 10 November 2026, 14:46:35 +0100 : Prompt
+
+<!-- feedback-event:1c55aee4dcc058316d72e3ad8c420cc5f3b8ec2fa2ab9e274097e5490732c4b6 (10 November 2026, 14:46:35 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 14:46:35 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 14:46:35 +0100)
+
+> Validé, continue (10 November 2026, 14:46:35 +0100)
+
+## 10 November 2026, 14:47:05 +0100 : Standing rule
+
+<!-- feedback-event:35b1e0fc9b485ddca48f716fb26f06d62ac213fd7d0cc57119bef62798857ec5 (10 November 2026, 14:47:05 +0100) -->
+- Project: zenray-meshes; kind: rule. (10 November 2026, 14:47:05 +0100)
+
+> 10 November 2026 : Matthieu valide les calques pneu et jante des quatre roues de profil de la deuxième voiture (planche wheels-W_002) : « Validé, continue ». Méthode validée : SAM comme témoin, cercle ajusté comme forme enregistrée, rayon de jante lu sur les anneaux de l'image, contrôle gauche contre droite. (10 November 2026, 14:47:05 +0100)
