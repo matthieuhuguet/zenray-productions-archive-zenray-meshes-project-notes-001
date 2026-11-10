@@ -73492,3 +73492,11 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 03:51:18 +0100)
 
 > Je lis le détail du contrôle de V_076 pour savoir quelles pièces font échouer les portes des quads (angles, allongement, voile, quads pliés), puis je corrige ces pièces une par une. (10 November 2026, 03:51:18 +0100)
+
+## 10 November 2026, 03:59:34 +0100 : Iteration
+
+<!-- feedback-event:99eab01a559a41035cbf55d54c1cf1752b81533e6fe2baf9a21c66c31c33ba1a (10 November 2026, 03:59:34 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 03:59:34 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 03:59:34 +0100)
+
+> Le code de la grille en bande est en place ; je le teste maintenant sur un coin synthétique (trapèze 4 cm vers 60 cm, puis triangle à pointe de 25 degrés) avant de l'essayer sur la voiture. (10 November 2026, 03:59:34 +0100)
