@@ -10035,3 +10035,27 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 13:59:19 +0100)
 
 > Je lis les cotes de la nouvelle voiture sur des feuilles quadrillées en mètres (profil d'abord) pour dresser la liste des composants avec leurs dimensions. (10 November 2026, 13:59:19 +0100)
+
+## 10 November 2026, 14:02:55 +0100 : Iteration
+
+<!-- feedback-event:2cd8c5eba9b6112fa5a0bfd2fbd4361c4b9ef2c0db8aeece924175b2520d3f52 (10 November 2026, 14:02:55 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 14:02:55 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 14:02:55 +0100)
+
+> Le détourage garde encore l'ombre au sol sous la voiture dans les vues de côté (ma correction n'a rien enlevé) ; je vérifie pourquoi avant de recalculer les silhouettes. (10 November 2026, 14:02:55 +0100)
+
+## 10 November 2026, 14:08:50 +0100 : Iteration
+
+<!-- feedback-event:83bf2e04f6e31def3fc9e04afcc066944efd3de30900b4af06ef26a6dbfc99b5 (10 November 2026, 14:08:50 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 14:08:50 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 14:08:50 +0100)
+
+> Deuxième volume de la nouvelle voiture : note de silhouette moyenne 0,97 (dessus 0,99, face 0,96, côtés 0,95) ; je le rends en gris studio pour te le montrer, puis je consigne tout. (10 November 2026, 14:08:50 +0100)
+
+## 10 November 2026, 14:09:08 +0100 : Prompt
+
+<!-- feedback-event:2cdfa08d34aa17acf707f49987dea2c5d7ac566e173889eb10a352e0b0f307f7 (10 November 2026, 14:09:08 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 14:09:08 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 14:09:08 +0100)
+
+> [Image: original 2898x878, displayed at 2000x606. Multiply coordinates by 1.45 to map to original image.] (10 November 2026, 14:09:08 +0100)
