@@ -11710,3 +11710,59 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 > | Coller à la référence | En partie | En vue de profil, le bord extérieur et le talon tombent sur la planche. La largeur de 0,42 m n'est qu'une estimation tirée de la vue de dessous ; elle est réglable par le curseur `tyre_width` | (10 November 2026, 22:42:09 +0100)
 >
 > La règle « graphes natifs seulement, composant par composant » est consignée dans le feedback du projet, dans le skill (`references/ZenRayMeshesV4.md`, section du 10 November 2026, 22:41) et dans le journal. Après le pneu vient la jante, elle aussi découpée en sous-composants : la lèvre, le voile, les cinq bras en Y, le moyeu, le cache central. (10 November 2026, 22:42:09 +0100)
+
+## 10 November 2026, 23:17:52 +0100 : Prompt
+
+<!-- feedback-event:328b2face1edb11b8e8ca85fbb8478b2e0595161c36891e6edb8f186c078544a (10 November 2026, 23:17:52 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 23:17:52 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 23:17:52 +0100)
+
+> Non mais d'accord, mais tu peux quand même itérer sur le fait de au moins finir la roue complète avec la jante, tous les cylindres à l'intérieur, etc. (10 November 2026, 23:17:52 +0100)
+
+## 10 November 2026, 23:18:12 +0100 : Iteration
+
+<!-- feedback-event:7e29c18db0d76496da195e5e84617a2edd3282f8eb9e2194578aa04ae8c6e7bb (10 November 2026, 23:18:12 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 23:18:12 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 23:18:12 +0100)
+
+> Je continue jusqu'à la roue complète : jante (lèvre, fût, cinq bras en Y), moyeu, cache, disque de frein et étrier, toujours en nœuds natifs. Je commence par lire les anneaux de la roue sur la référence pour placer chaque cylindre. (10 November 2026, 23:18:12 +0100)
+
+## 10 November 2026, 23:19:08 +0100 : Prompt
+
+<!-- feedback-event:7b792abb78d9837c1d7761a04f3220172604f6aa4968e78bafc267ad261ac7d6 (10 November 2026, 23:19:08 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 23:19:08 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 23:19:08 +0100)
+
+> [Image: original 2668x1844, displayed at 2000x1382. Multiply coordinates by 1.33 to map to original image.] (10 November 2026, 23:19:08 +0100)
+
+## 10 November 2026, 23:19:18 +0100 : Prompt
+
+<!-- feedback-event:211a04daa4c5710c5b9127d5122648013fe75d912aad20bf2ca602d7bec19f79 (10 November 2026, 23:19:18 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 23:19:18 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 23:19:18 +0100)
+
+> [Image: original 2560x1700, displayed at 2000x1328. Multiply coordinates by 1.28 to map to original image.] (10 November 2026, 23:19:18 +0100)
+
+## 10 November 2026, 23:21:00 +0100 : Iteration
+
+<!-- feedback-event:83f071289e7eff374742d8a908f6f0a54cb680302b3e107a5f1061212809da0f (10 November 2026, 23:21:00 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 23:21:00 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 23:21:00 +0100)
+
+> Le HDA `zrm_ring` est créé (nœuds natifs seulement, 0 face retournée). Je regarde les paramètres des nœuds qui feront les bras (Add, Sweep, Copy and Transform) avant d'assembler la roue. (10 November 2026, 23:21:00 +0100)
+
+## 10 November 2026, 23:23:29 +0100 : Iteration
+
+<!-- feedback-event:6e9c5af5ad414776ab245ff9ed074c4aa1023617b7ec23aac7163393143f774f (10 November 2026, 23:23:29 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 23:23:29 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 23:23:29 +0100)
+
+> Houdini calcule encore la roue (le pont a mis trop longtemps à répondre). J'attends quelques secondes et je relance une petite sonde. (10 November 2026, 23:23:29 +0100)
+
+## 10 November 2026, 23:24:59 +0100 : Iteration
+
+<!-- feedback-event:5e082e92cb625418e1a16b67dd1ad119be41c9da4cd830f65fef7db3fd380a36 (10 November 2026, 23:24:59 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 23:24:59 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 23:24:59 +0100)
+
+> Houdini ne calcule plus (0,6 % de CPU) mais le pont ne répond pas : une fenêtre de dialogue bloque probablement Houdini. Je regarde sa fenêtre. (10 November 2026, 23:24:59 +0100)
