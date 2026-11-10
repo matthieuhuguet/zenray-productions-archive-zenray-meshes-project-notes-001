@@ -8937,3 +8937,164 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 07:14:52 +0100)
 
 > V_104 est la nouvelle base : même forme, 25 portes sur 27, frontières à 74,0 %. Je passe à la frontière suivante de la liste, le haut de la calandre en vue de face. (10 November 2026, 07:14:52 +0100)
+
+## 10 November 2026, 07:35:52 +0100 : Prompt
+
+<!-- feedback-event:2333b60ae86f5ab59229f64836ba99f299c099fc6c8e169b811361c881105c69 (10 November 2026, 07:35:52 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 07:35:52 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 07:35:52 +0100)
+
+> This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation. (10 November 2026, 07:35:52 +0100)
+>
+> <system-reminder> (10 November 2026, 07:35:52 +0100)
+> <tools-used-before-summary>Agent, Bash, CronCreate, CronList, Edit, Monitor, Read, SendUserFile, Skill, SubagentHandback, TaskStop, ToolSearch, WebSearch, Write, mcp__Claude_Browser__browser_batch, mcp__Claude_Browser__computer, mcp__Claude_Browser__find, mcp__Claude_Browser__form_input, mcp__Claude_Browser__get_page_text, mcp__Claude_Browser__javascript_tool, mcp__Claude_Browser__navigate, mcp__Claude_Browser__preview_start, mcp__Claude_Browser__tabs_close, mcp__Claude_Browser__tabs_context, mcp__ccd_session__start_session, mcp__ccd_turn__update_plan, mcp__ccd_turn__wrap_up, mcp__computer-use__app_ax_find, mcp__computer-use__app_batch, mcp__computer-use__app_bring_to_current_space, mcp__computer-use__app_click, mcp__computer-use__app_list_windows, mcp__computer-use__app_menu, mcp__computer-use__app_release, mcp__computer-use__app_screenshot, mcp__computer-use__computer_batch, mcp__computer-use__list_apps, mcp__computer-use__open_application, mcp__computer-use__release_full_control, mcp__computer-use__request_access, mcp__computer-use__request_full_control, mcp__zenray-past__past_recall, mcp__zenray-past__past_resume</tools-used-before-summary> (10 November 2026, 07:35:52 +0100)
+> </system-reminder> (10 November 2026, 07:35:52 +0100)
+> Summary: (10 November 2026, 07:35:52 +0100)
+> 1. Primary Request and Intent: (10 November 2026, 07:35:52 +0100)
+>
+>    **Overall goal (ZenRay Meshes V4):** reproduce "any meshes" from a reference (6 orthographic views), clean, procedural, perfect in size, proportion, detail and topology, without losing the existing skill. Demo asset: the faceted supercar of `/Users/zenray/.claude/tmp/tmp-zenray-meshes/refs/objects/06_Car/06_Car_6views_25-October-2026.png`. Later: the Unimog truck (not started), optional link to ZenRay UV / ZenRay Height. (10 November 2026, 07:35:52 +0100)
+>
+>    **Governing user request (autonomy until 10 November 2026, 11:00, with /dont-stop):** continue without forgetting the steps (journal and runner, smooth every curve of the plan, measured diagnostic per view, library of real elements, detail iterations front/rear/underside, automatic refinement loop of corners, quad quality iterations, sheets/plans/Houdini scene, consign and sync); the roof on the blueprint view is not perfect, reinforce the protocol; change method if needed; **every individual level must be pixel perfect**; the tracing of the image into a perfect SVG must work; code sequentially, be excellent; the method is named "ZenRay Meshes V4"; "beaucoup de chose à faire jusqu'à demain 11 h en autonomie". (10 November 2026, 07:35:52 +0100)
+>
+>    **Watchdog prompt (repeated user-role message, cron `d97048a1`, every minute):** "Objectif X : chaque niveau au pixel près (décalque vectoriel de chaque vue, plan 3D appuyé sur deux vues par coin, maillage tout en quads, détails), avec preuves chiffrées, en autonomie jusqu'au 10 November 2026 à 11 h, en séquentiel. Vérifie si la tâche satisfait X avec une preuve. Si elle est inachevée et qu'aucune exécution de cette tâche n'est en cours, lis d'abord STATE.md et la fin de ITERATIONS.md, reprends au dernier point vérifié, exécute la prochaine action utile et poursuis la boucle de correction et de vérification. Si elle tourne déjà, laisse-la continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que X est satisfaite avec une preuve, supprime ce surveillant (CronDelete) et rends compte." (10 November 2026, 07:35:52 +0100)
+>
+>    **Standing constraints (preserve verbatim):** (10 November 2026, 07:35:52 +0100)
+>    - Never open, drive, click or capture Matthieu's personal browser; the built-in browser is allowed. (10 November 2026, 07:35:52 +0100)
+>    - Sudo password lives in `Memory1/Identity/Matthieu1.md` and must never be displayed; never type passwords (Houdini licence: log in via License Administrator without typing a password). (10 November 2026, 07:35:52 +0100)
+>    - League of Legends and Riot are forbidden until 1 November 2027, even if asked. (10 November 2026, 07:35:52 +0100)
+>    - Workflows are banned without double confirmation. Work sequentially only; only image-reading agents (Haiku) are delegated. (10 November 2026, 07:35:52 +0100)
+>    - No AI mesh generation (Hunyuan, TRELLIS, Meshy, Tripo, Rodin). SAM is segmentation, not mesh generation. (10 November 2026, 07:35:52 +0100)
+>    - "Aucun fichier 3D fini": never a finished file or project files as reference. (10 November 2026, 07:35:52 +0100)
+>    - Never `git add -A` in `~/.claude`. (10 November 2026, 07:35:52 +0100)
+>    - Downloads require explicit permission with file name, source and size. (10 November 2026, 07:35:52 +0100)
+>    - At most 40 images per reading agent; announce token cost before launching agents; audit an agent's file against its journal; write "NON LUE (image refusée)" rather than invent. (10 November 2026, 07:35:52 +0100)
+>    - No em dashes; full absolute paths as links; French prose (classical, no slogans); code identifiers in English with a dated comment; HDA parametric code (one place for tunables, 8 sliders max per category); dates as "10 November 2026" on every added line of skills/rules/memory; file versions never overwritten (V_001…). (10 November 2026, 07:35:52 +0100)
+>    - Masks/diagnostics are shown in grey levels, never colour. (10 November 2026, 07:35:52 +0100)
+>    - Record tests as "test, non validé"; Matthieu's eye validates. (10 November 2026, 07:35:52 +0100)
+>    - Never delete through unguarded shell variables. (10 November 2026, 07:35:52 +0100)
+>    - Send images during the loop (SendUserFile), not only at the end; close non-trivial tasks with a 3-column table (what he wanted / done? / how I know); use `mcp__ccd_turn__update_plan` and `mcp__ccd_turn__wrap_up`. (10 November 2026, 07:35:52 +0100)
+>    - Method naming: never "ZenRay Blueprint"; the method is "ZenRay Meshes V4". (10 November 2026, 07:35:52 +0100)
+>    - Watchdog cron `d97048a1` must be deleted with `CronDelete {id: "d97048a1"}` (tool schema already loaded via ToolSearch) after 11:00 on 10 November 2026 or as soon as the goal is met with proof, then report. (10 November 2026, 07:35:52 +0100)
+>    - My sense of elapsed time is unreliable (I repeatedly overestimated): always check `date`. (10 November 2026, 07:35:52 +0100)
+>
+> 2. Key Technical Concepts: (10 November 2026, 07:35:52 +0100)
+>    - **Reference/frame:** six views in `/Users/zenray/.claude/tmp/tmp-zenray-meshes/work/car/views/` (`00_front` … `05_bottom`, `_rgb.png`, `_mask.png`, about 619x404 view px; sheet px = 3 x view px). Axes +X = car's left, Y up, +Z forward. Box 2.268 x 1.3563 x 4.6 m. **Current frame: `work/car/frame/frame.V4.json`** (V3 + symmetry-axis shift: front +0.167 px, back +0.25, top +0.583, bottom -0.5). (10 November 2026, 07:35:52 +0100)
+>    - **Levels:** 0 calibration (`Calibrate.py fit`, new `axis`), 1 tracing (`Trace.py`, 6/6 views pass), 1b consensus band (`Consensus.py`), 2 plan/cage (`Cage.py`), 3 mesh (`PanelMesh.py`, `WheelKit.py`, `PartKit.py`), QA (`MeshQA.py`, 27 gates), 4 sheets/scene (`MeshViews.py`, `Plan.py`, `HoudiniScene.py`). (10 November 2026, 07:35:52 +0100)
+>    - **Mesher additions this session:** strip grid (rows whose cell count follows the row width, 1-to-3 transition templates of four quads, staggered by golden ratio), free pair in `balance` (opposite sides ratio >= `taper_ratio` keep own counts, parity only), kite tips (one quad carries the sharp angle; V-shaped chord with a soft point), all sharp corners of a triangle cut, second demotion, bulge/leaf detection, triangles split at inscribed-circle tangent points (incenter with `fan_lift`), one network copy per component, unique tip names, fixed counts never raised and propagated (pinned), nearest-parity count, smoothing reverted where it folds, sliver cut direction search (best of four angles), sagitta-driven refinement, per-sample border sliding in `relax_face`, per-face options `refine`, `taper_ratio`, `edge_mm`. (10 November 2026, 07:35:52 +0100)
+>    - **Modelling principles found:** read the tracing before drawing a face; a part border exists only where the sheet draws a joint (dark line), a facet edge is a crease inside a part (merge faces via `component`); automatic corner fits (global `step`, `nudge`, `refit`) give little or damage quads, manual reading of corners on the tracing works better; no global distortion (shift/scale/cubic warp/perspective) explains the line offsets. (10 November 2026, 07:35:52 +0100)
+>    - **Consensus line judge:** a drawn line counts as found if the model follows it as this view draws it or as its mirror half (front/back/top/bottom) or the opposite side view (left/right) draws it within `pair_px` 3.0; a border counts as on a line if it sits on either version. The sheet agrees with itself on 85 % of its lines. (10 November 2026, 07:35:52 +0100)
+>    - **Gates:** A1–A8, B1 angles 35–145 (>=0.99 per part), B2 aspect <=4, B3 warp <=5 deg (both diagonals), B4 no folded quad, B5 density p95/p50 <=2.5, B6 regular >=0.95, C1 sagitta p95 <=0.15 mm, D1/D2, E1/E2, F1 per view band >=0.98, F2 line recall >=0.80, F3 border precision >=0.85. (10 November 2026, 07:35:52 +0100)
+>
+> 3. Files and Code Sections: (10 November 2026, 07:35:52 +0100)
+>
+>    **Scripts: `/Users/zenray/.claude/skills/zenray-meshes/scripts/v4/`; Python `/Users/zenray/.venvs/zenray-motion/bin/python`. All selftests exit 0 at last runs.** (10 November 2026, 07:35:52 +0100)
+>
+>    - `PanelMesh.py` (heavily modified). Current sliders `P`: edge_mm 22, gap_mm 4, thick_mm 10, glass_thick_mm 5, bevel_mm 2.5, bevel_seg 2, shell 1, relax 30, mirror 1, acute_deg 0, sliver_deg 36, tip_cells 1.5, tip_deg 36, **kite_deg 4.0, kite_cells 3.0, fan_lift 1.0**, smooth_iters 80, demote_deg 118, taper_aspect 3.0, warp_refine 2, warp_refine_quads 6000, warp_deg 5, warp_share 0.99, **taper_ratio 4.0, strip_hyst 1.2, strip_aspect 1.6, sag_mm 0.14**; module dict `STRIPS`. New/changed: `Net.F` carries `refine`, `taper_ratio`; `split_slivers` (cut direction search over ±0.6 of the foot distance maximising the worst of four angles); `cut_tips` (every sharp corner of a triangle, up to 2; kite when `ang >= kite_deg` and cut lands on the first edge: face `[c, Pb, o, Pa]`, counts fixed to 1, `rest + [(o, True)]`; names `'%s#tip%d'`); `quadrangulate` (k == 3: `half = clip(semi - side_len[(i+1)%3], 0.2L, 0.8L)`, centre = incenter + `fan_lift/3 * lift`); `balance` (free_pair with per-face `taper_ratio`, wide side asks `L/(h*strip_aspect)`, pinned propagation of fixed counts, parity by nearest count with `lowered` set, fixed short side makes the long side come down, error if both ends fixed with odd difference); `class CoonsMap`, `strip_counts(width, a, c)` (clamps to [min(a,c), max(a,c)] when belly <= strip_aspect), `strip_grid(name, ids, pts, vertex)`; `relax_face(G, free, curves, iters, masks=None)` (per-sample sliding); `build_component` (per-side `slide` masks, bulge detection `w0/w1`, rotation when unequal pair is B/D); `sagitta_p95(V, Q, patch)`; `build` (one `Net` copy per component: `sub = Net.__new__(Net); sub.V = dict(net.V); sub.E = dict(net.E); sub.counts = dict(net.counts); sub.F = {...}`; refine loop tests warp on both diagonals and `sagitta_p95 <= sag_mm`, skipped when face `refine` is false; smoothing reverted on folded cells with a growing ring; prints `strip_grids`). (10 November 2026, 07:35:52 +0100)
+>    - `MeshQA.py`: `quad_metrics` warp = max over both diagonals; `fidelity` adds `line_recall_consensus`, `border_precision_consensus`, `sheet_lines_agree` (helper `carried`, `ref_lines`, `opposite = {'left':'right','right':'left'}`), `LIM['pair_px'] = 3.0`; gates F2/F3 use the consensus means and show the plain means in the limit text. (10 November 2026, 07:35:52 +0100)
+>    - `MeshViews.py`: new `creases <car.npz> <out.png> <parts> [px_per_m]` (white edges where sagitta over gate); dispatch `{'sheet','turn','overview','proof','quads','creases'}`. `turn <npz> <out.png> [px_per_m] [wire 0|1]`. (10 November 2026, 07:35:52 +0100)
+>    - `Cage.py`: `carve_edges` skips edges declared "straight" in the plan, moves a point only by its excess (bilinear distance, minus half `carve_tol_px`), two light smoothing passes. (10 November 2026, 07:35:52 +0100)
+>    - `Calibrate.py`: new `axis <frame.json> <trace_dir> <out.json>` (shift of the view box onto the symmetry axis of its traced lines; `P['axis_search_px'] = 3.0`); selftest extended. (10 November 2026, 07:35:52 +0100)
+>    - `Fit.py`: `observations(..., detail=None)`; centre seams judged only in left/right views; new `edges <solved> <trace_dir> <frame> [n] [view]` (cost per edge and view), `refit <cage> <solved> <trace_dir> <frame> <out_patch> [views=] [max_px=] [radius_px=] [damp=]` (corner moves in its primary view only, writes `[u, v, "free"]`), `nudge <cage> <solved> <trace_dir> <frame> <out_patch> edges=a|b,... [max_mm=] [radius_px=]` (writes `fit_mm`; pushes to bounds, rejected in practice). (10 November 2026, 07:35:52 +0100)
+>    - `Iterate.py`: `apply_patch` deletions accept `open.<a|b>` and `assembly.<title>.<component>`; `patch` numbers the new version from+1 (use `06_patches/mk.py` otherwise). (10 November 2026, 07:35:52 +0100)
+>    - `WheelKit.py`: spoke section 14 points (back in four, one left wall segment); lug nuts 24 sides. (10 November 2026, 07:35:52 +0100)
+>
+>    **Project `/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/`:** (10 November 2026, 07:35:52 +0100)
+>    - `project.json` now points to `../../work/car/frame/frame.V4.json` (copy of the old one: `project.frameV3.json`; old bands in `00_trace/frame_V3_band/`). (10 November 2026, 07:35:52 +0100)
+>    - `01_cage/car.cage.V_076 … V_116.json`, `02_solved/V_xxx/`, `03_mesh/V_xxx/` (`car.obj`, `car.npz`; `V_095/turn.png`, `turn_wire.png`, `*_half.png`), `04_checks/V_xxx-qa/` (`qa.json`, `QA.md`, `diag_*.png`), `04_checks/V_095-proof.png`, `V_095-proof-third.png`, various `V_xxx-quads-*.png`, `V_089-creases-a.png`, `06_patches/p076.json … p116.json`, `run_xxx.log`, `ITERATIONS.md`, `iterations.jsonl`, `STATE.md` (section "10 November 2026, 05:15 : arrêt sur limite d'usage" appended). (10 November 2026, 07:35:52 +0100)
+>    - Helper scripts in `06_patches/` (run from the project folder): `worst.py <ver> [n]`, `faceinfo.py <ver> <faces>`, `lookplan.py`, `lookover.py <ver> <view> <u0,v0,u1,v1> <out.png> [scale] [faces]`, `borders.py <ver> [views] [n]` (over-reports wheel pairs, which the QA masks), `mk.py <from> <to> <patch.json>...`, `evalv.py <ver>...`. (10 November 2026, 07:35:52 +0100)
+>    - Typical loop: `python 06_patches/mk.py 116 117 06_patches/p117.json && python $V4/Iterate.py run . 117 "<note>" views=0 > 06_patches/run_117.log 2>&1; python 06_patches/evalv.py 116 117; python 06_patches/worst.py 117 8 | grep -v " 0 bad"`. (10 November 2026, 07:35:52 +0100)
+>    - **Cumulative plan changes since V_075 (present in V_116):** fs_front `[crm, arch_t, arch_f, nose_low, ~gr_tl, ~hood_f]` kinks [hood_f, gr_tl]; fs_rear `[crm, ~c_ap, ~door_tf, ~door_cf, door_bf, arch_r, arch_t]`; vertex `ts_r {"T":[1752,384],"y":{"lerp":["tl_l","tl_c"]}}`; tail_shoulder `[hc, ~tl_l, ts_r, deck_c]` view T; deck `[rw_rc, ~rw_r, deck_c, ts_r, tl_c]`; rear_lip `[tl_c, ~ts_r, tl_l, rp_tl, rp_tc]`; edges `hc|tl_l` straight, `tl_l|ts_r`, `tl_c|ts_r`, `deck_c|ts_r` `{"view":"T","rail":"none"}`; roof_rail `[ws_top, ~roof_r, rw_r, deck_c, ~g_rtip, ~bp_t, fq_t]` (buttress deleted); vertices `ra_m`, `wa_m` (free, L view); rfl_neck `[wm, rarch_t, ra_m, wa_m]`; rfl_front `[wa_m, ~ra_m, rarch_f, door_br, dw]`; rf_upper `[door_tr, ~rf_top, hc, wq, ~wm, ~wa_m, dw]`; rfl_rear `[wm, ~wq, rarch_r, rarch_t]`; circle rules on `ra_m|rarch_t`, `ra_m|rarch_f`; `dw|wa_m`, `wa_m|wm`, `ra_m|wa_m` straight; rear_quarter `[hc, tl_l, ~rp_tl, ~rs_bl, ~rb_bl, rp_bl, rarch_r, ~wq]` with `edge_mm 12, refine false, taper_ratio 2.0`; `rarch_r|rp_bl` straight; `fas_bc|hood_fc` straight; counts `sl_a3|sl_b3` 4, `sl_a4|sl_b4` 4; cowl `mat glass, component windshield`; vertex `gr_tl {"F":[1360,807],"z":{"lerp":["hood_f","nose_low"]}}`; fascia `[hood_fc, hood_f, gr_tl, fas_bc]`; grille `[fas_bc, gr_tl, ~nose_low, gr_bl, gr_bc]`; edges `fas_bc|gr_tl`, `gr_tl|nose_low` straight; fender_top `component fender_side`; haunch_top `component roof_rail`; bottom-view refit of 26 corners (V_114); `sl_a3 U[745,917,"free"]`, `sl_a4 U[1084,917,"free"]`, `fp_rr U[1327,774,"free"]`. (10 November 2026, 07:35:52 +0100)
+>
+>    **Documentation written at 05:15 and synced** (`~/.claude/skills/skill-sync/scripts/sync-skill.sh zenray-meshes`, exit 0): section "10 November 2026, 05:15 : quads de production, V_077 à V_101 (test, non validé)" in `/Users/zenray/.claude/skills/zenray-meshes/references/ZenRayMeshesV4.md`; `/Users/zenray/.claude/PROGRESS.md` entries via `node /Users/zenray/.claude/skills/progress/scripts/progress.mjs append --project zenray-meshes --fait ... --verifie ... --echoue ... --prochain ...`. **Not yet documented:** everything from V_102 to V_116 (cowl merge, gr_tl, component-merge principle, per-sample sliding, `nudge`, bottom corrections) and final numbers. (10 November 2026, 07:35:52 +0100)
+>
+>    Scratch images: `/private/tmp/claude-501/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/scratchpad/` (also `strip_test.py` and a copy `PanelMesh.before-strip.py`). (10 November 2026, 07:35:52 +0100)
+>
+> 4. Errors and fixes: (10 November 2026, 07:35:52 +0100)
+>    - Strip grid shear when lateral sides differ in length (V_077): solved by plan layout (rfl_neck face, four comparable sides) rather than by the grid. (10 November 2026, 07:35:52 +0100)
+>    - Tip faces of one base face shared the name `#tip` (second replaced the first, leaving a hole): unique names. (10 November 2026, 07:35:52 +0100)
+>    - Sub-edges of a split traced edge fell back to straight (lip edges, wq→rarch_r): explicit `{"view":"T","rail":"none"}` for the lip; for the rear quarter the cut is made by the mesher in its own network copy instead of in the plan. (10 November 2026, 07:35:52 +0100)
+>    - `Iterate.py patch` refused deletions of `open.` keys and numbering collisions: `apply_patch` extended; `mk.py` written. (10 November 2026, 07:35:52 +0100)
+>    - Fixed counts were raised by the equaliser, then ping-pong and "opposite sides do not match (8 3, 28 28)" during finer rebuild: pinned propagation, long side comes down, parity step skips fixed sides. (10 November 2026, 07:35:52 +0100)
+>    - Warp read on one diagonal gave different numbers for a part and its mirror: both diagonals. (10 November 2026, 07:35:52 +0100)
+>    - C1 creases: centre profile zigzag (367 degrees of turns) from `carve_edges` snapping to pixel centres: carve by excess only, declared straight edges untouched; a plateau smoothing variant lowered F2 (0.662 to 0.645) and was replaced. (10 November 2026, 07:35:52 +0100)
+>    - Frame V4 changed tip angles and broke the rear quarter: kite_deg 4, sliver cut direction search, `rarch_r|rp_bl` straight. (10 November 2026, 07:35:52 +0100)
+>    - Removing the cowl face raised the side silhouette (F1.left 0.977): kept the geometry and made the cowl part of the windshield component. (10 November 2026, 07:35:52 +0100)
+>    - nose_low read in the front view lost the flank line: separate vertex `gr_tl`. (10 November 2026, 07:35:52 +0100)
+>    - Merging haunch_top into roof_rail sheared the band (side no longer slid): per-sample sliding masks in `relax_face`. (10 November 2026, 07:35:52 +0100)
+>    - Rejected trials: taper_ratio 3.5 global, leaf strip for fender top (regular 0.89), rp_bl as side point (warped quads), V_100/V_115 refit (B6/B5), V_107 arches (no gain), V_108/V_113 nudge (broke fender top / worse lines), V_111/V_112 merges (B3/B4 fail or worse lines). (10 November 2026, 07:35:52 +0100)
+>    - Time estimates repeatedly wrong; `date` is the only reference. (10 November 2026, 07:35:52 +0100)
+>
+> 5. Problem Solving: (10 November 2026, 07:35:52 +0100)
+>    - **Solved:** all mesh-production gates (A, B, C, D, E) and the six silhouettes pass. Best version **V_116: 25 gates of 27**, F1 min 0.9802, about 605,108 quads; failed only F2 0.7705 (limit 0.80) and F3 0.7760 (limit 0.85), consensus values (plain values about 0.67 at V_101). Per view at V_116 (recall plain/consensus, precision plain/consensus): front 0.661/0.758, 0.634/0.667; back 0.837/0.879, 0.703/0.737; left 0.579/0.682, 0.812/0.851; right 0.608/0.734, 0.725/0.832; top 0.803/0.880, 0.789/0.866; bottom 0.551/0.691, 0.629/0.703. Plan against tracing: 65 % of samples within 1 px, mean 1.14 px. Plan rules P3 and P11 still fail (10/12). (10 November 2026, 07:35:52 +0100)
+>    - **Open:** F2/F3; remaining costly borders (non-wheel): bottom `floor_plate|tunnel` (43 % off), `front_valance|splitter` (97 %), `floor|floor_plate`, `floor|front_tray`, diffuser borders (100 %); front `grille|splitter`, `roof|windshield`; sides `a_pillar|windshield` (94–98 % off, edge ws_low|ws_top off by 2.8/1.7/1.4 px in left/front/top), `fender_top|hood`; back `diffuser|rear_lower`, `deck|rear_lip`. The bottom drawing is itself asymmetric (floor plate edge about 4 px different on the mirror side). Final deliverables exist only for V_095. `MeshViews.overview` still draws differences in colour. Nothing validated by Matthieu's eye. (10 November 2026, 07:35:52 +0100)
+>
+> 6. All user messages: (10 November 2026, 07:35:52 +0100)
+>    - (Carried from before) the long autonomy request quoted in section 1 and the pasted step list: "Journal et lanceur d'itérations; Lisser toutes les courbes du plan; Diagnostic chiffré des manques par vue; Bibliothèque d'éléments réels (vis, barres, lèvres); Itérations de détail : avant, arrière, dessous; Boucle d'affinage automatique des coins; Itérations de qualité des quads; Planches, plans, scène Houdini; Consigner et synchroniser". (10 November 2026, 07:35:52 +0100)
+>    - (This session) only the watchdog prompt, repeated about 120 times after the usage-limit stop: "Surveillant dont-stop, ZenRay Meshes V4 (voiture depuis la planche 6 vues). Objectif X : chaque niveau au pixel près (décalque vectoriel de chaque vue, plan 3D appuyé sur deux vues par coin, maillage tout en quads, détails), avec preuves chiffrées, en autonomie jusqu'au 10 November 2026 à 11 h, en séquentiel. Vérifie si la tâche satisfait X avec une preuve. Si elle est inachevée et qu'aucune exécution de cette tâche n'est en cours, lis d'abord /Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/11_CarCage/STATE.md et la fin de ITERATIONS.md, reprends au dernier point vérifié, exécute la prochaine action utile et poursuis la boucle de correction et de vérification. Si elle tourne déjà, laisse-la continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que X est satisfaite avec une preuve, supprime ce surveillant (CronDelete) et rends compte." (10 November 2026, 07:35:52 +0100)
+>    - System notes during the session: reminders to tell the user briefly what is being done, the usage-limit warning (later lifted), and the task-list hook (10 steps). (10 November 2026, 07:35:52 +0100)
+>
+> 7. Pending Tasks: (10 November 2026, 07:35:52 +0100)
+>    - Step 8 (in progress): lines of the plan against the tracing, as far as time allows. (10 November 2026, 07:35:52 +0100)
+>    - Step 9: final deliverables on the best version (currently V_116): proof board (`MeshViews.py proof 03_mesh/V_116/car.npz ../../work/car/frame/frame.V4.json ../../work/car/views 00_trace 04_checks/V_116-qa 04_checks/V_116-proof.png`), turntables clay and wire (`MeshViews.py turn ... 420 0|1`), a few quad maps, plan sheets (`Plan.py`, folder `05_plan/V_116/`), Houdini scene (`/Applications/Houdini/Current/Frameworks/Houdini.framework/Versions/Current/Resources/bin/hython HoudiniScene.py <car.obj> <out.hip> [name]`), images sent with SendUserFile. (10 November 2026, 07:35:52 +0100)
+>    - Step 10: consign V_102 to V_116 in `ZenRayMeshesV4.md` (and one dated line in `SKILL.md` if needed), `STATE.md`, feedback (`python3 ~/.claude/skills/zenray-feedback/scripts/feedback.py --kind rule add zenray-meshes "<text>"`), PROGRESS, sync the skill; final answer in French with the 3-column table; `mcp__ccd_turn__wrap_up`. (10 November 2026, 07:35:52 +0100)
+>    - After 11:00 on 10 November 2026: `CronDelete {id: "d97048a1"}` and report. (10 November 2026, 07:35:52 +0100)
+>    - Later, not started: UV and height link, HDA with sliders, Assets archive and synthesis HTML, Unimog truck. (10 November 2026, 07:35:52 +0100)
+>
+> 8. Current Work: (10 November 2026, 07:35:52 +0100)
+>    Resumed by the watchdog at 07:10, I am on step 8 (lines). Last `date` reading: **07:32 on 10 November 2026**. Base version is **V_116** (25/27). The most recent action: after V_116 (bottom corrections `sl_a3`, `sl_a4`, `fp_rr` read on the tracing: bottom recall 0.653 to 0.691, precision 0.670 to 0.703, F2 0.7705, F3 0.7760) I listed the remaining bottom offenders with `borders.py 116 bottom` and `Fit.py edges ... bottom`, cropped `04_checks/V_116-qa/diag_bottom.png` into the scratchpad (`L_bottom_diag_front.png`, `L_bottom_diag_rear.png`) and viewed the front half: black (model borders off any line) along the splitter's front edge (a long arc near the nose), two elongated black loops inside the tunnel near the centre line, the front tray diagonals; white (drawn lines not found) for the front structure outline and, on the mirror side only, the floor plate edge (about 4 px off, an asymmetry of the sheet). The rear half image had not been viewed yet. (10 November 2026, 07:35:52 +0100)
+>
+> 9. Optional Next Step: (10 November 2026, 07:35:52 +0100)
+>    Continue the same measured loop on the bottom view for at most a few more corrections read directly on the tracing (my last statement: "Je consacre le temps restant avant les planches finales à la vue la plus faible, le dessous (64 %), en recalant ses contours directement sur le décalque"), for example the splitter front edge (`front_valance|splitter`, 97 % off) and the tunnel/front tray outlines, each as a patch from V_116 through `06_patches/mk.py` and `Iterate.py run`, kept only if `evalv.py` shows 25/27 with F2/F3 not lower. Then, by about 09:45 at the latest (check `date`), stop corrections and do steps 9 and 10 on the best version: proof board, turntables, plan sheets, Houdini scene, images to the user, consign and sync the skill, final table and wrap-up, and delete the watchdog `d97048a1` once 11:00 has passed. (10 November 2026, 07:35:52 +0100)
+>
+> If you need specific details from before compaction (like exact code snippets, error messages, or content you generated), read the full transcript at: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl (10 November 2026, 07:35:52 +0100)
+> Continue the conversation from where it left off without asking the user any further questions. Resume directly — do not acknowledge the summary, do not recap what was happening, do not preface with "I'll continue" or similar. Pick up the last task as if the break never happened. (10 November 2026, 07:35:52 +0100)
+>
+> The messages after this summary are the most recent messages from before compaction, kept verbatim. The summary was written without seeing them, so something it says has not happened yet may already have happened in them. (10 November 2026, 07:35:52 +0100)
+
+## 10 November 2026, 07:38:57 +0100 : Prompt
+
+<!-- feedback-event:43c36e8c96f45636e0b6af34872a32a62bdd0658c07eb5d76ac5c187ca33fa4e (10 November 2026, 07:38:57 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 07:38:57 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 07:38:57 +0100)
+
+> [Image: original 1125x2070, displayed at 1087x2000. Multiply coordinates by 1.03 to map to original image.] (10 November 2026, 07:38:57 +0100)
+
+## 10 November 2026, 07:43:42 +0100 : Iteration
+
+<!-- feedback-event:f7070d7e29cd87c27b23eb4a49d9ff3a369cc628eb10c9ab0d58cc7d3be67b8d (10 November 2026, 07:43:42 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 07:43:42 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 07:43:42 +0100)
+
+> Première correction du dessous : je lance la version 117 (plaques planes, bas de calandre rentré au-dessus de la lame, plancher avant glissé derrière la lame) et je mesure. (10 November 2026, 07:43:42 +0100)
+
+## 10 November 2026, 07:48:28 +0100 : Iteration
+
+<!-- feedback-event:582516d7ad795987c549890856a0aff4ce3dbe5feeb941386764dfcea3fd5533 (10 November 2026, 07:48:28 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 07:48:28 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 07:48:28 +0100)
+
+> V_118 : 25 portes sur 27, précision des contours 0,776 → 0,797 (dessous 0,70 → 0,82). Je passe à la ligne du bas de caisse des vues de côté, la plus grosse perte de lignes. (10 November 2026, 07:48:28 +0100)
+
+## 10 November 2026, 07:49:44 +0100 : Iteration
+
+<!-- feedback-event:742d8097a4af001cc5588a097e69f1e6c49fc1f77a5b514ff31de02098745f64 (10 November 2026, 07:49:44 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 07:49:44 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 07:49:44 +0100)
+
+> J'ajoute la bande sous le bas de caisse (la ligne dessinée est 25 mm au-dessus du bord actuel) ; je vérifie d'abord la syntaxe de patch pour les bords ouverts. (10 November 2026, 07:49:44 +0100)
+
+## 10 November 2026, 07:51:46 +0100 : Iteration
+
+<!-- feedback-event:50957d1c2f51a35a6974de3e7ff8a1406d03f13440b38c6a1e47210e74efe610 (10 November 2026, 07:51:46 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 07:51:46 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 07:51:46 +0100)
+
+> Je remonte tout le dessous de 7 mm (il dépassait sous la silhouette de profil, ce qui tenait les vues de côté à la limite) et je refais proprement la bande sous le bas de caisse. (10 November 2026, 07:51:46 +0100)
+
+## 10 November 2026, 07:53:19 +0100 : Iteration
+
+<!-- feedback-event:ab93a5b61e0058049fdb16c2be890bc723b6a0fde923d69b9914ac17e30f5f16 (10 November 2026, 07:53:19 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 07:53:19 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 07:53:19 +0100)
+
+> Je vérifie au pixel où tombe réellement le bord du bas de caisse dans la version 120 par rapport à la ligne dessinée (rangée 266). (10 November 2026, 07:53:19 +0100)
