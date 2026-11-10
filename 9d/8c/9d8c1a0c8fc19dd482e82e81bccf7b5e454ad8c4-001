@@ -12076,3 +12076,33 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 00:45:15 +0100)
 
 > Le capot reste désormais sous la silhouette de profil, et de face on lit l'enchaînement capot, nez, bouche et lèvre. Je prépare la vue de face zoomée, puis je consigne. (11 November 2026, 00:45:15 +0100)
+
+## 11 November 2026, 00:45:48 +0100 : Iteration
+
+<!-- feedback-event:5c7cdcb5d6666cf67f5861b4086eaf4a50a4557a0ef2cc981e986220aafe81c3 (11 November 2026, 00:45:48 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 00:45:48 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 00:45:48 +0100)
+
+> Le bandeau de nez et la lèvre inférieure sont posés en nœuds natifs, dans le même graphe que le capot et la bouche. La scène est enregistrée : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_008.hiplc](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_008.hiplc). (11 November 2026, 00:45:48 +0100)
+>
+> **Les deux composants.** (11 November 2026, 00:45:48 +0100)
+> - **Le bandeau de nez** descend du bord avant du capot jusqu'au cadre de la bouche, en léger surplomb. (11 November 2026, 00:45:48 +0100)
+> - **La lèvre** est la bande blanche en sourire sous la grille. Elle va de 0,20 à 0,124 m au centre, remonte vers les côtés et s'arrête vers x 0,40, là où commencent les grandes lames diagonales. Son avant arrondi est à z 2,49. (11 November 2026, 00:45:48 +0100)
+>
+> Les deux bords du sourire partagent un même profil, relevé sur la vue de face. Chaque forme se règle sur `CTRL_front`. (11 November 2026, 00:45:48 +0100)
+>
+> **La correction qui a le plus compté.** J'ai pris la silhouette de profil comme borne. Elle donne, à chaque hauteur, le point le plus avancé de toute la voiture, et à chaque profondeur son point le plus haut, si bien qu'aucune pièce ne peut la dépasser. Or mes pièces la dépassaient : (11 November 2026, 00:45:48 +0100)
+> - **le nez** était 5 cm trop en avant (rien ne dépasse z 2,397 à 0,56 m de haut) ; (11 November 2026, 00:45:48 +0100)
+> - **la bouche** était 8 cm trop en avant (l'avant est à z 2,336 à sa hauteur) ; (11 November 2026, 00:45:48 +0100)
+> - **le capot** dépassait de 1 à 7 cm selon la section. (11 November 2026, 00:45:48 +0100)
+>
+> Une fois tout recalé, la pointe du nez de profil tombe sur celle de la référence, la bouche passe dans la cavité sombre et la lèvre avance jusqu'à la barre blanche. (11 November 2026, 00:45:48 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (11 November 2026, 00:45:48 +0100)
+> |---|---|---| (11 November 2026, 00:45:48 +0100)
+> | Le bandeau de nez | Oui, à valider | Il relie le capot au cadre de la bouche. De profil, sa pointe est sur celle de la référence (z 2,40) | (11 November 2026, 00:45:48 +0100)
+> | La lèvre | Oui, à valider | De face, elle couvre la bande blanche sous la grille ; de profil, son avant est à z 2,49 | (11 November 2026, 00:45:48 +0100)
+> | Rester juste par rapport à la référence | Oui sur les bornes | Le capot reste sous la silhouette de profil. La bouche recouvre la référence de face à 0,80 | (11 November 2026, 00:45:48 +0100)
+> | Nœuds natifs seulement | Oui | add, resample, skin, subdivide, sweep, polyextrude, blast, polyfill, box, color, merge, null : 3 082 quads, aucun autre polygone | (11 November 2026, 00:45:48 +0100)
+>
+> La règle de la silhouette et les mesures sont consignées dans le skill (section du 11 November 2026, 01:30) et dans le journal. Le galbe du capot reste approximatif entre ses quatre sections. La prochaine étape logique : les deux prises latérales avec leurs grandes lames diagonales, qui encadrent la bouche et la lèvre. (11 November 2026, 00:45:48 +0100)
