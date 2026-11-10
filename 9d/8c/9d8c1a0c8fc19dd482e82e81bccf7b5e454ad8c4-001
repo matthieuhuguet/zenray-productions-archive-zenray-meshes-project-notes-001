@@ -9597,3 +9597,19 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 11:33:58 +0100)
 
 > Noté : la cible actuelle est une hero car AAA, la version VFX viendra par conversion, et l'effort porte sur le coffre et tout l'arrière, avec 0,999 visé contre la référence. Je consigne ces deux niveaux, puis je mesure l'arrière seul, vue par vue, pour savoir exactement ce qui sépare le modèle du dessin. (10 November 2026, 11:33:58 +0100)
+
+## 10 November 2026, 11:35:21 +0100 : Iteration
+
+<!-- feedback-event:38600a3f8c903cbb7b336e7afd6bc69f28294c4fb609362050b4e15a8dcc60f4 (10 November 2026, 11:35:21 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 11:35:21 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 11:35:21 +0100)
+
+> Le nouvel outil de mesure par zone est écrit ; je corrige l'appel (les quatre zones passaient en un seul argument) et je mesure l'arrière des versions 137 et 138. (10 November 2026, 11:35:21 +0100)
+
+## 10 November 2026, 11:37:34 +0100 : Prompt
+
+<!-- feedback-event:ce9ff3c37a760a11014a93583a81cdb0b055bc9f6ee93ab8be3f74d9741a3728 (10 November 2026, 11:37:34 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 11:37:34 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 11:37:34 +0100)
+
+> [Image: original 2416x540, displayed at 2000x447. Multiply coordinates by 1.21 to map to original image.] (10 November 2026, 11:37:34 +0100)
