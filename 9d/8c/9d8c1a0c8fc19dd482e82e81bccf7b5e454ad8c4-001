@@ -11939,3 +11939,27 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 > | Coller à la référence | Oui sur le profil | F 0,937 dans l'anneau. La forme vue de dessus et de face n'est pas encore contrôlée | (11 November 2026, 00:00:49 +0100)
 >
 > Le verdict, les mesures et la règle d'angle sont consignés dans le skill (section du 11 November 2026, 00:00) et dans le journal. La suite logique est soit la peau d'aile au-delà du bourrelet, c'est-à-dire la surface libre de la caisse, soit les trois autres roues avec leurs arches, posées comme instances. (11 November 2026, 00:00:49 +0100)
+
+## 11 November 2026, 00:26:41 +0100 : Prompt
+
+<!-- feedback-event:b29581251b1ee320ef10da4076b6ad487a97a643e2634eef90f3001e240ae0cc (11 November 2026, 00:26:41 +0100) -->
+- Project: zenray-meshes; kind: prompt. (11 November 2026, 00:26:41 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 00:26:41 +0100)
+
+> Ok, continuons sur au niveau de la carrosserie tout autour des roues. On va itérer sur, à mon avis, le capot avant pour commencer à placer le capot et la bouche de la voiture. Évidemment, tu sous-divises tous les components dont on aura besoin dans cet exercice. (11 November 2026, 00:26:41 +0100)
+
+## 11 November 2026, 00:26:52 +0100 : Iteration
+
+<!-- feedback-event:7e342aedd9e14a400349905b216f809456964441e735993c0d48b8a91e0db581 (11 November 2026, 00:26:52 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 00:26:52 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 00:26:52 +0100)
+
+> Je passe au capot et à la bouche. Avant de poser un seul nœud, je regarde l'avant de la voiture sur les trois vues (face, dessus, profil) pour découper les composants. (11 November 2026, 00:26:52 +0100)
+
+## 11 November 2026, 00:27:24 +0100 : Iteration
+
+<!-- feedback-event:cfa6390a041899dd210f5460650734f0b52e63b2b70c3832c1d62db7a9fdc7a7 (11 November 2026, 00:27:24 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 00:27:24 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 00:27:24 +0100)
+
+> Je découpe l'avant en composants, puis je mesure. Pour lire les formes en mètres, je pose une grille graduée sur chaque vue, calée sur le calage de la planche. (11 November 2026, 00:27:24 +0100)
