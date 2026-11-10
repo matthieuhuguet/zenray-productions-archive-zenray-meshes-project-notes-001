@@ -10584,3 +10584,329 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 > - [Houdini 22 ML](https://www.sidefx.com/docs/houdini/ml/index.html) (10 November 2026, 19:17:29 +0100)
 > - [SideFX et NVIDIA, MCP pour le rigging](https://www.jonpeddie.com/news/sidefx-and-nvidia-bring-mcp-powered-ai-agents-to-houdini-22s-rigging-workflow-at-siggraph-2026/) (10 November 2026, 19:17:29 +0100)
 > - [Class-A et subdivision, Digital Engineering](https://www.digitalengineering247.com/article/cad-users-embrace-hybrid-modeling) (10 November 2026, 19:17:29 +0100)
+
+## 10 November 2026, 21:32:44 +0100 : Prompt
+
+<!-- feedback-event:274b770cb1b3e2768118619e524dc1474018333f1c4b8e7f3c3ba5bb8c01eaf3 (10 November 2026, 21:32:44 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 21:32:44 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 21:32:44 +0100)
+
+> Fais un vrai audit avec des agents Haiku 5.5 pour savoir l'état, en effort extra pour savoir vraiment l'état de ce qui a été fait, ce qui n'a pas été fait. Fais surtout des graphiques pour savoir qu'est-ce qui marche et qu'est-ce qui marche pas. Mais je pense qu'à terme, ouais, on va vraiment tout transvaser sur Houdini 22 pour créer des vrais graphes. (10 November 2026, 21:32:44 +0100)
+
+## 10 November 2026, 21:33:58 +0100 : Iteration
+
+<!-- feedback-event:80ddbe1c2466214760f32fa95e01927feac10046971b630625f49c34c8f6f44b (10 November 2026, 21:33:58 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 21:33:58 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 21:33:58 +0100)
+
+> Je mesure d'abord la taille de chaque corpus pour bien découper le travail entre les agents, puis je t'annonce le coût avant de les lancer. (10 November 2026, 21:33:58 +0100)
+
+## 10 November 2026, 21:35:52 +0100 : Order of work
+
+<!-- feedback-event:5904e2c72daa395433b317b99bb59719c5ec46759a1ab94807710f8a0d60ad22 (10 November 2026, 21:35:52 +0100) -->
+- Project: zenray-meshes; kind: order. (10 November 2026, 21:35:52 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/subagents/agent-a9d5ff77399c8808e.jsonl. (10 November 2026, 21:35:52 +0100)
+
+> Tu fais une partie d'un audit factuel du projet « ZenRay Meshes » (reconstruire des objets 3D, surtout une voiture, depuis des planches de six vues, avec Houdini et des scripts Python). Tu ne codes rien et tu ne modifies aucun fichier existant : tu lis et tu classes. (10 November 2026, 21:35:52 +0100)
+>
+> À lire, en ENTIER (100 % des lignes, par tranches de 300 lignes avec l'outil Read, offset/limit) : /Users/zenray/.claude/tmp/tmp-zenray-meshes/Audit_10-November-2026/inputs/journal_A.md. Ce sont les entrées du journal de travail du 25 au 27 October 2026 (champs Fait, Décision, Échoué, Prochain, Vérifié). Chaque entrée commence par une date et une heure. (10 November 2026, 21:35:52 +0100)
+>
+> Ce que tu produis : pour chaque entrée qui décrit un ESSAI (une méthode, un outil, une version, un objet travaillé), une ligne d'essai. Une entrée purement administrative (sauvegarde, synchro, article) donne stage = "outil/infrastructure". (10 November 2026, 21:35:52 +0100)
+>
+> Champs de chaque essai (valeurs autorisées, rien d'autre) : (10 November 2026, 21:35:52 +0100)
+> - date ("25 October 2026"), time ("15:44"), line (numéro de ligne de l'entrée dans le fichier) (10 November 2026, 21:35:52 +0100)
+> - object : voiture | arbre | porte | coffre | manny | personnage | tête | lys | cheval | camion | dragon | plusieurs | aucun (10 November 2026, 21:35:52 +0100)
+> - stage : référence | calage | décalque | découpe | plan/cage | volume | maillage | topologie | surface/lissage | détails | UV/texture | rendu/vérification | outil/infrastructure (10 November 2026, 21:35:52 +0100)
+> - method : le nom court tel qu'écrit dans la source (ex. « M05 », « V4 cage », « SAM », « retopo quad », « NURBS »), 60 caractères au plus (10 November 2026, 21:35:52 +0100)
+> - engine : houdini | python | blender | unreal | ia-générative | autre | inconnu (10 November 2026, 21:35:52 +0100)
+> - outcome : validé par Matthieu | accepté sur mesure | partiel | rejeté par Matthieu | échec mesuré | abandonné | inconnu (10 November 2026, 21:35:52 +0100)
+>   (« validé par Matthieu » seulement si le texte dit que Matthieu l'a validé ; « rejeté par Matthieu » seulement s'il l'a rejeté ; un chiffre qui monte sans verdict de Matthieu = « accepté sur mesure ») (10 November 2026, 21:35:52 +0100)
+> - evidence : la preuve dans les mots ou les chiffres de la source, 200 caractères au plus, recopiés, jamais inventés (10 November 2026, 21:35:52 +0100)
+> - metric : un nombre mesuré cité s'il y en a un (ex. "IoU 0.998", "26/27 portes"), sinon "" (10 November 2026, 21:35:52 +0100)
+>
+> Règles : n'invente rien ; si tu ne sais pas, mets « inconnu ». Ne fusionne pas deux essais différents. Une même méthode reprise dans plusieurs entrées donne plusieurs lignes. (10 November 2026, 21:35:52 +0100)
+>
+> AVANT de répondre, écris INTÉGRALEMENT ton livrable avec l'outil Write, pour qu'il ne soit jamais perdu : (10 November 2026, 21:35:52 +0100)
+> 1) /Users/zenray/.claude/tmp/tmp-zenray-meshes/Audit_10-November-2026/agents/journal_A.json au format {"coverage": {"lines_total": N, "lines_read": N, "entries_total": N}, "attempts": [ ... ]} (10 November 2026, 21:35:52 +0100)
+> 2) /Users/zenray/.claude/tmp/tmp-zenray-meshes/Audit_10-November-2026/agents/journal_A.md : en français, une demi-page : ce qui a marché, ce qui a échoué, les méthodes essayées dans l'ordre, les chiffres marquants, chaque affirmation avec son numéro de ligne. (10 November 2026, 21:35:52 +0100)
+> Vérifie que le JSON se relit (par exemple python3 -c "import json;json.load(open(...))" avec l'outil Bash). Ta réponse finale : les chemins des deux fichiers, la couverture (lignes lues sur lignes totales) et cinq lignes de résumé. (10 November 2026, 21:35:52 +0100)
+
+## 10 November 2026, 21:35:58 +0100 : Iteration
+
+<!-- feedback-event:9cc9e234565ab4b0d10522c5d7de0715fc3f12d34252f22d320850ab819be5b9 (10 November 2026, 21:35:58 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 21:35:58 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/subagents/agent-a9d5ff77399c8808e.jsonl. (10 November 2026, 21:35:58 +0100)
+
+> The file has 1383 lines. I'll read it in five chunks of 300 lines. (10 November 2026, 21:35:58 +0100)
+
+## 10 November 2026, 21:36:02 +0100 : Order of work
+
+<!-- feedback-event:a88348334292d4737c3eb563255711b32d6cd30bcaac96a867599fcffd309f6f (10 November 2026, 21:36:02 +0100) -->
+- Project: zenray-meshes; kind: order. (10 November 2026, 21:36:02 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/subagents/agent-a4af785ea466856e0.jsonl. (10 November 2026, 21:36:02 +0100)
+
+> Tu fais une partie d'un audit factuel du projet « ZenRay Meshes » (reconstruire des objets 3D, surtout une voiture, depuis des planches de six vues, avec Houdini et des scripts Python). Tu ne codes rien et tu ne modifies aucun fichier existant : tu lis et tu classes. (10 November 2026, 21:36:02 +0100)
+>
+> À lire, en ENTIER (100 % des lignes, par tranches de 300 lignes avec l'outil Read, offset/limit) : /Users/zenray/.claude/tmp/tmp-zenray-meshes/Audit_10-November-2026/inputs/journal_B.md. Ce sont les entrées du journal de travail du 28 October au 10 November 2026 (champs Fait, Décision, Échoué, Prochain, Vérifié). Chaque entrée commence par une date et une heure. (10 November 2026, 21:36:02 +0100)
+>
+> Ce que tu produis : pour chaque entrée qui décrit un ESSAI (une méthode, un outil, une version, un objet travaillé), une ligne d'essai. Une entrée purement administrative (sauvegarde, synchro, article) donne stage = "outil/infrastructure". (10 November 2026, 21:36:02 +0100)
+>
+> Champs de chaque essai (valeurs autorisées, rien d'autre) : (10 November 2026, 21:36:02 +0100)
+> - date ("28 October 2026"), time ("15:44"), line (numéro de ligne de l'entrée dans le fichier) (10 November 2026, 21:36:02 +0100)
+> - object : voiture | arbre | porte | coffre | manny | personnage | tête | lys | cheval | camion | dragon | plusieurs | aucun (10 November 2026, 21:36:02 +0100)
+> - stage : référence | calage | décalque | découpe | plan/cage | volume | maillage | topologie | surface/lissage | détails | UV/texture | rendu/vérification | outil/infrastructure (10 November 2026, 21:36:02 +0100)
+> - method : le nom court tel qu'écrit dans la source (ex. « M22 », « V4 cage », « SAM par composant », « NURBS »), 60 caractères au plus (10 November 2026, 21:36:02 +0100)
+> - engine : houdini | python | blender | unreal | ia-générative | autre | inconnu (10 November 2026, 21:36:02 +0100)
+> - outcome : validé par Matthieu | accepté sur mesure | partiel | rejeté par Matthieu | échec mesuré | abandonné | inconnu (10 November 2026, 21:36:02 +0100)
+>   (« validé par Matthieu » seulement si le texte dit que Matthieu l'a validé ; « rejeté par Matthieu » seulement s'il l'a rejeté ; un chiffre qui monte sans verdict de Matthieu = « accepté sur mesure ») (10 November 2026, 21:36:02 +0100)
+> - evidence : la preuve dans les mots ou les chiffres de la source, 200 caractères au plus, recopiés, jamais inventés (10 November 2026, 21:36:02 +0100)
+> - metric : un nombre mesuré cité s'il y en a un (ex. "IoU 0.998", "26/27 portes"), sinon "" (10 November 2026, 21:36:02 +0100)
+>
+> Règles : n'invente rien ; si tu ne sais pas, mets « inconnu ». Ne fusionne pas deux essais différents. Une même méthode reprise dans plusieurs entrées donne plusieurs lignes. (10 November 2026, 21:36:02 +0100)
+>
+> AVANT de répondre, écris INTÉGRALEMENT ton livrable avec l'outil Write, pour qu'il ne soit jamais perdu : (10 November 2026, 21:36:02 +0100)
+> 1) /Users/zenray/.claude/tmp/tmp-zenray-meshes/Audit_10-November-2026/agents/journal_B.json au format {"coverage": {"lines_total": N, "lines_read": N, "entries_total": N}, "attempts": [ ... ]} (10 November 2026, 21:36:02 +0100)
+> 2) /Users/zenray/.claude/tmp/tmp-zenray-meshes/Audit_10-November-2026/agents/journal_B.md : en français, une demi-page : ce qui a marché, ce qui a échoué, les méthodes essayées dans l'ordre, les chiffres marquants, chaque affirmation avec son numéro de ligne. (10 November 2026, 21:36:02 +0100)
+> Vérifie que le JSON se relit (par exemple python3 -c "import json;json.load(open(...))" avec l'outil Bash). Ta réponse finale : les chemins des deux fichiers, la couverture (lignes lues sur lignes totales) et cinq lignes de résumé. (10 November 2026, 21:36:02 +0100)
+
+## 10 November 2026, 21:36:06 +0100 : Iteration
+
+<!-- feedback-event:ca6ff782882afc60a6572946dc77a2c4057fb2e358dfef844c30eb61f4bbab66 (10 November 2026, 21:36:06 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 21:36:06 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/subagents/agent-a4af785ea466856e0.jsonl. (10 November 2026, 21:36:06 +0100)
+
+> Je commence par mesurer le fichier pour connaître le nombre de lignes à lire. (10 November 2026, 21:36:06 +0100)
+
+## 10 November 2026, 21:36:09 +0100 : Iteration
+
+<!-- feedback-event:70663295891564962850b8600d8dc16908b791334b2f59186ada61c4cd8d6daa (10 November 2026, 21:36:09 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 21:36:09 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/subagents/agent-a4af785ea466856e0.jsonl. (10 November 2026, 21:36:09 +0100)
+
+> Le fichier fait 1554 lignes. Je le lis en six tranches de 300 lignes, en parallèle. (10 November 2026, 21:36:09 +0100)
+
+## 10 November 2026, 21:36:12 +0100 : Order of work
+
+<!-- feedback-event:0504c2b334d15b211094920d70f390699d72f95f7b090312fdfb6275a4faa169 (10 November 2026, 21:36:12 +0100) -->
+- Project: zenray-meshes; kind: order. (10 November 2026, 21:36:12 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/subagents/agent-a982c27418baab56d.jsonl. (10 November 2026, 21:36:12 +0100)
+
+> Tu fais une partie d'un audit factuel du projet « ZenRay Meshes » (reconstruire des objets 3D, surtout une voiture, depuis des planches de six vues, avec Houdini et des scripts Python). Le propriétaire s'appelle Matthieu. Tu ne codes rien et tu ne modifies aucun fichier existant : tu lis et tu classes. (10 November 2026, 21:36:12 +0100)
+>
+> À lire, en ENTIER (100 % des lignes, par tranches de 250 lignes avec l'outil Read, offset/limit ; si une tranche est tronquée, réduis-la) : /Users/zenray/.claude/tmp/tmp-zenray-meshes/Audit_10-November-2026/inputs/matthieu_A.md. Ce sont les messages de Matthieu (PROMPT), ses règles (RULE) et ses ordres (ORDER), dans l'ordre chronologique, première moitié. Chaque bloc commence par « [date, heure] TYPE ». « [image] » remplace une image jointe. Beaucoup de prompts sont des consignes de départ ; ce qui compte surtout, ce sont ses VERDICTS sur un résultat. (10 November 2026, 21:36:12 +0100)
+>
+> Ce que tu produis : une ligne par message qui contient au moins un verdict, une correction, une règle ou une décision de direction. Ignore les messages vides ou purement logistiques (mais compte-les). (10 November 2026, 21:36:12 +0100)
+>
+> Champs (valeurs autorisées, rien d'autre) : (10 November 2026, 21:36:12 +0100)
+> - date ("25 October 2026"), time ("15:44"), line (numéro de ligne du bloc dans le fichier) (10 November 2026, 21:36:12 +0100)
+> - object : voiture | arbre | porte | coffre | manny | personnage | tête | lys | cheval | camion | dragon | plusieurs | aucun (10 November 2026, 21:36:12 +0100)
+> - stage : référence | calage | décalque | découpe | plan/cage | volume | maillage | topologie | surface/lissage | détails | UV/texture | rendu/vérification | méthode générale | outil/infrastructure (10 November 2026, 21:36:12 +0100)
+> - kind : valide | rejette | corrige | ordonne | règle | direction | question (10 November 2026, 21:36:12 +0100)
+> - about : ce qui est jugé, 80 caractères au plus (10 November 2026, 21:36:12 +0100)
+> - quote : SES mots exacts, recopiés, 220 caractères au plus, jamais reformulés (10 November 2026, 21:36:12 +0100)
+> - tone : satisfait | neutre | frustré  (frustré seulement si les mots le disent clairement : « toujours pas », « c'est faux », « foutage de gueule », insistance répétée) (10 November 2026, 21:36:12 +0100)
+> - lesson : la règle de travail qu'on en tire, 120 caractères au plus (10 November 2026, 21:36:12 +0100)
+>
+> Règles : n'invente rien ; une citation doit exister mot pour mot dans le fichier. Si un message mélange plusieurs verdicts, fais plusieurs lignes. (10 November 2026, 21:36:12 +0100)
+>
+> AVANT de répondre, écris INTÉGRALEMENT ton livrable avec l'outil Write, pour qu'il ne soit jamais perdu : (10 November 2026, 21:36:12 +0100)
+> 1) /Users/zenray/.claude/tmp/tmp-zenray-meshes/Audit_10-November-2026/agents/words_A.json au format {"coverage": {"lines_total": N, "lines_read": N, "messages_total": N, "messages_kept": N}, "verdicts": [ ... ]} (10 November 2026, 21:36:12 +0100)
+> 2) /Users/zenray/.claude/tmp/tmp-zenray-meshes/Audit_10-November-2026/agents/words_A.md : en français, une demi-page : ce que Matthieu a validé, ce qu'il a rejeté et pourquoi, les règles qui reviennent le plus, l'évolution de son ton, chaque affirmation avec son numéro de ligne. (10 November 2026, 21:36:12 +0100)
+> Vérifie que le JSON se relit (python3 -c "import json;json.load(open(...))" avec l'outil Bash). Ta réponse finale : les chemins des deux fichiers, la couverture et cinq lignes de résumé. (10 November 2026, 21:36:12 +0100)
+
+## 10 November 2026, 21:36:21 +0100 : Order of work
+
+<!-- feedback-event:f60b94f860400851069bc54425a3dd8c91dcc628fc12cb74d872ba7935dcde4d (10 November 2026, 21:36:21 +0100) -->
+- Project: zenray-meshes; kind: order. (10 November 2026, 21:36:21 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/subagents/agent-a0b34350d68b9276c.jsonl. (10 November 2026, 21:36:21 +0100)
+
+> Tu fais une partie d'un audit factuel du projet « ZenRay Meshes » (reconstruire des objets 3D, surtout une voiture, depuis des planches de six vues, avec Houdini et des scripts Python). Le propriétaire s'appelle Matthieu. Tu ne codes rien et tu ne modifies aucun fichier existant : tu lis et tu classes. (10 November 2026, 21:36:21 +0100)
+>
+> À lire, en ENTIER (100 % des lignes, par tranches de 250 lignes avec l'outil Read, offset/limit ; si une tranche est tronquée, réduis-la) : /Users/zenray/.claude/tmp/tmp-zenray-meshes/Audit_10-November-2026/inputs/matthieu_B.md. Ce sont les messages de Matthieu (PROMPT), ses règles (RULE) et ses ordres (ORDER), dans l'ordre chronologique, seconde moitié (jusqu'au 10 November 2026). Chaque bloc commence par « [date, heure] TYPE ». « [image] » remplace une image jointe. Beaucoup de prompts sont des consignes de départ ; ce qui compte surtout, ce sont ses VERDICTS sur un résultat. (10 November 2026, 21:36:21 +0100)
+>
+> Ce que tu produis : une ligne par message qui contient au moins un verdict, une correction, une règle ou une décision de direction. Ignore les messages vides ou purement logistiques (mais compte-les). (10 November 2026, 21:36:21 +0100)
+>
+> Champs (valeurs autorisées, rien d'autre) : (10 November 2026, 21:36:21 +0100)
+> - date ("5 November 2026"), time ("15:44"), line (numéro de ligne du bloc dans le fichier) (10 November 2026, 21:36:21 +0100)
+> - object : voiture | arbre | porte | coffre | manny | personnage | tête | lys | cheval | camion | dragon | plusieurs | aucun (10 November 2026, 21:36:21 +0100)
+> - stage : référence | calage | décalque | découpe | plan/cage | volume | maillage | topologie | surface/lissage | détails | UV/texture | rendu/vérification | méthode générale | outil/infrastructure (10 November 2026, 21:36:21 +0100)
+> - kind : valide | rejette | corrige | ordonne | règle | direction | question (10 November 2026, 21:36:21 +0100)
+> - about : ce qui est jugé, 80 caractères au plus (10 November 2026, 21:36:21 +0100)
+> - quote : SES mots exacts, recopiés, 220 caractères au plus, jamais reformulés (10 November 2026, 21:36:21 +0100)
+> - tone : satisfait | neutre | frustré  (frustré seulement si les mots le disent clairement : « toujours pas », « c'est faux », « foutage de gueule », insistance répétée) (10 November 2026, 21:36:21 +0100)
+> - lesson : la règle de travail qu'on en tire, 120 caractères au plus (10 November 2026, 21:36:21 +0100)
+>
+> Règles : n'invente rien ; une citation doit exister mot pour mot dans le fichier. Si un message mélange plusieurs verdicts, fais plusieurs lignes. (10 November 2026, 21:36:21 +0100)
+>
+> AVANT de répondre, écris INTÉGRALEMENT ton livrable avec l'outil Write, pour qu'il ne soit jamais perdu : (10 November 2026, 21:36:21 +0100)
+> 1) /Users/zenray/.claude/tmp/tmp-zenray-meshes/Audit_10-November-2026/agents/words_B.json au format {"coverage": {"lines_total": N, "lines_read": N, "messages_total": N, "messages_kept": N}, "verdicts": [ ... ]} (10 November 2026, 21:36:21 +0100)
+> 2) /Users/zenray/.claude/tmp/tmp-zenray-meshes/Audit_10-November-2026/agents/words_B.md : en français, une demi-page : ce que Matthieu a validé, ce qu'il a rejeté et pourquoi, les règles qui reviennent le plus, l'évolution de son ton, chaque affirmation avec son numéro de ligne. (10 November 2026, 21:36:21 +0100)
+> Vérifie que le JSON se relit (python3 -c "import json;json.load(open(...))" avec l'outil Bash). Ta réponse finale : les chemins des deux fichiers, la couverture et cinq lignes de résumé. (10 November 2026, 21:36:21 +0100)
+
+## 10 November 2026, 21:36:31 +0100 : Iteration
+
+<!-- feedback-event:479f6dc68c6d86d292ad8e8c72a466124742ff87bb27200c6b8261c9dc1c3e9c (10 November 2026, 21:36:31 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 21:36:31 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/subagents/agent-a4af785ea466856e0.jsonl. (10 November 2026, 21:36:31 +0100)
+
+> Les six tranches sont lues, de la ligne 1 à la ligne 1554. Je vérifie maintenant le nombre exact d'entrées (en-têtes de date) pour la couverture. (10 November 2026, 21:36:31 +0100)
+
+## 10 November 2026, 21:36:27 +0100 : Iteration
+
+<!-- feedback-event:87f5e37705dae56b530f4f0651eba33f93ff7ad06082a08a49b08ea6c60bffa7 (10 November 2026, 21:36:27 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 21:36:27 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 21:36:27 +0100)
+
+> La première vague tourne en arrière-plan. Pendant ce temps je calcule moi-même ce qui se mesure sans lecture : les séries de scores par version, la production d'images par objet et par jour. (10 November 2026, 21:36:27 +0100)
+
+## 10 November 2026, 21:36:54 +0100 : Prompt
+
+<!-- feedback-event:2f77dd6b7ad4f2e89cd81bf9ed4b6c498ba16e728ccf234357ca4dcb74e2ff18 (10 November 2026, 21:36:54 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 21:36:54 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 21:36:54 +0100)
+
+> Base directory for this skill: /private/tmp/claude-501/bundled-skills/2.1.321/2040d5b3f78fa6dfb28c3db7a3a757d8/dataviz (10 November 2026, 21:36:54 +0100)
+>
+> # Data Visualization (10 November 2026, 21:36:54 +0100)
+>
+> A chart is **read by people and executed by you**. This skill turns "make it look (10 November 2026, 21:36:54 +0100)
+> good" into a procedure with checks, so the result is right by construction rather (10 November 2026, 21:36:54 +0100)
+> than by taste. (10 November 2026, 21:36:54 +0100)
+>
+> **The method here is design-system-agnostic.** Nothing in the procedure, the form (10 November 2026, 21:36:54 +0100)
+> heuristic, the six checks, or the mark specs is specific to one product. A design (10 November 2026, 21:36:54 +0100)
+> system supplies a small set of *parameters* (its ramps, a categorical order, a (10 November 2026, 21:36:54 +0100)
+> diverging pair, a status palette, a texture, its surfaces, its filter components); (10 November 2026, 21:36:54 +0100)
+> the method consumes them unchanged. A **validated default palette** is the (10 November 2026, 21:36:54 +0100)
+> reference instance, fully specified in `references/palette.md`. To target your (10 November 2026, 21:36:54 +0100)
+> brand, read that file's structure and substitute its values - touch nothing else. (10 November 2026, 21:36:54 +0100)
+>
+> > The single most important habit: **the color part is computable, so compute it.** (10 November 2026, 21:36:54 +0100)
+> > Never eyeball whether a palette is colorblind-safe - run `scripts/validate_palette.js`. (10 November 2026, 21:36:54 +0100)
+>
+> ## The procedure - do these in order (10 November 2026, 21:36:54 +0100)
+>
+> Color comes LAST. Most bad charts pick colors first. (10 November 2026, 21:36:54 +0100)
+>
+> 1. **Pick the form.** What is the data's job - magnitude, identity, polarity, a (10 November 2026, 21:36:54 +0100)
+>    single headline, change-over-time? The job picks the chart type, and sometimes (10 November 2026, 21:36:54 +0100)
+>    the answer is *not a chart* (a stat tile or hero number). -> `references/choosing-a-form.md` (10 November 2026, 21:36:54 +0100)
+> 2. **Assign color by the job it does.** Categorical (identity), sequential (10 November 2026, 21:36:54 +0100)
+>    (magnitude), diverging (polarity), or status (state) - each has one rule. (10 November 2026, 21:36:54 +0100)
+>    Assign categorical hues in fixed order, never cycled. -> `references/color-formula.md` (10 November 2026, 21:36:54 +0100)
+> 3. **VALIDATE the palette - run the script, don't reason about Delta E.** (10 November 2026, 21:36:54 +0100)
+>    `node scripts/validate_palette.js "<hex,hex,...>" --mode light` (relative to (10 November 2026, 21:36:54 +0100)
+>    this skill's base directory - or load it as `<script type="module">` in the (10 November 2026, 21:36:54 +0100)
+>    chart's own page, where it reads (10 November 2026, 21:36:54 +0100)
+>    `data-palette` off `<body>` and logs a `console.table` report). It returns (10 November 2026, 21:36:54 +0100)
+>    pass/fail on the lightness band, chroma floor, adjacent-pair CVD separation, (10 November 2026, 21:36:54 +0100)
+>    the normal-vision floor, and contrast. Fix anything that FAILs before continuing. Re-run for (10 November 2026, 21:36:54 +0100)
+>    `--mode dark` with that mode's surface. (10 November 2026, 21:36:54 +0100)
+> 4. **Apply mark specs & spacers.** Thin marks, 4px rounded data-ends anchored to (10 November 2026, 21:36:54 +0100)
+>    the baseline, 2px lines, >=8px markers, a 2px surface gap between fills (stacked (10 November 2026, 21:36:54 +0100)
+>    segments and adjacent bars alike) and a 2px surface ring on overlapping marks, (10 November 2026, 21:36:54 +0100)
+>    selective direct labels. -> `references/marks-and-anatomy.md` (10 November 2026, 21:36:54 +0100)
+> 5. **Add the hover layer - by default.** An HTML/SVG chart *is* interactive; ship (10 November 2026, 21:36:54 +0100)
+>    a crosshair+tooltip on line/area and a per-mark hover tooltip on bar/dot/cell. (10 November 2026, 21:36:54 +0100)
+>    The only form that skips it is a bare stat tile with no plot. Hit targets bigger (10 November 2026, 21:36:54 +0100)
+>    than the mark; filters in one row above the charts. -> `references/interaction.md` (10 November 2026, 21:36:54 +0100)
+> 6. **Final accessibility pass.** For >= 2 series a legend is always present and <= 4 (10 November 2026, 21:36:54 +0100)
+>    are also direct-labeled (a single series needs no legend box - the title names (10 November 2026, 21:36:54 +0100)
+>    it), so identity is never color-alone; a table view exists; dark mode is **selected** - its own (10 November 2026, 21:36:54 +0100)
+>    steps from the same ramps, validated against the dark surface, not an automatic (10 November 2026, 21:36:54 +0100)
+>    flip; texture is available for the CVD/print/forced-colors case. (10 November 2026, 21:36:54 +0100)
+> 7. **Render it and look at it.** The validator checks color, not layout - open or (10 November 2026, 21:36:54 +0100)
+>    screenshot the output and eyeball it for label collisions, geometry, and overflow (10 November 2026, 21:36:54 +0100)
+>    before calling it done. (10 November 2026, 21:36:54 +0100)
+>
+> Then check the result against **`references/anti-patterns.md`** - it is the catalog (10 November 2026, 21:36:54 +0100)
+> of what goes wrong. If your chart matches an entry, it's wrong. (10 November 2026, 21:36:54 +0100)
+>
+> ## Non-negotiables (true in every design system) (10 November 2026, 21:36:54 +0100)
+>
+> - **Assign categorical hues in fixed order, never cycled.** A 9th series is never a (10 November 2026, 21:36:54 +0100)
+>   generated hue - it folds into "Other," small multiples, or composite encoding. (10 November 2026, 21:36:54 +0100)
+> - **One axis.** Never a dual-axis chart (two y-scales). Two measures of different (10 November 2026, 21:36:54 +0100)
+>   scale -> two charts, small multiples, or indexed to a common base. *(This is the (10 November 2026, 21:36:54 +0100)
+>   #1 chart mistake - see anti-patterns.)* (10 November 2026, 21:36:54 +0100)
+> - **Color follows the entity, never its rank.** A filter that changes the series (10 November 2026, 21:36:54 +0100)
+>   count must not repaint the survivors. (10 November 2026, 21:36:54 +0100)
+> - **Sequential = one hue, light->dark. Diverging = two hues + a neutral gray (10 November 2026, 21:36:54 +0100)
+>   midpoint.** Never a rainbow; never a hue at the diverging midpoint. (10 November 2026, 21:36:54 +0100)
+> - **Run the validator before shipping any categorical palette.** CVD Delta E >= 8 is the (10 November 2026, 21:36:54 +0100)
+>   target (OKLab ×100); 6-8 is a floor that is legal ONLY with secondary encoding. A (10 November 2026, 21:36:54 +0100)
+>   normal-vision floor below 15 is a hard FAIL - full-color readers can't tell the (10 November 2026, 21:36:54 +0100)
+>   pair apart; re-step it on the adjacent pairlist (secondary encoding does not excuse (10 November 2026, 21:36:54 +0100)
+>   this one); under `--pairs all` cut series or facet instead - see check 4. A contrast WARN (10 November 2026, 21:36:54 +0100)
+>   obligates visible labels or a table view - it is not dismissable. (10 November 2026, 21:36:54 +0100)
+> - **Thin marks; a legend always present for >= 2 series (none for one), with (10 November 2026, 21:36:54 +0100)
+>   selective direct labels (never a number on every point); recessive grid/axes.** (10 November 2026, 21:36:54 +0100)
+>   One exception, legend kept: the tall segmented bar (*Figures* in `references/marks-and-anatomy.md`). (10 November 2026, 21:36:54 +0100)
+> - **Text wears text tokens, never the series color** - values, labels, and legends (10 November 2026, 21:36:54 +0100)
+>   stay in primary/secondary/muted ink; a colored mark beside them carries identity. (10 November 2026, 21:36:54 +0100)
+> - **Status colors are reserved** (good/warning/serious/critical) and never reused (10 November 2026, 21:36:54 +0100)
+>   for "series 4"; they ship with an icon + label, never color alone. (10 November 2026, 21:36:54 +0100)
+>
+> ## Plugging in a design system (10 November 2026, 21:36:54 +0100)
+>
+> The method is invariant; only these parameters change per system. The reference (10 November 2026, 21:36:54 +0100)
+> instance - every value filled in - is `references/palette.md`. (10 November 2026, 21:36:54 +0100)
+>
+> | Parameter | What the system provides | (10 November 2026, 21:36:54 +0100)
+> |---|---| (10 November 2026, 21:36:54 +0100)
+> | **Ramps** | the hue scales (named steps) the palette draws from | (10 November 2026, 21:36:54 +0100)
+> | **Categorical theme** | the fixed hue order (a named theme); default + alternates | (10 November 2026, 21:36:54 +0100)
+> | **Sequential hue** | the default single hue for magnitude | (10 November 2026, 21:36:54 +0100)
+> | **Diverging pair** | two warm/cool poles + a neutral midpoint | (10 November 2026, 21:36:54 +0100)
+> | **Status palette** | good / warning / serious / critical - steps distinct from categorical | (10 November 2026, 21:36:54 +0100)
+> | **Texture fill** | one directional hand-drawn fill, used at 45° / 135° | (10 November 2026, 21:36:54 +0100)
+> | **Surfaces** | light & dark chart-surface colors (the validator needs these) | (10 November 2026, 21:36:54 +0100)
+> | **Filter controls** | date-range & dimension controls (behavioral spec in `interaction.md`) | (10 November 2026, 21:36:54 +0100)
+>
+> To onboard a new system: fill those rows, feed its ramps to the validator, and let (10 November 2026, 21:36:54 +0100)
+> it snap each slot to the nearest passing step. Structure and rules stay as written. (10 November 2026, 21:36:54 +0100)
+>
+> ## Reference files (10 November 2026, 21:36:54 +0100)
+>
+> | File | What it answers | (10 November 2026, 21:36:54 +0100)
+> |------|-----------------| (10 November 2026, 21:36:54 +0100)
+> | `references/choosing-a-form.md` | Which chart type / is it even a chart? | (10 November 2026, 21:36:54 +0100)
+> | `references/color-formula.md` | The four jobs, the six checks, snap-to-passing | (10 November 2026, 21:36:54 +0100)
+> | `references/marks-and-anatomy.md` | Mark specs, spacers, labels, figures, hero number | (10 November 2026, 21:36:54 +0100)
+> | `references/interaction.md` | Tooltips & hover, filters & time ranges | (10 November 2026, 21:36:54 +0100)
+> | `references/components.md` | The pieces a chart is made of - build each in plain HTML | (10 November 2026, 21:36:54 +0100)
+> | `references/anti-patterns.md` | **What goes wrong - check every chart against this** | (10 November 2026, 21:36:54 +0100)
+> | `references/palette.md` | **The reference palette instance** - every parameter, filled in; swap for your brand's | (10 November 2026, 21:36:54 +0100)
+> | `scripts/validate_palette.js` | Runnable six-checks validator (run it; don't eyeball) | (10 November 2026, 21:36:54 +0100)
+
+## 10 November 2026, 21:40:21 +0100 : Iteration
+
+<!-- feedback-event:92272019fd995085295def66b7848bb0f9e0bcb275d8dea799772649e4342d3e (10 November 2026, 21:40:21 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 21:40:21 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 21:40:21 +0100)
+
+> La première vague (quatre agents : journal en deux moitiés, verdicts en deux moitiés) lit encore. De mon côté, les deux graphiques chiffrés sont prêts. Le premier montre l'effort jour par jour : 333 des 368 entrées du journal et 19 711 images datent des six premiers jours. Le second suit les contrôles automatiques de la voiture 1, version par version, qui montent de 13 à 26 sur 27. Le constructeur des graphiques tirés des agents est écrit, et les nœuds Houdini 22 de la future carte de migration sont vérifiés. Je lance la seconde vague dès que la première a rendu ses fichiers. (10 November 2026, 21:40:21 +0100)
+
+## 10 November 2026, 21:43:25 +0100 : Order of work
+
+<!-- feedback-event:8b7530d6ed60a72c1f3670458f0404e6550e59888bcf14f3c48027ec1de01bc8 (10 November 2026, 21:43:25 +0100) -->
+- Project: zenray-meshes; kind: order. (10 November 2026, 21:43:25 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/subagents/agent-a9d5ff77399c8808e.jsonl. (10 November 2026, 21:43:25 +0100)
+
+> Output token limit hit. Resume directly — no apology, no recap of what you were doing. Pick up mid-thought if that is where the cut happened. Break remaining work into smaller pieces. (10 November 2026, 21:43:25 +0100)
+
+## 10 November 2026, 21:43:28 +0100 : Prompt
+
+<!-- feedback-event:2daf7bfa60920e153f166de6cffded651f4efc4cb7f1fc51f756b1a736c0fd51 (10 November 2026, 21:43:28 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 21:43:28 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/subagents/agent-a9d5ff77399c8808e.jsonl. (10 November 2026, 21:43:28 +0100)
+
+> Output token limit hit. Resume directly — no apology, no recap of what you were doing. Pick up mid-thought if that is where the cut happened. Break remaining work into smaller pieces. (10 November 2026, 21:43:28 +0100)
+
+## 10 November 2026, 21:43:47 +0100 : Order of work
+
+<!-- feedback-event:06133aee364ec4af9249bdbfaf4ef95068218b46e95fb46c83f9eea155adf733 (10 November 2026, 21:43:47 +0100) -->
+- Project: zenray-meshes; kind: order. (10 November 2026, 21:43:47 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/subagents/agent-a4af785ea466856e0.jsonl. (10 November 2026, 21:43:47 +0100)
+
+> Output token limit hit. Resume directly — no apology, no recap of what you were doing. Pick up mid-thought if that is where the cut happened. Break remaining work into smaller pieces. (10 November 2026, 21:43:47 +0100)
