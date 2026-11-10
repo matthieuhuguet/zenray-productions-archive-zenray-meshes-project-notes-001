@@ -10265,3 +10265,42 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 14:39:59 +0100)
 
 > Oui, jantes et pneus (10 November 2026, 14:39:59 +0100)
+
+## 10 November 2026, 14:41:33 +0100 : Iteration
+
+<!-- feedback-event:eb263e92ced26d76e5f991d37ceeeb66c8f2799d25793694f88076da62f15361 (10 November 2026, 14:41:33 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 14:41:33 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 14:41:33 +0100)
+
+> Une faute de guillemets dans l'outil des roues ; je la corrige et je relance les passes de SAM sur les quatre roues de profil. (10 November 2026, 14:41:33 +0100)
+
+## 10 November 2026, 14:43:30 +0100 : Iteration
+
+<!-- feedback-event:2e6abed813edccaca4b15086f8fe985b44e98205264216445486ca335bfdde80 (10 November 2026, 14:43:30 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 14:43:30 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 14:43:30 +0100)
+
+> Les quatre roues de profil ont leurs deux calques, pneu et jante, et c'est ton œil qui doit maintenant les valider sur la planche envoyée. (10 November 2026, 14:43:30 +0100)
+>
+> Une roue vue de côté est un cercle : le masque de SAM ne sert que de témoin, et le calque enregistré vient du cercle ajusté dessus, qui est exact et modifiable. (10 November 2026, 14:43:30 +0100)
+>
+> - **Pneu** : SAM isole bien la roue entière, et le cercle ajusté sur son bord lui correspond à 0,977 à 0,987 selon la roue. Rayon de 0,43 à 0,44 m. (10 November 2026, 14:43:30 +0100)
+> - **Jante** : SAM n'arrive pas à la séparer du pneu. Le pneu est taille basse, la jante est sombre, et il rend toujours la roue entière, même avec des points posés sur la lèvre. J'ai donc lu le rayon sur l'image elle-même : la dernière chute de gris avant le bord du pneu. Il tombe entre 0,374 et 0,381 m sur les quatre roues. (10 November 2026, 14:43:30 +0100)
+> - **Gauche contre droite** : les centres et les rayons s'accordent à moins de 9 mm. (10 November 2026, 14:43:30 +0100)
+> - **Défaut visible** : le calque du pneu avant droit a un bord qui suit mal les arêtes de l'image (0,88 pour un seuil à 0,90). (10 November 2026, 14:43:30 +0100)
+>
+> Mon premier essai supposait une jante en « métal clair » et sortait une jante presque aussi grande que le pneu. C'était faux, je l'ai corrigé en lisant la teinte au lieu de la supposer. (10 November 2026, 14:43:30 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (10 November 2026, 14:43:30 +0100)
+> |---|---|---| (10 November 2026, 14:43:30 +0100)
+> | Une passe de SAM par composant | Oui pour le pneu, non pour la jante | Pneu : accord SAM contre cercle 0,977 à 0,987 ; jante : SAM rend la roue entière, remplacé par le profil de l'image | (10 November 2026, 14:43:30 +0100)
+> | Des formes parfaites, pas des masques approximatifs | Oui | Cercles ajustés ; la jante tient dans 0,7 px d'écart sur les quatre roues | (10 November 2026, 14:43:30 +0100)
+> | Les mêmes roues à gauche et à droite | Oui | Écart de 2,4 à 8,3 mm sur les centres et les rayons | (10 November 2026, 14:43:30 +0100)
+> | N'enregistrer que les masques validés | Pas encore | Aucun calque n'a le statut validé : j'attends ton œil | (10 November 2026, 14:43:30 +0100)
+> | Branches, moyeu, disque, étrier | Non | Pas commencé, ce sont les prochains calques | (10 November 2026, 14:43:30 +0100)
+> | Pneus vus de face, d'arrière et de dessous | Non | Pas commencé | (10 November 2026, 14:43:30 +0100)
+>
+> Fichiers : (10 November 2026, 14:43:30 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/wheels-W_002_10-November-2026.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/wheels-W_002_10-November-2026.png) (10 November 2026, 14:43:30 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/02_cut/wheels_W_002/layers.json](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/02_cut/wheels_W_002/layers.json) (10 November 2026, 14:43:30 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/STATE.md](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/STATE.md) (10 November 2026, 14:43:30 +0100)
