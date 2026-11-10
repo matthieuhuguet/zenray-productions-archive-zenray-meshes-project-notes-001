@@ -10401,3 +10401,58 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 > - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/glass-side-V_002-redo_10-November-2026.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/glass-side-V_002-redo_10-November-2026.png) (10 November 2026, 14:56:59 +0100)
 > - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/02_cut/ledger.json](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/02_cut/ledger.json) (10 November 2026, 14:56:59 +0100)
 > - [/Users/zenray/.claude/skills/zenray-meshes/references/ZenRayMeshesV4.md](/Users/zenray/.claude/skills/zenray-meshes/references/ZenRayMeshesV4.md) (10 November 2026, 14:56:59 +0100)
+
+## 10 November 2026, 18:52:09 +0100 : Prompt
+
+<!-- feedback-event:d49d515fec0d5a48ed7a16adeabdabc9d141feac84310a469b932fa2bf4555a0 (10 November 2026, 18:52:09 +0100) -->
+- Project: zenray-meshes; kind: prompt. (10 November 2026, 18:52:09 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 18:52:09 +0100)
+
+> Toujours pas ça. Pour les deux éléments, le truc est pas bon. Donc ce que tu vas faire, c'est que tu vas créer... tu vas créer directement un meilleur outil pour faire ça. Je comprends pas pourquoi ça m'arrive pas à le faire, mais bon. (10 November 2026, 18:52:09 +0100)
+
+## 10 November 2026, 18:53:12 +0100 : Standing rule
+
+<!-- feedback-event:0372fa6408c0597a9ed0aa762d174e4e1bb207a08a79bf003d3a369995ba9582 (10 November 2026, 18:53:12 +0100) -->
+- Project: zenray-meshes; kind: rule. (10 November 2026, 18:53:12 +0100)
+
+> 10 November 2026, Matthieu sur la roue unique et le pare-brise : « Toujours pas ça. Pour les deux éléments, le truc est pas bon. Tu vas créer directement un meilleur outil pour faire ça. Je comprends pas pourquoi ça n'arrive pas à le faire. » Constat de l'agent : les vues font 620 px de large (une roue = 100 px, un bras de jante = 2 px) ; les formes enregistrées étaient des contours mous (harmoniques) et des traits d'épaisseur constante, pas un dessin en droites, arcs et coins nets recalé sur l'image. (10 November 2026, 18:53:12 +0100)
+
+## 10 November 2026, 18:57:22 +0100 : Iteration
+
+<!-- feedback-event:b3b2987e8fd45b8825a58e594c2987a9728958913d003690f53a097ce9e4f201 (10 November 2026, 18:57:22 +0100) -->
+- Project: zenray-meshes; kind: iteration. (10 November 2026, 18:57:22 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (10 November 2026, 18:57:22 +0100)
+
+> Ce n'est toujours pas bon, et en agrandissant enfin les pièces j'ai trouvé pourquoi : le problème vient surtout de l'image, et de deux erreurs de ma part. J'ai écrit deux outils meilleurs, mais ils ne suffisent pas tant que la définition des vues reste aussi basse. (10 November 2026, 18:57:22 +0100)
+>
+> **Pourquoi ça rate** (10 November 2026, 18:57:22 +0100)
+>
+> - **Les vues sont minuscules.** La planche fait 1254 px pour six vues, donc 620 px par vue : un pixel vaut 5 à 9 mm sur la voiture. Une roue fait 100 px, un bras de jante 2 px, un montant de pare-brise 3 px. Aucun outil ne peut dessiner une ligne que l'image ne contient pas. (10 November 2026, 18:57:22 +0100)
+> - **Ce que j'appelais « pare-brise » n'en était pas un.** SAM rendait toute la zone sombre d'un bloc : vitre, tour noir, montants et vitres de côté réunis. Mes contrôles chiffrés passaient quand même. (10 November 2026, 18:57:22 +0100)
+> - **J'enregistrais des contours mous**, et pour la roue des traits d'épaisseur constante, au lieu d'un dessin en droites, arcs et coins nets. (10 November 2026, 18:57:22 +0100)
+>
+> **Les deux nouveaux outils** (10 November 2026, 18:57:22 +0100)
+>
+> - **Dessin vectoriel** (`shapefit.py`) : le bord est recalé au sous-pixel sur l'arête de l'image, les coins sont détectés, puis chaque tronçon reçoit la forme la plus simple qui tient (droite, arc de cercle, courbe). La symétrie est stricte : une moitié est dessinée, l'autre est son miroir. La sortie est un SVG. (10 November 2026, 18:57:22 +0100)
+> - **Recoupe d'une région** (`splitinside.py`) : la région est découpée le long de ses lignes intérieures, et les pièces qu'aucune vraie ligne ne sépare sont fusionnées (un reflet donne un bord faible). Sur la verrière vue de dessus : six pièces symétriques au lieu d'un bloc (image envoyée). (10 November 2026, 18:57:22 +0100)
+>
+> **Où ça coince encore** (10 November 2026, 18:57:22 +0100)
+>
+> Le dessin de la vitre seule est mauvais : 28 tronçons et 18 coins, avec des marches d'escalier là où la vitre touche ses cadres. Cette limite n'est pas résolue dans l'image, l'outil suit du bruit. Je ne te l'ai pas envoyé comme résultat. (10 November 2026, 18:57:22 +0100)
+>
+> **Ce qui débloque** (10 November 2026, 18:57:22 +0100)
+>
+> Il me faut une image par vue en haute définition, comme tu l'avais proposé : six images orthographiques de la même voiture, au moins 2048 px de large chacune, en gris mat sans reflets (les reflets de la peinture blanche créent de fausses lignes). À défaut, je peux repartir de ta planche grise pour les lignes intérieures, mais c'est un autre dessin que la blanche et il reste à 620 px par vue. (10 November 2026, 18:57:22 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (10 November 2026, 18:57:22 +0100)
+> |---|---|---| (10 November 2026, 18:57:22 +0100)
+> | Un meilleur outil | Oui, deux | Dessin en droites, arcs et coins ; recoupe d'une région en pièces symétriques | (10 November 2026, 18:57:22 +0100)
+> | Que la roue et le pare-brise soient bons | Non | Les deux sont repassés « à refaire » dans le registre | (10 November 2026, 18:57:22 +0100)
+> | Comprendre pourquoi ça rate | Oui | 1 px = 5 à 9 mm ; un bras de jante = 2 px ; la région « pare-brise » contenait quatre pièces | (10 November 2026, 18:57:22 +0100)
+> | Un dessin propre de la vitre | Non | 28 tronçons, 18 coins, 69 % du dessin à 1 px d'une arête | (10 November 2026, 18:57:22 +0100)
+> | Consigner | Oui | Outils, mesures et limite écrits dans le skill, synchronisation sortie à 0 | (10 November 2026, 18:57:22 +0100)
+>
+> Fichiers : (10 November 2026, 18:57:22 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/canopy-split-P_002_10-November-2026.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/04_checks/canopy-split-P_002_10-November-2026.png) (10 November 2026, 18:57:22 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/02_cut/ledger.json](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/02_cut/ledger.json) (10 November 2026, 18:57:22 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/STATE.md](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/STATE.md) (10 November 2026, 18:57:22 +0100)
