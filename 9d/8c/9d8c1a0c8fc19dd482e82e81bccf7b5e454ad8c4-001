@@ -13572,3 +13572,26 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 > - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/Components.html](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/Components.html) (11 November 2026, 14:51:01 +0100)
 > - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/STATE.md](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/STATE.md) (11 November 2026, 14:51:01 +0100)
 > - [/Users/zenray/.claude/skills/zenray-meshes/references/ZenRayMeshes1.md](/Users/zenray/.claude/skills/zenray-meshes/references/ZenRayMeshes1.md) (11 November 2026, 14:51:01 +0100)
+
+## 11 November 2026, 15:14:18 +0100 : Prompt
+
+<!-- feedback-event:9e64f2fd1dc439bbc814ffd2919507786fc031be8bf97c631b8906c7f1264927 (11 November 2026, 15:14:18 +0100) -->
+- Project: zenray-meshes; kind: prompt. (11 November 2026, 15:14:18 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 15:14:18 +0100)
+
+> Quasi bien, sauf que les roues, les lignes sont pas parfaites et parfaitement uniformisées, et il manque pas mal de détails sur les lignes, etc. (11 November 2026, 15:14:18 +0100)
+
+## 11 November 2026, 15:16:07 +0100 : Standing rule
+
+<!-- feedback-event:44aebd8d058ebedbefbd1e4a4e47530b0513633bac9f83e47a6775df6daafdd8 (11 November 2026, 15:16:07 +0100) -->
+- Project: zenray-meshes; kind: rule. (11 November 2026, 15:16:07 +0100)
+
+> 11 November 2026, verdict de Matthieu sur le premier dessin V5 (pneu avant gauche, V_010), ses mots : « Quasi bien, sauf que les roues, les lignes sont pas parfaites et parfaitement uniformisées, et il manque pas mal de détails sur les lignes, etc. » Règle : dans un dessin V5, les lignes d'une roue sont des formes exactes et UNIFORMISÉES entre elles (anneaux d'une même famille : même centre ou centres alignés, même aplatissement, même inclinaison ; rainures d'une même famille de courbes parallèles ; contour symétrique), jamais des courbes libres voisines ; et le dessin porte toutes les lignes visibles du composant (anneaux du flanc, deux bords par rainure, lignes d'épaule, crans et lamelles en motifs réguliers), pas seulement son contour. (11 November 2026, 15:16:07 +0100)
+
+## 11 November 2026, 15:16:23 +0100 : Iteration
+
+<!-- feedback-event:715ebf09dd317b2702b4bca50592f4b602096e650de5008570cb0c45196dcf89 (11 November 2026, 15:16:23 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 15:16:23 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 15:16:23 +0100)
+
+> Verdict consigné (refusé, avec tes mots). Je reprends le profil du pneu : je déroule la roue selon l'ellipse du talon pour repérer tous ses anneaux et les ramener à une même famille parfaite. (11 November 2026, 15:16:23 +0100)
