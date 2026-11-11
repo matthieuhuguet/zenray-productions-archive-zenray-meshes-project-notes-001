@@ -13440,3 +13440,27 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 14:29:36 +0100)
 
 > J'écris maintenant la page de l'application (structure, style en Adobe Clean, puis le code d'édition des courbes). (11 November 2026, 14:29:36 +0100)
+
+## 11 November 2026, 14:34:10 +0100 : Iteration
+
+<!-- feedback-event:bcdca35cef0107d39cd9a51e02a6b1254eb0ca9e95f75d7290dd7d234364bee9 (11 November 2026, 14:34:10 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 14:34:10 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 14:34:10 +0100)
+
+> La page est écrite ; je démarre le serveur local et je teste l'application dans le navigateur intégré (jamais le tien). (11 November 2026, 14:34:10 +0100)
+
+## 11 November 2026, 14:36:33 +0100 : Iteration
+
+<!-- feedback-event:b5e9347b4ebf9fef8ff632ae36a73224f2f8fe9bdcbf8813ccf8faf1797ef42b (11 November 2026, 14:36:33 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 14:36:33 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 14:36:33 +0100)
+
+> Deux défauts trouvés par les tests : « Rendre libre » échoue côté serveur (champ manquant) et l'aimant ne ramène pas l'ancre sur l'arête. Je corrige les deux. (11 November 2026, 14:36:33 +0100)
+
+## 11 November 2026, 14:42:48 +0100 : Iteration
+
+<!-- feedback-event:b2dede89d6208d2f54e06badb04f84c292833ef249f5e090d64868396e19ecc9 (11 November 2026, 14:42:48 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 14:42:48 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 14:42:48 +0100)
+
+> Houdini répond (scène V_016 ouverte, non modifiée). Avant de renommer, je recense les références croisées entre objets pour qu'aucun lien ne casse. (11 November 2026, 14:42:48 +0100)
