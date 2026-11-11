@@ -13408,3 +13408,35 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 14:12:29 +0100)
 
 > Le protocole à neuf contrôles tourne ; je corrige un cas « rouge » de son auto-test (la forme que je croyais dissymétrique restait symétrique). (11 November 2026, 14:12:29 +0100)
+
+## 11 November 2026, 14:18:05 +0100 : Iteration
+
+<!-- feedback-event:a46d705e2a7c18c1da71da4d6574c732ec03b1f8429bd42e55a2a17c13fe2ef6 (11 November 2026, 14:18:05 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 14:18:05 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 14:18:05 +0100)
+
+> Mon script de correctifs comportait une faute de guillemets et n'a rien appliqué (les versions V_007 et M_002 sont donc de simples doublons). Je le relance corrigé. (11 November 2026, 14:18:05 +0100)
+
+## 11 November 2026, 14:26:23 +0100 : Prompt
+
+<!-- feedback-event:4aa1e81745b0d30d13c90e57bdb4253d2e5a4e80e873b19322610de16953275f (11 November 2026, 14:26:23 +0100) -->
+- Project: zenray-meshes; kind: prompt. (11 November 2026, 14:26:23 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 14:26:23 +0100)
+
+> [Image: original 2764x2263, displayed at 2000x1637. Multiply coordinates by 1.38 to map to original image.] (11 November 2026, 14:26:23 +0100)
+
+## 11 November 2026, 14:27:08 +0100 : Iteration
+
+<!-- feedback-event:3785fb8cc91c98b1976e7446d7f7acc44e55e5f2b059e2f6a4da86fd341b8064 (11 November 2026, 14:27:08 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 14:27:08 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 14:27:08 +0100)
+
+> Contour du profil refait : 6 ancres, complété par la forme régulière là où le sol masque l'arête. Je vérifie la planche puis je te l'envoie avant de construire l'application. (11 November 2026, 14:27:08 +0100)
+
+## 11 November 2026, 14:29:36 +0100 : Iteration
+
+<!-- feedback-event:8213e990ad5d9f65e4cd0362074fad4fb509bdb1661080127226c5aa553011a0 (11 November 2026, 14:29:36 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 14:29:36 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 14:29:36 +0100)
+
+> J'écris maintenant la page de l'application (structure, style en Adobe Clean, puis le code d'édition des courbes). (11 November 2026, 14:29:36 +0100)
