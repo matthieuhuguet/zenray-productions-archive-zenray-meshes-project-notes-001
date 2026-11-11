@@ -14117,3 +14117,51 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 20:29:00 +0100)
 
 > Cache central dessiné (2 anneaux, contrôles verts). Le disque de frein se lit à travers les fenêtres : bord extérieur à 109 px du centre, soit un disque d'environ 434 mm. Je crée ce composant. (11 November 2026, 20:29:00 +0100)
+
+## 11 November 2026, 20:30:02 +0100 : Iteration
+
+<!-- feedback-event:489020115ba87c2b9c7eaf96c8f7be4f5f85dc3269c6ef628409c5dffa82bb25 (11 November 2026, 20:30:02 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 20:30:02 +0100)
+- Source: checkpoint:claude:0611e96b-26b2-4d65-a9e1-cb913738cca3. (11 November 2026, 20:30:02 +0100)
+
+> V5 roue avant gauche : cache central V_001 contrôles verts ; disque de frein V_003 en cours (rouge) ; blueprint global V_002 (pneu, rebord de jante, cache central) ; section 461. Prochain geste : verdict de Matthieu sur RimLip V_002 et CentreCap V_001, puis branches (deux bords par fenêtre). (11 November 2026, 20:30:02 +0100)
+
+## 11 November 2026, 20:30:28 +0100 : Iteration
+
+<!-- feedback-event:38bf0bf3964e9237909b659ad42dfb7357845205e29017ad2971a2214b9c3c90 (11 November 2026, 20:30:28 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 20:30:28 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 20:30:28 +0100)
+
+> La roue n'est pas finie : le pneu est validé, deux pièces de plus ont leurs contrôles au vert, deux autres sont en cours avec des contrôles encore rouges, et le reste n'est pas commencé. (11 November 2026, 20:30:28 +0100)
+>
+> Le cercle « pas totalement droit » du blueprint venait de ce que la feuille montrait le tracé tel que posé sur la photo, donc avec sa perspective (anneaux aplatis de 1,5 %, bord lointain décalé de 9 px). Le blueprint est maintenant une lecture orthographique du dessin : les anneaux y sont de vrais cercles concentriques, et la feuille imprime à chaque fois cette vérification. Le tracé sur la photo reste la preuve. (11 November 2026, 20:30:28 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (11 November 2026, 20:30:28 +0100)
+> |---|---|---| (11 November 2026, 20:30:28 +0100)
+> | Valider le pneu | Fait | Ton verdict est consigné, le pneu est ouvert à la 3D | (11 November 2026, 20:30:28 +0100)
+> | Un cercle vraiment rond sur le blueprint | Fait | Rondeur mesurée sur la feuille : erreur 0,000 px, centres confondus ; l'outil de redressement a son test vert sur un cas bon et rouge sur un cas cassé | (11 November 2026, 20:30:28 +0100)
+> | L'intérieur de la jante | Rebord fait, à valider | 4 anneaux lus à 0,2–0,5 px, contrôles verts, vérifié au zoom ×8 ; le rebord et le talon du pneu lisent la même ligne (écart 0,00 %) | (11 November 2026, 20:30:28 +0100)
+> | Le moyeu | Cache central fait, à valider | 2 anneaux à 0,3 px, 100 % des points à moins de 1 px ; l'écrou moleté n'est pas dessiné | (11 November 2026, 20:30:28 +0100)
+> | Les branches | En cours, non proposé | Forme uniforme trouvée (5 grandes fenêtres, 5 petites), mais seulement 46 à 73 % du contour tombe sur une arête à moins de 1 px | (11 November 2026, 20:30:28 +0100)
+> | Le frein | En cours, non proposé | Bord du disque lu à 0,5 px (disque d'environ 434 mm), mais 66 % et 81 % des points seulement à moins de 1 px ; étrier et perçages pas commencés | (11 November 2026, 20:30:28 +0100)
+> | Consigner sur le blueprint global | Fait | Version 2 : pneu, rebord de jante, cache central ; une pièce aux contrôles rouges n'y entre pas | (11 November 2026, 20:30:28 +0100)
+> | Continuer de consigner | Fait | Documentation, règles et journal à jour ; la sauvegarde cloud n'a pas été vérifiée | (11 November 2026, 20:30:28 +0100)
+>
+> Pour les branches, six essais n'ont pas suffi. La cause est vue au zoom : chaque fenêtre a deux bords côte à côte (l'arête de la face de la branche, puis le pied de sa paroi 2 à 4 px plus loin), et côté moyeu les racines sont des arrondis ombrés sans arête franche. La suite prévue est de dessiner les deux bords que l'image montre, plutôt que de continuer à régler la méthode actuelle. (11 November 2026, 20:30:28 +0100)
+>
+> Limites à connaître : (11 November 2026, 20:30:28 +0100)
+>
+> - **Blueprint** : les vues de dessus et de face ne sont pas encore redressées. (11 November 2026, 20:30:28 +0100)
+> - **Houdini** : aucune pièce de la roue autre que le pneu n'a de vue 3D, et celle du pneu reste un test. (11 November 2026, 20:30:28 +0100)
+> - **Fin de travail** : la synthèse HTML et l'archive cloud vérifiée ne sont pas faites. (11 November 2026, 20:30:28 +0100)
+>
+> Fichiers : (11 November 2026, 20:30:28 +0100)
+>
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/blueprints/Car2_Wheel_FL_blueprint_global_V_002_11-November-2026.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/blueprints/Car2_Wheel_FL_blueprint_global_V_002_11-November-2026.png) (11 November 2026, 20:30:28 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_Wheel_FL_Tyre/boards/Car2_Wheel_FL_Tyre_blueprint_ortho_V_022_11-November-2026.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_Wheel_FL_Tyre/boards/Car2_Wheel_FL_Tyre_blueprint_ortho_V_022_11-November-2026.png) (11 November 2026, 20:30:28 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_Wheel_FL_RimLip/boards/Car2_Wheel_FL_RimLip_drawing_V_002_11-November-2026.jpg](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_Wheel_FL_RimLip/boards/Car2_Wheel_FL_RimLip_drawing_V_002_11-November-2026.jpg) (11 November 2026, 20:30:28 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_Wheel_FL_CentreCap/boards/Car2_Wheel_FL_CentreCap_drawing_V_001_11-November-2026.jpg](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_Wheel_FL_CentreCap/boards/Car2_Wheel_FL_CentreCap_drawing_V_001_11-November-2026.jpg) (11 November 2026, 20:30:28 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/Components.html](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/Components.html) (11 November 2026, 20:30:28 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/STATE.md](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/STATE.md) (11 November 2026, 20:30:28 +0100)
+>
+> Le cache central attend aussi ton verdict, après celui du rebord. (11 November 2026, 20:30:28 +0100)
