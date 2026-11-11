@@ -14101,3 +14101,19 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: checkpoint:claude:0611e96b-26b2-4d65-a9e1-cb913738cca3. (11 November 2026, 20:27:23 +0100)
 
 > V5 roue avant gauche : pneu V_022 validé ; blueprint orthographique (cercles vrais vérifiés) ; RimLip V_002 contrôles verts, verdict attendu ; blueprint global V_001 ; Spokes V_006 en cours, contrôle de bord rouge, non proposé (double bord des fenêtres). Sections 457 à 460. (11 November 2026, 20:27:23 +0100)
+
+## 11 November 2026, 20:27:39 +0100 : Iteration
+
+<!-- feedback-event:d3a5b5436a31c247988ae0a689ab475f0a61060fe98778de1f080567ff09b7e1 (11 November 2026, 20:27:39 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 20:27:39 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 20:27:39 +0100)
+
+> Tout est consigné et synchronisé. Je continue la roue par une pièce que les lecteurs actuels savent lire proprement : le moyeu (cache central et écrou), dont je mesure d'abord les anneaux. (11 November 2026, 20:27:39 +0100)
+
+## 11 November 2026, 20:29:00 +0100 : Iteration
+
+<!-- feedback-event:311f53ba568683d649883e9c6bcdba1060c60b6ca50c83fca6c414e62b90338a (11 November 2026, 20:29:00 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 20:29:00 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 20:29:00 +0100)
+
+> Cache central dessiné (2 anneaux, contrôles verts). Le disque de frein se lit à travers les fenêtres : bord extérieur à 109 px du centre, soit un disque d'environ 434 mm. Je crée ce composant. (11 November 2026, 20:29:00 +0100)
