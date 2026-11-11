@@ -14086,3 +14086,18 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 20:17:15 +0100)
 
 > Rebord de jante dessiné et vérifié au zoom (contrôles verts), blueprint redressé fait, tout consigné. Je passe aux branches : je mesure d'abord leurs bords autour du moyeu, rayon par rayon. (11 November 2026, 20:17:15 +0100)
+
+## 11 November 2026, 20:27:23 +0100 : Standing rule
+
+<!-- feedback-event:d9fe3b18c50972b7bcfe4df767bb98cfd0a5a3a5aed6516c925b4bc2f550972a (11 November 2026, 20:27:23 +0100) -->
+- Project: zenray-meshes; kind: rule. (11 November 2026, 20:27:23 +0100)
+
+> ZenRay Meshes V5, 11 November 2026 : un blueprint montre la forme VRAIE (lecture orthographique, Ortho.py) : les anneaux d'une roue y sont de vrais cercles concentriques et cette rondeur se vérifie à chaque feuille (Blueprint.py l'imprime) ; le tracé avec perspective reste la preuve sur la photo. Le blueprint global d'un ensemble ne reçoit que les composants aux contrôles automatiques verts. Deux pièces qui partagent une ligne se recoupent par un contrôle V7 entre composants. Un composant dont un contrôle reste rouge n'est pas proposé : sa cause mesurée et la méthode suivante sont consignées. (11 November 2026, 20:27:23 +0100)
+
+## 11 November 2026, 20:27:23 +0100 : Iteration
+
+<!-- feedback-event:702c83bfaeca2dcaaf8c10ac9d9defdcb71238a75825dca6ff4dde556840b921 (11 November 2026, 20:27:23 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 20:27:23 +0100)
+- Source: checkpoint:claude:0611e96b-26b2-4d65-a9e1-cb913738cca3. (11 November 2026, 20:27:23 +0100)
+
+> V5 roue avant gauche : pneu V_022 validé ; blueprint orthographique (cercles vrais vérifiés) ; RimLip V_002 contrôles verts, verdict attendu ; blueprint global V_001 ; Spokes V_006 en cours, contrôle de bord rouge, non proposé (double bord des fenêtres). Sections 457 à 460. (11 November 2026, 20:27:23 +0100)
