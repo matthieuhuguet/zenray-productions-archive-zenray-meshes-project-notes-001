@@ -13472,3 +13472,103 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 14:45:34 +0100)
 
 > Tous les auto-tests repassent au vert. J'extrais les chiffres exacts des contrôles pour rédiger la documentation V5 dans ZenRayMeshes1.md. (11 November 2026, 14:45:34 +0100)
+
+## 11 November 2026, 14:46:37 +0100 : Iteration
+
+<!-- feedback-event:f4dcdd5d28905a3a6af58fc4f4ba949362a3d9dc9a23cd8bffb2a2f801ca1475 (11 November 2026, 14:46:37 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 14:46:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 14:46:37 +0100)
+
+> La documentation s'écrit maintenant : douze sections numérotées (437 à 448) ajoutées à ZenRayMeshes1.md, que le skill charge une à une avec le nouveau lecteur de sections. (11 November 2026, 14:46:37 +0100)
+
+## 11 November 2026, 14:49:24 +0100 : Standing rule
+
+<!-- feedback-event:93ecf3451407c040c2c1d241af758bb4c2fab51eacfbba880e9fc484786e3f7b (11 November 2026, 14:49:24 +0100) -->
+- Project: zenray-meshes; kind: rule. (11 November 2026, 14:49:24 +0100)
+
+> 11 November 2026 : V5 en place, dessin d'abord : les cinq vues HD de Car2 sont des rendus en PERSPECTIVE (empattement sur longueur 0,564 au profil contre 0,538 au dessous ; talon du pneu lu en ellipse) ; ne jamais prendre une échelle sur les extrémités de la silhouette, la prendre sur les roues (Frame.py, l'empattement est l'unité) ; une forme exacte vit dans l'objet, le tracé posé sur la photo suit l'image. (11 November 2026, 14:49:24 +0100)
+
+## 11 November 2026, 14:49:25 +0100 : Standing rule
+
+<!-- feedback-event:af3cad26505bd3ba62e499307dc705a9d0ad57aa92073a455282fdcf5b992709 (11 November 2026, 14:49:25 +0100) -->
+- Project: zenray-meshes; kind: rule. (11 November 2026, 14:49:25 +0100)
+
+> 11 November 2026 : V5, un contrôle ne se relâche jamais pour faire passer un dessin : il se corrige quand il mesure autre chose que sa question (échantillons mal répartis, polarité de l'arête, crans plus étroits que la fenêtre), la raison s'écrit dans le protocole ou dans la demande du composant (faint, edge_soft_px) ; un dessin garde au plus 16 ancres par courbe, forme la plus simple d'abord (cercle, ellipse, droite, arc, puis chaîne lisse). (11 November 2026, 14:49:25 +0100)
+
+## 11 November 2026, 14:49:25 +0100 : Standing rule
+
+<!-- feedback-event:1bc5bcdde442670debdb9b4c340e7e166751fff4f753fe8cbaf9c4271fc50bac (11 November 2026, 14:49:25 +0100) -->
+- Project: zenray-meshes; kind: rule. (11 November 2026, 14:49:25 +0100)
+
+> 11 November 2026 : V5, l'application ZenRay Lines se teste sur une COPIE du projet (jamais de brouillon ni de version d'essai dans le vrai), dans le navigateur intégré ; les heures écrites dans un fichier se lisent par date, jamais à l'estime. (11 November 2026, 14:49:25 +0100)
+
+## 11 November 2026, 14:49:36 +0100 : Iteration
+
+<!-- feedback-event:8bb897982e04274671e954029aa59e99800956d2eb154d8c25191ef855019eed (11 November 2026, 14:49:36 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 14:49:36 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 14:49:36 +0100)
+
+> Skill synchronisé vers ses quatre copies. Je consigne le journal, j'arrête le surveillant de reprise et je prépare la proposition finale. (11 November 2026, 14:49:36 +0100)
+
+## 11 November 2026, 14:50:19 +0100 : Iteration
+
+<!-- feedback-event:12e7583c09b969222c03e35cfa21ec404af2eec6572f643deaf9e3691f9aec02 (11 November 2026, 14:50:19 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 14:50:19 +0100)
+- Source: checkpoint:claude:0611e96b-26b2-4d65-a9e1-cb913738cca3. (11 November 2026, 14:50:19 +0100)
+
+> 11 November 2026 : ZenRay Meshes V5 en place (le dessin d abord, un composant a la fois, priorite 0). Outils skills/zenray-meshes/scripts/v5 (Sam, Shapes, Draw, Frame, Gates, Board, Components, Serve), application ZenRay Lines.app, documentation sections 437 a 448 de ZenRayMeshes1.md, scene Houdini en pause renommee (car2_graph_V_017.hiplc). Preuves : auto-tests dans les deux sens, controles V1 a V8 verts sur le dessin V_010 du pneu avant gauche (Projects/13_Car2V5), Gates.py check rend 1 sans verdict. Prochain geste : attendre le verdict de Matthieu sur ce dessin, puis dessiner la jante. (11 November 2026, 14:50:19 +0100)
+
+## 11 November 2026, 14:51:01 +0100 : Iteration
+
+<!-- feedback-event:9cfaaec665a48b5b36706b7863c9aea062ae0647877e3828f4efef9cee099dab (11 November 2026, 14:51:01 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 14:51:01 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 14:51:01 +0100)
+
+> Le premier composant de dessin est prêt à être jugé : le pneu avant gauche, `Car2_Wheel_FL_Tyre`, version V_010, tracé sur les quatre vues où il se voit (profil, dessous, dessus, face ; il est caché en vue arrière). Tous les contrôles automatiques sont verts, et la 3D reste fermée tant que tu n'as pas validé. (11 November 2026, 14:51:01 +0100)
+>
+> Ton verdict se donne dans l'application [/Users/zenray/Applications/ZenRay Lines.app](/Users/zenray/Applications/ZenRay%20Lines.app) (boutons « Valider le dessin » et « Refuser », avec une remarque), ou simplement ici. Tu peux y retoucher chaque courbe avant de trancher. (11 November 2026, 14:51:01 +0100)
+>
+> **Ce que contient le dessin** (11 November 2026, 14:51:01 +0100)
+>
+> - **Profil** : contour en 6 ancres et talon en ellipse exacte (écart 0,21 px). (11 November 2026, 14:51:01 +0100)
+> - **Dessous** : empreinte en 6 ancres et quatre rainures en arcs. (11 November 2026, 14:51:01 +0100)
+> - **Dessus et face** : seulement le tronçon visible du pneu, en 8 et 6 ancres. (11 November 2026, 14:51:01 +0100)
+>
+> **Un fait qui change la méthode** (11 November 2026, 14:51:01 +0100)
+>
+> Les cinq vues HD sont des rendus en perspective, pas des vues orthographiques. Le rapport empattement sur longueur vaut 0,564 au profil et 0,538 au dessous, et le talon du pneu se lit comme une ellipse aplatie de 1,5 %. J'ai donc calé les vues sur les roues, avec l'empattement comme unité, et non sur la silhouette. (11 November 2026, 14:51:01 +0100)
+>
+> **Limites de ce dessin** (11 November 2026, 14:51:01 +0100)
+>
+> - Au contact du sol, un tiers du contour du profil est déduit de l'ellipse du reste, faute d'arête lisible dans l'ombre. (11 November 2026, 14:51:01 +0100)
+> - Le contour du profil garde une légère inflexion vers 1 h, là où la perspective montre un liseré de bande de roulement. (11 November 2026, 14:51:01 +0100)
+> - En vue de face, seul le flanc visible est tracé ; le contour caché n'est pas déduit des autres vues. (11 November 2026, 14:51:01 +0100)
+> - L'empreinte n'est pas symétrique (3,4 px au miroir) : c'est un fait de la référence, signalé en avertissement. (11 November 2026, 14:51:01 +0100)
+> - Deux tolérances ont été élargies et déclarées dans le composant : 2 px pour le contour du profil (arête double) et 3 % au lieu de 2 % pour l'accord du diamètre entre vues. (11 November 2026, 14:51:01 +0100)
+> - Le plan exact en mm (cercle idéal du pneu, symétries) attend la distance de caméra de chaque vue, pas encore calculée. (11 November 2026, 14:51:01 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (11 November 2026, 14:51:01 +0100)
+> |---|---|---| (11 November 2026, 14:51:01 +0100)
+> | Un composant à la fois, une étape à la fois, en priorité 0 | Oui | Règle en tête du skill ; la commande `Gates.py check` rend 1 sans ton verdict, et 0 après validation sur une copie du projet | (11 November 2026, 14:51:01 +0100)
+> | Les 5 vues HD comme sources de vérité | Oui, sauf l'arrière | Index avec empreintes ; profil, dessous, dessus et face calés sur les roues ; la vue arrière n'est pas encore calée | (11 November 2026, 14:51:01 +0100)
+> | Audit par agents Haiku 5.5 | Oui | 4 agents, 1,89 million de tokens ; 29 citations sur 30 retrouvées mot pour mot dans les sources | (11 November 2026, 14:51:01 +0100)
+> | SAM en version maximale, en zoomant sur le composant | Oui | Même région retrouvée en redemandant autrement : 0,963 à 0,996 sur les quatre vues | (11 November 2026, 14:51:01 +0100)
+> | Un protocole qui croise plusieurs vérifications | Oui | Neuf contrôles ; l'auto-test passe au vert sur un dessin juste et au rouge sur chaque dessin cassé | (11 November 2026, 14:51:01 +0100)
+> | Un premier dessin sur toutes les vues | Proposé | V_010 : huit contrôles automatiques verts, un avertissement, ton verdict manquant | (11 November 2026, 14:51:01 +0100)
+> | Une application premium en Adobe Clean, modifiable par toi | Oui, fenêtre du lanceur jamais ouverte | Gestes essayés dans le navigateur intégré sur une copie du projet ; le lanceur démarre bien son serveur | (11 November 2026, 14:51:01 +0100)
+> | Tous les outils de courbes de Maya et d'Unreal | En partie | Tangentes, mise à plat, peigne de courbure, formes exactes, aimant ; pas de miroir, pas de vues liées, pas de création d'une courbe neuve | (11 November 2026, 14:51:01 +0100)
+> | La documentation dans ZenRayMeshes1.md, chargeable par section | Oui | Sections 437 à 448 ; `Section.py show 437-448` les rend seules | (11 November 2026, 14:51:01 +0100)
+> | Noms Houdini et Unreal, inventaire HTML | Oui | Scène en pause renommée (V_017) : comptes de géométrie identiques sur les neuf objets ; page d'inventaire générée | (11 November 2026, 14:51:01 +0100)
+> | Chantier Houdini en pause | Oui | Aucune géométrie touchée, seulement des noms | (11 November 2026, 14:51:01 +0100)
+> | Synthèse HTML et archive cloud de fin de travail | Non | Point d'étape consigné en local seulement ; sauvegarde cloud non confirmée | (11 November 2026, 14:51:01 +0100)
+>
+> **Reformulation courte de ta demande** : « Passe ZenRay Meshes en V5 : on dessine chaque composant en vectoriel sur toutes les vues HD, contrôlé par plusieurs méthodes et retouchable dans une application, avant toute 3D ; propose-moi le premier dessin. » (11 November 2026, 14:51:01 +0100)
+>
+> - **Peigne de courbure** : petites dents perpendiculaires à la courbe, d'autant plus longues qu'elle tourne fort ; il montre d'un coup d'œil où une courbe ondule. (11 November 2026, 14:51:01 +0100)
+> - **Tangente continue** : la courbe arrive et repart d'une ancre dans la même direction, donc sans pli. (11 November 2026, 14:51:01 +0100)
+>
+> Fichiers : (11 November 2026, 14:51:01 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_Wheel_FL_Tyre/boards/Car2_Wheel_FL_Tyre_drawing_V_010_11-November-2026.jpg](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_Wheel_FL_Tyre/boards/Car2_Wheel_FL_Tyre_drawing_V_010_11-November-2026.jpg) (11 November 2026, 14:51:01 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/Components.html](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/Components.html) (11 November 2026, 14:51:01 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/STATE.md](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/STATE.md) (11 November 2026, 14:51:01 +0100)
+> - [/Users/zenray/.claude/skills/zenray-meshes/references/ZenRayMeshes1.md](/Users/zenray/.claude/skills/zenray-meshes/references/ZenRayMeshes1.md) (11 November 2026, 14:51:01 +0100)
