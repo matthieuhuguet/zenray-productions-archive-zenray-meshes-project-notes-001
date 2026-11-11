@@ -13884,3 +13884,107 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 18:48:01 +0100)
 
 > J'écris un outil de zoom pour regarder le tracé du pneu arc par arc contre l'image (les aperçus à 900 px sont trop petits pour juger), puis je corrige ce que l'œil montre. (11 November 2026, 18:48:01 +0100)
+
+## 11 November 2026, 18:54:14 +0100 : Iteration
+
+<!-- feedback-event:a731f509476e9a11c9671ca8140f335b0bce22a3d59a167bac57f69a13264170 (11 November 2026, 18:54:14 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 18:54:14 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 18:54:14 +0100)
+
+> Le lecteur trait par trait passe son auto-test dans les deux sens. Je l'essaie maintenant sur les vrais crans du profil. (11 November 2026, 18:54:14 +0100)
+
+## 11 November 2026, 18:56:21 +0100 : Iteration
+
+<!-- feedback-event:76efd9d3eba665870dd71792ff4f30fdcb97727a5cab39a74618c9b3a654ef3e (11 November 2026, 18:56:21 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 18:56:21 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 18:56:21 +0100)
+
+> Now the integration patch: new readers in Forms, new `how` kinds in Draw, stroke judging in the gates. (11 November 2026, 18:56:21 +0100)
+
+## 11 November 2026, 19:00:54 +0100 : Iteration
+
+<!-- feedback-event:7922315465ad27e35c6dcf8a2ed2f48479d26a697b63b2fffe1503a93b5ffaf0 (11 November 2026, 19:00:54 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 19:00:54 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 19:00:54 +0100)
+
+> Petite erreur d'ordre dans mon correctif du contrôle des traits ; je la répare et je relance le dessin et les contrôles. (11 November 2026, 19:00:54 +0100)
+
+## 11 November 2026, 19:04:19 +0100 : Iteration
+
+<!-- feedback-event:1b53a4bd3beb2a56c18cc7c0068d01624b460027ef0ae17423a040f0134706e2 (11 November 2026, 19:04:19 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 19:04:19 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 19:04:19 +0100)
+
+> L'auto-test du lecteur passe aussi pour la recherche guidée (les lois prédisent les traits pâles, l'image confirme chacun). Je redessine et repasse les contrôles. (11 November 2026, 19:04:19 +0100)
+
+## 11 November 2026, 19:05:16 +0100 : Prompt
+
+<!-- feedback-event:875c8ce9b31ee6a527beb11640fa80727902c783dcaff280fd1f2865f858424c (11 November 2026, 19:05:16 +0100) -->
+- Project: zenray-meshes; kind: prompt. (11 November 2026, 19:05:16 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 19:05:16 +0100)
+
+> [Image: original 3212x480, displayed at 2000x299. Multiply coordinates by 1.61 to map to original image.] (11 November 2026, 19:05:16 +0100)
+
+## 11 November 2026, 19:05:17 +0100 : Prompt
+
+<!-- feedback-event:0bf10f51499839f3a4e5408832232c0d31cfa3fff8e1240637d064d922579885 (11 November 2026, 19:05:17 +0100) -->
+- Project: zenray-meshes; kind: prompt. (11 November 2026, 19:05:17 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 19:05:17 +0100)
+
+> [Image: original 3212x480, displayed at 2000x299. Multiply coordinates by 1.61 to map to original image.] (11 November 2026, 19:05:17 +0100)
+
+## 11 November 2026, 19:07:54 +0100 : Iteration
+
+<!-- feedback-event:96a86d3d7c36e9cc0ecc96610f459f7aab66679a3adc08228a9251ea98157131 (11 November 2026, 19:07:54 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 19:07:54 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 19:07:54 +0100)
+
+> J'ajoute les fentes vues de face et la rainure, avec le compte donné par le profil (78), puis je relance dessin et contrôles sur trois vues. (11 November 2026, 19:07:54 +0100)
+
+## 11 November 2026, 19:10:14 +0100 : Iteration
+
+<!-- feedback-event:074600445a548ec2387b9ebd861d1670fdfbbb9914c77b635ab2c3a255552b94 (11 November 2026, 19:10:14 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 19:10:14 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 19:10:14 +0100)
+
+> Now the blueprint sheet itself: all views of the component at one real scale, white on blue. (11 November 2026, 19:10:14 +0100)
+
+## 11 November 2026, 19:10:36 +0100 : Prompt
+
+<!-- feedback-event:46c268ea6cb7713e79dd01d412afc6b6d59d33a3d6fdfe6f0c9d36fb593a4de4 (11 November 2026, 19:10:36 +0100) -->
+- Project: zenray-meshes; kind: prompt. (11 November 2026, 19:10:36 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 19:10:36 +0100)
+
+> [Image: original 2299x3970, displayed at 1158x2000. Multiply coordinates by 1.99 to map to original image.] (11 November 2026, 19:10:36 +0100)
+
+## 11 November 2026, 19:14:26 +0100 : Iteration
+
+<!-- feedback-event:64e2693cecee65185da3fa38b9f9b7022df39829210030dacd1b4609f3ff57e1 (11 November 2026, 19:14:26 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 19:14:26 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 19:14:26 +0100)
+
+> Je dérive maintenant les cotes 3D du pneu depuis le dessin (rayons, largeur, rainures, 78 lamelles par tour), puis je construis le graphe Houdini en nodes natifs. (11 November 2026, 19:14:26 +0100)
+
+## 11 November 2026, 19:16:24 +0100 : Iteration
+
+<!-- feedback-event:1b7ebac27159accbd0c10990c43628ed40f9829226736082b17fdbd17136b847 (11 November 2026, 19:16:24 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 19:16:24 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 19:16:24 +0100)
+
+> Je lance la construction du pneu dans Houdini (nodes natifs posés par le script, cotes lues sur le dessin). (11 November 2026, 19:16:24 +0100)
+
+## 11 November 2026, 19:18:07 +0100 : Prompt
+
+<!-- feedback-event:e895387783a2bee139083055887ad0353d89a7f5d75e016d5f80abe2910029c1 (11 November 2026, 19:18:07 +0100) -->
+- Project: zenray-meshes; kind: prompt. (11 November 2026, 19:18:07 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 19:18:07 +0100)
+
+> [Image: original 2764x2074, displayed at 2000x1501. Multiply coordinates by 1.38 to map to original image.] (11 November 2026, 19:18:07 +0100)
+
+## 11 November 2026, 19:20:39 +0100 : Iteration
+
+<!-- feedback-event:137adc5480325690ea8f7701c22e75e2b1737e4141a2278003e377c4780ea888 (11 November 2026, 19:20:39 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 19:20:39 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 19:20:39 +0100)
+
+> Now the documentation: I append the dated V5 sections (verdict, stroke-by-stroke reader, blueprint, Houdini view, geometry references). (11 November 2026, 19:20:39 +0100)
