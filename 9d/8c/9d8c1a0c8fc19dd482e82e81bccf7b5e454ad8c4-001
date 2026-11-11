@@ -13988,3 +13988,60 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 19:20:39 +0100)
 
 > Now the documentation: I append the dated V5 sections (verdict, stroke-by-stroke reader, blueprint, Houdini view, geometry references). (11 November 2026, 19:20:39 +0100)
+
+## 11 November 2026, 19:22:28 +0100 : Standing rule
+
+<!-- feedback-event:3145e5f27d3531453eac047a59c38b0636f30cb7859240e2747fb5c0b4dd7749 (11 November 2026, 19:22:28 +0100) -->
+- Project: zenray-meshes; kind: rule. (11 November 2026, 19:22:28 +0100)
+
+> ZenRay Meshes V5, verdict du 11 November 2026 à 18 h 45 : un petit trait (cran, lamelle, fente) n'est dessiné que s'il a d'abord été suivi un par un sur l'image (Ticks.py) ; une loi de régularité ne remplace les mesures que si elle les reproduit ; une ligne se lit là où l'image montre une ligne, jamais sur un dégradé ; chaque dessin se regarde au zoom (Zoom.py) avant d'être proposé ; toute planche de dessin porte un blueprint fond bleu et tracé blanc ; la feuille des résultats montre aussi la vue Houdini de chaque composant ; les heures écrites dans un fichier viennent de la commande date, jamais d'une estimation. (11 November 2026, 19:22:28 +0100)
+
+## 11 November 2026, 19:22:28 +0100 : Iteration
+
+<!-- feedback-event:13e9cca0e96f6c40ef053a81177a959bd97bc3f5f6f0a34a08aa4782840a8dac (11 November 2026, 19:22:28 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 19:22:28 +0100)
+- Source: checkpoint:claude:0611e96b-26b2-4d65-a9e1-cb913738cca3. (11 November 2026, 19:22:28 +0100)
+
+> V5 pneu avant gauche : dessin V_022 lu trait par trait (contrôles automatiques verts, verdict attendu), blueprint fond bleu, première vue Houdini (test), feuille des résultats et application à jour, sections 449 à 456. Prochain geste : verdict de Matthieu sur V_022. (11 November 2026, 19:22:28 +0100)
+
+## 11 November 2026, 19:23:03 +0100 : Iteration
+
+<!-- feedback-event:50f7226775e081577bcf3b9c22fff70fe5b96de0716a82de4d4e926f3628b2af (11 November 2026, 19:23:03 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 19:23:03 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 19:23:03 +0100)
+
+> Ton retour sur les arcs et les mini tracés était juste, et le zoom en a donné la cause : les crans et les lamelles étaient posés par une loi globale (un compte, une phase) sans jamais être lus un par un sur l'image. Les crans étaient donc trop courts et presque radiaux, les lamelles de la nervure 5 étaient inclinées à l'envers, et une ligne du flanc passait sur un dégradé d'ombre et non sur une ligne. (11 November 2026, 19:23:03 +0100)
+>
+> Le dessin V_022 suit maintenant chaque trait sur l'image avant de le dessiner, et ne l'uniformise que si l'image le confirme. Un trait que l'image ne montre pas n'est pas dessiné, ce qui répond aussi à ton « peut-être trop de tracés ». Le compte par tour passe de 80 à 78 : le profil se ferme sur 78 et la vue de face l'admet. (11 November 2026, 19:23:03 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (11 November 2026, 19:23:03 +0100)
+> |---|---|---| (11 November 2026, 19:23:03 +0100)
+> | Un tracé qui suit l'image, arcs et mini tracés | Fait, à valider par ton œil | Contrôles automatiques au vert ; écart médian des petits traits à l'image de 0,12 à 0,19 px ; vérifié au zoom ×7 sur profil, dessous et face | (11 November 2026, 19:23:03 +0100)
+> | Blueprint fond bleu, tracé blanc | Fait | Feuille des quatre vues à la même échelle réelle, grille de 50 mm, sans texte | (11 November 2026, 19:23:03 +0100)
+> | Composants Houdini dans la feuille des résultats | Fait | La feuille montre planche, blueprint, node, cotes lues et planche Houdini ; rendu de la page non regardé, seuls les liens d'images sont vérifiés | (11 November 2026, 19:23:03 +0100)
+> | Tout le protocole revérifié | Fait pour l'automatique | Auto-tests verts sur un cas bon et rouges sur un cas cassé ; ton verdict reste le dernier contrôle | (11 November 2026, 19:23:03 +0100)
+> | Passer à la vue Houdini | Premier jet, test non validé | 20 nodes natifs, calcul en 1,7 s, aucun avertissement ; Ø 747 mm, largeur 358 mm, 78 lamelles par tour, lus sur le dessin | (11 November 2026, 19:23:03 +0100)
+> | Livres de référence de géométrie, lien avec ZenRay Houdini | Posé, non vérifié | ZenRay Meshes n'avait aucune bibliographie des fondamentaux ; liste citée de mémoire en section 455, sans vérification en ligne | (11 November 2026, 19:23:03 +0100)
+> | Application à niveau | Partiel | Elle affiche et scelle les nouveaux traits (testé sur une copie, aucune erreur) ; ils ne se retouchent pas encore à la main | (11 November 2026, 19:23:03 +0100)
+>
+> Ce qui n'est pas au niveau de 99,9 % : (11 November 2026, 19:23:03 +0100)
+>
+> - **Vue de dessus** : elle ne porte que son contour, avec la partie cachée en pointillé. (11 November 2026, 19:23:03 +0100)
+> - **Lamelles très pâles** : quelques-unes, aux bouts des nervures, ne sont pas dessinées faute de confirmation par l'image. (11 November 2026, 19:23:03 +0100)
+> - **Pneu Houdini** : les profondeurs des rainures, lamelles et crans sont des hypothèses en curseurs, la ligne fine du flanc n'est pas modelée, la coupe laisse des faces qui ne sont pas des quads, et les captures sont orthographiques alors que tes photos ont de la perspective. (11 November 2026, 19:23:03 +0100)
+> - **Fin de travail** : la synthèse HTML et l'archive cloud vérifiée ne sont pas faites. (11 November 2026, 19:23:03 +0100)
+>
+> Un brouillon de l'application daté de 16 h 28, fondé sur V_015, masquait le nouveau dessin. Aucune ancre n'y était déplacée ; je l'ai mis de côté dans le dossier du dessin, sans rien supprimer. (11 November 2026, 19:23:03 +0100)
+>
+> Fichiers : (11 November 2026, 19:23:03 +0100)
+>
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_Wheel_FL_Tyre/boards/Car2_Wheel_FL_Tyre_blueprint_V_022_11-November-2026.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_Wheel_FL_Tyre/boards/Car2_Wheel_FL_Tyre_blueprint_V_022_11-November-2026.png) (11 November 2026, 19:23:03 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_Wheel_FL_Tyre/boards/Car2_Wheel_FL_Tyre_drawing_V_022_11-November-2026.jpg](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_Wheel_FL_Tyre/boards/Car2_Wheel_FL_Tyre_drawing_V_022_11-November-2026.jpg) (11 November 2026, 19:23:03 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_Wheel_FL_Tyre/boards/Car2_Wheel_FL_Tyre_houdini_002_V_022_11-November-2026.jpg](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_Wheel_FL_Tyre/boards/Car2_Wheel_FL_Tyre_houdini_002_V_022_11-November-2026.jpg) (11 November 2026, 19:23:03 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/Components.html](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/Components.html) (11 November 2026, 19:23:03 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_018.hiplc](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_018.hiplc) (11 November 2026, 19:23:03 +0100)
+> - [/Users/zenray/.claude/skills/zenray-meshes/references/ZenRayMeshes1.md](/Users/zenray/.claude/skills/zenray-meshes/references/ZenRayMeshes1.md) (11 November 2026, 19:23:03 +0100)
+>
+> Dans la scène, le pneu est le node `/obj/Car2/Wheel_FL_Tyre` ; la documentation est aux sections 449 à 456. (11 November 2026, 19:23:03 +0100)
+>
+> Je ne dessine ni ne modèle rien d'autre avant ton verdict sur V_022. (11 November 2026, 19:23:03 +0100)
