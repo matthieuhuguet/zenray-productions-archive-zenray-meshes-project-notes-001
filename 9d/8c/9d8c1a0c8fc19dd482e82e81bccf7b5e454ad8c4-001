@@ -13328,3 +13328,27 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 13:44:11 +0100)
 
 > Je reprends les fonctions d'ajustement déjà écrites en V4 (droite, arc, cubique, coins) pour les intégrer au noyau V5 plutôt que de les réinventer. (11 November 2026, 13:44:11 +0100)
+
+## 11 November 2026, 13:49:20 +0100 : Iteration
+
+<!-- feedback-event:e47fec01251a7be11a271648b471f71c4e003d04cba3df4f8680ae3bfe31ddac (11 November 2026, 13:49:20 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 13:49:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 13:49:20 +0100)
+
+> Je corrige une mesure trop sévère du test (distance au point échantillonné le plus proche, et non à la courbe) puis je lance SAM sur le pneu. (11 November 2026, 13:49:20 +0100)
+
+## 11 November 2026, 13:52:41 +0100 : Iteration
+
+<!-- feedback-event:639545be214ca8a071faa6bf83a4804db88a9323c64879afe6ebd2b5ded331c5 (11 November 2026, 13:52:41 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 13:52:41 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 13:52:41 +0100)
+
+> SAM a répondu sur les quatre vues (bas, dessus et face cohérents ; le profil est à refaire, l'anneau du pneu a été confondu avec la roue entière). Je regarde les masques. (11 November 2026, 13:52:41 +0100)
+
+## 11 November 2026, 13:53:57 +0100 : Iteration
+
+<!-- feedback-event:0bf454661c28b25049f16f7fe64c78e880703ab4ebca321a58c58a1bd2e5bc25 (11 November 2026, 13:53:57 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 13:53:57 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 13:53:57 +0100)
+
+> Je situe les quatre roues sur les vues de profil et de dessous, afin de caler les vues entre elles par les roues (et de vérifier si les références sont cohérentes d'une vue à l'autre). (11 November 2026, 13:53:57 +0100)
