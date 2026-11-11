@@ -13611,3 +13611,19 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 15:36:26 +0100)
 
 > Contrôles mis à jour (auto-test toujours vert et rouge). J'écris les nouvelles demandes du pneu (familles, motifs, formes exactes) et je lance le tracé V_011. (11 November 2026, 15:36:26 +0100)
+
+## 11 November 2026, 15:43:13 +0100 : Iteration
+
+<!-- feedback-event:dca4376fe034ab62272e0b4c37b1711832cacdb379a06fba8c8adb810ddd5c4d (11 November 2026, 15:43:13 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 15:43:13 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 15:43:13 +0100)
+
+> Contrôles automatiques au vert sur V_015. Je mets la planche à jour (motifs, parties cachées en pointillé) et je regarde le résultat avant de toucher à l'application. (11 November 2026, 15:43:13 +0100)
+
+## 11 November 2026, 15:43:27 +0100 : Prompt
+
+<!-- feedback-event:b908498028f260767ca76338c18e321efd9162be302a029a58c2b52271c395f8 (11 November 2026, 15:43:27 +0100) -->
+- Project: zenray-meshes; kind: prompt. (11 November 2026, 15:43:27 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 15:43:27 +0100)
+
+> [Image: original 2764x2583, displayed at 1988x1858. Multiply coordinates by 1.39 to map to original image.] (11 November 2026, 15:43:27 +0100)
