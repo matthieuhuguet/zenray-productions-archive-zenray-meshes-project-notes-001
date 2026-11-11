@@ -12106,3 +12106,191 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 > | Nœuds natifs seulement | Oui | add, resample, skin, subdivide, sweep, polyextrude, blast, polyfill, box, color, merge, null : 3 082 quads, aucun autre polygone | (11 November 2026, 00:45:48 +0100)
 >
 > La règle de la silhouette et les mesures sont consignées dans le skill (section du 11 November 2026, 01:30) et dans le journal. Le galbe du capot reste approximatif entre ses quatre sections. La prochaine étape logique : les deux prises latérales avec leurs grandes lames diagonales, qui encadrent la bouche et la lèvre. (11 November 2026, 00:45:48 +0100)
+
+## 11 November 2026, 00:56:59 +0100 : Prompt
+
+<!-- feedback-event:50a8da284a644314fb83d08b3fbe59b8f1efff97152302452d5df64d610804e0 (11 November 2026, 00:56:59 +0100) -->
+- Project: zenray-meshes; kind: prompt. (11 November 2026, 00:56:59 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 00:56:59 +0100)
+
+> on dirait que tu n'arrives pas focus sur un seul component le capot uniquement (11 November 2026, 00:56:59 +0100)
+
+## 11 November 2026, 00:57:28 +0100 : Standing rule
+
+<!-- feedback-event:2da8aabe7e21eba9e69b23dd9aef49af928c60e8ecde8ded1d85663b8619be72 (11 November 2026, 00:57:28 +0100) -->
+- Project: zenray-meshes; kind: rule. (11 November 2026, 00:57:28 +0100)
+
+> 11 November 2026 : Matthieu : « on dirait que tu n'arrives pas à te focaliser sur un seul composant, le capot uniquement ». Règle : un seul composant à la fois, ici le capot seul ; masquer les autres pièces, le finir sur les trois vues, le montrer seul face à la référence, et ne passer au suivant qu'après son verdict. Ne jamais enchaîner plusieurs composants dans un même tour. (11 November 2026, 00:57:28 +0100)
+
+## 11 November 2026, 00:57:21 +0100 : Iteration
+
+<!-- feedback-event:cf1b749796e49ba68b401614f8efda824577c173dbea5302981c287af240ae3a (11 November 2026, 00:57:21 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 00:57:21 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 00:57:21 +0100)
+
+> Tu as raison : j'ai enchaîné nez, bouche et lèvre alors que le capot lui-même n'était qu'une première forme approximative. Je reviens au capot seul, je masque tout le reste de l'avant, et je ne le quitte qu'une fois fini et montré seul face à la référence. Je consigne d'abord la règle. (11 November 2026, 00:57:21 +0100)
+
+## 11 November 2026, 01:00:02 +0100 : Prompt
+
+<!-- feedback-event:dda2fb27cd7b2705ba82e67ff2ddd52044b5e955e5b165375dc4fb19958399f1 (11 November 2026, 01:00:02 +0100) -->
+- Project: zenray-meshes; kind: prompt. (11 November 2026, 01:00:02 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 01:00:02 +0100)
+
+> [Image: original 3140x510, displayed at 2000x325. Multiply coordinates by 1.57 to map to original image.] (11 November 2026, 01:00:02 +0100)
+
+## 11 November 2026, 01:00:07 +0100 : Prompt
+
+<!-- feedback-event:ed8e84b0a3732fc08aabdc7646aa7e834219b2c4324fd4202c66a279316f7995 (11 November 2026, 01:00:07 +0100) -->
+- Project: zenray-meshes; kind: prompt. (11 November 2026, 01:00:07 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 01:00:07 +0100)
+
+> [Image: original 3140x510, displayed at 2000x325. Multiply coordinates by 1.57 to map to original image.] (11 November 2026, 01:00:07 +0100)
+
+## 11 November 2026, 01:00:37 +0100 : Iteration
+
+<!-- feedback-event:bcc0e224d232af86f24ddf365f77d62d6deb10e1a454c097e3daf9cbfafd1555 (11 November 2026, 01:00:37 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 01:00:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 01:00:37 +0100)
+
+> Tu as raison, et c'est consigné comme règle : un seul composant par tour, les autres masqués, fini sur les trois vues et montré seul avant de passer au suivant. Le nez, la bouche et la lèvre restent dans la scène, masqués, et je n'y retouche pas tant que le capot n'est pas validé. (11 November 2026, 01:00:37 +0100)
+>
+> **Le capot seul.** Je l'ai reconstruit autrement. Mes premières sections étaient prises à profondeur constante, ce qui ne pouvait pas suivre un bord arrière courbe. C'est maintenant une cage de 20 points de contrôle (4 rangées de 5, du pare-brise au nez), symétrique par construction et lissée par `subdivide` en 768 quads. Chaque point se règle en mètres sur `CTRL_hood`. (11 November 2026, 01:00:37 +0100)
+>
+> Les bords sont lus sur la planche : (11 November 2026, 01:00:37 +0100)
+> - **le bord arrière** suit la courbe avant du pare-brise vue de dessus : z 1,813 au centre, jusqu'à 1,43 au coin, à x 0,68 ; (11 November 2026, 01:00:37 +0100)
+> - **les deux arêtes latérales** descendent des coins du pare-brise jusqu'au début des sourcils des optiques (x 0,48, z 2,33) ; (11 November 2026, 01:00:37 +0100)
+> - **le nez** est à z 2,40, sur la silhouette de profil. (11 November 2026, 01:00:37 +0100)
+>
+> Seule difficulté : la planche se contredit sur la hauteur du bord arrière. La vue de face la place à 0,92 m, la silhouette de profil à 0,886 m ; j'ai pris 0,90 m. (11 November 2026, 01:00:37 +0100)
+>
+> La scène est enregistrée : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_009.hiplc](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_009.hiplc). (11 November 2026, 01:00:37 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (11 November 2026, 01:00:37 +0100)
+> |---|---|---| (11 November 2026, 01:00:37 +0100)
+> | Se concentrer sur le capot uniquement | Oui | Tout le reste est masqué, et les planches montrent le capot seul sur la référence | (11 November 2026, 01:00:37 +0100)
+> | Un capot juste par rapport à la référence | Oui sur la forme générale, à valider | De face, le bord arrière est sur les essuie-glaces et les arêtes sur les plis. De dessus, il épouse le pare-brise. De profil, il reste sous la silhouette | (11 November 2026, 01:00:37 +0100)
+> | Nœuds natifs seulement | Oui | add, subdivide, color, null : 768 quads, normales vers le haut | (11 November 2026, 01:00:37 +0100)
+>
+> La forme générale est posée, mais pas encore le détail. Sur la référence, deux lignes douces convergent en V vers le logo, et la cage actuelle ne les porte pas. Ce serait le prochain ajout sur ce même composant, si tu le juges utile. (11 November 2026, 01:00:37 +0100)
+
+## 11 November 2026, 01:03:36 +0100 : Prompt
+
+<!-- feedback-event:6f373c5b897c7666a4790cf1d6147cda05fd8554437bdad5b2e2c53ee0922c64 (11 November 2026, 01:03:36 +0100) -->
+- Project: zenray-meshes; kind: prompt. (11 November 2026, 01:03:36 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 01:03:36 +0100)
+
+> il manque la pointe (11 November 2026, 01:03:36 +0100)
+
+## 11 November 2026, 01:04:13 +0100 : Iteration
+
+<!-- feedback-event:33e74f09c61f9180cb886b19dbace3d786caf40c68d65d75758f744ad3cb7d3b (11 November 2026, 01:04:13 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 01:04:13 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 01:04:13 +0100)
+
+> La pointe : sur la référence, le capot n'a pas de bord avant droit. Ses deux arêtes se resserrent vers le logo et finissent en pointe au nez, avec une légère arête centrale qui y descend. (11 November 2026, 01:04:13 +0100)
+> - **La forme** : je resserre la rangée avant en V vers le centre. (11 November 2026, 01:04:13 +0100)
+> - **La pointe** : je pose un pli fort (crease du nœud `subdivide`) sur l'arête centrale qui mène au bout du nez. Ce point a alors trois arêtes vives, le lissage le garde pointu, et cela dessine du même coup la petite arête centrale. (11 November 2026, 01:04:13 +0100)
+
+## 11 November 2026, 01:04:53 +0100 : Prompt
+
+<!-- feedback-event:2b5bb21eecde2c363c51b96f6f789560b18045345629b6361ccf6715888087c3 (11 November 2026, 01:04:53 +0100) -->
+- Project: zenray-meshes; kind: prompt. (11 November 2026, 01:04:53 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 01:04:53 +0100)
+
+> [Image: original 3140x510, displayed at 2000x325. Multiply coordinates by 1.57 to map to original image.] (11 November 2026, 01:04:53 +0100)
+
+## 11 November 2026, 01:05:02 +0100 : Iteration
+
+<!-- feedback-event:43797b3138bf95ca721354edb1739ae05bb575f75015c8bdd91dc8290ecfb8c5 (11 November 2026, 01:05:02 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 01:05:02 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 01:05:02 +0100)
+
+> De dessus, le capot se termine maintenant en pointe sur le logo. De face, ses bords avant convergent en V vers le logo. La perspective était mal cadrée ; je la refais en visant le capot. (11 November 2026, 01:05:02 +0100)
+
+## 11 November 2026, 01:06:43 +0100 : Iteration
+
+<!-- feedback-event:fc88a687dc698419fb32c3e043bb0682a8f78b1d27e03b47d7e33d45646219f5 (11 November 2026, 01:06:43 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 01:06:43 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 01:06:43 +0100)
+
+> Le capot a sa pointe : de dessus, il se referme en V sur le logo, et la perspective le montre lisse avec la pointe vive à l'avant. Je consigne et je te le montre. (11 November 2026, 01:06:43 +0100)
+
+## 11 November 2026, 01:07:11 +0100 : Iteration
+
+<!-- feedback-event:f8211f17a71360f58d456ac844b066b430d8ab6063a2568e9dae295fe17220e2 (11 November 2026, 01:07:11 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 01:07:11 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 01:07:11 +0100)
+
+> La pointe est ajoutée. Je suis resté sur le capot seul : tout le reste est toujours masqué. La scène est enregistrée : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_011.hiplc](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_011.hiplc). (11 November 2026, 01:07:11 +0100)
+>
+> **Ce qui a changé.** La rangée avant de la cage ne fait plus un bord droit. Elle se referme en V : les coins sont à x ±0,50 et z 2,30, la pointe sur l'axe à z 2,41, à hauteur du logo. Pour que le lissage ne l'arrondisse pas, une seule arête reçoit un pli : celle qui va du centre de la cage à la pointe. Cela dessine du même coup la légère arête centrale qu'on voit sur la référence. (11 November 2026, 01:07:11 +0100)
+>
+> **Le piège en route.** Mon premier essai passait par le réglage de pli du nœud `subdivide`. Ce réglage plisse en réalité toutes les arêtes, quel que soit le groupe indiqué, et le capot ressortait facetté, avec 12° entre faces voisines. Le nœud natif `crease`, posé sur cette seule arête, règle le problème : (11 November 2026, 01:07:11 +0100)
+> - **la pointe** reste exactement à z 2,41, alors que sans pli le lissage la ramène à 2,395 et l'arrondit ; (11 November 2026, 01:07:11 +0100)
+> - **le reste** redevient lisse, avec au plus 1,45° entre faces voisines. (11 November 2026, 01:07:11 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (11 November 2026, 01:07:11 +0100)
+> |---|---|---| (11 November 2026, 01:07:11 +0100)
+> | La pointe du capot | Oui, à valider | De dessus, le capot se referme en V sur le logo. Le point mesuré est en (0 ; 0,575 ; 2,41) | (11 November 2026, 01:07:11 +0100)
+> | Un capot propre, sans facettes | Oui | Au plus 1,45° entre faces voisines hors de l'arête centrale, 768 quads | (11 November 2026, 01:07:11 +0100)
+> | Le capot seul | Oui | Toutes les autres pièces sont masquées sur les planches | (11 November 2026, 01:07:11 +0100)
+> | Nœuds natifs seulement | Oui | add, groupcreate, crease, subdivide, color, null | (11 November 2026, 01:07:11 +0100)
+>
+> Le piège du pli global est consigné dans le skill (section du 11 November 2026, 02:45) et dans le journal. De dessus, la pointe s'arrête encore environ 1 cm avant le logo. C'est la limite que fixe la silhouette de profil, qui contredit légèrement la vue de dessus ; je peux l'avancer si ton œil le demande. (11 November 2026, 01:07:11 +0100)
+
+## 11 November 2026, 01:07:34 +0100 : Prompt
+
+<!-- feedback-event:665c87b543da002e3f0cd61a379d25ca7335853aeb1686061ed5510d01bd4623 (11 November 2026, 01:07:34 +0100) -->
+- Project: zenray-meshes; kind: prompt. (11 November 2026, 01:07:34 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 01:07:34 +0100)
+
+> capot pas encore validé mais on passe à la bouche de la voiture ... go. (11 November 2026, 01:07:34 +0100)
+
+## 11 November 2026, 01:07:48 +0100 : Iteration
+
+<!-- feedback-event:0ed7244263a540b6c7623ca1f4efd0e802feef133e4feaf28626130b4346d3d3 (11 November 2026, 01:07:48 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 01:07:48 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 01:07:48 +0100)
+
+> On passe à la bouche, seule. J'isole d'abord ce composant, en masquant le capot et tout le reste. Ensuite je regarde précisément où son contour actuel s'écarte de la référence, grâce à une carte des écarts en niveaux de gris, en vue de face. (11 November 2026, 01:07:48 +0100)
+
+## 11 November 2026, 01:12:14 +0100 : Iteration
+
+<!-- feedback-event:23e861a3fd3401d0dba0670dbe2da0c06948c0483fb608b8d1208e9f11ff8d59 (11 November 2026, 01:12:14 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 01:12:14 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 01:12:14 +0100)
+
+> Le fond ne remplit plus que l'arrière : 556 quads au lieu de deux panneaux. Je repose la bouche et je recapture. (11 November 2026, 01:12:14 +0100)
+
+## 11 November 2026, 01:13:04 +0100 : Iteration
+
+<!-- feedback-event:1e2bdbb35886cf9d1e0e810aeb9f2942861bf98d031c7f7403cf17c1a8728705 (11 November 2026, 01:13:04 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 01:13:04 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 01:13:04 +0100)
+
+> La bouche est construite seule, tout le reste masqué, en nœuds natifs. La scène est enregistrée : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_012.hiplc](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_012.hiplc). (11 November 2026, 01:13:04 +0100)
+>
+> **Le contour.** Avant de toucher à quoi que ce soit, j'ai cartographié en niveaux de gris les écarts entre ma bouche précédente et la référence. Le contour collait déjà ; le seul écart venait de mon cadre, trop clair, alors qu'il est sombre sur la planche. Le travail a donc porté sur les détails. (11 November 2026, 01:13:04 +0100)
+>
+> **Les détails.** (11 November 2026, 01:13:04 +0100)
+> - **Le cadre** est sombre, épais de 16 mm. (11 November 2026, 01:13:04 +0100)
+> - **Le conduit** fait 8 cm de profondeur, avec un fond en quads. (11 November 2026, 01:13:04 +0100)
+> - **La maille** est perforée, en losanges de 12 mm, avec des fils de 2,2 mm et des trous de 4 mm de profondeur. Elle est posée 18 mm derrière le cadre et ne garde que les cellules entières à l'intérieur du contour. (11 November 2026, 01:13:04 +0100)
+> - **La barre centrale** est claire, large de 7 mm. (11 November 2026, 01:13:04 +0100)
+> - **Les huit vis** sont relevées sur la référence : deux paires en haut, une vis simple de chaque côté, et une vis dans chaque coin bas. C'est une seule définition, copiée sur leurs points. (11 November 2026, 01:13:04 +0100)
+>
+> Dans le fondu à 50 %, les vis tombent sur celles de la planche. (11 November 2026, 01:13:04 +0100)
+>
+> **En route, trois défauts corrigés.** (11 November 2026, 01:13:04 +0100)
+> - Un remplissage qui bouchait aussi l'avant du conduit et cachait toute la grille. (11 November 2026, 01:13:04 +0100)
+> - Des cellules de bord tronquées en triangles. (11 November 2026, 01:13:04 +0100)
+> - Des faces dégénérées dans le HDA des pièces rondes quand l'arrondi vaut zéro. Ce HDA saute maintenant l'arrondi dans ce cas, et la roue n'a pas changé. (11 November 2026, 01:13:04 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (11 November 2026, 01:13:04 +0100)
+> |---|---|---| (11 November 2026, 01:13:04 +0100)
+> | Passer à la bouche, seule | Oui | Toutes les autres pièces sont masquées sur les planches | (11 November 2026, 01:13:04 +0100)
+> | Une bouche fidèle à la référence | Oui sur le contour et les vis, à valider | Le contour colle d'après la carte des écarts, et les vis tombent sur celles de la planche dans le fondu | (11 November 2026, 01:13:04 +0100)
+> | Du détail | Oui | Maille perforée en profondeur, barre, vis, cadre : visibles en gros plan | (11 November 2026, 01:13:04 +0100)
+> | Nœuds natifs, en quads | Oui | 9 976 quads, aucun autre polygone | (11 November 2026, 01:13:04 +0100)
+>
+> Il reste une différence de forme. La maille de la référence est en nid d'abeille, la mienne en losanges, parce qu'un nid d'abeille donne des hexagones et non des quads. Je peux faire un nid d'abeille découpé en quads si ton œil le préfère. Tout est consigné dans le skill (section du 11 November 2026, 03:25) et dans le journal. (11 November 2026, 01:13:04 +0100)
