@@ -13464,3 +13464,11 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 14:42:48 +0100)
 
 > Houdini répond (scène V_016 ouverte, non modifiée). Avant de renommer, je recense les références croisées entre objets pour qu'aucun lien ne casse. (11 November 2026, 14:42:48 +0100)
+
+## 11 November 2026, 14:45:34 +0100 : Iteration
+
+<!-- feedback-event:6c0c0daf040e89244ec57ef40a75d19b1a712f2054d22f3b20b6174616d0236c (11 November 2026, 14:45:34 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 14:45:34 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 14:45:34 +0100)
+
+> Tous les auto-tests repassent au vert. J'extrais les chiffres exacts des contrôles pour rédiger la documentation V5 dans ZenRayMeshes1.md. (11 November 2026, 14:45:34 +0100)
