@@ -13352,3 +13352,59 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 13:53:57 +0100)
 
 > Je situe les quatre roues sur les vues de profil et de dessous, afin de caler les vues entre elles par les roues (et de vérifier si les références sont cohérentes d'une vue à l'autre). (11 November 2026, 13:53:57 +0100)
+
+## 11 November 2026, 14:02:49 +0100 : Iteration
+
+<!-- feedback-event:6010fb6e3a4bd0edc9f131c03b67ec9ad82affdc9d2ae3a6a89cbe39ab6ec913 (11 November 2026, 14:02:49 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 14:02:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 14:02:49 +0100)
+
+> Je branche l'ajustement sur le pneu : écriture des demandes de courbes (contour, talon, rainures) pour les quatre vues, puis premier tracé vectoriel réel. (11 November 2026, 14:02:49 +0100)
+
+## 11 November 2026, 14:04:52 +0100 : Iteration
+
+<!-- feedback-event:8c9d4c61baf578c0652cda09060bb5233771b55b7b79bde1c44fb2c124e86b29 (11 November 2026, 14:04:52 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 14:04:52 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 14:04:52 +0100)
+
+> Premier tracé posé : contour et rainures du dessous tombent bien, mais le masque SAM a laissé des « languettes » dans deux rainures, que je corrige avant de regarder le profil. (11 November 2026, 14:04:52 +0100)
+
+## 11 November 2026, 14:06:15 +0100 : Iteration
+
+<!-- feedback-event:50002a34ae09fcb27d462830691fd570fe676abb8c6a21067d958e9833c775e4 (11 November 2026, 14:06:15 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 14:06:15 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 14:06:15 +0100)
+
+> Le contour du dessous garde une encoche réelle (extrémité d'une rainure) qui impose des coins ; je déclare ce contour « lisse, sans coin » dans la demande du composant et je relance. (11 November 2026, 14:06:15 +0100)
+
+## 11 November 2026, 14:07:27 +0100 : Iteration
+
+<!-- feedback-event:4a47fc66562a04b411090ded31ecaa3bcb9b6ca6ae393a8cb78f54b67bb3c292 (11 November 2026, 14:07:27 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 14:07:27 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 14:07:27 +0100)
+
+> Tracé V_006 : contour du dessous en 6 ancres (écart 0,30 px), talon en ellipse exacte (0,21 px), rainures en droites. Je contrôle à l'œil les quatre superpositions. (11 November 2026, 14:07:27 +0100)
+
+## 11 November 2026, 14:07:35 +0100 : Prompt
+
+<!-- feedback-event:f245a586423b65008bd15b00acc08e43f6a1450ec3cc0e91157f3910ff41286f (11 November 2026, 14:07:35 +0100) -->
+- Project: zenray-meshes; kind: prompt. (11 November 2026, 14:07:35 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 14:07:35 +0100)
+
+> [Image: original 2111x900, displayed at 2000x853. Multiply coordinates by 1.06 to map to original image.] (11 November 2026, 14:07:35 +0100)
+
+## 11 November 2026, 14:09:18 +0100 : Iteration
+
+<!-- feedback-event:53bb217ecee78c119db1b7b00a42b18ae63d034a647f058a1e968870f898065b (11 November 2026, 14:09:18 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 14:09:18 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 14:09:18 +0100)
+
+> Je cale maintenant les vues entre elles par les roues (empattement lu sur le profil et sur le dessous), ce qui donnera l'unité commune du plan. (11 November 2026, 14:09:18 +0100)
+
+## 11 November 2026, 14:12:29 +0100 : Iteration
+
+<!-- feedback-event:972a09cad70af12c519ff81258086431483d118c9fe546d6dba7c6c19159d759 (11 November 2026, 14:12:29 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 14:12:29 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 14:12:29 +0100)
+
+> Le protocole à neuf contrôles tourne ; je corrige un cas « rouge » de son auto-test (la forme que je croyais dissymétrique restait symétrique). (11 November 2026, 14:12:29 +0100)
