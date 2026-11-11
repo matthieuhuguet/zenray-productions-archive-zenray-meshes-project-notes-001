@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-11-11T00:27:48.933Z",
+ "scannedAt": "2026-11-11T12:37:17.585Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
@@ -21,18 +21,18 @@
   },
   {
    "projectId": "zenray-meshes",
-   "lines": 2421,
-   "work": 197,
+   "lines": 2566,
+   "work": 205,
    "prompts": 12,
    "first": "2026-11-05T18:27:27.070Z",
-   "last": "2026-11-11T00:26:45.529Z",
+   "last": "2026-11-11T12:35:20.663Z",
    "strength": "strong",
    "conversationId": "claude:0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "provider": "claude",
    "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
-   "title": "zenray meshes v4",
-   "updatedAt": "2026-11-11T00:26:48.113Z",
-   "bytes": 280468,
+   "title": "zenray meshes v5",
+   "updatedAt": "2026-11-11T12:36:39.395Z",
+   "bytes": 311178023,
    "boundProject": "zenray-meshes"
   },
   {
@@ -126,8 +126,8 @@
    "conversationId": "gemini:70a78ced-be34-4b18-8408-7ef23b2284af",
    "provider": "gemini",
    "sessionId": "70a78ced-be34-4b18-8408-7ef23b2284af",
-   "title": "Est-ce que pour la vidéo, tu peux simplement refaire, recompute la vidéo, mais je veux enlever toute l'UI, l'interface, je veux juste garder",
-   "updatedAt": "2026-10-27T22:39:42.736795+00:00",
+   "title": "Conversation Gemini 70a78ced",
+   "updatedAt": "2026-10-27T22:40:22.755Z",
    "bytes": 4816896,
    "boundProject": null
   },
