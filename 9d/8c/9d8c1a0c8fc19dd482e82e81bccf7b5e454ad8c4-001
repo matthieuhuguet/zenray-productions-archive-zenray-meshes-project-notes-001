@@ -12294,3 +12294,50 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 > | Nœuds natifs, en quads | Oui | 9 976 quads, aucun autre polygone | (11 November 2026, 01:13:04 +0100)
 >
 > Il reste une différence de forme. La maille de la référence est en nid d'abeille, la mienne en losanges, parce qu'un nid d'abeille donne des hexagones et non des quads. Je peux faire un nid d'abeille découpé en quads si ton œil le préfère. Tout est consigné dans le skill (section du 11 November 2026, 03:25) et dans le journal. (11 November 2026, 01:13:04 +0100)
+
+## 11 November 2026, 01:24:43 +0100 : Prompt
+
+<!-- feedback-event:5ccc036db2720d949f6ae23168171d12e19f0ef7634c210e572991e93ff6a8c3 (11 November 2026, 01:24:43 +0100) -->
+- Project: zenray-meshes; kind: prompt. (11 November 2026, 01:24:43 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 01:24:43 +0100)
+
+> quivant (11 November 2026, 01:24:43 +0100)
+
+## 11 November 2026, 01:25:15 +0100 : Iteration
+
+<!-- feedback-event:333d17c2b3c735862bcb7176ece30c393c6ad5068acf2c05cc611eef40c5f393 (11 November 2026, 01:25:15 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 01:25:15 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 01:25:15 +0100)
+
+> On passe au composant suivant de la découpe : le bandeau de nez, la bande blanche qui porte le logo entre la pointe du capot et le haut de la bouche. Il est traité seul. Son bord haut sera relié aux réglages du capot et son bord bas à ceux de la bouche : si l'un d'eux bouge, le bandeau suit. (11 November 2026, 01:25:15 +0100)
+
+## 11 November 2026, 01:25:50 +0100 : Iteration
+
+<!-- feedback-event:484454aedfa5097325ebe86d8379ab5456952b1cdb2bfd7ef515a6e350dfab47 (11 November 2026, 01:25:50 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 01:25:50 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 01:25:50 +0100)
+
+> Les normales du bandeau regardent vers l'arrière. J'ajoute un nœud `reverse`, puis je le pose dans ta session et je le capture seul. (11 November 2026, 01:25:50 +0100)
+
+## 11 November 2026, 01:26:45 +0100 : Iteration
+
+<!-- feedback-event:5a4ecba07ada90169c7a9b93873e96afb968148c2671eccec59a17ee62e71580 (11 November 2026, 01:26:45 +0100) -->
+- Project: zenray-meshes; kind: iteration. (11 November 2026, 01:26:45 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (11 November 2026, 01:26:45 +0100)
+
+> Le composant suivant est fait : le bandeau de nez, la bande blanche qui porte le logo entre la pointe du capot et le haut de la bouche. Il est traité seul, en nœuds natifs, dans [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_013.hiplc](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_013.hiplc). (11 November 2026, 01:26:45 +0100)
+>
+> **Ce qui le rend propre : il est relié à ses deux voisins.** Ses bords ne sont pas recopiés, ils sont lus directement sur les réglages des deux autres composants : (11 November 2026, 01:26:45 +0100)
+> - **le bord haut** suit la rangée avant du capot, avec sa pointe en V ; (11 November 2026, 01:26:45 +0100)
+> - **le bord bas** suit le haut du contour de la bouche, plus un demi-cadre. (11 November 2026, 01:26:45 +0100)
+>
+> Si tu modifies le capot ou la bouche, le bandeau suit tout seul. Seule sa ligne médiane lui est propre, réglable sur `CTRL_nose`. Elle reste sous la silhouette de profil. (11 November 2026, 01:26:45 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (11 November 2026, 01:26:45 +0100)
+> |---|---|---| (11 November 2026, 01:26:45 +0100)
+> | Le composant suivant, seul | Oui | Bandeau de nez seul sur la planche, tout le reste masqué | (11 November 2026, 01:26:45 +0100)
+> | Fidèle à la référence | Oui de face, à valider | Dans le fondu à 50 %, le logo de la référence tombe à la pointe du bandeau, et son bord bas sur le haut de la grille | (11 November 2026, 01:26:45 +0100)
+> | Raccord propre avec le capot et la bouche | Oui | Bords liés par expressions. La vue d'ensemble montre les trois pièces jointes sans trou | (11 November 2026, 01:26:45 +0100)
+> | Nœuds natifs, en quads | Oui | 256 quads, normales vers l'avant | (11 November 2026, 01:26:45 +0100)
+>
+> C'est consigné dans le skill (section du 11 November 2026, 03:50) et dans le journal. Ses deux extrémités, à x ±0,50, s'arrêtent net pour l'instant : elles rejoindront plus tard les sourcils des optiques et les prises latérales. (11 November 2026, 01:26:45 +0100)
