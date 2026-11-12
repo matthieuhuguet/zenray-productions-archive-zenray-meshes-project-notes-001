@@ -1,0 +1,18 @@
+{
+  "date": "12 November 2026",
+  "slug": "zenray-blueprints-3d-v2",
+  "folder": "2026-11-12-zenray-blueprints-3d-v2",
+  "version": 1,
+  "title": "ZenRay Blueprints 3D, version 2",
+  "module": "zenray-meshes",
+  "assetsProject": "zenray-edit",
+  "project": "zenray-meshes",
+  "status": "pending",
+  "atelier": "/Users/zenray/.claude/tmp/tmp-zenray-blueprints-3d-12-november-2026",
+  "files": [
+    "index.html"
+  ],
+  "indexSha256": "aed291df48d5257be9e8543b4ef5ca16ed86df4fd883a444b6ba56be9fcc56ac",
+  "filedAt": "2026-11-12T13:54:24.452Z",
+  "note": null
+}
