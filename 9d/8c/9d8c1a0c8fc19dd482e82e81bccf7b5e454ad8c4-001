@@ -17471,3 +17471,18 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 > Continue the conversation from where it left off without asking the user any further questions. Resume directly — do not acknowledge the summary, do not recap what was happening, do not preface with "I'll continue" or similar. Pick up the last task as if the break never happened. (12 November 2026, 14:50:03 +0100)
 >
 > The messages after this summary are the most recent messages from before compaction, kept verbatim. The summary was written without seeing them, so something it says has not happened yet may already have happened in them. (12 November 2026, 14:50:03 +0100)
+
+## 12 November 2026, 14:52:18 +0100 : Iteration
+
+<!-- feedback-event:f17740dd1b842834f8dda2ab6e034f049cdb430b7535f8415d3801b11780d943 (12 November 2026, 14:52:18 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 14:52:18 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 14:52:18 +0100)
+
+> La Planche version 2 s'affiche correctement (projet en tête de la colonne, groupes repliables, cinq vues en colonnes) ; je regarde maintenant les vues Chantiers et Chronologie. (12 November 2026, 14:52:18 +0100)
+
+## 12 November 2026, 14:52:49 +0100 : Prompt
+
+<!-- feedback-event:651b1a08073503f5b67f6675a891c3fdd98cc81fe6408c0d50c66ca03b454d55 (12 November 2026, 14:52:49 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 14:52:49 +0100)
+
+> En soi, pas besoin de tout garder. Il y a juste besoin, enfin sur la fiche, tu vois, t'as mis 1, 2, 3, 4, 5, 6, 6 images. Il y a juste besoin d'en garder 4 et ensuite de faire une deuxième ligne avec 4 autres images, mais le wireframe en mode ghost. (12 November 2026, 14:52:49 +0100)
