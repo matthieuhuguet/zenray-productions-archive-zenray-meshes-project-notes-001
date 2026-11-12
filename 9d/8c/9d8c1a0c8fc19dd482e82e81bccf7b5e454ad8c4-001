@@ -14608,3 +14608,122 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 01:50:18 +0100)
 
 > [Image: original 3360x260, displayed at 2000x155. Multiply coordinates by 1.68 to map to original image.] (12 November 2026, 01:50:18 +0100)
+
+## 12 November 2026, 02:04:49 +0100 : Prompt
+
+<!-- feedback-event:3b017887898d02ec098d31b3503ae80f92e0fbf2b64d8547bce9c090ae12c816 (12 November 2026, 02:04:49 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 02:04:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 02:04:49 +0100)
+
+> [Image: original 2728x2846, displayed at 1879x1960. Multiply coordinates by 1.45 to map to original image.] (12 November 2026, 02:04:49 +0100)
+
+## 12 November 2026, 02:05:00 +0100 : Prompt
+
+<!-- feedback-event:a4fc4288c461289d2029b5619dfceae5577101f6131dd16c992a4d442fb9cb02 (12 November 2026, 02:05:00 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 02:05:00 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 02:05:00 +0100)
+
+> [Image: original 2728x2846, displayed at 1879x1960. Multiply coordinates by 1.45 to map to original image.] (12 November 2026, 02:05:00 +0100)
+
+## 12 November 2026, 02:05:32 +0100 : Prompt
+
+<!-- feedback-event:566a28953066070481e618528afed8509389419a6f02859f43be3cbc3f7bfe1a (12 November 2026, 02:05:32 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 02:05:32 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 02:05:32 +0100)
+
+> [Image: original 780x2040, displayed at 765x2000. Multiply coordinates by 1.02 to map to original image.] (12 November 2026, 02:05:32 +0100)
+
+## 12 November 2026, 02:05:37 +0100 : Prompt
+
+<!-- feedback-event:b82dd9466bfd36a65bd889ec22db4cd07195951a43efe5e300f3a9df8b5eb8d3 (12 November 2026, 02:05:37 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 02:05:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 02:05:37 +0100)
+
+> [Image: original 780x2040, displayed at 765x2000. Multiply coordinates by 1.02 to map to original image.] (12 November 2026, 02:05:37 +0100)
+
+## 12 November 2026, 02:06:34 +0100 : Standing rule
+
+<!-- feedback-event:22420699b2a239239dbffc2e6f564a28f852b054575ffc3f891465a31de538c4 (12 November 2026, 02:06:34 +0100) -->
+- Project: zenray-meshes; kind: rule. (12 November 2026, 02:06:34 +0100)
+
+> 12 November 2026 : verdict de Matthieu : la roue en forme globale est validée, « on garde la version symétrique ». Désormais la version symétrique est celle qui se construit ; la version fidèle ne se refait que sur demande. (12 November 2026, 02:06:34 +0100)
+
+## 12 November 2026, 02:06:34 +0100 : Standing rule
+
+<!-- feedback-event:c8e89a6978df4217ceeb017a66d17291591b0908805808a49161dcfca17b555c (12 November 2026, 02:06:34 +0100) -->
+- Project: zenray-meshes; kind: rule. (12 November 2026, 02:06:34 +0100)
+
+> 12 November 2026 : « je veux plus me répéter à l'avenir » : pour tout nouveau composant, appliquer sans rappel : tout le protocole V5, forme simple d'abord (droites, arcs tangents, courbes en peu de morceaux), bon contour suivi sur l'image, symétrie, fiche à quatre éléments, page des blueprints actuels reconstruite (scripts/v5/Blueprints.py). (12 November 2026, 02:06:34 +0100)
+
+## 12 November 2026, 02:07:18 +0100 : Iteration
+
+<!-- feedback-event:4f0960669b68d35cc75cfe936778f6e3cfef1075648d6a04fff54bec393f739d (12 November 2026, 02:07:18 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 02:07:18 +0100)
+- Source: checkpoint:claude:0611e96b-26b2-4d65-a9e1-cb913738cca3. (12 November 2026, 02:07:18 +0100)
+
+> Roue validée en forme globale (version symétrique gardée). Aileron arrière supérieur Car2_WingRear en forme globale symétrique : Plane V_009, EndPlate V_011, Pylon V_008 verts ; Houdini /obj/Car2/WingRear, 3 volumes fermés, scène car2_graph_V_020 ; page docs/Blueprints.html ; outil Poly.py. Prochain : verdict de Matthieu sur l aileron, détails à désigner, épine centrale. (12 November 2026, 02:07:18 +0100)
+
+## 12 November 2026, 02:08:06 +0100 : Iteration
+
+<!-- feedback-event:04a51af301dc0c67715fbe98fe29412360b1c07fc6fb390e18c04895182cb85c (12 November 2026, 02:08:06 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 02:08:06 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 02:08:06 +0100)
+
+> L'aileron arrière supérieur est dessiné et construit en forme globale symétrique : plan principal, deux dérives, deux lames porteuses, trois volumes fermés dans Houdini, contrôles automatiques verts. Il attend ton œil ; l'épine centrale, qui relie le toit à l'aile, n'est pas faite. (12 November 2026, 02:08:06 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (12 November 2026, 02:08:06 +0100)
+> |---|---|---| (12 November 2026, 02:08:06 +0100)
+> | Garder la version symétrique | Fait | Verdict consigné sur les pièces de la roue ; l'aileron n'est construit qu'en symétrique | (12 November 2026, 02:08:06 +0100)
+> | Un endroit simple pour voir les blueprints actuels | Fait | Une page par projet, dernière version de chaque feuille ; ouverte dans un navigateur isolé et regardée | (12 November 2026, 02:08:06 +0100)
+> | L'aileron en entier, tout le protocole | Fait en forme globale | Trois composants, chacun dessiné, contrôlé, regardé au zoom, avec planche et blueprint | (12 November 2026, 02:08:06 +0100)
+> | Forme simple au début | Fait | Dérive : 4 côtés droits et arcs tangents ; plan : deux bords en courbes lisses ; lame : une courbe et une épaisseur | (12 November 2026, 02:08:06 +0100)
+> | Bon contour | Fait | 93 à 100 % de chaque contour à moins de 2,5 px d'un bord de l'image ; envergure lue de derrière et de dessus à 0,59 % près | (12 November 2026, 02:08:06 +0100)
+> | Volume fermé dans Houdini et audit | Fait | 0 arête ouverte sur les trois pièces ; lignes rouges posées derrière le modèle, photo arrière au-dessus à la même échelle | (12 November 2026, 02:08:06 +0100)
+> | Ne plus te répéter | Consigné | Règle en priorité 0 du skill : protocole entier, forme simple, bon contour, symétrie, sans rappel | (12 November 2026, 02:08:06 +0100)
+>
+> Ce qui reste approximatif : (12 November 2026, 02:08:06 +0100)
+>
+> - **Section du plan** : aucune vue ne la montre. C'est une ellipse mince inclinée, bord de fuite en haut, calée pour avoir exactement la hauteur de la silhouette vue de derrière. Hypothèse. (12 November 2026, 02:08:06 +0100)
+> - **Lames** : plaques droites penchées de 34°. La courbe de leur col et le crochet du pied sont laissés pour plus tard. (12 November 2026, 02:08:06 +0100)
+> - **Dérives** : plaques plates. Vue de dessus, la dérive est mesurée mais pas dessinée (lamelle de 14 px, six essais rouges). (12 November 2026, 02:08:06 +0100)
+> - **Échelles** : l'aile paraît 6 à 7 % plus grande que les roues dans les vues de dessus et d'arrière ; je pars du profil, seule vue sûre. La hauteur de la dérive diffère de 7 % entre profil et arrière. (12 November 2026, 02:08:06 +0100)
+> - **Position** : l'aile n'est pas encore attachée à la carrosserie, ni placée par rapport à la roue dans la scène. (12 November 2026, 02:08:06 +0100)
+> - **Fin de travail** : synthèse HTML et archive cloud non faites ; le dernier point de reprise Assets a expiré avant d'aboutir. (12 November 2026, 02:08:06 +0100)
+>
+> Dans la scène `car2_graph_V_020.hiplc`, l'aileron est `/obj/Car2/WingRear`, posé 4 m derrière l'origine. (12 November 2026, 02:08:06 +0100)
+>
+> Fichiers : (12 November 2026, 02:08:06 +0100)
+>
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/Blueprints.html](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/Blueprints.html) (12 November 2026, 02:08:06 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear/boards/Car2_WingRear_audit_H_002_12-November-2026.jpg](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear/boards/Car2_WingRear_audit_H_002_12-November-2026.jpg) (12 November 2026, 02:08:06 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/blueprints/Car2_WingRear_blueprint_global_symmetric_V_001_12-November-2026.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/blueprints/Car2_WingRear_blueprint_global_symmetric_V_001_12-November-2026.png) (12 November 2026, 02:08:06 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear_Plane/boards/Car2_WingRear_Plane_drawing_V_009_12-November-2026.jpg](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear_Plane/boards/Car2_WingRear_Plane_drawing_V_009_12-November-2026.jpg) (12 November 2026, 02:08:06 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear_EndPlate/boards/Car2_WingRear_EndPlate_drawing_V_011_12-November-2026.jpg](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear_EndPlate/boards/Car2_WingRear_EndPlate_drawing_V_011_12-November-2026.jpg) (12 November 2026, 02:08:06 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear_Pylon/boards/Car2_WingRear_Pylon_drawing_V_008_12-November-2026.jpg](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear_Pylon/boards/Car2_WingRear_Pylon_drawing_V_008_12-November-2026.jpg) (12 November 2026, 02:08:06 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_020.hiplc](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_020.hiplc) (12 November 2026, 02:08:06 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/STATE.md](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/STATE.md) (12 November 2026, 02:08:06 +0100)
+>
+> Si la forme globale te convient, dis-moi quels détails itérer en premier, ou si je passe à l'épine centrale. (12 November 2026, 02:08:06 +0100)
+
+## 12 November 2026, 02:09:58 +0100 : Prompt
+
+<!-- feedback-event:a7244eab1dbcad5acb8c161d70e0696db315430b65457921c0fb501f30bb5aa8 (12 November 2026, 02:09:58 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 02:09:58 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 02:09:58 +0100)
+
+> plusieurs partie de l'aileron manque tu aurais du utiliser toutes les vues il manque les détails de l'ailerons il est lui composé en plusieurs parties et soudées actuellement les trucs sont pas soudés comprends comment il fonctionne et lance tout le protocole en entier pour l'améliorer go n'oublie les 5 vues. (12 November 2026, 02:09:58 +0100)
+
+## 12 November 2026, 02:10:16 +0100 : Prompt
+
+<!-- feedback-event:7475d7284bd1673eccf9b177cefb262170ed60c954d9d1ded2a558e21ba1dd81 (12 November 2026, 02:10:16 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 02:10:16 +0100)
+
+> plusieurs partie de l'aileron manque tu aurais du utiliser toutes les vues il manque les détails de l'ailerons il est lui composé en plusieurs parties et soudées actuellement les trucs sont pas soudés comprends comment il fonctionne et lance tout le protocole en entier pour l'améliorer go n'oublie les 5 vues. (12 November 2026, 02:10:16 +0100)
+
+## 12 November 2026, 02:21:17 +0100 : Prompt
+
+<!-- feedback-event:e0ad5235076dded8216df01ddb8e503d7baee673ffbac873dfe2d9751507fd67 (12 November 2026, 02:21:17 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 02:21:17 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 02:21:17 +0100)
+
+> [Image: original 2728x2639, displayed at 1960x1896. Multiply coordinates by 1.39 to map to original image.] (12 November 2026, 02:21:17 +0100)

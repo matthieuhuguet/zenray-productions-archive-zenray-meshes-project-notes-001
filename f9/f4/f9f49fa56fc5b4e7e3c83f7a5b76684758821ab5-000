@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-11-12T00:57:30.217Z",
+ "scannedAt": "2026-11-12T01:20:35.828Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
@@ -21,18 +21,18 @@
   },
   {
    "projectId": "zenray-meshes",
-   "lines": 3024,
-   "work": 226,
+   "lines": 3093,
+   "work": 229,
    "prompts": 15,
    "first": "2026-11-05T18:27:27.070Z",
-   "last": "2026-11-12T00:57:06.927Z",
+   "last": "2026-11-12T01:19:34.550Z",
    "strength": "strong",
    "conversationId": "claude:0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "provider": "claude",
    "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "title": "zenray meshes v5",
-   "updatedAt": "2026-11-12T00:57:07.006Z",
-   "bytes": 380320879,
+   "updatedAt": "2026-11-12T01:19:40.376Z",
+   "bytes": 280149,
    "boundProject": "zenray-meshes"
   },
   {
@@ -126,8 +126,8 @@
    "conversationId": "gemini:70a78ced-be34-4b18-8408-7ef23b2284af",
    "provider": "gemini",
    "sessionId": "70a78ced-be34-4b18-8408-7ef23b2284af",
-   "title": "Conversation Gemini 70a78ced",
-   "updatedAt": "2026-10-27T22:40:22.755Z",
+   "title": "Est-ce que pour la vidéo, tu peux simplement refaire, recompute la vidéo, mais je veux enlever toute l'UI, l'interface, je veux juste garder",
+   "updatedAt": "2026-10-27T22:39:42.736795+00:00",
    "bytes": 4816896,
    "boundProject": null
   },
@@ -258,6 +258,22 @@
    "updatedAt": "2026-10-26T11:24:39.709Z",
    "bytes": 38519,
    "boundProject": "zenray-dictate"
+  },
+  {
+   "projectId": "zenray-meshes",
+   "lines": 2,
+   "work": 0,
+   "prompts": 1,
+   "first": "2026-11-12T01:00:37.737Z",
+   "last": "2026-11-12T01:00:37.737Z",
+   "strength": "weak",
+   "conversationId": "claude:e7a595ee-68f1-4379-b8a2-2a7a1305728d",
+   "provider": "claude",
+   "sessionId": "e7a595ee-68f1-4379-b8a2-2a7a1305728d",
+   "title": "excellent zenray audio et fonts",
+   "updatedAt": "2026-11-12T01:20:15.660Z",
+   "bytes": 6763022,
+   "boundProject": "audio-fonts-gallery-12-november-2026"
   },
   {
    "projectId": "zenray-meshes",
