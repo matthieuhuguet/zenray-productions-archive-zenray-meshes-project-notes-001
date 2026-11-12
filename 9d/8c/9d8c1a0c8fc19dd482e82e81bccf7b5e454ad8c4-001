@@ -14889,3 +14889,59 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 02:26:48 +0100)
 
 > Je vérifie par mesure un écart vu sur la planche (une bande noire entre les deux plans), puis j'envoie la planche. (12 November 2026, 02:26:48 +0100)
+
+## 12 November 2026, 02:27:43 +0100 : Prompt
+
+<!-- feedback-event:f4d42b162833278bade616533afb1ba8505b736ca6875256e689534ae9d18845 (12 November 2026, 02:27:43 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 02:27:43 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 02:27:43 +0100)
+
+> [Image: original 2728x2639, displayed at 1960x1896. Multiply coordinates by 1.39 to map to original image.] (12 November 2026, 02:27:43 +0100)
+
+## 12 November 2026, 02:27:49 +0100 : Prompt
+
+<!-- feedback-event:ab303a070161f721cb08173bc8910644febafd81a4af7c2145190f948bf17047 (12 November 2026, 02:27:49 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 02:27:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 02:27:49 +0100)
+
+> [Image: original 2728x2639, displayed at 1960x1896. Multiply coordinates by 1.39 to map to original image.] (12 November 2026, 02:27:49 +0100)
+
+## 12 November 2026, 02:28:01 +0100 : Iteration
+
+<!-- feedback-event:79aac9672960f358acb7f9fc3c645a28c47b1d42f17be57d5297d8442e8c3690 (12 November 2026, 02:28:01 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 02:28:01 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 02:28:01 +0100)
+
+> Je teste une capture sans occlusion ambiante pour savoir si la bande noire est un artefact d'éclairage. (12 November 2026, 02:28:01 +0100)
+
+## 12 November 2026, 02:28:46 +0100 : Prompt
+
+<!-- feedback-event:da0bd8bf0305129f96acef545945dd4df2e33a0ad0b8804835909b39ae6fdfca (12 November 2026, 02:28:46 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 02:28:46 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 02:28:46 +0100)
+
+> [Image: original 2728x2639, displayed at 1960x1896. Multiply coordinates by 1.39 to map to original image.] (12 November 2026, 02:28:46 +0100)
+
+## 12 November 2026, 02:29:50 +0100 : Prompt
+
+<!-- feedback-event:9b6d8434af38d927b1f1faf2d3f7ee57fbe678010dcf9a3966def204cd2e9ada (12 November 2026, 02:29:50 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 02:29:50 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 02:29:50 +0100)
+
+> [Image: original 1600x2600, displayed at 1231x2000. Multiply coordinates by 1.30 to map to original image.] (12 November 2026, 02:29:50 +0100)
+
+## 12 November 2026, 02:29:55 +0100 : Prompt
+
+<!-- feedback-event:86b6748fa7cff2b11b6181eb4aeeb95495e7f625a05470fa25d5b212931a7b86 (12 November 2026, 02:29:55 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 02:29:55 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 02:29:55 +0100)
+
+> [Image: original 1600x2600, displayed at 1231x2000. Multiply coordinates by 1.30 to map to original image.] (12 November 2026, 02:29:55 +0100)
+
+## 12 November 2026, 02:29:58 +0100 : Iteration
+
+<!-- feedback-event:3c5f69d45f69fc1e7771c5441fa4c73f3c48703729053f3235d149c2b9232d2d (12 November 2026, 02:29:58 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 02:29:58 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 02:29:58 +0100)
+
+> Les pages sont à jour ; je régénère la feuille fidèle périmée de l'aileron, puis je consigne la méthode. (12 November 2026, 02:29:58 +0100)
