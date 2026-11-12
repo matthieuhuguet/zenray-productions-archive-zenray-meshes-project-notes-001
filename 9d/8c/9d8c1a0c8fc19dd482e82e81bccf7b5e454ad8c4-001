@@ -16123,3 +16123,69 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 12:12:07 +0100)
 
 > [Image: original 1900x2020, displayed at 1870x1988. Multiply coordinates by 1.02 to map to original image.] (12 November 2026, 12:12:07 +0100)
+
+## 12 November 2026, 12:13:21 +0100 : Iteration
+
+<!-- feedback-event:0384a97f41f58bb8390394683d46c0a6d1a6e693bf2712e5a31565e51f25380c (12 November 2026, 12:13:21 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 12:13:21 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 12:13:21 +0100)
+
+> Capot refait avec son milieu plat sur la largeur du renfoncement, volume fermé, scène enregistrée (V_032) ; je mesure sur la feuille stricte et je regarde le rendu. (12 November 2026, 12:13:21 +0100)
+
+## 12 November 2026, 12:14:52 +0100 : Iteration
+
+<!-- feedback-event:66ae50a2a648d4fa586d2bb1c335021c1dccae8a0d2e1da1f117b57fa55787bc (12 November 2026, 12:14:52 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 12:14:52 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 12:14:52 +0100)
+
+> Le rendu est lisse et le renfoncement ouvert ; reste la mesure du renfoncement vu de l'arrière, faussée par l'épaisseur de la pièce témoin : je la mesure sur sa seule face du dessus. (12 November 2026, 12:14:52 +0100)
+
+## 12 November 2026, 12:16:07 +0100 : Iteration
+
+<!-- feedback-event:470f9ad55217b2796c3ae9be79aa5a92f3d0f339b38c9e38f1ddf21df31c79ea (12 November 2026, 12:16:07 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 12:16:07 +0100)
+- Source: checkpoint:claude:0611e96b-26b2-4d65-a9e1-cb913738cca3. (12 November 2026, 12:16:07 +0100)
+
+> Coffre arriere en 3D (capot ferme, renfoncement ouvert), feuille stricte S_005 4 sur 5 ; deux sessions Opus 5.5 lancees (avant, profil gauche), arriere ici. Prochain : verdict de Matthieu, consolider les journaux des chantiers, face arriere. (12 November 2026, 12:16:07 +0100)
+
+## 12 November 2026, 12:17:30 +0100 : Iteration
+
+<!-- feedback-event:4ebc7ef4e903256b4a45ab709606ed87888dba5171f625a46f74129001c7a9bd (12 November 2026, 12:17:30 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 12:17:30 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 12:17:30 +0100)
+
+> Les trois chantiers sont ouverts : l'avant et le profil gauche tournent chacun dans leur session Opus 5.5 (effort xhigh), et l'arrière est passé en 3D ici. (12 November 2026, 12:17:30 +0100)
+>
+> ## Les deux sessions (12 November 2026, 12:17:30 +0100)
+>
+> - [Car2 : chantier avant (ZenRay Meshes V5)](#local_812e4c0b-8b5c-429e-854d-01e130291974) (12 November 2026, 12:17:30 +0100)
+> - [Car2 : chantier profil gauche (ZenRay Meshes V5)](#local_fd2172b1-da8d-4858-9d8a-f85ffed5a1d6) (12 November 2026, 12:17:30 +0100)
+>
+> Chacune a reçu la même consigne : lire le skill et l'état du projet, découper sa zone en composants, dessiner le premier en forme globale avec le protocole complet, traiter les cinq vues à chaque étape (dessinée, ou déclarée cachée avec sa raison), envoyer planche et blueprint, puis s'arrêter pour votre verdict avant toute 3D. (12 November 2026, 12:17:30 +0100)
+>
+> Comme elles partagent le projet, les scripts et la scène Houdini avec moi, je leur ai imposé une discipline : chacune n'écrit que dans ses dossiers de composants, ne modifie aucun script commun, tient son propre journal (`STATE_Front.md`, `STATE_SideLeft.md`) et ne touche qu'à son objet dans la scène. Je consoliderai leurs journaux. Je n'ai encore reçu aucun retour d'elles. (12 November 2026, 12:17:30 +0100)
+>
+> Pour votre test, notez qu'Opus 5.5 est le modèle le moins puissant des deux : ce sont donc ces deux sessions qui vous diront si le protocole suffit sans Fable. (12 November 2026, 12:17:30 +0100)
+>
+> ## L'arrière en 3D (12 November 2026, 12:17:30 +0100)
+>
+> Le capot du coffre est un volume fermé dans Houdini (`/obj/Car2/TrunkRear`), en une pièce, avec le renfoncement découpé et laissé ouvert, sans grille. (12 November 2026, 12:17:30 +0100)
+>
+> Les largeurs viennent de la couture vue de dessus, la hauteur de la couture de la vue arrière, et la hauteur du milieu de la vue de profil. Plus en arrière, là où la hanche cache le profil, cette hauteur est lue sur le renfoncement vu de l'arrière. (12 November 2026, 12:17:30 +0100)
+>
+> Ce qu'aucune vue ne montre reste une hypothèse écrite dans la fiche : l'épaisseur (2 cm), la queue sous l'aile, l'avant sous la prise d'air. (12 November 2026, 12:17:30 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (12 November 2026, 12:17:30 +0100)
+> |---|---|---| (12 November 2026, 12:17:30 +0100)
+> | Deux conversations Opus 5.5 effort extra, avant et profil | Oui | Les deux sessions sont démarrées ; pas encore de retour | (12 November 2026, 12:17:30 +0100)
+> | Protocole à jour, cinq vues, petites étapes, lié à la scène Houdini | Oui dans la consigne | Écrit dans chaque brief ; le respect se jugera sur leurs premiers blueprints | (12 November 2026, 12:17:30 +0100)
+> | Arrière : passer du dessin à la 3D | Oui | Capot fermé, 0 arête ouverte, 1 pièce ; scène enregistrée en V_034 | (12 November 2026, 12:17:30 +0100)
+> | Capot fidèle aux vues | En grande partie | Feuille stricte : dessus 100 %, arrière 93 %, profil 92 % | (12 November 2026, 12:17:30 +0100)
+> | Renfoncement fidèle aux vues | En partie | Dessus 100 % ; arrière 80 % (médiane 2,5 mm), encore rouge | (12 November 2026, 12:17:30 +0100)
+> | Reste de la carrosserie arrière | Non | Seul le capot est construit ; la face arrière n'est pas découpée | (12 November 2026, 12:17:30 +0100)
+> | Synthèse HTML et archive cloud | Non | Pas faites ce tour | (12 November 2026, 12:17:30 +0100)
+>
+> Fichiers : (12 November 2026, 12:17:30 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_TrunkRear/boards/Car2_TrunkRear_module_H_004_12-November-2026.jpg](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_TrunkRear/boards/Car2_TrunkRear_module_H_004_12-November-2026.jpg) (12 November 2026, 12:17:30 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_TrunkRear/boards/Car2_TrunkRear_sheet_S_005_12-November-2026.jpg](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_TrunkRear/boards/Car2_TrunkRear_sheet_S_005_12-November-2026.jpg) (12 November 2026, 12:17:30 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_034.hiplc](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_034.hiplc) (12 November 2026, 12:17:30 +0100)
