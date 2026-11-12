@@ -15530,3 +15530,218 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 > - Mesures par courbe : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear/boards/Car2_WingRear_sheet_S_003.json](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear/boards/Car2_WingRear_sheet_S_003.json) (12 November 2026, 10:45:00 +0100)
 > - Module en perspective : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear/boards/Car2_WingRear_module_H_011_12-November-2026.jpg](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear/boards/Car2_WingRear_module_H_011_12-November-2026.jpg) (12 November 2026, 10:45:00 +0100)
 > - Scène Houdini (objet `/obj/Car2/WingRear`) : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_028.hiplc](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_028.hiplc) (12 November 2026, 10:45:00 +0100)
+
+## 12 November 2026, 10:55:22 +0100 : Prompt
+
+<!-- feedback-event:ac046085eb956a650e5e84e707ddc43c6820a66685fe46d046112ec5c963a817 (12 November 2026, 10:55:22 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 10:55:22 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 10:55:22 +0100)
+
+> le component de support en v incliné n'a pas vraiment cette forme fais le mieux en regardant les vues la formes est bien mais c'est quelque chose de lié et de smooth pas deux support sans bevel tu y est presque. (12 November 2026, 10:55:22 +0100)
+>
+> Ensuite le coffre tu peux commencer à dessiner les blueprints. (12 November 2026, 10:55:22 +0100)
+
+## 12 November 2026, 10:55:22 +0100 : Prompt
+
+<!-- feedback-event:a42f8268ac648c83d37a4d56939385b3451b3b97662d376510ab2671961ce76d (12 November 2026, 10:55:22 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 10:55:22 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 10:55:22 +0100)
+
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/images/6.webp] (12 November 2026, 10:55:22 +0100)
+
+## 12 November 2026, 10:55:27 +0100 : Prompt
+
+<!-- feedback-event:91d9aaa53a4d5108a50792d598215e4a247ef9a7a44528eef61b8d073336b8c7 (12 November 2026, 10:55:27 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 10:55:27 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 10:55:27 +0100)
+
+> le component de support en v incliné n'a pas vraiment cette forme fais le mieux en regardant les vues la formes est bien mais c'est quelque chose de lié et de smooth pas deux support sans bevel tu y est presque. (12 November 2026, 10:55:27 +0100)
+>
+> Ensuite le coffre tu peux commencer à dessiner les blueprints. (12 November 2026, 10:55:27 +0100)
+>
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/images/6.webp] (12 November 2026, 10:55:27 +0100)
+
+## 12 November 2026, 10:58:07 +0100 : Prompt
+
+<!-- feedback-event:775b7a2562a7d9fef625a0e3e53595ff0ec0f5b271e86618f16827b11e0bef0f (12 November 2026, 10:58:07 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 10:58:07 +0100)
+
+> le component de support en v incliné n'a pas vraiment cette forme fais le mieux en regardant les vues la formes est bien mais c'est quelque chose de lié et de smooth pas deux support sans bevel tu y est presque. Ensuite le coffre tu peux commencer à dessiner les blueprints. (capture annotée du module : traits rouges qui suivent la lame puis le pied d'un seul geste courbe ; fichier dans 13_Car2V5/annotations) (12 November 2026, 10:58:07 +0100)
+
+## 12 November 2026, 10:58:00 +0100 : Iteration
+
+<!-- feedback-event:158159664b17c1fb59c8a372703d065feb8d87e97e7e4fcc6ef874dfb9ca681e (12 November 2026, 10:58:00 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 10:58:00 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 10:58:00 +0100)
+
+> Compris : la forme est bonne mais le support doit être une seule pièce continue, pliée en douceur de la lame vers le pied, avec des arêtes arrondies, et non une plaque et un bloc collés. Je le reconstruis ainsi, puis je commence le coffre arrière. (12 November 2026, 10:58:00 +0100)
+
+## 12 November 2026, 10:59:27 +0100 : Iteration
+
+<!-- feedback-event:453e77c7317d3887b79d4a9ec9a2f47897ff976ec5acacfa36af6faf930d1e67 (12 November 2026, 10:59:27 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 10:59:27 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 10:59:27 +0100)
+
+> Je mesure le nouveau support (une seule tôle pliée) sur la feuille stricte. (12 November 2026, 10:59:27 +0100)
+
+## 12 November 2026, 11:01:56 +0100 : Prompt
+
+<!-- feedback-event:aaebe665dcb6d1bbb06f5f48bd30f8ae2d741f0bee0d6e85ce5b14a885971a21 (12 November 2026, 11:01:56 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 11:01:56 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 11:01:56 +0100)
+
+> This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation. (12 November 2026, 11:01:56 +0100)
+>
+> <system-reminder> (12 November 2026, 11:01:56 +0100)
+> <tools-used-before-summary>Agent, Bash, CronCreate, CronDelete, CronList, Edit, Monitor, Read, SendUserFile, Skill, SubagentHandback, TaskStop, ToolSearch, WebFetch, WebSearch, Write, mcp__Claude_Browser__browser_batch, mcp__Claude_Browser__computer, mcp__Claude_Browser__find, mcp__Claude_Browser__form_input, mcp__Claude_Browser__get_page_text, mcp__Claude_Browser__javascript_tool, mcp__Claude_Browser__navigate, mcp__Claude_Browser__preview_start, mcp__Claude_Browser__preview_stop, mcp__Claude_Browser__tabs_close, mcp__Claude_Browser__tabs_context, mcp__ccd_session__start_session, mcp__ccd_turn__update_plan, mcp__ccd_turn__wrap_up, mcp__computer-use__app_ax_find, mcp__computer-use__app_batch, mcp__computer-use__app_bring_to_current_space, mcp__computer-use__app_click, mcp__computer-use__app_list_windows, mcp__computer-use__app_menu, mcp__computer-use__app_release, mcp__computer-use__app_screenshot, mcp__computer-use__computer_batch, mcp__computer-use__list_apps, mcp__computer-use__open_application, mcp__computer-use__release_full_control, mcp__computer-use__request_access, mcp__computer-use__request_full_control, mcp__zenray-houdini__houdini_hom, mcp__zenray-houdini__houdini_search, mcp__zenray-past__past_recall, mcp__zenray-past__past_resume, mcp__zenray-past__past_timeline</tools-used-before-summary> (12 November 2026, 11:01:56 +0100)
+> </system-reminder> (12 November 2026, 11:01:56 +0100)
+> Summary: (12 November 2026, 11:01:56 +0100)
+> 1. Primary Request and Intent: (12 November 2026, 11:01:56 +0100)
+>
+>    **Project ZenRay Meshes V5** (reconstruct 3D assets from reference views in Houdini; demo: supercar "Car2", five HD clay renders: front, back, left, top, bottom). Working language with the user (Matthieu): French, classical prose, brief. Requests of this segment, in order: (12 November 2026, 11:01:56 +0100)
+>
+>    - (a) Finish the rear wing as parts welded together using all five views (done: two planes + end plates + pylons + spine, 1 welded piece). (12 November 2026, 11:01:56 +0100)
+>    - (b) Annotated captures (back and top, RGB + white strokes): four components by his count: "un component au niveau du top, un autre pour l'aileron, un autre pour l'aileron et les deux extrémités et ensuite une espèce de forme en V qui retient l'aileron de la voiture"; "essaie de faire plusieurs vues pour vraiment découper tous les components"; "je veux que tu reproduises tout ces contours blueprints parfait + modeling enhancement ensuite". (12 November 2026, 11:01:56 +0100)
+>    - (c) "continue" (after a usage-limit stop). (12 November 2026, 11:01:56 +0100)
+>    - (d) "le blueprint que tu fais n'est pas strict tu devrais à mon avis mieux poser les éléments pour valider les 5 vues depuis ref traits rouges puis traits blancs sur bleu pour voir la correspondance. ici la pièce haute n'est pas correcte. et les support en v incliné ne sont pas parfait donc continue avec un protocole stricte et aligné via une sheet puis repropose le module et on passera à un component suivant sans doute le coffre arrière." (12 November 2026, 11:01:56 +0100)
+>    - (e) **Latest (governing)**, with an annotated capture of the module in perspective (red strokes following blade then foot in one curved gesture): "le component de support en v incliné n'a pas vraiment cette forme fais le mieux en regardant les vues la formes est bien mais c'est quelque chose de lié et de smooth pas deux support sans bevel tu y est presque. Ensuite le coffre tu peux commencer à dessiner les blueprints." (12 November 2026, 11:01:56 +0100)
+>
+>    **Standing constraints (in force, preserve verbatim):** (12 November 2026, 11:01:56 +0100)
+>    - Never open, drive, click or capture Matthieu's personal browser; built-in/isolated browser allowed (headless chromium `/Users/zenray/Library/Caches/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-mac-arm64/chrome-headless-shell` with `--headless --disable-gpu --hide-scrollbars --allow-file-access-from-files --window-size=W,H --screenshot=...`). (12 November 2026, 11:01:56 +0100)
+>    - Sudo password lives in `Memory1/Identity/Matthieu1.md`, never display it; never type passwords. (12 November 2026, 11:01:56 +0100)
+>    - League of Legends and Riot forbidden until 1 November 2027, even if asked; insist, do not yield. (12 November 2026, 11:01:56 +0100)
+>    - Workflows (Workflow tool) banned without double confirmation; work sequentially; Agent tool allowed (Haiku 5.5 for reading, never Sonnet nor Opus for image reading; ≤40 images per reading agent; announce token cost before launching several agents, waves of 4 max; each agent writes its deliverable to disk before returning). (12 November 2026, 11:01:56 +0100)
+>    - No AI mesh generation (Hunyuan, TRELLIS, Meshy, Tripo, Rodin); "Aucun fichier 3D fini" as reference. SAM 2.1 allowed. (12 November 2026, 11:01:56 +0100)
+>    - Never `git add -A` in `~/.claude`; downloads need explicit permission; never delete through unguarded shell variables; nothing in the Houdini scene is deleted (a script only rebuilds objects it marked itself; others are renamed and hidden); scene saved under a NEW version each time, never overwritten. (12 November 2026, 11:01:56 +0100)
+>    - No em dashes or en dashes; full absolute paths as links `[/Users/zenray/...](/Users/zenray/...)`; code identifiers in English with a dated comment (English first, then FR); HDA parametric code (8 sliders max per category, one place per value); every added line in skills/rules/memory dated like "12 November 2026"; files versioned, never overwritten. (12 November 2026, 11:01:56 +0100)
+>    - Masks/diagnostics in grey levels; component boards without text (numbers go outside); wireframe/lines overlay in red. (12 November 2026, 11:01:56 +0100)
+>    - Houdini: native nodes only inside graphs (no Python SOP, no wrangle); Python through the MCP (`mcp__zenray-houdini__houdini_hom`, target live) only places nodes and reads measures. Houdini FX 22.0.368, licence Indie (`.hiplc`); OpenGL viewport captures only. Truncate what MCP calls return. Variables defined by exec'ed scripts overwrite caller variables (H, notes, NAME, OUT, NODE): use distinct names. (12 November 2026, 11:01:56 +0100)
+>    - Send images during loops (SendUserFile); close non-trivial tasks with a 3-column table (ce que tu voulais / fait ? / comment je le sais); use `mcp__ccd_turn__update_plan` (scope "continuation") and `mcp__ccd_turn__wrap_up` (recap ≤300 chars, one question, 1–2 buttons) before the closing message. (12 November 2026, 11:01:56 +0100)
+>    - Rules/prompts: `python3 /Users/zenray/.claude/skills/zenray-feedback/scripts/feedback.py add zenray-meshes "<text>" --kind rule|prompt` (each user prompt recorded); journal: `node /Users/zenray/.claude/skills/progress/scripts/progress.mjs append --project ZenRayMeshes --fait ... --decision ... --echoue ... --verifie ... --prochain ...`; skill sync `/Users/zenray/.claude/skills/skill-sync/scripts/sync-skill.sh zenray-meshes`; Assets checkpoint `cd /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress && node scripts/Assets/Client.mjs checkpoint zenray-meshes '{"agent":"claude","sessionId":"0611e96b-26b2-4d65-a9e1-cb913738cca3","checkpointId":"<stable id>","summary":"..."}'` (no `timeout` command on this Mac: run in background with a kill after 80 s; `backupConfirmed:false`: never claim a cloud backup). (12 November 2026, 11:01:56 +0100)
+>    - Hours written in files must come from `date`. Scratchpad: `/private/tmp/claude-501/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/scratchpad/v5` (contains `refzoom.py <view> x0 y0 x1 y1 out.jpg [grid]`, a zoom of an HD view with HD pixel ticks; read coordinates from the ticks, never from displayed pixels). (12 November 2026, 11:01:56 +0100)
+>    - File work through Bash heredocs and patch scripts that assert the old text and print "patched". Typography: Adobe Clean; Anthropic Mono for code. (12 November 2026, 11:01:56 +0100)
+>    - A gate is never loosened just to make a drawing pass: corrected only when it measures something other than its question, with the reason written. Look at every drawing at zoom (`Zoom.py`) before proposing it. (12 November 2026, 11:01:56 +0100)
+>    - Priority 0 rules (in SKILL.md): global form first; symmetry before fidelity ("on garde la version symétrique"); each component record shows reference, lines, blueprint, comparison with the 3D model; "je veux plus me répéter"; look at ALL views before drawing an assembly, parts welded and proven; an annotated capture fixes the count of components and each is drawn on all views that show it, the same point in two views compared in metres before building; a module is proposed only with its STRICT SHEET; reference views are FLAT, one scale per view read on the frame, never on a part. (12 November 2026, 11:01:56 +0100)
+>    - End-of-work protocol (HTML synthesis, verified Assets archive) not done; say so honestly. (12 November 2026, 11:01:56 +0100)
+>
+> 2. Key Technical Concepts: (12 November 2026, 11:01:56 +0100)
+>    - V5 pipeline: `component.json` request → `Sam.py` → `Draw.py` readers → `Gates.py` V1–V9 → `Zoom.py` → `Board.py` → `Blueprint.py` → 3D (`Wing3D.py` + `houdini/BuildWing.py`) → `Sheet.py` strict sheet → `Components.py`, `Blueprints.py`. (12 November 2026, 11:01:56 +0100)
+>    - `how: edge_chain` (new): a closed outline walked edge after edge: pieces `{along: 'x'|'y', seed: [x,y], range: [from,to], sign, side, occluded}` or `{join: [[x,y],...], side, why}`; declared sides (each `side` name = ONE straight side; vertices = intersections; corners rounded from the outline; no cut added); stretches carried straight are `unread`; joins sampled every pixel. (12 November 2026, 11:01:56 +0100)
+>    - `reflect: {from: 'bottom', axis}` in `tracked_span` (one edge read, the other mirrored); `centre_on: 781.5` (symmetric version of a mid-car part centred on the car axis; stored in `ortho_anchors`). (12 November 2026, 11:01:56 +0100)
+>    - Gate V5 corrected: a rounded polygon is counted by sides (max 12), not anchors; red case (14 sides) in selftest. (12 November 2026, 11:01:56 +0100)
+>    - **Reference views are flat (orthographic)**: lower plane spans 894 px from above and 888 px from below; one scale per view from the frame (left 503.0, top 438.0, bottom 437.8, back 786.7 px/m); anchors: left = left rear wheel centre; top = lip of the roof scoop (fore-aft, from side view) + wing axis y 781.5; back = top of the scoop (height) + frame centreline 1376.68; bottom = trailing edge of lower plane. Front view has perspective (tyres 819 vs wing 726 px/m): a reading aid, not judged. Wing span 2.041 m (the old chain from the end plate gave 1.923 m, 6 % too small). (12 November 2026, 11:01:56 +0100)
+>    - `Cameras.py` (schema cameras@2, kind `ortho` {scale, p0, Q0, eu, ev, dir}; `pinhole` kept): `project`, `ray`, `triangulate`, `plane_of_line`, `on_plane`, `at`. (12 November 2026, 11:01:56 +0100)
+>    - `Sheet.py`: 5 rows (back, top, bottom, left, front) × 3 columns (photo + red lines | white lines on blue | model projected + red lines); per curve: share of read points within 4 px of the model outline (ok ≥ 90 %); `MODEL_OF`, `CURVE_OF` (Spine Fin→Fin, Scoop→Scoop), `IGNORE` (Spine back Scoop bottom, UpperPlane back RearFace bottom), `AID = ('front',)`. (12 November 2026, 11:01:56 +0100)
+>    - Cross-view finding: front and back views place the support tip at 79 % of the half span, top view at 75 % (4 cm); the model follows front/back; top-view supports not symmetric about the wing axis (shading). (12 November 2026, 11:01:56 +0100)
+>    - Houdini: every part = sections written by Wing3D to `guides_symmetric.obj` groups, `skin` → `polyfill` (fillmode 0) → `fuse` → optional `mirror` → `finish` (signed volume, `reverse`, CHECK open edges); four components (Top = Fin+Scoop, UpperWing, LowerWing = LowerPlane+EndPlates, Supports = Pylons+Feet) each a `boolean` union with a `switch` shown by a slider of `CTRL_Wing`; `Welded` union; `CHECK_Pieces`. (12 November 2026, 11:01:56 +0100)
+>    - Captures for audit: `LIGHTING = 'headlight'`, `AO = False` (ambient occlusion made a black band read as a hole; verified by `geometry.intersect` rays). (12 November 2026, 11:01:56 +0100)
+>
+> 3. Files and Code Sections: (12 November 2026, 11:01:56 +0100)
+>
+>    **Skill scripts `/Users/zenray/.claude/skills/zenray-meshes/scripts/v5/`** (python `/Users/zenray/.venvs/zenray-motion/bin/python`; selftests `./Poly.py`, `./Ortho.py`, `./Shapes.py`, `./Gates.py selftest`, `./Cameras.py selftest`, `./Sheet.py selftest` all green at last run) (12 November 2026, 11:01:56 +0100)
+>    - `Poly.py`: added `edge_chain(g, spec)` (returns points, read flags, record with `piece_of_point`; joins densified every px), `fit(pts, tol, min_side, mirror, ladder=None, hold_share=None, side_runs=None)`, `fit_once(..., side_runs=None)` (declared sides skip search/split/merge and tip cuts), `reflect` in `span_outline`. (12 November 2026, 11:01:56 +0100)
+>    - `Draw.py`: `hidden_sides(c_, vias)` helper; `how == 'edge_chain'` (resample, side runs via nearest neighbour, `Poly.fit` with side_runs, `unread` runs with `unread_min_px`, `hidden_via`); `centre_on` in `tracked_span`. (12 November 2026, 11:01:56 +0100)
+>    - `Gates.py`: `v5_fair` counts sides for forms starting with 'rounded polygon' (`max_sides` 12); selftest red case. (12 November 2026, 11:01:56 +0100)
+>    - `Cameras.py` (new, ortho rewrite): `build(pdir, name)`, `from_anchors(fr, par)` reading `par['camera_anchors']['views']`; CLI writes `frame/cameras.json`. (12 November 2026, 11:01:56 +0100)
+>    - `Sheet.py` (new): `run(pdir, name, tag, tol)` writes `components/<assembly>/boards/<assembly>_sheet_<tag>_<date>.jpg` and `<assembly>_sheet_<tag>.json`; usage `Sheet.py <project> <assembly> [name=S_004] [tol_px=4]`. (12 November 2026, 11:01:56 +0100)
+>    - `AuditSide.py` (new): photo with red lines | model capture for one view. (12 November 2026, 11:01:56 +0100)
+>    - `AuditBoard.py`: usage `AuditBoard.py <project> <assembly> <audit_capture> <model_capture> <audit_view> <views>` with capture names only (e.g. `audit_H_010 wing_H_010 back front,top,bottom,left,persp_back`). (12 November 2026, 11:01:56 +0100)
+>    - `Blueprint.py` / `Blueprints.py`: skip components with `status: superseded`. `Components.py`: tolerant of sentence hypotheses and missing `from`. (12 November 2026, 11:01:56 +0100)
+>    - `Wing3D.py` (schema wing3d@3; older versions saved in scratch as `Wing3D_one_plane.py`, `Wing3D_two_planes_V2.py`, `Wing3D_orthographic_V3.py`): scales from the frame; anchors `z_lip, y_lip, u_lip_t, v_lip_b`; `camera_anchors.views`; planes (41 stations × 24 points; upper plane drop = max(front drop, seen-from-behind + 1 cm)); end plate as superellipse sections (`ep_secs`); support corners T3, R1, K3, Nt3, N3, H3, R7 (X,Y from back view band mid-surface via `inner_mid`/`outer_mid`, Z from top/left; rim straight in plan between T and Nt; nose = foremost point of the top Plan outline); **latest edit: one bent sheet**: (12 November 2026, 11:01:56 +0100)
+>      ```python (12 November 2026, 11:01:56 +0100)
+>      from scipy.interpolate import PchipInterpolator (12 November 2026, 11:01:56 +0100)
+>      Hh3 = Cameras.on_plane(cb_, outer_mid(heel_px), rear_side) (12 November 2026, 11:01:56 +0100)
+>      def rail(points, n_per_piece): ...  # PCHIP through corners, sampled piece by piece (12 November 2026, 11:01:56 +0100)
+>      def stadium(p1, p2, n_, r_, e_prev=None, m_=8): ...  # strip with round ends that END on the rails (re_ = min(r_, L/2)) (12 November 2026, 11:01:56 +0100)
+>      rear_rail = rail([T3, R7, Hh3, H3], (4, 9, 5)) (12 November 2026, 11:01:56 +0100)
+>      rim_rail = rail([T3, R1, K3, Nt3, N3], (4, 4, 5, 5)) (12 November 2026, 11:01:56 +0100)
+>      sup_secs = [stadium(rear_rail[i], rim_rail[i], n_i, 0.5*tk) ...]   # 18 sections of 16 points (12 November 2026, 11:01:56 +0100)
+>      tongue_secs: 15 sections from heel outward, bend radius HYPOTHESES['heel_bend_radius'] = 0.030, thickness direction blending from blade normal to +Z (12 November 2026, 11:01:56 +0100)
+>      ``` (12 November 2026, 11:01:56 +0100)
+>      guides groups: `UpperSections, LowerSections, EndPlateSections, SupportSections, TongueSections, FinSections, ScoopSections, LinesBack`; scoop sections follow the back-view outline template (`eta_g`, `w_g`), fin runs over the upper plane to its tail on the lower plane (`fin_proud_of_the_plane` 0.004, `fin_tail_height` 0.015); HYPOTHESES also `upper_plane_thickness` 0.018, `slot` 0.006, `into_end_plate` 0.008, `foot_depth` 0.080, `scoop_into_roof` 0.010. (12 November 2026, 11:01:56 +0100)
+>    - `houdini/BuildWing.py`: generic `skinned(name, group, both)`; parts tuple `('UpperPlane','UpperSections',False), ('LowerPlane','LowerSections',False), ('EndPlates','EndPlateSections',True), ('Pylons','SupportSections',True), ('Feet','TongueSections',True), ('Fin','FinSections',False), ('Scoop','ScoopSections',False)`; `joined()` per component with switch; sliders `audit_lift, show_top, show_upper, show_lower, show_supports`. (12 November 2026, 11:01:56 +0100)
+>    - `houdini/CaptureViews.py`: `LIGHTING='headlight'`, `AO=False` options. `houdini/ExportParts.py` (new): exec with `NODE`, `OUT`, `PARTS` → OBJ per part in `components/Car2_WingRear/houdini/model/` (Top, Fin, Scoop, UpperPlane, LowerPlane, EndPlates, Supports, Welded). (12 November 2026, 11:01:56 +0100)
+>
+>    **Project `/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/`** (12 November 2026, 11:01:56 +0100)
+>    - `annotations/`: `WingRear_back_annotated_12-November-2026-0233.webp`, `WingRear_top_annotated_...webp`, `WingRear_support_module_annotated_12-November-2026-<hhmm>.webp`. (12 November 2026, 11:01:56 +0100)
+>    - Drawings (all automatic gates green, verdict waiting): `Car2_WingRear_Pylon` V_020 (back `Contour` 9 declared sides: inner_upper, inner_lower, knee, under_foot, foot_end, foot_top, outer_lower, outer_upper, tip; top `Plan` 5 sides: rim_outer, face_lower, under_wing, rim_inner, tip, mirrored ["y",781.5]; left `Blade` 4 sides: rim, body, rear (join of measured points), under_plate); `Car2_WingRear_Spine` V_004 (left `Profile` x 1554–2296, top `Fin` with reflect axis 775.5 and `Scoop`, both `centre_on` 781.5; back `Scoop`); `Car2_WingRear_EndPlate` V_016 (left Outline, back Edge, top `Plan`); `UpperPlane` V_004; `LowerPlane` V_004; each `component.json` has `piece` (Top, UpperWing, LowerWing, Supports). `Car2_WingRear_Plane` superseded. (12 November 2026, 11:01:56 +0100)
+>    - Boards: `components/Car2_WingRear/boards/Car2_WingRear_sheet_S_003_12-November-2026.jpg` (+ `Car2_WingRear_sheet_S_003.json`: 9 of 15 curves agree), `..._sheet_S_004_...jpg` (bent-sheet support, worse), `..._module_H_011_...jpg`, `..._module_H_012_...jpg` (captured before the stadium inset fix), `..._audit_H_010_...jpg`, `..._audit_top_H_010_...jpg`, `..._audit_left_H_010_...jpg`; blueprint `docs/blueprints/Car2_WingRear_blueprint_global_symmetric_V_00N_12-November-2026.png` (latest regenerated after V_004, with `_preview.jpg` for V_003/V_004), `docs/Blueprints.html`, `docs/Components.html`, `frame/cameras.json`, `STATE.md` (last entry: strict sheet, scales redone). (12 November 2026, 11:01:56 +0100)
+>    - Houdini: `/obj/Car2/WingRear` (object at z −4 m); last saved scene `/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_028.hiplc` (the live scene now holds the bent-sheet support, not yet saved under a new version). (12 November 2026, 11:01:56 +0100)
+>
+>    **Documentation**: `/Users/zenray/.claude/skills/zenray-meshes/references/ZenRayMeshes1.md` sections 471–479 written (index 444 sections); `SKILL.md` priority lines added (sections 471–473, 474–476, 477–479); skill synced; PROGRESS entries and Assets checkpoints written (`v5-wing-rear-two-planes-welded`, `v5-wing-rear-four-components`, `v5-wing-rear-strict-sheet`). The bent-sheet support and the latest prompt's work are NOT documented yet (prompt recorded in FEEDBACK only). (12 November 2026, 11:01:56 +0100)
+>
+> 4. Errors and fixes: (12 November 2026, 11:01:56 +0100)
+>    - Spine carried level pierced the upper plane and showed from behind → its underside follows the plane, stops before the trailing edge. (12 November 2026, 11:01:56 +0100)
+>    - Black band between planes on the audit board taken for a hole → rays hit the surface; it was viewport ambient occlusion → captures with headlight and AO off. (12 November 2026, 11:01:56 +0100)
+>    - `AuditBoard.py` called with full paths → takes capture names. (12 November 2026, 11:01:56 +0100)
+>    - `Poly.fit` automatic ladder gave 14–17 sides, and a forced coarse ladder broke the polygon → declared sides; tip-cut logic disabled for declared sides. (12 November 2026, 11:01:56 +0100)
+>    - Join pieces with two far points gave their side label to other sides' points (nearest neighbour) → joins sampled every pixel. (12 November 2026, 11:01:56 +0100)
+>    - Fin top view wavy/too wide → foot read only on four clear stretches (measured column by column), carried straight between. (12 November 2026, 11:01:56 +0100)
+>    - Support side view taken for its dark face only (nose 28 cm too far back vs top view); tracking of the rim latched onto the far-side support → rim tracked only on its clear stretch x 2347–2384, rear edge posed from row measurements. (12 November 2026, 11:01:56 +0100)
+>    - Reading coordinates from displayed zoom pixels instead of HD ticks → `refzoom.py` with ticks. (12 November 2026, 11:01:56 +0100)
+>    - **Foundational scale error**: top-view scale chained from the end plate (side outline 6 % short) → wing 6 % too small, parts up to 28 cm apart between views; a wrong detour into perspective cameras (14 m) followed; fixed by measuring top vs bottom span (flat views) and using frame scales with lip anchors. (12 November 2026, 11:01:56 +0100)
+>    - Nose of the support taken at the intersection of two sides (5 cm beyond the rounded nose) → foremost point of the outline. (12 November 2026, 11:01:56 +0100)
+>    - `Components.py` crashes (string hypothesis, missing `from`) → tolerant. (12 November 2026, 11:01:56 +0100)
+>    - Stadium sections with round ends set ON the rails made the blade 1.9 cm too long at both ends (sheet: left 0 %) → ends inset (`re_ = min(r_, L/2)`); still poor after the fix (see Current Work). (12 November 2026, 11:01:56 +0100)
+>    - User feedback: blueprint not strict → strict sheet; "pièce haute pas correcte", supports not perfect → rescaled, scoop section from back view, fin over the wing, supports from back-view band; latest: support must be one linked smooth piece with bevels. (12 November 2026, 11:01:56 +0100)
+>    - `timeout` command absent on macOS → background process with kill. (12 November 2026, 11:01:56 +0100)
+>
+> 5. Problem Solving: (12 November 2026, 11:01:56 +0100)
+>    - Solved: welded wing; four components drawn on all their views; strict sheet protocol with measure per curve; flat-view calibration; top component 100 % in top view; planes 99–100 %. (12 November 2026, 11:01:56 +0100)
+>    - Sheet S_003 (before bent sheet): back EndPlate Edge 13 % (side outline too short, to be redrawn edge by edge), back Pylon Contour 81 %, back Spine Scoop 70 %, top Pylon Plan 15 % (photos disagree by 4 cm across), left Pylon Blade 53 %, left Spine Profile 89 %; front not judged. (12 November 2026, 11:01:56 +0100)
+>    - Ongoing: the bent-sheet support (PCHIP rails + stadium sections + tongue) is smooth and one piece (1 welded piece, 0 open edge) but on sheet S_004 it scores back 63 %, top 21 %, left 20 % (median 15 mm): in the last picture the blade bulges (curved inner side seen from behind, and in the side view the model extends well forward of the red outline with a curved front): the PCHIP rails curve away from the straight edges and/or the rail pairing is off. Needs correcting (e.g. straight rails with small rounded corners only, as in the 7-corner plate that scored back 81–96 % / left 100 %) while keeping the smooth heel bend and rounded edges. (12 November 2026, 11:01:56 +0100)
+>
+> 6. All user messages: (12 November 2026, 11:01:56 +0100)
+>    - (with four images: annotated back view, clean back view, annotated top view, clean top view) "Je t'ai mis en RGB plus blanc les components que t'as pas encore essayé de reproduire, mais essaie de faire plusieurs vues pour vraiment découper tous les components. Mais en fait, j'ai compté et en fait, il y a un component au niveau du top, un autre pour l'aileron, un autre pour l'aileron et les deux extrémités et ensuite une espèce de forme en V qui retient l'aileron de la voiture.  regarde bien les refs et les couleurs je veux que tu reproduises tout ces contours blueprints parfait + modeling enhancement ensuite" (12 November 2026, 11:01:56 +0100)
+>    - "continue" (12 November 2026, 11:01:56 +0100)
+>    - "c'est mieux mais le blueprint que tu fais n'est pas strict tu devrais à mon avis mieux poser les éléments pour valider les 5 vues depuis ref traits rouges puis traits blancs sur bleu pour voir la correspondance. ici la pièce haute n'est pas correcte. et les support en v incliné ne sont pas parfait donc continue avec un protocole stricte et aligné via une sheet puis repropose le module et on passera à un component suivant sans doute le coffre arrière. go." (12 November 2026, 11:01:56 +0100)
+>    - (with an annotated capture of the module in perspective, red strokes along blade then foot) "le component de support en v incliné n'a pas vraiment cette forme fais le mieux en regardant les vues la formes est bien mais c'est quelque chose de lié et de smooth pas deux support sans bevel tu y est presque.\n\nEnsuite le coffre tu peux commencer à dessiner les blueprints." (12 November 2026, 11:01:56 +0100)
+>    - Repeated system nudges "The user hasn't heard from you in a while — say in a few words what you're doing, then continue." and a usage-limit notice (not user requests). (12 November 2026, 11:01:56 +0100)
+>
+> 7. Pending Tasks: (12 November 2026, 11:01:56 +0100)
+>    - Finish the support as ONE linked, smooth, bevelled piece that still matches its contours on the strict sheet (back, top, left), rebuild in Houdini (1 welded piece, 0 open edge), export parts, run `Sheet.py ... name=S_00N`, capture the module in perspective (`CaptureViews.py` with `ONLY = ['persp_back','persp']`, `PERSP_SCALE = 1.15`, `WIDTH_M = 3.4`), save the scene under a new version (V_029), send the sheet and module images. (12 November 2026, 11:01:56 +0100)
+>    - Start the rear trunk ("coffre arrière"): study it on the five views, create its component(s) with the full protocol (simple form first, all views, symmetric), draw first contours/blueprints with gates, zoom checks, board, `Blueprints.py`. (12 November 2026, 11:01:56 +0100)
+>    - Consign: ZenRayMeshes1.md sections 480+ (bent-sheet support, trunk study), SKILL.md if a new rule, STATE.md, view.json, rule + prompt already recorded, PROGRESS entry, skill sync, Assets checkpoint; `update_plan`, `wrap_up`, closing message with the 3-column table and absolute links; state honestly what is not done (end plate side outline to redraw, front view not judged, HTML synthesis and verified cloud archive not done). (12 November 2026, 11:01:56 +0100)
+>
+> 8. Current Work: (12 November 2026, 11:01:56 +0100)
+>    Working on the latest request (support "lié et smooth", then start the trunk). Done: prompt recorded, annotated image copied to `annotations/`; `Wing3D.py` patched so the support is one bent sheet (PCHIP rails `rear_rail` [T3, R7, Hh3, H3] and `rim_rail` [T3, R1, K3, Nt3, N3], 18 stadium sections of 16 points as thick as the blade, tongue of 15 sections leaving the rear edge round a bend of radius 0.030 m); `BuildWing.py` groups renamed to `SupportSections`/`TongueSections`; Houdini rebuilt (welded_pieces 1, before 5, no open edges), parts exported, captures `wing_H_012_*`, module board `Car2_WingRear_module_H_012_12-November-2026.jpg` (smoother look, made before the inset fix); stadium ends then inset to end on the rails; rebuilt and re-exported; `Sheet.py ... name=S_004` gave Pylon back 63 %, top 21 %, left 20 %. The last image viewed (`scratchpad/v5/sheet_support.jpg`) shows the model blade bulging with a curved inner side in the back view and a large curved front in the side view extending beyond the red outline: the lofted rails do not follow the straight edges. Nothing of this rework has been sent to the user or documented; the live Houdini scene (bent-sheet build) is not saved under a new version; the trunk has not been started. Plan list (6 steps): 1 "Consigner la demande et l'image annotée" in progress, then support, rebuild/sheet/send, trunk study, trunk first contours, consign/report. (12 November 2026, 11:01:56 +0100)
+>
+> 9. Optional Next Step: (12 November 2026, 11:01:56 +0100)
+>    Continue the user's latest request: "c'est quelque chose de lié et de smooth pas deux support sans bevel tu y est presque" then "Ensuite le coffre tu peux commencer à dessiner les blueprints." Immediate step: correct the bent-sheet support in `Wing3D.py` so its rails follow the drawn edges (straight stretches between the corners T3, R7, Hh3, H3 and T3, R1, K3, Nt3, N3 with only small rounded corners, instead of the PCHIP curves that bulge), keeping the round-edged stadium sections and the smooth heel bend into the tongue; rerun `./Wing3D.py`, rebuild with `BuildWing.py`, `ExportParts.py`, `./Sheet.py <project> Car2_WingRear name=S_005`, aiming to recover at least the earlier scores (back 81 %, left ≥ 53 %), capture and send the module and the sheet, save `car2_graph_V_029.hiplc`; then begin the rear trunk blueprints (five-view study with `refzoom.py`, component request, first contours with the gates), and consign everything. (12 November 2026, 11:01:56 +0100)
+>
+> If you need specific details from before compaction (like exact code snippets, error messages, or content you generated), read the full transcript at: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl (12 November 2026, 11:01:56 +0100)
+> Continue the conversation from where it left off without asking the user any further questions. Resume directly — do not acknowledge the summary, do not recap what was happening, do not preface with "I'll continue" or similar. Pick up the last task as if the break never happened. (12 November 2026, 11:01:56 +0100)
+>
+> The messages after this summary are the most recent messages from before compaction, kept verbatim. The summary was written without seeing them, so something it says has not happened yet may already have happened in them. (12 November 2026, 11:01:56 +0100)
+
+## 12 November 2026, 11:02:42 +0100 : Prompt
+
+<!-- feedback-event:b2c1a3c953591e6dc2250b77b84f2c36ad1ae1b03785e4ae6db925967fcdb544 (12 November 2026, 11:02:42 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 11:02:42 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 11:02:42 +0100)
+
+> [Image: original 2470x1260, displayed at 2000x1020. Multiply coordinates by 1.24 to map to original image.] (12 November 2026, 11:02:42 +0100)
+
+## 12 November 2026, 11:02:43 +0100 : Prompt
+
+<!-- feedback-event:31f03c3077302af56adba680b5e6dbf1321b220d1448e2b5f410c69e8be5346f (12 November 2026, 11:02:43 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 11:02:43 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 11:02:43 +0100)
+
+> [Image: original 2470x1260, displayed at 2000x1020. Multiply coordinates by 1.24 to map to original image.] (12 November 2026, 11:02:43 +0100)
+
+## 12 November 2026, 11:04:04 +0100 : Prompt
+
+<!-- feedback-event:65721f24eafb1e788700acc9b6395dc9f5500c2e1dee07b97510457867dddc1f (12 November 2026, 11:04:04 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 11:04:04 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 11:04:04 +0100)
+
+> [Image: original 3046x894, displayed at 2000x587. Multiply coordinates by 1.52 to map to original image.] (12 November 2026, 11:04:04 +0100)
+
+## 12 November 2026, 11:04:08 +0100 : Prompt
+
+<!-- feedback-event:28d7654fee570a2170bb2caa9e969045f2bee6546ff33d33deae85c50eb45361 (12 November 2026, 11:04:08 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 11:04:08 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 11:04:08 +0100)
+
+> [Image: original 3046x894, displayed at 2000x587. Multiply coordinates by 1.52 to map to original image.] (12 November 2026, 11:04:08 +0100)
