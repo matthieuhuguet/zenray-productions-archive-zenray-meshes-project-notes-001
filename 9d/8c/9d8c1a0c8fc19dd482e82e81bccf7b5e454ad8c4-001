@@ -16262,3 +16262,120 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: log. (12 November 2026, 13:08:36 +0100)
 
 > 5 rendus Karma CPU 2048x2048 (top, bottom, left, back, front) de la roue avant symétrique Car2_Wheel_FL sans guides rouges ni plans photo + post Houdini EN et relais FR livrés dans /Users/zenray/.claude/tmp/tmp-wheel-fl-car2-zenray-meshes sans toucher la scène active. (12 November 2026, 13:08:36 +0100)
+
+## 12 November 2026, 14:13:20 +0100 : Prompt
+
+<!-- feedback-event:634a61576e54b607511e93c21ca3043c16b4c7d5ad733f62e94dd11dd22d250c (12 November 2026, 14:13:20 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 14:13:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 14:13:20 +0100)
+
+> [Earlier usage-limit notes no longer apply. Continue working normally. Don't mention this to the user.] (12 November 2026, 14:13:20 +0100)
+
+## 12 November 2026, 14:14:19 +0100 : Prompt
+
+<!-- feedback-event:4e05f07686fa34eb1b2de02e80bf199f2b738bfaf2dbbe25a011479824e3aeee (12 November 2026, 14:14:19 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 14:14:19 +0100)
+
+> Chantier avant, lame Car2_Splitter_Blade : testons en 3D pour voir mais je crois que le contour c'est pas exactement ça. (12 November 2026) (12 November 2026, 14:14:19 +0100)
+
+## 12 November 2026, 14:14:43 +0100 : Prompt
+
+<!-- feedback-event:43337efa45d77fd43793cf6a503e9391b80a61ca8228cf02df53ab9d11f4d6b4 (12 November 2026, 14:14:43 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 14:14:43 +0100)
+
+> 12 November 2026 (side session, profil gauche) : sur la porte Car2_Door_L V_008 : « le contour c'est pas exactement ça. soit beaucoup plus précis et affine » (12 November 2026, 14:14:43 +0100)
+
+## 12 November 2026, 14:14:56 +0100 : Iteration
+
+<!-- feedback-event:28252ce5639d1d0fa4a26126ab268d3a1939ee1e6d69f75487372130e9e08874 (12 November 2026, 14:14:56 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 14:14:56 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 14:14:56 +0100)
+
+> Les vues arrière et profil du panneau sont dessinées (arrière vert à 97 %, profil encore rouge à 85 %) ; je regarde les deux au zoom pour corriger le profil. (12 November 2026, 14:14:56 +0100)
+
+## 12 November 2026, 14:15:04 +0100 : Prompt
+
+<!-- feedback-event:d4874ea8f98acf95fb2d74825a954fbf24fe224c2276f79453786b4a2aea8491 (12 November 2026, 14:15:04 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 14:15:04 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 14:15:04 +0100)
+
+> [Image: original 1776x2135, displayed at 1664x2000. Multiply coordinates by 1.07 to map to original image.] (12 November 2026, 14:15:04 +0100)
+
+## 12 November 2026, 14:15:05 +0100 : Prompt
+
+<!-- feedback-event:50fabf5a24541725ffec03a4763d7264efcf87f635e8892ef93d5cd3fa3c82a4 (12 November 2026, 14:15:05 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 14:15:05 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 14:15:05 +0100)
+
+> [Image: original 1776x2135, displayed at 1664x2000. Multiply coordinates by 1.07 to map to original image.] (12 November 2026, 14:15:05 +0100)
+
+## 12 November 2026, 14:16:17 +0100 : Prompt
+
+<!-- feedback-event:0a6cb79eb3e97ff2b878eb1485cfb5a2ab691f1113b8bb471eb2085298f0296a (12 November 2026, 14:16:17 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 14:16:17 +0100)
+
+> 12 November 2026 (side session, profil gauche) : « je comprends pas pourquoi tu fais autant de components d'un coup [...] le découpage du flanc gauche, tu devrais faire d'abord la porte, puis le toit [...] le toit et la porte c'est déjà suffisant [...] il faut que tu les sépares en deux components. Évidemment l'image ne te donne pas le contour, mais vu que tu as la courbure du toit, tu peux continuer la tangente pour séparer les deux. Et comme ça tu fais toit plus porte » (12 November 2026, 14:16:17 +0100)
+
+## 12 November 2026, 14:19:12 +0100 : Standing rule
+
+<!-- feedback-event:9879c806bd3fcc2e08eba17900a7d8faea2fae0d6dab4da2e31c4160c528f765 (12 November 2026, 14:19:12 +0100) -->
+- Project: zenray-meshes; kind: rule. (12 November 2026, 14:19:12 +0100)
+
+> Après chaque composant créé : lui donner un nom simple et mettre à jour le chantier global (scripts/v5/Chantier.py) ; un nouveau composant se dessine sur toutes les vues qui le montrent pour fixer l'angle de sa surface avant la 3D. (12 November 2026) (12 November 2026, 14:19:12 +0100)
+
+## 12 November 2026, 14:19:13 +0100 : Iteration
+
+<!-- feedback-event:726de1fb3a6370afa95b9cf87ad418e2783a37f9a9bc38b559a2fd1aabebd539 (12 November 2026, 14:19:13 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 14:19:13 +0100)
+- Source: checkpoint:claude:0611e96b-26b2-4d65-a9e1-cb913738cca3. (12 November 2026, 14:19:13 +0100)
+
+> Capot 3D valide ; Car2_DeckRear_L (Deck L) dessine sur trois vues V_005 (profil rouge 87 %) ; Chantier.py noms simples et etat global ; blueprint de tout l arriere. Prochain : verdict Deck L puis sa 3D. (12 November 2026, 14:19:13 +0100)
+
+## 12 November 2026, 14:19:38 +0100 : Iteration
+
+<!-- feedback-event:17bd712584e176ae390bcd44b423545bf16de1aa7a713b9b5f746c700b69b706 (12 November 2026, 14:19:38 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 14:19:38 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 14:19:38 +0100)
+
+> Le panneau autour du capot est dessiné sur ses trois vues, mais pas encore en 3D ; les noms simples et le chantier global Car2 sont à jour. (12 November 2026, 14:19:38 +0100)
+>
+> ## Le nouveau composant : « Deck L » (12 November 2026, 14:19:38 +0100)
+>
+> C'est le grand panneau du pont arrière que vous avez entouré (`Car2_DeckRear_L`). Je l'ai dessiné côté gauche, miroir de votre tracé, pour rester cohérent avec la vue de profil ; le droit est son miroir. (12 November 2026, 14:19:38 +0100)
+>
+> - **Dessus** : la couture du capot, la couture de la prise d'air de toit, la couture arrière de l'habitacle, la lèvre de la prise d'air latérale, l'arête du triangle de la hanche, la poche, puis la gorge du support d'aileron. (12 November 2026, 14:19:38 +0100)
+> - **Arrière** : entre la couture du capot et le pli sombre qui descend jusqu'à la pointe de queue. Ce pli est le même bord que la gorge vue de dessus : il donne la hauteur du bord extérieur, donc l'angle de la surface. (12 November 2026, 14:19:38 +0100)
+> - **Profil** : entre la couture de l'habitacle, la ligne du dessus, la crête de la hanche et le haut de la prise d'air latérale. (12 November 2026, 14:19:38 +0100)
+>
+> Le profil reste rouge de peu : 87 % des points collent au bord pour 90 % demandés. La couture de l'habitacle et la ligne du dessus sont légèrement bombées, et mon outil ne sait tracer que des côtés droits ; je n'ai pas desserré le contrôle. (12 November 2026, 14:19:38 +0100)
+>
+> Les vues vides sur un blueprint sont normales : la face (cachée par l'habitacle) et le dessous (caché par le fond) ne montrent pas la pièce. (12 November 2026, 14:19:38 +0100)
+>
+> ## Noms simples et chantier global (12 November 2026, 14:19:38 +0100)
+>
+> Chaque composant porte maintenant un nom simple (Trunk cover, Trunk recess, Deck L, Wing support, Splitter, Door L…) en plus de son identifiant complet, qui reste celui de Houdini et d'Unreal. Un nouvel outil, `Chantier.py`, attribue ces noms et réécrit la page d'état des trois chantiers ; je le relance après chaque composant. (12 November 2026, 14:19:38 +0100)
+>
+> État actuel, 16 composants : (12 November 2026, 14:19:38 +0100)
+> - **Arrière** : capot et renfoncement validés et en 3D ; aileron en 3D, verdict en attente ; Deck L en dessin. (12 November 2026, 14:19:38 +0100)
+> - **Avant** (session Opus) : la lame avant (Splitter) est dessinée sur 4 vues, avec la face encore rouge (87 %) ; elle attend votre verdict dans [sa conversation](#local_812e4c0b-8b5c-429e-854d-01e130291974). (12 November 2026, 14:19:38 +0100)
+> - **Profil gauche** (session Opus) : la porte (Door L) est dessinée sur 3 vues, avec un écart entre vues signalé et expliqué, dans [sa conversation](#local_fd2172b1-da8d-4858-9d8a-f85ffed5a1d6). (12 November 2026, 14:19:38 +0100)
+> - **Roue avant gauche** : 6 composants validés. (12 November 2026, 14:19:38 +0100)
+>
+> Les deux sessions Opus se sont arrêtées sur la limite d'usage après leur premier composant. (12 November 2026, 14:19:38 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (12 November 2026, 14:19:38 +0100)
+> |---|---|---| (12 November 2026, 14:19:38 +0100)
+> | Le component autour du capot | Dessiné, pas en 3D | Dessin V_005 : dessus 90 %, arrière 97 %, profil 87 % (rouge) ; chaque vue regardée au zoom | (12 November 2026, 14:19:38 +0100)
+> | L'ajuster sur tous les profils | Oui pour les trois vues qui le montrent | Le pli vu de l'arrière et la gorge vue de dessus sont le même bord ; leur accord en mètres n'est pas encore mesuré | (12 November 2026, 14:19:38 +0100)
+> | Renommer simplement les components | Oui | 16 noms simples écrits dans l'index des composants | (12 November 2026, 14:19:38 +0100)
+> | Mettre à jour le chantier global Car2 | Oui | Page `Chantier.md` régénérée, les trois chantiers et la roue | (12 November 2026, 14:19:38 +0100)
+> | Continuer avec toutes les vues | Oui | Blueprint de tout l'arrière sur les cinq vues envoyé | (12 November 2026, 14:19:38 +0100)
+> | Synthèse HTML et archive cloud | Non | Pas faites ce tour | (12 November 2026, 14:19:38 +0100)
+>
+> Le grand blueprint de tout l'arrière dépasse 8000 px : je vous en ai envoyé une copie réduite, l'original n'est visible que sur ce Mac. (12 November 2026, 14:19:38 +0100)
+>
+> Fichiers : (12 November 2026, 14:19:38 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_DeckRear_L/boards/Car2_DeckRear_L_drawing_V_005_12-November-2026.jpg](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_DeckRear_L/boards/Car2_DeckRear_L_drawing_V_005_12-November-2026.jpg) (12 November 2026, 14:19:38 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/blueprints/Car2_blueprint_global_symmetric_V_001_12-November-2026.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/blueprints/Car2_blueprint_global_symmetric_V_001_12-November-2026.png) (12 November 2026, 14:19:38 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/Chantier.html](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/Chantier.html) (12 November 2026, 14:19:38 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/Chantier.md](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/Chantier.md) (12 November 2026, 14:19:38 +0100)
