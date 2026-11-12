@@ -15479,3 +15479,54 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: rule. (12 November 2026, 10:43:35 +0100)
 
 > Un module ne se propose qu'avec sa feuille stricte (Sheet.py : cinq vues alignées, photo et traits rouges, traits blancs sur bleu, modèle projeté, mesure par courbe). Les vues de référence sont plates : une échelle par vue lue sur le cadre (roues), jamais sur une pièce ; une échelle tirée d'une pièce a rendu l'aileron 6 % trop petit. Les désaccords entre photos s'écrivent en centimètres. ZenRayMeshes1.md sections 477 à 479. (12 November 2026, 10:43:35 +0100)
+
+## 12 November 2026, 10:44:38 +0100 : Iteration
+
+<!-- feedback-event:5cb006e13f1c6093cf90ead400c75a0299ca593349a5341c15cffff371b9df11 (12 November 2026, 10:44:38 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 10:44:38 +0100)
+- Source: checkpoint:claude:0611e96b-26b2-4d65-a9e1-cb913738cca3. (12 November 2026, 10:44:38 +0100)
+
+> Aileron de Car2 : feuille stricte S_003 (cinq vues alignées, modèle projeté, mesure par courbe : 9 sur 15), vues mesurées plates et échelles refaites depuis le cadre (envergure 2,041 m), supports et pièce du toit recalés ; Houdini 1 pièce soudée (car2_graph_V_028.hiplc). Prochain : verdict de Matthieu, plaque d extrémité de profil, puis le coffre arrière. (12 November 2026, 10:44:38 +0100)
+
+## 12 November 2026, 10:44:28 +0100 : Iteration
+
+<!-- feedback-event:7e24fc2ad6c9ab0d25fb56bf7a250a959747b7f7d2cb3125219172fca55fa803 (12 November 2026, 10:44:28 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 10:44:28 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 10:44:28 +0100)
+
+> Tout est vérifié et synchronisé ; je journalise et je rends compte. (12 November 2026, 10:44:28 +0100)
+
+## 12 November 2026, 10:45:00 +0100 : Iteration
+
+<!-- feedback-event:e49b6206a0028260ce9e0592f7e064ab3f27672c3bc95a801e937f5b704ac0dd (12 November 2026, 10:45:00 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 10:45:00 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 10:45:00 +0100)
+
+> La feuille stricte existe et elle a montré d'où venait le manque de rigueur : mes échelles étaient fausses de 6 %. Elles sont refaites, le module est reconstruit, et 9 courbes sur 15 collent maintenant au modèle à 4 px près ; les supports vus de dessus et la plaque d'extrémité vue de l'arrière ne collent pas encore. (12 November 2026, 10:45:00 +0100)
+>
+> **L'erreur d'échelle.** J'avais tiré l'échelle de la vue de dessus d'une pièce (la plaque d'extrémité), dont le contour de profil était trop court. Or le plan inférieur fait 894 px d'envergure vu de dessus et 888 px vu de dessous : ces vues n'ont pas de perspective, une seule échelle par vue suffit, lue sur les roues. L'aileron fait 2,04 m d'envergure et non 1,92 m, et toutes les pièces étaient décalées d'une vue à l'autre. (12 November 2026, 10:45:00 +0100)
+>
+> **La feuille.** Une ligne par vue (arrière, dessus, dessous, profil, avant), trois colonnes dans le même cadre au pixel : la photo avec les traits rouges, les mêmes traits en blanc sur bleu, puis le modèle 3D projeté dans la vue avec les traits rouges par-dessus. Pour chaque courbe, elle mesure la part des points lus sur la photo qui passent à 4 px ou moins du contour du modèle. (12 November 2026, 10:45:00 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (12 November 2026, 10:45:00 +0100)
+> |---|---|---| (12 November 2026, 10:45:00 +0100)
+> | Blueprint strict, cinq vues alignées, rouge puis blanc sur bleu | Oui | Feuille S_003, trois colonnes au même cadre ; autotest vert sur un cas juste, rouge sur un contour déplacé de 12 px | (12 November 2026, 10:45:00 +0100)
+> | Pièce du toit correcte | Presque | Dessus 100 % (arête et prise d'air), profil 89 %, arrière 70 % (épaules à 1,2 cm) | (12 November 2026, 10:45:00 +0100)
+> | Supports en V | En partie | Arrière 81 %, profil 53 % (médiane 7 mm), dessus 15 % | (12 November 2026, 10:45:00 +0100)
+> | Les deux plans de l'aileron | Oui | 99 à 100 % sur l'arrière, le dessus et le dessous | (12 November 2026, 10:45:00 +0100)
+> | Extrémités | En partie | Dessus 97 %, profil 100 %, arrière 13 % | (12 November 2026, 10:45:00 +0100)
+> | Module reproposé | Oui | Une pièce soudée, 0 arête ouverte, scène Houdini enregistrée | (12 November 2026, 10:45:00 +0100)
+>
+> Ce qui reste rouge, et pourquoi : (12 November 2026, 10:45:00 +0100)
+> - **Supports vus de dessus** : les photos se contredisent. L'avant et l'arrière placent leur pointe à 79 % de la demi-envergure, le dessus à 75 % (4 cm de moins). Le modèle suit l'avant et l'arrière, donc l'écart se voit sur la ligne « dessus ». (12 November 2026, 10:45:00 +0100)
+> - **Supports vus de l'arrière** : un renflement de 2,4 cm juste sous l'aile, là où leur bord supérieur est caché et prolongé droit. (12 November 2026, 10:45:00 +0100)
+> - **Plaque d'extrémité vue de l'arrière** : son contour de profil est une forme simple trop courte, sans sa pointe basse ; il faut le redessiner. (12 November 2026, 10:45:00 +0100)
+> - **Vue de face** : elle a de la perspective (ses pneus paraissent 13 % plus grands que l'aileron), je ne l'ai pas calée ; elle est montrée mais pas jugée. (12 November 2026, 10:45:00 +0100)
+>
+> L'arête du toit court maintenant sur l'aile jusqu'à sa queue, mais ses hauteurs à cet endroit sont des hypothèses (cachées de profil). La synthèse HTML et l'archive cloud ne sont pas faites. (12 November 2026, 10:45:00 +0100)
+>
+> Fichiers : (12 November 2026, 10:45:00 +0100)
+> - Feuille stricte : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear/boards/Car2_WingRear_sheet_S_003_12-November-2026.jpg](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear/boards/Car2_WingRear_sheet_S_003_12-November-2026.jpg) (12 November 2026, 10:45:00 +0100)
+> - Mesures par courbe : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear/boards/Car2_WingRear_sheet_S_003.json](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear/boards/Car2_WingRear_sheet_S_003.json) (12 November 2026, 10:45:00 +0100)
+> - Module en perspective : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear/boards/Car2_WingRear_module_H_011_12-November-2026.jpg](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear/boards/Car2_WingRear_module_H_011_12-November-2026.jpg) (12 November 2026, 10:45:00 +0100)
+> - Scène Houdini (objet `/obj/Car2/WingRear`) : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_028.hiplc](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_028.hiplc) (12 November 2026, 10:45:00 +0100)
