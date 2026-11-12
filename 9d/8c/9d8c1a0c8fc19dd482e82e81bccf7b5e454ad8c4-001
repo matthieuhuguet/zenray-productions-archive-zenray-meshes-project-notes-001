@@ -19380,3 +19380,17 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: prompt. (12 November 2026, 22:46:25 +0100)
 
 > Ouïes (12 November 2026) : lire en entier et dans l'ordre /Users/zenray/Downloads/Supercar Hard-Surface Modeling Techniques 1.docx, isoler toutes ses images en documents de référence, comprendre chaque schéma, comparer au skill zenray-meshes et y intégrer directement ce qui manque (surtout GUIDE CURVE DEFORMATION, ROTATION RAMP, ROTATION RAMP TWIST), créer les outils, puis recommencer le composant raté et tous les composants secondaires tagués « ouïes », avec un redécoupage correct. (12 November 2026, 22:46:25 +0100)
+
+## 12 November 2026, 23:02:27 +0100 : Prompt
+
+<!-- feedback-event:9216b9a7a9f5cac6697cd2252776d4d9843615d7f1e0c456d3e18330b3d033f7 (12 November 2026, 23:02:27 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 23:02:27 +0100)
+
+> Ouïes (12 November 2026) : rien n'est conforme ; le document n'a pas été lu séquentiellement en entier ; régression du découpage SVG sans raison alors que le découpage existait et devait seulement être affiné ; les parties à diviser créent un effet de renfoncement ou bombé, toujours pas compris ; les 5 vues ne sont pas utilisées ; pas de control loops, pas de guide mesh pour des réflexions parfaites, pas de topologie parfaite, pas de rotation ramp ni rotation ramp twist, pas de guide curve deformation pour chaque composant individuellement, pas la méthodologie curved fender louvers ; si le découpage ne vient pas, utiliser SAM 2.1 et le skill ; continuer jusqu'à 99,9 % ; toujours faire toutes les guides de chaque composant ; Matthieu valide les 5 vues de tous les blueprints à chaque fois, les vues manquantes s'affinent ; le blueprint n'a pas été rendu ; respecter le protocole du skill zenray-meshes à 100 % ; faire proprement l'apprentissage du docx Supercar Hard-Surface Modeling Techniques 1. (12 November 2026, 23:02:27 +0100)
+
+## 12 November 2026, 23:02:27 +0100 : Standing rule
+
+<!-- feedback-event:cdc615278eda16adc5e68a05bdf6ea66e7d08c7a6eb9700941cc334903d31bee (12 November 2026, 23:02:27 +0100) -->
+- Project: zenray-meshes; kind: rule. (12 November 2026, 23:02:27 +0100)
+
+> Découpage d'un composant en sous-composants : ne jamais refabriquer les contours depuis des masques ; garder les tracés précis existants et composer chaque sous-contour par morceaux EXACTS de ces courbes plus les nouvelles lignes ; rendre le blueprint à 5 vues de chaque composant à chaque round. (12 November 2026, 23:02:27 +0100)

@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-11-12T16:32:57.965Z",
+ "scannedAt": "2026-11-12T22:36:22.637Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
@@ -32,7 +32,7 @@
    "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "title": "zenray meshes v5",
    "updatedAt": "2026-11-12T16:31:13.514Z",
-   "bytes": 304563,
+   "bytes": 309395,
    "boundProject": "zenray-meshes"
   },
   {
@@ -80,23 +80,23 @@
    "sessionId": "0f5f42ff-3d56-48e6-9963-4ff4381312af",
    "title": "hanche arrière",
    "updatedAt": "2026-11-12T16:13:30.977Z",
-   "bytes": 282234,
+   "bytes": 282233,
    "boundProject": null
   },
   {
    "projectId": "zenray-meshes",
-   "lines": 658,
-   "work": 31,
-   "prompts": 5,
+   "lines": 736,
+   "work": 38,
+   "prompts": 6,
    "first": "2026-11-12T11:07:00.938Z",
-   "last": "2026-11-12T16:31:11.783Z",
+   "last": "2026-11-12T22:35:20.814Z",
    "strength": "strong",
    "conversationId": "claude:48664bcf-655d-4f1c-8f4c-981e576050ff",
    "provider": "claude",
    "sessionId": "48664bcf-655d-4f1c-8f4c-981e576050ff",
    "title": "car avant crustacé (fable ?)",
-   "updatedAt": "2026-11-12T16:31:12.147Z",
-   "bytes": 281848,
+   "updatedAt": "2026-11-12T22:35:22.541Z",
+   "bytes": 99488424,
    "boundProject": null
   },
   {
@@ -112,7 +112,7 @@
    "sessionId": "d14443ab-9f88-45a8-9946-da7878363ee6",
    "title": "pare brise avant bas de caisse",
    "updatedAt": "2026-11-12T16:14:16.330Z",
-   "bytes": 282459,
+   "bytes": 282458,
    "boundProject": null
   },
   {
@@ -128,7 +128,7 @@
    "sessionId": "e264aec9-490e-425d-a307-fecde33ce3c0",
    "title": "door + roof + bas de caisse",
    "updatedAt": "2026-11-12T16:30:32.481Z",
-   "bytes": 281930,
+   "bytes": 283871,
    "boundProject": null
   },
   {
