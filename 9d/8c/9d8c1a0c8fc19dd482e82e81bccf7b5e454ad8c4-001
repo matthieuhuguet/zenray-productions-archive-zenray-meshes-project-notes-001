@@ -15433,3 +15433,18 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 > - Blueprint global (aperçu) : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/blueprints/Car2_WingRear_blueprint_global_symmetric_V_004_12-November-2026_preview.jpg](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/blueprints/Car2_WingRear_blueprint_global_symmetric_V_004_12-November-2026_preview.jpg) (12 November 2026, 08:21:06 +0100)
 > - Page des blueprints : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/Blueprints.html](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/Blueprints.html) (12 November 2026, 08:21:06 +0100)
 > - Scène Houdini (objet `/obj/Car2/WingRear`, un curseur par composant sur `CTRL_Wing`) : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_027.hiplc](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_027.hiplc) (12 November 2026, 08:21:06 +0100)
+
+## 12 November 2026, 10:16:04 +0100 : Prompt
+
+<!-- feedback-event:0d3af495b573825914773052408ac27b9046636b7a5c9049e703e41f9488beea (12 November 2026, 10:16:04 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 10:16:04 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 10:16:04 +0100)
+
+> c'est mieux mais le blueprint que tu fais n'est pas strict tu devrais à mon avis mieux poser les éléments pour valider les 5 vues depuis ref traits rouges puis traits blancs sur bleu pour voir la correspondance. ici la pièce haute n'est pas correcte. et les support en v incliné ne sont pas parfait donc continue avec un protocole stricte et aligné via une sheet puis repropose le module et on passera à un component suivant sans doute le coffre arrière. go. (12 November 2026, 10:16:04 +0100)
+
+## 12 November 2026, 10:18:04 +0100 : Prompt
+
+<!-- feedback-event:e437a97ef89e8ffee8832be71c43ece6e99824e08426238081110314e8fea7bf (12 November 2026, 10:18:04 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 10:18:04 +0100)
+
+> c'est mieux mais le blueprint que tu fais n'est pas strict tu devrais à mon avis mieux poser les éléments pour valider les 5 vues depuis ref traits rouges puis traits blancs sur bleu pour voir la correspondance. ici la pièce haute n'est pas correcte. et les support en v incliné ne sont pas parfait donc continue avec un protocole stricte et aligné via une sheet puis repropose le module et on passera à un component suivant sans doute le coffre arrière. go. (12 November 2026, 10:18:04 +0100)
