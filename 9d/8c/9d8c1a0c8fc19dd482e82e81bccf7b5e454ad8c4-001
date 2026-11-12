@@ -15365,3 +15365,71 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 08:17:45 +0100)
 
 > [Image: original 2150x680, displayed at 2000x633. Multiply coordinates by 1.07 to map to original image.] (12 November 2026, 08:17:45 +0100)
+
+## 12 November 2026, 08:17:47 +0100 : Iteration
+
+<!-- feedback-event:5fdb30e2c7971b1381c922771047dc8278dc7339b3c42450ad5ea4853e77caef (12 November 2026, 08:17:47 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 08:17:47 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 08:17:47 +0100)
+
+> Le support suit maintenant le contour rouge jusqu'au genou vertical. J'envoie les planches puis je termine blueprints, pages et consignation. (12 November 2026, 08:17:47 +0100)
+
+## 12 November 2026, 08:19:05 +0100 : Standing rule
+
+<!-- feedback-event:472da5abd0ab6772ca74f115f86daffa0ce62e08c3eaeb8133fb3f19a71b87e4 (12 November 2026, 08:19:05 +0100) -->
+- Project: zenray-meshes; kind: rule. (12 November 2026, 08:19:05 +0100)
+
+> Une capture annotée de Matthieu fixe le compte des composants ; chaque composant se dessine sur toutes les vues qui le montrent, et avant de construire le même point lu dans deux vues se compare en mètres : un écart de plus de quelques centimètres veut dire qu'un tracé est faux ou incomplet (support de profil : nez 28 cm trop en arrière, le bord avant lui appartenait). ZenRayMeshes1.md sections 474 à 476. (12 November 2026, 08:19:05 +0100)
+
+## 12 November 2026, 08:20:35 +0100 : Iteration
+
+<!-- feedback-event:a46ac0aaf4a208d2945346e432b06a17ed0ca2b2548709e71c20844f25baed70 (12 November 2026, 08:20:35 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 08:20:35 +0100)
+- Source: checkpoint:claude:0611e96b-26b2-4d65-a9e1-cb913738cca3. (12 November 2026, 08:20:35 +0100)
+
+> Aileron de Car2 d après les captures annotées : quatre composants dessinés sur toutes leurs vues (contrôles verts), blueprint global V_004, modèle Houdini en une seule pièce soudée et fermée (car2_graph_V_027.hiplc), planches d audit H_010. Prochain : verdict de Matthieu, puis les détails nommés ; synthèse HTML et archive cloud non faites. (12 November 2026, 08:20:35 +0100)
+
+## 12 November 2026, 08:20:26 +0100 : Iteration
+
+<!-- feedback-event:83d80e176cfd99414834563c75b081a6285f46c323818219c26b4ce4ec06fa0d (12 November 2026, 08:20:26 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 08:20:26 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 08:20:26 +0100)
+
+> Tout est vert et synchronisé ; je journalise, puis je rends compte. (12 November 2026, 08:20:26 +0100)
+
+## 12 November 2026, 08:21:06 +0100 : Iteration
+
+<!-- feedback-event:7d897b3bcaa5a9b31f90883cfe57cc0ac269e3aceae71344aeb2fc25f6c3c64f (12 November 2026, 08:21:06 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 08:21:06 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 08:21:06 +0100)
+
+> Les quatre composants que tu as comptés sont dessinés sur toutes les vues qui les montrent, contrôles automatiques verts, et le modèle Houdini les réunit en une seule pièce soudée et fermée. (12 November 2026, 08:21:06 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (12 November 2026, 08:21:06 +0100)
+> |---|---|---| (12 November 2026, 08:21:06 +0100)
+> | Pièce du toit (blanc, boucle bleue) | Oui | Profil de la lèvre de la prise d'air jusqu'à l'aile, arête et prise d'air de dessus, prise d'air de l'arrière : verts | (12 November 2026, 08:21:06 +0100)
+> | Aileron (bleu) | Oui, inchangé | Plan supérieur sur l'arrière, l'avant et le dessus : vert | (12 November 2026, 08:21:06 +0100)
+> | Aileron et ses deux extrémités (vert, noir) | Oui | Plan inférieur inchangé ; extrémité dessinée de dessus en plus du profil et de l'arrière : verte | (12 November 2026, 08:21:06 +0100)
+> | Support en V (rouge) | Oui | Arrière avec pied et genou, dessus avec bord et face, profil avec son bord avant : verts sur les trois vues | (12 November 2026, 08:21:06 +0100)
+> | Blueprint de tous ces contours | Oui | Feuille globale V_004, cinq vues, page des blueprints reconstruite | (12 November 2026, 08:21:06 +0100)
+> | Amélioration du modèle | Oui, forme globale | Une pièce après l'union (5 avant), 0 arête ouverte sur chaque pièce et sur l'ensemble ; planches photo contre modèle sur l'arrière, le dessus et le profil | (12 November 2026, 08:21:06 +0100)
+>
+> Le support de profil était faux : je l'avais pris pour sa seule face sombre, et son nez tombait 28 cm trop en arrière par rapport à la vue de dessus. Redessiné avec son bord avant, le même point lu dans deux vues tombe maintenant à moins de 5,2 cm. Les écarts qui restent viennent de la perspective des photos, que je ne corrige pas. (12 November 2026, 08:21:06 +0100)
+>
+> J'ai modifié un contrôle : la simplicité d'un polygone arrondi se juge en côtés (12 au plus) et non plus en ancres, parce que chaque coin arrondi coûte deux ou trois ancres par construction. Sans cela le support (9 côtés, 19 ancres) restait rouge ; un cas rouge à 14 côtés est dans l'autotest. (12 November 2026, 08:21:06 +0100)
+>
+> Ce qui n'est pas construit ou reste une hypothèse : (12 November 2026, 08:21:06 +0100)
+> - **Pied du support** : son contour est lu de l'arrière, sa profondeur avant arrière (8 cm) est une hypothèse. (12 November 2026, 08:21:06 +0100)
+> - **Congé du support sur la carrosserie** : sa face paraît plus large vue de dessus, je ne l'ai pas modelé. (12 November 2026, 08:21:06 +0100)
+> - **Queue de l'arête** : elle se pose sur le plan inférieur derrière la fente, pas construite. (12 November 2026, 08:21:06 +0100)
+> - **Bouche de la prise d'air** : pas creusée. (12 November 2026, 08:21:06 +0100)
+> - **Sections des deux plans** : toujours des ellipses supposées. (12 November 2026, 08:21:06 +0100)
+> - **Clôture** : synthèse HTML et archive cloud non faites. (12 November 2026, 08:21:06 +0100)
+>
+> Fichiers : (12 November 2026, 08:21:06 +0100)
+> - Planche arrière : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear/boards/Car2_WingRear_audit_H_010_12-November-2026.jpg](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear/boards/Car2_WingRear_audit_H_010_12-November-2026.jpg) (12 November 2026, 08:21:06 +0100)
+> - Planche dessus : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear/boards/Car2_WingRear_audit_top_H_010_12-November-2026.jpg](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear/boards/Car2_WingRear_audit_top_H_010_12-November-2026.jpg) (12 November 2026, 08:21:06 +0100)
+> - Planche profil : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear/boards/Car2_WingRear_audit_left_H_010_12-November-2026.jpg](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear/boards/Car2_WingRear_audit_left_H_010_12-November-2026.jpg) (12 November 2026, 08:21:06 +0100)
+> - Blueprint global (aperçu) : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/blueprints/Car2_WingRear_blueprint_global_symmetric_V_004_12-November-2026_preview.jpg](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/blueprints/Car2_WingRear_blueprint_global_symmetric_V_004_12-November-2026_preview.jpg) (12 November 2026, 08:21:06 +0100)
+> - Page des blueprints : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/Blueprints.html](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/Blueprints.html) (12 November 2026, 08:21:06 +0100)
+> - Scène Houdini (objet `/obj/Car2/WingRear`, un curseur par composant sur `CTRL_Wing`) : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_027.hiplc](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_027.hiplc) (12 November 2026, 08:21:06 +0100)
