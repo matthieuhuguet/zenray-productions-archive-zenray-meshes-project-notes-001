@@ -17486,3 +17486,197 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: prompt. (12 November 2026, 14:52:49 +0100)
 
 > En soi, pas besoin de tout garder. Il y a juste besoin, enfin sur la fiche, tu vois, t'as mis 1, 2, 3, 4, 5, 6, 6 images. Il y a juste besoin d'en garder 4 et ensuite de faire une deuxième ligne avec 4 autres images, mais le wireframe en mode ghost. (12 November 2026, 14:52:49 +0100)
+
+## 12 November 2026, 14:55:13 +0100 : Standing rule
+
+<!-- feedback-event:7b79371b2704b3248abc0c7fecd6646b1a1630784a77a740e483d5768ae7c187 (12 November 2026, 14:55:13 +0100) -->
+- Project: zenray-meshes; kind: rule. (12 November 2026, 14:55:13 +0100)
+
+> Hub ZenRay Blueprints 3D : les noms simples passent avant les codes (R01 n'est pas clair), le projet se montre comme un projet en tête de la barre de gauche avec son nombre de composants, une seule encre sans code couleur, groupes comme dans Maya, beaucoup d'images, animations de 0,2 seconde ; Matthieu dit lui-même quand renommer un composant. (12 November 2026, 14:55:13 +0100)
+
+## 12 November 2026, 14:55:13 +0100 : Standing rule
+
+<!-- feedback-event:f87e60a1456dfdc4b4ecbbc903285a5fe67d124a24802925105084a7d90dbb3f (12 November 2026, 14:55:13 +0100) -->
+- Project: zenray-meshes; kind: rule. (12 November 2026, 14:55:13 +0100)
+
+> L'heure de création d'une fiche de composant se lit sur l'horloge (date), jamais tapée de tête : le registre la ramène à l'heure du premier dessin si elle la dépasse. (12 November 2026, 14:55:13 +0100)
+
+## 12 November 2026, 14:55:23 +0100 : Iteration
+
+<!-- feedback-event:b8575a034b620b882e2eeb5141a44de70887931125684805860f8024cd46c859 (12 November 2026, 14:55:23 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 14:55:23 +0100)
+- Source: checkpoint:claude:0611e96b-26b2-4d65-a9e1-cb913738cca3. (12 November 2026, 14:55:23 +0100)
+
+> ZenRay Blueprints 3D : maquettes version 2 (Planche, Chantiers, Chronologie) rangées dans ZenRay Edit ; Hub.py corrigé (ShortIds.json, heures de création) ; choix du design en attente, application non construite. (12 November 2026, 14:55:23 +0100)
+
+## 12 November 2026, 14:55:27 +0100 : Prompt
+
+<!-- feedback-event:56e2fc491928aeaff7c637c9ae2c794b7e4b5f2ebcfab77873753f2d3f7a66b1 (12 November 2026, 14:55:27 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 14:55:27 +0100)
+
+> Capot avant (Car2_Hood_Upper V_010) : Non. Là, en fait, à couper au niveau de la nervure et de la courbure. Mais c'était pas exactement ça le contour. Le contour était plus global. Et en fait, je sais pas si t'as remarqué, mais un espèce de trou qui forme un peu le nez de la voiture par rapport au capot. Bah, tu dois dessiner ça et l'angle qui fait un peu comme une pointe de lance ou une pointe de flèche. Donc il faut que tu agrandisses les contours du capot. (12 November 2026) (12 November 2026, 14:55:27 +0100)
+
+## 12 November 2026, 14:55:36 +0100 : Iteration
+
+<!-- feedback-event:34be3335a70971d20c0159f729529e7addced86b155f7e804ad5b1bbbf61bad3 (12 November 2026, 14:55:36 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 14:55:36 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 14:55:36 +0100)
+
+> Tout est écrit et consigné (maquettes version 2, page du hub reconstruite, skill, règles, journal, point de reprise) ; j'attends seulement la fin du contrôle de la galerie ZenRay Edit, qui tourne encore, avant de te rendre le compte rendu. (12 November 2026, 14:55:36 +0100)
+
+## 12 November 2026, 14:56:16 +0100 : Prompt
+
+<!-- feedback-event:f136d075944ab8a83711e5b001ef7c8f38e1d58d0d92abb1e41868a116a453e1 (12 November 2026, 14:56:16 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 14:56:16 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 14:56:16 +0100)
+
+> ok mais ou est le path ? /zenray-1-line (12 November 2026, 14:56:16 +0100)
+
+## 12 November 2026, 14:56:20 +0100 : Prompt
+
+<!-- feedback-event:91377f765e3550953f133a007a617c6c848666ea0c18dde4aba19055b2a4a5ec (12 November 2026, 14:56:20 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 14:56:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 14:56:20 +0100)
+
+> (Re-invocation of /zenray-1-line — the skill instructions were previously loaded; the arguments or dynamic output below are new.) (12 November 2026, 14:56:20 +0100)
+
+## 12 November 2026, 14:56:20 +0100 : Prompt
+
+<!-- feedback-event:09866b2a5aa0d9adeef738db8c2fad2cc73fb69b0d087dcdd465a85cc67aa5e1 (12 November 2026, 14:56:20 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 14:56:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 14:56:20 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/zenray-1-line (12 November 2026, 14:56:20 +0100)
+>
+> # ZenRay OneLine (14 October 2026) (12 November 2026, 14:56:20 +0100)
+>
+> Réponds en une seule ligne stricte, dense et autosuffisante, sans préambule, sans puce et sans conclusion. (14 October 2026) (12 November 2026, 14:56:20 +0100)
+>
+> ## 9 November 2026 : contexte par ZenRay Past (9 November 2026) (12 November 2026, 14:56:20 +0100)
+>
+> - 9 November 2026 : pour retrouver le passé de ce domaine (décisions, valeur actuelle et versions dépassées, conversations, notes du jour, commits), interroger d'abord ZenRay Past, MCP `zenray-past` (`past_recall`, `past_resume`), avant de relire de gros fichiers ; voir la priorité 0 du CLAUDE.md global. (9 November 2026) (12 November 2026, 14:56:20 +0100)
+>
+>
+> ARGUMENTS: ok mais ou est le path ? (12 November 2026, 14:56:20 +0100)
+
+## 12 November 2026, 14:56:21 +0100 : Prompt
+
+<!-- feedback-event:e0cd9dc6365ac3087d73271ebd209d7277e4e30aef3f047d2aec01ad574e3c2e (12 November 2026, 14:56:21 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 14:56:21 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 14:56:21 +0100)
+
+> (Re-invocation of /zenray-1-line — the skill instructions were previously loaded; the arguments or dynamic output below are new.) (12 November 2026, 14:56:21 +0100)
+>
+> Base directory for this skill: /Users/zenray/.claude/skills/zenray-1-line (12 November 2026, 14:56:21 +0100)
+>
+> # ZenRay OneLine (14 October 2026) (12 November 2026, 14:56:21 +0100)
+>
+> Réponds en une seule ligne stricte, dense et autosuffisante, sans préambule, sans puce et sans conclusion. (14 October 2026) (12 November 2026, 14:56:21 +0100)
+>
+> ## 9 November 2026 : contexte par ZenRay Past (9 November 2026) (12 November 2026, 14:56:21 +0100)
+>
+> - 9 November 2026 : pour retrouver le passé de ce domaine (décisions, valeur actuelle et versions dépassées, conversations, notes du jour, commits), interroger d'abord ZenRay Past, MCP `zenray-past` (`past_recall`, `past_resume`), avant de relire de gros fichiers ; voir la priorité 0 du CLAUDE.md global. (9 November 2026) (12 November 2026, 14:56:21 +0100)
+>
+>
+> ARGUMENTS: ok mais ou est le path ? (12 November 2026, 14:56:21 +0100)
+
+## 12 November 2026, 14:56:22 +0100 : Iteration
+
+<!-- feedback-event:bd0b2e406d93a27fdf9506cc1e491ab723cf55018b96a813051212edefd2b462 (12 November 2026, 14:56:22 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 14:56:22 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 14:56:22 +0100)
+
+> [/Users/zenray/.claude/tmp/tmp-zenray-blueprints-3d-12-november-2026/index.html](/Users/zenray/.claude/tmp/tmp-zenray-blueprints-3d-12-november-2026/index.html) est la maquette version 2 (la même page, sur le registre courant du projet : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/hub/Blueprints3D.html](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/hub/Blueprints3D.html)), le contrôle de la galerie ZenRay Edit tournant encore. (12 November 2026, 14:56:22 +0100)
+
+## 12 November 2026, 14:57:13 +0100 : Log
+
+<!-- feedback-event:ff00defaf29d2c325a61dfde284e24b7e67e3a2dc1adfc390b5526de91e53d53 (12 November 2026, 14:57:13 +0100) -->
+- Project: zenray-meshes; kind: log. (12 November 2026, 14:57:13 +0100)
+
+> Fiche mise à jour en grille 4x2 : ligne 1 avec les 4 vues clés Karma CPU 2048x2048 (3/4, left, front, top) et ligne 2 avec les 4 mêmes vues en Wireframe Ghost 2048x2048 (maillage quad natif non triangulé, arêtes visibles nettes + arêtes arrière en transparence). (12 November 2026, 14:57:13 +0100)
+
+## 12 November 2026, 14:57:58 +0100 : Prompt
+
+<!-- feedback-event:d9df3252050ecaebfc8f31173d99f83f861293e198caa1a0c11c5ae1653013a6 (12 November 2026, 14:57:58 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 14:57:58 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 14:57:58 +0100)
+
+> <task-notification> (12 November 2026, 14:57:58 +0100)
+> <task-id>boiwfgwhv</task-id> (12 November 2026, 14:57:58 +0100)
+> <tool-use-id>toolu_01JU5AaZefweyqTrxfbX2amM</tool-use-id> (12 November 2026, 14:57:58 +0100)
+> <output-file>/private/tmp/claude-501/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/tasks/boiwfgwhv.output</output-file> (12 November 2026, 14:57:58 +0100)
+> <status>completed</status> (12 November 2026, 14:57:58 +0100)
+> <summary>Background command "Contrôler que le design est dans la galerie ZenRay Edit" completed (exit code 0)</summary> (12 November 2026, 14:57:58 +0100)
+> </task-notification> (12 November 2026, 14:57:58 +0100)
+
+## 12 November 2026, 14:58:15 +0100 : Iteration
+
+<!-- feedback-event:f1a1bf727a373b9ce8ab7ba5fb7b35abf8bda17355b0084bc6aa7ddee23a80c6 (12 November 2026, 14:58:15 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 14:58:15 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 14:58:15 +0100)
+
+> La version 2 des trois vues est prête : [/Users/zenray/.claude/tmp/tmp-zenray-blueprints-3d-12-november-2026/index.html](/Users/zenray/.claude/tmp/tmp-zenray-blueprints-3d-12-november-2026/index.html). Les quatre captures que je t'ai envoyées en viennent. (12 November 2026, 14:58:15 +0100)
+>
+> La même page, construite sur le registre courant du projet, sert de vue partagée : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/hub/Blueprints3D.html](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/hub/Blueprints3D.html). (12 November 2026, 14:58:15 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (12 November 2026, 14:58:15 +0100)
+> |---|---|---| (12 November 2026, 14:58:15 +0100)
+> | Comprendre qu'on est dans le projet Car2 | Oui | La barre de gauche s'ouvre sur la photo de la voiture, « Car2 » en grand, « 18 composants · 4 groupes » et une barre d'avancement. | (12 November 2026, 14:58:15 +0100)
+> | Planche plus minimaliste, tout voir d'un coup | Oui | Les cinq vues sont en cinq colonnes, photo au-dessus et blueprint dessous ; la description est rangée derrière « Détails » ; tout tient dans un écran de 1600 par 1000. | (12 November 2026, 14:58:15 +0100)
+> | Des couleurs qui te plaisent | Pas vérifié | J'ai mis une seule encre et le bleu des blueprints, avec un bouton « Couleurs » qui passe entre trois palettes (neutre, encre, papier) ; c'est ton œil qui tranche. | (12 November 2026, 14:58:15 +0100)
+> | Des noms clairs plutôt que R01, F01 | Oui | Les codes ont quitté l'interface et ne restent que dans « Détails » ; l'état est une petite jauge de trois barres (dessiné, validé, construit). | (12 November 2026, 14:58:15 +0100)
+> | Garder les groupes comme dans Maya | Oui | Arrière, Avant, Profil gauche et Roue sont des groupes repliables avec leur nombre de composants. | (12 November 2026, 14:58:15 +0100)
+> | Chantiers refaite, plus d'images, sans vide | Oui | C'est une galerie groupe après groupe ; chaque carte montre la photo et le blueprint côte à côte, puis la bande des cinq vues. | (12 November 2026, 14:58:15 +0100)
+> | Chronologie refaite, images et animations de 0,2 s | Oui | Elle se lit heure par heure, une carte par composant avec photo et blueprint ; les cartes entrent en 0,2 seconde. | (12 November 2026, 14:58:15 +0100)
+> | Lisible sur téléphone et en sombre | Oui | Largeur mesurée à 390 px sans débordement sur les trois vues ; thème sombre capturé. | (12 November 2026, 14:58:15 +0100)
+> | Design rangé dans ZenRay Edit | Oui | Le contrôle de la galerie répond « OK: 2 files reach the cloud gallery ». | (12 November 2026, 14:58:15 +0100)
+> | L'application elle-même | Non | Elle attend ton choix de design. | (12 November 2026, 14:58:15 +0100)
+> | Synthèse HTML du projet et archive cloud vérifiée | Non | Pas faites dans ce tour. | (12 November 2026, 14:58:15 +0100)
+>
+> J'ai aussi corrigé deux défauts du registre en passant : (12 November 2026, 14:58:15 +0100)
+>
+> - **Codes courts :** ils changeaient quand une autre conversation réécrivait l'index (le Splitter était devenu F02). Ils sont maintenant dans un fichier que seul le hub écrit. (12 November 2026, 14:58:15 +0100)
+> - **Heures de création :** onze fiches portaient une heure de création postérieure à leur premier dessin, dont trois dans le futur. Le registre les ramène à l'heure du premier dessin. (12 November 2026, 14:58:15 +0100)
+>
+> Pour renommer un composant, dis-le-moi directement. La conversation de l'avant attend toujours ton verdict sur le capot supérieur (Hood Upper). (12 November 2026, 14:58:15 +0100)
+
+## 12 November 2026, 15:01:07 +0100 : Prompt
+
+<!-- feedback-event:93c37e406380980deaac5b6edb0250878bb3f1cfa69de03959578c510a43c6a1 (12 November 2026, 15:01:07 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 15:01:07 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 15:01:07 +0100)
+
+> <pasted_content id="9a95"> (12 November 2026, 15:01:07 +0100)
+> Alors, en fait, ok, je vois le problème global. En fait, sur toutes les vues que tu as fait, le problème c'est qu'il peut y avoir que deux colonnes. En fait, par exemple, dans la vue chronologie, tu as mis trois colonnes avec plusieurs images, mais en fait, il pourrait y avoir que deux colonnes max parce que sinon ça donne trop d'informations sur l'UI global. Par exemple, sur la vue chantier, tu as mis quatre colonnes, il faudra en mettre que deux maximum. Et pareil sur la planche, il faudrait mettre que deux maximum et ensuite on peut scroller pour voir les autres. Ensuite, il y a un autre problème, c'est que tu as mis des espèces de barres de progression avec plusieurs intervalles. Et je pense qu'en fait, tu aurais plutôt dû mettre une étiquette en mode soit c'est in progress, soit c'est pas fini, soit. Enfin, après, limite c'était mieux tout à l'heure, mais c'est juste t'avais mis des couleurs bizarres, tu vois. Mais en même temps, tout à l'heure, le design n'était pas final. Donc, trouve un compromis entre ce que t'as fait tout à l'heure et ce que tu fais maintenant, parce que les barres de progression. Bah, c'est bizarre en fait, parce que soit c'est fini, soit c'est en progrès, soit c'est pas fini, mais c'est actuellement chelou, on comprend pas. Le fait d'avoir mis l'image en haut à gauche, en dessous de quart, je sais pas parce que, enfin, à la limite c'est une bonne idée, mais mets-le en dessous de quart 2 et fais en sorte qu'on puisse changer la vue par rapport aux 5 vues, tu vois. En mode soit avec un carrousel, soit avec des étiquettes directement qui permettent de cliquer sur la vue qu'on veut voir. Euh, Ensuite, le fait d'avoir les components, c'est pas trop mal, mais remets quand même en mode hiérarchie, tri hiérarchie, le fait d'avoir quart 2 et tous ces components attribués. Ça, c'est pas trop mal. Sinon, là, on commence à être pas mal. Après, il y a toujours l'étiquette à valider ou 3D à faire qui n'est pas forcément bien. Donc, voilà, il y a encore une petite itération à faire sur les trois vues. Et je pense que quand on déploiera, ben, on gardera les trois vues en mode planche, chantier ou chronologie, et on développera directement, mais avec des données qui sont partagées en mode variable et en mode HDA. Enfin, en mode HDA, je parle de code, hein, je parle pas de la 3D, tu vois. (12 November 2026, 15:01:07 +0100)
+> </pasted_content id="9a95"> (12 November 2026, 15:01:07 +0100)
+>
+>  encore une itération à fairE. (12 November 2026, 15:01:07 +0100)
+
+## 12 November 2026, 15:01:07 +0100 : Prompt
+
+<!-- feedback-event:32f175b8e1ab4bcc3e36d192df5b215e586bf59fbd17715f0ca33347f93be510 (12 November 2026, 15:01:07 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 15:01:07 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 15:01:07 +0100)
+
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/images/10.webp] (12 November 2026, 15:01:07 +0100)
+
+## 12 November 2026, 15:01:09 +0100 : Prompt
+
+<!-- feedback-event:a1357b88050b08def871c4942369ca810ed66c849552cb11b3c4ef0bf9c6c872 (12 November 2026, 15:01:09 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 15:01:09 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 15:01:09 +0100)
+
+> <pasted_content id="9a95"> (12 November 2026, 15:01:09 +0100)
+> Alors, en fait, ok, je vois le problème global. En fait, sur toutes les vues que tu as fait, le problème c'est qu'il peut y avoir que deux colonnes. En fait, par exemple, dans la vue chronologie, tu as mis trois colonnes avec plusieurs images, mais en fait, il pourrait y avoir que deux colonnes max parce que sinon ça donne trop d'informations sur l'UI global. Par exemple, sur la vue chantier, tu as mis quatre colonnes, il faudra en mettre que deux maximum. Et pareil sur la planche, il faudrait mettre que deux maximum et ensuite on peut scroller pour voir les autres. Ensuite, il y a un autre problème, c'est que tu as mis des espèces de barres de progression avec plusieurs intervalles. Et je pense qu'en fait, tu aurais plutôt dû mettre une étiquette en mode soit c'est in progress, soit c'est pas fini, soit. Enfin, après, limite c'était mieux tout à l'heure, mais c'est juste t'avais mis des couleurs bizarres, tu vois. Mais en même temps, tout à l'heure, le design n'était pas final. Donc, trouve un compromis entre ce que t'as fait tout à l'heure et ce que tu fais maintenant, parce que les barres de progression. Bah, c'est bizarre en fait, parce que soit c'est fini, soit c'est en progrès, soit c'est pas fini, mais c'est actuellement chelou, on comprend pas. Le fait d'avoir mis l'image en haut à gauche, en dessous de quart, je sais pas parce que, enfin, à la limite c'est une bonne idée, mais mets-le en dessous de quart 2 et fais en sorte qu'on puisse changer la vue par rapport aux 5 vues, tu vois. En mode soit avec un carrousel, soit avec des étiquettes directement qui permettent de cliquer sur la vue qu'on veut voir. Euh, Ensuite, le fait d'avoir les components, c'est pas trop mal, mais remets quand même en mode hiérarchie, tri hiérarchie, le fait d'avoir quart 2 et tous ces components attribués. Ça, c'est pas trop mal. Sinon, là, on commence à être pas mal. Après, il y a toujours l'étiquette à valider ou 3D à faire qui n'est pas forcément bien. Donc, voilà, il y a encore une petite itération à faire sur les trois vues. Et je pense que quand on déploiera, ben, on gardera les trois vues en mode planche, chantier ou chronologie, et on développera directement, mais avec des données qui sont partagées en mode variable et en mode HDA. Enfin, en mode HDA, je parle de code, hein, je parle pas de la 3D, tu vois. (12 November 2026, 15:01:09 +0100)
+> </pasted_content id="9a95"> (12 November 2026, 15:01:09 +0100)
+>
+>  encore une itération à fairE. (12 November 2026, 15:01:09 +0100)
+>
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/images/10.webp] (12 November 2026, 15:01:09 +0100)
+
+## 12 November 2026, 15:02:03 +0100 : Prompt
+
+<!-- feedback-event:adfc02403efe6873c31d52db7d9735f03cb64dc619c293adeb956186c6ff0183 (12 November 2026, 15:02:03 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 15:02:03 +0100)
+
+> Retour sur la version 2 des maquettes ZenRay Blueprints 3D (12 November 2026, 14:58) : deux colonnes maximum partout (Chronologie en avait trois, Chantiers quatre, la Planche cinq : deux maximum puis on défile) ; les barres de progression à plusieurs intervalles ne se comprennent pas : mettre une étiquette, soit fini, soit en progrès, soit pas fini, compromis entre la version 1 (couleurs bizarres) et la version 2 ; l'image du projet va en dessous de Car2 et on doit pouvoir changer de vue parmi les cinq (carrousel ou étiquettes cliquables) ; remettre une hiérarchie en arbre, Car2 puis tous ses composants ; l'étiquette « à valider » ou « 3D à faire » n'est pas bien ; encore une itération sur les trois vues ; au déploiement on gardera les trois vues (Planche, Chantiers, Chronologie), développées avec des données partagées en variables, en mode HDA pour le code. (12 November 2026, 15:02:03 +0100)
