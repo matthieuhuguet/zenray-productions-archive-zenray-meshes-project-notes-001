@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-11-12T14:02:26.316Z",
+ "scannedAt": "2026-11-12T14:12:24.059Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
@@ -21,18 +21,18 @@
   },
   {
    "projectId": "zenray-meshes",
-   "lines": 3623,
+   "lines": 3650,
    "work": 241,
    "prompts": 19,
    "first": "2026-11-05T18:27:27.070Z",
-   "last": "2026-11-12T13:58:15.743Z",
+   "last": "2026-11-12T14:10:28.071Z",
    "strength": "strong",
    "conversationId": "claude:0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "provider": "claude",
    "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "title": "zenray meshes v5",
-   "updatedAt": "2026-11-12T14:01:09.807Z",
-   "bytes": 283792,
+   "updatedAt": "2026-11-12T14:11:36.984Z",
+   "bytes": 287440,
    "boundProject": "zenray-meshes"
   },
   {
@@ -85,18 +85,18 @@
   },
   {
    "projectId": "zenray-meshes",
-   "lines": 214,
+   "lines": 266,
    "work": 10,
    "prompts": 1,
    "first": "2026-11-12T11:07:00.938Z",
-   "last": "2026-11-12T14:01:45.469Z",
+   "last": "2026-11-12T14:10:47.654Z",
    "strength": "strong",
    "conversationId": "claude:48664bcf-655d-4f1c-8f4c-981e576050ff",
    "provider": "claude",
    "sessionId": "48664bcf-655d-4f1c-8f4c-981e576050ff",
    "title": "Car2 : chantier avant (ZenRay Meshes V5)",
-   "updatedAt": "2026-11-12T14:01:47.732Z",
-   "bytes": 36059749,
+   "updatedAt": "2026-11-12T14:10:50.431Z",
+   "bytes": 280979,
    "boundProject": null
   },
   {
