@@ -17781,3 +17781,300 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 15:11:24 +0100)
 
 > You're out of usage credits. Switch to another model, or manage usage credits at https://claude.ai/settings/usage?from=cc_cli_limit_message, to continue. (12 November 2026, 15:11:24 +0100)
+
+## 12 November 2026, 15:11:36 +0100 : Prompt
+
+<!-- feedback-event:015c3e7244eed640010576cb405c6a27760f23fb0a34ea2c840be521dde9fe0e (12 November 2026, 15:11:36 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 15:11:36 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 15:11:36 +0100)
+
+> <local-command-caveat>The command below was run directly in Claude Code, not sent to you as a request, and its output goes straight to the user. It's recorded here as context for later messages.</local-command-caveat> (12 November 2026, 15:11:36 +0100)
+
+## 12 November 2026, 15:11:36 +0100 : Prompt
+
+<!-- feedback-event:511640bfeb4e0dbadebc9c265c5e663e5d87b0cb7a321a34ba6167f9104ca266 (12 November 2026, 15:11:36 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 15:11:36 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 15:11:36 +0100)
+
+> <command-name>/model</command-name> (12 November 2026, 15:11:36 +0100)
+>             <command-message>model</command-message> (12 November 2026, 15:11:36 +0100)
+>             <command-args>claude-opus-5-5</command-args> (12 November 2026, 15:11:36 +0100)
+
+## 12 November 2026, 15:11:36 +0100 : Prompt
+
+<!-- feedback-event:c397ea24ccd93e7f16b5628363253a2962a48258330a85a35ffd8aa73ae988e4 (12 November 2026, 15:11:36 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 15:11:36 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 15:11:36 +0100)
+
+> <local-command-stdout>Set model to `claude-opus-5-5`</local-command-stdout> (12 November 2026, 15:11:36 +0100)
+
+## 12 November 2026, 15:15:50 +0100 : Prompt
+
+<!-- feedback-event:18c9aef78d48213f1f67cdb5c5f1d514be7dd5610ecc0dcf8253cac9d0684683 (12 November 2026, 15:15:50 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 15:15:50 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 15:15:50 +0100)
+
+> <command-message>zenray-progress</command-message> (12 November 2026, 15:15:50 +0100)
+> <command-name>/zenray-progress</command-name> (12 November 2026, 15:15:50 +0100)
+> <command-args>Est-ce que tu penses que, en fait, au lieu de publier en fait une application locale, on pourrait pas directement publier sur ZenRay Progress? Alors évidemment, ça demanderait de Fab Limit Reach. Ok, on va se mettre en +5.5. Ouais. Euh, alors, euh, est-ce que tu penses du coup que ce serait possible directement de mettre ZenRay Blueprints 3D directement sur ZenRay Progress? Comme ça, on peut upload directement tous nos chantiers directement en cloud. Plutôt que faire une application locale, je pense que ce serait plus intelligent. Mais faudrait vraiment vérifier et consigner du coup dans le prompt qu'à chaque fois tous les fichiers doivent être upload en conséquence directement. Et vu que c'est de la data un peu précieuse en termes de sécurité, parce que ça recense tous mes travaux, il faudrait directement que ce soit peut-être un peu plus protégé, peut-être par un mot de passe. Enfin, à la limite, ça c'est pas le plus important, mais dis-moi. En fait, oui, la question en fait c'est à chaque fois. En fait, le truc, c'est que le hub doit être mis à jour par rapport à d'autres chantiers qui lisent la data. Donc, en fait, à mon avis, on aura un dossier local qui sera lu, mais qui sera alimenté par un bridge qui sera en local. Mais en fait, à mon avis, c'est pas si dur à faire et c'est quelque chose de déjà natif. C'est-à-dire que tout ce qu'on va continuer à développer, ça va juste être mieux rangé et tout sera poussé dans le cloud directement sur ZenRay Progress. Du coup, je vais te dire où est-ce que tu vas le mettre dans ZenRay Progress. Je pense que tu vas le mettre, pour l'instant, tu vas le mettre dans la section Create, au-dessus de Plan, du coup. Genre tout en haut, du coup. Donc c'est la première sous-section, au-dessus de Plan et dans la section Create. Attention à ne pas confondre avec l'autre sidebar de gauche de Create. Ok, donc normalement je t'ai tout dit. Donc c'est ça. Maintenant il faut déployer la maquette ZenRay 3D Blueprints. Et évidemment il faut consigner dans ZenRay Meshes le fait de faire un commit et un upload directement à chaque milestone atteinte pour les components. Comme ça organise directement notre travail et il est cloudé directement et j'ai rien d'autre à faire. (12 November 2026, 15:15:50 +0100)
+>
+>  go déploie. du coup.  (12 November 2026, 15:15:50 +0100)
+>
+> Et attention, du coup, le hub de ZenRay 3D Blueprints devient du coup la source de vérité pour les autres chantiers. Mais les autres chantiers, à mon avis, puisqu'on utilise Claude Code, ils lisent directement les fichiers locaux, tu vois, pour savoir où on en est, etc. Mais il faut que je puisse te index mapping un nom de fichier ou un component actuel et que le modèle y comprenne, tu vois, par rapport aux fichiers locaux, tu vois. Mais en soi, ça pose pas de problème, en soi, c'est juste Claude Code, il utilise les fichiers locaux, tout est tout le temps push à chaque milestone, à chaque fin de cycle et d'exercice sur un component, on commit vers un upload, et c'est tout, en fait. Mais on utilise le protocole, du coup, pas ZenRay Assets, du coup, mais ZenRay Upload directement, pour faire en sorte que ça aille directement dans le truc. Et je pense qu'il n'y a pas besoin de faire un asset, je sais pas. (12 November 2026, 15:15:50 +0100)
+>
+>  Il faudrait réfléchir à qu'est-ce qui est le plus intelligent entre un ZenRay upload vers Progress ou un ZenRay assets directement. Après, ça pourrait être un ZenRay assets qui s'appelle car2 et dont les fichiers sont lus par ZenRay 3D Blueprint. ? Je sais pas, il faut faire la chose la plus efficace sans faire plusieurs fois la même chose en soi. En fait, ce que je veux dire, c'est que les fichiers cloud, ils ont une seule source de vérité, ça sert à rien de les upload plusieurs fois.</command-args> (12 November 2026, 15:15:50 +0100)
+
+## 12 November 2026, 15:15:50 +0100 : Prompt
+
+<!-- feedback-event:fe65301588c856d58a76d029d39530736318785f2f1b7690fc185216050dbccf (12 November 2026, 15:15:50 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 15:15:50 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 15:15:50 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/zenray-progress (12 November 2026, 15:15:50 +0100)
+>
+> # ZenRay Progress (14 October 2026) (12 November 2026, 15:15:50 +0100)
+>
+> Ce skill est le seul point d'entrée du site ZenRayProgress : son code, son interface, la vue Create et TOUTES les politiques de drive et d'upload. Il s'appelait `zenrayprogress-context` jusqu'au 14 October 2026 ; ce nom n'existe plus. (14 October 2026) (12 November 2026, 15:15:50 +0100)
+>
+> ## Ne pas confondre avec zenray-assets (14 October 2026) (12 November 2026, 15:15:50 +0100)
+>
+> | Demande | Skill | Pourquoi | (12 November 2026, 15:15:50 +0100)
+> |---|---|---| (12 November 2026, 15:15:50 +0100)
+> | Envoyer, uploader, streamer un film, un épisode, une photo, un son vers le drive | `zenray-progress` | c'est la bibliothèque (vue Create) | (12 November 2026, 15:15:50 +0100)
+> | Politique de push GitHub, dépôts d'archive, CMAF, sous-titres, miniatures, noms, dossiers Anime/Movies/Series/Documentaries | `zenray-progress` | politiques du drive | (12 November 2026, 15:15:50 +0100)
+> | Code, UI, déploiement, bugs du site (Create, Assets, Plan, Media...) | `zenray-progress` | c'est le dépôt ZenRayProgress | (12 November 2026, 15:15:50 +0100)
+> | Charger, décharger, restaurer une copie locale ; archiver un projet de production ; mapping, FEEDBACK.md, Rules.md, conversations, FileMap, panneau macOS | `zenray-assets` | c'est le service Assets et ses projets | (12 November 2026, 15:15:50 +0100)
+> | Donner des fichiers du Mac à une session Claude cloud, rapatrier son travail, la vue Cloud Bridge (3 November 2026) | `zenray-cloud-handoff` pour le geste, `zenray-progress` pour le code | le moteur `scripts/CloudBridge/Bridge.mjs` et la vue vivent dans ce dépôt | (12 November 2026, 15:15:50 +0100)
+>
+> - Un film ou une photo est un objet de la bibliothèque Create : ce n'est JAMAIS un projet Assets. Un projet Assets est un chantier de production (Houdini, Unreal, TMP) archivé par le service. (14 October 2026) (12 November 2026, 15:15:50 +0100)
+> - L'onglet « Assets » du site est de l'interface : son code se modifie ici ; le moteur qui archive et restaure appartient à `zenray-assets`. (14 October 2026) (12 November 2026, 15:15:50 +0100)
+> - Le verbe tranche, jamais un nom de dossier : `envoie / upload / streaming` = ce skill ; `charge / décharge / restaure / archive le projet` = `zenray-assets`. Commande : `node ~/.claude/skills/zenray-progress/scripts/route-method.mjs "<la phrase>"`, qui rend UNE méthode ou « AUCUNE METHODE » (alors poser la question). (14 October 2026) (12 November 2026, 15:15:50 +0100)
+>
+> ## Commencer un travail sur le site (14 October 2026) (12 November 2026, 15:15:50 +0100)
+>
+> Travailler dans `/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress` (ou un checkout propre à jour d'`origin/main`). (12 November 2026, 15:15:50 +0100)
+>
+> 1. Lire `docs/INDEX-ERREURS-FEATURES.md` d'abord, puis `CLAUDE.md` et les dernières entrées utiles avec `progress.mjs tail --project "ZenRayProgress" --count 3`. (14 October 2026) (12 November 2026, 15:15:50 +0100)
+> 2. Inspecter `git status --short` ; conserver les changements des autres. (14 October 2026) (12 November 2026, 15:15:50 +0100)
+> 3. Lire les vrais appelants avec `rg` ; ne pas se fier à la mémoire ou à de vieux plans quand le dépôt diffère. (14 October 2026) (12 November 2026, 15:15:50 +0100)
+> 4. Réutiliser les helpers existants et valider le vrai flux (build, endpoint, navigateur) avant d'annoncer un succès. (14 October 2026) (12 November 2026, 15:15:50 +0100)
+> 5. Journaliser dans `/Users/zenray/.claude/PROGRESS.md` par le skill `progress` seulement. (14 October 2026) (12 November 2026, 15:15:50 +0100)
+> 6. Déployer : `npx vite build && npx wrangler pages deploy dist --project-name zenray-progress --branch main`, depuis un arbre propre d'origin/main ; contrôle : l'`index-*.js` servi est celui de `dist/index.html`. (14 October 2026) (12 November 2026, 15:15:50 +0100)
+>
+> ## Politiques de drive et d'upload en vigueur (14 October 2026) (12 November 2026, 15:15:50 +0100)
+>
+> Valeurs courantes ; le détail daté et les corrections sont dans [references/UploadPolicies.md](references/UploadPolicies.md), les règles épinglées dans `/Users/zenray/.claude/Memory1/Projects/zenray-progress/Rules.md`, les incidents dans `docs/INDEX-ERREURS-FEATURES.md`. Le code fait foi des chiffres : `scripts/lib/push-batch-policy.mjs`, `scripts/lib/repo-create-policy.mjs`. (12 November 2026, 15:15:50 +0100)
+>
+> | Sujet | Règle | (12 November 2026, 15:15:50 +0100)
+> |---|---| (12 November 2026, 15:15:50 +0100)
+> | Une entrée | un film ou un épisode part par UN worker, `ZR_ONLY_PLAN=<plan.json> ZR_PROGRESS_REPO=<checkout propre> python3 ~/.claude/tmp/tmp-movies-series-upload/Scripts/ProcessFilmsSequentially.py` : archive chiffrée, CMAF, sous-titres, preuve, déchargement. `upload-mapped-git.mjs` seul (archive sans CMAF) ne suffit jamais | (12 November 2026, 15:15:50 +0100)
+> | Dossier cloud | `pages/Anime_Movies_Series_Documentaries/{Anime,Movies,Series,Documentaries}`, décidé AVANT l'envoi par `scripts/Films/WorkCategories.json` ; oeuvre inconnue = refusée, on demande à Matthieu puis on l'ajoute à la table ; une oeuvre n'a qu'un dossier | (12 November 2026, 15:15:50 +0100)
+> | Noms | nom local propre = nom cloud, `MediaRename.mjs plan` validé par Matthieu avant l'upload | (12 November 2026, 15:15:50 +0100)
+> | Taille d'un push | 1 900 Mio, soit 20 parts de 95 Mio, dimensionnée par la ligne mesurée ; échecs comptés par lot, 3 échecs retombent à 190 Mio puis remontée 2, 4, 8, 12, 16, 20 après 3 réussites ; jamais deux pushes simultanés vers un dépôt | (12 November 2026, 15:15:50 +0100)
+> | Dépôts | archive de film 4 096 Mio (43 parts) ; archive de dossier 2 048 Mio ; réutilisation d'un dépôt par voie, créations espacées de 120 s, 12 par heure au plus (24 si le volume l'exige) ; un blocage GitHub 403 divise le budget par deux | (12 November 2026, 15:15:50 +0100)
+> | Preuve avant de décharger | preuve par identité d'objets (manifeste en ligne, noms et blobs, une vraie part relue), pas de relecture complète sauf échec ; déchargement refusé sans `master` et `mpd` (sauf `"cmaf": false` explicite) et sans affiche publique | (12 November 2026, 15:15:50 +0100)
+> | CMAF | copie directe d'abord, sinon transcodage 4K 16, 8, 4, 2 Mbit/s et autre source 8, 4, 2 ; chaque segment sous 19 Mio ; `hvc1` pour tout HEVC | (12 November 2026, 15:15:50 +0100)
+> | Streaming | sous-titres obligatoires pour toute vidéo HLS/DASH, toutes les pistes audio nommées par langue | (12 November 2026, 15:15:50 +0100)
+> | Miniatures | URL jsDelivr publique pinnée sur un commit, jamais `/api/raw-proxy` ni `raw.githubusercontent.com` ; `scripts/CheckFilmPosters.mjs` vert avant d'annoncer un lot fini | (12 November 2026, 15:15:50 +0100)
+> | Écriture GitHub | un seul écrivain Git sur `zenray-data` pendant un lot ; au-delà de 100 fichiers, clone sparse puis commit et push, jamais l'API en boucle ; jamais de fetch en boucle sans cache ni voie hors quota | (12 November 2026, 15:15:50 +0100)
+> | Index et recherche | `build-search-index.mjs --apply` est réservé à Matthieu | (12 November 2026, 15:15:50 +0100)
+>
+> ## Cloud Bridge (3 November 2026) (12 November 2026, 15:15:50 +0100)
+>
+> - 3 November 2026 : la sidebar du site a une entrée Cloud Bridge, juste sous Progress (`src/components/CloudBridgeView.jsx`). Elle montre les trois gestes, envoyer, laisser travailler le cloud, rapatrier, chacun avec sa commande exacte, puis les retours à rapatrier et les handoffs envoyés avec leur état prouvé. (3 November 2026) (12 November 2026, 15:15:50 +0100)
+> - 3 November 2026 : la vue lit un seul fichier, `Memory/Projects/zenray-progress/cloud-bridge/Index.json`, par `urlLectureAffichage` (hors quota) ; jamais de boucle d'appels à l'API GitHub, jamais de sondage quand l'onglet est caché. L'index est écrit par `node scripts/CloudBridge/Bridge.mjs index` sur le Mac, et par chaque `send` et `pull`. (3 November 2026) (12 November 2026, 15:15:50 +0100)
+> - 3 November 2026 : tout réglage du pont vit dans `src/config/cloudBridge.js` et nulle part ailleurs ; la logique partagée par le moteur et la vue vit dans `src/lib/cloudBridge.js`, si bien qu'une commande affichée dans la sidebar est littéralement celle que le moteur attend. (3 November 2026) (12 November 2026, 15:15:50 +0100)
+> - 3 November 2026 : preuves : `node scripts/CloudBridge/Bridge.mjs selftest` et `npx vitest run src/lib/cloudBridge.test.js src/components/CloudBridgeView.test.jsx scripts/CloudBridge/Bridge.test.js`. Doctrine : `docs/CLOUD-BRIDGE.md`. (3 November 2026) (12 November 2026, 15:15:50 +0100)
+>
+> ## Références (14 October 2026) (12 November 2026, 15:15:50 +0100)
+>
+> - [references/UploadPolicies.md](references/UploadPolicies.md) : toutes les sections datées de politique d'upload, intégrales. (14 October 2026) (12 November 2026, 15:15:50 +0100)
+> - [references/Upload.md](references/Upload.md) : ex-skill `zenray-upload`, vidéo privée chiffrée, hvc1, pipeline de base. (14 October 2026) (12 November 2026, 15:15:50 +0100)
+> - [references/AssetsUpload.md](references/AssetsUpload.md) : ex-skill `zenray-assets-upload`, workflow de sous-titres. (14 October 2026) (12 November 2026, 15:15:50 +0100)
+> - `scripts/PrepareSubtitleCopy.py`, `scripts/RestartFilmWorker.sh`, `scripts/route-method.mjs` : outils du worker. Relancer le worker uniquement par `RestartFilmWorker.sh [--wait-upload-end]`. (14 October 2026) (12 November 2026, 15:15:50 +0100)
+>
+> ## Historique du skill zenrayprogress-context (conservé tel quel) (12 November 2026, 15:15:50 +0100)
+>
+> Work in `/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress`. (12 November 2026, 15:15:50 +0100)
+>
+> 1. Read `docs/INDEX-ERREURS-FEATURES.md` first, then `CLAUDE.md` and the last relevant global entries with (12 November 2026, 15:15:50 +0100)
+>    `progress.mjs tail --project "ZenRayProgress" --count 3`. (12 November 2026, 15:15:50 +0100)
+> 2. Inspect `git status --short`; preserve unrelated changes. (12 November 2026, 15:15:50 +0100)
+> 3. Read the actual call sites and code for the requested feature with `rg`; do not rely on Memory or old plans when the repository differs. (12 November 2026, 15:15:50 +0100)
+> 4. Reuse existing helpers and validate the real flow (build, endpoint, or browser) before claiming success. (12 November 2026, 15:15:50 +0100)
+> 5. Journal the result only in `/Users/zenray/.claude/PROGRESS.md` through the `progress` skill. The repository's (12 November 2026, 15:15:50 +0100)
+>    former `PROGRESS.md` is legacy read-only until Matthieu validates its deletion. (12 November 2026, 15:15:50 +0100)
+>
+> ## Téléchargements ZIP, contrôle du 2026-09-03 (12 November 2026, 15:15:50 +0100)
+>
+> Réutiliser `src/lib/bulkZip.js` et `notifyProgress` dans `src/components/Notifications.jsx`. (12 November 2026, 15:15:50 +0100)
+> `runZipDownload` dans App relie la notification et le spinner Finder au même état réel. (12 November 2026, 15:15:50 +0100)
+> Le callback annonce lecture, écriture et finalisation ; 100 % attend la fermeture disque. (12 November 2026, 15:15:50 +0100)
+> Vérifier avec `npx vitest run src/lib/bulkZip.test.js src/components/Notifications.test.jsx` : (12 November 2026, 15:15:50 +0100)
+> archives relues, fermeture retardée, erreurs disque, annulation, repli Blob et notification persistante. (12 November 2026, 15:15:50 +0100)
+>
+> ## 11 October 2026 : Branche de production Cloudflare Pages (12 November 2026, 15:15:50 +0100)
+>
+> - 11 October 2026 : La production de `zenray-progress.pages.dev` se déploie avec `npx wrangler pages deploy dist --project-name zenray-progress --branch main` ; `--branch master` ne crée qu'un aperçu (`master.zenray-progress.pages.dev`). Contrôle : l'`index-*.js` servi par `https://zenray-progress.pages.dev/` doit être celui de `dist/index.html`. (11 October 2026) (12 November 2026, 15:15:50 +0100)
+> - 11 October 2026 : Le panneau Assets lit le relais local `http://127.0.0.1:47831/activity` (`relay/activity-source.mjs`, LaunchAgent `com.zenray.journal-relay`) ; le navigateur intégré de l'agent ne peut pas le joindre, seul le Chrome du Mac le peut. (11 October 2026) (12 November 2026, 15:15:50 +0100)
+>
+> ## 12 October 2026 : Miniatures de films et renommage propre avant upload (12 November 2026, 15:15:50 +0100)
+>
+> - 12 October 2026 : Un poster de film est TOUJOURS une URL jsDelivr publique pinnée sur un commit, jamais `/api/raw-proxy` ni `raw.githubusercontent.com` (la production n'a pas `ZENRAY_RAW_TOKEN`, les tuiles sortaient noires). Avant d'annoncer un lot de films fini : `node scripts/CheckFilmPosters.mjs --manifests <clone zenray-data>` doit être vert. Réparation : `scripts/RepairFilmPosters.mjs`. Les caches `localStorage` de poster sont versionnés (`zrposter2:`, `zrfthumb2:`, `zrvcard6:`) : changer la forme d'une URL d'image impose de bumper la clé. (12 November 2026, 15:15:50 +0100)
+> - 12 October 2026 : Tout upload de médias commence par `node scripts/MediaRename.mjs plan --root <dossier>`, un tableau Avant/Après présenté à Matthieu (sous-dossiers `Titre/Saison NN/` proposés), puis `apply --plan <plan.json> --approved` seulement après sa validation. Le nom local est le nom cloud, propre (`Under The Open Sky.mkv`, `Akane Banashi S01E12.mkv`). Nouveau lot : `ZR_REQUIRE_CLEAN_NAMES=1`. Après l'upload : index mapping puis `MediaRename.mjs check --upload-plan ReadyUploadPlan.json` vert. (12 November 2026, 15:15:50 +0100)
+> - 12 October 2026 : Avant de dépendre d'un secret serveur, le chercher dans `npx wrangler pages secret list --project-name zenray-progress` ; `server/raw-proxy.js` exige `ZENRAY_RAW_TOKEN`, qui n'y figure pas. (12 November 2026, 15:15:50 +0100)
+>
+> ## 12 October 2026 : Audio, sous-titres sans ré-upload, reçus et renommage du cloud (12 November 2026, 15:15:50 +0100)
+>
+> - 12 October 2026 : Piste audio = sa langue (`日本語`), jamais `audio_1` ; `scripts/RepairAudioNames.mjs` répare l'existant. Le menu Audio du lecteur est toujours visible. (12 November 2026, 15:15:50 +0100)
+> - 12 October 2026 : Un film déjà déchargé qui manque de sous-titres se complète par `scripts/AppendSubtitlesFromCloud.mjs` (restauration depuis le reçu cloud, extraction, ajout au manifeste), jamais par un ré-upload. À lancer depuis le dépôt principal, environ 2,3 Mo/s. (12 November 2026, 15:15:50 +0100)
+> - 12 October 2026 : Les reçus de récupération comparent `manifestRecoverySha256`, pas le manifeste entier. `RenameCloudMedia.mjs` renomme et range les films du cloud (manifestes et `.streams` ensemble, reçus mis à jour). (12 November 2026, 15:15:50 +0100)
+>
+> ## 14 October 2026 : décision streaming seul (code en attente de validation) (12 November 2026, 15:15:50 +0100)
+>
+> - 14 October 2026 : décision de Matthieu : tous les films et formats vidéo passent par le CMAF streamé seul, sans archive chiffrée de l'original ; toutes les pistes audio gardées avec un nom clair ; film transcodé accepté ; re-téléchargement en fichiers séparés (vidéo, audio au choix, sous-titres). Règle complète : `/Users/zenray/.claude/Memory1/Projects/zenray-progress/Rules.md`. Le tableau « Politiques en vigueur » plus haut décrit encore l'état AVANT cette décision (archive + CMAF) tant que le code n'est pas livré. (14 October 2026) (12 November 2026, 15:15:50 +0100)
+>
+> ## 14 October 2026 : etat final des envois de films (decision de Matthieu, plus de question) (12 November 2026, 15:15:50 +0100)
+>
+> - 14 October 2026 : streaming seul, toutes les pistes audio, TOUS les sous-titres dans le cloud (trop gros pour le manifeste = fichier texte dans le depot public des segments, `src` dans le manifeste). (14 October 2026) (12 November 2026, 15:15:50 +0100)
+> - 14 October 2026 : plusieurs films en streaming = le worker : `ZR_ONLY_PLAN=<plan.json> ZR_UNLOAD_ROOTS=<dossier source> ZR_PROGRESS_REPO=<depot> python3 scripts/Films/ProcessFilmsSequentially.py` (StreamBatch.py est supprime) : prepare (CMAF local, `--stage-only`), publie des qu'un depot de 4,2 Gio est pret (`PublishStagedBatch.mjs`, pushes remplis a 1 900 Mio), sous-titres, preuve, dechargement automatique si la preuve est verte. Etat : `StreamBatchStatus.json` dans `~/.claude/tmp/tmp-movies-series-upload/`. (14 October 2026) (12 November 2026, 15:15:50 +0100)
+> - 14 October 2026 : tout envoi passe par `ProcessFilmsSequentially.py` ; aucun autre script d'envoi. Lecture : `src/lib/cdnFallbackLoader.js` (jsDelivr 3 s puis raw). En cas de doute l'agent tranche seul et le dit apres coup. Regle complete : `Memory1/Projects/zenray-progress/Rules.md`. (14 October 2026) (12 November 2026, 15:15:50 +0100)
+>
+> ## 15 October 2026 : affinage du site, ce qui a changé et comment le livrer (15 October 2026) (12 November 2026, 15:15:50 +0100)
+>
+> - 15 October 2026 : Cmd/Ctrl+K est la palette UNIQUE de l'app, montée à la racine d'`App.jsx` (`src/components/SpotlightSearch.jsx`) : destinations de `NAV` d'abord, fichiers de l'index ensuite, depuis toutes les vues. Ne pas la remonter dans Create. (15 October 2026) (12 November 2026, 15:15:50 +0100)
+> - 15 October 2026 : les demandes vers Create faites depuis une autre vue (note du jour, dossier, lecteur audio, YouTube, Spotify) passent par `poserDemandePages`, exportée de `src/create/Pages.jsx` : la boîte aux lettres vit à côté de `pagesMonte` et `demandePages`. L'ancienne copie dans `App.jsx` levait une ReferenceError et perdait la demande. (15 October 2026) (12 November 2026, 15:15:50 +0100)
+> - 15 October 2026 : index de recherche : `refresh()` lit les 400 premiers octets de `delta.json` (22 Mo) par `peekDeltaBuiltAt`, et les shards déchiffrés sont réutilisés tant que seul le delta bouge (`loadShardBase`). Le delta se replie dans les shards par `build-search-index.mjs --apply`, réservé à Matthieu. (15 October 2026) (12 November 2026, 15:15:50 +0100)
+> - 15 October 2026 : `Pages.jsx` : le sondage de l'arbre (25 s) saute le corps quand l'ETag n'a pas bougé ; les marqueurs de visibilité de dossier persistent dix minutes (`zr:folderVis:v1`) et un échec de lecture n'est JAMAIS mémorisé comme absence. (15 October 2026) (12 November 2026, 15:15:50 +0100)
+> - 15 October 2026 : Freelance : lot de 3, 5, 10, 20 ou 50 ; « Ouvrir les N pages » ouvre les pages de candidature en onglets par le service local (`open-links`, https public seulement, 60 au plus), « Copier » met la lettre prête dans le presse-papiers, « Tout marquer fait » demande une confirmation ; un groupe de cartes affiche 72 fiches puis « Afficher plus ». Gallery : filtre texte qui ne change que l'affichage. (15 October 2026) (12 November 2026, 15:15:50 +0100)
+> - 15 October 2026 : films : `ProcessFilmsSequentially.py` termine sous-titres, preuve et déchargement 4 films à la fois (`ZR_FINISH_FLOWS`) ; l'encodeur matériel VideoToolbox plafonne vers 20 fois le temps réel dès 2 flux, ne pas monter `ZR_PACKAGE_FLOWS` pour aller plus vite. (15 October 2026) (12 November 2026, 15:15:50 +0100)
+> - 15 October 2026 : livrer = `~/.claude/tmp/tmp-zenray-refine-14oct/Scripts/Ship.sh [--restart-assets] [--restart-freelance] [--no-deploy]` depuis le worktree `~/.claude/tmp/tmp-zenray-refine-14oct/work` (rebase origin/main, suite complète, build, push, déploiement Pages, fast-forward du dépôt principal, vérification du bundle servi). Prévisualiser : `preview_start zenray-refine` (port 3300, Assets passif, vraie clé média). (15 October 2026) (12 November 2026, 15:15:50 +0100)
+>
+> ## 16 October 2026 : Livraison et limites des processus de test (12 November 2026, 15:15:50 +0100)
+>
+> - Ship.sh accepte ZR_SHIP_TEST_WORKERS, défaut4 ; valeur1 pour une vérification globale sans concurrence entre fichiers lorsque les nettoyages des tests Assets rencontrent la charge. Le script conserve désormais le code d’échec avant d’afficher le rapport et de tenter sa relance ; set-e coupait auparavant ce chemin. Aucun échec n’autorise le déploiement. (16 October 2026) (12 November 2026, 15:15:50 +0100)
+> - Dans AssetsService.test.js, le nettoyage ferme les services avant de supprimer leurs dossiers temporaires ; l’attente d’un audit courant inclut aussi la disparition de son diagnostic périmé. Les assertions restent présentes et aucun comportement de production Assets n’est modifié par cette correction de tests. (16 October 2026) (12 November 2026, 15:15:50 +0100)
+>
+> ## 16 October 2026 : vue Sport (Plan et note du jour) (12 November 2026, 15:15:50 +0100)
+>
+> - 16 October 2026 : la vue `sport` (menu Create, après Goals) tient la base d'exercices en tuiles, UNE carte Plan par jour (`sport-<date>`, `sport.entries` structuré et `note` lisible) et le bloc Sport de la note du jour entre `<!-- sport:start -->` et `<!-- sport:end -->`. Tout est dans `src/sport/`, `src/config/sport.js` et `docs/SPORT.md` du dépôt ZenRayProgress ; ajouter un exercice, une photo ou une valeur cliquable s'y décrit en trois lignes. (16 October 2026) (12 November 2026, 15:15:50 +0100)
+> - 16 October 2026 : le plan actif se résout par réglage manuel `zr:sport:planPath`, puis premier plan épinglé, puis cache, puis chemin de repli ; un plan introuvable ou illisible n'est jamais traité comme vide. Déployé le 16 October 2026 ; la première écriture réelle dans le vrai Plan n'a PAS été exécutée (testée par 19 tests avec écritures simulées). (16 October 2026) (12 November 2026, 15:15:50 +0100)
+>
+>
+> ## 19 October 2026 : Plan, pièces jointes Create et liens Calendar (12 November 2026, 15:15:50 +0100)
+>
+> - 19 October 2026 : le détail d'une tâche Plan accepte les fichiers originaux par `src/create/PlanAttachments.jsx` et `captureAttachment`, sous `pages/PlanAttachments/<task-id>` ; aucun texte converti ni vidéo transcodée. Les paramètres communs sont dans `src/create/planAttachments.js`. (19 October 2026) (12 November 2026, 15:15:50 +0100)
+> - 19 October 2026 : les liens `/api/attachment-download?share=…` utilisent le partage signé `kind=file`, permanent et révocable, ciblé sur un seul manifeste `.media.json`. Le retrait révoque le lien et conserve le fichier Create. Le serveur vérifie le jeton avant toute lecture puis déchiffre en flux ; la route Pages native conserve la pression du lecteur. Ne pas utiliser `/api/stream`, qui ne sert qu'une fenêtre de 4 Mio. (19 October 2026) (12 November 2026, 15:15:50 +0100)
+> - 19 October 2026 : les liens passent dans la description Google Calendar par `workers/plan-gcal/src/core.js`, y compris sur les événements importés modifiables sans tronquer leur description. Déployer Pages ET le Worker `workers/plan-gcal/wrangler.toml` ; valider les tests du composant, du téléchargement et de la synchronisation, puis télécharger un vrai fichier et comparer son SHA-256. (19 October 2026) (12 November 2026, 15:15:50 +0100)
+> - 19 October 2026 : correction Cloudflare du téléchargement : workerd impose `setAuthTag` AVANT `update`. Lire les 16 derniers octets par Range sur GitHub raw pinné, puis fournir ce tag avant le flux. Le Range jsDelivr peut viser le contenu compressé, donc ne pas y lire le tag. Contrôle local du vrai handler dans workerd : 7 299 017 octets exacts. (19 October 2026) (12 November 2026, 15:15:50 +0100)
+>
+> ## 19 October 2026 : limite et progression des pièces jointes Plan (12 November 2026, 15:15:50 +0100)
+>
+> - 19 October 2026 : limite explicite de l'ajout navigateur Plan : 95 Mio par fichier, issue de RAW_THRESHOLD dans src/config/chunkPolicy.js et configurée par src/config/attachmentPolicy.js. Les fichiers vides ou trop gros sont refusés avant tout réseau. Les sélections de 100 fichiers ou plus renvoient vers l'import Create en masse par Git. Il s'agit d'une limite produit Plan, pas de la limite des fichiers GitHub. (19 October 2026) (12 November 2026, 15:15:50 +0100)
+> - 19 October 2026 : l'ajout ponctuel conserve le moteur universalCapture, AES-GCM, les morceaux de stockage de 19 Mio, les fragments de transport de 3 Mio, le sémaphore API existant, les reprises et le rollover. La politique Git des lots de 1900 Mio s'applique aux transferts Git en masse, pas à cette API navigateur. (19 October 2026) (12 November 2026, 15:15:50 +0100)
+> - 19 October 2026 : progression par fragment de transport accepté, barre pondérée par la taille des fichiers, SpinnerApple existant, phase réelle et secondes écoulées. La création du lien et la sauvegarde Plan restent visibles ; 100 % attend une confirmation du drive. Réglages dans PLAN_UI.attachments. Tests : src/capture/captureAttachment.test.js, src/config/attachmentPolicy.test.js et src/create/PlanAttachments.test.jsx. (19 October 2026) (12 November 2026, 15:15:50 +0100)
+>
+> ## 19 October 2026 : Plan creation attachments and existing Create media (12 November 2026, 15:15:50 +0100)
+>
+> - 19 October 2026 : New goal and task details share PlanAttachments.jsx: visible file drop, Add attachments, From Create index search and direct manifest path. Existing Create media bypasses the 95 MiB new-upload cap because no binary is uploaded. (19 October 2026) (12 November 2026, 15:15:50 +0100)
+> - 19 October 2026 : linkCreateAttachment.js reads only the selected manifest with raw=1, creates a permanent revocable video/image viewer share for Calendar, or a file download for encrypted originals. The ordinary share expiry remains unchanged without permanent=true. Never send DASH/HLS manifests to the original-file download route. (19 October 2026) (12 November 2026, 15:15:50 +0100)
+> - 19 October 2026 : Regression checks: PlanBoardAttachments.test.jsx covers real creation and persistence; linkCreateAttachment.test.js covers a 9 GB movie without reupload, original audio downloads and invalid drops; shareRecordGraphql.test.js covers viewer permanence and revocation. No Calendar Worker change is required when only viewer URLs replace download URLs. (19 October 2026) (12 November 2026, 15:15:50 +0100)
+>
+> ## 20 October 2026 : articles intégrés à Assets, préparation locale (12 November 2026, 15:15:50 +0100)
+>
+> - Les projets qui déclarent `article.fileId` s’ouvrent sur Article avant Fichiers, en Classique et Tube. Les autres projets gardent leur comportement. `ProjectArticle.jsx` rend un HTML autonome dans une iframe isolée ; `assetsProjectArticle.js` porte la limite de lecture, les références et la politique de contenu. (20 October 2026) (12 November 2026, 15:15:50 +0100)
+> - Le début du HTML sert de miniature, transportée dans la référence compacte du catalogue ; aucun HTML complet n’est chargé pour la grille. Les fichiers HTML sélectionnés se lisent aussi directement dans l’aperçu Assets. (20 October 2026) (12 November 2026, 15:15:50 +0100)
+> - Le service accepte `preview-text` avec `format=html` et `set-article` : déployer le code puis recharger le daemon sans interrompre ses archives avant de publier un article. La commande de création et la validation du SHA se décrivent dans le skill zenray-edit, référence ProjectArticles.md. L’article UV-Match Height reste à valider avant publication. (20 October 2026) (12 November 2026, 15:15:50 +0100)
+>
+> - Livraison depuis un worktree : le build doit reprendre les variables VITE du dépôt principal ; sans .env.local, les paramètres Spotify disparaissent du bundle. Pour UV-Match Height, le build final est produit et déployé depuis le checkout principal propre à jour d’origin/main ; le bundle servi est comparé à son dist/index.html. Ne pas afficher les valeurs de configuration dans les logs. (20 October 2026) (12 November 2026, 15:15:50 +0100)
+>
+> ## 20 October 2026 : collections ArtStation dans Design (12 November 2026, 15:15:50 +0100)
+>
+> - Import complet des collections, couvertures, images et aperçus vidéo/3D : lire [references/ArtstationCollections.md](references/ArtstationCollections.md), puis réutiliser les scripts et preuves de l'atelier existant. Les cookies restent en mémoire, les fichiers passent par le moteur Git existant, et la vérification compare chaque identité d'image avant l'ouverture de Design. (20 October 2026) (12 November 2026, 15:15:50 +0100)
+>
+> ## 23 October 2026 : sous-skill zenray-plan (12 November 2026, 15:15:50 +0100)
+>
+> - 23 October 2026 : tout ce qui touche ZenRay Plan (agenda, tâches, séries, heures, tuiles) passe par le sous-skill `zenray-calendar-plan` (`/Users/zenray/.claude/skills/zenray-calendar-plan/SKILL.md`, outil `scripts/PlanTool.mjs`, projet Assets `zenray-calendar-plan-23-october-2026`). `zenray-plan-publish` en est le mode publication. (23 October 2026) (12 November 2026, 15:15:50 +0100)
+>
+> ## 28 October 2026 : vue Gallery > ZenRay Edit (designs HTML du skill zenray-edit, pointés depuis le cloud Assets) (12 November 2026, 15:15:50 +0100)
+>
+> - 28 October 2026 : la vue `zenray-edit` (zone Gallery, après Environments) liste les 62 dossiers de design HTML (79 pages) du skill `zenray-edit` sans rien réuploader. Fichiers : `src/components/EditHtmlGallery.jsx`, `src/config/editHtmlGallery.js` (tous les réglages), `src/lib/editHtmlPointers.js` (fonctions pures), `src/lib/editHtmlBundle.js` et `src/lib/editHtmlArchive.js` (lecture). Entrée de registre : `kind: 'editHtml'` dans `src/config/pointerGalleries.js` ; ce type n'est jamais une cible d'« Ajouter à… ». (28 October 2026) (12 November 2026, 15:15:50 +0100)
+> - 28 October 2026 : un fichier archivé par Assets (manifeste `type: file`, `mode: chunked`) se lit par `src/lib/editHtmlArchive.js`, jamais par `loadChunked`, qui rend le texte « undefined » sans erreur sur ce schéma. La liste vient de `/api/page?action=tree&dir=<racine>` (un appel, ETag), l'index de recherche n'étant qu'un repli (11 dossiers de retard mesurés). (28 October 2026) (12 November 2026, 15:15:50 +0100)
+> - 28 October 2026 : l'automatisation vit côté skill : `file-design.mjs` fait la miniature `_thumb.webp` puis synchronise et archive ; `check-gallery-sync.mjs --folder <dossier> --wait 300` prouve la chaîne. Détail : skill `zenray-edit`, section du 28 October 2026. Index des erreurs : `docs/INDEX-ERREURS-FEATURES.md`, section du 28 October 2026. Livré le 28 October 2026 (commit 45b56c53, déploiement Pages `index-DR4MCc5h.js`). (28 October 2026) (12 November 2026, 15:15:50 +0100)
+>
+> ## 9 November 2026 : contexte par ZenRay Past (9 November 2026) (12 November 2026, 15:15:50 +0100)
+>
+> - 9 November 2026 : pour retrouver le passé de ce domaine (décisions, valeur actuelle et versions dépassées, conversations, notes du jour, commits), interroger d'abord ZenRay Past, MCP `zenray-past` (`past_recall`, `past_resume`), avant de relire de gros fichiers ; voir la priorité 0 du CLAUDE.md global. (9 November 2026) (12 November 2026, 15:15:50 +0100)
+> - 9 November 2026 : l'onglet Progress de la sidebar s'appelle Past (clé interne `progress` conservée) ; la vue vit dans `src/past/` (chronologie 3D, journal en second onglet) et lit le service local `com.zenray.past` sur 127.0.0.1:47840 ; hors du Mac elle affiche le Journal. Réglages : `src/config/past.js`, couleurs : `PAST_COLORS` de `src/config/colors.js`. (9 November 2026) (12 November 2026, 15:15:50 +0100)
+>
+> ## 9 November 2026 : Piste japonaise par défaut (12 November 2026, 15:15:50 +0100)
+>
+> - 9 November 2026 : Lorsqu'une vidéo contient une piste japonaise (`jpn` ou `ja`), elle devient la piste par défaut dans le manifeste `.media.json` et la playlist HLS (`DEFAULT=YES`) ; les autres pistes restent disponibles, avec `DEFAULT=NO`. Conserver leurs noms de langue. Après publication, relire le manifeste et la playlist depuis `origin/main` et vérifier la piste japonaise par défaut avant de décharger la source locale. Incident payé : Yomi No Tsugai S01E22, E23 et E24 avaient été publiés avec la piste française par défaut ; leurs manifestes et playlists ont été corrigés. Règle durable : `/Users/zenray/.claude/Memory1/Projects/zenray-progress/Rules.md`. (12 November 2026, 15:15:50 +0100)
+>
+> ## 9 November 2026 : coffre à jeux, envoyer, prouver, charger et décharger un jeu bit à bit (décision de Matthieu, 9 November 2026) (12 November 2026, 15:15:50 +0100)
+>
+> - 9 November 2026 : mots de Matthieu : pouvoir charger et décharger n'importe quel jeu de manière exacte bit à bit, par les fonctions d'upload de ZenRay Progress ; un jeu se range dans Create sous `Games` ; il se décharge une fois confirmé dans le drive et re-téléchargeable par un load. Même politique pour les photos. (9 November 2026) (12 November 2026, 15:15:50 +0100)
+> - 9 November 2026 : où : `scripts/Games/` du dépôt ZenRayProgress (`GamesVault.mjs`, `GamesParams.json`, `lib/`), documentation `docs/GAMES-VAULT.md`. Code livré sur la branche `games-vault` (worktree `/Users/zenray/.claude/tmp/tmp-zenray-games-vault-9-november-2026/work`) et PAS encore poussé sur `origin/main` ; reçus et état dans `/Users/zenray/.zr-games-vault/` (`Receipts/`, `Temp/`). Tout réglage vit dans `GamesParams.json` (un paramètre absent lève une erreur qui le nomme). (9 November 2026) (12 November 2026, 15:15:50 +0100)
+> - 9 November 2026 : commandes, une par jeu, depuis le dossier du code, avec `GITHUB_TOKEN=$(gh auth token)` : `node scripts/Games/GamesVault.mjs plan <id>` (inventaire sans écriture), `upload <id>`, `verify <id>`, `load <id> --test`, `load <id> --to <dossier neuf>`, `compare <a> <b>`, `unload <id> --yes`, `list`, `index`. Fermer CrossOver avant un envoi. (9 November 2026) (12 November 2026, 15:15:50 +0100)
+> - 9 November 2026 : destination `pages/Games/<Label>` (Create > Games). Jeux inscrits : ControlResonant, TheBloodOfDawnwalker, DaveTheDiver (bouteilles CrossOver sous `~/Library/Application Support/CrossOver/Bottles/`) et NintendoGames (`/Users/zenray/Create/Build/NintendoGames`, avec l'image Zelda Twilight Princess et Dusklight, sans `FinalFantasyResonance`). Un nouveau jeu s'ajoute dans `GamesParams.json`. (9 November 2026) (12 November 2026, 15:15:50 +0100)
+> - 9 November 2026 : bit à bit exact SEULEMENT avec `--raw-all` du moteur `archive-folder.mjs` : sans lui, `classify.js` envoie images, sons et vidéos vers d'autres rails. Le coffre le passe toujours. Les liens symboliques (bouteilles : `dosdevices/z: -> /`, `y: -> ~`) ne sont JAMAIS suivis ni envoyés comme données, ils sont enregistrés dans le fichier `GameManifest.json` envoyé avec le jeu et recréés au load ; les attributs étendus ne sont enregistrés que par leur nom. (9 November 2026) (12 November 2026, 15:15:50 +0100)
+> - 9 November 2026 : dépôts de morceaux PRIVÉS par défaut (`repoVisibility: private`, drapeau `--private`) : 170 Go de jeux du commerce dans des dépôts publics exposeraient le compte entier à un retrait pour droit d'auteur. Conséquence : le site et `Cloud/scripts/restaurer.mjs` ne lisent pas un jeu privé, seul `load` le fait. (9 November 2026) (12 November 2026, 15:15:50 +0100)
+> - 9 November 2026 : règle de déchargement : `unload` refuse sans un `verify` VERT (empreinte locale égale au manifeste, morceaux présents, relecture réelle d'un échantillon, dépôts privés) plus récent que l'envoi ET un `load --test` VERT plus récent aussi ; il ne supprime que le chemin inscrit, jamais en suivant un lien. Chaque garde a été cassée exprès, un test rougit. Avant le premier déchargement d'un nouveau type de jeu, faire un `load --to` complet puis `compare` : fait sur DaveTheDiver, 7 416 fichiers, IDENTICAL. (9 November 2026) (12 November 2026, 15:15:50 +0100)
+> - 9 November 2026 : piège payé : le wrapper `memoizeManifests` ne relayait pas `repoVisibility`, donc `verify` rendait ROUGE pour tout dépôt privé ; corrigé et couvert par un test. Un « inconnu » n'est jamais « privé » ni « vert ». (9 November 2026) (12 November 2026, 15:15:50 +0100)
+> - 9 November 2026 : photos : la photothèque Apple (`~/Pictures/Photos Library.photoslibrary`, 28 Go) ne garde que 2 928 originaux en local (11,3 Go) ; les manifestes `pages/Photos` n'ont pas l'empreinte du contenu, donc aucun rapprochement par hash n'est possible. Méthode retenue : exporter les originaux (nom d'origine et date lus dans `database/Photos.sqlite`) vers `pages/Photos/Apple Photos/<année>/<mois>`, même coffre ; ne JAMAIS supprimer des fichiers dans le `.photoslibrary` à la main, libérer par « Optimiser le stockage du Mac » une fois la preuve verte. Non codé au 9 November 2026. (9 November 2026) (12 November 2026, 15:15:50 +0100)
+>
+> ## 9 November 2026 : tailles des jeux, 2 048 Mio par push et 4 096 Mio par dépôt complet (mots de Matthieu, 9 November 2026) (12 November 2026, 15:15:50 +0100)
+>
+> - 9 November 2026 : mots de Matthieu : « on avait tranché, c'était 2048 Mo par push et 4096 pour un repo complet. » Pour le coffre à jeux : un dépôt de morceaux contient 4 096 Mio (paramètre `engine.repoCapMiB` de `scripts/Games/GamesParams.json`, transmis au moteur par `ZR_FOLDER_REPO_CAP_MIB`) ; un push reste sous 2 048 Mio (la politique de lots plafonne à 1 900 Mio, démarrage progressif de 20 Mio). (9 November 2026) (12 November 2026, 15:15:50 +0100)
+> - 9 November 2026 : preuve mesurée : les dépôts `zenray-productions-archive-the-blood-of-dawnwalker-10` à `-16` ont été poussés à 4,08 Go chacun et acceptés par GitHub. La mesure du 16 August 2026 (refus des pushes vers 2,3 Go sur `downloads-30`) est donc périmée pour ces dépôts privés. (9 November 2026) (12 November 2026, 15:15:50 +0100)
+> - 9 November 2026 : le défaut global des archives de dossiers (`folderRepoCapMiB`, 2 048 Mio, 21 parties par dépôt, figé par `scripts/lib/push-policy-guard.test.mjs`) n'a PAS été changé : il sert aussi ZenRayCloud. Le passer à 4 096 Mio demande de changer ce test de garde exprès, sur décision de Matthieu. (9 November 2026) (12 November 2026, 15:15:50 +0100)
+> - 9 November 2026 : la création de dépôts est limitée par GitHub (« You have created too many repositories, too quickly », REST 403) : environ 10 créations par heure se passent bien, au-delà le moteur échoue ; avec des dépôts de 4 Go il en faut moitié moins. Le moteur affiche maintenant la réponse réelle de GitHub à chaque échec de création. (9 November 2026) (12 November 2026, 15:15:50 +0100)
+>
+> ## 9 November 2026 : photos, preuve par empreinte du contenu, et index des jeux republié tout seul (mots de Matthieu, 9 November 2026) (12 November 2026, 15:15:50 +0100)
+>
+> - 9 November 2026 : mots de Matthieu : vérifier d'abord que toutes les photos sont dans le drive et envoyer celles qui n'y sont pas, par métadonnées ou par nom de fichier, mais avec une méthode irréfutable, sans se tromper. Il avait raison de se méfier du nom : sur 17 180 éléments de la photothèque, 10 570 portent un nom qui existe dans le drive, alors que sur 1 680 originaux locaux seuls 26 y sont réellement ; 1 623 des autres ont un nom en collision avec un fichier différent (IMG_0001 existe sur chaque téléphone). (9 November 2026) (12 November 2026, 15:15:50 +0100)
+> - 9 November 2026 : CORRECTION de la ligne « photos » plus haut (les manifestes n'auraient pas l'empreinte du contenu) : les manifestes `.img.json` la portent, car le nom du premier morceau `ab/cd/<sha256>-000.bin` (schéma `cdnChunks`) ou `ab/cd/<sha256>.<ext>` (ancien `cdnPath`) est le sha256 de l'original ENTIER ; un manifeste `.file.json` v4 porte `sha256`. Les octets d'une image sont ceux de l'original (chiffrés AES-GCM, IV du manifeste), jamais recompressés. Les `video-raw`, `dash` et `.m3u8` n'ont pas d'empreinte de fichier entier : les vidéos de la photothèque (212, 26,1 Go) sont une phase à part. (9 November 2026) (12 November 2026, 15:15:50 +0100)
+> - 9 November 2026 : méthode, outil `scripts/Photos/PhotosVault.mjs` (paramètres dans `PhotosParams.json`, état dans `~/.zr-photos-vault`, rien n'est jamais écrit dans le `.photoslibrary`) : `inventory` (copie de Photos.sqlite), `drive` (clone partiel de zenray-data `pages/Photos`, sans passer par le quota de l'API), `audit --local`, `fetch` (export des originaux iCloud par AppleScript, un dossier par élément), `stage`, `upload` (moteur `archive-folder.mjs` SANS `--raw-all`, destination `pages/Photos/Apple Photos/<année>/<MM Mois>`), `reclassify`, `chunks` (longueur sur le CDN par lecture de plage : jsDelivr refuse un HEAD complet sur un gros dépôt ; puis preuve profonde : téléchargement, déchiffrement avec la clé maître, sha256 identique), `cleanup` (supprime NOS copies de préparation une fois prouvé), `report` (code de sortie 0 seulement si TOUT est présent et vérifié). `PhotosChain.sh` enchaîne le cycle. Tests : `scripts/Photos/lib/Proof.test.js`, verts dans les deux sens. (9 November 2026) (12 November 2026, 15:15:50 +0100)
+> - 9 November 2026 : mesures : l'export d'un original iCloud par AppleScript prend environ 3,3 s, Photos sérialise ses appels (8 processus = 1 seul, mesuré), donc environ 0,3 élément par seconde, soit une quinzaine d'heures pour les 14 800 photos seulement dans iCloud ; la voie rapide est le réglage Photos « Télécharger les originaux », qui relève de Matthieu seul. Un export en direct d'un Live Photo rend deux fichiers (HEIC et mov) : l'élément est présent seulement si les DEUX le sont. `PHPhotoLibrary` est refusé d'emblée pour un processus lancé depuis l'application (pas de permission Photos). Le « stable hash » d'Apple n'est pas le SHA-1 du fichier (0 sur 200). (9 November 2026) (12 November 2026, 15:15:50 +0100)
+> - 9 November 2026 : PIÈGE PAYÉ : le fichier `.zenray-media-key` d'un worktree (ship, work) était une clé tirée au hasard, différente de celle du dépôt principal ; un envoi d'images depuis ce worktree aurait chiffré des photos que le site ne sait pas déchiffrer. Avant tout envoi d'images ou de médias : `cmp` du fichier du worktree avec `/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/.zenray-media-key`, et preuve profonde sur un échantillon après l'envoi (règle déjà notée le 15 October 2026, reprise ici). (9 November 2026) (12 November 2026, 15:15:50 +0100)
+> - 9 November 2026 : jeux : `GamesVault.mjs` republie lui-même l'index que lit le site après `upload`, `verify`, `load`, `unload --yes` et `poster` (`--no-publish` pour l'éviter ; un échec se dit sans changer le code de sortie ; les fixtures de test ne publient jamais). Le publieur ne répond plus « inchangé » pour un fichier écrit mais jamais poussé. (9 November 2026) (12 November 2026, 15:15:50 +0100)
+>
+> ## 10 November 2026 : photos, transit, un contenu un seul emplacement, doublons « même photo, autres octets » (mots de Matthieu, 10 November 2026) (12 November 2026, 15:15:50 +0100)
+>
+> - 10 November 2026 : mots de Matthieu, grammaire seule : toutes les photos doivent être dans le drive Create ; télécharger depuis iCloud et pousser directement ; un watcher Python économe en jetons qui dit où l'on en est ; un index mapping sha à jour pour savoir ce qui y est déjà sans jamais le remettre ; le but est d'avoir les 17 180 sur le drive en n'ayant jamais plus qu'un giga en local, car les 14 800 photos seulement dans iCloud (56,6 Go) doivent simplement transiter et être supprimées une fois envoyées ; « ATTENTION À BIEN NE PAS METTRE 2 FOIS QUELQUE CHOSE SUR LE DRIVE À 2 EMPLACEMENTS DE FOLDER DIFFÉRENT ». (10 November 2026) (12 November 2026, 15:15:50 +0100)
+> - 10 November 2026 : transit : `PhotosParams.json` > `transit.capBytes` = 1 073 741 824 (1 Gio, mon interprétation de « un giga », à régler) : l'export iCloud s'arrête dès que les originaux iCloud présents sur le Mac (Temp et Stage) atteignent ce plafond ; `flow` envoie, prouve (empreinte, longueur sur le CDN, échantillon déchiffré) puis `cleanup` supprime NOS copies, jamais rien dans la photothèque. (10 November 2026) (12 November 2026, 15:15:50 +0100)
+> - 10 November 2026 : un contenu, un seul emplacement : `contentOwners` (lib/Proof.mjs, testé) refuse de mettre en préparation un fichier dont le sha256 est déjà dans le drive ou déjà en préparation ; `ShaIndex.json` (sha256 vers manifeste du drive, éléments qui le partagent) est réécrit à chaque cycle ; `reclassify` s'arrête en code 3 si un élément présent disparaît du drive (régression) et aucune copie n'est alors supprimée. (10 November 2026) (12 November 2026, 15:15:50 +0100)
+> - 10 November 2026 : PIÈGE PAYÉ, doublons que le hash ne voit pas : 4 185 des 16 968 photos (25 %) ont le même nom et les mêmes dimensions qu'une image déjà dans le drive avec d'AUTRES octets (HEIC d'origine contre ancien export JPEG dans `DJI/<date>/Iphone/`). Le premier envoi en a emporté 892 sur 1 024 sans que je m'en aperçoive ; la liste est dans `~/.zr-photos-vault/PossibleDoubles.json`. Règle : avant tout envoi de photos, calculer ces candidats (`similarKey` : nom sans extension en minuscules + les deux dimensions dans n'importe quel ordre). Politique `similar.policy` = `hold` par défaut : un candidat n'est ni téléchargé ni envoyé, il passe en `held-similar` jusqu'à la décision de Matthieu ; un candidat n'est JAMAIS une preuve de présence, seul un sha256 l'est. (10 November 2026) (12 November 2026, 15:15:50 +0100)
+> - 10 November 2026 : watcher : `python3 scripts/Photos/PhotosWatch.py` (une ligne ; `--loop 300` ; `--json`), et `--verify` qui recompte seul, sans l'outil Node, les empreintes du ledger contre les manifestes du drive et signale tout désaccord. (10 November 2026) (12 November 2026, 15:15:50 +0100)
+>
+>
+> ARGUMENTS: Est-ce que tu penses que, en fait, au lieu de publier en fait une application locale, on pourrait pas directement publier sur ZenRay Progress? Alors évidemment, ça demanderait de Fab Limit Reach. Ok, on va se mettre en +5.5. Ouais. Euh, alors, euh, est-ce que tu penses du coup que ce serait possible directement de mettre ZenRay Blueprints 3D directement sur ZenRay Progress? Comme ça, on peut upload directement tous nos chantiers directement en cloud. Plutôt que faire une application locale, je pense que ce serait plus intelligent. Mais faudrait vraiment vérifier et consigner du coup dans le prompt qu'à chaque fois tous les fichiers doivent être upload en conséquence directement. Et vu que c'est de la data un peu précieuse en termes de sécurité, parce que ça recense tous mes travaux, il faudrait directement que ce soit peut-être un peu plus protégé, peut-être par un mot de passe. Enfin, à la limite, ça c'est pas le plus important, mais dis-moi. En fait, oui, la question en fait c'est à chaque fois. En fait, le truc, c'est que le hub doit être mis à jour par rapport à d'autres chantiers qui lisent la data. Donc, en fait, à mon avis, on aura un dossier local qui sera lu, mais qui sera alimenté par un bridge qui sera en local. Mais en fait, à mon avis, c'est pas si dur à faire et c'est quelque chose de déjà natif. C'est-à-dire que tout ce qu'on va continuer à développer, ça va juste être mieux rangé et tout sera poussé dans le cloud directement sur ZenRay Progress. Du coup, je vais te dire où est-ce que tu vas le mettre dans ZenRay Progress. Je pense que tu vas le mettre, pour l'instant, tu vas le mettre dans la section Create, au-dessus de Plan, du coup. Genre tout en haut, du coup. Donc c'est la première sous-section, au-dessus de Plan et dans la section Create. Attention à ne pas confondre avec l'autre sidebar de gauche de Create. Ok, donc normalement je t'ai tout dit. Donc c'est ça. Maintenant il faut déployer la maquette ZenRay 3D Blueprints. Et évidemment il faut consigner dans ZenRay Meshes le fait de faire un commit et un upload directement à chaque milestone atteinte pour les components. Comme ça organise directement notre travail et il est cloudé directement et j'ai rien d'autre à faire. (12 November 2026, 15:15:50 +0100)
+>
+>  go déploie. du coup.  (12 November 2026, 15:15:50 +0100)
+>
+> Et attention, du coup, le hub de ZenRay 3D Blueprints devient du coup la source de vérité pour les autres chantiers. Mais les autres chantiers, à mon avis, puisqu'on utilise Claude Code, ils lisent directement les fichiers locaux, tu vois, pour savoir où on en est, etc. Mais il faut que je puisse te index mapping un nom de fichier ou un component actuel et que le modèle y comprenne, tu vois, par rapport aux fichiers locaux, tu vois. Mais en soi, ça pose pas de problème, en soi, c'est juste Claude Code, il utilise les fichiers locaux, tout est tout le temps push à chaque milestone, à chaque fin de cycle et d'exercice sur un component, on commit vers un upload, et c'est tout, en fait. Mais on utilise le protocole, du coup, pas ZenRay Assets, du coup, mais ZenRay Upload directement, pour faire en sorte que ça aille directement dans le truc. Et je pense qu'il n'y a pas besoin de faire un asset, je sais pas. (12 November 2026, 15:15:50 +0100)
+>
+>  Il faudrait réfléchir à qu'est-ce qui est le plus intelligent entre un ZenRay upload vers Progress ou un ZenRay assets directement. Après, ça pourrait être un ZenRay assets qui s'appelle car2 et dont les fichiers sont lus par ZenRay 3D Blueprint. ? Je sais pas, il faut faire la chose la plus efficace sans faire plusieurs fois la même chose en soi. En fait, ce que je veux dire, c'est que les fichiers cloud, ils ont une seule source de vérité, ça sert à rien de les upload plusieurs fois. (12 November 2026, 15:15:50 +0100)
+
+## 12 November 2026, 15:15:50 +0100 : Prompt
+
+<!-- feedback-event:dc73f8a46c7d7ade6379e6bf219f9841e5b6560d5bb08245c325b4a490660859 (12 November 2026, 15:15:50 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 15:15:50 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 15:15:50 +0100)
+
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3/images/11.webp] (12 November 2026, 15:15:50 +0100)
+
+## 12 November 2026, 15:16:36 +0100 : Prompt
+
+<!-- feedback-event:d76b3247dcb01ec31ee6077814fc06c7284a0aefe30e362683c68bafd60ac032 (12 November 2026, 15:16:36 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 15:16:36 +0100)
+
+> 12 November 2026, 15:13 : publier ZenRay Blueprints 3D directement sur ZenRay Progress plutôt qu'en application locale ; entrée en tête de la section Create de la sidebar, au-dessus de Plan (pas la sidebar interne de Create) ; le hub devient la source de vérité des chantiers, les conversations lisent les fichiers locaux, tout est commité et envoyé au cloud à chaque jalon d'un composant ; une seule source de vérité dans le cloud, jamais deux envois du même fichier ; choisir entre ZenRay Upload et un projet Assets (par exemple car2) lu par le hub ; données précieuses, protégées si possible par mot de passe ; go déploie. (12 November 2026, 15:16:36 +0100)
+
+## 12 November 2026, 15:17:04 +0100 : Iteration
+
+<!-- feedback-event:20b628b1b86e500652c3cef6b2439f3255acf8b8af7b9f42881ef1b53229f1b7 (12 November 2026, 15:17:04 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 15:17:04 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 15:17:04 +0100)
+
+> Je compare les deux voies cloud possibles (ZenRay Upload vers Create, ou l'archive Assets déjà existante du chantier) pour n'envoyer chaque fichier qu'une fois. (12 November 2026, 15:17:04 +0100)
