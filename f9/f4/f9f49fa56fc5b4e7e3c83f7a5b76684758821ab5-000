@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-11-12T11:06:40.030Z",
+ "scannedAt": "2026-11-12T11:11:39.409Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
@@ -21,18 +21,18 @@
   },
   {
    "projectId": "zenray-meshes",
-   "lines": 3478,
+   "lines": 3493,
    "work": 240,
    "prompts": 17,
    "first": "2026-11-05T18:27:27.070Z",
-   "last": "2026-11-12T11:06:05.846Z",
+   "last": "2026-11-12T11:11:16.301Z",
    "strength": "strong",
    "conversationId": "claude:0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "provider": "claude",
    "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "title": "zenray meshes v5",
-   "updatedAt": "2026-11-12T11:06:15.228Z",
-   "bytes": 447542928,
+   "updatedAt": "2026-11-12T11:11:16.317Z",
+   "bytes": 447860775,
    "boundProject": "zenray-meshes"
   },
   {
@@ -114,6 +114,38 @@
    "updatedAt": "2026-11-09T21:56:27.029Z",
    "bytes": 40030853,
    "boundProject": "zenray-progress"
+  },
+  {
+   "projectId": "zenray-meshes",
+   "lines": 21,
+   "work": 3,
+   "prompts": 1,
+   "first": "2026-11-12T11:07:00.938Z",
+   "last": "2026-11-12T11:10:50.568Z",
+   "strength": "strong",
+   "conversationId": "claude:48664bcf-655d-4f1c-8f4c-981e576050ff",
+   "provider": "claude",
+   "sessionId": "48664bcf-655d-4f1c-8f4c-981e576050ff",
+   "title": "Car2 : chantier avant (ZenRay Meshes V5)",
+   "updatedAt": "2026-11-12T11:10:55.531Z",
+   "bytes": 14395727,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-meshes",
+   "lines": 14,
+   "work": 3,
+   "prompts": 1,
+   "first": "2026-11-12T11:07:35.225Z",
+   "last": "2026-11-12T11:09:19.190Z",
+   "strength": "strong",
+   "conversationId": "claude:e264aec9-490e-425d-a307-fecde33ce3c0",
+   "provider": "claude",
+   "sessionId": "e264aec9-490e-425d-a307-fecde33ce3c0",
+   "title": "Car2 : chantier profil gauche (ZenRay Meshes V5)",
+   "updatedAt": "2026-11-12T11:11:06.354Z",
+   "bytes": 7272685,
+   "boundProject": null
   },
   {
    "projectId": "zenray-meshes",
@@ -272,7 +304,7 @@
    "sessionId": "e7a595ee-68f1-4379-b8a2-2a7a1305728d",
    "title": "excellent zenray audio et fonts",
    "updatedAt": "2026-11-12T01:21:16.852Z",
-   "bytes": 276339,
+   "bytes": 277477,
    "boundProject": "audio-fonts-gallery-12-november-2026"
   },
   {
