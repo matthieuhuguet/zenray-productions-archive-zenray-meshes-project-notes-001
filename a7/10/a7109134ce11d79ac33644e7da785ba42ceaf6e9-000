@@ -1,0 +1,18 @@
+{
+  "date": "12 November 2026",
+  "slug": "zenray-blueprints-3d",
+  "folder": "2026-11-12-zenray-blueprints-3d",
+  "version": 1,
+  "title": "ZenRay Blueprints 3D : hub des composants d'un projet 3D (trois propositions)",
+  "module": "html-design",
+  "assetsProject": "zenray-edit",
+  "project": "zenray-meshes",
+  "status": "pending",
+  "atelier": "/Users/zenray/.claude/tmp/tmp-zenray-blueprints-3d-12-november-2026",
+  "files": [
+    "index.html"
+  ],
+  "indexSha256": "6046c7a8197b27b2bf281534c9a0307058066b4a6215d1539e82087d4f8bf941",
+  "filedAt": "2026-11-12T13:28:09.280Z",
+  "note": null
+}
