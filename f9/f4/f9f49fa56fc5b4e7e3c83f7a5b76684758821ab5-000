@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-11-12T13:34:46.897Z",
+ "scannedAt": "2026-11-12T13:45:29.894Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
@@ -31,8 +31,8 @@
    "provider": "claude",
    "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "title": "zenray meshes v5",
-   "updatedAt": "2026-11-12T13:33:41.589Z",
-   "bytes": 285618,
+   "updatedAt": "2026-11-12T13:44:31.335Z",
+   "bytes": 283792,
    "boundProject": "zenray-meshes"
   },
   {
@@ -85,34 +85,34 @@
   },
   {
    "projectId": "zenray-meshes",
-   "lines": 167,
+   "lines": 189,
    "work": 10,
    "prompts": 1,
    "first": "2026-11-12T11:07:00.938Z",
-   "last": "2026-11-12T13:33:58.859Z",
+   "last": "2026-11-12T13:37:08.298Z",
    "strength": "strong",
    "conversationId": "claude:48664bcf-655d-4f1c-8f4c-981e576050ff",
    "provider": "claude",
    "sessionId": "48664bcf-655d-4f1c-8f4c-981e576050ff",
    "title": "Car2 : chantier avant (ZenRay Meshes V5)",
-   "updatedAt": "2026-11-12T13:33:51.518Z",
-   "bytes": 30600514,
+   "updatedAt": "2026-11-12T13:37:12.303Z",
+   "bytes": 281181,
    "boundProject": null
   },
   {
    "projectId": "zenray-meshes",
-   "lines": 112,
-   "work": 7,
+   "lines": 145,
+   "work": 9,
    "prompts": 1,
    "first": "2026-11-12T11:07:35.225Z",
-   "last": "2026-11-12T13:33:20.060Z",
+   "last": "2026-11-12T13:38:51.572Z",
    "strength": "strong",
    "conversationId": "claude:e264aec9-490e-425d-a307-fecde33ce3c0",
    "provider": "claude",
    "sessionId": "e264aec9-490e-425d-a307-fecde33ce3c0",
    "title": "door + roof",
-   "updatedAt": "2026-11-12T13:33:20.060Z",
-   "bytes": 19541576,
+   "updatedAt": "2026-11-12T13:38:54.616Z",
+   "bytes": 281041,
    "boundProject": null
   },
   {

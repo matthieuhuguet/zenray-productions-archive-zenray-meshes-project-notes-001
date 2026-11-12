@@ -17311,3 +17311,24 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 > - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/hub/Blueprints3D.html](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/hub/Blueprints3D.html) (12 November 2026, 14:33:38 +0100)
 > - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/hub/Blueprints3D.json](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/hub/Blueprints3D.json) (12 November 2026, 14:33:38 +0100)
 > - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/hub/Mapping.md](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/docs/hub/Mapping.md) (12 November 2026, 14:33:38 +0100)
+
+## 12 November 2026, 14:38:14 +0100 : Prompt
+
+<!-- feedback-event:47feab3e1cc0c70589886d8a74ee5d5fb628d921c1c3b5b62800ff2718a0097b (12 November 2026, 14:38:14 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 14:38:14 +0100)
+
+> j'ai oublié de te demander la vue 3/4 pour un pneu c'est crucial (12 November 2026, 14:38:14 +0100)
+
+## 12 November 2026, 14:42:03 +0100 : Log
+
+<!-- feedback-event:63533fc4cefc4f5731ddb8bd4713464dd7645a8a13a882c88b869a7f3f39a10c (12 November 2026, 14:42:03 +0100) -->
+- Project: zenray-meshes; kind: log. (12 November 2026, 14:42:03 +0100)
+
+> Rendu Karma CPU 2048x2048 (1:1) de la vue 3/4 (wheel_fl_karma_three_quarter_2048x2048.png / 3_4.png) ajouté dans /Users/zenray/.claude/tmp/tmp-wheel-fl-car2-zenray-meshes/renders et intégré à la planche 6 vues, au post et à la synthèse HTML. (12 November 2026, 14:42:03 +0100)
+
+## 12 November 2026, 14:45:31 +0100 : Prompt
+
+<!-- feedback-event:bf9eb6c7203cb8eb32d0709fd01adc3b00dc07c4886185f8316128df02032baa (12 November 2026, 14:45:31 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 14:45:31 +0100)
+
+> Retour sur les maquettes ZenRay Blueprints 3D (rien n'est validé) : la vue Planche est la meilleure mais n'utilise pas assez l'espace pour tout voir d'un coup ; elle doit être plus minimaliste, mieux hiérarchisée, moins de description, une meilleure répartition de l'espace des images ; pas fan des couleurs ; le projet « Car2 » est trop petit, il faut comprendre qu'on est dans un projet (en tête de la sidebar de gauche, avec le nombre de composants, plus joli et logique) ; les identifiants R01, R02, F01, S01 ne sont pas clairs ; regrouper par arrière, avant, profil gauche, roue est très bien (comme des groupes dans Maya), architecture à garder ; je pourrai dire directement si je veux renommer un component. Vue Chantiers et vue Chronologie à refaire complètement (espace vide au milieu de la vue Chantiers), avec beaucoup plus d'images ; pour la Chronologie, de petites animations de 0,2 seconde pour rendre le tout plus vivant. (12 November 2026, 14:45:31 +0100)
