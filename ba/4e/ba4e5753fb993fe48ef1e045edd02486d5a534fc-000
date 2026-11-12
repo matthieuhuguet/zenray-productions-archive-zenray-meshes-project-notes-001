@@ -1,0 +1,25 @@
+# Facts autorisés : roue avant gauche Car2 (`Car2_Wheel_FL`), modélisation procédurale dans Houdini 22.0.368 (12 November 2026)
+
+Source de vérité : `/Users/zenray/.claude/skills/zenray-meshes/references/ZenRayMeshes1.md` (sections 449 à 467), `/Users/zenray/.claude/skills/zenray-meshes/scripts/v5/houdini/BuildWheel.py`, `/Users/zenray/.claude/skills/zenray-meshes/scripts/v5/houdini/BuildTyre.py`, et mesures directes sur `/obj/Car2/Wheel_FL/OUT_Wheel` dans `car2_graph_V_034.hiplc`.
+
+## 1. Le problème et le choix de méthode
+- Reconstruire une roue complète (pneu, jante, 10 branches en 5 paires de Y, moyeu, écrou central, cache, disque de frein, cloche et étrier) depuis une photo de référence sans sculpter à la main et sans génération 3D par boîte noire.
+- Deux pièges rencontrés avant cette version :
+  1. Se bloquer sur des micro-détails (double bord des fenêtres, perçages du disque) avant même que le volume global de la roue entière soit fermé.
+  2. Suivre les écarts de perspective ou de bruit d'une seule photo au détriment de la symétrie mécanique d'une vraie roue (une jante ou un pneu asymétrique se voit immédiatement à l'œil).
+- La règle retenue : **la forme globale d'abord, la symétrie avant la fidélité brute**. On trace d'abord des primitives géométriques pures sur la référence redressée (cercles vrais sur l'essieu, droites pour les bras, arcs tangents pour le fond des fenêtres), on détecte le motif répété une seule fois (5 tours exacts et 5 miroirs pour les 10 branches ; 72 pas par tour pour les rainures et lamelles du pneu), et on le convertit en un graphe de nœuds natifs Houdini piloté par des curseurs HDA.
+
+## 2. Chiffres et mesures vérifiés dans la scène Houdini (`/obj/Car2/Wheel_FL`)
+- **Moteur** : Houdini 22.0.368, 100 % nœuds SOP natifs (`add`, `polybevel`, `revolve`, `fuse`, `polyextrude`, `copyxform`, `boolean`, `normal`, `color`), zéro nœud Python SOP, zéro VEX.
+- **Contrôleurs paramétriques (loi HDA)** :
+  - `CTRL_Wheel` : 24 curseurs répartis en 3 dossiers de 8 (`Rim`, `Spokes and hub`, `Brake`).
+  - `CTRL_Tyre` (`Wheel_FL_Tyre_Sym`) : 22 curseurs répartis en 3 dossiers (`Size`, `Tread`, `Shape`).
+- **Dimensions lues sur le blueprint redressé (503,0 px/m)** :
+  - Diamètre extérieur du pneu : 747,5 mm (rayon 373,7 mm), largeur 353,4 mm.
+  - Jante : rayon extérieur du rebord 305,8 mm, rebord intérieur 295,7 mm, marche de face 285,5 mm, ouverture intérieure 260,6 mm.
+  - Moyeu : écrou central 52,8 mm (extérieur) / 39,7 mm (intérieur), cache central bombé 33,4 mm.
+  - Frein : disque 217,2 mm de rayon, cloche et étrier.
+- **Structure et topologie vérifiées** :
+  - 8 volumes solides fermés (`Rim`, `Spokes`, `Nut`, `Cap`, `Disc`, `Hat`, `Caliper`, `Tyre`), vérifiés chacun par un nœud `CHECK_<Pièce>` : **0 arête ouverte** sur les 8 pièces.
+  - Maillage complet de la roue (`OUT_Wheel`, sans les guides) : **58 358 primitives**, **68 374 points** (dont 47 892 primitives pour le pneu rainuré à 72 motifs par tour et 10 466 primitives pour la jante, les 10 branches, le moyeu et le frein).
+- **Rendu** : 5 vues orthographiques (`top`, `bottom`, `left`, `back`, `front`) rendues en **Karma CPU** dans Solaris en **2 048 × 2 048 px** (format 1:1), matériaux MaterialX (`mtlxstandard_surface`).

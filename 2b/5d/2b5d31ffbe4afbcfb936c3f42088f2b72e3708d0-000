@@ -1,0 +1,17 @@
+# Car2 Front Wheel: Procedural Modeling in Houdini, post (English only, draft, 12 November 2026)
+
+Brouillon consigné le 12 November 2026 selon `/Users/zenray/.claude/skills/zenray-edit/references/Posts.md` (règles 15, 16, 17, 19). Aucun tiret cadratin ni demi-cadratin, aucune mention interne.
+
+## Le post
+
+A car wheel looks simple from a distance, until a single off-centre spoke or uneven tread groove gives away the model.
+
+My problem was rebuilding this front wheel from a reference photograph without getting trapped in tiny details too early, and without copying the perspective distortion of the camera.
+
+So I started with the global form and strict symmetry first: true circles on the axle for the rim and tyre, straight lines and tangent arcs for the ten Y-spokes, all read on an unflattened blueprint. In Houdini, native SOP nodes turn those profiles around the axle, cut the ten spoke windows and the 72 tread sipes per turn, and close every part into eight solid volumes with zero open edges. Two HDA controllers expose 46 sliders across the tyre, rim, spokes, hub and brake so every radius, depth and tread pitch stays editable live without rebuilding a single polygon by hand!
+
+Here are the five orthographic views rendered in Karma CPU at 2,048 px (58,358 polygons), right before moving from the global form to the disc perforations and spoke fillets.
+
+thanks for reading, like for more! ᕙ(`▿´)ᕗ
+
+#houdini #proceduralmodeling #technicalart

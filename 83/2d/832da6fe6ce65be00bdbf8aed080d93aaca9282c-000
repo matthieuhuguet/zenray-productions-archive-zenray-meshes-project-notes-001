@@ -1,0 +1,22 @@
+# Source et demande de Matthieu (12 November 2026)
+
+## Demande de Matthieu (12 November 2026, 12:38 Europe/Paris)
+« Fais en sorte de prendre plusieurs captures haute résolution via Karma CPU directement sur Houdini. Je veux 4 captures. Non, je veux 5 captures de la vue. Du coup, top, bottom, left, back et front en résolution en format 1.1, résolution 2048 x 2048. Plus un post via ZenRay Edit directement. met moi ça dans tmp-<nomparlantducomponent+projetactuel car 2 + zenray meshes.> /zenray-edit pour savoir Je veux un post court et très très parlant. euh, parle de modélisation procédurale directement sur Houdini. /zenray-houdini Un autre agent travaille sur le chantier, donc essaie de faire des copies directement sur le projet afin de ne pas déranger l'agent qui travaille.
+Je veux que ce soit sur la roue qui est modélisée, mais sans les guides. Je te donne une photo de la roue. Hop. dans la scène actuellement ouverte. Faut pas que tu te trompes de modèle. »
+
+## Modèle identifié et vérifié
+- Scène source (copiée sans toucher à la session en cours) : `/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_034.hiplc`
+- Objet Houdini : `/obj/Car2/Wheel_FL/OUT_Wheel` (version symétrique validée par Matthieu le 12 November 2026, sans `OUT_Lines` ni `Reference_Photo`).
+- Sous-composants fusionnés dans `OUT_Wheel` :
+  - `Rim` (rebord extérieur 305,8 mm, marche de face 285,5 mm, fût intérieur 260,6 mm)
+  - `Spokes` (10 branches en 5 paires de Y symétriques, 10 fenêtres découpées)
+  - `Nut` (écrou central 52,8 mm / 39,7 mm)
+  - `Cap` (cache central bombé 33,4 mm)
+  - `Disc` (disque de frein 217,2 mm)
+  - `Hat` (cloche du disque)
+  - `Caliper` (étrier de frein)
+  - `Tyre` (`/obj/Car2/Wheel_FL_Tyre_Sym/OUT_Tyre`, rayon extérieur 373,7 mm, demi-largeur 176,7 mm, 4 sillons longitudinaux, 72 pas de lamelles et crans d'épaule par tour)
+- Mesures géométriques :
+  - 8 volumes fermés, 0 arête ouverte (`CHECK_Rim`, `CHECK_Spokes`, `CHECK_Nut`, `CHECK_Cap`, `CHECK_Disc`, `CHECK_Hat`, `CHECK_Caliper`, `CHECK_Tyre`)
+  - 58 358 primitives, 68 374 points
+  - 46 curseurs HDA au total (`CTRL_Wheel` : 24 curseurs en 3 dossiers de 8 ; `CTRL_Tyre` : 22 curseurs en 3 dossiers)

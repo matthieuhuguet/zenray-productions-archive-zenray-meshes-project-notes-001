@@ -1,0 +1,26 @@
+# Français de relais et nuances (règle 19 de Posts.md, 12 November 2026)
+
+Ce fichier sert de relais d'échange en français pour que Matthieu puisse ajuster son style avant la version anglaise finale.
+
+## Version française exacte (phrase à phrase)
+
+Une roue de voiture paraît simple de loin, jusqu'à ce qu'une seule branche décentrée ou une rainure de pneu irrégulière trahisse le modèle.
+
+Mon problème était de reconstruire cette roue avant depuis une photo de référence sans me piéger trop tôt dans les petits détails, et sans recopier la déformation de perspective de l'appareil.
+
+Alors j'ai commencé par la forme globale et la symétrie stricte d'abord : de vrais cercles sur l'essieu pour la jante et le pneu, des droites et des arcs tangents pour les dix branches en Y, tous lus sur un blueprint redressé. Dans Houdini, des nœuds SOP natifs font tourner ces profils autour de l'essieu, découpent les dix fenêtres des branches et les 72 lamelles par tour du pneu, et ferment chaque pièce en huit volumes solides avec zéro arête ouverte. Deux contrôleurs HDA exposent 46 curseurs sur le pneu, la jante, les branches, le moyeu et le frein pour que chaque rayon, profondeur et pas de sculpture reste modifiable en direct sans refaire un seul polygone à la main !
+
+Voici les cinq vues orthographiques rendues dans Karma CPU en 2 048 px (58 358 polygones), juste avant de passer de la forme globale aux perçages du disque et aux congés des branches.
+
+thanks for reading, like for more! ᕙ(`▿´)ᕗ
+
+#houdini #proceduralmodeling #technicalart
+
+## Nuances entre le français et l'anglais
+
+1. **« trahisse le modèle » -> `gives away the model`** : en anglais, `gives away` dit de façon naturelle et idiomatique qu'un défaut révèle l'artifice à l'œil, sans lourdeur.
+2. **« une rainure de pneu irrégulière » -> `uneven tread groove`** : `tread` désigne directement la bande de roulement sculptée du pneu.
+3. **« un blueprint redressé » -> `an unflattened blueprint`** : reprend le geste technique réel (retirer l'aplatissement de perspective de la vue avant de mesurer les rayons).
+4. **« les 72 lamelles par tour du pneu » -> `the 72 tread sipes per turn`** : `sipes` est le terme métier exact en modélisation automobile pour les fines fentes transversales de la bande de roulement.
+5. **« pas de sculpture » -> `tread pitch`** : `pitch` désigne le pas angulaire de répétition du motif autour du tour de roue.
+6. **« aux congés des branches » -> `spoke fillets`** : `fillets` désigne les petits arrondis de raccord entre les branches et la jante.
