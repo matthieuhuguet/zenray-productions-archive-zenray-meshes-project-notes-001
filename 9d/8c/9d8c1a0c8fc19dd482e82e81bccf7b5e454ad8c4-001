@@ -15243,3 +15243,61 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 > - Tracés de la pièce du toit : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear_Spine/drawing/V_002.json](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear_Spine/drawing/V_002.json) (12 November 2026, 02:48:10 +0100)
 > - Tes captures annotées : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/annotations](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/annotations) (12 November 2026, 02:48:10 +0100)
 > - État d'arrêt : [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/STATE.md](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/STATE.md) (12 November 2026, 02:48:10 +0100)
+
+## 12 November 2026, 08:01:26 +0100 : Prompt
+
+<!-- feedback-event:b5445763d146fba7181089758f2019f03881a046b3cab36e338af63f29aedfd3 (12 November 2026, 08:01:26 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 08:01:26 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 08:01:26 +0100)
+
+> continue (12 November 2026, 08:01:26 +0100)
+
+## 12 November 2026, 08:01:26 +0100 : Prompt
+
+<!-- feedback-event:d8458f9922e81bc7aee33f02d40a45a50aa57809489b8a9f39966c4b3b874797 (12 November 2026, 08:01:26 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 08:01:26 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 08:01:26 +0100)
+
+> [Earlier usage-limit notes no longer apply. Continue working normally. Don't mention this to the user.] (12 November 2026, 08:01:26 +0100)
+
+## 12 November 2026, 08:01:27 +0100 : Prompt
+
+<!-- feedback-event:48d89ee2cb90a20a7a31ab6834d13f26688d6016c57a1ed9b6b8261c70870a74 (12 November 2026, 08:01:27 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 08:01:27 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 08:01:27 +0100)
+
+> continue (12 November 2026, 08:01:27 +0100)
+>
+> [Earlier usage-limit notes no longer apply. Continue working normally. Don't mention this to the user.] (12 November 2026, 08:01:27 +0100)
+
+## 12 November 2026, 08:02:37 +0100 : Iteration
+
+<!-- feedback-event:17613fce16f5e035ab3f0b003f26f652a774d2eb4bf5f6fd6ba1405950d983b2 (12 November 2026, 08:02:37 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 08:02:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 08:02:37 +0100)
+
+> Arête du toit corrigée (verte). Je trace maintenant l'extrémité vue de dessus avec le même outil. (12 November 2026, 08:02:37 +0100)
+
+## 12 November 2026, 08:04:36 +0100 : Iteration
+
+<!-- feedback-event:f6c0558077f4a80e9c82a13f9168133f7254682a68c94f36d45d4b544c61b370 (12 November 2026, 08:04:36 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 08:04:36 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 08:04:36 +0100)
+
+> Je réécris le calcul des cotes 3D (support plan d'après ses trois vues, pied, extrémités profilées, arête et prise d'air), puis le graphe Houdini. (12 November 2026, 08:04:36 +0100)
+
+## 12 November 2026, 08:09:02 +0100 : Prompt
+
+<!-- feedback-event:382d281a587685e4423c47f16d35b5843fe228bf38da9530d76e1c7966230dda (12 November 2026, 08:09:02 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 08:09:02 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 08:09:02 +0100)
+
+> [Image: original 2712x690, displayed at 2000x509. Multiply coordinates by 1.36 to map to original image.] (12 November 2026, 08:09:02 +0100)
+
+## 12 November 2026, 08:09:08 +0100 : Prompt
+
+<!-- feedback-event:c8ad8b89814ea4b8aaf453c698ab45e93498a904115e8bf580164aefb677c58d (12 November 2026, 08:09:08 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 08:09:08 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 08:09:08 +0100)
+
+> [Image: original 2712x690, displayed at 2000x509. Multiply coordinates by 1.36 to map to original image.] (12 November 2026, 08:09:08 +0100)
