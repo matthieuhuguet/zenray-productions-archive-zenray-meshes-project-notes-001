@@ -15891,3 +15891,111 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 11:18:54 +0100)
 
 > Je mesure maintenant les coutures du capot arrière sur la vue de dessus (moitié gauche, l'autre sera son miroir). (12 November 2026, 11:18:54 +0100)
+
+## 12 November 2026, 11:20:05 +0100 : Iteration
+
+<!-- feedback-event:375ade1a4bc86f0ef266bb34d78df6d24a5ee50b6b883b482459391fc50c795d (12 November 2026, 11:20:05 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 11:20:05 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 11:20:05 +0100)
+
+> Mesures prises sur les trois vues (dessus, arrière, profil) ; j'écris maintenant la fiche de demande du composant Car2_TrunkRear_Cover et je lance le dessin. (12 November 2026, 11:20:05 +0100)
+
+## 12 November 2026, 11:20:44 +0100 : Prompt
+
+<!-- feedback-event:8d5add686fe8c78c08bd0a7bd19580d082e799d18b435a3dbd4b7a72e2235c9e (12 November 2026, 11:20:44 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 11:20:44 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 11:20:44 +0100)
+
+> [Image: original 3212x680, displayed at 2000x423. Multiply coordinates by 1.61 to map to original image.] (12 November 2026, 11:20:44 +0100)
+
+## 12 November 2026, 11:20:45 +0100 : Prompt
+
+<!-- feedback-event:151fb78c8989c64f1e8170683b3068e83d608234d1d9c7eb847c1b264c28911e (12 November 2026, 11:20:45 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 11:20:45 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 11:20:45 +0100)
+
+> [Image: original 3212x680, displayed at 2000x423. Multiply coordinates by 1.61 to map to original image.] (12 November 2026, 11:20:45 +0100)
+
+## 12 November 2026, 11:20:50 +0100 : Prompt
+
+<!-- feedback-event:4b741e8bdb885e61da6d2aff90712712c525a12f19c6de2da57c0dfecb5a581e (12 November 2026, 11:20:50 +0100) -->
+- Project: zenray-meshes; kind: prompt. (12 November 2026, 11:20:50 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 11:20:50 +0100)
+
+> [Image: original 3212x680, displayed at 2000x423. Multiply coordinates by 1.61 to map to original image.] (12 November 2026, 11:20:50 +0100)
+>
+> [Image: original 3212x680, displayed at 2000x423. Multiply coordinates by 1.61 to map to original image.] (12 November 2026, 11:20:50 +0100)
+
+## 12 November 2026, 11:21:24 +0100 : Iteration
+
+<!-- feedback-event:205d3c0349a2b2a132497807bc771c8b372afbb2a52d2dc7a29b296e5be67fd4 (12 November 2026, 11:21:24 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 11:21:24 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 11:21:24 +0100)
+
+> Le contour du dessus suit maintenant la couture (100 % à 2,5 px). Je vérifie au zoom les vues arrière et profil. (12 November 2026, 11:21:24 +0100)
+
+## 12 November 2026, 11:25:30 +0100 : Standing rule
+
+<!-- feedback-event:0fecec3226c93a98b5e8b4f36af50ba68135b5b25db7fbae7f5b8b999bf26a2b (12 November 2026, 11:25:30 +0100) -->
+- Project: zenray-meshes; kind: rule. (12 November 2026, 11:25:30 +0100)
+
+> Une pièce pliée (support en V de l'aileron) se construit en UNE peau aux bords arrondis, sections en éventail autour du pli, jamais en deux pièces aux arêtes vives ; si deux vues se contredisent, mesurer l'écart, suivre la vue qui montre le mieux la pièce, laisser l'autre rouge avec son chiffre ; juger une forme sur une image ombrée (Shade.py). (12 November 2026) (12 November 2026, 11:25:30 +0100)
+
+## 12 November 2026, 11:24:45 +0100 : Iteration
+
+<!-- feedback-event:29ca54f1ce1bc5d932575edf6001f91ccae160ece291e707dfba9450da36484d (12 November 2026, 11:24:45 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 11:24:45 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 11:24:45 +0100)
+
+> Tout est construit et envoyé ; je consigne maintenant (référence du skill, état du projet, règles, journal, synchronisation). (12 November 2026, 11:24:45 +0100)
+
+## 12 November 2026, 11:25:41 +0100 : Iteration
+
+<!-- feedback-event:b101d1fb6263d7870976915dc01bfb1620e185af5ec00012c3770b06ea1a9a0f (12 November 2026, 11:25:41 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 11:25:41 +0100)
+- Source: checkpoint:claude:0611e96b-26b2-4d65-a9e1-cb913738cca3. (12 November 2026, 11:25:41 +0100)
+
+> Support de l aileron en une plaque pliee aux bords arrondis (arriere 97 %, profil 100 %, dessus rouge : vues contradictoires de 7 cm) ; Shade.py ; Car2_TrunkRear_Cover dessin V_005, controles automatiques verts, verdict en attente. Prochain : verdict de Matthieu, details du capot. (12 November 2026, 11:25:41 +0100)
+
+## 12 November 2026, 11:26:02 +0100 : Iteration
+
+<!-- feedback-event:661b1c9aea4756e2a2ad3f61bfdaa9ac07c1e15b1d97a1c58a5a09ac3ad80a0f (12 November 2026, 11:26:02 +0100) -->
+- Project: zenray-meshes; kind: iteration. (12 November 2026, 11:26:02 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/0611e96b-26b2-4d65-a9e1-cb913738cca3.jsonl. (12 November 2026, 11:26:02 +0100)
+
+> Le support est désormais une seule plaque mince, pliée au genou jusqu'au pied, avec ses bords arrondis, et le coffre arrière a son premier blueprint. (12 November 2026, 11:26:02 +0100)
+>
+> ## Support de l'aileron (12 November 2026, 11:26:02 +0100)
+>
+> Le contour lu sur la vue arrière sert de profil à la pièce : des sections aux bouts arrondis le suivent de la pointe au bout du pied et tournent en éventail autour du genou. Il n'y a plus de pied rapporté ni d'arête vive, et l'ensemble se soude à l'aile en une pièce, sans arête ouverte. (12 November 2026, 11:26:02 +0100)
+>
+> La plaque est mince (3,65 cm) et légèrement pincée : son bord avant suit le côté intérieur de la bande vue de l'arrière, son bord arrière le côté extérieur. (12 November 2026, 11:26:02 +0100)
+>
+> La vue de dessus reste rouge, et je ne l'ai pas forcée. Les vues se contredisent entre elles : mesuré de dessus, le demi-écart entre les deux pointes vaut 0,768 m, contre 0,836 m de l'arrière. J'ai suivi l'arrière et le profil, comme auparavant pour la vue de face. (12 November 2026, 11:26:02 +0100)
+>
+> Le pied n'est montré que par la vue arrière : sa profondeur d'avant en arrière est une hypothèse (son bord avant reste sous celui de la lame). (12 November 2026, 11:26:02 +0100)
+>
+> ## Coffre arrière (12 November 2026, 11:26:02 +0100)
+>
+> Le premier composant est le capot, `Car2_TrunkRear_Cover` : le long panneau derrière la prise d'air de toit, entre les deux supports. Une moitié est lue, l'autre est son miroir. Les pointillés du blueprint marquent l'axe et les parties cachées par l'aileron et la prise d'air. (12 November 2026, 11:26:02 +0100)
+>
+> - **Dessus** : la couture extérieure est légèrement bombée (1,6 cm au milieu), dessinée en deux côtés droits. (12 November 2026, 11:26:02 +0100)
+> - **Arrière** : couture droite, puis un petit côté debout jusqu'à la pointe de queue, large de 5,8 cm. (12 November 2026, 11:26:02 +0100)
+> - **Profil** : seule la ligne du dessus est visible, sur 35 cm ; la hanche cache le reste. (12 November 2026, 11:26:02 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (12 November 2026, 11:26:02 +0100)
+> |---|---|---| (12 November 2026, 11:26:02 +0100)
+> | Support lié et lisse, avec bevel | Oui | 1 pièce soudée, 0 arête ouverte ; planche ombrée envoyée | (12 November 2026, 11:26:02 +0100)
+> | Support fidèle aux vues | En partie | Feuille stricte : arrière 97 %, profil 100 %, dessus 5 % (écart médian 6,9 cm) | (12 November 2026, 11:26:02 +0100)
+> | Commencer les blueprints du coffre | Oui | Dessin V_005 : dessus 100 %, arrière 98 %, profil 100 % à 2,5 px ; contrôles automatiques verts | (12 November 2026, 11:26:02 +0100)
+> | Module entier juste | Non | 11 courbes sur 15 collent ; restent rouges la plaque d'extrémité vue de l'arrière (13 %), la prise d'air vue de l'arrière (70 %), le profil de l'arête (89 %) et le dessus du support | (12 November 2026, 11:26:02 +0100)
+> | Synthèse HTML et archive cloud | Non | Pas faites ce tour | (12 November 2026, 11:26:02 +0100)
+>
+> Tout est consigné dans le skill (sections 480 à 483) et la scène Houdini est enregistrée sous une nouvelle version. (12 November 2026, 11:26:02 +0100)
+>
+> Fichiers : (12 November 2026, 11:26:02 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear/boards/Car2_WingRear_module_H_016_12-November-2026.jpg](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear/boards/Car2_WingRear_module_H_016_12-November-2026.jpg) (12 November 2026, 11:26:02 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear/boards/Car2_WingRear_sheet_S_007_12-November-2026.jpg](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_WingRear/boards/Car2_WingRear_sheet_S_007_12-November-2026.jpg) (12 November 2026, 11:26:02 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_TrunkRear_Cover/boards/Car2_TrunkRear_Cover_drawing_V_005_12-November-2026.jpg](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_TrunkRear_Cover/boards/Car2_TrunkRear_Cover_drawing_V_005_12-November-2026.jpg) (12 November 2026, 11:26:02 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_TrunkRear_Cover/boards/Car2_TrunkRear_Cover_blueprint_ortho_V_005_12-November-2026.png](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/13_Car2V5/components/Car2_TrunkRear_Cover/boards/Car2_TrunkRear_Cover_blueprint_ortho_V_005_12-November-2026.png) (12 November 2026, 11:26:02 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_030.hiplc](/Users/zenray/.claude/tmp/tmp-zenray-meshes/Projects/12_Car2Cage/07_houdini/car2_graph_V_030.hiplc) (12 November 2026, 11:26:02 +0100)
