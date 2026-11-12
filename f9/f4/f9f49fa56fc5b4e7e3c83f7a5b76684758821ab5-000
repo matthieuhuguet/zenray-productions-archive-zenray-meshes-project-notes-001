@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-11-12T01:20:35.828Z",
+ "scannedAt": "2026-11-12T01:26:40.711Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
@@ -21,18 +21,18 @@
   },
   {
    "projectId": "zenray-meshes",
-   "lines": 3093,
-   "work": 229,
-   "prompts": 15,
+   "lines": 3133,
+   "work": 232,
+   "prompts": 16,
    "first": "2026-11-05T18:27:27.070Z",
-   "last": "2026-11-12T01:19:34.550Z",
+   "last": "2026-11-12T01:26:19.469Z",
    "strength": "strong",
    "conversationId": "claude:0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "provider": "claude",
    "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "title": "zenray meshes v5",
-   "updatedAt": "2026-11-12T01:19:40.376Z",
-   "bytes": 280149,
+   "updatedAt": "2026-11-12T01:26:19.539Z",
+   "bytes": 394437812,
    "boundProject": "zenray-meshes"
   },
   {
@@ -271,8 +271,8 @@
    "provider": "claude",
    "sessionId": "e7a595ee-68f1-4379-b8a2-2a7a1305728d",
    "title": "excellent zenray audio et fonts",
-   "updatedAt": "2026-11-12T01:20:15.660Z",
-   "bytes": 6763022,
+   "updatedAt": "2026-11-12T01:21:16.852Z",
+   "bytes": 276339,
    "boundProject": "audio-fonts-gallery-12-november-2026"
   },
   {
