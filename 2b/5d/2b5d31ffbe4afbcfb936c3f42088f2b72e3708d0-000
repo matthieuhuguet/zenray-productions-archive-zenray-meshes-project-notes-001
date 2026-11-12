@@ -10,7 +10,7 @@ My problem was rebuilding this front wheel from a reference photograph without g
 
 So I started with the global form and strict symmetry first: true circles on the axle for the rim and tyre, straight lines and tangent arcs for the ten Y-spokes, all read on an unflattened blueprint. In Houdini, native SOP nodes turn those profiles around the axle, cut the ten spoke windows and the 72 tread sipes per turn, and close every part into eight solid volumes with zero open edges. Two HDA controllers expose 46 sliders across the tyre, rim, spokes, hub and brake so every radius, depth and tread pitch stays editable live without rebuilding a single polygon by hand!
 
-Here are the five orthographic views rendered in Karma CPU at 2,048 px (58,358 polygons), right before moving from the global form to the disc perforations and spoke fillets.
+Here are the 3/4 view and the five orthographic views rendered in Karma CPU at 2,048 px (58,358 polygons), right before moving from the global form to the disc perforations and spoke fillets.
 
 thanks for reading, like for more! ᕙ(`▿´)ᕗ
 
