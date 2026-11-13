@@ -19800,3 +19800,10 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: rule. (13 November 2026, 19:50:10 +0100)
 
 > Hormis le Knight Forearm, les deux autres n'ont pas marché. Au lieu d'un prompt aussi complexe, dis ce qu'on attend en un minimum de mots et surtout de ne rien inventer, perspective à 99,9 %. Pour la voiture on avait un bon prompt. Sur la génération de prompts, à noter dans claude.md global : un minimum de mots et une cohérence globale sur toutes les proportions, un respect de la référence à 99,9 %, et jamais aucune invention. Recommence tout sauf le forearm, et tu simplifieras à terme le prompt du forearm. Ce n'est pas un minimum de mots pour un minimum de mots : ne dis pas des détails que tu veux obtenir, c'est déjà tout dans l'image. Consigne aussi dans zenray meshes. (13 November 2026, 19:50:10 +0100)
+
+## 13 November 2026, 19:58:32 +0100 : Prompt
+
+<!-- feedback-event:55483ce7e1a825fdfa41319dfa25e364556c34a9ff29735aa71c160d7bb3c27a (13 November 2026, 19:58:32 +0100) -->
+- Project: zenray-meshes; kind: prompt. (13 November 2026, 19:58:32 +0100)
+
+> Pour le forearm, il n'y arrive pas, donc passe à l'image suivante ; tu peux même lui dire de générer 2 images et il va comprendre. Pour le crown, il n'arrive pas à faire la vue de profil, donc génère toutes les autres vues. Pour le elbow, génère toutes les autres vues en segmentant ton prompt. Et pour le bras, pareil, mais dans des images différentes et individuelles. (13 November 2026, 19:58:32 +0100)
