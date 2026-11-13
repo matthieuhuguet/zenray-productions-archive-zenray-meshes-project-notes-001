@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-11-12T22:36:22.637Z",
+ "scannedAt": "2026-11-13T04:43:17.770Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
@@ -32,7 +32,7 @@
    "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "title": "zenray meshes v5",
    "updatedAt": "2026-11-12T16:31:13.514Z",
-   "bytes": 309395,
+   "bytes": 305822,
    "boundProject": "zenray-meshes"
   },
   {
@@ -69,6 +69,22 @@
   },
   {
    "projectId": "zenray-meshes",
+   "lines": 1357,
+   "work": 44,
+   "prompts": 7,
+   "first": "2026-11-12T11:07:00.938Z",
+   "last": "2026-11-13T02:52:18.719Z",
+   "strength": "strong",
+   "conversationId": "claude:48664bcf-655d-4f1c-8f4c-981e576050ff",
+   "provider": "claude",
+   "sessionId": "48664bcf-655d-4f1c-8f4c-981e576050ff",
+   "title": "FOCUS HERE",
+   "updatedAt": "2026-11-13T02:52:22.622Z",
+   "bytes": 284236,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-meshes",
    "lines": 308,
    "work": 42,
    "prompts": 12,
@@ -81,22 +97,6 @@
    "title": "hanche arrière",
    "updatedAt": "2026-11-12T16:13:30.977Z",
    "bytes": 282233,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-meshes",
-   "lines": 736,
-   "work": 38,
-   "prompts": 6,
-   "first": "2026-11-12T11:07:00.938Z",
-   "last": "2026-11-12T22:35:20.814Z",
-   "strength": "strong",
-   "conversationId": "claude:48664bcf-655d-4f1c-8f4c-981e576050ff",
-   "provider": "claude",
-   "sessionId": "48664bcf-655d-4f1c-8f4c-981e576050ff",
-   "title": "car avant crustacé (fable ?)",
-   "updatedAt": "2026-11-12T22:35:22.541Z",
-   "bytes": 99488424,
    "boundProject": null
   },
   {
