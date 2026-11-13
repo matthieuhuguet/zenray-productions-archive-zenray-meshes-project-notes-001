@@ -19639,3 +19639,31 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: prompt. (13 November 2026, 13:50:34 +0100)
 
 > (13 November 2026) « tu continues du coup tout ce qui n'est pas fait [tableau recopié] n'oublie pas de consigner et d'améliorer l'algo. après faudra faire les components plus fins notamment du bras, en dessous de ce que tu as appelé la manchette, et faire mon effet contour de bords, sans doute en magenta, le cercle qui rapproche les bords avec harmonie, pour les effets manche / circulaire vêtement bras. ça dépend du component. tout doit être parfait. /think-of-everything » (13 November 2026, 13:50:34 +0100)
+
+## 13 November 2026, 14:32:13 +0100 : Prompt
+
+<!-- feedback-event:310626e450ec680c3413c8f597bae5817bb076af5d71f37ec4c22e043a2d4d9b (13 November 2026, 14:32:13 +0100) -->
+- Project: zenray-meshes; kind: prompt. (13 November 2026, 14:32:13 +0100)
+
+> 13 November 2026 : gestionnaire de projet de ZenRay Blueprints 3D rejeté : pas un toggle flottant qui rogne les panneaux mais un menu déroulant dans l'en-tête ; le projet ArmCliveFF16 doit s'ouvrir dans la MÊME interface que Car2 (pas de page sombre à part), avec l'éditeur directement sur les composants du bras ; le hub se met à jour à chaque round. (13 November 2026, 14:32:13 +0100)
+
+## 13 November 2026, 14:37:20 +0100 : Standing rule
+
+<!-- feedback-event:5885d2d066b3f087d3cc49aeed1a8e40514bbedbff3ddcec6e7b801ddf5b3d39 (13 November 2026, 14:37:20 +0100) -->
+- Project: zenray-meshes; kind: rule. (13 November 2026, 14:37:20 +0100)
+
+> ZenRay Blueprints 3D : aucun bandeau flottant ni page à part ; un projet entre dans la page existante du hub par son registre, choisi par le menu déroulant Projet de l'en-tête ; éditeur (tracés, forme) sur chaque composant ; hub régénéré à chaque round. (13 November 2026, 14:37:20 +0100)
+
+## 13 November 2026, 14:43:10 +0100 : Prompt
+
+<!-- feedback-event:e6da4d210d5a79916bf857bcd6ecb9b64e0a2636e8d4613d6bf245362333b6a4 (13 November 2026, 14:43:10 +0100) -->
+- Project: zenray-meshes; kind: prompt. (13 November 2026, 14:43:10 +0100)
+
+> 13 November 2026 : régression dans le hub : la planche de la manchette ne montre plus les courbes turquoise de tension, la courbe magenta, la jaune, le rouge extérieur et le gris d'épaisseur du modèle ; elles doivent être dans l'application. (13 November 2026, 14:43:10 +0100)
+
+## 13 November 2026, 14:48:05 +0100 : Prompt
+
+<!-- feedback-event:0af160fb96727fc7f15b545cf4cac78de10955d85ed0237966214c6a80073756 (13 November 2026, 14:48:05 +0100) -->
+- Project: zenray-meshes; kind: prompt. (13 November 2026, 14:48:05 +0100)
+
+> 13 November 2026 : ZenRay Blueprints 3D n'est qu'une suite d'images fixes ; il faut une vraie application. Manchette : symétrie d'un bord mal copiée, topologie et wireframe mauvais. Libellé « Shading » et non « Ombré ». « Éditer les tracés » ouvre un schéma deprecated : l'éditeur doit montrer les 5 vues blueprint en même temps, un bouton copier, la légende contour + guide + arête ; les designs A et B étaient parfaits : les deux tels quels, pas un mix. Application fluide, utile, finie. (13 November 2026, 14:48:05 +0100)
