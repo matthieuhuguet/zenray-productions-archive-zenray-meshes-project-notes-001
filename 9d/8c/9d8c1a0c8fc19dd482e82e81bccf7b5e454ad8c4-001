@@ -19541,3 +19541,10 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: prompt. (13 November 2026, 09:31:43 +0100)
 
 > 13 November 2026, 09:31, manchette du bras, avec l'image du fil de fer agrandie. Mots de Matthieu (dictée, grammaire seule) : « Et en fait, étant donné la courbe jaune, à partir de la courbe jaune et des contours, je pense que mathématiquement, on peut dessiner directement les NURBS qui sont les arcs de support qui prennent la courbe. Mais d'ailleurs, si tu regardais bien les polygones, les contours des polygones donnaient quasi les bons NURBS de la courbe actuelle de la forme du polygone. Et en fait, chaque rangée de polygones aurait pu donner une rangée de NURBS. En fait, l'edge flow, voilà, c'est ça. C'est l'edge flow des polygones qui sont déjà tracés qui nous donne les bons NURBS, mais c'est uniquement des lignes. C'est uniquement des lignes pour tracer le modèle. Et on s'occupe uniquement du modèle du haut, là, du component du haut. Et je pense que mathématiquement, ou algorithmiquement, tu vas pouvoir trouver comment dessiner ce genre de courbe en 3D directement. Et ensuite consigner pour avoir la règle parfaite des arcs à faire. Mais il faut toujours que les arcs, donc les arcs turquoise, soient adoucis avec l'adoucissement des tangentes, etc. Genre toutes les règles qu'on a déjà consignées dans ZenRay Meshes. » (13 November 2026, 09:31:43 +0100)
+
+## 13 November 2026, 09:43:10 +0100 : Prompt
+
+<!-- feedback-event:e07031178baf78f8511fe1a24e35225209d5287158dd87c6c7519ae3dad0b5e4 (13 November 2026, 09:43:10 +0100) -->
+- Project: zenray-meshes; kind: prompt. (13 November 2026, 09:43:10 +0100)
+
+> 13 November 2026, 09:43, manchette du bras, sur la planche des guides NURBS (arcs tracés d'un côté à l'autre). Mots de Matthieu (dictée : « norms » = NURBS) : « C'était dans l'autre sens les NURBS que j'attendais. Après, pourquoi pas garder un double sens, mais bon, c'était dans l'autre sens. » (13 November 2026, 09:43:10 +0100)
