@@ -19667,3 +19667,10 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: prompt. (13 November 2026, 14:48:05 +0100)
 
 > 13 November 2026 : ZenRay Blueprints 3D n'est qu'une suite d'images fixes ; il faut une vraie application. Manchette : symétrie d'un bord mal copiée, topologie et wireframe mauvais. Libellé « Shading » et non « Ombré ». « Éditer les tracés » ouvre un schéma deprecated : l'éditeur doit montrer les 5 vues blueprint en même temps, un bouton copier, la légende contour + guide + arête ; les designs A et B étaient parfaits : les deux tels quels, pas un mix. Application fluide, utile, finie. (13 November 2026, 14:48:05 +0100)
+
+## 13 November 2026, 15:15:10 +0100 : Prompt
+
+<!-- feedback-event:a6dab8a79c36bb872eb15076ec2c4a0e2054d6e6f8069177f50c30d1e86c42a9 (13 November 2026, 15:15:10 +0100) -->
+- Project: zenray-meshes; kind: prompt. (13 November 2026, 15:15:10 +0100)
+
+> 13 November 2026 : « Parfait » sur l'éditeur. Passer à l'autre composant du bras sous la manchette, avec tous les contrôles ; donner un nom parlant au fait de mettre des contrôles à tous les composants : soit par défaut, soit non mais avec un nom parlant. (13 November 2026, 15:15:10 +0100)
