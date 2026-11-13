@@ -19548,3 +19548,10 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: prompt. (13 November 2026, 09:43:10 +0100)
 
 > 13 November 2026, 09:43, manchette du bras, sur la planche des guides NURBS (arcs tracés d'un côté à l'autre). Mots de Matthieu (dictée : « norms » = NURBS) : « C'était dans l'autre sens les NURBS que j'attendais. Après, pourquoi pas garder un double sens, mais bon, c'était dans l'autre sens. » (13 November 2026, 09:43:10 +0100)
+
+## 13 November 2026, 09:45:39 +0100 : Prompt
+
+<!-- feedback-event:f86402ff3f98eb8c0ca23f65107ab65acac807d384d9613f93a2067e186a4545 (13 November 2026, 09:45:39 +0100) -->
+- Project: zenray-meshes; kind: prompt. (13 November 2026, 09:45:39 +0100)
+
+> 13 November 2026, 09:45, manchette du bras. Mots de Matthieu (dictée) : « En fait, la question c'est est-ce qu'il y a un intérêt à garder les deux ou est-ce qu'il faut simplement faire l'inverse de ce que... Enfin, là tu vois, tu as créé l'inverse de ce que je voulais. Mais la question c'est de savoir est-ce que ça a un réel intérêt de garder les deux ? Parce que ça peut être intéressant de garder les deux courbes. Moi je pense que ça peut être intéressant de garder les deux courbes. Mais je sais pas. » Réponse donnée par l'agent : le sens de bord à bord par défaut (la courbe jaune est de cette famille, la surface passe par ces courbes) ; l'autre sens est déjà porté par les deux bords rouges ; un arc en travers seulement là où la forme change entre les bords (bosse, étranglement, arête qui fait le tour), et il devient alors un bord de plus. (13 November 2026, 09:45:39 +0100)
