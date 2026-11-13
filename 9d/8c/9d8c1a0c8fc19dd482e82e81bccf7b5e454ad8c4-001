@@ -19632,3 +19632,10 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: prompt. (13 November 2026, 12:04:42 +0100)
 
 > (13 November 2026, schéma sur la maquette des contrôles : un arc vert en U sous la manchette et dans la vue de dessus) « globalement, je pense qu'il manquait un arc global sur la vue du contrôle. Ce qui manquait, c'est un arc global qui aurait fait la périphérie par rapport au bord, s'il se rapproche ou pas. Ça aurait fait plus ou moins le contour du globe, en mode les bords se rapprochent tandis que ça forme un cercle. [...] Peut-être avec un truc en vert, pour rapprocher les bords. » Lecture de l'agent, à confirmer : un paramètre ENROULEMENT qui courbe toute la pièce en arc de cercle autour de son axe (vue de dessus : le V devient un C, les deux bords se rapprochent), montré par un arc vert. (13 November 2026, 12:04:42 +0100)
+
+## 13 November 2026, 13:50:34 +0100 : Prompt
+
+<!-- feedback-event:82a6a9beb9e2e2d70ea2005209b9bfd07585b0c371a9f38d10dd8da71d3a71e2 (13 November 2026, 13:50:34 +0100) -->
+- Project: zenray-meshes; kind: prompt. (13 November 2026, 13:50:34 +0100)
+
+> (13 November 2026) « tu continues du coup tout ce qui n'est pas fait [tableau recopié] n'oublie pas de consigner et d'améliorer l'algo. après faudra faire les components plus fins notamment du bras, en dessous de ce que tu as appelé la manchette, et faire mon effet contour de bords, sans doute en magenta, le cercle qui rapproche les bords avec harmonie, pour les effets manche / circulaire vêtement bras. ça dépend du component. tout doit être parfait. /think-of-everything » (13 November 2026, 13:50:34 +0100)
