@@ -19674,3 +19674,10 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: prompt. (13 November 2026, 15:15:10 +0100)
 
 > 13 November 2026 : « Parfait » sur l'éditeur. Passer à l'autre composant du bras sous la manchette, avec tous les contrôles ; donner un nom parlant au fait de mettre des contrôles à tous les composants : soit par défaut, soit non mais avec un nom parlant. (13 November 2026, 15:15:10 +0100)
+
+## 13 November 2026, 15:19:25 +0100 : Standing rule
+
+<!-- feedback-event:497c5fae4a35c06b0b0366e199292320ab29f83794774f3e717a2be90e30be0e (13 November 2026, 15:19:25 +0100) -->
+- Project: zenray-meshes; kind: rule. (13 November 2026, 15:19:25 +0100)
+
+> Rig de forme (13 November 2026) : par défaut, tout composant à spec symétrique a son éditeur dans ZenRay Blueprints 3D (5 vues blueprint en direct, 3D Shading/Fil de fer, A et B tels quels, Tracés, ligne à copier) ; jamais d'images fixes à la place ; la 3D se construit en grille propre (BuildRimGrid.py), jamais en Quad Remesh. (13 November 2026, 15:19:25 +0100)
