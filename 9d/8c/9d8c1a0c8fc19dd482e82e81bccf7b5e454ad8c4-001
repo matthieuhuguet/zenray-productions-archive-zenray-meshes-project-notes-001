@@ -19562,3 +19562,17 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: prompt. (13 November 2026, 09:51:01 +0100)
 
 > 13 November 2026, 09:51, manchette du bras (guides NURBS de bord à bord, trous coupés). Mots de Matthieu : « C'est pas mal en soi, mais il manque du coup l'épaisseur qui doit être calculée par rapport à un autre bord. » (13 November 2026, 09:51:01 +0100)
+
+## 13 November 2026, 09:57:49 +0100 : Prompt
+
+<!-- feedback-event:76e988d71eff6aee932ba328548f5af7369d37740bded02b3022612dcccf5f84 (13 November 2026, 09:57:49 +0100) -->
+- Project: zenray-meshes; kind: prompt. (13 November 2026, 09:57:49 +0100)
+
+> 13 November 2026, 09:57, manchette du bras, sur l'épaisseur (l'agent venait de la calculer par une formule et une extrusion). Mots de Matthieu (dictée) : « Mais non, mais c'est simple en fait, c'est bord rouge pour contour extérieur de prendre la bordure, c'est un autre component, plus bord jaune, enfin centre jaune pour avoir l'edge, et enfin NURBS qui prennent le contour. Alors, je pourrais te le dessiner, mais je pense qu'il vaut mieux que tu le comprennes de toi-même. » (13 November 2026, 09:57:49 +0100)
+
+## 13 November 2026, 09:57:49 +0100 : Standing rule
+
+<!-- feedback-event:dc5c12cd2c9c8690d4df3048ed149b1c51837590d0e19d5542e9ed33df755fdf (13 November 2026, 09:57:49 +0100) -->
+- Project: zenray-meshes; kind: rule. (13 November 2026, 09:57:49 +0100)
+
+> LA BORDURE EST UN COMPOSANT (13 November 2026, 09:57, Matthieu) : l'épaisseur d'une plaque ne se calcule pas à part ni ne s'extrude ; la bordure (la tranche visible au-delà d'un bord) est un AUTRE COMPOSANT dessiné comme les autres : contour ROUGE pour son bord extérieur, arête JAUNE là où la paroi tourne pour devenir bordure (au milieu, entre les deux rouges), arcs NURBS turquoise de contour à contour qui passent par cette arête. Lecture de l'agent pour la 3D : la bordure est une bande dans le plan du bord qu'elle prolonge. (13 November 2026, 09:57:49 +0100)
