@@ -19786,3 +19786,10 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: prompt. (13 November 2026, 19:31:48 +0100)
 
 > Codes ZRB3D1 des trois contours sur Clive (Shoulder Crown, Knight Elbow, Knight Forearm), « fais une repasse ». Retour sur l'app : Clive plus simple à trouver, dans la rangée ref de chaque pièce et éditable directement ; agencement de l'édition des courbes bizarre ; sélection de plusieurs points (une touche marquée dans une légende, ou clic droit), suppression de points ; icône à côté d'angle vif ou doux (parfois ça paraît inversé). Puis « fais toutes les modifs, améliore l'app, puis go dans ChatGPT continue. Consigne. » (13 November 2026, 19:31:48 +0100)
+
+## 13 November 2026, 19:42:52 +0100 : Standing rule
+
+<!-- feedback-event:118e1127e6a121c09adfcd0b5ce595097cf077e1a6d2cb685e2d118d4e136e13 (13 November 2026, 19:42:52 +0100) -->
+- Project: zenray-meshes; kind: rule. (13 November 2026, 19:42:52 +0100)
+
+> Recommence trois nouvelles conversations. Quand tu crées une nouvelle référence, il faut toujours mettre l'input du début (c'est ce qui donne le plus d'informations) ; tu peux ajouter le Clive gauche et droite, mais dans une nouvelle conversation, en fonction de ce que tu indiques comme bien. Verdicts : Knight Forearm front et back validés, left non validé ; Knight Elbow aucune image générée, nouveau thread propre ; Shoulder Crown front et back validés, left et top non validés. Crée un toggle à côté des vues, toutes les anciennes itérations avec la plus récente pour voir l'évolution. Je ne vois toujours pas ma référence Clive : dans ArmCliveFF16, une hiérarchie Référence (comme un groupe de référence dans Maya) et un dossier Clive en dessous, pour grouper plusieurs références à terme. Nouveau thread ChatGPT Image et consigne le workflow : à terme une image qui montre la perspective avec le component isolé, gauche et droite, et pareil pour le personnage principal ; dans le prompt : effet symétrique, agréable à l'œil, tangentes lissées ; si un component est asymétrique, le préciser. (13 November 2026, 19:42:52 +0100)
