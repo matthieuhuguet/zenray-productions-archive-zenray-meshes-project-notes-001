@@ -19394,3 +19394,10 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: rule. (12 November 2026, 23:02:27 +0100)
 
 > Découpage d'un composant en sous-composants : ne jamais refabriquer les contours depuis des masques ; garder les tracés précis existants et composer chaque sous-contour par morceaux EXACTS de ces courbes plus les nouvelles lignes ; rendre le blueprint à 5 vues de chaque composant à chaque round. (12 November 2026, 23:02:27 +0100)
+
+## 13 November 2026, 00:17:08 +0100 : Prompt
+
+<!-- feedback-event:6c649e91522fe12ae123bc8bfa1b4e5b4ab511240db54685ee74d7d59545c701 (13 November 2026, 00:17:08 +0100) -->
+- Project: zenray-meshes; kind: prompt. (13 November 2026, 00:17:08 +0100)
+
+> Ouïes (13 November 2026) : « On commence à s'en rapprocher mais regarde le zèbre ; tant que pas parfait continue, plus forme à affiner » ; /dont-stop. Contrainte X : bandes zébrées parfaites (reflets continus) et forme affinée sur les ouïes de l'aile avant gauche. (13 November 2026, 00:17:08 +0100)
