@@ -19688,3 +19688,10 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: prompt. (13 November 2026, 15:50:18 +0100)
 
 > 13 November 2026 : modèle vivant bravo, mais une petite pointe à gauche du modèle (contour rouge et shading, flèche verte) : interdit ; un composant, surtout avec épaisseur, ne doit jamais créer de pic sur le shading ; modifiable mais propre de base. Plaque évasée cassée (profil, arête jaune du milieu bizarre). Prompts très simples pour isoler les 3 composants en 5 vues (15 images), protocole inversé (une image, en créer 5). Renommer : Shoulder Crown, Knight Elbow, Knight Forearm, dans ZenRay Blueprints 3D. Consigner : pas de contours, NURBS, magenta, épaisseur tant qu'on n'a pas les 5 vues ; section rappels de session / automation workflow : ce que je dois proposer d'emblée au lieu de plusieurs passes. (13 November 2026, 15:50:18 +0100)
+
+## 13 November 2026, 15:58:59 +0100 : Standing rule
+
+<!-- feedback-event:b718260ccba8109e4c391538de7968f9d95d6ddfd51a2e1d718ca762d17e7229 (13 November 2026, 15:58:59 +0100) -->
+- Project: zenray-meshes; kind: rule. (13 November 2026, 15:58:59 +0100)
+
+> Une image, cinq vues d'abord (13 November 2026) : sur un projet à une image, rien (contours, NURBS, magenta, épaisseur) avant les 5 vues isolées de chaque composant ; je le propose d'emblée. Aucun pic de shading : contrôle anti-pointe avant de montrer un modèle épais. (13 November 2026, 15:58:59 +0100)
