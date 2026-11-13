@@ -19807,3 +19807,10 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: prompt. (13 November 2026, 19:58:32 +0100)
 
 > Pour le forearm, il n'y arrive pas, donc passe à l'image suivante ; tu peux même lui dire de générer 2 images et il va comprendre. Pour le crown, il n'arrive pas à faire la vue de profil, donc génère toutes les autres vues. Pour le elbow, génère toutes les autres vues en segmentant ton prompt. Et pour le bras, pareil, mais dans des images différentes et individuelles. (13 November 2026, 19:58:32 +0100)
+
+## 13 November 2026, 20:09:54 +0100 : Standing rule
+
+<!-- feedback-event:58b8c512772c94728fe58bbd0d454660c672c11d5a4ad73463302683394d313e (13 November 2026, 20:09:54 +0100) -->
+- Project: zenray-meshes; kind: rule. (13 November 2026, 20:09:54 +0100)
+
+> Quasi rien ne marche : mets en deprecated les prompts actuels, réutilise le prompt 5 vues qu'on avait déjà fait (ZenRay Houdini ou ZenRay Meshes), fais-le passer en test, je le validerai. Lance une seule génération : la Crown, une galerie de 5 vues sur une seule image (une ligne de 5 images ; 6 vues avant, mais gauche et droite font des erreurs de symétrie). Ensuite on fera l'upscale des components pour avoir plus de résolution et faire les découpes plus proprement, uniquement à partir de l'image générée. (13 November 2026, 20:09:54 +0100)
