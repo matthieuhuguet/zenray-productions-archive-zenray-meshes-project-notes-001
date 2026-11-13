@@ -19576,3 +19576,17 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: rule. (13 November 2026, 09:57:49 +0100)
 
 > LA BORDURE EST UN COMPOSANT (13 November 2026, 09:57, Matthieu) : l'épaisseur d'une plaque ne se calcule pas à part ni ne s'extrude ; la bordure (la tranche visible au-delà d'un bord) est un AUTRE COMPOSANT dessiné comme les autres : contour ROUGE pour son bord extérieur, arête JAUNE là où la paroi tourne pour devenir bordure (au milieu, entre les deux rouges), arcs NURBS turquoise de contour à contour qui passent par cette arête. Lecture de l'agent pour la 3D : la bordure est une bande dans le plan du bord qu'elle prolonge. (13 November 2026, 09:57:49 +0100)
+
+## 13 November 2026, 10:08:08 +0100 : Prompt
+
+<!-- feedback-event:bc0b4b1294556ceef389a36e265b33415fd5442d32fdd99a62226b57e3180d62 (13 November 2026, 10:08:08 +0100) -->
+- Project: zenray-meshes; kind: prompt. (13 November 2026, 10:08:08 +0100)
+
+> (13 November 2026, planche de la manchette annotée par Matthieu : contour rouge manquant de la bordure tracé en rouge, le jaune qui manquait en vert, la continuité des NURBS en bleu, croix blanches sur les boucles) « Je pense qu'il manque aussi lissage des courbes, le fait de pas utiliser la plume pour faire des retours bizarres. Parce que là, par exemple, il y a pas mal de bugs sur le contour rouge et c'est pas normal. Bon, je vais dessiner du coup le contour rouge qui manque. Le contour rouge qui manque, je l'imaginais comme ça. Et ça, c'est pour l'épaisseur. Et du coup, en vert, je te mets le jaune qui manquait. Et enfin, en bleu, bah, du coup, c'est la continuité logique des NURBS. Je te dessine pas toutes les courbes [...] c'est juste pour que tu comprennes. Et en fait, à partir de l'input jaune, tu vois, tu peux déterminer mathématiquement le reste de la courbe pour créer du volume. Et ainsi, tu peux créer n'importe quel type de continuité, d'edge flow. Mais en soi, ça commence à être pas mal. Et en fonction des reflets de la lumière sur un objet géométrique, tu peux aussi déterminer la courbe des edge flows. Mais vu que je te vois toujours pas le faire, ça m'inquiète un peu. [...] je vais te mettre aussi une croix en blanc pour absolument interdit, c'est le retour d'effet de plume qui crée des petits cercles. Ça, c'est absolument interdit. [...] attention à consigner évidemment et à pas les mettre à l'avenir : effet de cercle sur le retour de plume en rouge. FORBIDDEN » (13 November 2026, 10:08:08 +0100)
+
+## 13 November 2026, 10:08:08 +0100 : Standing rule
+
+<!-- feedback-event:750eee281ad0616fc60e3cf4427bb37e59524a3591b34eef6161c929d84b7f93 (13 November 2026, 10:08:08 +0100) -->
+- Project: zenray-meshes; kind: rule. (13 November 2026, 10:08:08 +0100)
+
+> INTERDIT (Matthieu, 13 November 2026) : aucun retour de plume sur une courbe, surtout un contour rouge : pas de petite boucle ni de petit cercle au bout d'un bord, en haut d'une encoche ou à un coin. Une courbe ne revient jamais sur elle-même ; un contrôle le refuse (rotation de la tangente sur une courte fenêtre) avant toute planche. Causes payées : contour d'encoche prolongé au-delà du bord par une bulle, Fit en approximation qui laisse des crochets aux bouts. (13 November 2026, 10:08:08 +0100)
