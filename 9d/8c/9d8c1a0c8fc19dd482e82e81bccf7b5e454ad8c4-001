@@ -19520,3 +19520,17 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: prompt. (13 November 2026, 09:11:48 +0100)
 
 > 13 November 2026, 09:11, bras (ArmCliveFF16). Réponse de Matthieu à la question « Je continue par quelle pièce ? » : « Finir le bras » (la manchette et la plaque évasée en 3D avec leur arête jaune, puis le bras entier). (13 November 2026, 09:11:48 +0100)
+
+## 13 November 2026, 09:25:57 +0100 : Prompt
+
+<!-- feedback-event:25b0b8cf19e91437e6f50e371a29eb259d46f93e979c2f492af1410a7e7afde2 (13 November 2026, 09:25:57 +0100) -->
+- Project: zenray-meshes; kind: prompt. (13 November 2026, 09:25:57 +0100)
+
+> 13 November 2026, 09:25, manchette du bras (ArmCliveFF16), sur la preuve de la cage (trois trous entourés en vert : l'encoche et les deux fentes). Mots de Matthieu : « en fait tu oublies les trous et tu dois faire qu'un component à la fois ... et puis ça devait être des nurbs curves guide pas des polygons directement tu as un argument ou tu penses que ce que tu fais est mieux ? il manque les trous en vert » (13 November 2026, 09:25:57 +0100)
+
+## 13 November 2026, 09:25:57 +0100 : Standing rule
+
+<!-- feedback-event:ed670c5721bd3bd4677cd7db857f599de2ad016d2d1137911260248d22f13353 (13 November 2026, 09:25:57 +0100) -->
+- Project: zenray-meshes; kind: rule. (13 November 2026, 09:25:57 +0100)
+
+> GUIDES EN COURBES NURBS, TROUS, UNE PIÈCE À LA FOIS (13 November 2026, 09:25, Matthieu) : les guides d'un composant sont des COURBES NURBS dans Houdini (bords rouges, guides turquoise, arête jaune), la surface vient d'elles par les nodes natifs (Skin), jamais d'une cage de polygones calculée directement. Les trous d'une pièce (encoche, fentes) sont des contours rouges à lire et à couper avant de dire la pièce faite. Un seul composant à la fois, fini et montré, avant le suivant. (13 November 2026, 09:25:57 +0100)
