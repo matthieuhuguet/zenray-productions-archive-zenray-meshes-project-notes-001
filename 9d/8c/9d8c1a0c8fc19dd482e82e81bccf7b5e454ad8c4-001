@@ -19401,3 +19401,24 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: prompt. (13 November 2026, 00:17:08 +0100)
 
 > Ouïes (13 November 2026) : « On commence à s'en rapprocher mais regarde le zèbre ; tant que pas parfait continue, plus forme à affiner » ; /dont-stop. Contrainte X : bandes zébrées parfaites (reflets continus) et forme affinée sur les ouïes de l'aile avant gauche. (13 November 2026, 00:17:08 +0100)
+
+## 13 November 2026, 03:42:57 +0100 : Prompt
+
+<!-- feedback-event:49e4b3bf2ede20672e54b179ff38b587529a5edf8b92fbf8f10808b50335e39a (13 November 2026, 03:42:57 +0100) -->
+- Project: zenray-meshes; kind: prompt. (13 November 2026, 03:42:57 +0100)
+
+> 13 November 2026, chantier AVANT, ouïes de l'aile avant gauche. Mots de Matthieu : « Le probleme c'est que le zebre t'a fait perdre l'objectif de vue bon on va tester une autre methode pour ce component exceptionnellement on créera une image AI gen du component isolé pour créer les contour et les guide mais ce qu'il faudrait c'est que tu mettre des guides d'une autre couleur peut être pour les contour interne du component comme je te l'ai appris circle method comme le wing rear ou bien comme dans la nouvelle méthode. des control loops + guide curve en bleu directement dans zenray blueprints 3D... en soit si j'ai d'autres guides curves interne pour te guider on pourra faire les components complexe + methode d'isolation via un prompt préparé pour toutes les vues évidemment il nous faut 5 prompts pour le prompts isolé les contours préparé parfait en rouge comme ça j'input nano banana 2.1 ou chatgpt image 2.6 (ces versions peuvent évoluer) state of the art horodatage lors de la consignation /tasks-sequence. CONSIGNE TOUT CE WORKFLOW SI EN 2 PASSES D'EXERCICE TU FONCTIONNES PAS PROPOSE DE TOI MÊME CE WORKFLOW À L'AVENIR N'OUBLIE PAS !!!! si les lignes rouges fonctionnes pas / passent en curves / guides turquoise pour affiner les guides internes au modèles 3D = CONSIGNE LE PRIORITÉ 0. LES CURVES BLEUS DOIVENT ÊTRE EDITABLE DANS ZENRAY BLUEPRINTS 3D / LES CURVES ROUGES AUSSI MAIS UNIQUEMENT VIA UN MODE EDIT AVEC DES SPLINES ET UN MODE AUTO UNE FOIS QUE J'AI POSÉ LE DERNIER POINT POUR LE LISSER ... EVIDEMMENT LES CURVES BLEUS S'ADAPTE (BLEU COULEUR SUR REF = pour lisibilité sur blueprint en fait je propose turquoise a la place de bleu.) comme ça nos guides 2D sont turquoise. LES GUIDES ROUGE OU TURQUOISE DU COUP DOIVENT POUVOIR S'ADAPTER PARFAITEMENT une fois déplacé sur toute les vues via un mode edit de l'app. tu dois pouvoir comprendre mes edits via un paste. (bouton contenant une valeur / un code). mais de toute manière la topologie doit être beaucoup moins élevés ... EN TERME DE QUADS ET CA DOIT ÊTRE PLUS OU MOINS UNIFORME POUR LE MODÈLE MAIS ON VISE UN MODÈLE AAA / VFX environ 1 million de poly totaux pour tout le mesh. hero asset. » Il a aussi demandé de couper le surveillant dont-stop 24ff0fce (fait). (13 November 2026, 03:42:57 +0100)
+
+## 13 November 2026, 03:42:57 +0100 : Standing rule
+
+<!-- feedback-event:8b672e46e70d17a500da8fc4cfb2735962263444104f7f9b921fd19657027548 (13 November 2026, 03:42:57 +0100) -->
+- Project: zenray-meshes; kind: rule. (13 November 2026, 03:42:57 +0100)
+
+> PRIORITÉ 0 (13 November 2026, Matthieu) : si après 2 passes d'exercice un composant 3D ne vient pas, proposer de moi-même le workflow « isolation par image générée puis guides » : 5 prompts préparés (un par vue) avec les contours en rouge, images générées par Matthieu (Nano Banana, ChatGPT Image, versions du jour notées), puis contours rouges et guides internes TURQUOISE (cercles de section, boucles de contrôle, courbes guides), éditables dans ZenRay Blueprints 3D, ses retouches rendues par un code à coller. (13 November 2026, 03:42:57 +0100)
+
+## 13 November 2026, 03:42:57 +0100 : Standing rule
+
+<!-- feedback-event:cce679b54856ddc40debe4721d1339581658836311214c52a4000bd2177c3c12 (13 November 2026, 03:42:57 +0100) -->
+- Project: zenray-meshes; kind: rule. (13 November 2026, 03:42:57 +0100)
+
+> 13 November 2026, Matthieu : topologie beaucoup moins dense, en quads, à peu près uniforme sur tout le modèle ; cible AAA et VFX, environ 1 million de polygones au total pour toute la voiture (hero asset). Le zèbre ne doit plus faire perdre l'objectif de vue (la forme du composant d'abord). (13 November 2026, 03:42:57 +0100)
