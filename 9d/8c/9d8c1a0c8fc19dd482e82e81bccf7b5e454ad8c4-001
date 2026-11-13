@@ -19681,3 +19681,10 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: rule. (13 November 2026, 15:19:25 +0100)
 
 > Rig de forme (13 November 2026) : par défaut, tout composant à spec symétrique a son éditeur dans ZenRay Blueprints 3D (5 vues blueprint en direct, 3D Shading/Fil de fer, A et B tels quels, Tracés, ligne à copier) ; jamais d'images fixes à la place ; la 3D se construit en grille propre (BuildRimGrid.py), jamais en Quad Remesh. (13 November 2026, 15:19:25 +0100)
+
+## 13 November 2026, 15:50:18 +0100 : Prompt
+
+<!-- feedback-event:077e31a8adcbdaee5a61f24fb2d97d0c42b7f6c93d803f64125e4b11dfeee20e (13 November 2026, 15:50:18 +0100) -->
+- Project: zenray-meshes; kind: prompt. (13 November 2026, 15:50:18 +0100)
+
+> 13 November 2026 : modèle vivant bravo, mais une petite pointe à gauche du modèle (contour rouge et shading, flèche verte) : interdit ; un composant, surtout avec épaisseur, ne doit jamais créer de pic sur le shading ; modifiable mais propre de base. Plaque évasée cassée (profil, arête jaune du milieu bizarre). Prompts très simples pour isoler les 3 composants en 5 vues (15 images), protocole inversé (une image, en créer 5). Renommer : Shoulder Crown, Knight Elbow, Knight Forearm, dans ZenRay Blueprints 3D. Consigner : pas de contours, NURBS, magenta, épaisseur tant qu'on n'a pas les 5 vues ; section rappels de session / automation workflow : ce que je dois proposer d'emblée au lieu de plusieurs passes. (13 November 2026, 15:50:18 +0100)
