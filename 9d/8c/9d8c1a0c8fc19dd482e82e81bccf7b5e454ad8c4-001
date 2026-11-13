@@ -19758,3 +19758,24 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: prompt. (13 November 2026, 18:58:35 +0100)
 
 > c'est bon normalement tu as déjà les logs donc même méthode ... via app chatgpt pas codex module chatgpt tu lances un chat et tu récupères et input directement les images une générations à la fois stp go. (13 November 2026, 18:58:35 +0100)
+
+## 13 November 2026, 19:14:53 +0100 : Standing rule
+
+<!-- feedback-event:06bec90af74bc33ec4ead929fa7303a0ed38e2c4fc84d05c58909a877ad051c7 (13 November 2026, 19:14:53 +0100) -->
+- Project: zenray-meshes; kind: rule. (13 November 2026, 19:14:53 +0100)
+
+> Bah, du coup, fais-le pour tous les autres [...] rajoute-le en input avec le découpage directement [...] mais attend ma validation sur le découpage. Du coup, tu as un clive plus un clive avec le découpage de Sam avec les contours rouges sur ce clive, met en gris semi-transparent et laisse en rouge l'intérieur. Enfin, tu fais les contours rouges et l'intérieur, tu laisses la couleur [...] tu fais qu'une seule image : clive de gauche totalement normal, clive de droite avec les components détourés en rouge, couleur à l'intérieur, tout le reste grisé avec un filtre semi-opaque gris. Et tu le rajoutes dans toutes les conversations actuelles. De toute manière, à terme, on a toujours dans ZenRay Blueprints la validation pour dire quel truc on attend ou pas. (13 November 2026, 19:14:53 +0100)
+
+## 13 November 2026, 19:16:32 +0100 : Standing rule
+
+<!-- feedback-event:8a9e650959d4139d7a677ba40c7ac9e6a0c9ee2da573ba98bb8407b4633d01c4 (13 November 2026, 19:16:32 +0100) -->
+- Project: zenray-meshes; kind: rule. (13 November 2026, 19:16:32 +0100)
+
+> Sur tous les SAM, je valide pas du tout, c'est pas encore ça, c'est pas assez précis du tout. À la limite, donne-moi directement dans ZenRay Blueprints le clive dans le projet du coup ARM, et comme ça je te copie les valeurs pour. Mais en fait, le truc c'est qu'à chaque fois que tu utilises SAM 2.1, je t'ai déjà dit de lisser les courbes via les tangentes, etc. Donc comme ça, je peux edit directement via le tool edit depuis ZenRay Blueprints 3. (13 November 2026, 19:16:32 +0100)
+
+## 13 November 2026, 19:17:16 +0100 : Standing rule
+
+<!-- feedback-event:a84ae76881600f739ba0378b1b286e62392bcbc6c2893bb2ef8e16ae670c3c22 (13 November 2026, 19:17:16 +0100) -->
+- Project: zenray-meshes; kind: rule. (13 November 2026, 19:17:16 +0100)
+
+> À terme, en fait, consigne dans ce protocole. En fait, tu me donnes un SAM où tu fais en sorte de faire le maximum de précision sur la première passe. Ensuite, tu me donnes le relais via l'edit. Et ensuite, tu fais encore une passe pour encore améliorer les contours. Par rapport à l'input que je vais te donner, ce sera pas forcément précis. Et tu me permets dans Edit de créer un point de tangente en plus pour pouvoir modifier des courbes et ou faire soit un angle smooth, soit un angle pas smooth du coup. Un angle crisp peut-être, je sais pas. Mais tu consignes tout ça. (13 November 2026, 19:17:16 +0100)
