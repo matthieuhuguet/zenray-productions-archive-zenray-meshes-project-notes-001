@@ -19695,3 +19695,10 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: rule. (13 November 2026, 15:58:59 +0100)
 
 > Une image, cinq vues d'abord (13 November 2026) : sur un projet à une image, rien (contours, NURBS, magenta, épaisseur) avant les 5 vues isolées de chaque composant ; je le propose d'emblée. Aucun pic de shading : contrôle anti-pointe avant de montrer un modèle épais. (13 November 2026, 15:58:59 +0100)
+
+## 13 November 2026, 17:12:54 +0100 : Standing rule
+
+<!-- feedback-event:8b6d1f0f40e1aa63d3fd271a18845a5213c6b429855a6d8e8a93c89993766e05 (13 November 2026, 17:12:54 +0100) -->
+- Project: zenray-meshes; kind: rule. (13 November 2026, 17:12:54 +0100)
+
+> Gemini depuis l'agent (13 November 2026) : jamais dans le navigateur intégré (fenêtre Claude non pilotable) ; navigateur isolé GeminiBrowser.sh + GeminiRun.mjs, une connexion Google une fois pour toutes ; ne plus redemander autre chose. (13 November 2026, 17:12:54 +0100)
