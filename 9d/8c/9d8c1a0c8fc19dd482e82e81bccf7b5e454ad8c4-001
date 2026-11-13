@@ -19779,3 +19779,10 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: rule. (13 November 2026, 19:17:16 +0100)
 
 > À terme, en fait, consigne dans ce protocole. En fait, tu me donnes un SAM où tu fais en sorte de faire le maximum de précision sur la première passe. Ensuite, tu me donnes le relais via l'edit. Et ensuite, tu fais encore une passe pour encore améliorer les contours. Par rapport à l'input que je vais te donner, ce sera pas forcément précis. Et tu me permets dans Edit de créer un point de tangente en plus pour pouvoir modifier des courbes et ou faire soit un angle smooth, soit un angle pas smooth du coup. Un angle crisp peut-être, je sais pas. Mais tu consignes tout ça. (13 November 2026, 19:17:16 +0100)
+
+## 13 November 2026, 19:31:48 +0100 : Prompt
+
+<!-- feedback-event:bbd1aca5b8fe570dbb88028a8291d889a22c1bd9cce7b4cb1c08203f4461f533 (13 November 2026, 19:31:48 +0100) -->
+- Project: zenray-meshes; kind: prompt. (13 November 2026, 19:31:48 +0100)
+
+> Codes ZRB3D1 des trois contours sur Clive (Shoulder Crown, Knight Elbow, Knight Forearm), « fais une repasse ». Retour sur l'app : Clive plus simple à trouver, dans la rangée ref de chaque pièce et éditable directement ; agencement de l'édition des courbes bizarre ; sélection de plusieurs points (une touche marquée dans une légende, ou clic droit), suppression de points ; icône à côté d'angle vif ou doux (parfois ça paraît inversé). Puis « fais toutes les modifs, améliore l'app, puis go dans ChatGPT continue. Consigne. » (13 November 2026, 19:31:48 +0100)
