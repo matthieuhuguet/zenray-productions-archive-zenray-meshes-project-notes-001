@@ -19422,3 +19422,94 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: rule. (13 November 2026, 03:42:57 +0100)
 
 > 13 November 2026, Matthieu : topologie beaucoup moins dense, en quads, à peu près uniforme sur tout le modèle ; cible AAA et VFX, environ 1 million de polygones au total pour toute la voiture (hero asset). Le zèbre ne doit plus faire perdre l'objectif de vue (la forme du composant d'abord). (13 November 2026, 03:42:57 +0100)
+
+## 13 November 2026, 07:12:49 +0100 : Prompt
+
+<!-- feedback-event:5194bedf83bc8d0edddd8ffd64a218860b4db9a807378c14de6c003269853516 (13 November 2026, 07:12:49 +0100) -->
+- Project: zenray-meshes; kind: prompt. (13 November 2026, 07:12:49 +0100)
+
+> 13 November 2026, chantier AVANT, ouïes. Mots de Matthieu (avec l'image « 3. Curved fender louvers » : lames bleues, guide curve deformation, rotation ramp, rotation ramp twist) : « pour les prompts d'isolation il manque les 5 vues + les images global pour que le modèle comprennent le modèle consigne rapidement et redonne moi le dossier. difficile de comprendre si tu as compris ce que je voulais avec les cercles à dates turquoise car t'as juste mis des cercles d'espaces alors que dans mon esprit c'était plus un contour de la surface qui allait être créé (l'épaisseur et la forme en somme) le guide curve deformation + control loops mais adapté sur 5 vues 3D du coup tu avais bien compris ? bref consigne et met aussi les images global pour que le component soit bien isolé travail rapidement et corrige ce qui doit l'être. je lance ensuite nano banana 2.1 en soit tu peux aussi te log via browser interne pour send prompt image generation directement et consigner via un test » (13 November 2026, 07:12:49 +0100)
+
+## 13 November 2026, 07:12:49 +0100 : Standing rule
+
+<!-- feedback-event:6fcce813289770db8c2f734206427879e46f14b577912ae51a55d3dcb057e4a8 (13 November 2026, 07:12:49 +0100) -->
+- Project: zenray-meshes; kind: rule. (13 November 2026, 07:12:49 +0100)
+
+> 13 November 2026, Matthieu : un guide turquoise n'est pas un cercle rabattu ; c'est le CONTOUR DE LA SURFACE qui va être créée (sa forme et son épaisseur), avec la courbe guide (guide curve deformation, rotation ramp, twist) et les boucles de contrôle, dessiné sur les CINQ vues. Un kit d'isolation porte les cinq vues ET les images globales de la voiture entière, pièce marquée en rouge. (13 November 2026, 07:12:49 +0100)
+
+## 13 November 2026, 07:25:24 +0100 : Prompt
+
+<!-- feedback-event:6fd24b21f15d608291ac0e511177b5b3defb06481a6614719b87804aa7d4a7d8 (13 November 2026, 07:25:24 +0100) -->
+- Project: zenray-meshes; kind: prompt. (13 November 2026, 07:25:24 +0100)
+
+> 13 November 2026, 07:25, chantier AVANT, ouïes. Mots de Matthieu devant la planche G_002 : « N'importe quoi t'as toujours rien compris fais un effort ... je t'ai déjà dit ce qu'on voulait reproduire ... je vais pas me répéter ... les turquoises sont un complément du rouge qui sont le contours les turquoises sont les guides curves internes donc jamais externes et toujours vue avec le rouge... fais proprement la consignation on dirait que tu regresses. » (13 November 2026, 07:25:24 +0100)
+
+## 13 November 2026, 07:25:24 +0100 : Standing rule
+
+<!-- feedback-event:ea45f9d4d9d3e244c969b9239702b2d552540ad79f91e36843348b33eb159e74 (13 November 2026, 07:25:24 +0100) -->
+- Project: zenray-meshes; kind: rule. (13 November 2026, 07:25:24 +0100)
+
+> DÉFINITION COURANTE DES GUIDES (13 November 2026, 07:25, Matthieu ; remplace les règles du même jour sur les cercles et sur le « contour de la surface ») : ROUGE = le contour d'un composant. TURQUOISE = le complément du rouge : des courbes guides INTERNES à ce contour (courbe guide le long de la pièce, lignes de section en travers, boucles de contrôle), jamais à l'extérieur, jamais à la place du contour, toujours montrées AVEC le rouge ; une vue sans contour rouge n'a aucun turquoise. Contrôle : FrontTurquoise.py check (aucun point turquoise hors du rouge). (13 November 2026, 07:25:24 +0100)
+
+## 13 November 2026, 07:47:58 +0100 : Prompt
+
+<!-- feedback-event:211a676ccae592f676c890c005bbb2c8ab7c9ee365f3d76b8cc81c2d4533588c (13 November 2026, 07:47:58 +0100) -->
+- Project: zenray-meshes; kind: prompt. (13 November 2026, 07:47:58 +0100)
+
+> 13 November 2026, 07:47, chantier AVANT, exercice du bras. Mots de Matthieu (avec l'image du bras d'armure en trois états : fil de fer aux coutures bleues, lisse, détaillé) : « Réfléchis est que la ligne turquoise va vraiment t'aider à créer le modèle parfait en 3D ... prennons du recul regarde ce schéma comment tu ferrais avec zenray meshes actuellement pour reproduire ce component du bras directement a terme ... via anymesh tu utiliserais plutôt des cercles nurbs que l'utilisateur pourrait piloter propose graphiquement une solution via contour sam etc lance le protocole et tout zenray blueprint 3D le but est que tu comprennes via la solution turquoise de créer quelques chose de vraiment utile puis de revenir à l'objectif initial les ouies mais d'abord on refait parfaitement le bras ... via uniquement cette vue 3D perspective PUISQUE A TERME ON REVOIT LES GUIDES ET LES CONTOURS DANS TOUTES LES 5 VUES c'est comme si on créé le contour svg en 2D sur tout les 5 plans (c'est d'ailleur le but initial de zenray blueprint en plus je te signale que sur l'input il y a aussi les seam de contour donc il y a des correspondances utilise mathématique avancées depuis cette vue 3/4 et cacul juste pour adapté la vue parfaitement depuis cette vue. sur les 5 prochaines a terme zenray meshes doit pouvoir reproduire ce genre de meshes atomiquement ... tu dois aussi sous diviser actuellement par component (ici plusieurs.) dans un nouveau projet d'exercice ... donc tu dois créer tout les outils qui permettront de le faire proprement. /goal » (13 November 2026, 07:47:58 +0100)
+
+## 13 November 2026, 07:59:02 +0100 : Prompt
+
+<!-- feedback-event:64dacede6a759fcad157c0a152e2bb715f1f514eb44a3b057ac9cf6e340f00e9 (13 November 2026, 07:59:02 +0100) -->
+- Project: zenray-meshes; kind: prompt. (13 November 2026, 07:59:02 +0100)
+
+> 13 November 2026, 07:59, exercice du bras. Mots de Matthieu (planche annotée en vert : manchette coupée en deux par son encoche, ses deux trous cernés, plaque coupée par son pli, ligne de symétrie de la garde) : « c'est faux car des coupures sont manquants je te les ai mises en vert pour diviser par component la ou il faut et parfois en fonction de l'epaisseur ici c'est creux et symétrique donc en fait on aurait fait des demi arcs nurbs qu'on aurait évidemment sweep dans houdini donc corrige et consigne... et il y aurait bref le bluprint final aurait été beaucoup plus détaillés ...inspire toi du tracé bleu foncé pour améliorer la découpe et rapelle toi demi cylindre pour component symétrique bref... propose aussi une version via houdini pour vérifier si la 3D suit. sinon ça ne vaut rien consigne. » (13 November 2026, 07:59:02 +0100)
+
+## 13 November 2026, 07:59:02 +0100 : Standing rule
+
+<!-- feedback-event:33c35ea612e546806fdd3c6f4dea5e8cf83c3984758a45fc613f25a5e8a6f871 (13 November 2026, 07:59:02 +0100) -->
+- Project: zenray-meshes; kind: rule. (13 November 2026, 07:59:02 +0100)
+
+> 13 November 2026, 07:59, Matthieu : (1) la DÉCOUPE suit les coutures (le tracé bleu foncé d'un fil de fer), l'épaisseur et la symétrie : une pièce symétrique se coupe sur son plan de symétrie, ses trous et ses bords d'épaisseur sont des contours ; (2) une pièce CREUSE et SYMÉTRIQUE se construit en DEMI-ARCS NURBS balayés dans Houdini (demi-cylindre, puis miroir), jamais en cercles pleins ; (3) toute proposition 3D se VÉRIFIE dans Houdini (la 3D doit suivre), sinon elle ne vaut rien. (13 November 2026, 07:59:02 +0100)
+
+## 13 November 2026, 08:01:26 +0100 : Prompt
+
+<!-- feedback-event:c0afb1725f55c5e2fa27e1a81d217ca5de700918abec0d702136dc665860fa3e (13 November 2026, 08:01:26 +0100) -->
+- Project: zenray-meshes; kind: prompt. (13 November 2026, 08:01:26 +0100)
+
+> 13 November 2026, 08:01, exercice du bras. Mots de Matthieu : « je veux l'objet 3D dans houdini + blueprint tu respecte pas le protocole ici ... » (13 November 2026, 08:01:26 +0100)
+
+## 13 November 2026, 08:11:00 +0100 : Prompt
+
+<!-- feedback-event:225a2321fe3e0f78881a1f260f8c24b96cb26b38889a04e5dbf7fa954f52b8eb (13 November 2026, 08:11:00 +0100) -->
+- Project: zenray-meshes; kind: prompt. (13 November 2026, 08:11:00 +0100)
+
+> 13 November 2026, 08:11. Mots de Matthieu : « bah je veux tout les micro components les détails et divise en un maximum de micro components go ... + les 2 autres parties non liés go fini le modèle 3D à 99.9% /goal » puis, en interrompant : « Non commence via APP ZenRayBlueprints 3D + mode edit en premier ... nouveaux projets + possibilités de basculer dans car2 ou ArmCliveFF16 (nom du projet actuelle exercice avec tout les micro components de l'arme soit propre ... » (13 November 2026, 08:11:00 +0100)
+
+## 13 November 2026, 08:25:37 +0100 : Prompt
+
+<!-- feedback-event:11115c2b1656cfc3d84c921c8802701cddba5962fae415f0b613232de51497db (13 November 2026, 08:25:37 +0100) -->
+- Project: zenray-meshes; kind: prompt. (13 November 2026, 08:25:37 +0100)
+
+> 13 November 2026, 08:25, exercice du bras (ArmCliveFF16). Mots de Matthieu, avec l'image du bras portant trois traits verts (pli de la manchette sous l'encoche, pli qui fait le tour de la plaque évasée, arête le long de la garde) : « en fait je me pose la question par rapport a l'effet bump qui ressort parce que soit on le met en rouge mais ça ferra une découpe soit on met un nouveau guide qui pourrait faire un effet edge avec une indication visuel de l'effet : effet sharp comme ici ou plutôt un effet adoucit comme le lit d'une rivière ou l'ouie de tout à l'heure pour la voiture tu vois donc ajoute le component jaune je pense que ça peut vraiment être intéressant et consigne le pour l'effet en plus sur nos modèles. je t'ai mis en vert la ou il faudrait mettre la guide jaune. en fait je pense c'est indispensable sinon on pert l'information de la bumv ou l'orientation du modèle mais du coup rouge contour / turquoise = arc ou demi arc en fait c'est les guides curves internes / jaune l'information de la bump sur un edge crisp ou smooth du modèle CODE LE PARFAITEMENT ET CA DOIT S'ADAPTER PARFAITEMENT DANS LE SKILL GO + TESTE. NE FAIS AUCUNE ERREUR UTILISE MATHS AVANCÉES si utile. sinon reste simple ... prouve moi que ça marche dans houdini. MONTRE MOI AUSSI EDGE CRISP (SHARP angle serré et angle smooth... le tout en 3D dans toutes les vues. /goal code pendant longtemps ce doit être fini » (13 November 2026, 08:25:37 +0100)
+
+## 13 November 2026, 08:25:37 +0100 : Standing rule
+
+<!-- feedback-event:51170d77bf00648661c7d10b793c853b326014648f269f9cd02a601a40f836b6 (13 November 2026, 08:25:37 +0100) -->
+- Project: zenray-meshes; kind: rule. (13 November 2026, 08:25:37 +0100)
+
+> LES TROIS COULEURS (13 November 2026, 08:25, Matthieu) : ROUGE = le contour d'un composant (un trait rouge est une découpe). TURQUOISE = les courbes guides internes : arcs ou demi-arcs. JAUNE = l'information de la bosse (bump) sur une arête du modèle, VIVE (crisp, angle serré) ou DOUCE (smooth, comme le lit d'une rivière), avec une indication visuelle de l'effet ; sans le jaune on perd la bosse et l'orientation du modèle. Une arête qui ne doit pas couper la pièce se met en jaune, jamais en rouge. (13 November 2026, 08:25:37 +0100)
+
+## 13 November 2026, 08:50:19 +0100 : Prompt
+
+<!-- feedback-event:f767745b5b5ff88b30105009b43b30008a9ef3122934a22b87dfd85add6d40fd (13 November 2026, 08:50:19 +0100) -->
+- Project: zenray-meshes; kind: prompt. (13 November 2026, 08:50:19 +0100)
+
+> 13 November 2026, 08:50, guide jaune. Mots de Matthieu : « Mais non, mais arrête tes conneries. Tu vas pas faire un recalage de pixels à chaque fois que je t'en mets un. Il faut que tu crées un outil totalement dédié. Et d'ailleurs, je pense que SAM, sur des contours, tu peux créer un contour directement via SAM 2.1, puis soustraire certains contours que tu aurais créés. Puisque, en fait, c'est une bump dont les effets vont toujours être plus ou moins les mêmes, et c'est les mêmes propriétés que ce qu'on a déjà construit, c'est-à-dire que les tangentes sont lissées, les courbes sont lissées, il n'y a pas forcément énormément de points non plus, c'est juste reprendre l'edge d'une surface afin de pouvoir la recréer en 3D. Enfin, il n'y a rien de sorcier. On a déjà plus ou moins construit tout le stack dont on a besoin, mais ça me semble absurde que tu refasses la structure via un nouveau coding. Et en plus, t'es hyper lent là actuellement, je comprends pas trop. » (13 November 2026, 08:50:19 +0100)
+
+## 13 November 2026, 08:50:19 +0100 : Standing rule
+
+<!-- feedback-event:3e5b01aaf70bbc7d2eb869f9eb62250de94ae5d1f24b4e799c6ecb0f2e9203c5 (13 November 2026, 08:50:19 +0100) -->
+- Project: zenray-meshes; kind: rule. (13 November 2026, 08:50:19 +0100)
+
+> ARÊTE JAUNE, OUTIL DÉDIÉ (13 November 2026, 08:50, Matthieu) : jamais de recalage de pixels d'une image annotée. L'arête jaune se lit par SAM 2.1 : le contour d'une face de la surface, MOINS les contours déjà créés (le rouge) ; ce qui reste est l'arête. Elle passe par le tracé déjà construit (courbe lissée, tangentes lissées, peu de points : Draw.py). Réutiliser le stack existant, ne pas recoder une structure. (13 November 2026, 08:50:19 +0100)
