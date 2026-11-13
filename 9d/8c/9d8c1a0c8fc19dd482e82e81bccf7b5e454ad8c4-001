@@ -19590,3 +19590,17 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: rule. (13 November 2026, 10:08:08 +0100)
 
 > INTERDIT (Matthieu, 13 November 2026) : aucun retour de plume sur une courbe, surtout un contour rouge : pas de petite boucle ni de petit cercle au bout d'un bord, en haut d'une encoche ou à un coin. Une courbe ne revient jamais sur elle-même ; un contrôle le refuse (rotation de la tangente sur une courte fenêtre) avant toute planche. Causes payées : contour d'encoche prolongé au-delà du bord par une bulle, Fit en approximation qui laisse des crochets aux bouts. (13 November 2026, 10:08:08 +0100)
+
+## 13 November 2026, 10:24:57 +0100 : Prompt
+
+<!-- feedback-event:14bbe253a9235b3d745b75a3e881a4309bfa65b8bcba36172f383bbd852a8d78 (13 November 2026, 10:24:57 +0100) -->
+- Project: zenray-meshes; kind: prompt. (13 November 2026, 10:24:57 +0100)
+
+> (13 November 2026, après la planche de la manchette avec sa bordure) « En fait, le problème, c'est que le découpage est toujours pas parfait. En fait, depuis quand aurait dû améliorer l'algorithme de SAM 2.1, surtout par rapport à des edges plus ou moins bien [...] là par exemple tu vois, tu fais l'épaisseur avec deux bords rouges, mais en soi, puisque c'est une espèce de manche, une espèce d'armure, l'épaisseur des traits, logiquement et algorithmiquement, ben, c'est la même en fait. [...] ce qui me manque là à chaque fois, c'est l'intention des modèles. Parce que l'intention du modèle, elle donne très souvent la forme souhaitée. Parce que si tu as l'intention du modèle, tu comprends que là c'est une espèce d'armure, et du coup le contour, tu fais pas un mauvais contour, tu fais en sorte que les contours soient plus ou moins logiques par rapport à l'existant, ce qui n'est actuellement pas le cas malheureusement. Actuellement, on dirait que tu comprends pas le modèle et que tu fausses toujours les contours rouges. Et les contournements, ils doivent être parfaits, en termes de courbe et en termes du fait d'épouser la courbe. Et évidemment, il faut consigner ça dans le modèle, en mode consigné. » (13 November 2026, 10:24:57 +0100)
+
+## 13 November 2026, 10:24:57 +0100 : Standing rule
+
+<!-- feedback-event:575df09376cf437b58713107418e4f0016fcf70e6f3b8906bf9e71195f28d1d4 (13 November 2026, 10:24:57 +0100) -->
+- Project: zenray-meshes; kind: rule. (13 November 2026, 10:24:57 +0100)
+
+> L'INTENTION DU MODÈLE D'ABORD (Matthieu, 13 November 2026) : avant de tracer un contour, écrire dans le modèle du composant ce qu'il EST (ici : une pièce d'armure, une plaque d'épaisseur constante) et en tirer les contours : l'épaisseur est la même partout, donc l'autre bord de la tranche est le bord décalé d'UNE épaisseur, pas une lecture indépendante qui varie. Un contour rouge épouse parfaitement l'arête de l'image et reste une courbe lisse ; l'écart de chaque contour à l'image se mesure contre une source indépendante (le masque de la pièce), jamais contre ses propres tracés. (13 November 2026, 10:24:57 +0100)
