@@ -1,0 +1,18 @@
+{
+  "date": "13 November 2026",
+  "slug": "zenray-blueprints-3d-edit-controls",
+  "folder": "2026-11-13-zenray-blueprints-3d-edit-controls",
+  "version": 1,
+  "title": "ZenRay Blueprints 3D, contrôles du mode Édition (trois propositions)",
+  "module": "general",
+  "assetsProject": "zenray-edit",
+  "project": "zenray-meshes",
+  "status": "pending",
+  "atelier": "/Users/zenray/.claude/tmp/tmp-zenray-blueprints-3d-edit-controls-13-november-2026",
+  "files": [
+    "index.html"
+  ],
+  "indexSha256": "17acc2da91267ea6ce63e3bc81f48c74e77da43c2614c4b81f4f23793120e132",
+  "filedAt": "2026-11-13T10:32:56.602Z",
+  "note": "A curseurs, B poignées sur le dessin, C molette ; même modèle et mêmes paramètres ; courbes réelles de la manchette"
+}
