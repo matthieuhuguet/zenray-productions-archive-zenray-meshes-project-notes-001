@@ -19702,3 +19702,10 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: rule. (13 November 2026, 17:12:54 +0100)
 
 > Gemini depuis l'agent (13 November 2026) : jamais dans le navigateur intégré (fenêtre Claude non pilotable) ; navigateur isolé GeminiBrowser.sh + GeminiRun.mjs, une connexion Google une fois pour toutes ; ne plus redemander autre chose. (13 November 2026, 17:12:54 +0100)
+
+## 13 November 2026, 17:53:34 +0100 : Log
+
+<!-- feedback-event:9c4b95ccdc8c6784c858c63367419bacf0ab39cdce5b9fa27ca78e97b30a93e9 (13 November 2026, 17:53:34 +0100) -->
+- Project: zenray-meshes; kind: log. (13 November 2026, 17:53:34 +0100)
+
+> 13 November 2026 17:53 : 12 vues sur 15 générées par Gemini dans le Chrome isolé ; 3 bloquées par la limite quotidienne d'images (Shoulder Crown dessous, Knight Forearm dessus et dessous), à relancer après remise à zéro ; Shoulder Crown à revoir (second étage inventé) (13 November 2026, 17:53:34 +0100)
