@@ -19555,3 +19555,10 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: prompt. (13 November 2026, 09:45:39 +0100)
 
 > 13 November 2026, 09:45, manchette du bras. Mots de Matthieu (dictée) : « En fait, la question c'est est-ce qu'il y a un intérêt à garder les deux ou est-ce qu'il faut simplement faire l'inverse de ce que... Enfin, là tu vois, tu as créé l'inverse de ce que je voulais. Mais la question c'est de savoir est-ce que ça a un réel intérêt de garder les deux ? Parce que ça peut être intéressant de garder les deux courbes. Moi je pense que ça peut être intéressant de garder les deux courbes. Mais je sais pas. » Réponse donnée par l'agent : le sens de bord à bord par défaut (la courbe jaune est de cette famille, la surface passe par ces courbes) ; l'autre sens est déjà porté par les deux bords rouges ; un arc en travers seulement là où la forme change entre les bords (bosse, étranglement, arête qui fait le tour), et il devient alors un bord de plus. (13 November 2026, 09:45:39 +0100)
+
+## 13 November 2026, 09:51:01 +0100 : Prompt
+
+<!-- feedback-event:9e274d3dad910d905101f487499674f2ce14d3179165ee70a0abdc1f3987d874 (13 November 2026, 09:51:01 +0100) -->
+- Project: zenray-meshes; kind: prompt. (13 November 2026, 09:51:01 +0100)
+
+> 13 November 2026, 09:51, manchette du bras (guides NURBS de bord à bord, trous coupés). Mots de Matthieu : « C'est pas mal en soi, mais il manque du coup l'épaisseur qui doit être calculée par rapport à un autre bord. » (13 November 2026, 09:51:01 +0100)
