@@ -19513,3 +19513,10 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: rule. (13 November 2026, 08:50:19 +0100)
 
 > ARÊTE JAUNE, OUTIL DÉDIÉ (13 November 2026, 08:50, Matthieu) : jamais de recalage de pixels d'une image annotée. L'arête jaune se lit par SAM 2.1 : le contour d'une face de la surface, MOINS les contours déjà créés (le rouge) ; ce qui reste est l'arête. Elle passe par le tracé déjà construit (courbe lissée, tangentes lissées, peu de points : Draw.py). Réutiliser le stack existant, ne pas recoder une structure. (13 November 2026, 08:50:19 +0100)
+
+## 13 November 2026, 09:11:48 +0100 : Prompt
+
+<!-- feedback-event:136f7d960c46f8d120ba60d25ea1490475016841dd57a69ee2c80e3de33b618e (13 November 2026, 09:11:48 +0100) -->
+- Project: zenray-meshes; kind: prompt. (13 November 2026, 09:11:48 +0100)
+
+> 13 November 2026, 09:11, bras (ArmCliveFF16). Réponse de Matthieu à la question « Je continue par quelle pièce ? » : « Finir le bras » (la manchette et la plaque évasée en 3D avec leur arête jaune, puis le bras entier). (13 November 2026, 09:11:48 +0100)
