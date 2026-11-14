@@ -1,0 +1,18 @@
+{
+  "date": "14 November 2026",
+  "slug": "zenray-meshes-audit-report-a-to-z",
+  "folder": "2026-11-14-zenray-meshes-audit-report-a-to-z",
+  "version": 1,
+  "title": "Audit Visuel ZenRay Meshes 2.0 (A à Z)",
+  "module": "zenray-meshes-audit",
+  "assetsProject": "zenray-edit",
+  "project": "zenray-meshes",
+  "status": "pending",
+  "atelier": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/Audit_14-November-2026/visual_report_atelier",
+  "files": [
+    "index.html"
+  ],
+  "indexSha256": "12dd7ff62c493f6a7c62e52f6c93d34e38ddcffdd8bec3766ca0c64001a641ed",
+  "filedAt": "2026-11-14T10:37:26.698Z",
+  "note": "Rapport final visuel HTML A à Z avec SVG, captures terrain 14_ArmGuard et 07_Manny, PoC 1 à 9 et index cockpits/dossiers"
+}
