@@ -19863,3 +19863,10 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: prompt. (14 November 2026, 13:01:33 +0100)
 
 > 14 November 2026, vers 12:45 : Parfait, mais sur le preview, j'ai l'impression que tu as oublié de lisser les courbes, c'est un peu bizarre ; et puis, en fait, c'est fermé au début. (14 November 2026, 13:01:33 +0100)
+
+## 14 November 2026, 13:06:38 +0100 : Prompt
+
+<!-- feedback-event:ce98faaadec366f27b21af817483458a037642021956b1956cbf9440d32e864b (14 November 2026, 13:06:38 +0100) -->
+- Project: zenray-meshes; kind: prompt. (14 November 2026, 13:06:38 +0100)
+
+> 14 November 2026, vers 13:02 (capture de sa vue Blender) : C'est quasi bien ; l'asset est symétrique ; plein de refs sont deprecated, n'en tiens pas compte ; l'asset est symétrique par rapport à la face référence qu'on a ; depuis une vue front (je te donne une vue front), fais parfaitement la symétrie, mais par rapport à la ref initiale ; la ref c'est celle que tu as utilisée ; c'est quasi parfait, bravo. (14 November 2026, 13:06:38 +0100)
