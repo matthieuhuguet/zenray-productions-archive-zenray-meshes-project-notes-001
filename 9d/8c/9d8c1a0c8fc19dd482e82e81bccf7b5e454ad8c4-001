@@ -19877,3 +19877,17 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: prompt. (14 November 2026, 13:11:02 +0100)
 
 > 14 November 2026, vers 13:07 : C'est quasi ça, bravo ; où est-ce que je peux avoir quelque chose de procédural pour avoir les rendus du magenta, pour plus ou moins ouvrir ou fermer la forme ; un résultat procédural qui permet d'ouvrir complètement le truc magenta ; c'est excellent, bravo ; explique-moi ton stack technique pour créer cette pièce en 3D, et consigne dans le skill ZenRay Blender. (14 November 2026, 13:11:02 +0100)
+
+## 14 November 2026, 14:00:15 +0100 : Prompt
+
+<!-- feedback-event:861a36107e76926b8fcd979fd95fc6ea771900babbeade198601eedd5131eb91 (14 November 2026, 14:00:15 +0100) -->
+- Project: zenray-meshes; kind: prompt. (14 November 2026, 14:00:15 +0100)
+
+> 14 November 2026, vers 13:20 : je ne vois pas le curseur dans Blender, montre-le directement et visible dans la scène ; corriger la vue front, l'aligner comme si ça faisait une pointe, c'est une épaulière très anguleuse, pas un casque ; crisp edge anguleux sur l'angle du profil ; rapprocher les bords ; topologie plus basse en quad (ZenRay Topologie puis ZenRay UV) ; append dans ZenRay Blueprints 3D la forme Blender ; faire la crown dans Blender ; rendre deprecated le rendu OpenGL du hub dans tous les subcomponents (Car2, ARM FF16) ; workflow : refs valides, magenta pour les formes, validation 3D dans Blender, assemblage peut-être dans Houdini. (14 November 2026, 14:00:15 +0100)
+
+## 14 November 2026, 14:00:15 +0100 : Prompt
+
+<!-- feedback-event:92398a75197a6435104dec02bca6a743cb365ebb982da3c0dea83743ac4bbe5b (14 November 2026, 14:00:15 +0100) -->
+- Project: zenray-meshes; kind: prompt. (14 November 2026, 14:00:15 +0100)
+
+> 14 November 2026, vers 13:57 (image de la couture) : les bords partagés sur une tangente, crisp ou soft, doivent être parfaits ; la ligne de polygones crisp edge ne doit jamais changer ; à l'intersection du modèle il y a des trous ; là où le modèle applique sa symétrie, la ligne doit être un crisp edge, un angle tranchant, parfait en design. (14 November 2026, 14:00:15 +0100)
