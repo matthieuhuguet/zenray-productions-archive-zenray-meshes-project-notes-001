@@ -19849,3 +19849,10 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: prompt. (14 November 2026, 12:06:36 +0100)
 
 > 14 November 2026, 12:00 environ : en soi on peut garder l'existant, mais tester un nouveau workflow via Blender MCP sur la scène ouverte avec /zenray-blender, à créer, l'équivalent de zenray-houdini, que tu vas créer aujourd'hui ; ainsi on pourra créer plus précisément plutôt que de faire une app custom qui ne marche pas actuellement ou dont le résultat est mitigé ; certains components marcheront ; l'intérêt de Blender, c'est que son module sculpt est plus intéressant ; je le relie à la voiture ; go, crée tout ça, et ensuite on teste directement dans la scène Blender ouverte de créer le elbow avec tout l'existant ; les découpes, refs, etc., prompts restent évidemment, c'est juste qu'on valide via une nouvelle méthode plus pro. (14 November 2026, 12:06:36 +0100)
+
+## 14 November 2026, 12:41:52 +0100 : Prompt
+
+<!-- feedback-event:ec24e09c38b09a53ffe5e1e14e7708da0d4b7956bc507ab87c7007c3b29f080a (14 November 2026, 12:41:52 +0100) -->
+- Project: zenray-meshes; kind: prompt. (14 November 2026, 12:41:52 +0100)
+
+> 14 November 2026, vers 12:35 (avec sa tangente verte sur ma vue de face Blender) : pourquoi pas une découpe parfaite directement via SAM ; reprendre le contour depuis la ref ; puis simplement la symétrie contrôlée par un paramètre, et un paramètre global d'arc calé sur la tangente du milieu ; ce qui suit la tangente fait un mouvement d'arc piloté par le contrôleur magenta ; on a déjà la découpe parfaite, non ? ; la découpe magenta actuelle n'est pas propre ; c'est beaucoup mieux de passer par Blender que par un truc custom, surtout pour les components un peu sculptés ; quel stack tu utilises ? (14 November 2026, 12:41:52 +0100)
