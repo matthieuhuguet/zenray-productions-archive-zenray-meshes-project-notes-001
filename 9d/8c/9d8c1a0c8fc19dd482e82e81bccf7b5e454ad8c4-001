@@ -19835,3 +19835,10 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: prompt. (14 November 2026, 03:57:42 +0100)
 
 > go component symetry sur elbow puis je fais en sorte de repasser sur tes traits pour que tu affines go. / PART de cette ref qu'on avait généré à un moment [image : la vue de côté du coude] / crée aussi via ce graphique dans edit = la possibilité de créer des subd creases directement ce sera pratique à l'avenir via une ligne ... ou une ligne de polygones go... [image : SubD Creases de Rhino, 0 %, 80 %, 0 %] (14 November 2026, 03:57:42 +0100)
+
+## 14 November 2026, 04:27:56 +0100 : Prompt
+
+<!-- feedback-event:0139027d9c765ed0a87f86f5a35b8cf6fd93dd90dde7246329c7d247d6fdc6b1 (14 November 2026, 04:27:56 +0100) -->
+- Project: zenray-meshes; kind: prompt. (14 November 2026, 04:27:56 +0100)
+
+> 14 November 2026 (ArmGuard, avec sa planche annotée en vert) : continue jusqu'à ce que ce soit parfait ; le component doit être creux à l'intérieur ; revoir la ref avec Clive pour améliorer SAM puis le modèle et comprendre avant de le faire ; pour les edges crisp, des tangentes jaunes directement ; en vert là où il faut plus de jaune ; continuer à 99,9 % ; composer tous les sous-modules du bras comme dans ZBrush, un pattern directement dessus ; motifs en rouge + jaune, en zoomant ou avec un trait de 0,5 ou 0,25 pixel ; finir les motifs arm et elbow à 99,9 % via SAM 2.1 + Clive. (14 November 2026, 04:27:56 +0100)
