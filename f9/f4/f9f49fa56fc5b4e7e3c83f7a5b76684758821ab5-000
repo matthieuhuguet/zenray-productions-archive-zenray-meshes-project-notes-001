@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-meshes",
- "scannedAt": "2026-11-14T04:48:20.527Z",
+ "scannedAt": "2026-11-14T10:49:25.131Z",
  "conversations": [
   {
    "projectId": "zenray-meshes",
@@ -101,6 +101,22 @@
   },
   {
    "projectId": "zenray-meshes",
+   "lines": 22,
+   "work": 22,
+   "prompts": 0,
+   "first": "2026-11-14T03:25:03.628Z",
+   "last": "2026-11-14T10:39:07.625Z",
+   "strength": "strong",
+   "conversationId": "gemini:34c8753c-b4ab-450b-b259-c335e67381fd",
+   "provider": "gemini",
+   "sessionId": "34c8753c-b4ab-450b-b259-c335e67381fd",
+   "title": "Y'a aucun visuel dans le Audit final report explique tout de manière visuelle dans un html avec des schéma et des exemples tout de a à z go.",
+   "updatedAt": "2026-11-14T10:41:05.006556+00:00",
+   "bytes": 46694400,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-meshes",
    "lines": 444,
    "work": 17,
    "prompts": 4,
@@ -162,22 +178,6 @@
    "updatedAt": "2026-11-09T21:56:27.029Z",
    "bytes": 40030853,
    "boundProject": "zenray-progress"
-  },
-  {
-   "projectId": "zenray-meshes",
-   "lines": 4,
-   "work": 4,
-   "prompts": 0,
-   "first": "2026-11-14T03:25:03.628Z",
-   "last": "2026-11-14T04:40:52.630Z",
-   "strength": "strong",
-   "conversationId": "gemini:34c8753c-b4ab-450b-b259-c335e67381fd",
-   "provider": "gemini",
-   "sessionId": "34c8753c-b4ab-450b-b259-c335e67381fd",
-   "title": "N'hésite pas aussi à penser à la suite logique du process /zenray height et zenray uv pour les component directement ... il faut que tout so",
-   "updatedAt": "2026-11-14T04:40:52.630696+00:00",
-   "bytes": 38895616,
-   "boundProject": null
   },
   {
    "projectId": "zenray-meshes",
