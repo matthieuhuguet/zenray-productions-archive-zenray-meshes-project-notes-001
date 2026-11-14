@@ -1,0 +1,18 @@
+{
+  "date": "14 November 2026",
+  "slug": "zenray-assembly-scale-contact-10s",
+  "folder": "2026-11-14-zenray-assembly-scale-contact-10s",
+  "version": 1,
+  "title": "ZenRay Meshes 2.0 : Assemblage Multi-Composants, Echelle Mannequin 1.76m et ContactGraph (10s)",
+  "module": "zenray-meshes",
+  "assetsProject": "zenray-edit",
+  "project": "zenray-meshes",
+  "status": "pending",
+  "atelier": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/Audit_14-November-2026/proposals/06_assembly_scale_contact_10s",
+  "files": [
+    "index.html"
+  ],
+  "indexSha256": "6518a5bcef29a44bfc201a14d071bf4f70f5f904e5427e26a017317e77903b1f",
+  "filedAt": "2026-11-14T03:40:18.844Z",
+  "note": "Proposal 6 (Round 9, 14 November 2026) : simulateur interactif Mannequin 1.76m + ContactGraph 15.34mm -> 0.08mm + split 764k->3.6k quads + 2K PBR."
+}
