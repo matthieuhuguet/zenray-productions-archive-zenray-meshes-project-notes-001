@@ -19842,3 +19842,10 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: prompt. (14 November 2026, 04:27:56 +0100)
 
 > 14 November 2026 (ArmGuard, avec sa planche annotée en vert) : continue jusqu'à ce que ce soit parfait ; le component doit être creux à l'intérieur ; revoir la ref avec Clive pour améliorer SAM puis le modèle et comprendre avant de le faire ; pour les edges crisp, des tangentes jaunes directement ; en vert là où il faut plus de jaune ; continuer à 99,9 % ; composer tous les sous-modules du bras comme dans ZBrush, un pattern directement dessus ; motifs en rouge + jaune, en zoomant ou avec un trait de 0,5 ou 0,25 pixel ; finir les motifs arm et elbow à 99,9 % via SAM 2.1 + Clive. (14 November 2026, 04:27:56 +0100)
+
+## 14 November 2026, 12:06:36 +0100 : Prompt
+
+<!-- feedback-event:af9c486672adeaceccf8a824f99fc9d847f0c8c0f084629e14902bc529fabf43 (14 November 2026, 12:06:36 +0100) -->
+- Project: zenray-meshes; kind: prompt. (14 November 2026, 12:06:36 +0100)
+
+> 14 November 2026, 12:00 environ : en soi on peut garder l'existant, mais tester un nouveau workflow via Blender MCP sur la scène ouverte avec /zenray-blender, à créer, l'équivalent de zenray-houdini, que tu vas créer aujourd'hui ; ainsi on pourra créer plus précisément plutôt que de faire une app custom qui ne marche pas actuellement ou dont le résultat est mitigé ; certains components marcheront ; l'intérêt de Blender, c'est que son module sculpt est plus intéressant ; je le relie à la voiture ; go, crée tout ça, et ensuite on teste directement dans la scène Blender ouverte de créer le elbow avec tout l'existant ; les découpes, refs, etc., prompts restent évidemment, c'est juste qu'on valide via une nouvelle méthode plus pro. (14 November 2026, 12:06:36 +0100)
