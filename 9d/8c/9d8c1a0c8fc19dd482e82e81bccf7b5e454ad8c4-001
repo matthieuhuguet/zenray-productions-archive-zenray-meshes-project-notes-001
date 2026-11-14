@@ -19891,3 +19891,10 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: prompt. (14 November 2026, 14:00:15 +0100)
 
 > 14 November 2026, vers 13:57 (image de la couture) : les bords partagés sur une tangente, crisp ou soft, doivent être parfaits ; la ligne de polygones crisp edge ne doit jamais changer ; à l'intersection du modèle il y a des trous ; là où le modèle applique sa symétrie, la ligne doit être un crisp edge, un angle tranchant, parfait en design. (14 November 2026, 14:00:15 +0100)
+
+## 14 November 2026, 14:04:43 +0100 : Prompt
+
+<!-- feedback-event:661410af1056a74e21438c025b9e4596947d91eec652e942b45837d943245b42 (14 November 2026, 14:04:43 +0100) -->
+- Project: zenray-meshes; kind: prompt. (14 November 2026, 14:04:43 +0100)
+
+> 14 November 2026, vers 14:01 : trop de topologie ; tu as déjà le masque ; la couture de symétrie doit être une arête vive ; ça fait un énorme poisson ; réduire à la topologie minimum par rapport au design ; garder les tangentes et les contours ; couture de symétrie parfaite, comme un booléen qui coupe au milieu ; beaucoup moins de topologie ; et ce n'est même pas ce que tu affiches. (14 November 2026, 14:04:43 +0100)
