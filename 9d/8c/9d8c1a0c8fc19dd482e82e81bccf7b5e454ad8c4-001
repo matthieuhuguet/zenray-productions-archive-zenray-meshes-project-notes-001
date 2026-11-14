@@ -19856,3 +19856,10 @@ a continuer sans lancer de doublon. Après 11 h le 10 November 2026, ou dès que
 - Project: zenray-meshes; kind: prompt. (14 November 2026, 12:41:52 +0100)
 
 > 14 November 2026, vers 12:35 (avec sa tangente verte sur ma vue de face Blender) : pourquoi pas une découpe parfaite directement via SAM ; reprendre le contour depuis la ref ; puis simplement la symétrie contrôlée par un paramètre, et un paramètre global d'arc calé sur la tangente du milieu ; ce qui suit la tangente fait un mouvement d'arc piloté par le contrôleur magenta ; on a déjà la découpe parfaite, non ? ; la découpe magenta actuelle n'est pas propre ; c'est beaucoup mieux de passer par Blender que par un truc custom, surtout pour les components un peu sculptés ; quel stack tu utilises ? (14 November 2026, 12:41:52 +0100)
+
+## 14 November 2026, 13:01:33 +0100 : Prompt
+
+<!-- feedback-event:4adf2a14781df65ae8e3418bcecc4a1e003fd8407922ff3f33fcaf63a5da0704 (14 November 2026, 13:01:33 +0100) -->
+- Project: zenray-meshes; kind: prompt. (14 November 2026, 13:01:33 +0100)
+
+> 14 November 2026, vers 12:45 : Parfait, mais sur le preview, j'ai l'impression que tu as oublié de lisser les courbes, c'est un peu bizarre ; et puis, en fait, c'est fermé au début. (14 November 2026, 13:01:33 +0100)
