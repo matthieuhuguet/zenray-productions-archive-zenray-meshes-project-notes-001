@@ -1,0 +1,21 @@
+{
+  "date": "14 November 2026",
+  "slug": "zenray-cmy2-4archetypes-10s",
+  "folder": "2026-11-14-zenray-cmy2-4archetypes-10s",
+  "version": 1,
+  "title": "Protocole CMY 2.0 : 4 archétypes universels Hard Surface, Organique et Arbre",
+  "module": "html-design",
+  "assetsProject": "zenray-edit",
+  "project": "zenray-meshes",
+  "status": "pending",
+  "atelier": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/Audit_14-November-2026/proposals/03_cmy2_4archetypes_10s",
+  "files": [
+    "index.html",
+    "poc1_arm_flare_cmy1_vs_cmy2.png",
+    "poc2_quad_hole_topology.png",
+    "poc4_organic_character_tree_cmy2.png"
+  ],
+  "indexSha256": "bbca5f93650a89e1fc0cb32318c4cf05847b9c877ceccfbcbeebfaa6d93ffa3f",
+  "filedAt": "2026-11-14T03:26:12.608Z",
+  "note": "Simulateur CMY+Quads+UV, taxonomie A/B/C/D 1080p et preuves PoC 1/2/4 (14 November 2026)"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "14 November 2026",
+  "slug": "zenray-meshes-roadmap-10s",
+  "folder": "2026-11-14-zenray-meshes-roadmap-10s",
+  "version": 1,
+  "title": "Plan d'action P0 à P3 : corrections exactes et feuille de route ZenRay Meshes 2.0",
+  "module": "html-design",
+  "assetsProject": "zenray-edit",
+  "project": "zenray-meshes",
+  "status": "pending",
+  "atelier": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/Audit_14-November-2026/proposals/05_exact_bugfix_roadmap",
+  "files": [
+    "index.html"
+  ],
+  "indexSha256": "dd024f2070846a02b52e1f89c8db5696092cfd079f0c7e40ce5391274fa690f6",
+  "filedAt": "2026-11-14T03:26:49.248Z",
+  "note": "Matrice 11 correctifs P0->P3 avant/après, simulateur HDA et schéma chronologique 1080p (14 November 2026)"
+}

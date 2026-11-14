@@ -1,0 +1,22 @@
+{
+  "date": "14 November 2026",
+  "slug": "zenray-meshes-pipeline-10s",
+  "folder": "2026-11-14-zenray-meshes-pipeline-10s",
+  "version": 1,
+  "title": "ZenRay Meshes 2.0 : pipeline complet any mesh 99,9 % en 10 secondes",
+  "module": "html-design",
+  "assetsProject": "zenray-edit",
+  "project": "zenray-meshes",
+  "status": "pending",
+  "atelier": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/Audit_14-November-2026/proposals/01_pipeline_master_10s",
+  "files": [
+    "index.html",
+    "poc1_arm_flare_cmy1_vs_cmy2.png",
+    "poc2_quad_hole_topology.png",
+    "poc3_10s_heatmap_arm_cuff.png",
+    "poc4_organic_character_tree_cmy2.png"
+  ],
+  "indexSha256": "be5326cedcf4013979491a9ce4d5c46f9f92cf5dd6749708fffc85a2bb6046bf",
+  "filedAt": "2026-11-14T03:24:53.683Z",
+  "note": "Schéma V5 vs 2.0, 4 archétypes et galerie des 4 PoC mesurés (14 November 2026)"
+}

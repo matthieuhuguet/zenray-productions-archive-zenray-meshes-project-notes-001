@@ -1,0 +1,27 @@
+{
+  "date": "14 November 2026",
+  "slug": "zenray-blueprints3d-cockpit-10s",
+  "folder": "2026-11-14-zenray-blueprints3d-cockpit-10s",
+  "version": 1,
+  "title": "ZenRay Blueprints 3D 2.0 : cockpit d'inspection et édition CMY en 10 secondes",
+  "module": "html-design",
+  "assetsProject": "zenray-edit",
+  "project": "zenray-meshes",
+  "status": "pending",
+  "atelier": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/Audit_14-November-2026/proposals/02_blueprints3d_ui_10s_prototype",
+  "files": [
+    "index.html",
+    "arm_cuff_bottom_mod.jpg",
+    "arm_cuff_bottom_ref.jpg",
+    "arm_cuff_front_mod.jpg",
+    "arm_cuff_front_ref.jpg",
+    "arm_flare_master.jpg",
+    "cuff_bottom_mod.jpg",
+    "cuff_bottom_ref.jpg",
+    "cuff_front_mod.jpg",
+    "cuff_front_ref.jpg"
+  ],
+  "indexSha256": "bfc847320e1aa254560d1a18576923504d5b087d6487885b5e6f9ca5f0397596",
+  "filedAt": "2026-11-14T03:25:42.168Z",
+  "note": "Pelure d'oignon, Heatmap Rouge/Vert, Zebra, éditeur Magenta+Jaune, symétrie fantôme, 4 feux (14 November 2026)"
+}

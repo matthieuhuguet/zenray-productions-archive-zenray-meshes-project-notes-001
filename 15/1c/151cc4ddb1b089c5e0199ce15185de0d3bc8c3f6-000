@@ -1,0 +1,18 @@
+{
+  "date": "14 November 2026",
+  "slug": "zenray-houdini-uv-height-bridge-10s",
+  "folder": "2026-11-14-zenray-houdini-uv-height-bridge-10s",
+  "version": 1,
+  "title": "Suite directe : composant Houdini vers /zenray-uv M1 et /zenray-height Copernicus",
+  "module": "html-design",
+  "assetsProject": "zenray-edit",
+  "project": "zenray-meshes",
+  "status": "pending",
+  "atelier": "/Users/zenray/.claude/tmp/tmp-zenray-meshes/Audit_14-November-2026/proposals/04_houdini_uv_height_bridge_10s",
+  "files": [
+    "index.html"
+  ],
+  "indexSha256": "4509bcd53bd8716c1a6c8ec5fd4a3a4dbbb7864cfe42ea9c0cd2831f60af2e68",
+  "filedAt": "2026-11-14T03:26:36.152Z",
+  "note": "Simulateur 6 canaux PBR (BaseColor, Normal, Height, Roughness, AO, ORM) et contrat direct Houdini -> UV -> Height (14 November 2026)"
+}
